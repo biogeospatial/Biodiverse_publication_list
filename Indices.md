@@ -24,9 +24,9 @@ Table of contents:
 
 
 
-> ### Group property Gi**statistics ###**
+> ### Group property Gi* statistics ###
 
-**Description:**   List of Getis-Ord Gi**statistics for each group property across both neighbour sets**
+**Description:**   List of Getis-Ord Gi* statistics for each group property across both neighbour sets
 
 **Subroutine:**   calc\_gpprop\_gistar
 
