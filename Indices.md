@@ -35,7 +35,7 @@ Table of contents:
 
 | **Index #** | **Index** | **Index description** | **Valid cluster metric?** | **Minimum number of neighbour sets** |
 |:------------|:----------|:----------------------|:--------------------------|:-------------------------------------|
-| 1 | GPPROP\_GISTAR\_LIST | List of Gi**scores**|   | 1 |
+| 1 | GPPROP\_GISTAR\_LIST | List of Gi* scores|   | 1 |
 
 
 
