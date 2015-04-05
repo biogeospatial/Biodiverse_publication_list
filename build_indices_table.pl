@@ -3,6 +3,7 @@ use strict;
 use warnings;
 use Carp;
 use 5.010;
+use Cwd;
 
 use English qw { -no_match_vars };
 
@@ -56,7 +57,7 @@ warn $e if $e;
 
 my $indices = Biodiverse::Indices->new(BASEDATA_REF => $bd);
 
-my $html = $indices->get_calculation_metadata_as_wiki;
+my $html = $indices->get_calculation_metadata_as_markdown;
 
 #  dirty hack
 #$html =~ s/PhyloCom/!PhyloCom/;
@@ -73,7 +74,7 @@ my $html = $indices->get_calculation_metadata_as_wiki;
 use File::Basename;
 my $version = $Biodiverse::Config::VERSION;
 
-my $wiki_leader  = "= Indices available in Biodiverse =\n";
+my $wiki_leader  = "# Indices available in Biodiverse \n";
    $wiki_leader .= '_Generated GMT '
                     . (gmtime)
                     . " using "
@@ -81,8 +82,6 @@ my $wiki_leader  = "= Indices available in Biodiverse =\n";
                     . ", Biodiverse version $version._\n";
 
 my $intro_wiki = <<"END_OF_INTRO";
-#summary Table of available indices
-#labels Featured
 
 $wiki_leader
 
@@ -97,11 +96,11 @@ Most of the headings are self-explanatory.  For the others:
   * *Valid cluster metric* is whether or not the index can be used as a clustering metric.  A blank value means it cannot.
   * The *Minimum number of neighbour sets* dictates whether or not a calculation or index will be run.  If you specify only one neighbour set then all those calculations that require two sets will be dropped from the analysis.  (This is always the case for calculations applied to cluster nodes as there is only one neighbour set, defined by the set of groups linked to the terminal nodes below a cluster node).  Note that many of the calculations lump neighbour sets 1 and 2 together.  See the SpatialConditions page for more details on neighbour sets.
 
-Note that calculations can provide different numbers of indices depending on the nature of the !BaseData set used.
-This currently applies to the hierarchically partitioned endemism calculations (both [#Endemism_central_hierarchical_partition  central] and [#Endemism_whole_hierarchical_partition whole]) and [#Hierarchical_Labels hierarchical labels].
+Note that calculations can provide different numbers of indices depending on the nature of the BaseData set used.
+This currently applies to the hierarchically partitioned endemism calculations (both [central](#Endemism_central_hierarchical_partition) and [whole](#Endemism_whole_hierarchical_partition)) and [hierarchical labels](#Hierarchical_Labels).
 
 Table of contents:
-<wiki:toc max_depth="4" />
+
 
 END_OF_INTRO
 
@@ -112,7 +111,7 @@ my $wiki_text = $intro_wiki . $html;
 #my @headings = $wiki_text =~ m/={2,3}(.+?)={2,3}/mgx;
 
 #  hyperlink the Label counts text for now
-$wiki_text =~ s/'Label counts'/\[#Label_counts Label counts\]/g;
+$wiki_text =~ s/'Label counts'/\[Label counts\]\(#Label_counts\)/g;
 
 my $code_cogs = << 'END_CODE_COGS'
 <img src="http://www.codecogs.com/images/poweredbycc.gif" width="102" height="34" vspace="5" border="0" alt="Powered by CodeCogs"/>
@@ -125,8 +124,13 @@ $wiki_text .= $code_cogs;
 $version =~ s/\.//g;
 my $v = $version;
 
+my $fname = "Indices_$v.md";
+my $dir = cwd();
+
+say "Writing to file $fname";
+
 my $fh;
-open ($fh, '>', "Indices_$v.wiki") || croak;
+open ($fh, '>', $fname) || croak;
 
 print $fh $wiki_text;
 close $fh;
