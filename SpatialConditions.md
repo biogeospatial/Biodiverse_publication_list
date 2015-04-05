@@ -46,28 +46,28 @@ The conditions are specified using some combination of pre-defined functions, pr
 Functions are the easiest way to specify conditions as one does not need to wrestle with variables.  Functions also set metadata to tell the system how to use the spatial index.  The spatial index saves considerable processing time for large data sets as the system does not need to test many pairs of index blocks to determine which to use (see [KeyConcepts#Using\_the\_spatial\_index](KeyConcepts#Using_the_spatial_index.md)).  If you use a function for which an index will produce erroneous results then the system sets a flag to ignore it.
 
 The available functions in version 0.17 are:
-  * sp\_self\_only
-  * sp\_select\_all
-  * sp\_circle
-  * sp\_circle\_cell
-  * sp\_square
-  * sp\_square\_cell
-  * sp\_block
-  * sp\_ellipse
-  * sp\_annulus
-  * sp\_match\_text
-  * sp\_match\_regex
-  * sp\_select\_sequence
-  * sp\_is\_left\_of
-  * sp\_is\_right\_of
-  * sp\_in\_line\_with
-  * sp\_point\_in\_poly
-  * sp\_point\_in\_poly\_shape
+  * sp_self_only
+  * sp_select_all
+  * sp_circle
+  * sp_circle_cell
+  * sp_square
+  * sp_square_cell
+  * sp_block
+  * sp_ellipse
+  * sp_annulus
+  * sp_match_text
+  * sp_match_regex
+  * sp_select_sequence
+  * sp_is_left_of
+  * sp_is_right_of
+  * sp_in_line_with
+  * sp_point_in_poly
+  * sp_point_in_poly_shape
 
 
 > ## Examples using functions ##
 
-```
+```perl
 #  radius of 100,000 map units, uses all axes so will 
 #    be a circle for two dimensions, a sphere for three dimensions, 
 #    and a hypersphere for more
@@ -241,42 +241,43 @@ Non-programmers need to note that the array index starts from zero, so `$coord[1
 
   * Set the neighbours to be those groups where the absolute distance from the processing group is less than 100,000.
 
-```
+```perl
 $D <= 100000
 ```
 
   * Select all groups to the west of the processing group.
 
-```
+```perl
 $d[0] < 0
 ```
 
   * Select all groups to the north-east of the processing group.
 
-```
+```perl
 $d[0] > 0 && $d[1] > 0
 ```
 
   * The absolute distance in the first (eg x) dimension is less than 100,000 AND the signed distance is greater than 100,000. This will result in a neighbourhood that is a column of groups 200,000 map units east-west, and including all groups 100,000 map units north of the processing group. Not that you would normally want a neighbourhood like this...
 
-```
+```perl
 $D[0] <= 100000 && $d[1] >= 100000
 ```
 
   * Select everything north of 6000000 (e.g. if using UTM coordinates as axes 0 and 1).  This is an example that could be used as a definition query, and will not work well as a neighbourhood (use `$nbr_y` instead of `$y` for that).
 
-```
+```perl
 $y > 6000000
 ```
 
   * Select everything within a rectangle.  This is another useful definition query.
 
-```
+```perl
 $y > 6000000 && $y <= 6100000 && $x > 580000 && $x <= 600000
 ```
 
   * Select a specific processing coord (`495:595`), useful as a definition query to use only one group.  Note the use of the `eq` operator - this matches text.  _(Not available before version 0.16)_
-```
+
+```perl
 $coord_id1 eq '495:595'
 ```
 
@@ -286,7 +287,7 @@ $coord_id1 eq '495:595'
 
 Variable declaration is done as per Perl syntax. For example:
 
-```
+```perl
 my $some_var = 10;
 return ($D / $some_var) <= 100;
 ```
@@ -295,7 +296,7 @@ This trivial example evaluates to true if the absolute distance divided by 10 (t
 
 A more complex function might involve an ellipse (although you could just use `sp_ellipse (major_radius => 300000, minor_radius => 100000, rotate_angle => 1.5714)`)
 
-```
+```perl
 my $major_radius = 300000; # longest axis
 my $minor_radius = 100000; # shortest axis
 
