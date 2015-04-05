@@ -2,11 +2,11 @@
 To cite Biodiverse or acknowledge its use, cite this publication as follows, substituting the version of the application that you used for "Version 0.19".
   * Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity.  [Ecography. Vol 33, 643-647 (version 0.19)](http://dx.doi.org/10.1111/j.1600-0587.2010.06237.x).   {Article access is free from the publisher}
 
-> (An alternate link is http://handle.unsw.edu.au/1959.4/45539 ).
+> An alternate link is http://handle.unsw.edu.au/1959.4/45539 .
 
 
 ## Publications using Biodiverse (or its ancestors) ##
-> (Publications are listed in reverse chronological order by year, then by author within years).
+> Publications are listed in reverse chronological order by year, then by author within years.
 
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (in press) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
