@@ -8,7 +8,7 @@ These instructions apply to version 0.17.
 # Running it #
 
   * Biodiverse can be run by double clicking on `BiodiverseGUI_linux`.
-  * For the 0.14 release you will need to set the file to be executable ([issue #134](https://code.google.com/p/biodiverse/issues/detail?id=#134)). `chmod +x $HOME/biodiverse/BiodiverseGUI_linux`
+  * For the 0.14 release you will need to set the file to be executable (issue #134). `chmod +x $HOME/biodiverse/BiodiverseGUI_linux`
   * If you want to keep the command log visible after you close Biodiverse then run it from a terminal.
     * In the terminal, type `$HOME/biodiverse/BiodiverseGUI_linux`.
   * If you want to avoid all the typing then edit your profile to add the biodiverse directory to your $PATH environment variable.
