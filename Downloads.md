@@ -9,7 +9,7 @@
 
 > _This is the current development version, leading towards a version 1.0 release.  Version 1 will be released soon if no show stopping bugs are detected._
 
-> The [release notes](https://code.google.com/p/biodiverse/wiki/ReleaseNotes#Version_0.99_007) summarise the changes in this version.
+> The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-099-007) summarise the changes in this version.
 
 > There is also a series of blog posts at http://biodiverse-analysis-software.blogspot.com.au/
 
@@ -18,9 +18,9 @@
     * [zip format](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_win64.zip). File size is 41 MB.
 
 
-  * [Linux (64 bit)](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_linux64.tar.gz).  Download, unzip, and then run the Biodiverse binary.  You might need to follow some of the [installation instructions](https://code.google.com/p/biodiverse/wiki/InstallationLinuxBinary).
+  * [Linux (64 bit)](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_linux64.tar.gz).  Download, unzip, and then run the Biodiverse binary.  You might need to follow some of the [installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/InstallationLinuxBinary).
 
-  * [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_source.zip).  For Mac users.  See the [installation instructions](https://code.google.com/p/biodiverse/wiki/InstallationMacSource).
+  * [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_source.zip).  For Mac users.  See the [installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/InstallationMacSource).
 
   * [Example data](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_004_example_data.7z)
 
@@ -34,7 +34,7 @@
 
 > _This is the current stable release._
 
-> The [release notes](https://code.google.com/p/biodiverse/wiki/ReleaseNotes#Version_0.19) summarise the changes in this version.
+> The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-019) summarise the changes in this version.
 
 
   * [Windows (64 bit, 7zip format, ~22.5MB)](http://dl.bintray.com/shawnlaffan/Biodiverse/biodiverse_0.19_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
@@ -68,7 +68,7 @@
 
 ## Utility scripts ##
 
-  * [Multidirectional Turnover Analyser Perl Script](https://code.google.com/p/biodiverse/downloads/detail?name=multidirectional_turnover_analyser.pl).  Requires a [source code installation](Installation.md).
+  * [Multidirectional Turnover Analyser Perl Script](https://code.google.com/p/biodiverse/downloads/detail?name=multidirectional_turnover_analyser.pl).  Requires a [source code installation](Installation).
 
 
 ## Older versions ##

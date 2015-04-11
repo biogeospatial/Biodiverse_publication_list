@@ -18,13 +18,13 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 1.  Install Strawberry Perl 5.16.3, either 32 or 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2.  There are installation problems with these versions related to gdal, and we do not have gdal ppms for the 32 bit version of 5.18 (needed for step 6)_
 
-2.  [Download](http://code.google.com/p/biodiverse/downloads/list) the source code version to obtain a stable release.  Alternately you can use a subversion client to get the latest Biodiverse code, see http://code.google.com/p/biodiverse/source/checkout
+2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a subversion client to get the latest Biodiverse code, see http://code.google.com/p/biodiverse/source/checkout
 
 3.  Open a command prompt.  The rest of these instructions assume you are at the prompt.
 
 4.  Run these commands, editing the folder paths as needed to match your system.
 
-```
+```dos
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
   :: Change gtk_win64 to gtk_win32 if you are using a 32 bit installation.  Same applies gdal_win64.
@@ -35,7 +35,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 5.  Download the gtk_win64 and gdal_win64 components using an svn checkout. TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client).  _Remember to change `_win64` to `_win32` in the paths if you are using a 32 bit installation_.
 
-```
+```dos
   svn co http://biodiverse.googlecode.com/svn/branches/gtk_win_builds/etc/gtk2.10_win64 %GTK_PATH%
   svn co http://biodiverse.googlecode.com/svn/branches/gdal_win_builds/gdal_1.10.1/gdal_win64/ %GDAL_PATH%
 ```
@@ -77,7 +77,7 @@ The above installation process **should** install all the relevant files, so we 
 
 1.  This is the same as step 1 in the installation instructions, but needs to be run every time you open a new command prompt (unless you add the paths to your PATH variable at the windows level).  Remember to edit the folder paths if you installed Biodiverse, the Gtk libs, GDAL libs and/or Strawberry Perl to different folders.  Note that Biodiverse goes looking up the directory tree for Gtk and GDAL using the installation names in the previous steps, so you only need to add them to the path if you put them somewhere else.
 
-```
+```dos
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%BDV_PATH%\bin;%PATH%
@@ -85,7 +85,7 @@ The above installation process **should** install all the relevant files, so we 
 
 2.  Now you can run it.
 
-```
+```dos
   perl %BDV_PATH%\bin\BiodiverseGUI.pl
 ```
 

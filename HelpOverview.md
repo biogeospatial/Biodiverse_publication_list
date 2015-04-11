@@ -6,4 +6,4 @@ Use the side bar at the left to navigate between most pages.
 
 At this stage the main reference is the SampleSession file.  It can get pretty heavy in parts, and there are plans to separate the content into their own pages, leaving an easier to read overview.
 
-For a lighter introduction, see the [Quick Start Guide](https://code.google.com/p/biodiverse/wiki/Downloads?ts=1411074994&updated=Downloads#Quick_Start_Guide).
+For a lighter introduction, see the [Quick Start Guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf).

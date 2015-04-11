@@ -52,10 +52,10 @@ To test that it worked, type the following.  It should throw no errors.
   set PATH=%GDAL_PATH%\bin;%PATH%
 ```
 
-3. Download the GDAL binaries from the Biodiverse subversion repository.
-> TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client). Remember to change gdal_win64 to gdal_win32 if you are using a 32 bit installation.
+3. Download the GDAL binaries from the Biodiverse git repository.
+> TortoiseGIT is a simple way, but this command line whould work.  Remember to change gdal_win64 to gdal_win32 if you are using a 32 bit installation.
 
-> svn co https://biodiverse.googlecode.com/svn/branches/gdal_win_builds/etc/gdal_win64 %GDAL_PATH%
+> git clone https://github.com/shawnlaffan/biodiverse.git --branch gdal_win_builds --single-branch %GDAL_PATH%
 
 
 4.  Now we need to install some files using the ppm and cpanm utilities.  Run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  If you are using a 32 bit perl then change ppm516_x64 to be ppm516.
