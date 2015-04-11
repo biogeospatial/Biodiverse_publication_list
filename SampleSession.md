@@ -23,7 +23,7 @@ There are seven main components in a full session.
 
 We suggest you read this in conjunction with the KeyConcepts and DataStructures documents. Much additional information can be found within the application itself, for example by hovering the mouse over various buttons and menu items to view their associated tooltips.
 
-If you wish to experiment with these options then use the Example\_site\_data.csv file for species sample data, Example\_matrix.txt file for matrix data and Example\_tree.nex file for tree data. These are under the Biodiverse/data folder in the distribution. Note that these are fictional data so the results have no meaning beyond example purposes.
+If you wish to experiment with these options then use the Example_site_data.csv file for species sample data, Example_matrix.txt file for matrix data and Example_tree.nex file for tree data. These are under the Biodiverse/data folder in the distribution. Note that these are fictional data so the results have no meaning beyond example purposes.
 
 Note also that these instructions apply to version 0.14 and later.
 
@@ -31,14 +31,14 @@ Note also that these instructions apply to version 0.14 and later.
 
 Perl is able to handle different numeric locales, however there are some consequences for the analyses.  If your language settings use a comma as the radix (decimal place marker) then several of the comparisons will either fail or will silently not work as expected.  Randomisations are a particular issue here.  The problem is due to how Perl handles strings (text) converted to numbers.  A string representing a number such as '0,5', which might be perfectly valid in your locale, will be quietly converted by perl to 0 when needed for numeric operations.  '0.5' will work as expected.
 
-**How to avoid this problem:**  Use a locale that uses a "." as the radix character (e.g. one of the English locales), or modify your settings to use the "." as the radix.  It is also safer to not mix your locales between Biodiverse sessions (i.e. do not import data using one locale and then analyse it using another).  A fix has been implemented for version 0.14 to avoid this problem (see [issue #81](https://code.google.com/p/biodiverse/issues/detail?id=#81)), but it needs to be tested on non-English locales.
+**How to avoid this problem:**  Use a locale that uses a "." as the radix character (e.g. one of the English locales), or modify your settings to use the "." as the radix.  It is also safer to not mix your locales between Biodiverse sessions (i.e. do not import data using one locale and then analyse it using another).  A fix has been implemented for version 0.14 to avoid this problem (see [issue #81](/shawnlaffan/biodiverse/issues/81)), but it needs to be tested on non-English locales.
 
 
 # Opening/importing data #
 
 ## Opening Data ##
 
-Data can be loaded into a project if they have previously been saved as separate files on disk.  Use the  _Open_ options under the respective menus, or click on the open folder icon from the selected object bar (tooltip "open from native format").  The filename extensions for each object type are given at [DataStructures#File\_naming\_scheme](DataStructures#File_naming_scheme.md).
+Data can be loaded into a project if they have previously been saved as separate files on disk.  Use the  _Open_ options under the respective menus, or click on the open folder icon from the selected object bar (tooltip "open from native format").  The filename extensions for each object type are given at [DataStructures#File_naming_scheme](DataStructures#File-naming-scheme.md).
 
 Change the name in the textbox at the top if you want to list them by a different name.
 
@@ -59,17 +59,17 @@ Tree data can be imported from nexus format files (file extension .nex or .tre).
 
 The import options allow you to use a label and/or group properties table for the data you are importing (e.g. to remap label names so they match ther data sets or set their sample counts). A properties file should be a delimted text file with a column or columns containing the current labels of the data you are importing and a column or columns with the new labels they will be mapped to (a subsequent window will allow you to specify which column is which). Any unmapped labels will simply retain their original names when imported.
 
-For BaseData and tree object types the import process involves selecting your data file and a label/group properties file (if desired). A file-browsing window will show your Biodiverse directory by default, and will list several common directories you can search through, such as the C: drive and Desktop on Windows.  Matrices do not yet have remapping, but it is planned (see [issue #16](https://code.google.com/p/biodiverse/issues/detail?id=#16)).
+For BaseData and tree object types the import process involves selecting your data file and a label/group properties file (if desired). A file-browsing window will show your Biodiverse directory by default, and will list several common directories you can search through, such as the C: drive and Desktop on Windows.  Matrices do not yet have remapping, but it is planned (see [issue #16](/shawnlaffan/biodiverse/issues/16)).
 
 ### BaseData ###
 
-There are two types of data supported for import.  In the first case you might have a list where you have one record per observation, for example a list with one line for each species/coordinate combination.  This is the more common data format.  The second format is where you have a matrix of data, with coordinates as the rows and species as the columns, for example a sites by species matrix.  The value of each field is the count of observations for that site/species (group/label) pair.  Examples of each format are in the example data, see Example\_site\_data.csv and Example\_site\_data\_matrix\_form.csv.
+There are two types of data supported for import.  In the first case you might have a list where you have one record per observation, for example a list with one line for each species/coordinate combination.  This is the more common data format.  The second format is where you have a matrix of data, with coordinates as the rows and species as the columns, for example a sites by species matrix.  The value of each field is the count of observations for that site/species (group/label) pair.  Examples of each format are in the example data, see Example_site_data.csv and Example_site_data_matrix_form.csv.
 
 Most of the import process is common for both, but the specification of groups and labels differs.
 
 #### Common (pt1) ####
 
-From the BaseData import dialogue window you can select your data file or files. The text box at the top right of the window allows you to name the BaseData object that will be produced (as opposed to the default file name). Once you are finished, click Next.  Multiple files can be imported in the one process so long as they all share the same column order and meaning (the column names do not matter, only the contents).  If you have several files that do not share column orders then import each one separately into the same BaseData.  If your data were generated in R using the write.table() function then from version 0.14 the system will detect this and allow for the missing column header for the row names (see [issue #20](https://code.google.com/p/biodiverse/issues/detail?id=#20)).
+From the BaseData import dialogue window you can select your data file or files. The text box at the top right of the window allows you to name the BaseData object that will be produced (as opposed to the default file name). Once you are finished, click Next.  Multiple files can be imported in the one process so long as they all share the same column order and meaning (the column names do not matter, only the contents).  If you have several files that do not share column orders then import each one separately into the same BaseData.  If your data were generated in R using the write.table() function then from version 0.14 the system will detect this and allow for the missing column header for the row names (see [issue #20](/shawnlaffan/biodiverse/issues/20)).
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step1.png)
 
@@ -77,13 +77,13 @@ You will then see a window with various options you can set for the import, such
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step2.png)
 
-The set label/group properties and remap check boxes allow you to specify properties for the labels and groups.  See [DataStructures#Element\_property\_tables](DataStructures#Element_property_tables.md).
+The set label/group properties and remap check boxes allow you to specify properties for the labels and groups.  See [DataStructures#element-property-tables](DataStructures#element-property-tables).
 
 Allowing labels with no groups lets you include labels in the analyses which are not assigned to a group.  An example might be where you wish to include species that occur outside your study area when comparing a local region with a broader region.
 
-Allowing empty groups lets you have groups that are considered for analysis, but that have no labels themselves.  This is useful when you wish to have moving window analyses extend beyond the sampled data to give a smoother result (it is up to the user to ensure such smoothness is valid), or you want a randomisation to assign labels to more groups than just those containing labels.  (Note that this is broken in version 0.15 - see [issue #180](https://code.google.com/p/biodiverse/issues/detail?id=#180)).
+Allowing empty groups lets you have groups that are considered for analysis, but that have no labels themselves.  This is useful when you wish to have moving window analyses extend beyond the sampled data to give a smoother result (it is up to the user to ensure such smoothness is valid), or you want a randomisation to assign labels to more groups than just those containing labels.  (Note that this is broken in version 0.15 - see [issue #180](/shawnlaffan/biodiverse/issues/180)).
 
-Both the _empty groups_ and _labels with no groups_ options are implemented by setting a sample\_count column in the input file, with the appropriate records given a value of 0.  If no such column is given or the value is blank then a count of 1 is assumed, rendering these options redundant (and the imported data set possibly erroneous).  It is probably easiest to import these as separate files rather than "pollute" your sample data.  See [#Adding\_to\_an\_existing\_data\_set](#Adding_to_an_existing_data_set.md) for details of how to do this.
+Both the _empty groups_ and _labels with no groups_ options are implemented by setting a sample_count column in the input file, with the appropriate records given a value of 0.  If no such column is given or the value is blank then a count of 1 is assumed, rendering these options redundant (and the imported data set possibly erroneous).  It is probably easiest to import these as separate files rather than "pollute" your sample data.  See [#adding-to-an-existing-data-set](#adding-to-an-existing-data-set) for details of how to do this.
 
 The "Skip lines with undef groups" check box allows you to ignore records (lines) where a group field is either undefined or non-numeric.  This can occur where you do not know the coordinates for a sample, if you choose the wrong column to use for the groups, or if you have a series of lines with no data at the end of a file (a common issue with exporting from spreadsheet programs).  If turned off and such a line is encountered then the import will fail when it reaches that line.  The alternative is to remove these lines from the input file before import, a sometimes tedious and involved task.  This issue does not affect text groups, as an undefined value is treated as a zero length string - "".
 
@@ -99,12 +99,12 @@ If you specify that your data **are not** in matrix form then the next window wi
 
 You must set at least one Group and one Label column, but more than one of each may be chosen. For example, you may typically wish to use both a "species" column and a "genus" column (if separated in your file) as one combined label for your data points, or to specify both the x-coordinate and y-coordinate columns in a file as "Group", to specify a Cartesian grid (specifying only an "x" column or "y" column as the Group would result in a one-dimensional analysis of the data across that group's domain).  When a Group column has been set you will be given the option to select its cell size (in the same units as the group data is stored) and origin.  These default to 100,000.00 and 0.00, respectively so make sure they are appropriate to your data.  The origin allows you to align your imported data with a non-zero origin, e.g. you are using some coarse resolution climate data in a related analysis and you wish to ensure the resulting cell boundaries align exactly between data sets.
 
-You can filter which data rows to use by assigning column types as “Include\_columns” and “Exclude\_columns” via the Type drop-down menu. You can have any number of each type of column. If one or more inclusion columns is specified, only those data rows with non-zero values in _at least one_ of these columns will be imported. If one or more exclusion columns is specified, only those data rows with a value of zero in _all_ of these columns will be imported (ie. any non-zero value will trigger a row to be excluded).
+You can filter which data rows to use by assigning column types as “Include_columns” and “Exclude_columns” via the Type drop-down menu. You can have any number of each type of column. If one or more inclusion columns is specified, only those data rows with non-zero values in _at least one_ of these columns will be imported. If one or more exclusion columns is specified, only those data rows with a value of zero in _all_ of these columns will be imported (ie. any non-zero value will trigger a row to be excluded).
 
 All columns in your file that are irrelevant to the analysis should be set to “Ignore”.
 
 
-You can also specify if the group data are degrees using the _Degrees?_ comboboxes.  This allows the importation of data in degrees minutes seconds formats, as well as some validation of data to determine if the value is in the valid range (the latter works for both DMS and decimal degrees formats).  Specify _is\_lat_ for latitude and _is\_lon_ for longitude.  Examples of valid formats are:
+You can also specify if the group data are degrees using the _Degrees?_ comboboxes.  This allows the importation of data in degrees minutes seconds formats, as well as some validation of data to determine if the value is in the valid range (the latter works for both DMS and decimal degrees formats).  Specify _is_lat_ for latitude and _is_lon_ for longitude.  Examples of valid formats are:
 ```
 Latitude,Longitude
 S23°32'09.567", E149°23'18.009"
@@ -122,9 +122,9 @@ If you specify that your data **are** in matrix form then the next window will l
 
 The group options for the matrix imports are the same as for the non-matrix imports.
 
-The key difference from the non-matrix import are the label\_start\_col and label\_end\_col column options (the Label option is also not available).  These denote which column headers to use for the labels.  The label\_end\_col is optional.  If not specified then the system will use all columns after the label\_start\_col.  If more than one start and/or end column is specified then the system will use the first start col and last end col (see [issue #164](https://code.google.com/p/biodiverse/issues/detail?id=#164)).  If you have a single label column before the groups are specified then you will need to edit the file so it is after the groups, as the system currently only allows one option per column so it cannot be both start and end.  Include and exclude columns apply as before, so take care not to specify a label column as include or exclude as it might not do what you want (although it is possible that it will, for example if presence of a species should be used to exclude a sample row).  If you want to skip columns between the label start and end columns then set an exclude column in a label remap file.  Remember also that the values for each row are the sample counts - set the "Convert sample counts to binary" option in the preceding window if you only want presence/absence data per group.  Finally, use a [label remap/property table](DataStructures#Element_property_tables.md) to change the column names, for example to separate genus and species into separate axes for analysis.
+The key difference from the non-matrix import are the label_start_col and label_end_col column options (the Label option is also not available).  These denote which column headers to use for the labels.  The label_end_col is optional.  If not specified then the system will use all columns after the label_start_col.  If more than one start and/or end column is specified then the system will use the first start col and last end col (see [issue #164](/shawnlaffan/biodiverse/issues/164)).  If you have a single label column before the groups are specified then you will need to edit the file so it is after the groups, as the system currently only allows one option per column so it cannot be both start and end.  Include and exclude columns apply as before, so take care not to specify a label column as include or exclude as it might not do what you want (although it is possible that it will, for example if presence of a species should be used to exclude a sample row).  If you want to skip columns between the label start and end columns then set an exclude column in a label remap file.  Remember also that the values for each row are the sample counts - set the "Convert sample counts to binary" option in the preceding window if you only want presence/absence data per group.  Finally, use a [label remap/property table](DataStructures#Element-property-tables.md) to change the column names, for example to separate genus and species into separate axes for analysis.
 
-Those columns marked as ignore but between a label\_start\_col and label\_end\_col will be imported.
+Those columns marked as ignore but between a label_start_col and label_end_col will be imported.
 
 Click OK.
 
@@ -136,7 +136,7 @@ The next window allows you to order your labels and groups for the desired view.
 
 Note: once the data are imported and opened, the first group axis will be displayed along a horizontal axis and the second (if one exists) on a vertical axis. Biodiverse does not currently support a graphical view for more than two group axes, although they can still be imported and analysed.  Any data set containing more than two axes will be displayed using the first two axes.
 
-Once you have accepted the label and group ordering, and if you had previously specified that you wished to set label and/or group properties and remap, you are brought to a final set of windows where you can select the element property table file and its respective parameters (one each for labels and groups if you selected both).  If you did not specify that any properties were to be set then this step is skipped.  The set of windows is the same for group and label properties, although the column options differ between them.  (See also [DataStructures#Element\_property\_tables](DataStructures#Element_property_tables.md) for details about importing other properties).
+Once you have accepted the label and group ordering, and if you had previously specified that you wished to set label and/or group properties and remap, you are brought to a final set of windows where you can select the element property table file and its respective parameters (one each for labels and groups if you selected both).  If you did not specify that any properties were to be set then this step is skipped.  The set of windows is the same for group and label properties, although the column options differ between them.  (See also [DataStructures#Element_property_tables](DataStructures#element-property-tables.md) for details about importing other properties).
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen1.png)
 
@@ -157,13 +157,13 @@ Data being appended to an existing BaseData object should have group data in the
 
 You may also create a new BaseData object as a duplicate of the currently selected BaseData by the _Basedata->Duplicate_ menu option.  This will also duplicate any analyses performed on the BaseData. To duplicate the BaseData only, select _Basedata->Duplicate without outputs_.
 
-Note that any spatial index will need to be rebuilt if new data are imported (unless no new groups are added).  See [KeyConcepts#Using\_the\_spatial\_index](KeyConcepts#Using_the_spatial_index.md).
+Note that any spatial index will need to be rebuilt if new data are imported (unless no new groups are added).  See [KeyConcepts#Using_the_spatial_index](KeyConcepts#using-the-spatial-index.md).
 
 ### Matrices ###
 
 Matrix data can be imported at any time, although it can only be viewed with an existing (and selected) basedata object.
 
-When importing matrix data, you will first be asked to specify the matrix data file in the same way as for basedata objects.  As with BaseData files, if your data were generated in R using the write.table() function then from version 0.14 the system will detect this and allow for the missing column header for the row names (see [issue #20](https://code.google.com/p/biodiverse/issues/detail?id=#20)).
+When importing matrix data, you will first be asked to specify the matrix data file in the same way as for basedata objects.  As with BaseData files, if your data were generated in R using the write.table() function then from version 0.14 the system will detect this and allow for the missing column header for the row names (see [issue #20](/shawnlaffan/biodiverse/issues/20)).
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_matrix_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_matrix_step1.png)
 
@@ -183,7 +183,7 @@ A tree must be in a nexus format (`*`.nex or `*`.tre extension). All trees in a 
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step1.png)
 
-Select your file and click Ok. You will then have the option of choosing a label remap file.  This is often needed so the node names match the relevant BaseData labels (see FAQ#My\_phylogenetic\_analyses\_have\_empty\_results).
+Select your file and click Ok. You will then have the option of choosing a label remap file.  This is often needed so the node names match the relevant BaseData labels (see FAQ#my-phylogenetic-analyses-have-empty-results).
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step2.png)
 
@@ -195,7 +195,7 @@ If you don't wish to remap labels, simply click Cancel and the system will impor
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step5.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step5.png)
 
-Note that you need to specify as many input\_element columns as the tree labels have (this will be one for nexus files, but will increase if we ever import tabular trees) and then as many remapped\_element columns as your BaseData object has label columns.  This is so they match correctly.
+Note that you need to specify as many input_element columns as the tree labels have (this will be one for nexus files, but will increase if we ever import tabular trees) and then as many remapped_element columns as your BaseData object has label columns.  This is so they match correctly.
 
 
 Alternatively to importing a tree from a file, you can also derive one at any time during your session if you already have a basedata and/or matrix object selected. This can be done by selecting the “Create tree from labels” or “Convert matrix to tree” options under the BaseData and Matrix menus, respectively. When generating a tree from the basedata labels, labels are treated as taxonomic names, and thus are primarily useful for a tree if they have at least 2 components (e.g. genus and species); ie. at least 2 columns representing labels in the original data file or if singular labels are remapped to multi-part labels. The tree hierarchy is then based on the ordering of the label components (see the previous section for how to choose label and group ordering during the basedata import process). A tree generated from a matrix simply reflects the matrix relationships based on the values of its cells.
@@ -228,7 +228,7 @@ Sorting the label lists is done by clicking on the column headers. Subsequent cl
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_label_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_label_selected.png)
 
-At version 0.14 there are five or six columns: the Label (the name of the label), Variety, Samples, Redundancy and Selected.  The "Col selected" column is only visible if the project has a selected matrix.  From version 0.15 there are also columns for any user specified properties imported using an element properties table ([DataStructures#Element\_property\_tables](DataStructures#Element_property_tables.md)).
+At version 0.14 there are five or six columns: the Label (the name of the label), Variety, Samples, Redundancy and Selected.  The "Col selected" column is only visible if the project has a selected matrix.  From version 0.15 there are also columns for any user specified properties imported using an element properties table ([DataStructures#Element_property_tables](DataStructures#element-property-tables.md)).
 
 The Variety column shows the number of groups the label occurs in. This is analogous to the range unless one is set separately on import using the _set label remap and properties_ option.
 
@@ -254,7 +254,7 @@ While holding the control key down, click on a group to display a pop-up window 
 
 The title of this window indicates the group being examined. To re-use the same window to display another group's data, check the _Re-use_ box. If this box is unchecked, data for subsequently selected groups will be displayed in new windows. This is useful when making comparisons between label presence and sampling among different groups. The _Copy_ button in the group info window makes a copy of the group coordinates and all labels with their sample size to the clipboard for use elsewhere.
 
-You can also display a shapefile (a map of a country's border lines, for example) in the group grid pane as a background to make it easier to identify groups, especially if they are geographically related. See [KeyConcepts#Map\_overlays](KeyConcepts#Map_overlays.md) for how.
+You can also display a shapefile (a map of a country's border lines, for example) in the group grid pane as a background to make it easier to identify groups, especially if they are geographically related. See [KeyConcepts#map-overlays](KeyConcepts#map-overlays.md) for how.
 
 The group grid display extent (zoom level) can also be changed by using the three zoom buttons in the bottom left of the pane. If you are at a zoom level that does not display all groups at once, you can navigate using the scroll bars or by right-clicking (or clicking the middle/wheel mouse button) and dragging.  You can also pan by clicking on a part of the plot without a group and dragging.
 
@@ -280,7 +280,7 @@ The matrix grid view can also be customised by using the three zoom buttons in t
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_clade_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_clade_selected.png)
 
-The tree is generally a representation of the phylogenetic similarities between labels, although it could be used for anything that uses such a structure. In this pane, you should see two sections (assuming a tree object is selected in the main toolbar at the top of the window). The upper section displays the relationship between labels as a dendrogram, while the bottom section displays a simple graph of the proportion of nodes present to the left of a vertical cut through the tree above (known as the [scree plot](KeyConcepts#Scree_plot.md)). If this plot is not immediately visible, it may be “hidden” at the bottom. Move the mouse toward the bottom of the tree pane until it indicates a bar that you can click on and drag upward to reveal the graph.  Use this bar to reduce the size of the scree plot if it is too large.
+The tree is generally a representation of the phylogenetic similarities between labels, although it could be used for anything that uses such a structure. In this pane, you should see two sections (assuming a tree object is selected in the main toolbar at the top of the window). The upper section displays the relationship between labels as a dendrogram, while the bottom section displays a simple graph of the proportion of nodes present to the left of a vertical cut through the tree above (known as the [scree plot](KeyConcepts#scree-plot.md)). If this plot is not immediately visible, it may be “hidden” at the bottom. Move the mouse toward the bottom of the tree pane until it indicates a bar that you can click on and drag upward to reveal the graph.  Use this bar to reduce the size of the scree plot if it is too large.
 
 The dendrogram can be plotted by node depth or length via the _Options_ button at the bottom of the pane. This menu also allows you to change highlighting settings.
 
@@ -288,7 +288,7 @@ Hovering over a tree node highlights the groups containing the node's labels in 
 
 Left-clicking on a branch node selects all labels in terminal descendants (single-label nodes) of that node in the tree that are also in the label lists. Any nodes containing a label that is not present in the basedata will remain black in the tree.
 
-Control-click on a node to display a pop-up window from which you can access lists of the labels, groups and node characteristics (length, name, etc). General interaction with this pop-up is the same as that for the group info pop-up described [above](#The_Group_Grid.md).
+Control-click on a node to display a pop-up window from which you can access lists of the labels, groups and node characteristics (length, name, etc). General interaction with this pop-up is the same as that for the group info pop-up described [above](#the-group-grid.md).
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels3_popup_clade.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels3_popup_clade.png)
 
@@ -299,7 +299,7 @@ The tree view can also be customised by using the three zoom buttons in the bott
 
 # Excluding Data #
 
-Once you have looked at the labels, or even before if you are confident, you can begin to remove groups and labels that you consider redundant, irrelevant, or even just wrong.  This is on the basis of their properties, and not on the basis of the labels.  Excluding labels or groups based on their names is done at the time of import using include and exclude fields in the data or in an [element properties table](DataStructures#Element_property_tables.md).
+Once you have looked at the labels, or even before if you are confident, you can begin to remove groups and labels that you consider redundant, irrelevant, or even just wrong.  This is on the basis of their properties, and not on the basis of the labels.  Excluding labels or groups based on their names is done at the time of import using include and exclude fields in the data or in an [element properties table](DataStructureselement-property-tables.md).
 
 To run the exclusions on the currently selected basedata object, open menu option _Basedata -> Run Exclusions_. You should see a window similar to the one below.
 
@@ -311,9 +311,9 @@ In the screen shot above, any label with a range of 50 or more will be removed (
 
 If you already have the BaseData displayed when you run the exclusions then any display will not be updated. Close the display and re-open it to see the changes.
 
-Prior to version 0.15 you will also need to manually rebuild any spatial index if groups were deleted, as this will contain references to deleted groups and any subsequent analysis will fail (see [issue #171](https://code.google.com/p/biodiverse/issues/detail?id=#171)).
+Prior to version 0.15 you will also need to manually rebuild any spatial index if groups were deleted, as this will contain references to deleted groups and any subsequent analysis will fail (see [issue #171](/shawnlaffan/biodiverse/issues/171)).
 
-**_A word of warning_**: Running the exclusions multiple times is not a good idea. The remaining groups and labels are updated each time, thus recalculating their various scores. For example, if you delete a group on the basis of its redundancy then you will reduce the diversity of any of its labels by one. This means that for analyses that use it you will reduce the variety of that label, and the range if one is not set using an [element properties table](DataStructures#Element_property_tables.md) at import.
+**_A word of warning_**: Running the exclusions multiple times is not a good idea. The remaining groups and labels are updated each time, thus recalculating their various scores. For example, if you delete a group on the basis of its redundancy then you will reduce the diversity of any of its labels by one. This means that for analyses that use it you will reduce the variety of that label, and the range if one is not set using an [element properties table](DataStructureselement-property-tables.md) at import.
 
 It is also a bad idea to run the exclusions after you have run any of the cluster or spatial analyses. These analyses will no longer properly relate to their parent BaseData object if you do this.  Any linking back to elements deleted from the BaseData, such as for display or interrogation of labels in groups, will cause an error.  For this reason the system will stop you from doing this.  If you do need to run further exclusions then delete all the outputs or duplicate the BaseData without outputs and work on that (menu _Basedata -> Duplicate without outputs_).
 
@@ -321,13 +321,13 @@ It is also a bad idea to run the exclusions after you have run any of the cluste
 
 A spatial index will make the spatial analyses run faster, although users should note that not all spatial conditions will work with the index (typically those with complex user-defined conditions).  To set this use the menu option _Analyses -> Build Spatial Index_.  The index can be deleted and rebuilt at any time, and these changes affect only subsequent analyses, not those that preceded any change.
 
-See [KeyConcepts#Using\_the\_spatial\_index](KeyConcepts#Using_the_spatial_index.md) for more details about the choice of settings and how it works.
+See [KeyConceptsusing-the-spatial-index](KeyConcepts#using-the-spatial-index.md) for more details about the choice of settings and how it works.
 
 # Running a Cluster Analysis #
 
 Cluster analyses are used to identify clusters in the data.  Biodiverse supports agglomerative clustering of the groups based on their labels, or some function of their labels such as the values of a linked matrix or tree.
 
-Note that clusters are often called groups, but the term is not used here as it could cause confusion with [BaseData groups](DataStructures#Groups.md) (although one could make the case that they are similar).
+Note that clusters are often called groups, but the term is not used here as it could cause confusion with [BaseData groups](DataStructures#groups.md) (although one could make the case that they are similar).
 
 To run a cluster analysis on the currently selected basedata object, open menu option _Analyses->Cluster_.
 
@@ -339,19 +339,19 @@ Click on the _Go_ button (or use the keyboard shortcut Control-G) once you have 
 
 ## Cluster parameters ##
 
-The _Name_ option is the name used in the system for that analysis. By default, the name of an analysis is the name of the basedata object (e.g. “sampledata”) followed by an underscore, “Cluster” and a digit (e.g. “sampledata\_Cluster0”). Numbering starts at 0 and any subsequent analyses created for that basedata object create a similar name with the number incremented by 1. However, you can give an analysis any name you want, but if one with that name already exists, you will be notified that the original analysis will be overwritten if you continue. (Note: naming conflicts only arise for different analyses on the same basedata object.)
+The _Name_ option is the name used in the system for that analysis. By default, the name of an analysis is the name of the basedata object (e.g. “sampledata”) followed by an underscore, “Cluster” and a digit (e.g. “sampledata_Cluster0”). Numbering starts at 0 and any subsequent analyses created for that basedata object create a similar name with the number incremented by 1. However, you can give an analysis any name you want, but if one with that name already exists, you will be notified that the original analysis will be overwritten if you continue. (Note: naming conflicts only arise for different analyses on the same basedata object.)
 
 The _Metric_ option specifies the dissimilarity metric that will be used to compare groups. It is from this function that the matrices of dissimilarities are built.  See the [Indices](Indices.md) page for specific details about each index.
 
 The _Linkage_ option determines how the similarities of newly formed cluster nodes to other nodes (elements) in the matrix are calculated.
-  * link\_average uses the average value of the merged groups, weighted by the number of terminal nodes they each include.  In this way a merger between node A with 10 terminal nodes and node B with 1 terminal node will not be biased towards the labels in node B.
-  * link\_average\_unweighted uses the average, but does not weight by terminal nodes.
-  * link\_maximum uses the maximum value of the merged nodes.  For a dissimilarity matrix this has the effect of taking the most dissimilar value amongst each successive merger.
-  * link\_minimum uses the minimum value of the merged nodes.  For a dissimilarity matrix this has the effect of taking the least dissimilar value amongst each successive merger.
-  * link\_recalculate has the effect of combining the terminal nodes under each node and treating them as an aggregate group.  This can be useful in cases where there are sampling biases and well sampled labels would swamp the signal from poorly sampled labels.  See [Bickford et al. (2004)](http://dx.doi.org/10.1111/j.1365-2699.2004.01127.x) for an example of this.  This method will cause reversals (negative node lengths) in the tree as new labels enter the calculations for the dissimilarity metrics based on presence/absence.  However, there should be no difference between link\_average and link\_recalculate for indices that use sample counts (e.g. [BRAY\_CURTIS](http://code.google.com/p/biodiverse/wiki/Indices#Bray-Curtis_non-metric)).
+  * link_average uses the average value of the merged groups, weighted by the number of terminal nodes they each include.  In this way a merger between node A with 10 terminal nodes and node B with 1 terminal node will not be biased towards the labels in node B.
+  * link_average_unweighted uses the average, but does not weight by terminal nodes.
+  * link_maximum uses the maximum value of the merged nodes.  For a dissimilarity matrix this has the effect of taking the most dissimilar value amongst each successive merger.
+  * link_minimum uses the minimum value of the merged nodes.  For a dissimilarity matrix this has the effect of taking the least dissimilar value amongst each successive merger.
+  * link_recalculate has the effect of combining the terminal nodes under each node and treating them as an aggregate group.  This can be useful in cases where there are sampling biases and well sampled labels would swamp the signal from poorly sampled labels.  See [Bickford et al. (2004)](http://dx.doi.org/10.1111/j.1365-2699.2004.01127.x) for an example of this.  This method will cause reversals (negative node lengths) in the tree as new labels enter the calculations for the dissimilarity metrics based on presence/absence.  However, there should be no difference between link_average and link_recalculate for indices that use sample counts (e.g. [BRAY_CURTIS](http://code.google.com/p/biodiverse/wiki/Indices#bray-curtis-non-metric)).
 
 
-The _Spatial conditions_text boxes allow you to enter a set of spatial constraints for the clustering (see the SpatialConditions page for details on how to specify these). If specified, the analysis will only cluster those groups or clusters with other groups satisfy the spatial constraints (relative to the processing group). If the clustering process runs out of neighbours then it switches to the next matrix in the list and continues clustering with that matrix. _Prior to version 0.14, if the union of the matrices (the `shadow matrix`) is not symmetric then the clustering will stop with multiple root nodes and the system will not worked as hoped.  This is why it is a good idea to specify `sp_always_true()` as the final spatial condition for clustering to ensure all works properly (or use some other condition that will give a symmetric matrix).  From version 0.14 this constraint has been removed to allow calculations with larger data sets where clustering everything is not practical.  Note, however, that a root node is added to the tree such that all nodes line up when plotted.  The linkages of the right-most nodes with this root node are denoted as JOIN\_NOT\_METRIC in the NODE\_VALUES list._  The _Verify_ button (the one with the big tick on it) lets you know if the spatial conditions are syntactically valid. It does not check if the conditions do what you want, but this is hardly unusual for a computer program.
+The _Spatial conditions_text boxes allow you to enter a set of spatial constraints for the clustering (see the SpatialConditions page for details on how to specify these). If specified, the analysis will only cluster those groups or clusters with other groups satisfy the spatial constraints (relative to the processing group). If the clustering process runs out of neighbours then it switches to the next matrix in the list and continues clustering with that matrix. _Prior to version 0.14, if the union of the matrices (the `shadow matrix`) is not symmetric then the clustering will stop with multiple root nodes and the system will not worked as hoped.  This is why it is a good idea to specify `sp_always_true()` as the final spatial condition for clustering to ensure all works properly (or use some other condition that will give a symmetric matrix).  From version 0.14 this constraint has been removed to allow calculations with larger data sets where clustering everything is not practical.  Note, however, that a root node is added to the tree such that all nodes line up when plotted.  The linkages of the right-most nodes with this root node are denoted as JOIN_NOT_METRIC in the NODE_VALUES list._  The _Verify_ button (the one with the big tick on it) lets you know if the spatial conditions are syntactically valid. It does not check if the conditions do what you want, but this is hardly unusual for a computer program.
 
 The _Definition Query_ text box allows the exclusion of groups from the clustering process (as opposed to controlling which neighbour groups a processing group can be clustered with).   See the SpatialConditions page for more details.
 
@@ -359,7 +359,7 @@ The _Definition Query_ text box allows the exclusion of groups from the clusteri
 
 Use the check boxes to select which sets of calculations are to be performed, and therefore which indices will be calculated. Press the plus buttons next to each set to select specific analyses. Press the plus button again to see which indices each one calculates. Text at each level tells you about the calculations and what they do.
 
-Not all these calculations or indices are valid for clusters, and the system strips out the ones that are not before any calculations are performed. If a spatial analysis is selected, indices resulting in single values will be stored within a list called SPATIAL\_RESULTS in each cluster tree node. Those that are lists will be stored in each node at the same level as SPATIAL\_RESULTS. This will become more clear when you run a cluster analysis and view the results.
+Not all these calculations or indices are valid for clusters, and the system strips out the ones that are not before any calculations are performed. If a spatial analysis is selected, indices resulting in single values will be stored within a list called SPATIAL_RESULTS in each cluster tree node. Those that are lists will be stored in each node at the same level as SPATIAL_RESULTS. This will become more clear when you run a cluster analysis and view the results.
 
 
 ## Viewing the cluster results ##
@@ -384,9 +384,9 @@ Groups contained in selected clusters will be coloured in the group grid. The co
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_plot_by_depth_page_coloured_by_slider.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_plot_by_depth_page_coloured_by_slider.png)
 
-The choice of which index to show in the group grid is made in the selection boxes beneath the grid. The one on the left is the list of calculations (e.g. SPATIAL\_RESULTS or [ABC2\_LABELS\_SET1](Indices#Ranges.md)) and the one on the right shows which index or list element (group or label) to display from that analysis. The default is the special _Cluster_ list, which colours the clusters using a contrasting colour scheme (Brewer, Cynthia A., (2005), _Designing Better Maps: A Guide for GIS Users_, ESRI Press, Redlands CA, 203 pp. [www.colorbrewer.org](http://www.colorbrewer.org/)). Note: the right-hand lists of indices/elements to display only appears once an analysis other than the default Cluster is selected from the left-hand list. In addition to the contrast and continuous colour schemes, white groups in the grid are those that are not in the selected clusters. Black means they are in the selected clusters, but are not relevant to the index and/or elements (group/label) selected from the drop-down menus in the group grid pane.
+The choice of which index to show in the group grid is made in the selection boxes beneath the grid. The one on the left is the list of calculations (e.g. SPATIAL_RESULTS or [ABC2_LABELS_SET1](Indices#ranges.md)) and the one on the right shows which index or list element (group or label) to display from that analysis. The default is the special _Cluster_ list, which colours the clusters using a contrasting colour scheme (Brewer, Cynthia A., (2005), _Designing Better Maps: A Guide for GIS Users_, ESRI Press, Redlands CA, 203 pp. [www.colorbrewer.org](http://www.colorbrewer.org/)). Note: the right-hand lists of indices/elements to display only appears once an analysis other than the default Cluster is selected from the left-hand list. In addition to the contrast and continuous colour schemes, white groups in the grid are those that are not in the selected clusters. Black means they are in the selected clusters, but are not relevant to the index and/or elements (group/label) selected from the drop-down menus in the group grid pane.
 
-Holding down the control key while clicking on a group in the grid produces (as usual) a pop-up with a list of the labels in that group. If the group is in a selected cluster, other information and indices pertaining to the group and its cluster can also be accessed from this pop-up. Similarly, you can control-click on a node in the tree to see a pop-up with indices for individual labels and groups contained in the node, indices for the collection of groups/labels in the node (SPATIAL\_RESULTS), and characteristics of that node (NODE\_VALUES). These are accessed from the _Data_ drop-down menu in the pop-up window.
+Holding down the control key while clicking on a group in the grid produces (as usual) a pop-up with a list of the labels in that group. If the group is in a selected cluster, other information and indices pertaining to the group and its cluster can also be accessed from this pop-up. Similarly, you can control-click on a node in the tree to see a pop-up with indices for individual labels and groups contained in the node, indices for the collection of groups/labels in the node (SPATIAL_RESULTS), and characteristics of that node (NODE_VALUES). These are accessed from the _Data_ drop-down menu in the pop-up window.
 
 
 
@@ -397,7 +397,7 @@ You can customize the tree display via the _Option_ button below the scree plot.
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png)
 
-Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#Map\_overlays](KeyConcepts#Map_overlays.md)).
+Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#map-overlays](KeyConcepts#map-overlays.md)).
 
 # Running a spatial (moving window) analysis #
 
@@ -411,7 +411,7 @@ The Spatial tab has two main sections where you can set options (see below), and
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_first_page.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_first_page.png)
 
-Unless you have specified a complex spatial neighbourhood that causes errors in the neighbours then you should turn the [spatial index](KeyConcepts#Using_the_spatial_index.md) on (menu option _Analyses -> Build Spatial Index_) (see also [#Building\_a\_spatial\_index](#Building_a_spatial_index.md)). The best resolution to use depends on your data set, but a good start is twice the cell size. If you have a cell size of zero then make it approximately the same as the extent of your neighbourhood definition.
+Unless you have specified a complex spatial neighbourhood that causes errors in the neighbours then you should turn the [spatial index](KeyConcepts#using-the-spatial-index.md) on (menu option _Analyses -> Build Spatial Index_) (see also [#building-a-spatial-index](#building-a-spatial-index.md)). The best resolution to use depends on your data set, but a good start is twice the cell size. If you have a cell size of zero then make it approximately the same as the extent of your neighbourhood definition.
 
 Click on the _Go_ button (or use the shortcut Ctl-G) once you have specified your parameters and selected which calculations you want to run for each processing group (see below for how). The system will then run the selected spatial analyses. The progress bar lets you know how things are progressing (as the name suggests).  Once the analysis is complete, it pulls up a display pane and shows you a map of the results. Pull the pane down to view the options you used, for example to change them and re-run the analysis.  You will be warned about overwriting an existing analysis.
 
@@ -419,9 +419,9 @@ Click on the _Go_ button (or use the shortcut Ctl-G) once you have specified you
 
 The _Name_ option is the name used in the system. Analyses within a given BaseData may not have the same name.
 
-The _Neighbour set 1_ and _Neighbour set 2_text boxes allow you to define the neighbour sets used for the calculations (see SpatialConditions for how). There is no requirement to include the processing group in any of the neighbour sets, and both neighbour sets may be arbitrarily defined independently of each other. It is up to the user to identify what is most appropriate for the analysis at hand. You are also not obliged to specify a second neighbourhood.  The use of these neighbourhoods varies by analysis. Some aggregate the neighbourhoods into a single set (e.g. [endemism\_whole](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_and_Rarity)), others compare the labels in the first neighbour set with those in the second (e.g. [Jaccard and other dissimilarity indices](http://code.google.com/p/biodiverse/wiki/Indices#Taxonomic_Dissimilarity_and_Comparison)), while others use the first set to define the list of labels to use but then consider distributions across both neighbour sets (e.g. [endemism\_central](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_and_Rarity)).
+The _Neighbour set 1_ and _Neighbour set 2_text boxes allow you to define the neighbour sets used for the calculations (see SpatialConditions for how). There is no requirement to include the processing group in any of the neighbour sets, and both neighbour sets may be arbitrarily defined independently of each other. It is up to the user to identify what is most appropriate for the analysis at hand. You are also not obliged to specify a second neighbourhood.  The use of these neighbourhoods varies by analysis. Some aggregate the neighbourhoods into a single set (e.g. [endemism_whole](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_and_Rarity)), others compare the labels in the first neighbour set with those in the second (e.g. [Jaccard and other dissimilarity indices](http://code.google.com/p/biodiverse/wiki/Indices#Taxonomic_Dissimilarity_and_Comparison)), while others use the first set to define the list of labels to use but then consider distributions across both neighbour sets (e.g. [endemism_central](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_and_Rarity)).
 
-The _Definition query_ text box allows the analysis to be applied to only a subset of groups (those which satisfy the criteria).  All groups are still considered as neighours though (see [SpatialConditions#Definition\_Queries](SpatialConditions#Definition_Queries.md)).
+The _Definition query_ text box allows the analysis to be applied to only a subset of groups (those which satisfy the criteria).  All groups are still considered as neighours though (see [SpatialConditions#definition-queries](SpatialConditions#definition-queries.md)).
 
 The _Verify_ buttons (big green ticks to the right of the neighbour set and definition query text boxes) let you know if the spatial conditions entered are syntactically valid. The system does not check if the conditions do what you want but, as was noted in the clustering section, this is hardly unusual for a computer program.
 
@@ -435,7 +435,7 @@ This is the same as in the cluster tab. Use the check boxes to select which sets
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_selected_analyses.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_selected_analyses.png)
 
-Indices which result in single (scalar) values are collected and stored in a list called SPATIAL\_RESULTS in each element (group). Those that are lists are stored in each element  at the same level as SPATIAL\_RESULTS.
+Indices which result in single (scalar) values are collected and stored in a list called SPATIAL_RESULTS in each element (group). Those that are lists are stored in each element  at the same level as SPATIAL_RESULTS.
 
 Those calculations or indices that require two neighbourhoods (such as Jaccard or Sorensen dissimilarity) will not be created if a second neighbourhood is not specified.
 
@@ -445,17 +445,17 @@ The results are displayed as a map in a single pane within the tab.
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_showing_map.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_showing_map.png)
 
-The colour scheme can be changed to one based on intensity of a single hue if needed.  See [KeyConcepts#Colour\_schemes](KeyConcepts#Colour_schemes.md).  Currently the full range of colours is assigned to the index values using linear scaling between the minimum and maximum values.  Changing this is for a future release, or the data can be exported and plotted using a GIS or other package.
+The colour scheme can be changed to one based on intensity of a single hue if needed.  See [KeyConcepts#colour-schemes](KeyConcepts#colour-schemes.md).  Currently the full range of colours is assigned to the index values using linear scaling between the minimum and maximum values.  Changing this is for a future release, or the data can be exported and plotted using a GIS or other package.
 
 Hovering over a group will highlight the groups used in the calculations – a solid circle for those in the first neighbourhood and a dash for those in the second neighbourhood. Right click on a group to keep the highlighting at that group until the mouse is left clicked on any group.  You can control whether these are displayed, or just display one set, by using the _Neighbours_ selection below the map.
 
-The specific index that is displayed is determined using the two selection boxes at the bottom left of the window. The default is SPATIAL\_RESULTS. This interface excludes lists that are not numeric hashes, so any result that is an array of numbers (such as [IEI\_DATA\_ARRAY](http://code.google.com/p/biodiverse/wiki/Indices#Inter-event_interval_statistics_data)) cannot be displayed this way.
+The specific index that is displayed is determined using the two selection boxes at the bottom left of the window. The default is SPATIAL_RESULTS. This interface excludes lists that are not numeric hashes, so any result that is an array of numbers (such as [IEI_DATA_ARRAY](http://code.google.com/p/biodiverse/wiki/Indices#Inter-event_interval_statistics_data)) cannot be displayed this way.
 
 Holding the control key while clicking on a group, or clicking on a group with the middle mouse button, produces a pop-up list with all the results in it, including those that cannot be displayed spatially. It also includes lists of the elements (groups) in each neighbour set (Elements set1, set2 and all) and of the labels in these neighbour sets (Labels set1, set2 and all). “All” is the union of neighbour sets 1 and 2.
 
-Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#Map\_overlays)).
+Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#Map_overlays)).
 
-The interpretation of some of the list results can take some thought.  Consider the [ENDC\_WTLIST](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_central) result.  The set of groups that have a result (are coloured) are those that contained that label in their neighbour set.  This is not the same as the set of groups that contain that label (unless a condition was used that only uses the processing group, e.g. `sp_self_only()` or `$D==0`).  The main advantage of plotting these sorts of lists is that one can visualise where a specific label has a large or small effect.  In terms of weighted endemism, which is an additive calculation, one can also conduct further calculations outside of Biodiverse to determine which labels are contributing the most to the [ENDC\_WE](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_central) or [ENDW\_WE](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_whole) scores for each group's neighbour set.  This can be done by Control-clicking to open the popup list window and then copying and pasting, or [exporting](KeyConcepts#Export.md) the data to a different format.
+The interpretation of some of the list results can take some thought.  Consider the [ENDC_WTLIST](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_central) result.  The set of groups that have a result (are coloured) are those that contained that label in their neighbour set.  This is not the same as the set of groups that contain that label (unless a condition was used that only uses the processing group, e.g. `sp_self_only()` or `$D==0`).  The main advantage of plotting these sorts of lists is that one can visualise where a specific label has a large or small effect.  In terms of weighted endemism, which is an additive calculation, one can also conduct further calculations outside of Biodiverse to determine which labels are contributing the most to the [ENDC_WE](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_central) or [ENDW_WE](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_whole) scores for each group's neighbour set.  This can be done by Control-clicking to open the popup list window and then copying and pasting, or [exporting](KeyConcepts#export.md) the data to a different format.
 
 # Running a randomisation #
 
@@ -465,13 +465,13 @@ To run a randomisation analysis on the currently selected basebata object, open 
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/randomisation_analysis_page.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/randomisation_analysis_page.png)
 
-The Randomisation tab has two main sections where you can set options. The upper section (_Setup_) determines the main setup parameters used in the randomisation, for example the randomisation function and the PRNG seed if you want to reproduce a sequence of random values between randomisations. The second (_Parameters_) are function specific options. At this stage only three randomisations are supported: rand\_csr\_by\_group, rand\_nochange and rand\_structured.
+The Randomisation tab has two main sections where you can set options. The upper section (_Setup_) determines the main setup parameters used in the randomisation, for example the randomisation function and the PRNG seed if you want to reproduce a sequence of random values between randomisations. The second (_Parameters_) are function specific options. At this stage only three randomisations are supported: rand_csr_by_group, rand_nochange and rand_structured.
 
-  * _rand\_csr\_by\_group_ randomly reallocates each group with all of its labels to another group's position. The csr stands for Complete Spatial Randomness, although the "complete" is somewhat of a misnomer since the internal structure of the groups stays the same regardless of where they are moved.
-  * _rand\_nochange_ merely duplicates the BaseData object. It is useful if you are just plain paranoid and want to test the system.  (Note that cluster results are not guaranteed to be the same in version 0.15 and earlier.  See [issue #253](https://code.google.com/p/biodiverse/issues/detail?id=#253)).
-  * _rand\_structured_ allows the replication of richness patterns from the original basedata in the randomised basedata, within some tolerances (as an additive offset and a multiplier). The addition of spatial structure is planned. Complete spatial randomness, where labels are allocated without any structure at all, can be achieved by specifying a richness\_addition parameter larger than the largest richness value amongst the groups.  (Some might think it odd that the most unstructured randomisation is under the structured function, but one should view it as an end-point of a continuum of outputs that this function allows.)
+  * _rand_csr_by_group_ randomly reallocates each group with all of its labels to another group's position. The csr stands for Complete Spatial Randomness, although the "complete" is somewhat of a misnomer since the internal structure of the groups stays the same regardless of where they are moved.
+  * _rand_nochange_ merely duplicates the BaseData object. It is useful if you are just plain paranoid and want to test the system.  (Note that cluster results are not guaranteed to be the same in version 0.15 and earlier.  See [issue #253](/shawnlaffan/biodiverse/issues/253)).
+  * _rand_structured_ allows the replication of richness patterns from the original basedata in the randomised basedata, within some tolerances (as an additive offset and a multiplier). The addition of spatial structure is planned. Complete spatial randomness, where labels are allocated without any structure at all, can be achieved by specifying a richness_addition parameter larger than the largest richness value amongst the groups.  (Some might think it odd that the most unstructured randomisation is under the structured function, but one should view it as an end-point of a continuum of outputs that this function allows.)
 
-Note that none of these methods will relocate groups to locations that are not part of the BaseData.  Allow and specify [empty groups](SampleSession#BaseData.md) when you import the data if you want to increase the set of locations groups or their labels can be randomly allocated to.
+Note that none of these methods will relocate groups to locations that are not part of the BaseData.  Allow and specify [empty groups](SampleSession#basedata.md) when you import the data if you want to increase the set of locations groups or their labels can be randomly allocated to.
 
 Be careful in your selection of the randomisation function, as each specifies a different null model. Each also has a varying “degree of difficulty”. For example, it is easy for an analysis to be more spatially structured than a completely random reallocation of labels to groups, as the randomisation destroys any spatial structure. It is more difficult to be “better” than a randomisation that replicates other structural features such as species richness.  See for example [Laffan and Crisp (2003)](http://www3.interscience.wiley.com/journal/118882020/abstract).
 
@@ -482,7 +482,7 @@ All of the spatial and cluster outputs within a BaseData are compared with their
 
 ## Interpreting the results ##
 
-See [AnalysisTypes#Randomisations](AnalysisTypes#Randomisations.md) for an explanation of what the randomisation results mean.
+See [AnalysisTypes#randomisations](AnalysisTypes#randomisations.md) for an explanation of what the randomisation results mean.
 
 
 # Exporting and saving #
@@ -496,4 +496,4 @@ A window will appear to allow the selection of the output format and file type. 
 
 The key options for the table exports are which list to export and whether to force asymmetric lists to be symmetric. One example use of a symmetric table is to generate a matrix of neighbours when using the Element List calculations.  Forcing lists to be symmetric produces larger file sizes but allows for easier import of some results into database programs.  The size difference will be trivial in many cases, but the system can run out of memory for large files (e.g. exporting 100,000 groups with 30+ labels).
 
-The key option when exporting a cluster analysis is whether to use a table, nexus or newick format. Most of the other options relate to the tabular formats (hover the mouse above the values to see the tooltip explanations). For tables, one needs to decide which list values to include (if any), how many cluster groups are needed or whether to specify a length or depth to determine the groups (analogous to the slider bar). See [KeyConcepts#Using\_the\_tree\_exported\_to\_a\_table](KeyConcepts#Using_the_tree_exported_to_a_table.md).
+The key option when exporting a cluster analysis is whether to use a table, nexus or newick format. Most of the other options relate to the tabular formats (hover the mouse above the values to see the tooltip explanations). For tables, one needs to decide which list values to include (if any), how many cluster groups are needed or whether to specify a length or depth to determine the groups (analogous to the slider bar). See [KeyConcepts#using_the_tree_exported_to_a_table](KeyConcepts#using-the-tree-exported-to-a-table.md).
