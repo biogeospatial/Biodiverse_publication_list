@@ -18,4 +18,4 @@ These instructions apply to version 0.17.
 
   * If you don't like the current window theme then you can change them using the Desktop Preferences (also via the `gnome-appearance-properties` tool).  You can download and install more themes from http://art.gnome.org/themes/gtk2
 
-  * Please report any other issues using the [project issue tracker](http://code.google.com/p/biodiverse/issues/list)
+  * Please report any other issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)

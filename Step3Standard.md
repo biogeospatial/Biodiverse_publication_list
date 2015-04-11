@@ -13,7 +13,7 @@ At least one Group and one Label column must be set from the "Type" drop-down me
 
 Selection of a Group column gives the option to define cell size (in the same units as the group data is stored) and origin. Please note that the default cell size is 100,000.00 and default origin is 0.00, these values may need to be adjusted to suit the data being imported.  The origin option allows alignment of the imported data with a non-zero origin when necessary (e.g. when using coarse resolution climate data in a related analysis to ensure the resulting cell boundaries align exactly between data sets).
 
-The "Data in degrees?" combo box allows the importation of data in degrees minutes seconds formats, as well as determining if the values are in the valid range (the latter works for both DMS and decimal degrees formats). Specify is\_lat for latitude and is\_lon for longitude. Examples of valid formats are:
+The "Data in degrees?" combo box allows the importation of data in degrees minutes seconds formats, as well as determining if the values are in the valid range (the latter works for both DMS and decimal degrees formats). Specify is_lat for latitude and is_lon for longitude. Examples of valid formats are:
 
 ```
 Latitude,Longitude
@@ -23,7 +23,7 @@ S23°32'09.567", E149°23'18.009"
 -23.535991, 149.388336
 ```
 
-The _Type_ drop-down menu also allows filtering of data rows by assigning the column types "Include\_columns" and "Exclude\_columns".  There is no limit on the number of these column types that can be assigned.  If one or more inclusion column is specified, only those data rows with non-zero values in at least one of these columns will be imported. If one or more exclusion column is specified, only those data rows with a value of zero in all of these columns will be imported (ie. any non-zero value will trigger a row to be excluded).
+The _Type_ drop-down menu also allows filtering of data rows by assigning the column types "Include_columns" and "Exclude_columns".  There is no limit on the number of these column types that can be assigned.  If one or more inclusion column is specified, only those data rows with non-zero values in at least one of these columns will be imported. If one or more exclusion column is specified, only those data rows with a value of zero in all of these columns will be imported (ie. any non-zero value will trigger a row to be excluded).
 
 If a file contains columns that are irrelevant to the analysis, these columns should be set to "Ignore".
 

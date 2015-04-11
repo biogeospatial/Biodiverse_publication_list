@@ -53,12 +53,12 @@ To test that it worked, type the following.  It should throw no errors.
 ```
 
 3. Download the GDAL binaries from the Biodiverse subversion repository.
-> TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client). Remember to change gdal\_win64 to gdal\_win32 if you are using a 32 bit installation.
+> TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client). Remember to change gdal_win64 to gdal_win32 if you are using a 32 bit installation.
 
-> svn co https://biodiverse.googlecode.com/svn/branches/gdal_win_builds/etc/gdal_win64 %GDAL\_PATH%
+> svn co https://biodiverse.googlecode.com/svn/branches/gdal_win_builds/etc/gdal_win64 %GDAL_PATH%
 
 
-4.  Now we need to install some files using the ppm and cpanm utilities.  Run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  If you are using a 32 bit perl then change ppm516\_x64 to be ppm516.
+4.  Now we need to install some files using the ppm and cpanm utilities.  Run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  If you are using a 32 bit perl then change ppm516_x64 to be ppm516.
 
 ```
   :: Install the precompiled binaries needed for the GUI.

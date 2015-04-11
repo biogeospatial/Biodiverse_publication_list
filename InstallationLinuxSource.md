@@ -80,4 +80,4 @@ perl BiodiverseGUI.pl &
 
 # Troubleshooting #
   * Ubuntu 11 appears to need this before running the other installer commands:  `sudo apt-get install libgnome2-canvas-perl`
-  * Please report any issues using the [project issue tracker](http://code.google.com/p/biodiverse/issues/list)
+  * Please report any issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)

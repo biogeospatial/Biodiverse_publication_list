@@ -33,7 +33,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%GTK_PATH%\c\bin;%GDAL_PATH%\bin;%PATH%
 ```
 
-5.  Download the gtk\_win64 and gdal\_win64 components using an svn checkout. TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client).  _Remember to change `_win64` to `_win32` in the paths if you are using a 32 bit installation_.
+5.  Download the gtk_win64 and gdal_win64 components using an svn checkout. TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client).  _Remember to change `_win64` to `_win32` in the paths if you are using a 32 bit installation_.
 
 ```
   svn co http://biodiverse.googlecode.com/svn/branches/gtk_win_builds/etc/gtk2.10_win64 %GTK_PATH%
@@ -41,7 +41,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ```
 
 
-6.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  If you are using a 32 bit perl then change ppm516\_x64 to be ppm516.
+6.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  If you are using a 32 bit perl then change ppm516_x64 to be ppm516.
 
 ```
   :: Install the precompiled binaries needed for the GUI.
@@ -90,7 +90,7 @@ The above installation process **should** install all the relevant files, so we 
 ```
 
 
-  * See the [trouble shooting](#Trouble_shooting.md) section below if you encounter problems.
+  * See the [trouble shooting](#trouble-shooting) section below if you encounter problems.
 
 
 # Trouble shooting #
@@ -98,4 +98,4 @@ The above installation process **should** install all the relevant files, so we 
   * If you get errors about not finding gnome-canvas, glib and friends then check that the `%GTK_PATH%\c\bin` directory exists and is correctly named.
   * If Perl complains that it cannot locate a file when running Biodiverse then this library will need to be installed interactively using cpan. The complaint will contain text like `Can't locate Fred/Fred.pm in @INC (@INC contains:...)`  In this case, install module Fred::Fred (substitute a double colon "::" for each forward slash "/", and remove the trailing ".pm" from the module it cannot locate). E.g.: `cpanm Fred::Fred` . This can happen if one or more of the modules listed in the bundle failed to install.
 
-  * Please report any other issues using the [project issue tracker](http://code.google.com/p/biodiverse/issues/list)
+  * Please report any other issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)

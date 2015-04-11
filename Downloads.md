@@ -5,7 +5,7 @@
 
 ## Biodiverse GUI ##
 
-> ### 0.99\_007 (development release) ###
+> ### 0.99_007 (development release) ###
 
 > _This is the current development version, leading towards a version 1.0 release.  Version 1 will be released soon if no show stopping bugs are detected._
 
@@ -26,7 +26,7 @@
 
 > #### Known issues ####
 
-  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](https://code.google.com/p/biodiverse/issues/detail?id=506)).
+  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/06)).
 
   * See also the [open issue list for the 1.0 development series](https://code.google.com/p/biodiverse/issues/list?can=2&q=Milestone%3DRelease1.0+&colspec=ID+Type+Status+Priority+Milestone+Owner+Summary&cells=tiles).
 
@@ -49,7 +49,7 @@
 
 > #### Known issues ####
 
-  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](https://code.google.com/p/biodiverse/issues/detail?id=506)).
+  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/06)).
 
 
 > ### Quick Start Guide ###

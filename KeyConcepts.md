@@ -26,7 +26,7 @@ Numerically continuous analysis results can be displayed using either Hue or Sat
 
 The hue mode uses colours from light blue through green and yellow to red.  It is the default for spatial results.
 
-The saturation mode assigns colours as different levels of saturation for a single colour, the default being red.  (This is the scheme used in the view labels tab).  You can select an alternate colour using the colour button to the right of the chooser.  Note that greyscale is currently not supported (at version 0.12), and the system only uses the hue setting, ignoring any saturation and value settings.  See [issue #32](https://code.google.com/p/biodiverse/issues/detail?id=#32).
+The saturation mode assigns colours as different levels of saturation for a single colour, the default being red.  (This is the scheme used in the view labels tab).  You can select an alternate colour using the colour button to the right of the chooser.  Note that greyscale is currently not supported (at version 0.12), and the system only uses the hue setting, ignoring any saturation and value settings.  See [issue #32](/shawnlaffan/biodiverse/issues/32).
 
 If you are unsure of how visible your results will be to the colour blind then take a screen shot and put it through the Daltonizer at http://www.vischeck.com/daltonize/ .  Saturation mode should be better than hue in these cases.
 
@@ -41,13 +41,13 @@ The contrasting colour scheme is restricted to a maximum of 13 colours, with a d
 
 You can display a feature (vector) data set in the group grid pane as a background to make it easier to identify groups, especially if they are geographically related.  An example might be a map of national borders or of bioregions.
 
-Overlays are available when a map is displayed, for example when viewing labels or displaying the results of a cluster or spatial analysis (see [SampleSession#The\_Group\_Grid](SampleSession#The_Group_Grid.md), [SampleSession#Viewing\_the\_cluster\_results](SampleSession#Viewing_the_cluster_results.md) and [SampleSession#Viewing\_the\_spatial\_results](SampleSession#Viewing_the_spatial_results.md)).
+Overlays are available when a map is displayed, for example when viewing labels or displaying the results of a cluster or spatial analysis (see [SampleSession#The_Group_Grid](SampleSession#the-group-grid), [SampleSession#Viewing_the_cluster_results](SampleSession#viewing-the-cluster-results) and [SampleSession#Viewing_the_spatial_results](SampleSession#viewing-the-spatial-results)).
 
 To plot an overlay, select the Overlays button in the panel. A list of the currently available overlays will be displayed. To add a new overlay, click Add, and select the desired overlay file.  Your selected file will be added to the list of available overlays. To display it in the group grid, select it and click Ok. It may take a few seconds for the overlay to appear. To remove the currently displayed overlay, open the Overlays menu again and click the Clear button. Note: clicking Delete in the Overlays window will delete the shapefile from the list, but will not remove it from the display if it is currently being displayed. You must click Clear as well. Using an overlay may result in noticeably slower display processing (e.g. when highlighting groups), particularly with more detailed shapefiles. This is due to the amount of display refreshing that must be done.
 
 Only shapefiles are supported at the moment. They also need to be polyline or polygon. Points are not plotted, but you could buffer your points by a small distance and plot the resulting polygons.
 
-Several data sets can be loaded but only one can be displayed (see [issue #48](https://code.google.com/p/biodiverse/issues/detail?id=#48)).  If you wish to plot more than one set of features then combine them into a new data set using a GIS.
+Several data sets can be loaded but only one can be displayed (see [issue #48](/shawnlaffan/biodiverse/issues/48)).  If you wish to plot more than one set of features then combine them into a new data set using a GIS.
 
 The system also ignores any vertices that are beyond the bounds of the BaseData groups, so you cannot zoom out any further than the BaseData extent.
 
@@ -109,12 +109,12 @@ The scree plot below a tree indicates how many nodes occur at each level of, for
 
 ## Selecting tree nodes ##
 
-See [SampleSession#The\_Tree](SampleSession#The_Tree.md) and [SampleSession#Viewing\_the\_cluster\_results](SampleSession#Viewing_the_cluster_results.md).
+See [SampleSession#The_Tree](SampleSession#the-tree) and [SampleSession#Viewing_the_cluster_results](SampleSession#viewing-the-cluster-results).
 
 
 ## Negative length nodes ##
 
-Negative length nodes (those that go backwards) often occur when using link\_recalculate clustering or when switching from spatial to non-spatial clustering. In the latter case this is because the two most similar clusters may not be within the spatial neighbourhood specified, and so the similarity of the non-spatial clusters will be closer to zero than the final spatial clusters. In the former case, the recalculation weights each label equally (for most similarity metrics), so the merging of two clusters may actually reduce their joint dissimilarity with the other clusters in the system.  The end result is a nodel linkage that moves towards zero instead of away from it.
+Negative length nodes (those that go backwards) often occur when using link_recalculate clustering or when switching from spatial to non-spatial clustering. In the latter case this is because the two most similar clusters may not be within the spatial neighbourhood specified, and so the similarity of the non-spatial clusters will be closer to zero than the final spatial clusters. In the former case, the recalculation weights each label equally (for most similarity metrics), so the merging of two clusters may actually reduce their joint dissimilarity with the other clusters in the system.  The end result is a nodel linkage that moves towards zero instead of away from it.
 
 See [this image](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png) for an example.
 
@@ -122,7 +122,7 @@ If the negative nodes make interpretation difficult then change the display [to 
 
 ## Cluster Linkages ##
 
-See [SampleSession#Cluster\_parameters](SampleSession#Cluster_parameters.md).
+See [SampleSession#Cluster_parameters](SampleSession#cluster-parameters).
 
 
 ## Supported file types ##
@@ -143,7 +143,7 @@ Spatial and cluster objects can be exported to table formats. Supported formats 
 
 Exports to shapefiles are not supported due to a fatal error in the library we are using, and also due to DBF field name limitations (see below).  They can, however, be recreated from the other formats after import to a GIS or by using a suitable library.
 
-BaseData objects that use square cells and have only two axes can be exported to raster formats.  Currently the system supports Arc/Info asciigrid and floatgrid format, as well as ER-Mapper ERS format.  Note that the first two options will produce multiple files with the index name inserted before any specified file extension (e.g. fred.asc can result in `fred_ENDC_CWE.asc` and `fred_ENDC_WE.asc`).  The ER-Mapper export produces `fred` (the data file in Band Interleaved by Line, or BIL, format) and `fred.ers` (the header file).  Note that the ERS file does not include band statistics so these need to be calculated for them to plot properly in ArcMap (see [the FAQ](FAQ#Results_exported_to_ER-Mapper_BIL_files_do_not_display_properly.md)).  Exporting labels with more than one column could cause issues with the .flt and .asc files, as the colon used to separate the columns is a protected character as far as Windows filenames are concerned (and probably other operating systems).  This has been addressed in version 0.15 (see [the FAQ](FAQ#Why_do_my_asciigrid_or_floatgrid_files_have_strange_characters_l.md)).
+BaseData objects that use square cells and have only two axes can be exported to raster formats.  Currently the system supports Arc/Info asciigrid and floatgrid format, as well as ER-Mapper ERS format.  Note that the first two options will produce multiple files with the index name inserted before any specified file extension (e.g. fred.asc can result in `fred_ENDC_CWE.asc` and `fred_ENDC_WE.asc`).  The ER-Mapper export produces `fred` (the data file in Band Interleaved by Line, or BIL, format) and `fred.ers` (the header file).  Note that the ERS file does not include band statistics so these need to be calculated for them to plot properly in ArcMap (see [the FAQ](FAQ#Results_exported_to_ER-Mapper_BIL_files_do_not_display_properly.md)).  Exporting labels with more than one column could cause issues with the .flt and .asc files, as the colon used to separate the columns is a protected character as far as Windows filenames are concerned (and probably other operating systems).  This has been addressed in version 0.15 (see [the FAQ](FAQ#why-do-my-asciigrid-or-floatgrid-files-have-strange-characters-l)).
 
 Cluster objects can also be exported to the Newick and Nexus formats (Nexus actually uses the Newick format for trees).
 
@@ -161,6 +161,6 @@ _Need to add an example table._
 
 ### Table grouped ###
 
-This is a means of exporting the tree to an RDBMS format but retaining a classification as used for displaying clusters (see [SampleSession#Viewing\_the\_cluster\_results](SampleSession#Viewing_the_cluster_results.md), but a few images down).  One can choose two types.  First, one can cut the tree along a line at a specified depth or length.  This is a means of exporting the result of a slider bar display.  Second, one can specify a number of clusters are to be selected below the root node.  This approach is the same as colouring using a mouse click on the root node.
+This is a means of exporting the tree to an RDBMS format but retaining a classification as used for displaying clusters (see [SampleSession#Viewing_the_cluster_results](SampleSession#viewing-the-cluster-results), but a few images down).  One can choose two types.  First, one can cut the tree along a line at a specified depth or length.  This is a means of exporting the result of a slider bar display.  Second, one can specify a number of clusters are to be selected below the root node.  This approach is the same as colouring using a mouse click on the root node.
 
 _Need to add an example table._

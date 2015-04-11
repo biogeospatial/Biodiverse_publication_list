@@ -19,4 +19,4 @@
 
   * The Windows executable is generated using the [pp tool](https://metacpan.org/pod/pp).  It will work provided you do not move or rename the Gtk or Gdal folders.  If you do, then make sure their `bin` folders are in your system path so it finds the appropriate binaries that it depends on.  For an example of how to set the path, see http://www.computerhope.com/issues/ch000549.htm.
 
-  * Please report any other issues using the [project issue tracker](http://code.google.com/p/biodiverse/issues/list)
+  * Please report any other issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)

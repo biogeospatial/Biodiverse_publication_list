@@ -1,6 +1,6 @@
 # Introduction #
 
-This is an overview of the help system.  At this stage the system is very much a work in progress.  Any constructive feedback is appreciated, either through comments on the pages themselves, or by raising a new issue (http://code.google.com/p/biodiverse/issues/list).
+This is an overview of the help system.  At this stage the system is very much a work in progress.  Any constructive feedback is appreciated, either through comments on the pages themselves, or by raising a new issue (https://github.com/shawnlaffan/biodiverse/issues/).
 
 Use the side bar at the left to navigate between most pages.
 

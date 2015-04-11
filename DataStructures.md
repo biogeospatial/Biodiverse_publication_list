@@ -13,15 +13,15 @@ Projects consist of a set of any number of BaseData, Tree and Matrix objects.  T
 
 The only external data currently linked are shapefiles used as overlays in plotting, and these can be repaired or ignored when plotting data.
 
-Note that saving a BaseData, Tree or Matrix to their own native Biodiverse format elsewhere on disk makes a duplicate copy of that object.  Any changes to that object in the project will have no effect on the separately saved version, and vice versa.  See also the [file naming scheme](#File_naming_scheme.md)
+Note that saving a BaseData, Tree or Matrix to their own native Biodiverse format elsewhere on disk makes a duplicate copy of that object.  Any changes to that object in the project will have no effect on the separately saved version, and vice versa.  See also the [file naming scheme](#file-naming-scheme)
 
 # Elements #
 
-Elements are one of the basic units used in Biodiverse.  Each element has a unique identifier and stores one or more lists, for example the SPATIAL\_RESULTS lists of a moving window analysis.  They are also used in the matrices, in which case one element stores only the value for one matrix cell.
+Elements are one of the basic units used in Biodiverse.  Each element has a unique identifier and stores one or more lists, for example the SPATIAL_RESULTS lists of a moving window analysis.  They are also used in the matrices, in which case one element stores only the value for one matrix cell.
 
 # BaseStructs #
 
-A BaseStruct object consists of a set of [elements](#Elements.md).  It is the storage system used for, amongst other things, the [groups](#Groups.md), [labels](#Labels.md), spatial outputs, and [element property tables](#Element_property_tables.md).
+A BaseStruct object consists of a set of [elements](#elements).  It is the storage system used for, amongst other things, the [groups](#groups), [labels](#labels), spatial outputs, and [element property tables](#element-property-tables).
 
 # BaseData #
 
@@ -45,19 +45,19 @@ Group coordinates: For numerical coordinates, such as X,Y, the group location is
 
 These are a BaseStruct object and used to store the results of a moving window analysis.  They are also used in the cluster analyses to determine which neighbours should be considered for each of the cluster matrices, as this is just a spatial analysis with no actual analyses, just the neighbour sets for each [element](#Element.md).
 
-More details are (or will be) given in [AnalysisTypes#Spatial\_analyses](AnalysisTypes#Spatial_analyses.md) and [SampleSession#Running\_a\_spatial\_(moving\_window)\_analysis](SampleSession#Running_a_spatial_(moving_window)_analysis.md).
+More details are (or will be) given in [AnalysisTypes#Spatial_analyses](AnalysisTypes#spatial-analyses) and [SampleSession#Running_a_spatial_(moving_window)_analysis](SampleSession#running-a-spatial-moving-window-analysis).
 
 ## Cluster outputs ##
 
 These are a tree object, but also store the matrices used in their construction.  The terminal nodes have the name of the relevant [group](#Group.md) (element) from the BaseData object, and this is used to link the data in the display.
 
-More detals are (or will be) given in [AnalysisTypes#Clustering](AnalysisTypes#Clustering.md) and [SampleSession#Running\_a\_Cluster\_Analysis](SampleSession#Running_a_Cluster_Analysis.md).
+More detals are (or will be) given in [AnalysisTypes#Clustering](AnalysisTypes#Clustering.md) and [SampleSession#Running_a_Cluster_Analysis](SampleSession#running-a-cluster-analysis).
 
 ## Randomisation outputs ##
 
 The randomisation outputs do not themselves store any results (see [AnalysisTypes#Randomisations](AnalysisTypes#Randomisations.md)).  In addition to the arguments used in their creation, they store the PRNG's current state, as well as that used to start the PRNG stream.
 
-See also [SampleSession#Running\_a\_randomisation](SampleSession#Running_a_randomisation.md).
+See also [SampleSession#Running_a_randomisation](SampleSession#running-a-randomisation).
 
 # Matrices #
 
@@ -83,13 +83,13 @@ Each node must have a unique name.  In the case of those that link to an [elemen
 
 # Remap tables #
 
-These are [element property tables](#Element_property_tables.md).
+These are [element property tables](#element-property-tables).
 
 # Element property tables #
 
 As with so many objects in Biodiverse, element property tables are also special type of BaseStruct object (making BaseStruct a relevant name).
 
-The primary purpose of these tables is to remap (change) names on import so that one data set will properly match another, for example where one needs to alter a set of labels in a tree to match those used in a BaseData object, or vice versa.  One can also use them to keep a single file with taxonomic aggregations rather than editing one's source data (obviously it will not work for divisions, though).  They can also be used to set arbitrary properties for data set elements for use in subsequent analyses and calculations.  Species ranges and sample counts are two examples that are currently supported.  Others still need to be implemented, but they can be displayed in the View Labels tab as of version 0.15 ([issue #155](https://code.google.com/p/biodiverse/issues/detail?id=#155)).
+The primary purpose of these tables is to remap (change) names on import so that one data set will properly match another, for example where one needs to alter a set of labels in a tree to match those used in a BaseData object, or vice versa.  One can also use them to keep a single file with taxonomic aggregations rather than editing one's source data (obviously it will not work for divisions, though).  They can also be used to set arbitrary properties for data set elements for use in subsequent analyses and calculations.  Species ranges and sample counts are two examples that are currently supported.  Others still need to be implemented, but they can be displayed in the View Labels tab as of version 0.15 ([issue #155](/shawnlaffan/biodiverse/issues/155)).
 
 Note that label and group properties are assigned at the time of import.  Subsequent changes are not currently supported.
 
@@ -103,21 +103,21 @@ Label property tables will perhaps be used more often than group property tables
 
 ## Importing element property data ##
 
-The import process is similar to that for a BaseData set, in that one must select the file, choose the field separator and quotes characters, and then tell the system what rows and columns represent what.  The meaning of the different options are as follows.  If more than one column is given for the range, sample\_count and Use\_field\_name options then the GUI will take the last one specified.  If used in a script then no order is guaranteed, so take care to specify one column only for those options.  Note that you currently cannot re-order the input or remapped element columns in the GUI so these will need to be in the same order as in the BaseData set.
+The import process is similar to that for a BaseData set, in that one must select the file, choose the field separator and quotes characters, and then tell the system what rows and columns represent what.  The meaning of the different options are as follows.  If more than one column is given for the range, sample_count and Use_field_name options then the GUI will take the last one specified.  If used in a script then no order is guaranteed, so take care to specify one column only for those options.  Note that you currently cannot re-order the input or remapped element columns in the GUI so these will need to be in the same order as in the BaseData set.
 
-  * **Input\_element**:  This column will be used to form part of the label or group name.  Select as many of these as you have axes in the BaseData set, otherwise they will not match and the table will have no effect.
-  * **Remapped\_element**:  This column will be used to form part of the remapped element name.
+  * **Input_element**:  This column will be used to form part of the label or group name.  Select as many of these as you have axes in the BaseData set, otherwise they will not match and the table will have no effect.
+  * **Remapped_element**:  This column will be used to form part of the remapped element name.
   * **Include**:  Control the inclusion of elements.  A value of 1 means it will be included.  More than one of these can be specified (see above for the effect).
   * **Exclude**:  Control the exclusion of elements.  A value of 1 means it will be excluded.  More than one of these can be specified (see above for the effect).
   * **range**:  This value will be used as the label range instead of counting the number of groups in which the label occurs.  This affects the [endemism](Indices#Endemism.md) calculations.
-  * **sample\_count**:  This value will be used as the sample count value instead of counting the number of samples at import.  This affects the [rarity](Indices#Rarity.md) calculations.
-  * **Use\_field\_name**:  A property will be set for each element that has the name of the field and the value of each row.  Use this to import additional properties for a set of labels or groups.
+  * **sample_count**:  This value will be used as the sample count value instead of counting the number of samples at import.  This affects the [rarity](Indices#Rarity.md) calculations.
+  * **Use_field_name**:  A property will be set for each element that has the name of the field and the value of each row.  Use this to import additional properties for a set of labels or groups.
 
 ## The table file ##
 
 The element property (remap) table file is simply a table that has two or more columns that allow you to match the labels used in your tree or matrix to the labels used in your BaseData (or in any of the other directions, as appropriate).  The system uses exact matches to link the BaseData, trees and matrices so this is often a necessary step.
 
-As an example, say you have labels in your BaseData which are made up from two axes (derived from columns for genus and species, e.g. "Pultenaea:obstreperus"), while your tree or matrix has names with only one axis (e.g. "P\_obstreperus").  To make them match in Biodiverse you need to map one to the other.
+As an example, say you have labels in your BaseData which are made up from two axes (derived from columns for genus and species, e.g. "Pultenaea:obstreperus"), while your tree or matrix has names with only one axis (e.g. "P_obstreperus").  To make them match in Biodiverse you need to map one to the other.
 
 The first few lines of an example remap table would look like this:
 
@@ -127,13 +127,13 @@ Pultenaea,obstreperus,P_obstreperus
 Pultenaea,intransigentus,P_intransigentus
 ```
 
-When you import the tree and choose to remap the names on the tree, select the remap table file, and then set the columns such that Genus is a remapped\_element, Species is a remapped\_element, Tree\_name is an input\_element.
+When you import the tree and choose to remap the names on the tree, select the remap table file, and then set the columns such that Genus is a remapped_element, Species is a remapped_element, Tree_name is an input_element.
 
 Note that the field names can be anything.  The fields in the header row are only used for column selection in the GUI.
 
-When remapped, the input\_element column(s) are changed to the combined remapped\_elements.  As noted above, you need to specify as many input\_element and remapped\_element columns as you are using in your respective tree and basedata (or matrix, as appropriate).  For the example above where a tree is being remapped to match the basedata, the basedata uses two axes so the remap table needs to have to remapped\_element columns. The tree names are only one axis (the norm for nexus format trees) so there is only one input\_element column.
+When remapped, the input_element column(s) are changed to the combined remapped_elements.  As noted above, you need to specify as many input_element and remapped_element columns as you are using in your respective tree and basedata (or matrix, as appropriate).  For the example above where a tree is being remapped to match the basedata, the basedata uses two axes so the remap table needs to have to remapped_element columns. The tree names are only one axis (the norm for nexus format trees) so there is only one input_element column.
 
-Take care with spaces.  Biodiverse uses an exact matching system, so any excess whitespace will cause a non-match to occur.  This is both at the remapping stage and when visualising the data. Basically, " Rhynchospora\_crinipes" is not the same as "Rhynchospora\_crinipes", and the same applies for " Rhynchospora crinipes" and "Rhynchospora crinipes".  Both case have a space at the start of the first of the pair.
+Take care with spaces.  Biodiverse uses an exact matching system, so any excess whitespace will cause a non-match to occur.  This is both at the remapping stage and when visualising the data. Basically, " Rhynchospora_crinipes" is not the same as "Rhynchospora_crinipes", and the same applies for " Rhynchospora crinipes" and "Rhynchospora crinipes".  Both case have a space at the start of the first of the pair.
 
 
 # File naming scheme #

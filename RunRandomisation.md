@@ -3,7 +3,7 @@
 
 # Introduction #
 
-This is documentation for the run\_randomisation utility that comes with Biodiverse version 0.18\_007 and later.
+This is documentation for the run_randomisation utility that comes with Biodiverse version 0.18_007 and later.
 
 The purpose of this utility is to run randomisations external to the GUI, meaning an analysis can be set up to run as a background task without the GUI and its feedback windows.
 
@@ -46,7 +46,7 @@ run_randomisation.pl
 --help       Print this usage and exit
 ```
 
-The "rest of the randomisation args" list is all the other arguments for the randomisation, and will vary depending on what is being used.  Examples include `seed` for the PRNG starting seed, `richness_multiplier` and `richness_addition` for the rand\_structured analysis, and `save_checkpoint` to periodically save copies of the basedata file if such are needed.
+The "rest of the randomisation args" list is all the other arguments for the randomisation, and will vary depending on what is being used.  Examples include `seed` for the PRNG starting seed, `richness_multiplier` and `richness_addition` for the rand_structured analysis, and `save_checkpoint` to periodically save copies of the basedata file if such are needed.
 
 
 # When is this useful? #
@@ -62,7 +62,7 @@ This utility is probably most useful when you have a large data set and the rand
 
 # Ignoring new arguments is useful #
 
-A useful side-effect of the argument handling is that one does not need to specify all the control arguments for an existing randomisation.  Just specify the basedata, the randomisation name and iterations (if non-default values are needed).  For example the following commands are equivalent if Example.bds already contains a randomisation output called rand\_test.
+A useful side-effect of the argument handling is that one does not need to specify all the control arguments for an existing randomisation.  Just specify the basedata, the randomisation name and iterations (if non-default values are needed).  For example the following commands are equivalent if Example.bds already contains a randomisation output called rand_test.
 ```
 run_randomisation_x64.exe --basedata Example.bds --rand_name rand_test --iterations 99 --args function=rand_csr_by_group seed=12768545 max_iters=999 save_checkpoint=99
 run_randomisation_x64.exe --basedata Example.bds --rand_name rand_test --iterations 99
@@ -76,4 +76,4 @@ If you cannot access a machine with bigger memory limits then the workarounds in
 
   1. Reduce the number of indices being assessed in each analysis output.  The system only keeps one randomised output result in memory at a time so you might be able to squeeze below the limits this way.
   1. Subdivide the moving window analyses spatially using a set of definition queries.  _Note that this is not appropriate for most cluster analyses as definition queries exclude groups from clustering_ (but maybe that's what you want, and who are we to argue?).  For the moving window analyses, try dividing them into halves first, then quarters, etc.  An example using the western and eastern halves with two definition queries is:  `$x < 200000` and `$x >= 200000` (the `>=` in the second is needed to ensure all groups are considered).  Each subdivision should have the same calculations specified.  Any exported results can be recombined externally to Biodiverse to make a single result file (e.g. in a database or GIS program).
-  1. Duplicate the BaseData file and store subsets of the outputs in each new BaseData file.  Then re-run the randomisations as many times as there are new BaseDatas, but making sure you specify the same starting seed for each.  The seed ensures the randomised BaseDatas will all be identical (replicated) at each iteration, and the end result is the same as doing them all within the one BaseData (if it would fit within memory).  This can take much longer than the other options as each randomisation iteration must be regenerated for each replicated BaseData.  Randomisations of large data sets using the rand\_structured function will take the longest, as the system must reconverge on the richness targets for each replicated iteration (it does not record how it did it, but the seed ensures the same result each time).
+  1. Duplicate the BaseData file and store subsets of the outputs in each new BaseData file.  Then re-run the randomisations as many times as there are new BaseDatas, but making sure you specify the same starting seed for each.  The seed ensures the randomised BaseDatas will all be identical (replicated) at each iteration, and the end result is the same as doing them all within the one BaseData (if it would fit within memory).  This can take much longer than the other options as each randomisation iteration must be regenerated for each replicated BaseData.  Randomisations of large data sets using the rand_structured function will take the longest, as the system must reconverge on the richness targets for each replicated iteration (it does not record how it did it, but the seed ensures the same result each time).
