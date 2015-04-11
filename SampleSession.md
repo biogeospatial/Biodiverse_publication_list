@@ -38,7 +38,7 @@ Perl is able to handle different numeric locales, however there are some consequ
 
 ## Opening Data ##
 
-Data can be loaded into a project if they have previously been saved as separate files on disk.  Use the  _Open_ options under the respective menus, or click on the open folder icon from the selected object bar (tooltip "open from native format").  The filename extensions for each object type are given at [DataStructures#File_naming_scheme](DataStructures#File-naming-scheme).
+Data can be loaded into a project if they have previously been saved as separate files on disk.  Use the  _Open_ options under the respective menus, or click on the open folder icon from the selected object bar (tooltip "open from native format").  The filename extensions for each object type are given at [DataStructures#file-naming-scheme](DataStructures#file-naming-scheme).
 
 Change the name in the textbox at the top if you want to list them by a different name.
 
@@ -122,7 +122,7 @@ If you specify that your data **are** in matrix form then the next window will l
 
 The group options for the matrix imports are the same as for the non-matrix imports.
 
-The key difference from the non-matrix import are the label_start_col and label_end_col column options (the Label option is also not available).  These denote which column headers to use for the labels.  The label_end_col is optional.  If not specified then the system will use all columns after the label_start_col.  If more than one start and/or end column is specified then the system will use the first start col and last end col (see [issue #164](/shawnlaffan/biodiverse/issues/164)).  If you have a single label column before the groups are specified then you will need to edit the file so it is after the groups, as the system currently only allows one option per column so it cannot be both start and end.  Include and exclude columns apply as before, so take care not to specify a label column as include or exclude as it might not do what you want (although it is possible that it will, for example if presence of a species should be used to exclude a sample row).  If you want to skip columns between the label start and end columns then set an exclude column in a label remap file.  Remember also that the values for each row are the sample counts - set the "Convert sample counts to binary" option in the preceding window if you only want presence/absence data per group.  Finally, use a [label remap/property table](DataStructures#Element-property-tables) to change the column names, for example to separate genus and species into separate axes for analysis.
+The key difference from the non-matrix import are the label_start_col and label_end_col column options (the Label option is also not available).  These denote which column headers to use for the labels.  The label_end_col is optional.  If not specified then the system will use all columns after the label_start_col.  If more than one start and/or end column is specified then the system will use the first start col and last end col (see [issue #164](/shawnlaffan/biodiverse/issues/164)).  If you have a single label column before the groups are specified then you will need to edit the file so it is after the groups, as the system currently only allows one option per column so it cannot be both start and end.  Include and exclude columns apply as before, so take care not to specify a label column as include or exclude as it might not do what you want (although it is possible that it will, for example if presence of a species should be used to exclude a sample row).  If you want to skip columns between the label start and end columns then set an exclude column in a label remap file.  Remember also that the values for each row are the sample counts - set the "Convert sample counts to binary" option in the preceding window if you only want presence/absence data per group.  Finally, use a [label remap/property table](DataStructures#element-property-tables) to change the column names, for example to separate genus and species into separate axes for analysis.
 
 Those columns marked as ignore but between a label_start_col and label_end_col will be imported.
 
@@ -136,7 +136,7 @@ The next window allows you to order your labels and groups for the desired view.
 
 Note: once the data are imported and opened, the first group axis will be displayed along a horizontal axis and the second (if one exists) on a vertical axis. Biodiverse does not currently support a graphical view for more than two group axes, although they can still be imported and analysed.  Any data set containing more than two axes will be displayed using the first two axes.
 
-Once you have accepted the label and group ordering, and if you had previously specified that you wished to set label and/or group properties and remap, you are brought to a final set of windows where you can select the element property table file and its respective parameters (one each for labels and groups if you selected both).  If you did not specify that any properties were to be set then this step is skipped.  The set of windows is the same for group and label properties, although the column options differ between them.  (See also [DataStructures#Element_property_tables](DataStructures#element-property-tables) for details about importing other properties).
+Once you have accepted the label and group ordering, and if you had previously specified that you wished to set label and/or group properties and remap, you are brought to a final set of windows where you can select the element property table file and its respective parameters (one each for labels and groups if you selected both).  If you did not specify that any properties were to be set then this step is skipped.  The set of windows is the same for group and label properties, although the column options differ between them.  (See also [DataStructures#element-property-tables](DataStructures#element-property-tables) for details about importing other properties).
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen1.png)
 
@@ -157,7 +157,7 @@ Data being appended to an existing BaseData object should have group data in the
 
 You may also create a new BaseData object as a duplicate of the currently selected BaseData by the _Basedata->Duplicate_ menu option.  This will also duplicate any analyses performed on the BaseData. To duplicate the BaseData only, select _Basedata->Duplicate without outputs_.
 
-Note that any spatial index will need to be rebuilt if new data are imported (unless no new groups are added).  See [KeyConcepts#Using_the_spatial_index](KeyConcepts#using-the-spatial-index).
+Note that any spatial index will need to be rebuilt if new data are imported (unless no new groups are added).  See [KeyConcepts#using_the_spatial_index](KeyConcepts#using-the-spatial-index).
 
 ### Matrices ###
 
@@ -228,7 +228,7 @@ Sorting the label lists is done by clicking on the column headers. Subsequent cl
 
 ![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_label_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_label_selected.png)
 
-At version 0.14 there are five or six columns: the Label (the name of the label), Variety, Samples, Redundancy and Selected.  The "Col selected" column is only visible if the project has a selected matrix.  From version 0.15 there are also columns for any user specified properties imported using an element properties table ([DataStructures#Element_property_tables](DataStructures#element-property-tables)).
+At version 0.14 there are five or six columns: the Label (the name of the label), Variety, Samples, Redundancy and Selected.  The "Col selected" column is only visible if the project has a selected matrix.  From version 0.15 there are also columns for any user specified properties imported using an element properties table ([DataStructures#element_property_tables](DataStructures#element-property-tables)).
 
 The Variety column shows the number of groups the label occurs in. This is analogous to the range unless one is set separately on import using the _set label remap and properties_ option.
 
@@ -453,7 +453,7 @@ The specific index that is displayed is determined using the two selection boxes
 
 Holding the control key while clicking on a group, or clicking on a group with the middle mouse button, produces a pop-up list with all the results in it, including those that cannot be displayed spatially. It also includes lists of the elements (groups) in each neighbour set (Elements set1, set2 and all) and of the labels in these neighbour sets (Labels set1, set2 and all). “All” is the union of neighbour sets 1 and 2.
 
-Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#Map_overlays)).
+Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#map-overlays](KeyConcepts#map-overlays)).
 
 The interpretation of some of the list results can take some thought.  Consider the [ENDC_WTLIST](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_central) result.  The set of groups that have a result (are coloured) are those that contained that label in their neighbour set.  This is not the same as the set of groups that contain that label (unless a condition was used that only uses the processing group, e.g. `sp_self_only()` or `$D==0`).  The main advantage of plotting these sorts of lists is that one can visualise where a specific label has a large or small effect.  In terms of weighted endemism, which is an additive calculation, one can also conduct further calculations outside of Biodiverse to determine which labels are contributing the most to the [ENDC_WE](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_central) or [ENDW_WE](http://code.google.com/p/biodiverse/wiki/Indices#Endemism_whole) scores for each group's neighbour set.  This can be done by Control-clicking to open the popup list window and then copying and pasting, or [exporting](KeyConcepts#export) the data to a different format.
 
