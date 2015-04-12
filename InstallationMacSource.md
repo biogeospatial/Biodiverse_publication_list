@@ -65,12 +65,12 @@ perl BiodiverseGUI.pl &
 
 
 
-> The full path to perl is specified to ensure the MacPorts version is used.  You can dispense with the `/opt/local/bin` text if the MacPorts version is the first perl in the search path. To check if it is, type:
+  The full path to perl is specified to ensure the MacPorts version is used.  You can dispense with the `/opt/local/bin` text if the MacPorts version is the first perl in the search path. To check if it is, type:
 ```bash
 which perl
 ```
 
-> If it returns `/opt/local/bin/perl` then you can just type this command to run Biodiverse.
+  If it returns `/opt/local/bin/perl` then you can just type this command to run Biodiverse.
 ```bash
 perl ~/biodiverse/bin/BiodiverseGUI.pl
 ```
@@ -79,11 +79,11 @@ perl ~/biodiverse/bin/BiodiverseGUI.pl
 ```bash
 alias biodiverse = '/opt/local/bin/perl ~/biodiverse/bin/BiodiverseGUI.pl'
 ```
-> The next time you open a terminal window you can just type this to start the system:
+  The next time you open a terminal window you can just type this to start the system:
 ```bash
 biodiverse
 ```
-> If you are impatient and don't want to open a new window then type this after editing the file (note that you don't need to do it when you start a new terminal).
+  If you are impatient and don't want to open a new window then type this after editing the file (note that you don't need to do it when you start a new terminal).
 ```bash
 source ~/.profile
 biodiverse
