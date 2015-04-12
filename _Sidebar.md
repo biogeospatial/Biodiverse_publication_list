@@ -1,5 +1,5 @@
 
-  * [HelpOverview](../HelpOverview)
+  * [Home](Home)
   * [AnalysisTypes](../AnalysisTypes)
   * [DataStructures](../DataStructures)
   * [FAQ](FAQ)
