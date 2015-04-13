@@ -2,8 +2,8 @@ These instructions apply to version 0.17.
 
 # Installation #
 
-  * Decompress and untar the Biodiverse package file to your hard drive.  The following assumes you have unzipped it so $HOME/biodiverse is the top level.  If you use a different path then modify the commands as appropriate.
-  * You might need to also install some of the dependencies, depending on your Linux installation.  See the InstallationLinuxSource page for details (the lines containing apt-get).
+  * Decompress and untar the Biodiverse package file to your hard drive.  The following assumes you have unzipped it so `$HOME/biodiverse` is the top level.  If you use a different path then modify the commands as appropriate.
+  * You might need to also install some of the dependencies, depending on your Linux installation.  See the [InstallationLinuxSource](InstallationLinuxSource) page for details (the lines containing apt-get).
 
 # Running it #
 
