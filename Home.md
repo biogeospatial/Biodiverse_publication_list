@@ -1,3 +1,5 @@
+{"gitdown": "contents", "maxLevel": 4}
+
 # Introduction #
 
 This is an overview of the help system.  At this stage the system is very much a work in progress.  Any constructive feedback is appreciated, either through comments on the pages themselves, or by raising a new issue (https://github.com/shawnlaffan/biodiverse/issues/).
