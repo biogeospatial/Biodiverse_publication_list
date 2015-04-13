@@ -4,6 +4,7 @@
   * [DataStructures](DataStructures)
   * [FAQ](FAQ)
   * [Indices](Indices)
+  * [Indices (development version)](IndicesDevVersion)
   * [Installation](Installation)
   * [KeyConcepts](KeyConcepts)
   * [PublicationsList](PublicationsList)
