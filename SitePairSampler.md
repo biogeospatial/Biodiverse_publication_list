@@ -1,4 +1,9 @@
-**Table of contents**:
+**Table of contents:**
+* [Introduction](#introduction)
+* [Download](#download)
+* [Setup](#setup)
+* [Running it](#running-it)
+* [Trouble shooting](#trouble-shooting)
 
 
 # Introduction #

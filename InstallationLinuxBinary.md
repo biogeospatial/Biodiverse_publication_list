@@ -1,6 +1,9 @@
 These instructions apply to version 0.19.
 
-**Table of contents**:
+**Table of contents:**
+* [Installation](#installation)
+* [Running it](#running-it)
+* [Troubleshooting and changes](#troubleshooting-and-changes)
 
 
 # Installation #

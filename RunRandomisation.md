@@ -1,4 +1,10 @@
-**Table of contents**:
+**Table of contents:**
+* [Introduction](#introduction)
+* [Usage and arguments](#usage-and-arguments)
+* [When is this useful?](#when-is-this-useful)
+* [Caveats and gotchas](#caveats-and-gotchas)
+* [Ignoring new arguments is useful](#ignoring-new-arguments-is-useful)
+* [Limitations](#limitations)
 
 
 # Introduction #

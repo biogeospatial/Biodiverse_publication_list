@@ -1,4 +1,22 @@
 **Table of contents:**
+* [Introduction](#introduction)
+* [Projects](#projects)
+* [Elements](#elements)
+* [BaseStructs](#basestructs)
+* [BaseData](#basedata)
+  * [Labels](#labels)
+  * [Groups](#groups)
+  * [Spatial outputs](#spatial-outputs)
+  * [Cluster outputs](#cluster-outputs)
+  * [Randomisation outputs](#randomisation-outputs)
+* [Matrices](#matrices)
+* [Trees](#trees)
+  * [Tree Nodes](#tree-nodes)
+* [Remap tables](#remap-tables)
+* [Element property tables](#element-property-tables)
+  * [Importing element property data](#importing-element-property-data)
+  * [The table file](#the-table-file)
+* [File naming scheme](#file-naming-scheme)
 
 
 # Introduction #

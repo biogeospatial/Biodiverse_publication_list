@@ -2,7 +2,38 @@ This is the main source of documentation for the GUI.  It needs further developm
 
 If you find parts of it need to be clarified, or material is missing, then please add a comment at the end of the page or submit an issue (http://code.google.com/p/biodiverse/issues).  If you would like to contribute to the documentation then please submit changes as diff/patch format files if possible as these make it easier to review and apply the changes.  If you aren't sure what those are then plain text will do just as well.
 
-**Table of contents**:
+**Table of contents:**
+* [A sample session](#a-sample-session)
+  * [A word of warning](#a-word-of-warning)
+* [Opening/importing data](#opening-importing-data)
+  * [Opening Data](#opening-data)
+  * [Importing Data](#importing-data)
+    * [BaseData](#basedata)
+      * [Common (pt1)](#common--pt1)
+      * [Data are not in matrix format](#data-are-not-in-matrix-format)
+      * [Data are in matrix format](#data-are-in-matrix-format)
+      * [Common (pt2)](#common--pt2)
+      * [Adding to an existing data set](#adding-to-an-existing-data-set)
+    * [Matrices](#matrices)
+    * [Trees](#trees)
+* [Visualising data](#visualising-data)
+  * [The Label Lists](#the-label-lists)
+  * [The Group Grid](#the-group-grid)
+  * [The Matrix Grid](#the-matrix-grid)
+  * [The Tree](#the-tree)
+* [Excluding Data](#excluding-data)
+* [Building a spatial index](#building-a-spatial-index)
+* [Running a Cluster Analysis](#running-a-cluster-analysis)
+  * [Cluster parameters](#cluster-parameters)
+  * [Running calculations for each node](#running-calculations-for-each-node)
+  * [Viewing the cluster results](#viewing-the-cluster-results)
+* [Running a spatial (moving window) analysis](#running-a-spatial--moving-window--analysis)
+  * [Spatial analysis options](#spatial-analysis-options)
+  * [Running analyses for the neighbour sets](#running-analyses-for-the-neighbour-sets)
+  * [Viewing the spatial results](#viewing-the-spatial-results)
+* [Running a randomisation](#running-a-randomisation)
+  * [Interpreting the results](#interpreting-the-results)
+* [Exporting and saving](#exporting-and-saving)
 
 
 # A sample session #

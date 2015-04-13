@@ -1,4 +1,15 @@
-**Table of contents**:
+**Table of contents:**
+* [Introduction](#introduction)
+* [Uses for spatial conditions](#uses-for-spatial-conditions)
+  * [Neighbourhoods](#neighbourhoods)
+  * [Definition Queries](#definition-queries)
+* [Some details](#some-details)
+* [Evaluation](#evaluation)
+* [Functions](#functions)
+  * [Examples using functions](#examples-using-functions)
+* [Variables](#variables)
+  * [Examples using variables](#examples-using-variables)
+* [Declaring variables and using more complex functions](#declaring-variables-and-using-more-complex-functions)
 
 
 # Introduction #

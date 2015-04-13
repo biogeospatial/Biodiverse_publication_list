@@ -1,4 +1,7 @@
-**Table of contents**:
+**Table of contents:**
+* [Importing Base Data](#importing-base-data)
+  * [Importing a new BaseData object](#importing-a-new-basedata-object)
+  * [Import Options](#import-options)
 
 
 

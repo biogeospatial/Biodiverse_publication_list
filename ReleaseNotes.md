@@ -1,4 +1,22 @@
-**Table of contents**:
+**Table of contents:**
+* [Version 0.99](#version-0.99)
+  * [Version 0.99_007](#version-0.99-007)
+  * [Version 0.99_006](#version-0.99-006)
+  * [Version 0.99_005](#version-0.99-005)
+  * [Version 0.99_004](#version-0.99-004)
+  * [Version 0.99_002](#version-0.99-002)
+  * [Version 0.99_001](#version-0.99-001)
+* [Version 0.19](#version-0.19)
+* [Version 0.18](#version-0.18)
+* [Version 0.17](#version-0.17)
+* [Version 0.16](#version-0.16)
+* [Version 0.15](#version-0.15)
+* [Version 0.14](#version-0.14)
+* [Version 0.13](#version-0.13)
+* [Version 0.12](#version-0.12)
+* [Version 0.11](#version-0.11)
+* [Version 0.10](#version-0.10)
+* [Version 0.9.1185](#version-0.9.1185)
 
 
 # Version 0.99 #

@@ -8,7 +8,10 @@ Note that this can take quite some time.  If you have not previously installed X
 
 You might want to consider using the Windows or Linux executable versions under a virtual machine environment such as [Virtualbox](http://www.virtualbox.org/).
 
-**Table of contents**:
+**Table of contents:**
+* [Installation](#installation)
+* [Running it](#running-it)
+* [Trouble shooting](#trouble-shooting)
 
 
 # Installation #
