@@ -1,6 +1,6 @@
 # Available downloads #
 
-**Table of contents**:
+**Table of contents:**
 
 
 ## Biodiverse GUI ##
