@@ -14,7 +14,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
 
 This is the seventh phase of the development version leading towards version 1.0.
 
-Main changes since the preceding version ([0.99_006](#version-0-99-006)) are below.  Issue numbers which are not crossed out are yet to be completed.
+Main changes since the preceding version ([0.99_006](#version-099_006)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
     * The label selection mode can now be set, so in addition to being able to create a new selection each time one of the grid, tree or matrix panes is clicked, users can now also add to or remove from the current selection.  This allows the selection of, for example, distinct clades on the tree.  These might then be deleted from the basedata using the deletion methods added in the previous development release.  [Issue 535](/shawnlaffan/biodiverse/issues/535)
@@ -25,7 +25,7 @@ Main changes since the preceding version ([0.99_006](#version-0-99-006)) are bel
 
 This is the sixth phase of the development version leading towards version 1.0.
 
-Main changes since the preceding version ([0.99_005](#version-0-99-005)) are below.  Issue numbers which are not crossed out are yet to be completed.
+Main changes since the preceding version ([0.99_005](#version-099_005)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
     * The new pan and zoom functionality now works consistently across all views (maps, trees and matrices).  [Issue 353](/shawnlaffan/biodiverse/issues/353)
@@ -49,7 +49,7 @@ Main changes since the preceding version ([0.99_005](#version-0-99-005)) are bel
 
 This is the fifth phase of the development version leading towards version 1.0.
 
-Main changes since the preceding version ([0.99_004](#version-099-004)) are below.  Issue numbers which are not crossed out are yet to be completed.
+Main changes since the preceding version ([0.99_004](#version-099_004)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
     * The colour of cells with undefined (nodata) values can now be set by the user.  So can the colour of cells which failed the definition query or were otherwise excluded.  [Issue 278](/shawnlaffan/biodiverse/issues/278)
@@ -89,7 +89,7 @@ Main changes since the preceding version ([0.99_002](#version-099_002)) are belo
 
 This is the second phase of the development version leading towards version 1.0.
 
-Main changes since the preceding version ([0.99_001](#version_099_001)) are below.  Issue numbers which are not crossed out are yet to be completed.
+Main changes since the preceding version ([0.99_001](#version-099_001)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
 
   * GUI
@@ -159,7 +159,7 @@ Main changes since the previous version (0.19) are below.  Issue numbers which a
 
 # Version 0.19 #
 
-This was released on 28-Oct-2013.  It is a stable release and contains all changes from the 0.18 development series.  See the list [here](#version-0-18).
+This was released on 28-Oct-2013.  It is a stable release and contains all changes from the 0.18 development series.  See the list [here](#version-018).
 
 To see the full list of issues and changes in this release, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release0.18
 
