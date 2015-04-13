@@ -3,7 +3,7 @@
   * [AnalysisTypes](AnalysisTypes)
   * [DataStructures](DataStructures)
   * [FAQ](FAQ)
-  * [Indices](Indices)
+  * [Indices (stable version)](Indices)
   * [Indices (development version)](IndicesDevVersion)
   * [Installation](Installation)
   * [KeyConcepts](KeyConcepts)
