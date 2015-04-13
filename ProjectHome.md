@@ -13,13 +13,13 @@ Biodiverse is a tool for the spatial analysis of diversity using indices based o
 
 Biodiverse is open-source and supports user developed extensions. It can be used both through a graphical user interface (GUI) and through user written scripts.
 
-More than 250 indices are supported.  See the [Indices](Indices.md) page.
+More than 250 indices are supported.  See the [Indices](Indices) page.
 
 **Screen shots** can be found on the ScreenShots page.
 
-**Example** applications can be seen at the [publications page](PublicationsList.md).
+**Example** applications can be seen at the [publications page](PublicationsList).
 
-**Help** can be located via the [help pages](HelpOverview.md) (these are also listed at the left of this page).
+**Help** can be located via the [help pages](HelpOverview) (these are also listed at the left of this page).
 
 A **discussion group** is at http://groups.google.com.au/group/biodiverse-users and a **blog** at http://biodiverse-analysis-software.blogspot.com.au/
 

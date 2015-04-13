@@ -8,15 +8,15 @@ Spatial conditions are core to the Biodiverse system.  They are used to specify 
 
 Spatial conditions are used both to define the neighbourhoods of the spatial analyses and the definition queries used to constrain the set of groups used in the analyses.
 
-> ## Neighbourhoods ##
+## Neighbourhoods ##
 
 Neighbourhoods are essential for any spatial analysis, as it is through these that one can define the set of groups to be considered in an analysis.  In the moving window analyses these determine which groups are compared with which other groups.  In the cluster analyses they determine which groups are considered candidates to be clustered together.  It is also possible to define neighbourhoods for spatially constrained randomisations (see [Laffan and Crisp, 2003, J Biogeog](http://www3.interscience.wiley.com/journal/118882020/abstract)), although this is yet to be implemented (see [issue #76](/shawnlaffan/biodiverse/issues/76)).
 
 Before we describe the process, some definitions are needed.  The **processing group** is the group being considered in the analysis at some iteration, and to which the results for that iteration are assigned.  A group is a member of the processing group's set of neighbours (is a **neighbouring group**) if the spatial condition evaluates to true.
 
-A [spatial analysis](AnalysisTypes#spatial-analyses) progressively iterates over each group that passes the definition query, assessing every other group for membership in neighbour set 1 or 2.  The selected indices are then calculated using the groups that occur in neighbour sets 1 and 2 (and their labels and other properties as required by the [calculations](KeyConcepts#Calculations.md)).
+A [spatial analysis](AnalysisTypes#spatial-analyses) progressively iterates over each group that passes the definition query, assessing every other group for membership in neighbour set 1 or 2.  The selected indices are then calculated using the groups that occur in neighbour sets 1 and 2 (and their labels and other properties as required by the [calculations](KeyConcepts#calculations)).
 
-> ## Definition Queries ##
+## Definition Queries ##
 
 These differ from neighbourhoods as they assess only the processing group to determine if calculations should be run for it or not.  They use the same syntax as for neighbourhoods, but the system will commonly complain if a condition requiring a neighbouring group is used.
 
@@ -65,7 +65,7 @@ The available functions in version 0.17 are:
   * sp_point_in_poly_shape
 
 
-> ## Examples using functions ##
+## Examples using functions ##
 
 ```perl
 #  radius of 100,000 map units, uses all axes so will 
@@ -237,7 +237,7 @@ Note that using `abs($d[1])` is the same as using `$D[1]`.
 Non-programmers need to note that the array index starts from zero, so `$coord[1]` is the second coordinate axis and not the first.  This differs from systems like R and AWK, but is consistent with many other programming languages like C and Python.
 
 
-> ## Examples using variables ##
+## Examples using variables ##
 
   * Set the neighbours to be those groups where the absolute distance from the processing group is less than 100,000.
 

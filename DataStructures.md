@@ -31,11 +31,11 @@ One potentially useful function you can perform on the BaseData is to transpose 
 
 ## Labels ##
 
-A labels object is a special type of BaseStruct, with the labels being a special type of [element](#Element.md).  Typically they represent species, but in reality they can be any named entity that is then collected and aggregated into a group.  Their unique identifier (name) can consist of any number of axes, allowing the representation of taxonomic order or some other hierarchy within the labels.
+A labels object is a special type of BaseStruct, with the labels being a special type of [element](#element).  Typically they represent species, but in reality they can be any named entity that is then collected and aggregated into a group.  Their unique identifier (name) can consist of any number of axes, allowing the representation of taxonomic order or some other hierarchy within the labels.
 
 ## Groups ##
 
-A groups object is also a special type of BaseStruct object, with groups also being a special type of [element](#Element.md).  Typically groups are square cells into which the labels are aggregated (binned), but can represent any number of axes with differing cell sizes and numeric and text types.  These are plotted in the map outputs and used for the spatial components of the moving window, cluster and randomisation analyses.
+A groups object is also a special type of BaseStruct object, with groups also being a special type of [element](#element).  Typically groups are square cells into which the labels are aggregated (binned), but can represent any number of axes with differing cell sizes and numeric and text types.  These are plotted in the map outputs and used for the spatial components of the moving window, cluster and randomisation analyses.
 
 Groups are analogous to bins in other systems, for example [UniFrac](http://bmf2.colorado.edu/unifrac/index.psp).
 
@@ -43,19 +43,19 @@ Group coordinates: For numerical coordinates, such as X,Y, the group location is
 
 ## Spatial outputs ##
 
-These are a BaseStruct object and used to store the results of a moving window analysis.  They are also used in the cluster analyses to determine which neighbours should be considered for each of the cluster matrices, as this is just a spatial analysis with no actual analyses, just the neighbour sets for each [element](#Element.md).
+These are a BaseStruct object and used to store the results of a moving window analysis.  They are also used in the cluster analyses to determine which neighbours should be considered for each of the cluster matrices, as this is just a spatial analysis with no actual analyses, just the neighbour sets for each [element](#element).
 
 More details are (or will be) given in [AnalysisTypes#Spatial_analyses](AnalysisTypes#spatial-analyses) and [SampleSession#Running_a_spatial_(moving_window)_analysis](SampleSession#running-a-spatial-moving-window-analysis).
 
 ## Cluster outputs ##
 
-These are a tree object, but also store the matrices used in their construction.  The terminal nodes have the name of the relevant [group](#Group.md) (element) from the BaseData object, and this is used to link the data in the display.
+These are a tree object, but also store the matrices used in their construction.  The terminal nodes have the name of the relevant [group](#group) (element) from the BaseData object, and this is used to link the data in the display.
 
-More detals are (or will be) given in [AnalysisTypes#Clustering](AnalysisTypes#Clustering.md) and [SampleSession#Running_a_Cluster_Analysis](SampleSession#running-a-cluster-analysis).
+More detals are (or will be) given in [AnalysisTypes#Clustering](AnalysisTypes#clustering) and [SampleSession#Running_a_Cluster_Analysis](SampleSession#running-a-cluster-analysis).
 
 ## Randomisation outputs ##
 
-The randomisation outputs do not themselves store any results (see [AnalysisTypes#Randomisations](AnalysisTypes#Randomisations.md)).  In addition to the arguments used in their creation, they store the PRNG's current state, as well as that used to start the PRNG stream.
+The randomisation outputs do not themselves store any results (see [AnalysisTypes#Randomisations](AnalysisTypes#randomisations)).  In addition to the arguments used in their creation, they store the PRNG's current state, as well as that used to start the PRNG stream.
 
 See also [SampleSession#Running_a_randomisation](SampleSession#running-a-randomisation).
 

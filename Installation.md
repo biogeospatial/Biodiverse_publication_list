@@ -1,12 +1,13 @@
 Installation instructions.
 
   * Windows
-    * Executable:  InstallationWindowsBinary
-    * Source code:  InstallationWindowsSource
+    * Executable:  [InstallationWindowsBinary](InstallationWindowsBinary)
+    * Source code:  [InstallationWindowsSource](InstallationWindowsSource)
   * Macintosh
-    * Binary:  InstallationMacBinary
-    * Source code:  InstallationMacSource
+    * Binary:  [InstallationMacBinary](InstallationMacBinary)
+    * Source code:  [InstallationMacSource](InstallationMacSource)
   * Linux
-    * Binary:  InstallationLinuxBinary
-    * Source code:  InstallationLinuxSource
-  * [Back to main table of contents](TOC.md)
+    * Binary:  [InstallationLinuxBinary](InstallationLinuxBinary)
+    * Source code:  [InstallationLinuxSource](InstallationLinuxSource)
+  * [Back to main table of contents](Home)
+  
