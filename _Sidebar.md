@@ -1,5 +1,7 @@
 
   * [Home](Home)
+  * [Downloads](Downloads)
+
   * [AnalysisTypes](AnalysisTypes)
   * [DataStructures](DataStructures)
   * [FAQ](FAQ)
