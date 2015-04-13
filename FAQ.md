@@ -1,6 +1,6 @@
 This is a list of questions that might be frequently asked.  It will be extended as more questions come to light.
 
-
+**Table of contents**:
 
 
 # General Questions #

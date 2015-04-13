@@ -1,4 +1,7 @@
-These instructions apply to version 0.17.
+These instructions apply to version 0.19.
+
+**Table of contents**:
+
 
 # Installation #
 

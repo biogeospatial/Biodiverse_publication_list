@@ -1,3 +1,11 @@
+**Table of contents**:
+* [Introduction](#introduction)
+* [Clustering](#clustering)
+* [Spatial analyses](#spatial-analyses)
+* [Matrix visualisations](#matrix-visualisations)
+* [Region Grower](#region-grower)
+* [Randomisations](#randomisations)
+  * [Where do the randomisation results go and what do they mean?](#where-do-the-randomisation-results-go-and-what-do-they-mean)
 
 
 # Introduction #

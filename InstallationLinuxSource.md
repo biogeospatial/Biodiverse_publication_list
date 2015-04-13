@@ -4,6 +4,8 @@ Note that they have been tested on Ubuntu.  The package manager will differ for 
 
 These also assume you have [downloaded](http://code.google.com/p/biodiverse/downloads/list) the Biodiverse source code to your home directory and renamed it from whatever it was, e.g. `biodiverse_0.17_source`, to `biodiverse`.  If you have saved it somewhere else then you will need to adjust the following so any references to `$HOME/biodiverse/lib` use the appropriate directory.
 
+**Table of contents**:
+
 
 # Installation #
 

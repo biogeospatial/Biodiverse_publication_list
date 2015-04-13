@@ -1,3 +1,6 @@
+**Table of contents**:
+
+
 # Introduction #
 
 **Site Pair Sampler** is an add-on script for _Biodiverse_, to sample compositional dissimilarity between pair of sites.  It is designed for use with Generalised Dissimilarity Modelling (GDM) or other models of compositional turnover.

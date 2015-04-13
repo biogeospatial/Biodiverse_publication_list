@@ -1,11 +1,8 @@
-<a href='Hidden comment: The source of this document is the Sample_session.pdf file distributed with versions 0.11 and earlier.  This was converted from !OpenOffice to wiki format, via html.
-'></a>
-
-
 This is the main source of documentation for the GUI.  It needs further development, and much of the content will move into the other wiki pages over time, with this document being shortened and serving the purpose of an overview.
 
 If you find parts of it need to be clarified, or material is missing, then please add a comment at the end of the page or submit an issue (http://code.google.com/p/biodiverse/issues).  If you would like to contribute to the documentation then please submit changes as diff/patch format files if possible as these make it easier to review and apply the changes.  If you aren't sure what those are then plain text will do just as well.
 
+**Table of contents**:
 
 
 # A sample session #
