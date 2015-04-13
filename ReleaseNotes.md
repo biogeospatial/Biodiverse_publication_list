@@ -6,7 +6,7 @@ This is a development release series, leading towards version 1.0.
 
 Collectively, these releases comprise several major changes to the underlying code-base, as well as the addition of a number of major new features.  They are not backwards compatible with previous versions (0.19 and earlier) in several respects.  They can still use most Biodiverse files created using earlier versions, but files created using this version are not guaranteed to work with earlier versions.
 
-For the full list of issues and changes leading to the 1.0 release, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release1.0
+For the full list of issues and changes leading to the 1.0 release, see https://github.com/shawnlaffan/biodiverse/milestones/Release1.0
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
