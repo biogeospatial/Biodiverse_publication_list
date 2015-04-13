@@ -4,7 +4,7 @@ This page follows on from step 2 of importing Basedata
 
 **Step 3**  If you specified that your data **were** in matrix format, the following dialogue window will appear.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step3_matrix_format.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step3_matrix_format.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png)
 
 At least one column must be set to "Group" using the Type drop-down menu. Selection of a Group column gives the option to define cell size (in the same units as the group data is stored) and origin. Please note that the default cell size is 100,000.00 and default origin is 0.00, these values may need to be adjusted to suit the data being imported.  The origin option allows alignment of the imported data with a non-zero origin when necessary (e.g. when using coarse resolution climate data in a related analysis to ensure the resulting cell boundaries align exactly between data sets).
 

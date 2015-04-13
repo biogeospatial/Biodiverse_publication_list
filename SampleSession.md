@@ -42,7 +42,7 @@ Data can be loaded into a project if they have previously been saved as separate
 
 Change the name in the textbox at the top if you want to list them by a different name.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/open_existing_object.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/open_existing_object.png)
+![http://purl.org/biodiverse/wiki/screenshots/open_existing_object.png](http://purl.org/biodiverse/wiki/screenshots/open_existing_object.png)
 
 Note the common “Places” in the left panel of the window. This is the bookmark system used by Gtk (the window system we use), and is persistent across sessions.  You can also select a folder in the right panel and click the _Add_ button to permanently add this folder to the Places panel for convenient access in the future. Likewise, you can remove added (but not default) directories with the _Remove_ button.  You should also be able to drag and drop folders onto the place section.
 
@@ -71,11 +71,11 @@ Most of the import process is common for both, but the specification of groups a
 
 From the BaseData import dialogue window you can select your data file or files. The text box at the top right of the window allows you to name the BaseData object that will be produced (as opposed to the default file name). Once you are finished, click Next.  Multiple files can be imported in the one process so long as they all share the same column order and meaning (the column names do not matter, only the contents).  If you have several files that do not share column orders then import each one separately into the same BaseData.  If your data were generated in R using the write.table() function then from version 0.14 the system will detect this and allow for the missing column header for the row names (see [issue #20](/shawnlaffan/biodiverse/issues/20)).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step1.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step1.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step1.png)
 
 You will then see a window with various options you can set for the import, such as whether remapping tables are to be used.  If you specify that remapping will be used, you will be able to select your remapping file(s) after you set the parameters for the main BaseData import.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step2.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png)
 
 The set label/group properties and remap check boxes allow you to specify properties for the labels and groups.  See [DataStructures#element-property-tables](DataStructures#element-property-tables).
 
@@ -95,7 +95,7 @@ The next window allows you to specify how the columns in your file will be treat
 
 If you specify that your data **are not** in matrix form then the next window will look like this (explanation below).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step3.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step3.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png)
 
 You must set at least one Group and one Label column, but more than one of each may be chosen. For example, you may typically wish to use both a "species" column and a "genus" column (if separated in your file) as one combined label for your data points, or to specify both the x-coordinate and y-coordinate columns in a file as "Group", to specify a Cartesian grid (specifying only an "x" column or "y" column as the Group would result in a one-dimensional analysis of the data across that group's domain).  When a Group column has been set you will be given the option to select its cell size (in the same units as the group data is stored) and origin.  These default to 100,000.00 and 0.00, respectively so make sure they are appropriate to your data.  The origin allows you to align your imported data with a non-zero origin, e.g. you are using some coarse resolution climate data in a related analysis and you wish to ensure the resulting cell boundaries align exactly between data sets.
 
@@ -118,7 +118,7 @@ S23°32'09.567", E149°23'18.009"
 
 If you specify that your data **are** in matrix form then the next window will look like this (explanation below).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step3_matrix_format.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step3_matrix_format.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png)
 
 The group options for the matrix imports are the same as for the non-matrix imports.
 
@@ -132,17 +132,17 @@ Click OK.
 
 The next window allows you to order your labels and groups for the desired view. In the example data set, placing “genus” above “species” produces labels named with the species name concatenated after the genus name, and placing “y” above “x” makes the y column data the first dimension of a group's coordinates and x the second (this is useful if you have a file where latitude precedes longitude in the file's column order).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step4.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step4.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step4.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step4.png)
 
 Note: once the data are imported and opened, the first group axis will be displayed along a horizontal axis and the second (if one exists) on a vertical axis. Biodiverse does not currently support a graphical view for more than two group axes, although they can still be imported and analysed.  Any data set containing more than two axes will be displayed using the first two axes.
 
 Once you have accepted the label and group ordering, and if you had previously specified that you wished to set label and/or group properties and remap, you are brought to a final set of windows where you can select the element property table file and its respective parameters (one each for labels and groups if you selected both).  If you did not specify that any properties were to be set then this step is skipped.  The set of windows is the same for group and label properties, although the column options differ between them.  (See also [DataStructures#element-property-tables](DataStructures#element-property-tables) for details about importing other properties).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen1.png)
+![http://purl.org/biodiverse/wiki/screenshots/remap_labels_screen1.png](http://purl.org/biodiverse/wiki/screenshots/remap_labels_screen1.png)
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen2.png)
+![http://purl.org/biodiverse/wiki/screenshots/remap_labels_screen2.png](http://purl.org/biodiverse/wiki/screenshots/remap_labels_screen2.png)
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen3.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/remap_labels_screen3.png)
+![http://purl.org/biodiverse/wiki/screenshots/remap_labels_screen3.png](http://purl.org/biodiverse/wiki/screenshots/remap_labels_screen3.png)
 
 
 If you decide you don't want to select a remap file after all, simply click Cancel. The system will now import your data into a BaseData object. A status bar appears showing progress. When the import is complete, you are free to visualise and analyse the data. The Outputs tab shows all currently imported BaseData objects and associated analyses that you can work with.
@@ -151,7 +151,7 @@ If you decide you don't want to select a remap file after all, simply click Canc
 
 The process described above will create a new BaseData object in the Biodiverse session. Alternatively, if you have an existing BaseData object in your project and wish to add more data you can do so by following the normal import process, but in the dialogue window where you select the file to be imported, uncheck the “New” box at the top and select the existing BaseData set to import into from the drop-down menu.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_into_existing.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_into_existing.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_into_existing.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_into_existing.png)
 
 Data being appended to an existing BaseData object should have group data in the same coordinate system or numeric range as the existing BaseData (for example, 'x' and 'y' columns of decimal degree geographic coordinates if the existing data were so), otherwise the results will be unpredictable.  Labels are more flexible, and can be comprised of more or fewer components (columns) than the data being appended to.
 
@@ -165,11 +165,11 @@ Matrix data can be imported at any time, although it can only be viewed with an 
 
 When importing matrix data, you will first be asked to specify the matrix data file in the same way as for basedata objects.  As with BaseData files, if your data were generated in R using the write.table() function then from version 0.14 the system will detect this and allow for the missing column header for the row names (see [issue #20](/shawnlaffan/biodiverse/issues/20)).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_matrix_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_matrix_step1.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_matrix_step1.png](http://purl.org/biodiverse/wiki/screenshots/import_matrix_step1.png)
 
 The next window asks how the columns in the matrix file should be read.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_matrix_step2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_matrix_step2.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_matrix_step2.png](http://purl.org/biodiverse/wiki/screenshots/import_matrix_step2.png)
 
 You must select at least one label column, and one (and only one) “Matrix start” column. Any other columns in the file should be set to “Ignore”. Click Ok. Your matrix has now been imported, and should appear in the drop-down menu in the matrix toolbar at the top of the screen. It will be displayed the next time you visualise basedata (though keep in mind it will only produce a useful display if the matrix and basedata objects share some labels).
 
@@ -181,19 +181,19 @@ As with matrices, trees can be imported at any time, but can only be visualized 
 
 A tree must be in a nexus format (`*`.nex or `*`.tre extension). All trees in a nexus file will be imported and added to the project.  To import, select the import button in the Tree toolbar. A window will appear for you to select your file.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step1.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_tree_step1.png](http://purl.org/biodiverse/wiki/screenshots/import_tree_step1.png)
 
 Select your file and click Ok. You will then have the option of choosing a label remap file.  This is often needed so the node names match the relevant BaseData labels (see FAQ#my-phylogenetic-analyses-have-empty-results).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step2.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_tree_step2.png](http://purl.org/biodiverse/wiki/screenshots/import_tree_step2.png)
 
 If you don't wish to remap labels, simply click Cancel and the system will import the tree.  If you do then click OK and then you will be prompted to select a properties (remap) file, followed by an option to specify a column separator and quote character, and then the column types.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step3.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step3.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_tree_step3.png](http://purl.org/biodiverse/wiki/screenshots/import_tree_step3.png)
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step4.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step4.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_tree_step4.png](http://purl.org/biodiverse/wiki/screenshots/import_tree_step4.png)
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step5.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_tree_step5.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_tree_step5.png](http://purl.org/biodiverse/wiki/screenshots/import_tree_step5.png)
 
 Note that you need to specify as many input_element columns as the tree labels have (this will be one for nexus files, but will increase if we ever import tabular trees) and then as many remapped_element columns as your BaseData object has label columns.  This is so they match correctly.
 
@@ -206,7 +206,7 @@ Often the first step you will take once you have imported the data into a BaseDa
 
 Once this is done, you should see four panes, as below (the two panes on the right-hand side may be appear differently depending on whether a matrix or tree is currently selected in their respective dropdown menus in the toolbar at the top of the screen).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels1.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels1.png](http://purl.org/biodiverse/wiki/screenshots/view_labels1.png)
 
 The top left contains two lists of the labels in the selected basedata object. Each list can be sorted by any of the columns. The top right contains a grid of the selected matrix elements (it is blank if no matrix is selected). The bottom left contains a grid of the groups in the current basedata object. The bottom right contains the currently selected tree (blank if none selected).
 
@@ -226,7 +226,7 @@ Click on any row in the list to highlight a single label. Hold the shift key dow
 
 Sorting the label lists is done by clicking on the column headers. Subsequent clicks on column headers sort the data by that column in ascending, descending, and default order. The default order is by label, in alphabetical order. Re-ordering of these lists also re-orders the matrix plot.  The current selection in the lists is updated whenever you select elements in one of the other panes.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_label_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_label_selected.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels2_one_label_selected.png](http://purl.org/biodiverse/wiki/screenshots/view_labels2_one_label_selected.png)
 
 At version 0.14 there are five or six columns: the Label (the name of the label), Variety, Samples, Redundancy and Selected.  The "Col selected" column is only visible if the project has a selected matrix.  From version 0.15 there are also columns for any user specified properties imported using an element properties table ([DataStructures#element_property_tables](DataStructures#element-property-tables)).
 
@@ -246,11 +246,11 @@ Hovering over a group will highlight in bold the nodes in the tree corresponding
 
 Left-clicking on a group will highlight it in dark red. Other groups may also be highlighted depending on the number of labels they share with the selected group (darker red for more shared labels, lighter red for less, white for no labels in common). Similarly, you can click and drag a box around multiple groups. Groups will then be highlighted according to the number of labels they have in common with the selected group. Labels in selected groups will also be highlighted in the top label list (although the list does not automatically jump to them).  Drawing a box over the grid with the left mouse button selects labels from all the groups in the box, allocating the hue based on the species richness of the selection rather than a single group.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_group_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_group_selected.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels2_one_group_selected.png](http://purl.org/biodiverse/wiki/screenshots/view_labels2_one_group_selected.png)
 
 While holding the control key down, click on a group to display a pop-up window that allows you to see a list of the labels it contains and the sample size in that group for each label. Note: this will also select that group (and change highlighting as appropriate). To bring up any group's detailed information without changing current highlighting, use the middle/wheel mouse button to select a group.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels3_popup_group.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels3_popup_group.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels3_popup_group.png](http://purl.org/biodiverse/wiki/screenshots/view_labels3_popup_group.png)
 
 The title of this window indicates the group being examined. To re-use the same window to display another group's data, check the _Re-use_ box. If this box is unchecked, data for subsequently selected groups will be displayed in new windows. This is useful when making comparisons between label presence and sampling among different groups. The _Copy_ button in the group info window makes a copy of the group coordinates and all labels with their sample size to the clipboard for use elsewhere.
 
@@ -260,7 +260,7 @@ The group grid display extent (zoom level) can also be changed by using the thre
 
 ## The Matrix Grid ##
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_matrix_subset_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_matrix_subset_selected.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels2_matrix_subset_selected.png](http://purl.org/biodiverse/wiki/screenshots/view_labels2_matrix_subset_selected.png)
 
 The top right pane displays a grid of the currently selected matrix. Each cell represents a pair of labels from the label lists, coloured according to the pair's matrix value, with a colour scale for these values on the right of the matrix.
 
@@ -278,7 +278,7 @@ The matrix grid view can also be customised by using the three zoom buttons in t
 
 ## The Tree ##
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_clade_selected.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels2_one_clade_selected.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels2_one_clade_selected.png](http://purl.org/biodiverse/wiki/screenshots/view_labels2_one_clade_selected.png)
 
 The tree is generally a representation of the phylogenetic similarities between labels, although it could be used for anything that uses such a structure. In this pane, you should see two sections (assuming a tree object is selected in the main toolbar at the top of the window). The upper section displays the relationship between labels as a dendrogram, while the bottom section displays a simple graph of the proportion of nodes present to the left of a vertical cut through the tree above (known as the [scree plot](KeyConcepts#scree-plot)). If this plot is not immediately visible, it may be “hidden” at the bottom. Move the mouse toward the bottom of the tree pane until it indicates a bar that you can click on and drag upward to reveal the graph.  Use this bar to reduce the size of the scree plot if it is too large.
 
@@ -290,7 +290,7 @@ Left-clicking on a branch node selects all labels in terminal descendants (singl
 
 Control-click on a node to display a pop-up window from which you can access lists of the labels, groups and node characteristics (length, name, etc). General interaction with this pop-up is the same as that for the group info pop-up described [above](#the-group-grid).
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels3_popup_clade.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/view_labels3_popup_clade.png)
+![http://purl.org/biodiverse/wiki/screenshots/view_labels3_popup_clade.png](http://purl.org/biodiverse/wiki/screenshots/view_labels3_popup_clade.png)
 
 You should notice a blue vertical sliding bar on the right side of the tree pane. Sometimes it can disappear off the side under the scroll bar, in which case use the zoom controls to zoom out and locate it, or find it in the scree plot. Hovering the mouse over this bar will display three numbers. The first two numbers indicate the quantity and percentage of nodes present to the right of the bar. If the tree is plotted by node depth, the third number indicates the depth at the current bar position. If the plot is by node length, the third number indicates the distance from the bar position to the most distant (left-most) leaf node.
 
@@ -303,7 +303,7 @@ Once you have looked at the labels, or even before if you are confident, you can
 
 To run the exclusions on the currently selected basedata object, open menu option _Basedata -> Run Exclusions_. You should see a window similar to the one below.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/run_exclusions_checked.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/run_exclusions_checked.png)
+![http://purl.org/biodiverse/wiki/screenshots/run_exclusions_checked.png](http://purl.org/biodiverse/wiki/screenshots/run_exclusions_checked.png)
 
 There are currently four group properties and three label properties that can be assessed, setting maximum or minimum values by which to exclude them. These characteristics are _variety_, _samples_ and _redundancy_ for both labels and groups as well as _range_ for labels. The _variety_ of a group is the number of different labels it contains (the same as the richness). A group's _samples_ is the total number of samples of all labels it contains. A group's _redundancy_ is the complement of the ratio of the number labels to the number of samples in that group (i.e. a group with 2 labels having a total of 8 labels will have a redundancy of 0.75).  For labels, _variety_ is the number of groups it occurs in.  The _samples_ is the number of samples of that label across all groups.  The _redundancy_ is analogous to that used for groups, except it is a function of the ratio of the group count to the sample count for that label.  The label _range_ is the _variety_ unless it has been specified using label properties at the time of import.
 
@@ -333,7 +333,7 @@ To run a cluster analysis on the currently selected basedata object, open menu o
 
 The cluster tab has two main sections where you can set options. The upper section (_Parameters_) determines the parameters used in the clustering to generate a tree. The lower (_Spatial calculations to run for each cluster node_) determines what subsequent calculations will be run for each node in this tree using the groups it contains to define the spatial sample.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_first_page.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_first_page.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_first_page.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_first_page.png)
 
 Click on the _Go_ button (or use the keyboard shortcut Control-G) once you have specified your parameters and any desired calculations (see details below). The system will first build the dissimilarity matrices, then run the clustering using these matrices, and then any spatial calculations you have selected for each node. One or more progress bars (depending on your options) let you know how things are progressing. Once complete, a prompt asks if you would like to display the results. If so, a display pane comes up showing you the results. You can pull the pane down (via an invisible slider bar at the top of the white pane) to see the options you used; for example, to change them and recalculate an analysis. If you don't wish to view the results at this time, they may be accessed later from the _Outputs_ tab. In this tab, analyses are automatically placed and indented below the basedata object they were performed on.
 
@@ -366,12 +366,12 @@ Not all these calculations or indices are valid for clusters, and the system str
 
 There are three sub-panes within the display pane. On the left is the group grid, on the upper right is the tree representing the clustering, and on the lower right is the scree plot for the tree. Prior to version 0.12 you will likely need to pull the bottom of the tree pane down to reduce the scree plot's vertical extent and expand the tree so it can be viewed properly.  From version 0.12 you will need to pull the scree plot up to see it.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page.png)
 
 
 As with the visualisation of basedata/matrix/tree objects described earlier, the system is linked, and interactions in the group grid or tree of the cluster display are generally reflected in the other. Hovering the mouse over a node in the tree highlights the groups (in the group grid) that are contained in that node. Likewise, hovering the mouse over a group in the group grid will highlight the path (set of nodes/clusters) in the tree to which that group belongs. Right click on a tree node to fix a colour to the subclusters (descendant nodes in the tree). These clusters are split into a number of coloured groupings based on the “Clusters to colour” parameter at the bottom of the pane. Note that some leaf nodes in the tree may have a length of zero (indicated by vertical bars at the leftmost side of the tree, longer bars indicating more zero-length leaf nodes). Thus, if any such nodes occur under (to the left of) the node you have selected, their colouring will not be apparent if you are using “Plot by Length” mode. These nodes, along with their colouring (if selected) can be made apparent by switching to “Plot by Depth” mode under the tree options button.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_coloured_and_highlighted_nodes.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_coloured_and_highlighted_nodes.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_coloured_and_highlighted_nodes.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_coloured_and_highlighted_nodes.png)
 
 The blue sliding bar in the tree pane can be dragged across the tree to colour the nodes and groups at that level. The bar also displays the number of nodes it is crossing when the mouse is focused on it. Note that the maximum number of contrasting colours the system will display is 13. If the slider bar crosses more than 13 nodes, all nodes will be uniformly coloured red instead, and groups in the group grid will not be coloured.
 
@@ -380,9 +380,9 @@ Note that, from version 0.13, the user can set the slider bar to not affect the 
 Groups contained in selected clusters will be coloured in the group grid. The colouring for these groups are assigned according to the hue/sat scheme selected (see the bottom of the groups grid pane) and are based on the value of each group for the index selected.
 
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_coloured_by_slider.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_coloured_by_slider.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_coloured_by_slider.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_coloured_by_slider.png)
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_plot_by_depth_page_coloured_by_slider.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_plot_by_depth_page_coloured_by_slider.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_plot_by_depth_page_coloured_by_slider.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_plot_by_depth_page_coloured_by_slider.png)
 
 The choice of which index to show in the group grid is made in the selection boxes beneath the grid. The one on the left is the list of calculations (e.g. SPATIAL_RESULTS or [ABC2_LABELS_SET1](Indices#ranges)) and the one on the right shows which index or list element (group or label) to display from that analysis. The default is the special _Cluster_ list, which colours the clusters using a contrasting colour scheme (Brewer, Cynthia A., (2005), _Designing Better Maps: A Guide for GIS Users_, ESRI Press, Redlands CA, 203 pp. [www.colorbrewer.org](http://www.colorbrewer.org/)). Note: the right-hand lists of indices/elements to display only appears once an analysis other than the default Cluster is selected from the left-hand list. In addition to the contrast and continuous colour schemes, white groups in the grid are those that are not in the selected clusters. Black means they are in the selected clusters, but are not relevant to the index and/or elements (group/label) selected from the drop-down menus in the group grid pane.
 
@@ -393,9 +393,9 @@ Holding down the control key while clicking on a group in the grid produces (as 
 You can customize the tree display via the _Option_ button below the scree plot. You can determine (1) whether the tree will be plotted by the length or depth of each node, and (2) whether the cluster grouping that is done when clicking on a node uses length or depth. Normally length for both is good enough, but when you have non-monotonic linkages and reversals then the overlaps and negative lengths make it easier to plot by depth and group by length.  Compare the two images below.
 
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png)
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png)
+![http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png)
 
 Vector overlays can be plotted using the “overlays” interface at the bottom of the screen (see [KeyConcepts#map-overlays](KeyConcepts#map-overlays)).
 
@@ -409,7 +409,7 @@ To run a spatial analysis on the currently selected basebata object, open menu o
 
 The Spatial tab has two main sections where you can set options (see below), and this process is very similar to that of a cluster analysis. The upper section (_Parameters_) determines the parameters used in defining the two neighbour sets used in the spatial analysis. The lower (_Calculations to run for each neighbourhood_) determines the subsequent calculations that will be run for the set of neighbours related to each group. You can select any number of calculations to perform.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_first_page.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_first_page.png)
+![http://purl.org/biodiverse/wiki/screenshots/spatial_analysis_first_page.png](http://purl.org/biodiverse/wiki/screenshots/spatial_analysis_first_page.png)
 
 Unless you have specified a complex spatial neighbourhood that causes errors in the neighbours then you should turn the [spatial index](KeyConcepts#using-the-spatial-index) on (menu option _Analyses -> Build Spatial Index_) (see also [#building-a-spatial-index](#building-a-spatial-index)). The best resolution to use depends on your data set, but a good start is twice the cell size. If you have a cell size of zero then make it approximately the same as the extent of your neighbourhood definition.
 
@@ -433,7 +433,7 @@ The _Plus_ button allows you to specify additional arguments if specified by the
 
 This is the same as in the cluster tab. Use the check boxes to select which sets of calculations are to be used, and therefore which indices will be calculated. Press the plus buttons next to each set to expand or reduce the tree. Depending on the level, expanding the tree will either show which anlayses are available under a category (top level), or  shows a list of the indices each one calculates with an explanation for each (lower level). This information is also available from the [Indices](Indices) page.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_selected_analyses.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_selected_analyses.png)
+![http://purl.org/biodiverse/wiki/screenshots/spatial_analysis_selected_analyses.png](http://purl.org/biodiverse/wiki/screenshots/spatial_analysis_selected_analyses.png)
 
 Indices which result in single (scalar) values are collected and stored in a list called SPATIAL_RESULTS in each element (group). Those that are lists are stored in each element  at the same level as SPATIAL_RESULTS.
 
@@ -443,7 +443,7 @@ Those calculations or indices that require two neighbourhoods (such as Jaccard o
 
 The results are displayed as a map in a single pane within the tab.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_showing_map.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/spatial_analysis_showing_map.png)
+![http://purl.org/biodiverse/wiki/screenshots/spatial_analysis_showing_map.png](http://purl.org/biodiverse/wiki/screenshots/spatial_analysis_showing_map.png)
 
 The colour scheme can be changed to one based on intensity of a single hue if needed.  See [KeyConcepts#colour-schemes](KeyConcepts#colour-schemes).  Currently the full range of colours is assigned to the index values using linear scaling between the minimum and maximum values.  Changing this is for a future release, or the data can be exported and plotted using a GIS or other package.
 
@@ -463,7 +463,7 @@ The randomisation analyses are a means of assessing the significance of the anal
 
 To run a randomisation analysis on the currently selected basebata object, open menu option _Analyses -> Randomisation_.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/randomisation_analysis_page.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/randomisation_analysis_page.png)
+![http://purl.org/biodiverse/wiki/screenshots/randomisation_analysis_page.png](http://purl.org/biodiverse/wiki/screenshots/randomisation_analysis_page.png)
 
 The Randomisation tab has two main sections where you can set options. The upper section (_Setup_) determines the main setup parameters used in the randomisation, for example the randomisation function and the PRNG seed if you want to reproduce a sequence of random values between randomisations. The second (_Parameters_) are function specific options. At this stage only three randomisations are supported: rand_csr_by_group, rand_nochange and rand_structured.
 

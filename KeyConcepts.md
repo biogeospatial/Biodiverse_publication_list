@@ -116,9 +116,9 @@ See [SampleSession#The_Tree](SampleSession#the-tree) and [SampleSession#Viewing_
 
 Negative length nodes (those that go backwards) often occur when using link_recalculate clustering or when switching from spatial to non-spatial clustering. In the latter case this is because the two most similar clusters may not be within the spatial neighbourhood specified, and so the similarity of the non-spatial clusters will be closer to zero than the final spatial clusters. In the former case, the recalculation weights each label equally (for most similarity metrics), so the merging of two clusters may actually reduce their joint dissimilarity with the other clusters in the system.  The end result is a nodel linkage that moves towards zero instead of away from it.
 
-See [this image](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png) for an example.
+See [this image](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_recalc_linkage.png) for an example.
 
-If the negative nodes make interpretation difficult then change the display [to plot by depth](http://biodiverse.googlecode.com/svn/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png).
+If the negative nodes make interpretation difficult then change the display [to plot by depth](http://purl.org/biodiverse/wiki/screenshots/cluster_analysis_results_page_recalc_linkage_plot_by_depth.png).
 
 ## Cluster Linkages ##
 

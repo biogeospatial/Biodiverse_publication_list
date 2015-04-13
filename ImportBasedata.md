@@ -22,13 +22,13 @@ This process will create a new Basedata object in the Biodiverse session.  To ex
 
 Once you are finished, click **Next**.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step1.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step1.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step1.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step1.png)
 
 **N.B.**  Multiple files can be imported in the one process so long as they all share the same column order and meaning (the column names do not matter, only the contents).  If you have several files with different column orders then import each one separately into the same BaseData. If the data **were/was?** generated in R using the write.table() function then the system will detect this and allow for the missing column header for the row names.
 
 **Step 2** The Import options dialogue window will then appear.
 
-![http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step2.png](http://biodiverse.googlecode.com/svn/wiki/screenshots/import_basedata_step2.png)
+![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png)
 
 ## Import Options ##
 **Set label/group properties and remap:**  Allows properties to be specified for the labels and groups (see [DataStructures#Element_property_tables](DataStructures#element-property-tables)).  If this option is selected you will be able to select your remapping file(s) after the parameters for the main Basedata import have been set.
