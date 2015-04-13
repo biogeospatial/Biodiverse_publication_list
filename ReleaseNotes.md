@@ -119,7 +119,7 @@ This is the first phase of the development version leading towards version 1.0.
 Main changes since the previous version (0.19) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * Analyses
-    * The RegionGrower analyses now stop once the maximum optimisation criterion is reached and delete singleton nodes by default.  This leaves a smaller tree consisting only of those elements required to optimise the index.  [Issue  451](/shawnlaffan/biodiverse/issues/451), [~~Issue 448~~](/shawnlaffan/biodiverse/issues/448)
+    * The RegionGrower analyses now stop once the maximum optimisation criterion is reached and delete singleton nodes by default.  This leaves a smaller tree consisting only of those elements required to optimise the index.  [~~Issue  451~~](/shawnlaffan/biodiverse/issues/451), [~~Issue 448~~](/shawnlaffan/biodiverse/issues/448)
     * The Cluster and RegionGrower tie breakers are now optional and are faster and less memory intensive.  If they are turned off then the pre-0.19 tie-breaker approach is used.  [~~Issue 427~~](/shawnlaffan/biodiverse/issues/427)
 
   * Indices and calculations
