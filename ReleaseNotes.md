@@ -8,7 +8,7 @@ Collectively, these releases comprise several major changes to the underlying co
 
 For the full list of issues and changes leading to the 1.0 release, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release1.0
 
-To see the full list of open issues or to report a bug or enhancement request, see http://code.google.com/p/biodiverse/issues/
+To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 ## Version 0.99_007 ##
 
@@ -163,7 +163,7 @@ This was released on 28-Oct-2013.  It is a stable release and contains all chang
 
 To see the full list of issues and changes in this release, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release0.18
 
-To see the list of open issues or to report a bug or enhancement request, see http://code.google.com/p/biodiverse/issues/
+To see the list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 
 # Version 0.18 #
@@ -209,7 +209,7 @@ Main changes since previous version (0.17) are:
 
 To see the full list of issues and changes in the 0.18_00x versions, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release0.18
 
-To see the list of open issues or to report a bug or enhancement request, see http://code.google.com/p/biodiverse/issues/
+To see the list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 
 
@@ -241,7 +241,7 @@ Main changes since the previous version (0.16) are:
 
 To see the full list of issues and changes in this version, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release0.17
 
-To see the list of open issues or to report a bug or enhancement request, see http://code.google.com/p/biodiverse/issues/
+To see the list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 # Version 0.16 #
 
