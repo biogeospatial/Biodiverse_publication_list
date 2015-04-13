@@ -11,7 +11,7 @@ http://code.google.com/p/biodiverse/source/browse/#svn%2Ftrunk%2Fetc%2Fsite_pair
 
 # Setup #
 
-  * You will need to install one of the source code versions of Biodiverse.  See the [Installation](Installation.md) page.
+  * You will need to install one of the source code versions of Biodiverse.  See the [Installation](Installation) page.
 
 # Running it #
 

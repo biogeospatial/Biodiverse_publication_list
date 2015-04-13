@@ -61,7 +61,7 @@ See also [SampleSession#Running_a_randomisation](SampleSession#running-a-randomi
 
 # Matrices #
 
-These are matrices of numeric values representing some relationship between a set of [elements](#Element.md).  They should normally be square, but the system does not impose that requirement.  Normally they are linked to the labels of a BaseData object and used in the visualisation and analyses.  They are also used in the cluster analyses, and if so they can be exported via the cluster outputs.
+These are matrices of numeric values representing some relationship between a set of [elements](#element).  They should normally be square, but the system does not impose that requirement.  Normally they are linked to the labels of a BaseData object and used in the visualisation and analyses.  They are also used in the cluster analyses, and if so they can be exported via the cluster outputs.
 
 Previous uses include genetic similarities ([Bickford et al. 2004](http://dx.doi.org/10.1111/j.1365-2699.2004.01127.x)), but any numeric value can be used.  It is up to the user to ensure it is sensible (the system does not stop the user from doing something stupid, just in case it turns out to be really useful).
 
@@ -74,12 +74,12 @@ These are typicaly phylogenies but can be any form of hierarchical tree structur
 
 ## Tree Nodes ##
 
-These are the individual units of the trees.  They are analogous to [elements](#Elements.md) in a BaseStruct in that analysis result lists can be stored in them, but they also store links to their parents and to their children.
+These are the individual units of the trees.  They are analogous to [elements](#elements) in a BaseStruct in that analysis result lists can be stored in them, but they also store links to their parents and to their children.
 
 The node length values are the distance from them to their parent node.  These lengths can be negative in some cases, for example when one or more spatial constraints exclude some more similar elements and/or nodes from the initial clustering.  When these are considered in a subsequent matrix (i.e. for a less constrictive spatial constraint) then
-the nodes can be negative for such linkages.  Alternately negative lengths can occur when using the Recalculation Linkage function as a consequence of recalculating the linkages as if the two nodes are single aggregated [elements](#Element.md) instead of a weighted function of their respective elements.  This will occur for the cluster indices that do not use sample counts.
+the nodes can be negative for such linkages.  Alternately negative lengths can occur when using the Recalculation Linkage function as a consequence of recalculating the linkages as if the two nodes are single aggregated [elements](#element) instead of a weighted function of their respective elements.  This will occur for the cluster indices that do not use sample counts.
 
-Each node must have a unique name.  In the case of those that link to an [element](#Element.md) (e.g. a [group](#Groups.md) or [label](#Labels.md)) this is straightforward and can use the same name.  Internal nodes are slightly different, and are assigned a unique value followed by three underscore characters (, e.g. `18___`).  This is done on the basis that it is unlikely for an element name to have three trailing underscores.  Using three trailing underscores for non-internal names will cause unpredictable behaviour as Biodiverse uses the name to determine if a node is internal or not.
+Each node must have a unique name.  In the case of those that link to an [element](#element) (e.g. a [group](#groups) or [label](#labels)) this is straightforward and can use the same name.  Internal nodes are slightly different, and are assigned a unique value followed by three underscore characters (, e.g. `18___`).  This is done on the basis that it is unlikely for an element name to have three trailing underscores.  Using three trailing underscores for non-internal names will cause unpredictable behaviour as Biodiverse uses the name to determine if a node is internal or not.
 
 # Remap tables #
 
@@ -109,8 +109,8 @@ The import process is similar to that for a BaseData set, in that one must selec
   * **Remapped_element**:  This column will be used to form part of the remapped element name.
   * **Include**:  Control the inclusion of elements.  A value of 1 means it will be included.  More than one of these can be specified (see above for the effect).
   * **Exclude**:  Control the exclusion of elements.  A value of 1 means it will be excluded.  More than one of these can be specified (see above for the effect).
-  * **range**:  This value will be used as the label range instead of counting the number of groups in which the label occurs.  This affects the [endemism](Indices#Endemism.md) calculations.
-  * **sample_count**:  This value will be used as the sample count value instead of counting the number of samples at import.  This affects the [rarity](Indices#Rarity.md) calculations.
+  * **range**:  This value will be used as the label range instead of counting the number of groups in which the label occurs.  This affects the [endemism](Indices#endemism) calculations.
+  * **sample_count**:  This value will be used as the sample count value instead of counting the number of samples at import.  This affects the [rarity](Indices#rarity) calculations.
   * **Use_field_name**:  A property will be set for each element that has the name of the field and the value of each row.  Use this to import additional properties for a set of labels or groups.
 
 ## The table file ##

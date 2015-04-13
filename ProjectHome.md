@@ -32,10 +32,10 @@ An overview of the system is also provided in Dan Rosauer's talk at TDWG2008:
 
 > Rosauer, D.F. & Laffan, S.W. (2008) Linking phylogenetic trees, taxonomy & geography to map phylogeography using Biodiverse. Taxonomic Data Working Group 2008, Perth, Australia. [(PPT)](http://www.tdwg.org/fileadmin/2008conference/slides/Rosauer_09_05_phyloTrees.ppt) [(SWF with audio)](http://www.tdwg.org/fileadmin/2008conference/slides/Rosauer_09_05_phyloTrees.swf).
 
-For a list of **publications using Biodiverse**, see the [PublicationsList](PublicationsList.md) page.
+For a list of **publications using Biodiverse**, see the [PublicationsList](PublicationsList) page.
 
 # Installation #
-Installation instructions can be accessed through the [Installation](Installation.md) page.
+Installation instructions can be accessed through the [Installation](Installation) page.
 
 # News #
 
