@@ -14,36 +14,36 @@ To see the full list of open issues or to report a bug or enhancement request, s
 
 This is the seventh phase of the development version leading towards version 1.0.
 
-Main changes since the preceding version ([0.99_006](#version-099-006)) are below.  Issue numbers which are not crossed out are yet to be completed.
+Main changes since the preceding version ([0.99_006](#version-0-99-006)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
-    * The label selection mode can now be set, so in addition to being able to create a new selection each time one of the grid, tree or matrix panes is clicked, users can now also add to or remove from the current selection.  This allows the selection of, for example, distinct clades on the tree.  These might then be deleted from the basedata using the deletion methods added in the previous development release.  [Issue 535](/shawnlaffan/biodiverse/issues/35)
-    * Fixed a crash when a tree was trimmed and had no remaining branches, and a View Labels tab was open.  [Issue 534](/shawnlaffan/biodiverse/issues/34)
+    * The label selection mode can now be set, so in addition to being able to create a new selection each time one of the grid, tree or matrix panes is clicked, users can now also add to or remove from the current selection.  This allows the selection of, for example, distinct clades on the tree.  These might then be deleted from the basedata using the deletion methods added in the previous development release.  [Issue 535](/shawnlaffan/biodiverse/issues/535)
+    * Fixed a crash when a tree was trimmed and had no remaining branches, and a View Labels tab was open.  [Issue 534](/shawnlaffan/biodiverse/issues/534)
 
 
 ## Version 0.99_006 ##
 
 This is the sixth phase of the development version leading towards version 1.0.
 
-Main changes since the preceding version ([0.99_005](#version-0.99-005)) are below.  Issue numbers which are not crossed out are yet to be completed.
+Main changes since the preceding version ([0.99_005](#version-0-99-005)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
-    * The new pan and zoom functionality now works consistently across all views (maps, trees and matrices).  [Issue 353](/shawnlaffan/biodiverse/issues/53)
+    * The new pan and zoom functionality now works consistently across all views (maps, trees and matrices).  [Issue 353](/shawnlaffan/biodiverse/issues/353)
     * New functions have been added to work with the selected labels.
       * Labels can be selected using partial text matches.  These use regular expressions, so can be as complex as is needed, but the simplest case is just a fragment of the label name.  Selections can optionally be added to or removed from.  [Issue 529](/shawnlaffan/biodiverse/issues/29)
-      * Selected labels can be deleted from the basedata, or new basedatas can be created using the selected (or non-selected) labels.  [Issue 528](/shawnlaffan/biodiverse/issues/28).
-      * The selected set can be switched (inverted) so all non-selected labels become the selected set.  [Issue 532](/shawnlaffan/biodiverse/issues/32)
-      * The selected set (labels and the groups in which they occur) can be exported directly from the View Labels tab.  [Issue 414](/shawnlaffan/biodiverse/issues/14)
+      * Selected labels can be deleted from the basedata, or new basedatas can be created using the selected (or non-selected) labels.  [Issue 528](/shawnlaffan/biodiverse/issues/528).
+      * The selected set can be switched (inverted) so all non-selected labels become the selected set.  [Issue 532](/shawnlaffan/biodiverse/issues/532)
+      * The selected set (labels and the groups in which they occur) can be exported directly from the View Labels tab.  [Issue 414](/shawnlaffan/biodiverse/issues/414)
 
   * Export/import
-    * Trees exported from Biodiverse now roundtrip properly when labels are quoted.  [Issue 270](/shawnlaffan/biodiverse/issues/70)
-    * Sparse format matrix files can now be imported in the GUI.  [Issue 82](/shawnlaffan/biodiverse/issues/2)
-    * Matrix exports now use a progress dialog to avoid a non-responsive GUI.  They also write direct to file to reduce memory overheads.  [Issue 517](/shawnlaffan/biodiverse/issues/17)
-    * Basedata imports are now faster.  The effect is greatest for raster imports where there is no transform in place.  [Issue 527](/shawnlaffan/biodiverse/issues/27)
+    * Trees exported from Biodiverse now roundtrip properly when labels are quoted.  [Issue 270](/shawnlaffan/biodiverse/issues/270)
+    * Sparse format matrix files can now be imported in the GUI.  [Issue 82](/shawnlaffan/biodiverse/issues/82)
+    * Matrix exports now use a progress dialog to avoid a non-responsive GUI.  They also write direct to file to reduce memory overheads.  [Issue 517](/shawnlaffan/biodiverse/issues/517)
+    * Basedata imports are now faster.  The effect is greatest for raster imports where there is no transform in place.  [Issue 527](/shawnlaffan/biodiverse/issues/527)
 
   * Analyses
-    * In the spatial analyses, users can control the use of the spatial index across the whole analysis, or on a per-spatial condition level.  [Issue 205](/shawnlaffan/biodiverse/issues/05)
-    * Control is also available for result and neighbour set recycling (the system detects these correctly in most cases, but it is useful to control it in falsely detected cases).  [Issue 205](/shawnlaffan/biodiverse/issues/05)
+    * In the spatial analyses, users can control the use of the spatial index across the whole analysis, or on a per-spatial condition level.  [Issue 205](/shawnlaffan/biodiverse/issues/205)
+    * Control is also available for result and neighbour set recycling (the system detects these correctly in most cases, but it is useful to control it in falsely detected cases).  [Issue 205](/shawnlaffan/biodiverse/issues/205)
 
 ## Version 0.99_005 ##
 
@@ -52,9 +52,9 @@ This is the fifth phase of the development version leading towards version 1.0.
 Main changes since the preceding version ([0.99_004](#version-099-004)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
-    * The colour of cells with undefined (nodata) values can now be set by the user.  So can the colour of cells which failed the definition query or were otherwise excluded.  [Issue 278](/shawnlaffan/biodiverse/issues/78)
-    * An export menu is now visible in all output tabs so one does not need to go back to the outputs tab whenever one wishes to export them.  [Issue 273](/shawnlaffan/biodiverse/issues/73)
-    * Progress bars are now displayed in all matrix exports.  This avoids periods of GUI non-responsiveness.  Matrices are also written directly file to reduce memory overheads for large matrices.  [Issue 517](/shawnlaffan/biodiverse/issues/17)
+    * The colour of cells with undefined (nodata) values can now be set by the user.  So can the colour of cells which failed the definition query or were otherwise excluded.  [Issue 278](/shawnlaffan/biodiverse/issues/278)
+    * An export menu is now visible in all output tabs so one does not need to go back to the outputs tab whenever one wishes to export them.  [Issue 273](/shawnlaffan/biodiverse/issues/273)
+    * Progress bars are now displayed in all matrix exports.  This avoids periods of GUI non-responsiveness.  Matrices are also written directly file to reduce memory overheads for large matrices.  [Issue 517](/shawnlaffan/biodiverse/issues/517)
 
 
 ## Version 0.99_004 ##
@@ -64,25 +64,25 @@ This is the fourth phase of the development version leading towards version 1.0 
 Main changes since the preceding version ([0.99_002](#version-099_002)) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * GUI
-    * The phylogenetic endemism and related indices are now in their own category (Phylogentic Endemism).  The Phylogenetic Indices category was getting too busy.  [Issue 499](/shawnlaffan/biodiverse/issues/99)
-    * Cell outlines can now be turned off.  This is useful when cells are small and any outlines obscure the cell contents.  [Issue 311](/shawnlaffan/biodiverse/issues/11)
-    * The legend can be hidden so it no longer overlaps with the grid.  [Issue 59](/shawnlaffan/biodiverse/issues/9)
-    * Display cursors now change to match the selected mode (e.g. zoom in, pan, select).  [Issue 490](/shawnlaffan/biodiverse/issues/90)
-    * A warning is now shown at startup when extensions cannot be loaded.  This was previously only sent to the console window.  [Issue 500](/shawnlaffan/biodiverse/issues/00)
-    * The width of tree branches can now be controlled.  The default value of zero will let the system choose a value based on the sparseness of the terminal branches.  [Issue 505](/shawnlaffan/biodiverse/issues/05)
+    * The phylogenetic endemism and related indices are now in their own category (Phylogentic Endemism).  The Phylogenetic Indices category was getting too busy.  [Issue 499](/shawnlaffan/biodiverse/issues/499)
+    * Cell outlines can now be turned off.  This is useful when cells are small and any outlines obscure the cell contents.  [Issue 311](/shawnlaffan/biodiverse/issues/311)
+    * The legend can be hidden so it no longer overlaps with the grid.  [Issue 59](/shawnlaffan/biodiverse/issues/59)
+    * Display cursors now change to match the selected mode (e.g. zoom in, pan, select).  [Issue 490](/shawnlaffan/biodiverse/issues/490)
+    * A warning is now shown at startup when extensions cannot be loaded.  This was previously only sent to the console window.  [Issue 500](/shawnlaffan/biodiverse/issues/500)
+    * The width of tree branches can now be controlled.  The default value of zero will let the system choose a value based on the sparseness of the terminal branches.  [Issue 505](/shawnlaffan/biodiverse/issues/505)
 
   * Analyses
-    * Analyses are now run as temporary objects and then copied across on success.  This means that many of the optimisations where neighbours and matrices are recycled can apply more often since the originals are not replaced until the analysis completes successfully.  [Issue 444](/shawnlaffan/biodiverse/issues/44)
+    * Analyses are now run as temporary objects and then copied across on success.  This means that many of the optimisations where neighbours and matrices are recycled can apply more often since the originals are not replaced until the analysis completes successfully.  [Issue 444](/shawnlaffan/biodiverse/issues/444)
 
   * Indices
-    * New calculations are now available to calculate the label sample count percentiles across a sample, as well as the rank relative abundance of the labels in the processing group relative to all other groups in the neighbour sets.  [Issue 507](/shawnlaffan/biodiverse/issues/07)
+    * New calculations are now available to calculate the label sample count percentiles across a sample, as well as the rank relative abundance of the labels in the processing group relative to all other groups in the neighbour sets.  [Issue 507](/shawnlaffan/biodiverse/issues/507)
 
   * Imports
-    * Basedata imports now ignore records with a value of NA.  This makes it easier to work with data exported from R as no special processing is needed.  [Issue 489](/shawnlaffan/biodiverse/issues/89)
-    * Basedata imports now have an option to control the number of decimal places used in the group axis calculation.  The default is currently 7.  [Issue 488](/shawnlaffan/biodiverse/issues/88)
+    * Basedata imports now ignore records with a value of NA.  This makes it easier to work with data exported from R as no special processing is needed.  [Issue 489](/shawnlaffan/biodiverse/issues/489)
+    * Basedata imports now have an option to control the number of decimal places used in the group axis calculation.  The default is currently 7.  [Issue 488](/shawnlaffan/biodiverse/issues/488)
 
   * Exports
-    * Tree exports to nexus format can optionally not use the translate block.  This means internal nodes can be named and the read.nexus function in ape will still be able to read the file.  [Issue 502](/shawnlaffan/biodiverse/issues/02)
+    * Tree exports to nexus format can optionally not use the translate block.  This means internal nodes can be named and the read.nexus function in ape will still be able to read the file.  [Issue 502](/shawnlaffan/biodiverse/issues/502)
 
 
 ## Version 0.99_002 ##
@@ -93,22 +93,22 @@ Main changes since the preceding version ([0.99_001](#version_099_001)) are belo
 
 
   * GUI
-    * The pan and zoom interface has been rewritten to be more like other tools and to present a cleaner interface.  [Issue 353](/shawnlaffan/biodiverse/issues/53)
-    * Tree plots now grey-out non-highlighted branches.  This makes it much easier to see which branches are selected.  [Issue 464](/shawnlaffan/biodiverse/issues/64)
-    * The Spatial and Matrix tabs now have a tree panel which plots the tree used in the analysis, or the tree selected at the project level.  This works similarly to the View Labels tab in that branches are highlighted as cells are hovered over, and cells are highlighted as branches are hovered over.  [Issue 409](/shawnlaffan/biodiverse/issues/09)
-    * A popup message is now shown when a basedata has more than two axes, as this could cause overplotting of groups.  [Issue 461](/shawnlaffan/biodiverse/issues/61)
-    * Trees can now be converted to their equal branch length form.  [Issue 504](/shawnlaffan/biodiverse/issues/04) (see also [Issue 482](/shawnlaffan/biodiverse/issues/82))
+    * The pan and zoom interface has been rewritten to be more like other tools and to present a cleaner interface.  [Issue 353](/shawnlaffan/biodiverse/issues/353)
+    * Tree plots now grey-out non-highlighted branches.  This makes it much easier to see which branches are selected.  [Issue 464](/shawnlaffan/biodiverse/issues/464)
+    * The Spatial and Matrix tabs now have a tree panel which plots the tree used in the analysis, or the tree selected at the project level.  This works similarly to the View Labels tab in that branches are highlighted as cells are hovered over, and cells are highlighted as branches are hovered over.  [Issue 409](/shawnlaffan/biodiverse/issues/409)
+    * A popup message is now shown when a basedata has more than two axes, as this could cause overplotting of groups.  [Issue 461](/shawnlaffan/biodiverse/issues/461)
+    * Trees can now be converted to their equal branch length form.  [Issue 504](/shawnlaffan/biodiverse/issues/04) (see also [Issue 482](/shawnlaffan/biodiverse/issues/482))
 
   * Analyses
-    * The rand_structured randomisation is now considerably faster.  [Issue 487](/shawnlaffan/biodiverse/issues/87)
+    * The rand_structured randomisation is now considerably faster.  [Issue 487](/shawnlaffan/biodiverse/issues/487)
 
   * Indices and Calculations
-    * The relative phylogenetic indices used in the CANAPE process have now been added (see http://dx.doi.org/10.1038/ncomms5473 ).  [Issue 482](/shawnlaffan/biodiverse/issues/82)
-    * Users can now calculate the phylogenetic endemism analogous to the Endemism Central calculation, such that the set of branches considered are those in neighbour set 1 but the local ranges come from across neighbour sets 1 and 2.  [Issue 460](/shawnlaffan/biodiverse/issues/60)
+    * The relative phylogenetic indices used in the CANAPE process have now been added (see http://dx.doi.org/10.1038/ncomms5473 ).  [Issue 482](/shawnlaffan/biodiverse/issues/482)
+    * Users can now calculate the phylogenetic endemism analogous to the Endemism Central calculation, such that the set of branches considered are those in neighbour set 1 but the local ranges come from across neighbour sets 1 and 2.  [Issue 460](/shawnlaffan/biodiverse/issues/460)
 
   * Trees
-    * Tree imports are now considerably faster.  For example, the Open Tree of Life tree with ~2.5 million nodes takes 3 minutes (note that it needs 6.5GB RAM and the GUI is unlikely to be able to plot it). [Issue 483](/shawnlaffan/biodiverse/issues/83)
-    * Tree trimming is now considerably faster.  [Issue 470](/shawnlaffan/biodiverse/issues/70)
+    * Tree imports are now considerably faster.  For example, the Open Tree of Life tree with ~2.5 million nodes takes 3 minutes (note that it needs 6.5GB RAM and the GUI is unlikely to be able to plot it). [Issue 483](/shawnlaffan/biodiverse/issues/483)
+    * Tree trimming is now considerably faster.  [Issue 470](/shawnlaffan/biodiverse/issues/470)
 
 
 
@@ -119,47 +119,47 @@ This is the first phase of the development version leading towards version 1.0.
 Main changes since the previous version (0.19) are below.  Issue numbers which are not crossed out are yet to be completed.
 
   * Analyses
-    * The RegionGrower analyses now stop once the maximum optimisation criterion is reached and delete singleton nodes by default.  This leaves a smaller tree consisting only of those elements required to optimise the index.  [Issue  451](/shawnlaffan/biodiverse/issues/51), [Issue 448](/shawnlaffan/biodiverse/issues/48)
-    * The Cluster and RegionGrower tie breakers are now optional and are faster and less memory intensive.  If they are turned off then the pre-0.19 tie-breaker approach is used.  [Issue 427](/shawnlaffan/biodiverse/issues/27)
+    * The RegionGrower analyses now stop once the maximum optimisation criterion is reached and delete singleton nodes by default.  This leaves a smaller tree consisting only of those elements required to optimise the index.  [Issue  451](/shawnlaffan/biodiverse/issues/451), [Issue 448](/shawnlaffan/biodiverse/issues/448)
+    * The Cluster and RegionGrower tie breakers are now optional and are faster and less memory intensive.  If they are turned off then the pre-0.19 tie-breaker approach is used.  [Issue 427](/shawnlaffan/biodiverse/issues/427)
 
   * Indices and calculations
-    * The NRI and NTI indices from PhyloCom are now supported.  Note that these reverse the sign compared to PhyloCom, so positive values are dispersed and negative are clustered.  This is consistent with the picante package in R.  [Issue 442](/shawnlaffan/biodiverse/issues/42)
-    * New indices are now available for per-node contributions to the PD and PE indices, including their ancestral components.  [Issue 434](/shawnlaffan/biodiverse/issues/34)
-    * Kulczynski 2 is now supported.  [Issue 445](/shawnlaffan/biodiverse/issues/45)
-    * A range weighted Gi`*` index of label properties is now available.  [Issue 402](/shawnlaffan/biodiverse/issues/02)
-    * The count of terminal nodes used in the neighbour sets can now be obtained.  [Issue 265](/shawnlaffan/biodiverse/issues/65)
-    * The endemism and rarity calculations now return an undefined value when the relevant neighbour set contains no labels (consists only of empty groups).  Previously it returns zero.  [Issue 458](/shawnlaffan/biodiverse/issues/58)
+    * The NRI and NTI indices from PhyloCom are now supported.  Note that these reverse the sign compared to PhyloCom, so positive values are dispersed and negative are clustered.  This is consistent with the picante package in R.  [Issue 442](/shawnlaffan/biodiverse/issues/442)
+    * New indices are now available for per-node contributions to the PD and PE indices, including their ancestral components.  [Issue 434](/shawnlaffan/biodiverse/issues/434)
+    * Kulczynski 2 is now supported.  [Issue 445](/shawnlaffan/biodiverse/issues/445)
+    * A range weighted Gi`*` index of label properties is now available.  [Issue 402](/shawnlaffan/biodiverse/issues/402)
+    * The count of terminal nodes used in the neighbour sets can now be obtained.  [Issue 265](/shawnlaffan/biodiverse/issues/265)
+    * The endemism and rarity calculations now return an undefined value when the relevant neighbour set contains no labels (consists only of empty groups).  Previously it returns zero.  [Issue 458](/shawnlaffan/biodiverse/issues/458)
 
   * Spatial Conditions
-    * sp_box() function is now available.  [Issue 159](/shawnlaffan/biodiverse/issues/59)
+    * sp_box() function is now available.  [Issue 159](/shawnlaffan/biodiverse/issues/159)
 
   * GUI
-    * Exclusions dialogue.  Empty groups and labels can optionally not be deleted.  This allows the geographic extent to be consistent before and after exclusions are run.  [Issue 423](/shawnlaffan/biodiverse/issues/23)
-    * The progress dialogues are now unified into a single window, greatly reducing the number of popup windows generated in several analyses.  [Issue 295](/shawnlaffan/biodiverse/issues/95)
-    * The label range and sample counts can now be added as label properties.  This is useful when one wants to subset a data set using the Exclusions dialogue, but retain their original ranges and abundances.  This is accessed via the basedata menu.  [Issue 412](/shawnlaffan/biodiverse/issues/12)
+    * Exclusions dialogue.  Empty groups and labels can optionally not be deleted.  This allows the geographic extent to be consistent before and after exclusions are run.  [Issue 423](/shawnlaffan/biodiverse/issues/423)
+    * The progress dialogues are now unified into a single window, greatly reducing the number of popup windows generated in several analyses.  [Issue 295](/shawnlaffan/biodiverse/issues/295)
+    * The label range and sample counts can now be added as label properties.  This is useful when one wants to subset a data set using the Exclusions dialogue, but retain their original ranges and abundances.  This is accessed via the basedata menu.  [Issue 412](/shawnlaffan/biodiverse/issues/412)
 
   * Imports
     * Basedata
-      * Raster data files can now be imported directly.  Any file format [supported by GDAL](http://www.gdal.org/formats_list.html) can be used.  [Issue 408](/shawnlaffan/biodiverse/issues/08)
-      * Shapefiles can now be imported (point formats only).  [Issue 408](/shawnlaffan/biodiverse/issues/08)
-      * When multiple files are selected they can now optionally be assigned to separate Basedatas.  [Issue 378](/shawnlaffan/biodiverse/issues/78)
+      * Raster data files can now be imported directly.  Any file format [supported by GDAL](http://www.gdal.org/formats_list.html) can be used.  [Issue 408](/shawnlaffan/biodiverse/issues/408)
+      * Shapefiles can now be imported (point formats only).  [Issue 408](/shawnlaffan/biodiverse/issues/408)
+      * When multiple files are selected they can now optionally be assigned to separate Basedatas.  [Issue 378](/shawnlaffan/biodiverse/issues/378)
     * Trees
-      * The tabular tree formats can now be imported.  [Issue 322](/shawnlaffan/biodiverse/issues/22)
+      * The tabular tree formats can now be imported.  [Issue 322](/shawnlaffan/biodiverse/issues/322)
     * Matrices
-      * Sparse matrices can be imported (but not yet in the GUI).  [Issue 82](/shawnlaffan/biodiverse/issues/2)
+      * Sparse matrices can be imported (but not yet in the GUI).  [Issue 82](/shawnlaffan/biodiverse/issues/82)
 
   * Exports
     * BaseStructs (groups, labels and spatial outputs).
-      * Shapefile format (polygons and points) is now supported.  [Issue 419](/shawnlaffan/biodiverse/issues/19)
-      * GeoTIFF is now supported.  [Issue 447](/shawnlaffan/biodiverse/issues/47)
-      * The ER-Mapper exports are no longer offset by half a cell.  [Issue 453](/shawnlaffan/biodiverse/issues/53)
+      * Shapefile format (polygons and points) is now supported.  [Issue 419](/shawnlaffan/biodiverse/issues/419)
+      * GeoTIFF is now supported.  [Issue 447](/shawnlaffan/biodiverse/issues/447)
+      * The ER-Mapper exports are no longer offset by half a cell.  [Issue 453](/shawnlaffan/biodiverse/issues/453)
     * Trees
-      * Export to shapefile format is now supported.      [Issue 410](/shawnlaffan/biodiverse/issues/10)
+      * Export to shapefile format is now supported.      [Issue 410](/shawnlaffan/biodiverse/issues/410)
 
 
 # Version 0.19 #
 
-This was released on 28-Oct-2013.  It is a stable release and contains all changes from the 0.18 development series.  See the list [here](#version_018).
+This was released on 28-Oct-2013.  It is a stable release and contains all changes from the 0.18 development series.  See the list [here](#version-0-18).
 
 To see the full list of issues and changes in this release, see http://code.google.com/p/biodiverse/issues/list?can=1&q=label%3AMilestone-Release0.18
 
@@ -327,16 +327,16 @@ Main changes since the previous version (0.13) are:
   * Calculations and indices:
     * The count calculations have each been seperated into one calculation for the lists and one for the summary stats.  This applies to the local ranges, local sample counts and element lists.
     * Metadata for the indices now includes formulae.  These are displayed in the online help, but are not displayed in the GUI.  http://code.google.com/p/biodiverse/wiki/Indices
-    * Added new index, NEST_RESULTANT (nestedness-resultant, [Indices#Nestedness-resultant](Indices#Nestedness-resultant.md)) from Baselga (2010) Glob Ecol Biogeog.  http://dx.doi.org/10.1111/j.1466-8238.2009.00490.x ([issue #92](/shawnlaffan/biodiverse/issues/92))
+    * Added new index, NEST_RESULTANT (nestedness-resultant, [Indices#Nestedness-resultant](Indices#nestedness-resultant)) from Baselga (2010) Glob Ecol Biogeog.  http://dx.doi.org/10.1111/j.1466-8238.2009.00490.x ([issue #92](/shawnlaffan/biodiverse/issues/92))
     * Added binary and sample weighted taxonomic distinctness and variation from Clarke & Warwick (2001) Mar Ecol Progr Ser. http://dx.doi.org/10.3354/meps216265 (note that these are beta level implemenations and need user testing) ([issue #102](/shawnlaffan/biodiverse/issues/102))
     * The Endemism and Rarity calculations are now listed under their own headings.
     * Added new list calculations to enable hierarchical partitioning of the endemism results (the ENDC`_`HPART`_` and ENDW`_`HPART`_` lists).  ([Issue #99](/shawnlaffan/biodiverse/issues/99))
-    * The Bray-Curtis calculation ([Indices#Bray-Curtis_non-metric](Indices#Bray-Curtis_non-metric.md)) now also returns the A, B and W values used in the calculations. ([Issue #124](/shawnlaffan/biodiverse/issues/124))
+    * The Bray-Curtis calculation ([Indices#Bray-Curtis_non-metric](Indices#bray-curtis-non-metric)) now also returns the A, B and W values used in the calculations. ([Issue #124](/shawnlaffan/biodiverse/issues/124))
     * Added new calculation for Bray-Curtis values normalised by the neighbourhood group counts ([Indices#Bray-Curtis_non-metric,_group_count_normalised](Indices#bray-curtis-non-metric-group-count-normalised)).  Resultant indices are the BRAY_CURTIS_NORM and associated A, B and W values. ([Issue #126](/shawnlaffan/biodiverse/issues/126))
   * Spatial Conditions
     * New condition `sp_match_regex` which allows the user to match using arbitrary regular expressions.  For example, to match any group where the neighbour's third axis starts with the processing group's third axis, use `sp_match_regex (re => qr/^$coord[2]/, axis => 2, type => 'nbr')`.  ([Issue #101](/shawnlaffan/biodiverse/issues/101))
   * Randomisations
-    * The randomisations now compare against all lists, not just those in SPATIAL_RESULTS.  One consequence of this is that the resulting list names have changed.  To enable users to keep track of the results across multiple lists, the results are now named using the randomisation name, followed by `>>`, followed by the original list name.  For example, for a randomisation called `Rand1`, one could have resulting lists called `Rand1>>SPATIAL_RESULTS` and `Rand1>>ENDC_WTLIST`.  The naming scheme for the list contents has not changed (see [AnalysisTypes#Randomisations](AnalysisTypes#Randomisations.md)).  The code is not backwards compatible, so previously run randomisations cannot be extended cleanly using this method.  This is because the SPATIAL_RESULTS comparisons will be divided across two lists in an output, e.g. `Rand1` and `Rand1>>SPATIAL_RESULTS`.  Re-running the randomisation from scratch is recommended.  Alternately, one can manually sum the `C_` and `Q_` values across the two result sets and from them calculate the updated `P_` values. ([Issue 100](/shawnlaffan/biodiverse/issues/00))
+    * The randomisations now compare against all lists, not just those in SPATIAL_RESULTS.  One consequence of this is that the resulting list names have changed.  To enable users to keep track of the results across multiple lists, the results are now named using the randomisation name, followed by `>>`, followed by the original list name.  For example, for a randomisation called `Rand1`, one could have resulting lists called `Rand1>>SPATIAL_RESULTS` and `Rand1>>ENDC_WTLIST`.  The naming scheme for the list contents has not changed (see [AnalysisTypes#Randomisations](AnalysisTypes#randomisations)).  The code is not backwards compatible, so previously run randomisations cannot be extended cleanly using this method.  This is because the SPATIAL_RESULTS comparisons will be divided across two lists in an output, e.g. `Rand1` and `Rand1>>SPATIAL_RESULTS`.  Re-running the randomisation from scratch is recommended.  Alternately, one can manually sum the `C_` and `Q_` values across the two result sets and from them calculate the updated `P_` values. ([Issue 100](/shawnlaffan/biodiverse/issues/100))
     * The swapping algorithm has been rewritten so it converges more efficiently  for large data sets.  (Swapping is used to reach richness targets in the rand_structured randomisation).  A consequence of this is that structured randomisations will not produce the same result between versions 0.13 and 0.14 if the seed value is specified.  This is because the random values are used in a different order and so will produce different results if given the same sequence of random values. As with the previous change, the simple solution to this is to start any randomisations afresh after upgrading rather than continuing any existing randomisations.  Continuing randomisations created in BaseData objects prior to version 0.14 will result in mixed algorithms, thus making reproduction of results difficult.  ([Issue #103](/shawnlaffan/biodiverse/issues/103))
     * The comparison algorithm used when comparing spatial analyses now uses recycled results, resulting in a smaller memory footprint.  Recycling occurs when results are the same across the neighbourhood, as occurs with block and zone type spatial conditions.  In these cases one can generate one set of results and apply them across the neighbourhood rather than having multiple sets of identical results.  ([Issue #107](/shawnlaffan/biodiverse/issues/107))
   * Under the bonnet
