@@ -19,7 +19,7 @@
 
 _This is the current development version, leading towards a version 1.0 release.  Version 1 will be released soon if no show stopping bugs are detected._
 
-The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-099-007) summarise the changes in this version.
+The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-0.99-007) summarise the changes in this version.
 
 There is also a series of blog posts at http://biodiverse-analysis-software.blogspot.com.au/
 
