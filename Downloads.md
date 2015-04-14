@@ -3,9 +3,9 @@
 **Table of contents:**
 * [Available downloads](#available-downloads)
   * [Biodiverse GUI](#biodiverse-gui)
-    * [0.99_007 (development release)](#0.99-007--development-release)
+    * [0.99_007 (development release)](#099_007-development-release)
       * [Known issues](#known-issues)
-    * [0.19 (stable release)](#0.19--stable-release)
+    * [0.19 (stable release)](#019-stable-release)
       * [Known issues](#known-issues)
     * [Quick Start Guide](#quick-start-guide)
   * [Site Pair Sampler](#site-pair-sampler)

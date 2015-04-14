@@ -1,5 +1,5 @@
 **Table of contents:**
-* [Import Basedata - Step 4](#import-basedata---step-4)
+* [Import Basedata - Step 4](#import-basedata-step-4)
   * [Select label properties file](#select-label-properties-file)
 * [Introduction](#introduction)
 * [Details](#details)
