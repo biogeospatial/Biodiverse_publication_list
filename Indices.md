@@ -1,6 +1,6 @@
 
 # Indices available in Biodiverse 
-_Generated GMT Fri Apr 17 01:24:21 2015 using build_indices_table.pl, Biodiverse version 1.0._
+_Generated GMT Fri Apr 17 23:02:51 2015 using build_indices_table.pl, Biodiverse version 1.0._
 
 
 This is a listing of the indices available in Biodiverse,
@@ -15,7 +15,7 @@ Most of the headings are self-explanatory.  For the others:
   * The *Minimum number of neighbour sets* dictates whether or not a calculation or index will be run.  If you specify only one neighbour set then all those calculations that require two sets will be dropped from the analysis.  (This is always the case for calculations applied to cluster nodes as there is only one neighbour set, defined by the set of groups linked to the terminal nodes below a cluster node).  Note that many of the calculations lump neighbour sets 1 and 2 together.  See the [SpatialConditions](SpatialConditions.md) page for more details on neighbour sets.
 
 Note that calculations can provide different numbers of indices depending on the nature of the BaseData set used.
-This currently applies to the hierarchically partitioned endemism calculations (both [central](#Endemism_central_hierarchical_partition) and [whole](#Endemism_whole_hierarchical_partition)) and [hierarchical labels](#Hierarchical_Labels).
+This currently applies to the hierarchically partitioned endemism calculations (both [central](#endemism-central-hierarchical-partition) and [whole](#endemism-whole-hierarchical-partition)) and [hierarchical labels](#hierarchical-labels).
 
 
 **Indices available in Biodiverse:**
