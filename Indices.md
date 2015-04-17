@@ -1,6 +1,6 @@
 
 # Indices available in Biodiverse 
-_Generated GMT Fri Apr 17 23:02:51 2015 using build_indices_table.pl, Biodiverse version 1.0._
+_Generated GMT Fri Apr 17 23:07:29 2015 using build_indices_table.pl, Biodiverse version 1.0._
 
 
 This is a listing of the indices available in Biodiverse,
@@ -173,8 +173,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Valid cluster metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 2 | GPPROP_STATS_EXAMPLE_GPROP1_DATA | List of values for property EXAMPLE_GPROP1 |   | 1 |
-| 3 | GPPROP_STATS_EXAMPLE_GPROP2_DATA | List of values for property EXAMPLE_GPROP2 |   | 1 |
+| 2 | GPPROP_STATS_GPROP1_DATA | List of values for property GPROP1 |   | 1 |
+| 3 | GPPROP_STATS_GPROP2_DATA | List of values for property GPROP2 |   | 1 |
 
 
 
@@ -190,8 +190,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Valid cluster metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 4 | GPPROP_STATS_EXAMPLE_GPROP1_HASH | Hash of values for property EXAMPLE_GPROP1 |   | 1 |
-| 5 | GPPROP_STATS_EXAMPLE_GPROP2_HASH | Hash of values for property EXAMPLE_GPROP2 |   | 1 |
+| 4 | GPPROP_STATS_GPROP1_HASH | Hash of values for property GPROP1 |   | 1 |
+| 5 | GPPROP_STATS_GPROP2_HASH | Hash of values for property GPROP2 |   | 1 |
 
 
 
@@ -277,8 +277,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Valid cluster metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 10 | LBPROP_STATS_EXAMPLE_PROP1_DATA | List of data for property EXAMPLE_PROP1 |   | 1 |
-| 11 | LBPROP_STATS_EXAMPLE_PROP2_DATA | List of data for property EXAMPLE_PROP2 |   | 1 |
+| 10 | LBPROP_STATS_EXPROP1_DATA | List of data for property EXPROP1 |   | 1 |
+| 11 | LBPROP_STATS_EXPROP2_DATA | List of data for property EXPROP2 |   | 1 |
 
 
 
@@ -294,8 +294,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Valid cluster metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 12 | LBPROP_STATS_EXAMPLE_PROP1_HASH | Hash of values for property EXAMPLE_PROP1 |   | 1 |
-| 13 | LBPROP_STATS_EXAMPLE_PROP2_HASH | Hash of values for property EXAMPLE_PROP2 |   | 1 |
+| 12 | LBPROP_STATS_EXPROP1_HASH | Hash of values for property EXPROP1 |   | 1 |
+| 13 | LBPROP_STATS_EXPROP2_HASH | Hash of values for property EXPROP2 |   | 1 |
 
 
 
@@ -315,8 +315,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Valid cluster metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 14 | LBPROP_STATS_EXAMPLE_PROP1_HASH2 | Hash of values for property EXAMPLE_PROP1 |   | 1 |
-| 15 | LBPROP_STATS_EXAMPLE_PROP2_HASH2 | Hash of values for property EXAMPLE_PROP2 |   | 1 |
+| 14 | LBPROP_STATS_EXPROP1_HASH2 | Hash of values for property EXPROP1 |   | 1 |
+| 15 | LBPROP_STATS_EXPROP2_HASH2 | Hash of values for property EXPROP2 |   | 1 |
 
 
 
@@ -332,8 +332,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Valid cluster metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 16 | LBPROP_LIST_EXAMPLE_PROP1 | List of data for property EXAMPLE_PROP1 |   | 1 |
-| 17 | LBPROP_LIST_EXAMPLE_PROP2 | List of data for property EXAMPLE_PROP2 |   | 1 |
+| 16 | LBPROP_LIST_EXPROP1 | List of data for property EXPROP1 |   | 1 |
+| 17 | LBPROP_LIST_EXPROP2 | List of data for property EXPROP2 |   | 1 |
 
 
 
