@@ -3,10 +3,9 @@
 **Table of contents:**
 * [Available downloads](#available-downloads)
   * [Biodiverse GUI](#biodiverse-gui)
-    * [0.99_007 (development release)](#099_007-development-release)
+    * [1.0 (stable release)](#10-stable-release)
       * [Known issues](#known-issues)
-    * [0.19 (stable release)](#019-stable-release)
-      * [Known issues](#known-issues)
+    * [1.0_001 (development release)](#10_001-development-release)
     * [Quick Start Guide](#quick-start-guide)
   * [Site Pair Sampler](#site-pair-sampler)
   * [Utility scripts](#utility-scripts)
@@ -15,51 +14,32 @@
 
 ## Biodiverse GUI ##
 
-### 0.99_007 (development release) ###
-
-_This is the current development version, leading towards a version 1.0 release.  Version 1 will be released soon if no show stopping bugs are detected._
-
-The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-0.99-007) summarise the changes in this version.
 
 There is also a series of blog posts at http://biodiverse-analysis-software.blogspot.com.au/
 
-* Windows (64 bit).  Download, unzip and then run the Biodiverse executable file.
-  * [7zip format](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_win64.7z). File size is 27 MB.  (The 7zip utility can be downloaded from http://www.7-zip.org).
-  * [zip format](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_win64.zip). File size is 41 MB.
-
-
-* [Linux (64 bit)](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_linux64.tar.gz).  Download, unzip, and then run the Biodiverse binary.  You might need to follow some of the [installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/InstallationLinuxBinary).
-
-* [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_007_source.zip).  For Mac users.  See the [installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/InstallationMacSource).
-
-* [Example data](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.99_004_example_data.7z)
-
-#### Known issues ####
-
-* There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/06)).
-
-* See also the [open issue list for the 1.0 development series](https://github.com/shawnlaffan/biodiverse/milestones/Release1.0).
-
-### 0.19 (stable release) ###
+### 1.0 (stable release) ###
 
 _This is the current stable release._
 
-The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-019) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-1) summarise the changes in this version.
 
 
-* [Windows (64 bit, 7zip format, ~22.5MB)](http://dl.bintray.com/shawnlaffan/Biodiverse/biodiverse_0.19_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~45MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_0.19_win_x64.zip)
+* [Windows (64 bit, standard zip format, ~58MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_win_x64.zip)
 
-* [Windows (32 bit)](http://dl.bintray.com/shawnlaffan/Biodiverse/biodiverse_0.19_win_x32.7z)
+* [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_linux64.tar.gz)
 
-* [Linux (64 bit)](http://dl.bintray.com/shawnlaffan/Biodiverse/biodiverse_0.19_linux_x64.tar.gz)
-
-* [Linux (32 bit)](http://dl.bintray.com/shawnlaffan/Biodiverse/biodiverse_0.19_linux_x32.tar.gz)
+* [Source code]()
 
 #### Known issues ####
 
-  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/06)).
+  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
+
+### 1.0_001 (development release) ###
+
+
+A development version following version 1.0 has not yet been released.
 
 
 ### Quick Start Guide ###
@@ -69,7 +49,7 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ## Site Pair Sampler ##
 
-[Site pair sampler for GDM analyses](https://code.google.com/p/biodiverse/downloads/detail?name=site_pair_sample_64bit.7z).
+[Site pair sampler for GDM analyses](http://biodiverse.unsw.edu.au/downloads/site_pair_sample_64bit.7z).
 
 For further details, see:
 
@@ -78,8 +58,13 @@ Rosauer, D.F., Ferrier, S., Williams, K.J., Manion, G, Keogh, S & Laffan, S.W. (
 
 ## Utility scripts ##
 
-* [Multidirectional Turnover Analyser Perl Script](https://code.google.com/p/biodiverse/downloads/detail?name=multidirectional_turnover_analyser.pl).  Requires a [source code installation](Installation).
+* [Multidirectional Turnover Analyser Perl Script](http://biodiverse.unsw.edu.au/downloads/multidirectional_turnover_analyser.pl).
 
+Requires a [source code installation](Installation).
+
+For further details, see:
+
+Di Virgilio, G., Laffan, S.W. & Ebach, M.C. (2012) Fine scale quantification of floral and faunal breaks and their geographic correlates, with an example from south-eastern Australia. Journal of Biogeography, 39, 1862-1876.  http://dx.doi.org/10.1111/j.1365-2699.2012.02739.x
 
 ## Older versions ##
 

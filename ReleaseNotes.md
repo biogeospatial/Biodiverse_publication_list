@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 1](#version-1)
 * [Version 0.99](#version-099)
   * [Version 0.99_007](#version-099_007)
   * [Version 0.99_006](#version-099_006)
@@ -17,6 +18,17 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+
+# Version 1 #
+
+This is the 1.0 release.  It contains all of the changes in the [version 0.99 development series](#version-099).
+
+This release contains several major changes to the underlying code-base, as well as the addition of several major new features.  It is not backwards compatible with previous versions (0.19 and earlier) in several respects.  It can still use most Biodiverse files created using earlier versions, but files created using this version are not guaranteed to work with earlier versions.
+
+For the full list of issues and changes leading to the 1.0 release, see https://github.com/shawnlaffan/biodiverse/milestones/Release1.0
+
+To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 
 # Version 0.99 #
