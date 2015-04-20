@@ -19,7 +19,7 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
   * Once you have installed the non-system perl, you need to make sure it is the one you call in subsequent steps.  You will probably need to give the full path name to the perl binary when used below, rather than just saying `perl`.
 
 
-```
+```bash
   #  add the GDAL repo
   sudo add-apt-repository ppa:ubuntugis/ppa 
   sudo apt-get update
@@ -34,9 +34,6 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
 
   #  skip this if you already have cpanm installed
   cpan App::cpanminus
-
-  #  this was added is post 0.99_004 and is not in the task file yet
-  cpanm HTTP::Tiny
 
   # Now install the rest of the dependencies
   cpanm Task::Biodiverse::NoGUI
@@ -64,19 +61,19 @@ If you don't like the current window theme then you can change them using the De
 # Running it #
 
   * To run Biodiverse, open a terminal window and change directory to the biodiverse/bin folder.  If it is in your home folder and called `biodiverse` then type:
-```
+```bash
 cd ~/biodiverse/bin
 ```
   * Once you have done this, type the following command to open Biodiverse.
-```
+```bash
 perl BiodiverseGUI.pl
 ```
   * Alternately, you could give the full path to Biodiverse if you want to start in a particular directory (i.e. where all your files are).
-```
+```bash
 perl ~/biodiverse/bin/BiodiverseGUI.pl
 ```
   * If you want your command prompt back after opening Biodiverse then run it as a background job.  However, the log output will then be mixed with any other commands you type.
-```
+```bash
 perl BiodiverseGUI.pl &
 ```
 
