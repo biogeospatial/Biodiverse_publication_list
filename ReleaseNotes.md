@@ -26,7 +26,7 @@ This is the 1.0 release.  It contains all of the changes in the [version 0.99 de
 
 This release contains several major changes to the underlying code-base, as well as the addition of several major new features.  It is not backwards compatible with previous versions (0.19 and earlier) in several respects.  It can still use most Biodiverse files created using earlier versions, but files created using this version are not guaranteed to work with earlier versions.
 
-For the full list of issues and changes leading to the 1.0 release, see https://github.com/shawnlaffan/biodiverse/milestones/Release1.0
+For the full list of issues and changes leading to the 1.0 release, see https://github.com/shawnlaffan/biodiverse/milestones/Release_1.0
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
