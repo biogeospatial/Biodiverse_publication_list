@@ -1,6 +1,6 @@
 
 # Indices available in Biodiverse 
-_Generated GMT Fri Apr 17 23:38:54 2015 using build_indices_table.pl, Biodiverse version 1.0._
+_Generated GMT Wed Apr 22 05:52:28 2015 using build_indices_table.pl, Biodiverse version 1.0._
 
 
 This is a listing of the indices available in Biodiverse,
@@ -157,7 +157,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 1 | GPPROP_GISTAR_LIST | List of Gi* scores | region grower | 1 |
+| 1 | GPPROP_GISTAR_LIST | List of Gi* scores |   | 1 |
 
 
 
@@ -173,8 +173,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 2 | GPPROP_STATS_GPROP1_DATA | List of values for property GPROP1 | region grower | 1 |
-| 3 | GPPROP_STATS_GPROP2_DATA | List of values for property GPROP2 | region grower | 1 |
+| 2 | GPPROP_STATS_GPROP1_DATA | List of values for property GPROP1 |   | 1 |
+| 3 | GPPROP_STATS_GPROP2_DATA | List of values for property GPROP2 |   | 1 |
 
 
 
@@ -190,8 +190,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 4 | GPPROP_STATS_GPROP1_HASH | Hash of values for property GPROP1 | region grower | 1 |
-| 5 | GPPROP_STATS_GPROP2_HASH | Hash of values for property GPROP2 | region grower | 1 |
+| 4 | GPPROP_STATS_GPROP1_HASH | Hash of values for property GPROP1 |   | 1 |
+| 5 | GPPROP_STATS_GPROP2_HASH | Hash of values for property GPROP2 |   | 1 |
 
 
 
@@ -207,7 +207,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 6 | GPPROP_QUANTILE_LIST | List of quantiles for the label properties (05 10 20 30 40 50 60 70 80 90 95) | region grower | 1 |
+| 6 | GPPROP_QUANTILE_LIST | List of quantiles for the label properties (05 10 20 30 40 50 60 70 80 90 95) |   | 1 |
 
 
 
@@ -223,7 +223,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 7 | GPPROP_STATS_LIST | List of summary statistics (count mean min max median sum sd iqr) | region grower | 1 |
+| 7 | GPPROP_STATS_LIST | List of summary statistics (count mean min max median sum sd iqr) |   | 1 |
 
 
 
@@ -242,7 +242,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 8 | LBPROP_GISTAR_LIST | List of Gi* scores | region grower | 1 |
+| 8 | LBPROP_GISTAR_LIST | List of Gi* scores |   | 1 |
 
 
 
@@ -261,7 +261,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 9 | LBPROP_GISTAR_LIST_ABC2 | List of Gi* scores | region grower | 1 |
+| 9 | LBPROP_GISTAR_LIST_ABC2 | List of Gi* scores |   | 1 |
 
 
 
@@ -277,8 +277,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 10 | LBPROP_STATS_EXPROP1_DATA | List of data for property EXPROP1 | region grower | 1 |
-| 11 | LBPROP_STATS_EXPROP2_DATA | List of data for property EXPROP2 | region grower | 1 |
+| 10 | LBPROP_STATS_EXPROP1_DATA | List of data for property EXPROP1 |   | 1 |
+| 11 | LBPROP_STATS_EXPROP2_DATA | List of data for property EXPROP2 |   | 1 |
 
 
 
@@ -294,8 +294,8 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 12 | LBPROP_STATS_EXPROP1_HASH | Hash of values for property EXPROP1 | region grower | 1 |
-| 13 | LBPROP_STATS_EXPROP2_HASH | Hash of values for property EXPROP2 | region grower | 1 |
+| 12 | LBPROP_STATS_EXPROP1_HASH | Hash of values for property EXPROP1 |   | 1 |
+| 13 | LBPROP_STATS_EXPROP2_HASH | Hash of values for property EXPROP2 |   | 1 |
 
 
 
@@ -315,8 +315,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 14 | LBPROP_STATS_EXPROP1_HASH2 | Hash of values for property EXPROP1 | region grower | 1 |
-| 15 | LBPROP_STATS_EXPROP2_HASH2 | Hash of values for property EXPROP2 | region grower | 1 |
+| 14 | LBPROP_STATS_EXPROP1_HASH2 | Hash of values for property EXPROP1 |   | 1 |
+| 15 | LBPROP_STATS_EXPROP2_HASH2 | Hash of values for property EXPROP2 |   | 1 |
 
 
 
@@ -332,8 +332,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 16 | LBPROP_LIST_EXPROP1 | List of data for property EXPROP1 | region grower | 1 |
-| 17 | LBPROP_LIST_EXPROP2 | List of data for property EXPROP2 | region grower | 1 |
+| 16 | LBPROP_LIST_EXPROP1 | List of data for property EXPROP1 |   | 1 |
+| 17 | LBPROP_LIST_EXPROP2 | List of data for property EXPROP2 |   | 1 |
 
 
 
@@ -350,7 +350,7 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 18 | LBPROP_QUANTILES | List of quantiles for the label properties: (05 10 20 30 40 50 60 70 80 90 95) | region grower | 1 |
+| 18 | LBPROP_QUANTILES | List of quantiles for the label properties: (05 10 20 30 40 50 60 70 80 90 95) |   | 1 |
 
 
 
@@ -367,7 +367,7 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 19 | LBPROP_QUANTILES_ABC2 | List of quantiles for the label properties: (05 10 20 30 40 50 60 70 80 90 95) | region grower | 1 |
+| 19 | LBPROP_QUANTILES_ABC2 | List of quantiles for the label properties: (05 10 20 30 40 50 60 70 80 90 95) |   | 1 |
 
 
 
@@ -384,7 +384,7 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 20 | LBPROP_STATS | List of summary statistics (count mean min max median sum skewness kurtosis sd iqr) | region grower | 1 |
+| 20 | LBPROP_STATS | List of summary statistics (count mean min max median sum skewness kurtosis sd iqr) |   | 1 |
 
 
 
@@ -401,7 +401,7 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 21 | LBPROP_STATS_ABC2 | List of summary statistics (count mean min max median sum skewness kurtosis sd iqr) | region grower | 1 |
+| 21 | LBPROP_STATS_ABC2 | List of summary statistics (count mean min max median sum skewness kurtosis sd iqr) |   | 1 |
 
 
 ## Endemism ##
@@ -440,9 +440,9 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 28 | END_ABS1_LIST | List of labels entirely endemic to neighbour set 1 | region grower | 1 |
-| 29 | END_ABS2_LIST | List of labels entirely endemic to neighbour set 1 | region grower | 1 |
-| 30 | END_ABS_ALL_LIST | List of labels entirely endemic to neighbour sets 1 and 2 combined | region grower | 1 |
+| 28 | END_ABS1_LIST | List of labels entirely endemic to neighbour set 1 |   | 1 |
+| 29 | END_ABS2_LIST | List of labels entirely endemic to neighbour set 1 |   | 1 |
+| 30 | END_ABS_ALL_LIST | List of labels entirely endemic to neighbour sets 1 and 2 combined |   | 1 |
 
 
 
@@ -483,14 +483,14 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 35 | ENDC_HPART_0 | List of the proportional contribution of labels to the endemism central calculations, hierarchical level 0 | region grower | 1 |
-| 36 | ENDC_HPART_1 | List of the proportional contribution of labels to the endemism central calculations, hierarchical level 1 | region grower | 1 |
-| 37 | ENDC_HPART_C_0 | List of the proportional count of labels to the endemism central calculations (equivalent to richness per hierarchical grouping), hierarchical level 0 | region grower | 1 |
-| 38 | ENDC_HPART_C_1 | List of the proportional count of labels to the endemism central calculations (equivalent to richness per hierarchical grouping), hierarchical level 1 | region grower | 1 |
-| 39 | ENDC_HPART_E_0 | List of the expected proportional contribution of labels to the endemism central calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 0 | region grower | 1 |
-| 40 | ENDC_HPART_E_1 | List of the expected proportional contribution of labels to the endemism central calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 1 | region grower | 1 |
-| 41 | ENDC_HPART_OME_0 | List of the observed minus expected proportional contribution of labels to the endemism central calculations , hierarchical level 0 | region grower | 1 |
-| 42 | ENDC_HPART_OME_1 | List of the observed minus expected proportional contribution of labels to the endemism central calculations , hierarchical level 1 | region grower | 1 |
+| 35 | ENDC_HPART_0 | List of the proportional contribution of labels to the endemism central calculations, hierarchical level 0 |   | 1 |
+| 36 | ENDC_HPART_1 | List of the proportional contribution of labels to the endemism central calculations, hierarchical level 1 |   | 1 |
+| 37 | ENDC_HPART_C_0 | List of the proportional count of labels to the endemism central calculations (equivalent to richness per hierarchical grouping), hierarchical level 0 |   | 1 |
+| 38 | ENDC_HPART_C_1 | List of the proportional count of labels to the endemism central calculations (equivalent to richness per hierarchical grouping), hierarchical level 1 |   | 1 |
+| 39 | ENDC_HPART_E_0 | List of the expected proportional contribution of labels to the endemism central calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 0 |   | 1 |
+| 40 | ENDC_HPART_E_1 | List of the expected proportional contribution of labels to the endemism central calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 1 |   | 1 |
+| 41 | ENDC_HPART_OME_0 | List of the observed minus expected proportional contribution of labels to the endemism central calculations , hierarchical level 0 |   | 1 |
+| 42 | ENDC_HPART_OME_1 | List of the observed minus expected proportional contribution of labels to the endemism central calculations , hierarchical level 1 |   | 1 |
 
 
 
@@ -506,8 +506,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 43 | ENDC_RANGELIST | List of ranges for each label used in the endemism central calculations | region grower | 1 |
-| 44 | ENDC_WTLIST | List of weights for each label used in the endemism central calculations | region grower | 1 |
+| 43 | ENDC_RANGELIST | List of ranges for each label used in the endemism central calculations |   | 1 |
+| 44 | ENDC_WTLIST | List of weights for each label used in the endemism central calculations |   | 1 |
 
 
 
@@ -564,14 +564,14 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 51 | ENDW_HPART_0 | List of the proportional contribution of labels to the endemism whole calculations, hierarchical level 0 | region grower | 1 |
-| 52 | ENDW_HPART_1 | List of the proportional contribution of labels to the endemism whole calculations, hierarchical level 1 | region grower | 1 |
-| 53 | ENDW_HPART_C_0 | List of the proportional count of labels to the endemism whole calculations (equivalent to richness per hierarchical grouping), hierarchical level 0 | region grower | 1 |
-| 54 | ENDW_HPART_C_1 | List of the proportional count of labels to the endemism whole calculations (equivalent to richness per hierarchical grouping), hierarchical level 1 | region grower | 1 |
-| 55 | ENDW_HPART_E_0 | List of the expected proportional contribution of labels to the endemism whole calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 0 | region grower | 1 |
-| 56 | ENDW_HPART_E_1 | List of the expected proportional contribution of labels to the endemism whole calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 1 | region grower | 1 |
-| 57 | ENDW_HPART_OME_0 | List of the observed minus expected proportional contribution of labels to the endemism whole calculations , hierarchical level 0 | region grower | 1 |
-| 58 | ENDW_HPART_OME_1 | List of the observed minus expected proportional contribution of labels to the endemism whole calculations , hierarchical level 1 | region grower | 1 |
+| 51 | ENDW_HPART_0 | List of the proportional contribution of labels to the endemism whole calculations, hierarchical level 0 |   | 1 |
+| 52 | ENDW_HPART_1 | List of the proportional contribution of labels to the endemism whole calculations, hierarchical level 1 |   | 1 |
+| 53 | ENDW_HPART_C_0 | List of the proportional count of labels to the endemism whole calculations (equivalent to richness per hierarchical grouping), hierarchical level 0 |   | 1 |
+| 54 | ENDW_HPART_C_1 | List of the proportional count of labels to the endemism whole calculations (equivalent to richness per hierarchical grouping), hierarchical level 1 |   | 1 |
+| 55 | ENDW_HPART_E_0 | List of the expected proportional contribution of labels to the endemism whole calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 0 |   | 1 |
+| 56 | ENDW_HPART_E_1 | List of the expected proportional contribution of labels to the endemism whole calculations (richness per hierarchical grouping divided by overall richness), hierarchical level 1 |   | 1 |
+| 57 | ENDW_HPART_OME_0 | List of the observed minus expected proportional contribution of labels to the endemism whole calculations , hierarchical level 0 |   | 1 |
+| 58 | ENDW_HPART_OME_1 | List of the observed minus expected proportional contribution of labels to the endemism whole calculations , hierarchical level 1 |   | 1 |
 
 
 
@@ -587,8 +587,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 59 | ENDW_RANGELIST | List of ranges for each label used in the endemism whole calculations | region grower | 1 |
-| 60 | ENDW_WTLIST | List of weights for each label used in the endemism whole calculations | region grower | 1 |
+| 59 | ENDW_RANGELIST | List of ranges for each label used in the endemism whole calculations |   | 1 |
+| 60 | ENDW_WTLIST | List of weights for each label used in the endemism whole calculations |   | 1 |
 
 
 
@@ -688,8 +688,8 @@ Event intervals are calculated within groups, then aggregated across the neighbo
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 85 | IEI_DATA_ARRAY | Interval data in array form.  Multiple occurrences are repeated  | region grower | 1 |
-| 86 | IEI_DATA_HASH | Interval data in hash form where the  interval is the key and number of occurrences is the value | region grower | 1 |
+| 85 | IEI_DATA_ARRAY | Interval data in array form.  Multiple occurrences are repeated  |   | 1 |
+| 86 | IEI_DATA_HASH | Interval data in hash form where the  interval is the key and number of occurrences is the value |   | 1 |
 
 
 ## Lists and Counts ##
@@ -725,9 +725,9 @@ These form the basis for all the spatial calculations.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 90 | EL_LIST_ALL | List of elements in both neighour sets | region grower | 2 |
-| 91 | EL_LIST_SET1 | List of elements in neighbour set 1 | region grower | 1 |
-| 92 | EL_LIST_SET2 | List of elements in neighbour set 2 | region grower | 2 |
+| 90 | EL_LIST_ALL | List of elements in both neighour sets |   | 2 |
+| 91 | EL_LIST_SET1 | List of elements in neighbour set 1 |   | 1 |
+| 92 | EL_LIST_SET2 | List of elements in neighbour set 2 |   | 2 |
 
 
 
@@ -781,9 +781,9 @@ The local ranges are the number of elements in which each label is found in each
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 98 | ABC2_LABELS_ALL | List of labels in both neighbour sets | region grower | 2 |
-| 99 | ABC2_LABELS_SET1 | List of labels in neighbour set 1 | region grower | 1 |
-| 100 | ABC2_LABELS_SET2 | List of labels in neighbour set 2 | region grower | 2 |
+| 98 | ABC2_LABELS_ALL | List of labels in both neighbour sets |   | 2 |
+| 99 | ABC2_LABELS_SET1 | List of labels in neighbour set 1 |   | 1 |
+| 100 | ABC2_LABELS_SET2 | List of labels in neighbour set 2 |   | 2 |
 
 
 
@@ -820,7 +820,7 @@ The local ranges are the number of elements in which each label is found in each
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 107 | LABEL_COUNT_RANK_PCT | List of percentile ranks for each label's sample count | region grower | 1 |
+| 107 | LABEL_COUNT_RANK_PCT | List of percentile ranks for each label's sample count |   | 1 |
 
 
 
@@ -882,9 +882,9 @@ These form the basis of the sample indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 114 | ABC3_LABELS_ALL | List of labels in both neighbour sets with their sample counts as the values. | region grower | 2 |
-| 115 | ABC3_LABELS_SET1 | List of labels in neighbour set 1. Values are the sample counts.   | region grower | 1 |
-| 116 | ABC3_LABELS_SET2 | List of labels in neighbour set 2. Values are the sample counts. | region grower | 2 |
+| 114 | ABC3_LABELS_ALL | List of labels in both neighbour sets with their sample counts as the values. |   | 2 |
+| 115 | ABC3_LABELS_SET1 | List of labels in neighbour set 1. Values are the sample counts.   |   | 1 |
+| 116 | ABC3_LABELS_SET2 | List of labels in neighbour set 2. Values are the sample counts. |   | 2 |
 
 
 
@@ -901,9 +901,9 @@ These form the basis of the sample indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 117 | ABC3_QUANTILES_ALL | List of quantiles for both neighbour sets | region grower | 2 |
-| 118 | ABC3_QUANTILES_SET1 | List of quantiles for neighbour set 1 | region grower | 1 |
-| 119 | ABC3_QUANTILES_SET2 | List of quantiles for neighbour set 2 | region grower | 2 |
+| 117 | ABC3_QUANTILES_ALL | List of quantiles for both neighbour sets |   | 2 |
+| 118 | ABC3_QUANTILES_SET1 | List of quantiles for neighbour set 1 |   | 1 |
+| 119 | ABC3_QUANTILES_SET2 | List of quantiles for neighbour set 2 |   | 2 |
 
 
 
@@ -945,8 +945,8 @@ These form the basis of the sample indices.
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
 | 129 | MXD_COUNT | Count of comparisons used. | region grower | 1 |
-| 130 | MXD_LIST1 | List of the labels used from neighbour set 1 (those in the matrix). The list values are the number of times each label was used in the calculations. This will always be 1 for labels in neighbour set 1. | region grower | 1 |
-| 131 | MXD_LIST2 | List of the labels used from neighbour set 2 (those in the matrix). The list values are the number of times each label was used in the calculations. This will equal the number of labels used from neighbour set 1. | region grower | 1 |
+| 130 | MXD_LIST1 | List of the labels used from neighbour set 1 (those in the matrix). The list values are the number of times each label was used in the calculations. This will always be 1 for labels in neighbour set 1. |   | 1 |
+| 131 | MXD_LIST2 | List of the labels used from neighbour set 2 (those in the matrix). The list values are the number of times each label was used in the calculations. This will equal the number of labels used from neighbour set 1. |   | 1 |
 | 132 | MXD_MEAN | Mean dissimilarity of labels in set 1 to those in set 2. | cluster metric | 1 |
 | 133 | MXD_VARIANCE | Variance of the dissimilarity values, set 1 vs set 2. | cluster metric | 1 |
 
@@ -966,7 +966,7 @@ Labels not in the matrix are ignored.
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
 | 134 | MX_KURT | Kurtosis | region grower | 1 |
-| 135 | MX_LABELS | List of the matrix labels in the neighbour sets | region grower | 1 |
+| 135 | MX_LABELS | List of the matrix labels in the neighbour sets |   | 1 |
 | 136 | MX_MAXVALUE | Maximum value | region grower | 1 |
 | 137 | MX_MEAN | Mean | region grower | 1 |
 | 138 | MX_MEDIAN | Median | region grower | 1 |
@@ -979,7 +979,7 @@ Labels not in the matrix are ignored.
 | 145 | MX_RANGE | Range (max-min) | region grower | 1 |
 | 146 | MX_SD | Standard deviation | region grower | 1 |
 | 147 | MX_SKEW | Skewness | region grower | 1 |
-| 148 | MX_VALUES | List of the matrix values | region grower | 1 |
+| 148 | MX_VALUES | List of the matrix values |   | 1 |
 
 
 
@@ -1000,7 +1000,7 @@ BaseData labels not in the matrix are ignored
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
 | 149 | MX_RAO_QE | Matrix weighted quadratic entropy | region grower | 1 |
-| 150 | MX_RAO_TLABELS | List of labels and values used in the MX_RAO_QE calculations | region grower | 1 |
+| 150 | MX_RAO_TLABELS | List of labels and values used in the MX_RAO_QE calculations |   | 1 |
 | 151 | MX_RAO_TN | Count of comparisons used to calculate MX_RAO_QE | region grower | 1 |
 
 
@@ -1018,7 +1018,7 @@ For the hash form, use the ABC3_LABELS_ALL index from the 'Sample count lists' c
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 152 | NUM_DATA_ARRAY | Numeric label data in array form.  Multiple occurrences are repeated based on their sample counts. | region grower | 1 |
+| 152 | NUM_DATA_ARRAY | Numeric label data in array form.  Multiple occurrences are repeated based on their sample counts. |   | 1 |
 
 
 
@@ -1317,7 +1317,7 @@ so values >0 have longer branches than expected.
 | 227 | PNTD1_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
 
 
-## Phylogenetic Endemism Indices##
+## Phylogenetic Endemism Indices ##
  
  
 
@@ -1384,7 +1384,7 @@ so values >0 have longer branches than expected.
 | ---- | ---- | ---- | ---- | ---- |
 | 232 | PD_ENDEMISM | Phylogenetic Diversity Endemism | region grower | 1 |
 | 233 | PD_ENDEMISM_P | Phylogenetic Diversity Endemism, as a proportion of the whole tree | region grower | 1 |
-| 234 | PD_ENDEMISM_WTS | Phylogenetic Diversity Endemism weights per node found only in the neighbour set | region grower | 1 |
+| 234 | PD_ENDEMISM_WTS | Phylogenetic Diversity Endemism weights per node found only in the neighbour set |   | 1 |
 
 
 
@@ -1400,9 +1400,9 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 235 | PE_CLADE_CONTR | List of node (clade) contributions to the PE calculation | region grower | 1 |
-| 236 | PE_CLADE_CONTR_P | List of node (clade) contributions to the PE calculation, proportional to the entire tree | region grower | 1 |
-| 237 | PE_CLADE_SCORE | List of PE scores for each node (clade), being the sum of all descendent PE weights | region grower | 1 |
+| 235 | PE_CLADE_CONTR | List of node (clade) contributions to the PE calculation |   | 1 |
+| 236 | PE_CLADE_CONTR_P | List of node (clade) contributions to the PE calculation, proportional to the entire tree |   | 1 |
+| 237 | PE_CLADE_SCORE | List of PE scores for each node (clade), being the sum of all descendent PE weights |   | 1 |
 
 
 
@@ -1418,9 +1418,9 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 238 | PE_CLADE_LOSS_CONTR | List of the proportion of the PE score which would be lost if each clade were removed. | region grower | 1 |
-| 239 | PE_CLADE_LOSS_CONTR_P | As per PE_CLADE_LOSS but proportional to the entire tree | region grower | 1 |
-| 240 | PE_CLADE_LOSS_SCORE | List of how much PE would be lost if each clade were removed. | region grower | 1 |
+| 238 | PE_CLADE_LOSS_CONTR | List of the proportion of the PE score which would be lost if each clade were removed. |   | 1 |
+| 239 | PE_CLADE_LOSS_CONTR_P | As per PE_CLADE_LOSS but proportional to the entire tree |   | 1 |
+| 240 | PE_CLADE_LOSS_SCORE | List of how much PE would be lost if each clade were removed. |   | 1 |
 
 
 
@@ -1436,8 +1436,8 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 241 | PE_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PE is lost. | region grower | 1 |
-| 242 | PE_CLADE_LOSS_ANC_P | List of the proportion of the clade's PE loss that is due to the ancestral branches. | region grower | 1 |
+| 241 | PE_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PE is lost. |   | 1 |
+| 242 | PE_CLADE_LOSS_ANC_P | List of the proportion of the clade's PE loss that is due to the ancestral branches. |   | 1 |
 
 
 
@@ -1503,9 +1503,9 @@ both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 247 | PEC_LOCAL_RANGELIST | Phylogenetic endemism local range lists, central variant | region grower | 1 |
-| 248 | PEC_RANGELIST | Phylogenetic endemism global range lists, central variant | region grower | 1 |
-| 249 | PEC_WTLIST | Phylogenetic endemism weights, central variant | region grower | 1 |
+| 247 | PEC_LOCAL_RANGELIST | Phylogenetic endemism local range lists, central variant |   | 1 |
+| 248 | PEC_RANGELIST | Phylogenetic endemism global range lists, central variant |   | 1 |
+| 249 | PEC_WTLIST | Phylogenetic endemism weights, central variant |   | 1 |
 
 
 
@@ -1524,9 +1524,9 @@ both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 250 | PE_LOCAL_RANGELIST | Local node ranges used in PE calculations (number of groups in which a node is found) | region grower | 1 |
-| 251 | PE_RANGELIST | Node ranges used in PE calculations | region grower | 1 |
-| 252 | PE_WTLIST | Node weights used in PE calculations | region grower | 1 |
+| 250 | PE_LOCAL_RANGELIST | Local node ranges used in PE calculations (number of groups in which a node is found) |   | 1 |
+| 251 | PE_RANGELIST | Node ranges used in PE calculations |   | 1 |
+| 252 | PE_WTLIST | Node weights used in PE calculations |   | 1 |
 
 
 
@@ -1582,9 +1582,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 256 | PHYLO_AED_LIST | Abundance weighted ED per terminal label | region grower | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
-| 257 | PHYLO_ED_LIST | "Fair proportion" partitioning of PD per terminal label | region grower | 1 | Isaac et al. (2007) http://dx.doi.org/10.1371/journal.pone.0000296 |
-| 258 | PHYLO_ES_LIST | Equal splits partitioning of PD per terminal label | region grower | 1 | Redding & Mooers (2006) http://dx.doi.org/10.1111%2Fj.1523-1739.2006.00555.x |
+| 256 | PHYLO_AED_LIST | Abundance weighted ED per terminal label |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 257 | PHYLO_ED_LIST | "Fair proportion" partitioning of PD per terminal label |   | 1 | Isaac et al. (2007) http://dx.doi.org/10.1371/journal.pone.0000296 |
+| 258 | PHYLO_ES_LIST | Equal splits partitioning of PD per terminal label |   | 1 | Redding & Mooers (2006) http://dx.doi.org/10.1111%2Fj.1523-1739.2006.00555.x |
 
 
 
@@ -1622,8 +1622,8 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 260 | PHYLO_AED_T_WTLIST | Abundance weighted ED per terminal taxon (the AED score of each taxon multiplied by its abundance in the sample) | region grower | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
-| 261 | PHYLO_AED_T_WTLIST_P | Proportional contribution of each terminal taxon to the AED_T score | region grower | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 260 | PHYLO_AED_T_WTLIST | Abundance weighted ED per terminal taxon (the AED score of each taxon multiplied by its abundance in the sample) |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 261 | PHYLO_AED_T_WTLIST_P | Proportional contribution of each terminal taxon to the AED_T score |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
 
 
 
@@ -1639,7 +1639,7 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 262 | PHYLO_LABELS_NOT_ON_TREE | A hash of labels that are not found on the tree, across both neighbour sets | region grower | 1 |
+| 262 | PHYLO_LABELS_NOT_ON_TREE | A hash of labels that are not found on the tree, across both neighbour sets |   | 1 |
 | 263 | PHYLO_LABELS_NOT_ON_TREE_N | Number of labels not on the tree | region grower | 1 |
 | 264 | PHYLO_LABELS_NOT_ON_TREE_P | Proportion of labels not on the tree | region grower | 1 |
 
@@ -1657,7 +1657,7 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 265 | PHYLO_LABELS_ON_TREE | A hash of labels that are found on the tree, across both neighbour sets | region grower | 1 |
+| 265 | PHYLO_LABELS_ON_TREE | A hash of labels that are found on the tree, across both neighbour sets |   | 1 |
 
 
 
@@ -1673,9 +1673,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 266 | PD_CLADE_CONTR | List of node (clade) contributions to the PD calculation | region grower | 1 |
-| 267 | PD_CLADE_CONTR_P | List of node (clade) contributions to the PD calculation, proportional to the entire tree | region grower | 1 |
-| 268 | PD_CLADE_SCORE | List of PD scores for each node (clade), being the sum of all descendent branch lengths | region grower | 1 |
+| 266 | PD_CLADE_CONTR | List of node (clade) contributions to the PD calculation |   | 1 |
+| 267 | PD_CLADE_CONTR_P | List of node (clade) contributions to the PD calculation, proportional to the entire tree |   | 1 |
+| 268 | PD_CLADE_SCORE | List of PD scores for each node (clade), being the sum of all descendent branch lengths |   | 1 |
 
 
 
@@ -1691,9 +1691,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 269 | PD_CLADE_LOSS_CONTR | List of the proportion of the PD score which would be lost if each clade were removed. | region grower | 1 |
-| 270 | PD_CLADE_LOSS_CONTR_P | As per PD_CLADE_LOSS but proportional to the entire tree | region grower | 1 |
-| 271 | PD_CLADE_LOSS_SCORE | List of how much PD would be lost if each clade were removed. | region grower | 1 |
+| 269 | PD_CLADE_LOSS_CONTR | List of the proportion of the PD score which would be lost if each clade were removed. |   | 1 |
+| 270 | PD_CLADE_LOSS_CONTR_P | As per PD_CLADE_LOSS but proportional to the entire tree |   | 1 |
+| 271 | PD_CLADE_LOSS_SCORE | List of how much PD would be lost if each clade were removed. |   | 1 |
 
 
 
@@ -1709,8 +1709,8 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 272 | PD_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PD is lost. | region grower | 1 |
-| 273 | PD_CLADE_LOSS_ANC_P | List of the proportion of the clade's PD loss that is due to the ancestral branches. | region grower | 1 |
+| 272 | PD_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PD is lost. |   | 1 |
+| 273 | PD_CLADE_LOSS_ANC_P | List of the proportion of the clade's PD loss that is due to the ancestral branches. |   | 1 |
 
 
 
@@ -1746,7 +1746,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 278 | PD_INCLUDED_NODE_LIST | List of tree nodes included in the PD calculations | region grower | 1 |
+| 278 | PD_INCLUDED_NODE_LIST | List of tree nodes included in the PD calculations |   | 1 |
 
 
 
@@ -1778,7 +1778,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 280 | PD_INCLUDED_TERMINAL_NODE_LIST | List of tree terminal nodes included in the PD calculations | region grower | 1 |
+| 280 | PD_INCLUDED_TERMINAL_NODE_LIST | List of tree terminal nodes included in the PD calculations |   | 1 |
 
 
 
@@ -1838,7 +1838,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 289 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE | A hash of labels that are not found on the tree after it has been trimmed to the basedata, across both neighbour sets | region grower | 1 |
+| 289 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE | A hash of labels that are not found on the tree after it has been trimmed to the basedata, across both neighbour sets |   | 1 |
 | 290 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE_N | Number of labels not on the trimmed tree | region grower | 1 |
 | 291 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE_P | Proportion of labels not on the trimmed tree | region grower | 1 |
 
@@ -1856,7 +1856,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 292 | PHYLO_LABELS_ON_TRIMMED_TREE | A hash of labels that are found on the tree after it has been trimmed to match the basedata, across both neighbour sets | region grower | 1 |
+| 292 | PHYLO_LABELS_ON_TRIMMED_TREE | A hash of labels that are found on the tree after it has been trimmed to match the basedata, across both neighbour sets |   | 1 |
 
 
 
@@ -2045,8 +2045,8 @@ Uses the same algorithm as the endemism indices but weights by sample counts ins
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 315 | RAREC_RANGELIST | List of ranges for each label used in the rarity central calculations | region grower | 1 |
-| 316 | RAREC_WTLIST | List of weights for each label used in therarity central calculations | region grower | 1 |
+| 315 | RAREC_RANGELIST | List of ranges for each label used in the rarity central calculations |   | 1 |
+| 316 | RAREC_WTLIST | List of weights for each label used in therarity central calculations |   | 1 |
 
 
 
@@ -2083,8 +2083,8 @@ by sample counts instead of by groups occupied.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 320 | RAREW_RANGELIST | List of ranges for each label used in the rarity whole calculations | region grower | 1 |
-| 321 | RAREW_WTLIST | List of weights for each label used in therarity whole calculations | region grower | 1 |
+| 320 | RAREW_RANGELIST | List of ranges for each label used in the rarity whole calculations |   | 1 |
+| 321 | RAREW_WTLIST | List of weights for each label used in therarity whole calculations |   | 1 |
 
 
 ## Taxonomic Dissimilarity and Comparison ##
@@ -2232,7 +2232,7 @@ Should collapse to be the Simpson index for presence/absence data.
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
 | 334 | TX_RAO_QE | Taxonomically weighted quadratic entropy | region grower | 1 |
-| 335 | TX_RAO_TLABELS | List of labels and values used in the TX_RAO_QE calculations | region grower | 1 |
+| 335 | TX_RAO_TLABELS | List of labels and values used in the TX_RAO_QE calculations |   | 1 |
 | 336 | TX_RAO_TN | Count of comparisons used to calculate TX_RAO_QE | region grower | 1 |
 
 
