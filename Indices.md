@@ -83,7 +83,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Phylogenetic and Nearest taxon distances, unweighted](#phylogenetic-and-nearest-taxon-distances-unweighted)
     * [Phylogenetic and Nearest taxon distances, local range weighted](#phylogenetic-and-nearest-taxon-distances-local-range-weighted)
     * [Phylogenetic and Nearest taxon distances, abundance weighted](#phylogenetic-and-nearest-taxon-distances-abundance-weighted)
-  * [Phylogenetic Endemism](#phylogenetic-endemism)
+  * [Phylogenetic Endemism Indices](#phylogenetic-endemism-indices)
     * [PD-Endemism](#pd-endemism)
     * [Phylogenetic Endemism](#phylogenetic-endemism)
     * [Phylogenetic Endemism central](#phylogenetic-endemism-central)
@@ -1317,7 +1317,7 @@ so values >0 have longer branches than expected.
 | 227 | PNTD1_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
 
 
-## Phylogenetic Endemism ##
+## Phylogenetic Endemism Indices##
  
  
 
