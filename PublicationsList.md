@@ -32,7 +32,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * González-Orozco, C.E., Thornhill, A.H., Knerr, N., Laffan, S.W. & Miller, J.T. (2014) Biogeographical regions and phytogeography of the eucalypts. [Diversity and Distributions, 20, 46-58](http://dx.doi.org/10.1111/ddi.12129).
 
-  * Kooyman, R.M., Wilf, P., Barreda, V.D., Carpenter, R.J., Jordan, G.J., Sniderman, J.M.K., Allen, A., Brodribb, T.J., Crayn, D., Feild, T.S., Laffan, S.W., Lusk, C., Rossetto, M. & Weston, P. (2014) Paleo-Antarctic Rainforest into the Modern Old World Tropics: the Rich Past and Threatened Future of the "Southern Wet Forest Survivors". [American Journal of Botany, 101, 2121-2135](http://10.3732/ajb.1400340).
+  * Kooyman, R.M., Wilf, P., Barreda, V.D., Carpenter, R.J., Jordan, G.J., Sniderman, J.M.K., Allen, A., Brodribb, T.J., Crayn, D., Feild, T.S., Laffan, S.W., Lusk, C., Rossetto, M. & Weston, P. (2014) Paleo-Antarctic Rainforest into the Modern Old World Tropics: the Rich Past and Threatened Future of the "Southern Wet Forest Survivors". [American Journal of Botany, 101, 2121-2135](http://dx.doi.org/10.3732/ajb.1400340).
 
   * Loader, S.P., Ceccarelli, F.S., Menegon, M., Howell, K.M., Kassahun, R., Mengistu, A.A., Saber, S.A., Gebresenbet, F., Sá, R., Davenport, T.R.B., Larson, J.G., Müller, H., Wilkinson, M. and Gower, D.J. (2014) Persistence and stability of Eastern Afromontane forests: evidence from brevicipitid frogs.  [Journal of Biogeography, 41, 1781–1792](http://dx.doi.org/10.1111/jbi.12331).
 
