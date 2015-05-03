@@ -3,7 +3,7 @@
 
 # Installation #
 
-  * These instructions assume you have [downloaded](http://code.google.com/p/biodiverse/downloads/list) and extracted the Biodiverse zip file to your hard drive.
+  * These instructions assume you have [downloaded](http://purl.org/biodiverse/wiki/downloads) and extracted the Biodiverse zip file to your hard drive.
   * The following assumes you have unzipped it to `C:\biodiverse`.  If you use a different path then modify the commands below as appropriate.
 
 # Running it #
