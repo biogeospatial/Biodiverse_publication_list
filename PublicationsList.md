@@ -8,6 +8,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 ## Publications using Biodiverse (or its ancestors) ##
 > Publications are listed in reverse chronological order by year, then by author within years.
 
+  * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Craig Costion, C., Moritz, C.C. and Newport, K. (in press) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
+
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (in press) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography](http://dx.doi.org/10.1111/jbi.12488)
 
   * Cook, L.G., Hardy, N.B. and Crisp, M.D. (in press) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist](http://dx.doi.org/10.1111/nph.13199).
