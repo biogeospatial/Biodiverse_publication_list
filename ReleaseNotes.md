@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 1.01](#version-101)
 * [Version 1](#version-1)
 * [Version 0.99](#version-099)
   * [Version 0.99_007](#version-099_007)
@@ -18,6 +19,13 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+
+# Version 1.01 #
+
+For the full list of issues and changes leading to the 1.01 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.01+
+
+To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 
 # Version 1 #
