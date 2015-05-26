@@ -23,7 +23,7 @@
 
 # Version 1.01 #
 
-For the full list of issues and changes leading to the 1.01 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.01+
+For the full list of issues and changes leading to the 1.01 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.01+ and https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3A%22Metadata+system+-+use+OO+not+bare+hashes%22+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
