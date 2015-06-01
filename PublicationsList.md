@@ -8,6 +8,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 ## Publications using Biodiverse (or its ancestors) ##
 > Publications are listed in reverse chronological order by year, then by author within years.
 
+  *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://10.1371/journal.pone.0126274).
+
   * Ebach, M.C., Murphy, D.J., González-Orozco, C.E. and Miller, J.T. (2015) A revised area taxonomy of phytogeographical regions within the Australian Bioregionalisation Atlas.  [Phytotaxa 208, 261–277](http://www.mapress.com/phytotaxa/content/2015/f/pt00208p277.pdf).
 
   * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (in press) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
