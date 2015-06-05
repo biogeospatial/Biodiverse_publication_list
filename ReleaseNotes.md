@@ -23,6 +23,18 @@
 
 # Version 1.01 #
 
+This is a quick update to the 1.0 release, containing a few bug fixes and enhancements.
+
+The main highlights are:
+
+  * GUI
+    *  Groups can be renamed in the same way that labels are.  This is most useful when you have text based group names, not coordinate based names.  [~~Issue 553~~](https://github.com/shawnlaffan/biodiverse/issues/553)
+    *  Two basedatas can be merged, providing they have the same cell sizes and origins.  [~~Issue 493~~](https://github.com/shawnlaffan/biodiverse/issues/493)
+  *  Analyses
+    *  Randomisations can now be run for subsets of your data.  Specifying a definition query determines which groups are randomised, while specifying a spatial condition constrains the randomisation to stay within subsets.  In this way one can randomise labels such that they stay within, for example, the bioregion in which they are found.  [~~Issue 554~~](https://github.com/shawnlaffan/biodiverse/issues/554)
+    *  The spatial index is now used more effectively.  [~~Issue 550~~](https://github.com/shawnlaffan/biodiverse/issues/550), [~~Issue 545~~](https://github.com/shawnlaffan/biodiverse/issues/550), [~~Issue 551~~](https://github.com/shawnlaffan/biodiverse/issues/551)
+    
+
 For the full list of issues and changes leading to the 1.01 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.01+ and https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3A%22Metadata+system+-+use+OO+not+bare+hashes%22+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
