@@ -43,15 +43,15 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
   #  The last cpan command is listed twice to get Gnome::Canvas
   #  and Gtk2::GladeXML to install after their dependencies.
 
-  #  Now we need to get GDAL
-  #  Manual compilation is needed.
-  #  Download and uncompress the Geo::GDAL tarball (maybe using cpanm, or from https://metacpan.org/pod/Geo::GDAL).  
-  #  Then in the uncompressed Geo::GDAL folder (editing the config path to point to your bin/gdal-config file):
+```
 
-  #  The most recent perl GDAL bindings need gdal 1.11, and for some reason this is not yet packaged for Ubuntu.
-  #  This means we need to manually install it.
-  #  These instructins are derived from https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/
+  *  Now we need to get GDAL.  Manual compilation is needed.
   
+    The most recent perl GDAL bindings need gdal 1.11, and for some reason this is not yet packaged for Ubuntu.
+    This means we need to manually install it.
+    These instructins are derived from https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/
+
+```bash
   cd ~/folder/for/builds/from/source
 
   sudo apt-get install build-essential python-all-dev
@@ -63,22 +63,24 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
   ./configure --with-python --with-perl
   make
   sudo make install
-  
-  #  Now we install the perl bindings.
-  #  This command will download and extract the GDAL perl bindings and open a shell in that folder.
-  #  Make sure you are using the same version of perl as above
-  #  (sometimes commands can change this, or you are in a new shell and perlbrew is not loaded)
+```
 
+  *  Now we install the perl bindings.
+    This command will download and extract the GDAL
+    perl bindings and open a shell in that folder.
+    Make sure you are using the same version of perl as above
+    (sometimes commands can change this, or you are in a new shell and perlbrew is not loaded)
+
+```bash
   cpanm --look Geo::GDAL
 
   perl Makefile.PL --no-version-check --gdal-config=/usr/local/bin/gdal-config
   make
   make test
   make install
-
 ```
 
-If you don't like the current window theme then you can change it using the Desktop Preferences (also via the `gnome-appearance-properties` tool).
+If you don't like the current window theme then you can change it using the Desktop Preferences.
 
 
 # Running it #
