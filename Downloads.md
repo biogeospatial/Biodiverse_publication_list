@@ -38,8 +38,20 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-1) summ
 
 ### 1.0_001 (development release) ###
 
+_This is the current development release.  If there are no show stopping issues then it will be released as 1.01._
 
-A development version following version 1.0 has not yet been released.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-101) summarise the changes in this version.
+
+  These do not include the example data or the RunRandomisation utility.  
+
+* [Windows (64 bit, 7zip format, ~27MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_001_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+
+* [Windows (64 bit, standard zip format, ~49MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_001_win_x64.zip)
+
+* [Linux (64 bit, ~8MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_001_linux64.tar)
+
+* [Source code]()
+
 
 
 ### Quick Start Guide ###
