@@ -6,7 +6,31 @@
 * [Some details](#some-details)
 * [Evaluation](#evaluation)
 * [Functions](#functions)
-  * [Examples using functions](#examples-using-functions)
+  * [Available functions](#available-functions)
+    * [sp_annulus](#sp_annulus)
+    * [sp_block](#sp_block)
+    * [sp_circle](#sp_circle)
+    * [sp_circle_cell](#sp_circle_cell)
+    * [sp_ellipse](#sp_ellipse)
+    * [sp_get_spatial_output_list_value](#sp_get_spatial_output_list_value)
+    * [sp_group_not_empty](#sp_group_not_empty)
+    * [sp_in_label_range](#sp_in_label_range)
+    * [sp_in_line_with](#sp_in_line_with)
+    * [sp_is_left_of](#sp_is_left_of)
+    * [sp_is_right_of](#sp_is_right_of)
+    * [sp_match_regex](#sp_match_regex)
+    * [sp_match_text](#sp_match_text)
+    * [sp_point_in_poly](#sp_point_in_poly)
+    * [sp_point_in_poly_shape](#sp_point_in_poly_shape)
+    * [sp_points_in_same_poly_shape](#sp_points_in_same_poly_shape)
+    * [sp_rectangle](#sp_rectangle)
+    * [sp_select_all](#sp_select_all)
+    * [sp_select_block](#sp_select_block)
+    * [sp_select_element](#sp_select_element)
+    * [sp_select_sequence](#sp_select_sequence)
+    * [sp_self_only](#sp_self_only)
+    * [sp_square](#sp_square)
+    * [sp_square_cell](#sp_square_cell)
 * [Variables](#variables)
   * [Examples using variables](#examples-using-variables)
 * [Declaring variables and using more complex functions](#declaring-variables-and-using-more-complex-functions)
@@ -57,171 +81,474 @@ The conditions are specified using some combination of pre-defined functions, pr
 
 Functions are the easiest way to specify conditions as one does not need to wrestle with variables.  Functions also set metadata to tell the system how to use the spatial index.  The spatial index saves considerable processing time for large data sets as the system does not need to test many pairs of index blocks to determine which to use (see [KeyConcepts#Using_the_spatial_index](KeyConcepts#using-the-spatial-index)).  If you use a function for which an index will produce erroneous results then the system sets a flag to ignore it.
 
-The available functions in version 0.17 are:
-  * sp_self_only
-  * sp_select_all
-  * sp_circle
-  * sp_circle_cell
-  * sp_square
-  * sp_square_cell
-  * sp_block
-  * sp_ellipse
-  * sp_annulus
-  * sp_match_text
-  * sp_match_regex
-  * sp_select_sequence
-  * sp_is_left_of
-  * sp_is_right_of
-  * sp_in_line_with
-  * sp_point_in_poly
-  * sp_point_in_poly_shape
+## Available functions ##
 
+The available functions in version 1.0_001 are:
+  [*sp_annulus*](#sp_annulus),   [*sp_block*](#sp_block),   [*sp_circle*](#sp_circle),   [*sp_circle_cell*](#sp_circle_cell),   [*sp_ellipse*](#sp_ellipse),   [*sp_get_spatial_output_list_value*](#sp_get_spatial_output_list_value),   [*sp_group_not_empty*](#sp_group_not_empty),   [*sp_in_label_range*](#sp_in_label_range),   [*sp_in_line_with*](#sp_in_line_with),   [*sp_is_left_of*](#sp_is_left_of),   [*sp_is_right_of*](#sp_is_right_of),   [*sp_match_regex*](#sp_match_regex),   [*sp_match_text*](#sp_match_text),   [*sp_point_in_poly*](#sp_point_in_poly),   [*sp_point_in_poly_shape*](#sp_point_in_poly_shape),   [*sp_points_in_same_poly_shape*](#sp_points_in_same_poly_shape),   [*sp_rectangle*](#sp_rectangle),   [*sp_select_all*](#sp_select_all),   [*sp_select_block*](#sp_select_block),   [*sp_select_element*](#sp_select_element),   [*sp_select_sequence*](#sp_select_sequence),   [*sp_self_only*](#sp_self_only),   [*sp_square*](#sp_square),   [*sp_square_cell*](#sp_square_cell), 
 
-## Examples using functions ##
+### sp_annulus ###
 
+An annulus.  Assessed against all dimensions by default
+but use the optional "axes => []" arg to specify a subset.
+Uses group (map) distances.
+
+**Required args:**  inner_radius, outer_radius
+
+**Optional args:**  axes
+
+**Example:**
 ```perl
-#  radius of 100,000 map units, uses all axes so will 
-#    be a circle for two dimensions, a sphere for three dimensions, 
-#    and a hypersphere for more
-sp_circle (radius => 100000)
-
-# a circle using the second and fourth group axes
-sp_circle (radius => 100000, axes => [1,3]) 
-
-# circle of two cell radius
-sp_circle_cell (radius => 2) 
-
-#  an overlapping square, cube or hypercube depending on the number of axes
-#    note - you cannot yet specify which axes to use 
-#    so it will be square on all sides
-sp_square (size => 300000)
-
-#  non-overlapping square block (hypercube), size 3 map units on a side
-#    (non-overlapping means each group is a member of only one neighbour set
-#    so this is a good way of simulating coarser resolutions)
-sp_block (size => 3)
-
-#  rectangular block, ignores second axis
-sp_block (size => [3, undef, 5])
-
-#  northwards oriented ellipse using first two axes
-sp_ellipse (
-    major_radius => 300000, 
-    minor_radius => 100000, 
-    axes         => [0,1], 
-    rotate_angle => 1.5714
-)  
-
 #  an annulus assessed against all axes
 sp_annulus (inner_radius => 2000000, outer_radius => 4000000)
-
 #  an annulus assessed against axes 0 and 1
-sp_annulus (
-    inner_radius => 2000000,
-    outer_radius => 4000000, 
-    axes         => [0,1]
+sp_annulus (inner_radius => 2000000, outer_radius => 4000000, axes => [0,1])
+```
+
+### sp_block ###
+
+A non-overlapping block.  Set an axis to undef to ignore it.
+
+**Required args:**  size
+
+**Optional args:**  origin
+
+**Example:**
+```perl
+sp_block (size => 3)
+sp_block (size => [3,undef,5]) #  rectangular block, ignores second axis
+```
+
+### sp_circle ###
+
+A circle.  Assessed against all dimensions by default (more properly called a hypersphere)
+but use the optional "axes => []" arg to specify a subset.
+Uses group (map) distances.
+
+**Required args:**  radius
+
+**Optional args:**  axes
+
+**Example:**
+```perl
+#  A circle of radius 1000 across all axes
+sp_circle (radius => 1000)
+
+#  use only axes 0 and 3
+sp_circle (radius => 1000, axes => [0, 3])
+
+```
+
+### sp_circle_cell ###
+
+A circle.  Assessed against all dimensions by default (more properly called a hypersphere)
+but use the optional "axes => []" arg to specify a subset.
+Uses cell distances.
+
+**Required args:**  radius
+
+**Optional args:**  *none*
+
+**Example:**
+```perl
+#  A circle of radius 3 cells across all axes
+sp_circle (radius => 3)
+
+#  use only axes 0 and 3
+sp_circle_cell (radius => 3, axes => [0, 3])
+
+```
+
+### sp_ellipse ###
+
+A two dimensional ellipse.  Use the 'axes' argument to control which are used (default is [0,1]).  The default rotate_angle is pi/2.
+
+**Required args:**  major_radius, minor_radius
+
+**Optional args:**  axes, rotate_angle, rotate_angle_deg
+
+**Example:**
+```perl
+# East west aligned ellipse
+sp_ellipse (
+    major_radius => 300000,
+    minor_radius => 100000,
+    axes => [0,1],
+    rotate_angle => 1.5714,
 )
 
-#  select every group, including the processing group
-sp_select_all()
+```
 
-#  two ways to select every group, excluding the processing group
-sp_select_all() && ! sp_self_only()
-sp_select_all() and not sp_self_only()
+### sp_get_spatial_output_list_value ###
 
+Obtain a value from a list in a previously calculated spatial output.
 
-#  only use the processing group
-sp_self_only() 
+**Required args:**  index, output
 
-#  use any group where the first axis has value of 'type1'
-sp_match_text (text => 'type1', axis => 0, type => 'nbr')
+**Optional args:**  element, list
 
-#  two ways to use any group where the first axis has value that is _not_ 'type1'
-! sp_match_text (text => 'type1', axis => 0, type => 'nbr')
-not sp_match_text (text => 'type1', axis => 0, type => 'nbr')
+**Example:**
+```perl
+#  get the spatial results value for the current neighbour group
+# (or processing group if used as a def query)
+sp_get_spatial_output_list_value (
+    output  => 'sp1',
+    list    => 'SPATIAL_RESULTS',
+)
 
-# match only when the third group axis is the same 
-#   as the processing group's third axis
-sp_match_text (text => $coord[2], axis => 2, type => 'nbr') 
+#  get the spatial results value for group 128:254
+sp_get_spatial_output_list_value (
+    output  => 'sp1',
+    element => '128:254',
+    list    => 'SPATIAL_RESULTS',
+)
 
-# Set a definition query to only use groups with 'NK' as the third axis
-sp_match_text (text => 'NK', axis => 2, type => 'proc') 
+```
 
-#  use any neighbour where the first axis includes the text 'type1'
+### sp_group_not_empty ###
+
+Is an element non-empty?
+
+**Required args:**  *none*
+
+**Optional args:**  element
+
+**Example:**
+```perl
+# Restrict calculations to those non-empty groups.
+#  Will use the processing group if a def query,
+#  the neighbour group otherwise.
+sp_group_not_empty ()
+
+# The same as above, but being specific about which group (element) to test.
+#  This is probably best used in cases where the element
+#  to check is varied spatially.}
+sp_group_not_empty (element => '5467:9876')
+
+```
+
+### sp_in_label_range ###
+
+Is a label within a group's range?
+
+**Required args:**  label
+
+**Optional args:**  type
+
+**Example:**
+```perl
+# Are we in the range of label called Genus:Sp1?
+sp_in_label_range(label => 'Genus:Sp1')
+```
+
+### sp_in_line_with ###
+
+Are we in line with a vector radiating out from the processing cell? Use the 'axes' argument to control which are used (default is [0,1])
+
+**Required args:**  *none*
+
+**Optional args:**  axes, vector_angle, vector_angle_deg
+
+**Example:**
+```perl
+sp_in_line_with (vector_angle => Math::Trig::pip2) #  pi/2 = 90 degree angle
+```
+
+### sp_is_left_of ###
+
+Are we to the left of a vector radiating out from the processing cell? Use the 'axes' argument to control which are used (default is [0,1])
+
+**Required args:**  *none*
+
+**Optional args:**  axes, vector_angle, vector_angle_deg
+
+**Example:**
+```perl
+sp_is_left_of (vector_angle => 1.5714)
+```
+
+### sp_is_right_of ###
+
+Are we to the right of a vector radiating out from the processing cell? Use the 'axes' argument to control which are used (default is [0,1])
+
+**Required args:**  *none*
+
+**Optional args:**  axes, vector_angle, vector_angle_deg
+
+**Example:**
+```perl
+sp_is_right_of (vector_angle => 1.5714)
+```
+
+### sp_match_regex ###
+
+Select all neighbours with an axis matching a regular expresion
+
+**Required args:**  re
+
+**Optional args:**  axis, type
+
+**Example:**
+```perl
+#  use any neighbour where the first axis includes the text "type1"
 sp_match_regex (re => qr'type1', axis => 0, type => 'nbr')
 
 # match only when the third neighbour axis starts with
 # the processing group's second axis
 sp_match_regex (re => qr/^$coord[2]/, axis => 2, type => 'nbr')
 
+# match the whole coordinate ID (element name)
+# where Biome can be 1 or 2 and the rest of the name contains "dry"
+sp_match_regex (re => qr/^Biome[12]:.+dry/)
+
 # Set a definition query to only use groups where the
 # third axis ends in 'park' (case insensitive)
 sp_match_regex (text => qr{park$}i, axis => 2, type => 'proc')
 
-# Select every tenth group 
-# (note that groups are first sorted alphabetically in versions prior to 0.16, and south-west to north-east from 0.16)
+
+```
+
+### sp_match_text ###
+
+Select all neighbours matching a text string
+
+**Required args:**  text
+
+**Optional args:**  axis, type
+
+**Example:**
+```perl
+#  use any neighbour where the first axis has value of "type1"
+sp_match_text (text => 'type1', axis => 0, type => 'nbr')
+
+# match only when the third neighbour axis is the same
+#   as the processing group's second axis
+sp_match_text (text => $coord[2], axis => 2, type => 'nbr')
+
+# match where the whole coordinate ID (element name)
+# is 'Biome1:savannah forest'
+sp_match_text (text => 'Biome1:savannah forest')
+
+# Set a definition query to only use groups with 'NK' in the third axis
+sp_match_text (text => 'NK', axis => 2, type => 'proc')
+
+```
+
+### sp_point_in_poly ###
+
+Select groups that occur within a user-defined polygon 
+(see sp_point_in_poly_shape for an altrnative)
+
+**Required args:**  polygon
+
+**Optional args:**  point
+
+**Example:**
+```perl
+# Is the neighbour coord in a square polygon?
+sp_point_in_poly (
+    polygon => [[0,0],[0,1],[1,1],[1,0],[0,0]],
+    point   => \@nbrcoord,
+)
+
+
+```
+
+### sp_point_in_poly_shape ###
+
+Select groups that occur within a polygon or polygons extracted from a shapefile
+
+**Required args:**  file
+
+**Optional args:**  axes, field_name, field_val, no_cache, point
+
+**Example:**
+```perl
+# Is the neighbour coord in a shapefile?
+sp_point_in_poly_shape (
+    file  => 'c:\biodiverse\data\coastline_lamberts',
+    point => \@nbrcoord,
+)
+# Is the neighbour coord in a shapefile's second polygon (counting from 1)?
+sp_point_in_poly_shape (
+    file      => 'c:\biodiverse\data\coastline_lamberts',
+    field_val => 2,
+    point     => \@nbrcoord,
+)
+# Is the neighbour coord in a polygon with value 2 in the OBJECT_ID field?
+sp_point_in_poly_shape (
+    file      => 'c:\biodiverse\data\coastline_lamberts',
+    field     => 'OBJECT_ID',
+    field_val => 2,
+    point     => \@nbrcoord,
+)
+
+```
+
+### sp_points_in_same_poly_shape ###
+
+Returns true when two points are within the same shapefile polygon
+
+**Required args:**  file
+
+**Optional args:**  axes, no_cache, point1, point2
+
+**Example:**
+```perl
+NEED SOME EXAMPLES
+```
+
+### sp_rectangle ###
+
+A rectangle.  Assessed against all dimensions by default (more properly called a hyperbox)
+but use the optional "axes => []" arg to specify a subset.
+Uses group (map) distances.
+
+**Required args:**  sizes
+
+**Optional args:**  axes
+
+**Example:**
+```perl
+#  A rectangle of equal size on the first two axes,
+#  and 100 on the third.
+sp_rectangle (sizes => [100000, 100000, 100])
+
+#  The same, but with the axes reordered
+#  (an example of using the axes argument)
+sp_rectangle (
+    sizes => [100000, 100, 100000],
+    axes  => [0, 2, 1],
+)
+
+#  Use only the first an third axes
+sp_rectangle (sizes => [100000, 100000], axes => [0,2])
+
+```
+
+### sp_select_all ###
+
+Select all elements as neighbours
+
+**Required args:**  *none*
+
+**Optional args:**  *none*
+
+**Example:**
+```perl
+sp_select_all() #  select every group
+```
+
+### sp_select_block ###
+
+Select a subset of all available neighbours based on a block sample sequence
+
+**Required args:**  size
+
+**Optional args:**  count, prng_seed, random, reverse_order, use_cache
+
+**Example:**
+```perl
+# Select up to two groups per block with each block being 5 groups
+on a side where the group size is 100
+sp_select_block (size => 500, count => 2)
+
+#  Now do it non-randomly and start from the lower right
+sp_select_block (size => 500, count => 10, random => 0, reverse => 1)
+
+#  Rectangular block with user specified PRNG starting seed
+sp_select_block (size => [300, 500], count => 1, prng_seed => 454678)
+
+# Lower memory footprint (but longer running times for neighbour searches)
+sp_select_block (size => 500, count => 2, clear_cache => 1)
+
+```
+
+### sp_select_element ###
+
+Select a specific element.  Basically the same as sp_match_text, but with optimisations enabled
+
+**Required args:**  element
+
+**Optional args:**  type
+
+**Example:**
+```perl
+# match where the whole coordinate ID (element name)
+# is 'Biome1:savannah forest'
+sp_select_element (element => 'Biome1:savannah forest')
+
+```
+
+### sp_select_sequence ###
+
+Select a subset of all available neighbours based on a sample sequence (note that groups are sorted south-west to north-east)
+
+**Required args:**  frequency
+
+**Optional args:**  cycle_offset, first_offset, reverse_order, use_cache
+
+**Example:**
+```perl
+# Select every tenth group (groups are sorted alphabetically)
 sp_select_sequence (frequency => 10)
 
 #  Select every tenth group, starting from the third
 sp_select_sequence (frequency => 10, first_offset => 2)
 
-#  Select every tenth group, starting from the third last and working backwards
-sp_select_sequence (frequency => 10, first_offset => 2, reverse_order => 1)
-
-
-###############################
-#  Available from version 0.16.
-
-#  Match when the neighbour is to the left of a vector radiating out from the processing group.
-#  The angle is measured anticlockwise from east.
-sp_is_left_of (vector_angle => 1.5707963267949)  #  angle in radians
-sp_is_left_of (vector_angle_deg => 90)           #  angle in degrees
-
-
-###############################
-#  Available from version 0.17.
-
-#  Match when the neighbour is to the right of a vector radiating out from the processing group
-#  from the processing group.  The angle is measured anticlockwise from east.
-sp_is_right_of (vector_angle => 1.5707963267949)  #  angle in radians
-sp_is_right_of (vector_angle_deg => 90)           #  angle in degrees
-
-#  Match when the neighbour is in line with a vector radiating from the processing group
-sp_in_line_with (vector_angle => 1.5707963267949)  #  angle in radians
-sp_in_line_with (vector_angle_deg => 90)           #  angle in degrees
-
-
-#  Is the neighbour coord in a square polygon?  (edit the coords to fit your data)
-sp_point_in_poly (polygon => [[0,0],[0,1],[1,1],[1,0],[0,0]], point => \@nbrcoord)
-
-#  You can omit the point argument to automatically assess the neighbour when it is 
-#  in a spatial condition and the processing group in a definition query
-sp_point_in_poly (polygon => [[0,0],[0,1],[1,1],[1,0],[0,0]])
-
-#  Is the coord in any polygon in a shapefile?
-sp_point_in_poly_shape (file => '/path/to/shapefile.shp')
-
-#  Is the coord in a specific polygon in a shapefile?
-#  This is the FID field in ArcGIS, but note that the library we use counts from 1 whereas ArcGIS counts from 0.
-#  If you are using ArcGIS to find the polygon ID you need then remember to add 1.
-sp_point_in_poly_shape (file => '/path/to/shapefile.shp', field_val => 1)
-
-#  Is the neighbour coord inside any polygon with a value of NSW for the field STATE_NAME?
-#  Make sure you give the correct name and path to the shapefile.  
-sp_point_in_poly_shape (
-    file       => '/path/to/shapefile.shp',
-    field_name => 'STATE_NAME', 
-    field_val  => 'NSW',
+#  Select every tenth group, starting from the third last 
+#  and working backwards
+sp_select_sequence (
+    frequency     => 10,
+    first_offset  =>  2,
+    reverse_order =>  1,
 )
 
-#  Is the neighbour coord inside a specific biome (if you have the relevant shapefile)?
-#  Note that the values must match exactly.
-sp_point_in_poly_shape (
-    shape      => '/path/to/biome_shapefile.shp', 
-    field_name => 'BIOME', 
-    field_val  => 'Tropical and subtropical dry broadleaf forests',
-)
+```
 
+### sp_self_only ###
+
+Select only the processing group
+
+**Required args:**  *none*
+
+**Optional args:**  *none*
+
+**Example:**
+```perl
+sp_self_only() #  only use the proceessing cell
+```
+
+### sp_square ###
+
+An overlapping square assessed against all dimensions (more properly called a hypercube).
+Uses group (map) distances.
+
+**Required args:**  size
+
+**Optional args:**  *none*
+
+**Example:**
+```perl
+#  An overlapping square, cube or hypercube
+#  depending on the number of axes
+#   Note - you cannot yet specify which axes to use
+#   so it will be square on all sides
+sp_square (size => 300000)
+
+```
+
+### sp_square_cell ###
+
+A square assessed against all dimensions (more properly called a hypercube).
+Uses 'cell' distances.
+
+**Required args:**  size
+
+**Optional args:**  *none*
+
+**Example:**
+```perl
+sp_square_cell (size => 3)
 ```
 
 # Variables #
@@ -337,7 +664,8 @@ Note the use of the word `my`. This is required to declare your own variables in
 
 If you wish to know if your function works with the spatial index then run a moving window analysis twice, once with and once without the spatial index, using the list indices generated by the [Element Counts](Indices#element-counts) calculations to get the lists of neighbours. Export the results to CSV and use a difference tool to compare the results.
 
-Functions available by default are those in the [Perl POSIX library](http://perldoc.perl.org/POSIX.html#FUNCTIONS) (from version 0.16 this is instead the [Math::Trig library](http://perldoc.perl.org/Math/Trig.html), plus [POSIX::fmod()](http://perldoc.perl.org/POSIX.html#fmod)). If you want more then you will need to specify additional libraries in the extensions file under the BaseData section _(for which guidelines need to be implemented)_.
+Functions available by default are those in the [Math::Trig library](http://perldoc.perl.org/Math/Trig.html), plus [POSIX::fmod()](http://perldoc.perl.org/POSIX.html#fmod).
 
 
 To access environment variables you have set, just use `$ENV{variable_name}`, eg `$ENV{my_default_radius}`.
+
