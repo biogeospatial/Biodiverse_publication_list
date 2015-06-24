@@ -30,11 +30,11 @@ The main highlights are:
   * GUI
     *  Groups can be renamed in the same way that labels are.  This is most useful when you have text based group names, not coordinate based names.  [~~Issue 553~~](https://github.com/shawnlaffan/biodiverse/issues/553)
     *  Two basedatas can be merged, providing they have the same cell sizes and origins.  [~~Issue 493~~](https://github.com/shawnlaffan/biodiverse/issues/493)
-    *  View labels tab: Selected labels can be copied to the clipboard.  [~~Issue 557~~](https://github.com/shawnlaffan/biodiverse/issues/557)  [Blog post](http://biodiverse-analysis-software.blogspot.com.au/2015/06/copy-selected-labels-to-clipboard.html)
+    *  View labels tab: Selected labels can be copied to the clipboard.  [~~Issue 557~~](https://github.com/shawnlaffan/biodiverse/issues/557)  [__Read the blog post__](http://biodiverse-analysis-software.blogspot.com.au/2015/06/copy-selected-labels-to-clipboard.html)
   *  Data import
-    *  Data can now be imported from spreadsheet formats.  [~~Issue 540~~](https://github.com/shawnlaffan/biodiverse/issues/540)  [Blog post](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html)
+    *  Data can now be imported from spreadsheet formats.  [~~Issue 540~~](https://github.com/shawnlaffan/biodiverse/issues/540)  [__Read the blog post__](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html)
   *  Analyses
-    *  Randomisations [Blog post](http://biodiverse-analysis-software.blogspot.com.au/2015/06/better-control-of-randomisations.html)
+    *  Randomisations [__(read the blog post)__](http://biodiverse-analysis-software.blogspot.com.au/2015/06/better-control-of-randomisations.html)
       *  Randomisations can now be run for subsets of your data.  Specifying a definition query determines which groups are randomised, while specifying a spatial condition constrains the randomisation to stay within subsets.  In this way one can randomise labels such that they stay within, for example, the bioregion in which they are found.  [~~Issue 554~~](https://github.com/shawnlaffan/biodiverse/issues/554) 
       *  Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributionsare not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [Issue 556](https://github.com/shawnlaffan/biodiverse/issues/556)
     *  The spatial index is now used more effectively.  [~~Issue 550~~](https://github.com/shawnlaffan/biodiverse/issues/550), [~~Issue 545~~](https://github.com/shawnlaffan/biodiverse/issues/550), [~~Issue 551~~](https://github.com/shawnlaffan/biodiverse/issues/551)
