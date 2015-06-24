@@ -10,15 +10,15 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://10.1371/journal.pone.0126274).
 
-  * Ebach, M.C., Murphy, D.J., González-Orozco, C.E. and Miller, J.T. (2015) A revised area taxonomy of phytogeographical regions within the Australian Bioregionalisation Atlas.  [Phytotaxa 208, 261–277](http://www.mapress.com/phytotaxa/content/2015/f/pt00208p277.pdf).
-
   * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (in press) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
 
-  * Cook, L.G., Hardy, N.B. and Crisp, M.D. (in press) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist](http://dx.doi.org/10.1111/nph.13199).
-
-  * Daru, B.H., van der Bank, M. and Davies, T.J. (in press) Spatial incongruence among hotspots and complementary areas of tree diversity in southern Africa.  [Diversity and Distributions](http://dx.doi.org/10.1111/ddi.12290).
+  * Cook, L.G., Hardy, N.B. and Crisp, M.D. (2015) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist, 207, 390-400](http://dx.doi.org/10.1111/nph.13199).
 
   * Costion, C.M., Edwards, W., Ford, A.J., Metcalfe, D.J., Cross, H.B., Harrington, M.G., Richardson, J.E., Hilbert, D.W., Lowe, A.J. and Crayn, D.M. (2015) Using phylogenetic diversity to identify ancient rain forest refugia and diversification zones in a biodiversity hotspot.  [Diversity and Distributions, 21, 279-289](http://dx.doi.org/10.1111/ddi.12266).
+
+  * Daru, B.H., van der Bank, M. and Davies, T.J. (2015) Spatial incongruence among hotspots and complementary areas of tree diversity in southern Africa.  [Diversity and Distributions, 21, 769-780](http://dx.doi.org/10.1111/ddi.12290).
+
+  * Ebach, M.C., Murphy, D.J., González-Orozco, C.E. and Miller, J.T. (2015) A revised area taxonomy of phytogeographical regions within the Australian Bioregionalisation Atlas.  [Phytotaxa 208, 261–277](http://dx.doi.org/10.11646/phytotaxa.208.4.2).
 
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
