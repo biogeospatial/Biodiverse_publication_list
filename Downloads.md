@@ -5,7 +5,7 @@
   * [Biodiverse GUI](#biodiverse-gui)
     * [1.0 (stable release)](#10-stable-release)
       * [Known issues](#known-issues)
-    * [1.0_001 (development release)](#10_001-development-release)
+    * [1.0_002 (development release)](#10_002-development-release)
     * [Quick Start Guide](#quick-start-guide)
   * [Site Pair Sampler](#site-pair-sampler)
   * [Utility scripts](#utility-scripts)
