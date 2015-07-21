@@ -30,7 +30,7 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-1) summ
 
 * [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_linux64.tar.gz)
 
-* [Source code]()
+* [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_source_code.zip)
 
 #### Known issues ####
 
