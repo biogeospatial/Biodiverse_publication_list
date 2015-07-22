@@ -3,10 +3,10 @@
 **Table of contents:**
 * [Available downloads](#available-downloads)
   * [Biodiverse GUI](#biodiverse-gui)
+    * [Quick Start Guide](#quick-start-guide)
     * [1.0 (stable release)](#10-stable-release)
       * [Known issues](#known-issues)
     * [1.0_002 (development release)](#10_002-development-release)
-    * [Quick Start Guide](#quick-start-guide)
   * [Site Pair Sampler](#site-pair-sampler)
   * [Utility scripts](#utility-scripts)
   * [Older versions](#older-versions)
@@ -16,6 +16,11 @@
 
 
 There is also a series of blog posts at http://biodiverse-analysis-software.blogspot.com.au/
+
+### Quick Start Guide ###
+
+A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf) for version 0.19 is also available.
+
 
 ### 1.0 (stable release) ###
 
@@ -52,11 +57,6 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-101) su
 
 * [Source code]()
 
-
-
-### Quick Start Guide ###
-
-A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf) for version 0.19 is also available.
 
 
 ## Site Pair Sampler ##
