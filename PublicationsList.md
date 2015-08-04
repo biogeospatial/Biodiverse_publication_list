@@ -8,7 +8,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 ## Publications using Biodiverse (or its ancestors) ##
 > Publications are listed in reverse chronological order by year, then by author within years.
 
-  *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
+  *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
 
   * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (in press) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
 
@@ -21,6 +21,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Ebach, M.C., Murphy, D.J., González-Orozco, C.E. and Miller, J.T. (2015) A revised area taxonomy of phytogeographical regions within the Australian Bioregionalisation Atlas.  [Phytotaxa 208, 261–277](http://dx.doi.org/10.11646/phytotaxa.208.4.2).
 
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
+
+  *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
 
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (2015) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography, 42, 1114–1122](http://dx.doi.org/10.1111/jbi.12488).
 
