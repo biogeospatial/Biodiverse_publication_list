@@ -10,8 +10,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
 
-  * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (in press) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
-
   * Cook, L.G., Hardy, N.B. and Crisp, M.D. (2015) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist, 207, 390-400](http://dx.doi.org/10.1111/nph.13199).
 
   * Costion, C.M., Edwards, W., Ford, A.J., Metcalfe, D.J., Cross, H.B., Harrington, M.G., Richardson, J.E., Hilbert, D.W., Lowe, A.J. and Crayn, D.M. (2015) Using phylogenetic diversity to identify ancient rain forest refugia and diversification zones in a biodiversity hotspot.  [Diversity and Distributions, 21, 279-289](http://dx.doi.org/10.1111/ddi.12266).
@@ -19,6 +17,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Daru, B.H., van der Bank, M. and Davies, T.J. (2015) Spatial incongruence among hotspots and complementary areas of tree diversity in southern Africa.  [Diversity and Distributions, 21, 769-780](http://dx.doi.org/10.1111/ddi.12290).
 
   * Ebach, M.C., Murphy, D.J., González-Orozco, C.E. and Miller, J.T. (2015) A revised area taxonomy of phytogeographical regions within the Australian Bioregionalisation Atlas.  [Phytotaxa 208, 261–277](http://dx.doi.org/10.11646/phytotaxa.208.4.2).
+
+  * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (2015) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment, 534, 131-143](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
 
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
