@@ -8,7 +8,11 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 ## Publications using Biodiverse (or its ancestors) ##
 > Publications are listed in reverse chronological order by year, then by author within years.
 
+### in press/recent ###
+
   *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
+
+### 2015 ###
 
   * Cook, L.G., Hardy, N.B. and Crisp, M.D. (2015) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist, 207, 390-400](http://dx.doi.org/10.1111/nph.13199).
 
@@ -26,6 +30,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (2015) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography, 42, 1114–1122](http://dx.doi.org/10.1111/jbi.12488).
 
+### 2014 ###
   * Bui, E.N., González-Orozco, C.E. and Miller, J.T. (2014) _Acacia_, climate, and geochemistry in Australia.  [Plant and Soil, 381, 161-175](http://dx.doi.org/10.1007/s11104-014-2113-x).
 
   * Carnaval, A., Waltari, E., Rodrigues, M., Rosauer, D., VanDerWal, J., Damasceno, R., Prates, I., Strangas, M., Spanos, Z., Rivera, D.,Pie, M., Firkowski, C., Bornschein, M., Ribeiro, L. & Moritz, C. (2014) Prediction of phylogeographic endemism in an environmentally complex biome. [Proceedings of the Royal Society B. 281, 20141461](http://dx.doi.org/10.1098/rspb.2014.1461).
@@ -56,6 +61,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Weber, L.C., VanDerWal, J., Schmidt, S., McDonald, W.J.F. & Shoo, L.P. (2014) Patterns of rain forest plant endemism in subtropical Australia relate to stable mesic refugia and species dispersal limitations.  [Journal of Biogeography, 41, 222-238](http://dx.doi.org/10.1111/jbi.12219).
 
+### 2013 ###
   * Bitencourt, C. & Rapinia, A. (2013) Centres of Endemism in the Espinhaço Range: identifying cradles and museums of Asclepiadoideae (Apocynaceae).  [Systematics and Biodiversity, 11, 525-536](http://dx.doi.org/10.1080/14772000.2013.865681).
 
   * Di Virgilio, G., Laffan, S.W. & Ebach, M.C. (2013) Quantifying high resolution transitional breaks in plant and mammal distributions at regional extent and their association with climate, topography and geology.  [PLoS ONE, 8, e59227](http://dx.doi.org/10.1371/journal.pone.0059227).
@@ -66,6 +72,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Laffan, S.W., Ramp, D. & Roger, E. (2013) Using endemism to assess representation of protected areas – the family Myrtaceae in the Greater Blue Mountains World Heritage Area. [Journal of Biogeography, 40, 570-578](http://dx.doi.org/10.1111/jbi.12001).
 
+### 2012 ###
   * Amboni, M. & Laffan, S.W. (2012) The effect of species range estimation methods on richness and phylogenetic diversity estimates: A comparison of four methods using Australian marsupials. [International Journal of Geographical Information Science, 26, 2097-2109](http://dx.doi.org/10.1080/13658816.2012.717627).
 
   * Burley, H.M., Laffan, S.W., & Williams, K.J. (2012) Spatial non-stationarity and anisotropy of compositional turnover in eastern Australian Myrtaceae species. [International Journal of Geographical Information Science, 26, 2065-2081](http://dx.doi.org/10.1080/13658816.2012.692371).
@@ -80,6 +87,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Stevenson, L.A., González-Orozco, C.E., Knerr, N., Cargill, D.C., Miller, J.T. (2012) Species richness and endemism of Australian bryophytes.  [Journal of Bryology, 34, 101-107](http://dx.doi.org/10.1179/1743282012Y.0000000004).
 
+### 2011 and earlier ###
   * Gonzalez-Orozco, C.E., Laffan, S.W., Miller, J. (2011) Spatial distribution of species richness and endemism of the genus Acacia in Australia. [Australian Journal of Botany, 59, 600-608](http://dx.doi.org/10.1071/BT11112)
 
   * Laffan, S.W. (2011) Spatial non-stationarity, anisotropy and scale: The interactive visualisation of spatial turnover. pp. 1652-1658 in Chan, F., Marinova, D. and Anderssen, R.S. (eds) [MODSIM2011, 19th International Congress on Modelling and Simulation](http://www.mssanz.org.au/modsim2011/E3/laffan.pdf). Modelling and Simulation Society of Australia and New Zealand, December 2011.
