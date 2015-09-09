@@ -45,11 +45,9 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
 
 ```
 
-  *  Now we need to get GDAL.  Manual compilation is needed.
+  *  Follow this step if there is no appropriate package for GDAL and manual compilation is needed (at one point Ubuntu did not have GDAL 1.11 packaged)
   
-    The most recent perl GDAL bindings need gdal 1.11, and for some reason this is not yet packaged for Ubuntu.
-    This means we need to manually install it.
-    These instructins are derived from https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/
+    These instructions are derived from https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/
 
 ```bash
   cd ~/folder/for/builds/from/source
