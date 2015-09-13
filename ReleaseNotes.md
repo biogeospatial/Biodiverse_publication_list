@@ -31,15 +31,16 @@ The main highlights are:
     *  Groups can be renamed in the same way that labels are.  This is most useful when you have text based group names, not coordinate based names.  [~~Issue 553~~](https://github.com/shawnlaffan/biodiverse/issues/553)
     *  Two basedatas can be merged, providing they have the same cell sizes and origins.  [~~Issue 493~~](https://github.com/shawnlaffan/biodiverse/issues/493)
     *  View labels tab: Selected labels can be copied to the clipboard.  [~~Issue 557~~](https://github.com/shawnlaffan/biodiverse/issues/557)  [_Read the blog post_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/copy-selected-labels-to-clipboard.html)
+    *  Trees can be ladderised so they plot child branches in order of the number of descendants. [~~Issue 530~~](https://github.com/shawnlaffan/biodiverse/issues/530)
   *  Data import
     *  Data can now be imported from spreadsheet formats.  [~~Issue 540~~](https://github.com/shawnlaffan/biodiverse/issues/540)  [_Read the blog post_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html)
   *  Analyses
     *  Randomisations [_(read the blog post)_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/better-control-of-randomisations.html)
       *  Randomisations can now be run for subsets of your data.  Specifying a definition query determines which groups are randomised, while specifying a spatial condition constrains the randomisation to stay within subsets.  In this way one can randomise labels such that they stay within, for example, the bioregion in which they are found.  [~~Issue 554~~](https://github.com/shawnlaffan/biodiverse/issues/554) 
-      *  Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributionsare not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [Issue 556](https://github.com/shawnlaffan/biodiverse/issues/556)
+      *  Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributionsare not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [~~Issue 556~~](https://github.com/shawnlaffan/biodiverse/issues/556)
     *  The spatial index is now used more effectively.  [~~Issue 550~~](https://github.com/shawnlaffan/biodiverse/issues/550), [~~Issue 545~~](https://github.com/shawnlaffan/biodiverse/issues/550), [~~Issue 551~~](https://github.com/shawnlaffan/biodiverse/issues/551)
     *  Calculations and Indices
-      *  New calculation for phylogenetic abundance.  [Issue 559](https://github.com/shawnlaffan/biodiverse/issues/559)
+      *  New calculation for phylogenetic abundance.  [~~Issue 559~~](https://github.com/shawnlaffan/biodiverse/issues/559)
     
 
 For the full list of issues and changes leading to the 1.01 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.01+ and https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3A%22Metadata+system+-+use+OO+not+bare+hashes%22+
