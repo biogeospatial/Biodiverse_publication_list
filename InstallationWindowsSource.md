@@ -16,7 +16,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ## Installation ##
 
 
-1.  Install Strawberry Perl 5.16.3, either 32 or 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2.  There are installation problems with these versions related to gdal, and we do not have gdal ppms for the 32 bit version of 5.18 (needed for step 6)_
+1.  Install Strawberry Perl 5.16.3, 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2.  There are installation problems with these versions related to gdal, and we do not have gdal ppms for the 32 bit version of 5.18 (needed for step 6)_
 
 2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a subversion client to get the latest Biodiverse code, see http://code.google.com/p/biodiverse/source/checkout
 
