@@ -32,7 +32,7 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
   sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev libglade2-dev
   # GDAL:
   sudo apt-get install libarmadillo-dev libpoppler-dev libepsilon-dev liblzma-dev
-  sudo apt-get install libgdal-dev libkml-dev libfreexl-dev gdal-perl libogdi3.2-dev
+  sudo apt-get install libgdal-dev libkml-dev libfreexl-dev libgdal-perl libogdi3.2-dev
 
   #  skip this if you already have cpanm installed
   wget -O - https://cpanmin.us | perl - App::cpanminus
