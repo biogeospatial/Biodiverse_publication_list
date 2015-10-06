@@ -2,7 +2,7 @@ These instructions apply to version 0.19 and later.
 
 Note that they have been tested on Ubuntu.  The package manager will differ for other Linux flavours, but the cpan command will be the same.
 
-These also assume you have [downloaded](http://code.google.com/p/biodiverse/downloads/list) the Biodiverse source code to your home directory and renamed it from whatever it was, e.g. `biodiverse_0.17_source`, to `biodiverse`.  If you have saved it somewhere else then you will need to adjust the following so any references to `$HOME/biodiverse/lib` use the appropriate directory.
+These also assume you have [downloaded](https://github.com/shawnlaffan/biodiverse/wiki/Downloads) the Biodiverse source code to your home directory and renamed it from whatever it was, e.g. `biodiverse_0.19_source`, to `biodiverse`.  If you have saved it somewhere else then you will need to adjust the following so any references to `$HOME/biodiverse/lib` use the appropriate directory.
 
 **Table of contents:**
 * [Installation](#installation)
@@ -20,7 +20,7 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
 
 
 ```bash
-  #  add the GDAL repo
+  #  if you have Ubuntu less than 14.04 -- add the GDAL repo
   sudo add-apt-repository ppa:ubuntugis/ppa 
   sudo apt-get update
 
@@ -42,8 +42,8 @@ These also assume you have [downloaded](http://code.google.com/p/biodiverse/down
   cpanm Task::Biodiverse
   cpanm Task::Biodiverse
 
-  #  The last cpan command is listed twice to get Gnome::Canvas
-  #  and Gtk2::GladeXML to install after their dependencies.
+  # The last cpanm command is listed twice to get Gtk2::GladeXML
+  # to install after its dependencies.
 
 ```
 
