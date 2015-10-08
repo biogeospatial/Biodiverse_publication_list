@@ -1,5 +1,5 @@
 **Table of contents:**
-* [Version 1.01](#version-101)
+* [Version 1.1](#version-11)
 * [Version 1](#version-1)
 * [Version 0.99](#version-099)
   * [Version 0.99_007](#version-099_007)
@@ -21,7 +21,7 @@
 * [Version 0.9.1185](#version-091185)
 
 
-# Version 1.01 #
+# Version 1.1 #
 
 This is a quick update to the 1.0 release, containing a few bug fixes and enhancements.
 
@@ -43,7 +43,7 @@ The main highlights are:
       *  New calculation for phylogenetic abundance.  [~~Issue 559~~](https://github.com/shawnlaffan/biodiverse/issues/559)
     
 
-For the full list of issues and changes leading to the 1.01 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.01+ and https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3A%22Metadata+system+-+use+OO+not+bare+hashes%22+
+For the full list of issues and changes leading to the 1.1 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.1+ and https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3A%22Metadata+system+-+use+OO+not+bare+hashes%22+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
