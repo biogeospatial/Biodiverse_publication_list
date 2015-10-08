@@ -23,7 +23,7 @@
 
 # Version 1.1 #
 
-This is a quick update to the 1.0 release, containing a few bug fixes and enhancements.
+This is a small-ish update to the 1.0 release, containing a few bug fixes and enhancements.
 
 The main highlights are:
 
