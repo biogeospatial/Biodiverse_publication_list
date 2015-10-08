@@ -4,9 +4,9 @@
 * [Available downloads](#available-downloads)
   * [Biodiverse GUI](#biodiverse-gui)
     * [Quick Start Guide](#quick-start-guide)
-    * [1.0 (stable release)](#10-stable-release)
+    * [Stable Release](#stable-release)
       * [Known issues](#known-issues)
-    * [1.0_002 (development release)](#10_002-development-release)
+    * [Development Release](#development-release)
   * [Site Pair Sampler](#site-pair-sampler)
   * [Utility scripts](#utility-scripts)
   * [Older versions](#older-versions)
@@ -22,30 +22,30 @@ There is also a series of blog posts at http://biodiverse-analysis-software.blog
 A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf) for version 0.19 is also available.
 
 
-### 1.0 (stable release) ###
+### Stable Release ###
 
-_This is the current stable release._
+_The current stable release is version 1.1._
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-1) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) summarise the changes in this version.
 
 
-* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~58MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_win_x64.zip)
+* [Windows (64 bit, standard zip format, ~58MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64.zip)
 
-* [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_linux64.tar.gz)
+* [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_linux64.tar.gz)
 
-* [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_source_code.zip)
+* [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_source_code.zip)
 
 #### Known issues ####
 
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
-### 1.0_002 (development release) ###
+### Development Release ###
 
-_This is the current development release.  If there are no show stopping issues then it will be released as 1.01._
+_There is no current development release as 1.1 has only just been released.  The links below are for the most recent development release (1.0_002) which has been superseded by version 1.1_.
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-101) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) summarise the changes in this version.
 
   These do not include the example data or the RunRandomisation utility.  
 
