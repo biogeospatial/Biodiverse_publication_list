@@ -80,4 +80,4 @@ Di Virgilio, G., Laffan, S.W. & Ebach, M.C. (2012) Fine scale quantification of 
 
 ## Older versions ##
 
-* Older versions can be accessed via the original [Downloads](https://code.google.com/p/biodiverse/downloads/list) page (v0.19 and earlier) or the [deprecated downloads URL](http://biodiverse.unsw.edu.au/downloads/deprecated/).
+* Older versions can be accessed via (http://biodiverse.unsw.edu.au/downloads/) or the [deprecated downloads URL](http://biodiverse.unsw.edu.au/downloads/deprecated/).
