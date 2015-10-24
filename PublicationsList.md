@@ -14,8 +14,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   *  González-Orozco, C.E., Mishler, B.D., Miller, J.T., Laffan, S.W., Knerr, N., Unmack, P., Georges, A., Thornhill, A.H., Rosauer, D.F. and Gruber, B. (in press) Assessing biodiversity and endemism using phylogenetic methods across multiple taxonomic groups.  [Ecology and Evolution](http://dx.doi.org/10.1002/ece3.1747)
 
-  *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
-
 #### 2015 ####
 
   * Cook, L.G., Hardy, N.B. and Crisp, M.D. (2015) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist, 207, 390-400](http://dx.doi.org/10.1111/nph.13199).
@@ -31,6 +29,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
   *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
+
+  *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
 
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (2015) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography, 42, 1114–1122](http://dx.doi.org/10.1111/jbi.12488).
 
