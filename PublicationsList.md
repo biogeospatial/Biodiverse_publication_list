@@ -12,7 +12,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   *  Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
 
-  *  Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A., Tindall, M. and Moles, A.T. (in press) Birds, butterflies and flowers in the tropics are not more colourful than those in higher latitudes. [Global Ecology and Biogeography, 24, 1424–1432](http://dx.doi.org/10.1111/geb.12368).
+  *  Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A., Tindall, M. and Moles, A.T. (2015) Birds, butterflies and flowers in the tropics are not more colourful than those in higher latitudes. [Global Ecology and Biogeography, 24, 1424–1432](http://dx.doi.org/10.1111/geb.12368).
 
   *  González-Orozco, C.E., Mishler, B.D., Miller, J.T., Laffan, S.W., Knerr, N., Unmack, P., Georges, A., Thornhill, A.H., Rosauer, D.F. and Gruber, B. (in press) Assessing biodiversity and endemism using phylogenetic methods across multiple taxonomic groups.  [Ecology and Evolution](http://dx.doi.org/10.1002/ece3.1747)
 
