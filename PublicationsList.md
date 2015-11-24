@@ -10,11 +10,10 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
-  *  Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
-
-  *  Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A., Tindall, M. and Moles, A.T. (2015) Birds, butterflies and flowers in the tropics are not more colourful than those in higher latitudes. [Global Ecology and Biogeography, 24, 1424–1432](http://dx.doi.org/10.1111/geb.12368).
 
   *  Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (in press) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
+
+  *  Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
 
   *  González-Orozco, C.E., Mishler, B.D., Miller, J.T., Laffan, S.W., Knerr, N., Unmack, P., Georges, A., Thornhill, A.H., Rosauer, D.F. and Gruber, B. (in press) Assessing biodiversity and endemism using phylogenetic methods across multiple taxonomic groups.  [Ecology and Evolution](http://dx.doi.org/10.1002/ece3.1747)
 
@@ -23,6 +22,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Cook, L.G., Hardy, N.B. and Crisp, M.D. (2015) Three explanations for biodiversity hotspots: small range size, geographical overlap and time for species accumulation. An Australian case study.  [New Phytologist, 207, 390-400](http://dx.doi.org/10.1111/nph.13199).
 
   * Costion, C.M., Edwards, W., Ford, A.J., Metcalfe, D.J., Cross, H.B., Harrington, M.G., Richardson, J.E., Hilbert, D.W., Lowe, A.J. and Crayn, D.M. (2015) Using phylogenetic diversity to identify ancient rain forest refugia and diversification zones in a biodiversity hotspot.  [Diversity and Distributions, 21, 279-289](http://dx.doi.org/10.1111/ddi.12266).
+
+  *  Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A., Tindall, M. and Moles, A.T. (2015) Birds, butterflies and flowers in the tropics are not more colourful than those in higher latitudes. [Global Ecology and Biogeography, 24, 1424–1432](http://dx.doi.org/10.1111/geb.12368).
 
   * Daru, B.H., van der Bank, M. and Davies, T.J. (2015) Spatial incongruence among hotspots and complementary areas of tree diversity in southern Africa.  [Diversity and Distributions, 21, 769-780](http://dx.doi.org/10.1111/ddi.12290).
 
