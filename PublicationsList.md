@@ -13,6 +13,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   *  Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (in press) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
 
+  * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (in press) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution](http://dx.doi.org/10.1111/2041-210X.12513).
+
   *  Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
 
   *  González-Orozco, C.E., Mishler, B.D., Miller, J.T., Laffan, S.W., Knerr, N., Unmack, P., Georges, A., Thornhill, A.H., Rosauer, D.F. and Gruber, B. (2015) Assessing biodiversity and endemism using phylogenetic methods across multiple taxonomic groups.  [Ecology and Evolution, 5, 5177-5192](http://dx.doi.org/10.1002/ece3.1747)
