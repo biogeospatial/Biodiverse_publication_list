@@ -14,10 +14,9 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (in press) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution](http://dx.doi.org/10.1111/2041-210X.12513).
 
-  * Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (in press) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
+#### 2016 ####
 
-  * Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
-
+  * Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (2016) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software, 76, 182-186](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
 
 #### 2015 ####
 
@@ -42,6 +41,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
 
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (2015) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography, 42, 1114–1122](http://dx.doi.org/10.1111/jbi.12488).
+
+  * Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
 
 #### 2014 ####
   * Bui, E.N., González-Orozco, C.E. and Miller, J.T. (2014) _Acacia_, climate, and geochemistry in Australia.  [Plant and Soil, 381, 161-175](http://dx.doi.org/10.1007/s11104-014-2113-x).
