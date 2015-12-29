@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Daru, B.H. and le Roux, P.C. (in press) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography](http://dx.doi.org/10.1111/geb.12412).
+
   * Rossetto, M., Kooyman, R.M., Yap, S. & Laffan, S.W. (in press) From ratites to rats: the size of fleshy fruits shapes species distributions and continental rainforest assembly. [Proceedings of the Royal Society, B](http://rspb.royalsocietypublishing.org/content/282/1820/20151998).
 
   * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (in press) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution](http://dx.doi.org/10.1111/2041-210X.12513).
