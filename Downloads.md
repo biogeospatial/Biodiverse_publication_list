@@ -26,12 +26,14 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 _The current stable release is version 1.1._
 
+*NOTE:  New windows files released on 02-Feb-2016 to fix an issue with incomplete unicode files being packed.  This meant that some trees were not correctly imported.  Please download this if you are using an older version.*
+
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) summarise the changes in this version.
 
 
-* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~35MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64u.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~58MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64.zip)
+* [Windows (64 bit, standard zip format, ~60MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64u.zip)
 
 * [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_linux64.tar.gz)
 
@@ -81,3 +83,4 @@ Di Virgilio, G., Laffan, S.W. & Ebach, M.C. (2012) Fine scale quantification of 
 ## Older versions ##
 
 * Older versions can be accessed via (http://biodiverse.unsw.edu.au/downloads/) or the [deprecated downloads URL](http://biodiverse.unsw.edu.au/downloads/deprecated/).
+
