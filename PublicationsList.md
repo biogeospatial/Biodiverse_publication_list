@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Dowding, E. and Ebach, M. (2016) The Early Devonian palaeobiogeography of Eastern Australasia.  [Palaeogeography, Palaeoclimatology, Palaeoecology, 444, 39–47](http://dx.doi.org/10.1016/j.palaeo.2015.11.037).
+
   * Daru, B.H. and le Roux, P.C. (in press) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography](http://dx.doi.org/10.1111/geb.12412).
 
   * Rossetto, M., Kooyman, R.M., Yap, S. & Laffan, S.W. (2015) From ratites to rats: the size of fleshy fruits shapes species distributions and continental rainforest assembly. [Proceedings of the Royal Society, B, 282, 20151998](http://dx.doi.org/10.1098/rspb.2015.1998).
