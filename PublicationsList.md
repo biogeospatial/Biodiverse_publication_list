@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
+
   * Dowding, E. and Ebach, M. (2016) The Early Devonian palaeobiogeography of Eastern Australasia.  [Palaeogeography, Palaeoclimatology, Palaeoecology, 444, 39–47](http://dx.doi.org/10.1016/j.palaeo.2015.11.037).
 
   * Daru, B.H. and le Roux, P.C. (in press) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography](http://dx.doi.org/10.1111/geb.12412).
