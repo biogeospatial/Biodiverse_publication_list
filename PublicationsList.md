@@ -12,15 +12,13 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
 
-  * Dowding, E. and Ebach, M. (2016) The Early Devonian palaeobiogeography of Eastern Australasia.  [Palaeogeography, Palaeoclimatology, Palaeoecology, 444, 39–47](http://dx.doi.org/10.1016/j.palaeo.2015.11.037).
-
-  * Daru, B.H. and le Roux, P.C. (in press) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography](http://dx.doi.org/10.1111/geb.12412).
-
-  * Rossetto, M., Kooyman, R.M., Yap, S. & Laffan, S.W. (2015) From ratites to rats: the size of fleshy fruits shapes species distributions and continental rainforest assembly. [Proceedings of the Royal Society, B, 282, 20151998](http://dx.doi.org/10.1098/rspb.2015.1998).
-
   * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (in press) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution](http://dx.doi.org/10.1111/2041-210X.12513).
 
 #### 2016 ####
+
+  * Daru, B.H. and le Roux, P.C. (2016) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography, 25, 324-334](http://dx.doi.org/10.1111/geb.12412).
+
+  * Dowding, E. and Ebach, M. (2016) The Early Devonian palaeobiogeography of Eastern Australasia.  [Palaeogeography, Palaeoclimatology, Palaeoecology, 444, 39–47](http://dx.doi.org/10.1016/j.palaeo.2015.11.037).
 
   * Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (2016) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software, 76, 182-186](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
 
@@ -42,9 +40,11 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
-  *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
+  * Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
 
-  *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
+  * Rossetto, M., Kooyman, R.M., Yap, S. & Laffan, S.W. (2015) From ratites to rats: the size of fleshy fruits shapes species distributions and continental rainforest assembly. [Proceedings of the Royal Society, B, 282, 20151998](http://dx.doi.org/10.1098/rspb.2015.1998).
+
+  * Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
 
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (2015) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography, 42, 1114–1122](http://dx.doi.org/10.1111/jbi.12488).
 
