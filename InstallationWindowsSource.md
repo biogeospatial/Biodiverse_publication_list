@@ -16,9 +16,9 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ## Installation ##
 
 
-1.  Install Strawberry Perl 5.16.3, 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2.  There are installation problems with these versions related to gdal, and we do not have gdal ppms for the 32 bit version of 5.18 (needed for step 6)_
+1.  Install Strawberry Perl 5.16.3, 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2, or anything else.  There are installation problems with these versions related to gdal, and we do not currently have gdal ppms for Strawberry Perl 5.18 or later (needed for step 6)_
 
-2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a subversion client to get the latest Biodiverse code, see http://code.google.com/p/biodiverse/source/checkout
+2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a GIT client to get the latest Biodiverse code, see https://github.com/shawnlaffan/biodiverse and the clone URL there.
 
 3.  Open a command prompt.  The rest of these instructions assume you are at the prompt.
 
@@ -27,27 +27,19 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ```dos
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
-  :: Change gtk_win64 to gtk_win32 if you are using a 32 bit installation.  Same applies gdal_win64.
   set GTK_PATH=c:\gtk_win64
   set GDAL_PATH=c:\gdal_win64
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%GTK_PATH%\c\bin;%GDAL_PATH%\bin;%PATH%
 ```
 
-5.  Download the gtk_win64 and gdal_win64 components using an svn checkout. TortoiseSVN is the easiest way, but this command line will work if you installed the shell options with TortoiseSVN (or you have a different svn client).  _Remember to change `_win64` to `_win32` in the paths if you are using a 32 bit installation_.
-
-```dos
-  svn co http://biodiverse.googlecode.com/svn/branches/gtk_win_builds/etc/gtk2.10_win64 %GTK_PATH%
-  svn co http://biodiverse.googlecode.com/svn/branches/gdal_win_builds/gdal_1.10.1/gdal_win64/ %GDAL_PATH%
-```
+5.  Download the gtk_win64 and gdal_win64 components and unzip them so the top level of each matches the GTK_PATH and GDAL_PATH variables you set in the previous step.  Make sure you do not have c:\gdal_win64\gdal_win64, for example.  
 
 
-6.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  If you are using a 32 bit perl then change ppm516_x64 to be ppm516.
+6.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  
 
 ```
   :: Install the precompiled binaries needed for the GUI.
-  :: Edit the next line to match the perl version you are using, 
-  :: e.g. ppm516 for the 32 bit version, ppm516_x64 for 64 bit
-  set BDV_PPM=http://biodiverse.googlecode.com/svn/branches/ppm/ppm516_x64
+  set BDV_PPM=https://github.com/shawnlaffan/biodiverse/raw/ppm/ppm516_x64
   ppm install %BDV_PPM%/Cairo.ppd 
   ppm install %BDV_PPM%/Glib.ppd 
   ppm install %BDV_PPM%/Gnome2-Canvas.ppd 
@@ -58,8 +50,8 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 
   :: Now install the rest of the dependencies
-  cpanm Task::Biodiverse::NoGUI~0.19
-  cpanm Task::Biodiverse~0.19
+  cpanm Task::Biodiverse::NoGUI
+  cpanm Task::Biodiverse
 ```
 
 
@@ -88,6 +80,6 @@ The above installation process **should** install all the relevant files, so we 
 # Trouble shooting #
 
   * If you get errors about not finding gnome-canvas, glib and friends then check that the `%GTK_PATH%\c\bin` directory exists and is correctly named.
-  * If Perl complains that it cannot locate a file when running Biodiverse then this library will need to be installed interactively using cpan. The complaint will contain text like `Can't locate Fred/Fred.pm in @INC (@INC contains:...)`  In this case, install module Fred::Fred (substitute a double colon "::" for each forward slash "/", and remove the trailing ".pm" from the module it cannot locate). E.g.: `cpanm Fred::Fred` . This can happen if one or more of the modules listed in the bundle failed to install.
+  * If Perl complains that it cannot locate a file when running Biodiverse then this library will need to be installed interactively using cpan. The complaint will contain text like `Can't locate Fred/Fred.pm in @INC (@INC contains:...)`  In this case, install module Fred::Fred (substitute a double colon "::" for each forward slash "/", and remove the trailing ".pm" from the module it cannot locate). E.g.: `cpanm Fred::Fred` . This can happen if one or more of the modules listed in the Task distributions failed to install.
 
   * Please report any other issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)
