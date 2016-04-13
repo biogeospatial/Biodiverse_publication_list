@@ -1,6 +1,6 @@
 These instructions apply to version 0.15 and later.  They are also increasingly old and have not been tested by the developers for some time.  Please report any success or failures.
 
-They have been tested on Snow Leopard, so there might be small changes for Leopard.
+They were last tested by the developers on Snow Leopard, so there might be small changes for later versions.  Success has been reported by a user on Yosemite.
 
 You will need Administrative privileges to run the installation.
 
@@ -18,13 +18,9 @@ You might want to consider using the Windows or Linux executable versions under 
 
   * These instructions assume you have [downloaded](Downloads) and extracted the Biodiverse source code distribution into your home directory (this will be `Users/your_login_name/` and is the same as `$HOME/` and `~/`).  You then need to rename the Biodiverse folder from `biodiverse_1.0_source` (or whatever it i called) to `biodiverse`.  If you prefer not to, or have extracted it elsewhere, then make sure to change the `~/biodiverse/lib` text in the following for the folder path you have used (i.e. `/opt/biodiverse` if it is there).
 
-  * You must have the X11 software on your Mac. You will have this if you have Leopard or later. If you have an earlier version of OSX you will need to obtain it either from your original CD or from the Apple site.
-
-  * Install the Xcode software, as it is needed to compile the MacPorts libraries.  This requires registration with Apple.  If you do not have the installation disk (it comes with the computer when you purchase it) then you need to download it.  The download is also >2GB, of which unfortunately a large part is the iPhone SDK which we don't need.  http://developer.apple.com/technologies/xcode.html.
-    * If you are using OSX version 10.5 then you will need to download an older version.  This takes a bit more finding.  Go to http://connect.apple.com and then click on the _Developer Tools_ link at the right.  In the next page, search for _Xcode 3.1.4 Developer Tools_.
-
   * Install MacPorts unless you already have it.  If you are not sure then try to install it anyway and it will tell you.
-    * Use the `pkg` installer for your operating system to download the `dmg` file, accessed from http://www.macports.org/install.php (link near the top of the page)
+    * Follow the instructions at http://www.macports.org/install.php
+    * Use the `pkg` installer for your operating system to download the `dmg` file.
     * Double click on the dmg file once you have downloaded it.  The remaining instructions assume you are using the default location (`/opt`).
   * Run this command in a terminal window to get the latest versions of the MacPorts libraries.
 ```bash
