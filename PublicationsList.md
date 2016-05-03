@@ -10,11 +10,19 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
-  *  Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
+  *  Tolley, K.A., Alexander, G.J., Branch, W.R., Bowles, P. and Maritz, B. (in press) Conservation Status and Threats for African Reptiles.  [Biological Conservation](http://dx.doi.org/10.1016/j.biocon.2016.04.006).
 
-  *  Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A., Tindall, M. and Moles, A.T. (2015) Birds, butterflies and flowers in the tropics are not more colourful than those in higher latitudes. [Global Ecology and Biogeography, 24, 1424–1432](http://dx.doi.org/10.1111/geb.12368).
+  * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
 
-  *  González-Orozco, C.E., Mishler, B.D., Miller, J.T., Laffan, S.W., Knerr, N., Unmack, P., Georges, A., Thornhill, A.H., Rosauer, D.F. and Gruber, B. (in press) Assessing biodiversity and endemism using phylogenetic methods across multiple taxonomic groups.  [Ecology and Evolution](http://dx.doi.org/10.1002/ece3.1747)
+  * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (in press) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution](http://dx.doi.org/10.1111/2041-210X.12513).
+
+#### 2016 ####
+
+  * Daru, B.H. and le Roux, P.C. (2016) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography, 25, 324-334](http://dx.doi.org/10.1111/geb.12412).
+
+  * Dowding, E. and Ebach, M. (2016) The Early Devonian palaeobiogeography of Eastern Australasia.  [Palaeogeography, Palaeoclimatology, Palaeoecology, 444, 39–47](http://dx.doi.org/10.1016/j.palaeo.2015.11.037).
+
+  * Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (2016) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software, 76, 182-186](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
 
 #### 2015 ####
 
@@ -22,19 +30,27 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Costion, C.M., Edwards, W., Ford, A.J., Metcalfe, D.J., Cross, H.B., Harrington, M.G., Richardson, J.E., Hilbert, D.W., Lowe, A.J. and Crayn, D.M. (2015) Using phylogenetic diversity to identify ancient rain forest refugia and diversification zones in a biodiversity hotspot.  [Diversity and Distributions, 21, 279-289](http://dx.doi.org/10.1111/ddi.12266).
 
+  * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A., Tindall, M. and Moles, A.T. (2015) Birds, butterflies and flowers in the tropics are not more colourful than those in higher latitudes. [Global Ecology and Biogeography, 24, 1424–1432](http://dx.doi.org/10.1111/geb.12368).
+
   * Daru, B.H., van der Bank, M. and Davies, T.J. (2015) Spatial incongruence among hotspots and complementary areas of tree diversity in southern Africa.  [Diversity and Distributions, 21, 769-780](http://dx.doi.org/10.1111/ddi.12290).
 
   * Ebach, M.C., Murphy, D.J., González-Orozco, C.E. and Miller, J.T. (2015) A revised area taxonomy of phytogeographical regions within the Australian Bioregionalisation Atlas.  [Phytotaxa 208, 261–277](http://dx.doi.org/10.11646/phytotaxa.208.4.2).
+
+  * González-Orozco, C.E., Mishler, B.D., Miller, J.T., Laffan, S.W., Knerr, N., Unmack, P., Georges, A., Thornhill, A.H., Rosauer, D.F. and Gruber, B. (2015) Assessing biodiversity and endemism using phylogenetic methods across multiple taxonomic groups.  [Ecology and Evolution, 5, 5177-5192](http://dx.doi.org/10.1002/ece3.1747)
 
   * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (2015) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment, 534, 131-143](http://dx.doi.org/10.1016/j.scitotenv.2015.04.113).
 
   * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
-  *  Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
+  * Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](http://dx.doi.org/10.1371/journal.pone.0126274).
 
-  *  Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
+  * Rossetto, M., Kooyman, R.M., Yap, S. & Laffan, S.W. (2015) From ratites to rats: the size of fleshy fruits shapes species distributions and continental rainforest assembly. [Proceedings of the Royal Society, B, 282, 20151998](http://dx.doi.org/10.1098/rspb.2015.1998).
+
+  * Sanginés-Franco, C., Luna-Vega, I., Contreras-Medina, R., Espinosa, D., Tejero-Díez, J.D and Rivas G. (2015) Diversity, endemism and conservation of ferns (Polypodiales) in the Mexican Mountain Component. [Journal of Mountain Science, 12, 891-904](http://dx.doi.org/10.1007/s11629-014-3070-9).
 
   * Schmidt-Lebuhn, A.N., Knerr, N.J., Miller, J.T and Mishler, B.D. (2015) Phylogenetic diversity and endemism of Australian daisies (Asteraceae).  [Journal of Biogeography, 42, 1114–1122](http://dx.doi.org/10.1111/jbi.12488).
+
+  * Stephenson, R.L., Power, M.J., Laffan, S.W. and Suthers, I.M. (2015) Tests of larval retention in a tidally energetic environment reveal the complexity of the spatial structure in herring populations. [Fisheries Oceanography, 24, 553-570](http://dx.doi.org/10.1111/fog.12129).
 
 #### 2014 ####
   * Bui, E.N., González-Orozco, C.E. and Miller, J.T. (2014) _Acacia_, climate, and geochemistry in Australia.  [Plant and Soil, 381, 161-175](http://dx.doi.org/10.1007/s11104-014-2113-x).
