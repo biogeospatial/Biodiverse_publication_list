@@ -1,4 +1,6 @@
 **Table of contents:**
+* [Version 1.99](#version-199)
+  * [Version 1.99_002](#version-199_002)
 * [Version 1.1](#version-11)
 * [Version 1](#version-1)
 * [Version 0.99](#version-099)
@@ -19,6 +21,24 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+
+# Version 1.99 #
+
+This is a development release series, leading towards version 2.0.
+
+Collectively, these releases comprise several major changes to the underlying code-base, as well as the addition of a number of major new features.  They are not guaranteed to be backwards compatible with previous versions (1.1 and earlier).  They can still use most Biodiverse files created using earlier versions, but files created using this version are not guaranteed to work with earlier versions.
+
+For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
+
+To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
+
+## Version 1.99_002 ##
+
+  * GUI
+    * No more do we depend on Gtk2::GladeXML for the user interface, thus removing a dependency that has long been deprecated.  [~~Issue 413~~](/shawnlaffan/biodiverse/issues/413)
+  * Indices
+    * A set of species richness estimators are now supported [~~Issue 420~~](/shawnlaffan/biodiverse/issues/420) (A blog post is coming)
 
 
 # Version 1.1 #
