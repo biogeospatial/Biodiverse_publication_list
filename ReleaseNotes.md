@@ -38,7 +38,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
   * GUI
     * No more do we depend on Gtk2::GladeXML for the user interface, thus removing a dependency that has long been deprecated.  [~~Issue 413~~](/shawnlaffan/biodiverse/issues/413)
   * Indices
-    * A set of species richness estimators are now supported [~~Issue 420~~](/shawnlaffan/biodiverse/issues/420) (A blog post is coming)
+    * A set of species richness estimators are now supported [~~Issue 420~~](/shawnlaffan/biodiverse/issues/420) A blog post is [here](http://biodiverse-analysis-software.blogspot.com.au/2016/05/biodiverse-now-includes-species.html).
 
 
 # Version 1.1 #
