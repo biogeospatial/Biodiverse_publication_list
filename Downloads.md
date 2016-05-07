@@ -26,14 +26,14 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 _The current stable release is version 1.1._
 
-*NOTE:  New windows files released on 02-Feb-2016 to fix an issue with incomplete unicode files being packed.  This meant that some trees were not correctly imported.  Please download this if you are using an older version.*
+*NOTE:  New windows files released on 07-May-2016 to fix an issue with incomplete encoding files being packed.  This meant that some trees were not correctly imported.  Please download this if you are using an older version.  This replaces the update released in February 2016.*
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) summarise the changes in this version.
 
 
-* [Windows (64 bit, 7zip format, ~35MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64u.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~35MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64uu.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~60MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64u.zip)
+* [Windows (64 bit, standard zip format, ~60MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64uu.zip)
 
 * [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_linux64.tar.gz)
 
@@ -45,19 +45,19 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) sum
 
 ### Development Release ###
 
-_There is no current development release as 1.1 has only just been released.  The links below are for the most recent development release (1.0_002) which has been superseded by version 1.1_.
+_Version 1.99_002 was released on 07-May-2016_
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_002) summarise the changes in this version.
 
   These do not include the example data or the RunRandomisation utility.  
 
-* [Windows (64 bit, 7zip format, ~27MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_002_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_002_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~49MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_002_win_x64.zip)
+* [Windows (64 bit, standard zip format, ~51MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_002_win_x64.zip)
 
-* [Linux (64 bit, ~8MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.0_001_linux64.tar) (Still at 1.0_001)
+* A Linux binary is yet to be released.
 
-* [Source code]()
+* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r1.99_002)
 
 
 
