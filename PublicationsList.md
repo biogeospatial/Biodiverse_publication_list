@@ -14,8 +14,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
 
-  * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (in press) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution](http://dx.doi.org/10.1111/2041-210X.12513).
-
 #### 2016 ####
 
   * Daru, B.H. and le Roux, P.C. (2016) Marine protected areas are insufficient to conserve global marine plant diversity.  [Global Ecology and Biogeography, 25, 324-334](http://dx.doi.org/10.1111/geb.12412).
@@ -23,6 +21,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Dowding, E. and Ebach, M. (2016) The Early Devonian palaeobiogeography of Eastern Australasia.  [Palaeogeography, Palaeoclimatology, Palaeoecology, 444, 39–47](http://dx.doi.org/10.1016/j.palaeo.2015.11.037).
 
   * Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (2016) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software, 76, 182-186](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
+
+  * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (2016) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution, 7, 580-588](http://dx.doi.org/10.1111/2041-210X.12513).
 
 #### 2015 ####
 
