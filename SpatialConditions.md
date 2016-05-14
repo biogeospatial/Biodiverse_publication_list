@@ -4,6 +4,7 @@
   * [Neighbourhoods](#neighbourhoods)
   * [Definition Queries](#definition-queries)
 * [Some details](#some-details)
+  * [Locale issues](#locale-issues)
 * [Evaluation](#evaluation)
 * [Functions](#functions)
   * [Available functions](#available-functions)
@@ -63,6 +64,10 @@ Note that groups that fail the definition query are still considered for members
 As with any system, there must be compromises between ease of use and system flexibility. In this case we have opted for system flexibility by direct use of Perl syntax. This means you can use arbitrarily complex functions to define neighbourhoods, including loops and other multiple variable conditions. This may be horrifying to non-perlers, as one of the main complaints about perl is its complex grammar and syntax. To alleviate this we are encapsulating many of the common conditions in subroutines that can be called by name with a set of arguments.  We have also provided examples below to assist.
 
 The neighbourhood and definition query interfaces have a syntax verification button to check that the syntax is valid. This does not, however, guarantee your parameters will work, only that it is valid Perl code. (The reality here is that we will just evaluate the parameter statement with some default values and warn you if the system raises some sort of error or exception).
+
+## Locale issues ##
+
+If you are using a locale where the radix character (the decimal place marker) is a comma then you need to remember to use a dot instead.  For example, this code `sp_circle (radius => 5,3)` should be `sp_circle (radius => 5.3)` or you will receive warnings about uneven arguments used to define a hash.
 
 # Evaluation #
 
