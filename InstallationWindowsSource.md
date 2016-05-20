@@ -49,6 +49,11 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   ppm install %BDV_PPM%/Geo-GDAL.ppd
 
 
+  :: Spreadsheet::XLSX 0.15 does not install on windows 
+  :: and will be removed in the next Task::Biodiverse::NoGUI update
+  :: until then install version 0.13
+  cpanm Spreadsheet::XLSX@0.13
+
   :: Now install the rest of the dependencies
   cpanm Task::Biodiverse::NoGUI
   cpanm Task::Biodiverse
