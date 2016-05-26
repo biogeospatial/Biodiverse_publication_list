@@ -9,6 +9,9 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 > Publications are listed in reverse chronological order by year, then by author within years.
 
 #### in press/recent ####
+
+  * Thornhill, A.H., Mishler, B.D., Knerr, N., González-Orozco, C.E., Costion, C., Crayn, D., Laffan, S.W. & Miller, J.T. (in press) Continental scale phylogenetic diversity and endemism in Australian angiosperms. [Journal of Biogeography](http://dx.doi.org/10.1111/jbi.12797).
+
   * Ceccarelli, F.S., Ojanguren-Affilastro, A.A., Ramírez, M.J., Ochoa, J.A., Mattoni, C.I. and Prendini, L. (in press) Andean uplift drives diversification of the bothriurid scorpion genus Brachistosternus.  [Journal of Biogeography](http://dx.doi.org/10.1111/jbi.12760).
 
   *  Tolley, K.A., Alexander, G.J., Branch, W.R., Bowles, P. and Maritz, B. (in press) Conservation Status and Threats for African Reptiles.  [Biological Conservation](http://dx.doi.org/10.1016/j.biocon.2016.04.006).
