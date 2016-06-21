@@ -49,7 +49,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   ppm install %BDV_PPM%/Geo-GDAL.ppd
 
 
-  :: Spreadsheet::XLSX 0.15 does not install on windows 
+  :: Spreadsheet::XLSX 0.15 does not install on Windows 
   :: and will be removed in the next Task::Biodiverse::NoGUI update
   :: until then install version 0.13
   cpanm Spreadsheet::XLSX@0.13
@@ -57,6 +57,9 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: Now install the rest of the dependencies
   cpanm Task::Biodiverse::NoGUI
   cpanm Task::Biodiverse
+
+  :: You might need to re-run the preceding two lines a few times as 
+  :: anti-virus scanning can cause test failures due to file locks.
 ```
 
 
