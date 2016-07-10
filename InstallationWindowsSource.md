@@ -54,12 +54,15 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: until then install version 0.13
   cpanm Spreadsheet::XLSX@0.13
 
+  :: Spreadsheet::ParseXLSX version 0.24 does not install on Windows
+  cpanm Spreadsheet::ParseXLSX@0.23
+
   :: Now install the rest of the dependencies
+  :: You might need to re-run the preceding two lines a few times as 
+  :: anti-virus scanning can cause test failures due to file locks.
   cpanm Task::Biodiverse::NoGUI
   cpanm Task::Biodiverse
 
-  :: You might need to re-run the preceding two lines a few times as 
-  :: anti-virus scanning can cause test failures due to file locks.
 ```
 
 
