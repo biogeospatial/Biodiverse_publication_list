@@ -39,6 +39,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
     * No more do we depend on Gtk2::GladeXML for the user interface, thus removing a dependency that has long been deprecated.  [~~Issue 413~~](/shawnlaffan/biodiverse/issues/413)
   * Indices
     * A set of species richness estimators are now supported [~~Issue 420~~](/shawnlaffan/biodiverse/issues/420) A blog post is [here](http://biodiverse-analysis-software.blogspot.com.au/2016/05/biodiverse-now-includes-species.html).
+    * The range weighted turnover indices described in [Laffan et al. (2016)](http://dx.doi.org/10.1111/2041-210X.12513) are now included.  [~~Issue 577~~](https://github.com/shawnlaffan/biodiverse/issues/577).
 
 
 # Version 1.1 #
