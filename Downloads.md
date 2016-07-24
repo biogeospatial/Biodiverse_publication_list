@@ -51,9 +51,9 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_002
 
   These do not include the example data or the RunRandomisation utility.  
 
-* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_002_win_x64.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~34MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_002_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~51MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_002_win_x64.zip)
+* [Windows (64 bit, standard zip format, ~51MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_002_win.zip)
 
 * A Linux binary is yet to be released.
 
