@@ -16,13 +16,13 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ## Installation ##
 
 
-1.  Install Strawberry Perl 5.16.3, 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2, or anything else.  There are installation problems with these versions related to gdal, and we do not currently have working gdal ppms for Strawberry Perl 5.18 or later (needed for step 6)_
+*  Step 1.  Install Strawberry Perl 5.16.3, 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.16.3 and NOT 5.18, 5.16.1 or 5.16.2, or anything else.  There are installation problems with these versions related to gdal, and we do not currently have working gdal ppms for Strawberry Perl 5.18 or later (needed for step 6)_
 
-2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a GIT client to get the latest Biodiverse code, see https://github.com/shawnlaffan/biodiverse and the clone URL there.
+*  Step 2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a GIT client to get the latest Biodiverse code, see https://github.com/shawnlaffan/biodiverse and the clone URL there.
 
-3.  Open a command prompt.  The rest of these instructions assume you are at the prompt.
+*  Step 3.  Open a command prompt.  The rest of these instructions assume you are at the prompt.
 
-4.  Run these commands, editing the folder paths as needed to match your system.
+*  Step 4.  Run these commands, editing the folder paths as needed to match your system.
 
 ```dos
   set BDV_PATH=c:\biodiverse
@@ -32,10 +32,10 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%GTK_PATH%\c\bin;%GDAL_PATH%\bin;%PATH%
 ```
 
-5.  Download the gtk_win64 and gdal_win64 components and unzip them so the top level of each matches the GTK_PATH and GDAL_PATH variables you set in the previous step.  Make sure you do not have c:\gdal_win64\gdal_win64, for example.  
+*  Step 5.  Locate the gtk_win64 and gdal_win64 folders from a binary installation ([you might need to download and unzip one](https://github.com/shawnlaffan/biodiverse/wiki/Downloads)), and make sure the GTK_PATH and GDAL_PATH variables you set in the previous step match their locations, e.g. you might have c:\gdal_win64\gdal_win64.  
 
 
-6.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  
+*  Step 6.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  
 
 ```
   :: Install the precompiled binaries needed for the GUI.
@@ -70,7 +70,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 The above installation process **should** install all the relevant files, so we can now run it.
 
-1.  This is the same as step 1 in the installation instructions, but needs to be run every time you open a new command prompt (unless you add the paths to your PATH variable at the windows level).  Remember to edit the folder paths if you installed Biodiverse, the Gtk libs, GDAL libs and/or Strawberry Perl to different folders.  Note that Biodiverse goes looking up the directory tree for Gtk and GDAL using the installation names in the previous steps, so you only need to add them to the path if you put them somewhere else.
+*  This is the same as step 1 in the installation instructions, but needs to be run every time you open a new command prompt (unless you add the paths to your PATH variable at the windows level).  Remember to edit the folder paths if you installed Biodiverse, the Gtk libs, GDAL libs and/or Strawberry Perl to different folders.  Note that Biodiverse goes looking up the directory tree for Gtk and GDAL using the installation names in the previous steps, so you only need to add them to the path if you put them somewhere else.
 
 ```dos
   set BDV_PATH=c:\biodiverse
@@ -78,7 +78,7 @@ The above installation process **should** install all the relevant files, so we 
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%BDV_PATH%\bin;%PATH%
 ```
 
-2.  Now you can run it.
+*  Now you can run it.
 
 ```dos
   perl %BDV_PATH%\bin\BiodiverseGUI.pl
