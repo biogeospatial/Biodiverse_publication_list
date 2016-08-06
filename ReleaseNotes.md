@@ -41,8 +41,8 @@ To see the full list of open issues or to report a bug or enhancement request, s
   * Randomisations
     * New spatially structured randomisations are available.  More details in a forthcoming blog post.  [Issue 76](/shawnlaffan/biodiverse/issues/76)
     * Randomisation scores are now automatically categorised into significance thresholds.  [Issue 607](/shawnlaffan/biodiverse/issues/607)  [_blog post_](http://biodiverse-analysis-software.blogspot.com.au/2016/08/biodiverse-now-categorises-your.html)
-    *  Indices
-      *  A "central" variant of the RPE indices is now available and can be used with the [PE Central indices](https://purl.org/biodiverse/wiki/IndicesDevVersion#phylogenetic-endemism-central).  [A description is here](https://purl.org/biodiverse/wiki/IndicesDevVersion#relative-phylogenetic-endemism-central).  The calculation is the same as the non-central version, but the set of branches used are taken from the first neighbour set.
+  *  Indices
+    *  A "central" variant of the RPE indices is now available and can be used with the [PE Central indices](https://purl.org/biodiverse/wiki/IndicesDevVersion#phylogenetic-endemism-central).  [A description is here](https://purl.org/biodiverse/wiki/IndicesDevVersion#relative-phylogenetic-endemism-central).  The calculation is the same as the non-central version, but the set of branches used are taken from the first neighbour set.
 
 ## Version 1.99_002 ##
 
