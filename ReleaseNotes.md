@@ -34,9 +34,15 @@ For the full list of issues and changes leading to the 2.0 release, see https://
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
-## Version 1.99_002 ##
+## Version 1.99_003 ##
+  * GUI
+    * The overlays system now warns you if the shapefile is unlikely to be visible, for example when the shapefile is in geographic coordinates but the BaseData file is in an Albers coordinate system.  [Issue 604](shawnlaffan/biodiverse/issues/604)
+    * The randomisation tab has been restructured to be more compact.
   * Randomisations
-    * Randomisation scores are now automatically categorised into significance thresholds.  [Issue 607](/shawnlaffan/biodiverse/issues/607)  [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/biodiverse-now-categorises-your.html)
+    * New spatially structured randomisations are available.  More details in a forthcoming blog post.  [Issue 76](/shawnlaffan/biodiverse/issues/76)
+    * Randomisation scores are now automatically categorised into significance thresholds.  [Issue 607](/shawnlaffan/biodiverse/issues/607)  [_blog post_](http://biodiverse-analysis-software.blogspot.com.au/2016/08/biodiverse-now-categorises-your.html)
+    *  Indices
+      *  A "central" variant of the RPE indices is now available and can be used with the [PE Central indices](https://purl.org/biodiverse/wiki/IndicesDevVersion#phylogenetic-endemism-central).  [A description is here](https://purl.org/biodiverse/wiki/IndicesDevVersion#relative-phylogenetic-endemism-central).  The calculation is the same as the non-central version, but the set of branches used are taken from the first neighbour set.
 
 ## Version 1.99_002 ##
 
@@ -63,7 +69,7 @@ The main highlights are:
   *  Analyses
     *  Randomisations [_(read the blog post)_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/better-control-of-randomisations.html)
       *  Randomisations can now be run for subsets of your data.  Specifying a definition query determines which groups are randomised, while specifying a spatial condition constrains the randomisation to stay within subsets.  In this way one can randomise labels such that they stay within, for example, the bioregion in which they are found.  [Issue 554](https://github.com/shawnlaffan/biodiverse/issues/554) 
-      *  Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributionsare not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [Issue 556](https://github.com/shawnlaffan/biodiverse/issues/556)
+      *  Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributions are not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [Issue 556](https://github.com/shawnlaffan/biodiverse/issues/556)
     *  The spatial index is now used more effectively.  [Issue 550](https://github.com/shawnlaffan/biodiverse/issues/550), [Issue 545](https://github.com/shawnlaffan/biodiverse/issues/550), [Issue 551](https://github.com/shawnlaffan/biodiverse/issues/551)
     *  Calculations and Indices
       *  New calculation for phylogenetic abundance.  [Issue 559](https://github.com/shawnlaffan/biodiverse/issues/559)
