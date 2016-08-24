@@ -43,6 +43,8 @@ To see the full list of open issues or to report a bug or enhancement request, s
     * Randomisation scores are now automatically categorised into significance thresholds.  [A blog post gives further details](http://biodiverse-analysis-software.blogspot.com.au/2016/08/biodiverse-now-categorises-your.html), [Issue 607](/shawnlaffan/biodiverse/issues/607)
   *  Indices
     *  A "central" variant of the RPE indices is now available and can be used with the [PE Central indices](https://purl.org/biodiverse/wiki/IndicesDevVersion#phylogenetic-endemism-central).  [A description is here](https://purl.org/biodiverse/wiki/IndicesDevVersion#relative-phylogenetic-endemism-central).  The calculation is the same as the non-central version, but the set of branches used are taken from the first neighbour set.
+  *  Trees
+    *  Biodiverse was hanging when trimming some trees to match the basedata.  [Commit ce678640d725d96078b7288833b52c97b9e46c4b](https://github.com/shawnlaffan/biodiverse/commit/ce678640d725d96078b7288833b52c97b9e46c4b)
 
 ## Version 1.99_002 ##
 
