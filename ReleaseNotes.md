@@ -40,7 +40,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
     *  The default file format now uses Sereal instead of Storable.  [Issue 358](shawnlaffan/biodiverse/issues/358).  See this [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/new-more-efficient-file-format.html) for more details.
   * Randomisations
     * Randomisation outputs can now be renamed.  [Issue 609](https://github.com/shawnlaffan/biodiverse/issues/609)
-    * Randomisation scores are now automatically converted into rank-relative positions.  These can be more easily converted to significance scores.  [A blog post gives further details](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html), [Issue 607](/shawnlaffan/biodiverse/issues/607)
+    * Randomisation scores are now automatically converted into rank-relative positions.  These can be more easily converted to significance scores.  [Issue 607](/shawnlaffan/biodiverse/issues/607).  See [this blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html) for more details.
 
 ## Version 1.99_003 ##
   * GUI
