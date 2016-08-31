@@ -41,6 +41,8 @@ To see the full list of open issues or to report a bug or enhancement request, s
   * Randomisations
     * Randomisation outputs can now be renamed.  [Issue 609](https://github.com/shawnlaffan/biodiverse/issues/609)
     * Randomisation scores are now automatically converted into rank-relative positions.  These can be more easily converted to significance scores.  [Issue 607](/shawnlaffan/biodiverse/issues/607).  See [this blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html) for more details.
+  *  Exports
+    * JSON is now supported for table exports.  [Issue 593](/shawnlaffan/biodiverse/issues/593)
 
 ## Version 1.99_003 ##
   * GUI
