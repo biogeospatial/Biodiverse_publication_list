@@ -47,7 +47,7 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) sum
 
 _Version 1.99_004 was released on 31-Aug-2016_
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_004) summarise the changes in this version.  See also the [release notes for 1.99_003](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_003).
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_004) summarise the changes in this version (see also the release notes for [1.99_003](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_003)).
 
   These do not include the example data or the RunRandomisation utility.  
 
