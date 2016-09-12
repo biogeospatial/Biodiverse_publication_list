@@ -38,7 +38,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
 
 ## Version 1.99_005 ##
   *  GUI
-    *  Users can now control the colour of individual branches and their descendants in the Cluster analysis tab.  [Issue 600](shawnlaffan/biodiverse/issues/600).  See also this blog post.
+    *  Users can now control the colour of individual branches and their descendants in the Cluster analysis tab.  [Issue 600](shawnlaffan/biodiverse/issues/600).  See also the blog post when it is finished.
 
 ## Version 1.99_004 ##
   *  File formats
