@@ -1,5 +1,6 @@
 **Table of contents:**
 * [Version 1.99](#version-199)
+  * [Version 1.99_004](#version-199_005)
   * [Version 1.99_004](#version-199_004)
   * [Version 1.99_003](#version-199_003)
   * [Version 1.99_002](#version-199_002)
@@ -34,6 +35,10 @@ Collectively, these releases comprise several major changes to the underlying co
 For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
+
+## Version 1.99_005 ##
+  *  GUI
+    *  Users can now control the colour of individual branches and their descendants in the Cluster analysis tab.  [Issue 600](shawnlaffan/biodiverse/issues/600).  See also this blog post.
 
 ## Version 1.99_004 ##
   *  File formats
