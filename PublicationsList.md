@@ -16,6 +16,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Ceccarelli, F.S., Ojanguren-Affilastro, A.A., Ramírez, M.J., Ochoa, J.A., Mattoni, C.I. and Prendini, L. (in press) Andean uplift drives diversification of the bothriurid scorpion genus Brachistosternus.  [Journal of Biogeography](http://dx.doi.org/10.1111/jbi.12760).
 
+  * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (in press) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology](http://dx.doi.org/10.1093/jpe/rtw031).
+
   *  Tolley, K.A., Alexander, G.J., Branch, W.R., Bowles, P. and Maritz, B. (in press) Conservation Status and Threats for African Reptiles.  [Biological Conservation](http://dx.doi.org/10.1016/j.biocon.2016.04.006).
 
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
