@@ -39,6 +39,8 @@ To see the full list of open issues or to report a bug or enhancement request, s
 ## Version 1.99_005 ##
   *  GUI
     *  Users can now control the colour of individual branches and their descendants in the Cluster analysis tab.  [Issue 600](shawnlaffan/biodiverse/issues/600).  See also the blog post when it is finished.
+  *  File formats
+    *  Some basedatas were not saving correctly when using the Sereal format.  This only affected users of the 1.99_004 release and was fixed in commit a68eb2021dbb14d3d550ccb0becbd6c75b725545 (which also made it consistent with the existing Storable approach). 
 
 ## Version 1.99_004 ##
   *  File formats
