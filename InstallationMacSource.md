@@ -2,6 +2,9 @@
 
 We are currently working on a native installation for macs.  Please get in contact if you are able to assist.  
 
+In the meantime, the best approach is to use dual-boot or a virtual machine to run windows or linux versions.  
+
+
 ## old instructions follow ##
 
 These instructions apply to version 0.15 and later.  They are also increasingly old and have not been tested by the developers for some time.  Please report any success or failures.
