@@ -1,6 +1,13 @@
+## UPDATE (2016-09-15) - this does not work on recent versions of MacPorts ##
+
+We are currently working on a native installation for macs.  Please get in contact if you are able to assist.  
+
+## old instructions follow ##
+
 These instructions apply to version 0.15 and later.  They are also increasingly old and have not been tested by the developers for some time.  Please report any success or failures.
 
 They were last tested by the developers on Snow Leopard, so there might be small changes for later versions.  Success has been reported by a user on Yosemite.
+
 
 You will need Administrative privileges to run the installation.
 
