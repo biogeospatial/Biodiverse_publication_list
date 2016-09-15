@@ -88,7 +88,7 @@ Turn on the checkbox next to _Data are in matrix form?_ when importing.  See [Sa
 
 ## Can I skip a subset of species when importing data? ##
 
-Yes.  Use an Element Property table for this purpose, specifying one or more exclude and/or include columns.  See [DataStructures#Element_property_tables](https://github.com/shawnlaffan/biodiverse/wiki/DataStructures#element-property-tables).  From version 0.18003 you can also exclude (delete) some labels after you have imported them.
+Yes (before version 1.99).  Use an Element Property table for this purpose, specifying one or more exclude and/or include columns.  See [DataStructures#Element_property_tables](https://github.com/shawnlaffan/biodiverse/wiki/DataStructures#element-property-tables).  From version 0.18003 you can also exclude (delete) some labels after you have imported them.  _This feature was disabled in 1.99.  From version 1 you can delete labels after import using the View Labels tab._
 
 ## Where is the menu option to load an element properties table? ##
 
