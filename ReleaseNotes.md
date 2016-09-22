@@ -1,5 +1,6 @@
 **Table of contents:**
 * [Version 1.99](#version-199)
+  * [Version 1.99_006](#version-199_006)
   * [Version 1.99_005](#version-199_005)
   * [Version 1.99_004](#version-199_004)
   * [Version 1.99_003](#version-199_003)
@@ -35,6 +36,11 @@ Collectively, these releases comprise several major changes to the underlying co
 For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
+
+## Version 1.99_005 ##
+  *  GUI
+    * View Labels tab: Labels are sorted using a [natural sort order](https://en.wikipedia.org/wiki/Natural_sort_order).  [Issue 614](https://github.com/shawnlaffan/biodiverse/issues/614)
+    * Groups with text axes also use a natural sort to determine the plotting coordinates.  [Issue 613](https://github.com/shawnlaffan/biodiverse/issues/613)
 
 ## Version 1.99_005 ##
   *  GUI
