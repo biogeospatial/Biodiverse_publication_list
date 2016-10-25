@@ -10,6 +10,9 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * González-Ávila, P.A., Luna-Vega, I., García-Sandoval, R. and Contreras-Medina, R. (2016) Distributional patterns of the Order Gomphales (Fungi: Basidiomycota) in Mexico.  [Tropical Conservation Science, 9, 1940082916667140](http://dx.doi.org/10.1177/1940082916667140).
+
+
   * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, doi:10.1111/jbi.12875](http://dx.doi.org/10.1111/jbi.12875).
 
   *  González-Orozco, C.E., Pollock, L.J., Knerr, N., Mishler, B.D., Miller, J.T., Laffan, S.W., Thornhill, A.H., Rosauer, D.F., Faith, D., Nipperess, D., Kujala, H., Linke, S. and Gruber, B. (in press) Phylogenetic approaches uncover biodiversity threats under climate change. [Nature Climate Change, doi: 10.1038/nclimate3126](http://dx.doi.org/10.1038/nclimate3126).
