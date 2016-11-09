@@ -1,5 +1,6 @@
 **Table of contents:**
 * [Version 1.99](#version-199)
+  * [Version 1.99_007](#version-199_007)
   * [Version 1.99_006](#version-199_006)
   * [Version 1.99_005](#version-199_005)
   * [Version 1.99_004](#version-199_004)
@@ -36,6 +37,13 @@ Collectively, these releases comprise several major changes to the underlying co
 For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
+
+## Version 1.99_006 ##
+  *  GUI
+    * Multiselect colouring now supported {need to insert blog ref}
+  * BaseData
+    *  Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coords.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
+
 
 ## Version 1.99_006 ##
   *  GUI
