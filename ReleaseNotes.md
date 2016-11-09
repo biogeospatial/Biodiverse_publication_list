@@ -38,7 +38,7 @@ For the full list of issues and changes leading to the 2.0 release, see https://
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
-## Version 1.99_006 ##
+## Version 1.99_007 ##
   *  GUI
     * Multiselect colouring now supported {need to insert blog ref}
   * BaseData
