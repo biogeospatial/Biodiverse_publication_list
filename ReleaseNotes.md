@@ -42,7 +42,9 @@ To see the full list of open issues or to report a bug or enhancement request, s
   *  GUI
     * Cluster tab: User defined colouring of clusters is now supported.  [Issue 600](https://github.com/shawnlaffan/biodiverse/issues/600) [More details are given in the blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/09/new-selection-tool-in-cluster-analysis.html)
   * BaseData
-    *  Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coords.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
+    *  Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coordinates.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
+  *  Analyses
+    * Randomisations now provide rank relative significance scores.  [Issue 607](https://github.com/shawnlaffan/biodiverse/issues/607).  More details in the [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html)
 
 
 ## Version 1.99_006 ##
