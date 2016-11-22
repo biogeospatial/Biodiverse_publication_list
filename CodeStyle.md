@@ -17,6 +17,7 @@ sub some_sub {
     my $arg1 = $args{argname1};
     my $arg2 = $args{argname2};
     #  do stuff
+    return $arg1 * $arg2;
 }
 ```
 
@@ -29,9 +30,17 @@ The number of args for such _aa subs should be three or fewer (excluding the obj
 sub some_sub_aa {
     my ($self, $arg1, $arg2) = @_;
     #  do stuff
+    return $arg1 * $arg2
 }
 ```
 
 The ```$_[$i]``` method of accessing sub arguments will only be used where profiling demonstrates it is of benefit, and in short subs of a few lines.  In these cases comments should be added to explain why. 
 
-
+```perl 
+sub some_sub_aa {
+    #  very hot path, avoid generation of lexical vars
+    #my ($self, $arg1, $arg2) = @_;
+    #  do stuff
+    return $_[1] * $_[2];
+}
+```
