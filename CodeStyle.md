@@ -9,7 +9,27 @@ For the most part we follow the guides in Perl Best Practices.
 4.  Postfix conditionals should be used for program control (```croak $msg if...```, ```return $x if...```).
 
 ## Sub arguments ##
-Subs should use keyword/value (hash based) arguments, unless speed known to be an issue.  This makes extending function arguments much easier.  If code prfiling and benchmarking shows that array args would be beneficial then a new sub is added with the same name but _aa appended.  
+Subs should use keyword/value (hash based) arguments, unless speed known to be an issue.  This makes extending function arguments much easier.  
 
-There are some exceptions to this rule, for example get_param, but new code should follow this pattern.
+```perl
+sub some_sub {
+    my ($self, %args) = @_;
+    my $arg1 = $args{argname1};
+    my $arg2 = $args{argname2};
+    #  do stuff
+}
+```
+
+If code profiling and benchmarking shows that array args would be beneficial then a new sub is added with the same name but _aa appended.  There are some long-standing exceptions to this rule, for example ```get_param```, but new code should follow this pattern.
+
+
+```perl 
+sub some_sub_aa {
+    my ($self, $arg1, $arg2) = @_;
+    #  do stuff
+}
+```
+
+The ```$_[$i]``` method of accessing sub arguments will only be used where profiling demonstrates it is of benefit, and in short subs of a few lines.  In these cases comments should be added to explain why. 
+
 
