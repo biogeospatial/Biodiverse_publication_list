@@ -22,6 +22,8 @@ sub some_sub {
 
 If code profiling and benchmarking shows that array args would be beneficial then a new sub is added with the same name but _aa appended.  There are some long-standing exceptions to this rule, for example ```get_param```, but new code should follow this pattern.
 
+The number of args for such _aa subs should be three or fewer (excluding the object itself).
+
 
 ```perl 
 sub some_sub_aa {
