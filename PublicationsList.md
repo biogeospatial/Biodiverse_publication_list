@@ -10,7 +10,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
-  * Kaczmarek, Ł., Gołdyn, B., Mcinnes, S.J. and Michalczyk, Ł (in press) Diversity of limno-terrestrial tardigrades of the Americas in relation to the Great American Biotic Interchange hypothesis (GABI).  (Zoological Journal of the Linnean Society)[http://dx.doi.org/10.1111/zoj.12422].
+  * Kaczmarek, Ł., Gołdyn, B., Mcinnes, S.J. and Michalczyk, Ł (in press) Diversity of limno-terrestrial tardigrades of the Americas in relation to the Great American Biotic Interchange hypothesis (GABI).  [Zoological Journal of the Linnean Society](http://dx.doi.org/10.1111/zoj.12422).
 
   * González-Ávila, P.A., Luna-Vega, I., García-Sandoval, R. and Contreras-Medina, R. (2016) Distributional patterns of the Order Gomphales (Fungi: Basidiomycota) in Mexico.  [Tropical Conservation Science, 9, 1940082916667140](http://dx.doi.org/10.1177/1940082916667140).
 
