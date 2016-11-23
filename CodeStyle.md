@@ -90,5 +90,5 @@ my %hash = (
 );
 ```
 
-There are no hard rules for where the alignments should be, so use your judgment of what is visually clearer.  
+There are no hard rules for where the alignments should be, so use personal judgment as to what is visually clearer.  
 
