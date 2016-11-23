@@ -64,3 +64,31 @@ my %results = (
 return wantarray ? %results : \%results;
 ```
 
+Return refs to structures in scalar context will be faster in hot paths, as there is less for the caller to process.  
+
+## Align and tabulate where reasonable ##
+
+```perl
+my $var1 = 'some value';
+my $var_extra = 'some other value';
+my %hash = (
+    key => 5,
+    longish => 10,
+    really_long_key_that_seems_not_to_end => 1000,
+);
+```
+
+can be clearer as:
+
+```perl
+my $var1      = 'some value';
+my $var_extra = 'some other value';
+my %hash = (
+    key     =>  5,
+    longish => 10,
+    really_long_key_that_seems_not_to_end => 1000,
+);
+```
+
+There are no hard rules for where the alignments should be, so use your judgment of what is visually clearer.  
+
