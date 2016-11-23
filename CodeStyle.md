@@ -44,3 +44,23 @@ sub some_sub_aa {
     return $_[1] * $_[2];
 }
 ```
+
+## Sub return values ##
+
+If there are many items to return from a sub then use a hash, ideally accounting for context:
+
+E.g., instead of:
+```perl
+return ($res1, $res2, \%res3);
+```
+
+use:
+```perl
+my %results = (
+    key1 => $res1,
+    key2 => $res2,
+    key3 => \%res3,
+);
+return wantarray ? %results : \%results;
+```
+
