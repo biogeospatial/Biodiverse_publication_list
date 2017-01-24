@@ -10,6 +10,10 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Cassis, G., Laffan, S.W. and Ebach, M.C. (2017) Biodiversity and Bioregionalisation Perspectives on the Historical Biogeography of Australia.  In Ebach, M.C (ed) [Handbook of Australasian Biogeography, ch 1, pp 1-16](http://www.crcnetbase.com/doi/abs/10.1201/9781315373096-2).
+
+  * Santos, A.P.B, Bitencourt, C. and Rapini, A. (2017) Distribution patterns of Kielmeyera (Calophyllaceae): the Rio Doce basin emerges as a confluent area between the northern and southern Atlantic Forest.  [Neotropical Biodiversity, 3, 1-9](http://dx.doi.org/10.1080/23766808.2016.1266730).
+
   * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, doi:10.1111/jbi.12875](http://dx.doi.org/10.1111/jbi.12875).
 
   * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (in press) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology](http://dx.doi.org/10.1093/jpe/rtw031).
