@@ -1,4 +1,4 @@
-These instructions apply to version 0.19 and later.
+These instructions apply to version 1.99 and later.
 
 Note that they have been tested on Ubuntu.  The package manager will differ for other Linux flavours, but the cpan command will be the same.
 
@@ -43,7 +43,8 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   cpanm Task::Biodiverse
 
   # The last cpanm command is listed twice to get Gtk2::GladeXML
-  # to install after its dependencies.
+  # to install after its dependencies, and might be redundant 
+  # now we do not use Gtk2::GladeXML
 
 ```
 
@@ -56,12 +57,17 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
 
   sudo apt-get install build-essential python-all-dev
 
-  wget http://download.osgeo.org/gdal/1.11.1/gdal-1.11.1.tar.gz
-  tar xvz gdal-1.11.1.tar.gz
-  cd gdal-1.11.1
+  gdal_version=2.1.3
+  wget http://download.osgeo.org/gdal/${gdal_version}/gdal-${gdal_version}.tar.gz
+  tar xvz gdal-${gdal_version}.tar.gz
+  cd gdal-${gdal_version}
 
-  ./configure --with-python --with-perl
-  make
+  #  This will install GDAL into your system level directories
+  #  Set the --prefix argument to use a different location,
+  #  e.g. ./configure --prefix=~HOME/gdal2.1.3
+  #  and remove the sudo if appropriate 
+  ./configure 
+  make -j4
   sudo make install
 ```
 
@@ -74,10 +80,12 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
 ```bash
   cpanm --look Geo::GDAL
 
+  #  adjust the config path as needed 
   perl Makefile.PL --no-version-check --gdal-config=/usr/local/bin/gdal-config
-  make
-  make test
-  make install
+  make && make test && make install
+
+  #  if it all worked then exit
+  exit
 ```
 
 If you don't like the current window theme then you can change it using the Desktop Preferences.
