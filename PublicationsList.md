@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (2017) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography, 40, 01-10](http://dx.doi.org/10.1111/ecog.02596).
+
   * Cassis, G., Laffan, S.W. and Ebach, M.C. (2017) Biodiversity and Bioregionalisation Perspectives on the Historical Biogeography of Australia.  In Ebach, M.C (ed) [Handbook of Australasian Biogeography, ch 1, pp 1-16](http://www.crcnetbase.com/doi/abs/10.1201/9781315373096-2).
 
   * Santos, A.P.B, Bitencourt, C. and Rapini, A. (2017) Distribution patterns of Kielmeyera (Calophyllaceae): the Rio Doce basin emerges as a confluent area between the northern and southern Atlantic Forest.  [Neotropical Biodiversity, 3, 1-9](http://dx.doi.org/10.1080/23766808.2016.1266730).
