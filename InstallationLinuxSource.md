@@ -59,7 +59,7 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
 
   gdal_version=2.1.3
   wget http://download.osgeo.org/gdal/${gdal_version}/gdal-${gdal_version}.tar.gz
-  tar xvz gdal-${gdal_version}.tar.gz
+  tar xfz gdal-${gdal_version}.tar.gz
   cd gdal-${gdal_version}
 
   #  This will install GDAL into your system level directories
