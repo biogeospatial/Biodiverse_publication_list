@@ -84,7 +84,7 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   perl Makefile.PL --no-version-check --gdal-config=/usr/local/bin/gdal-config
   make && make test && make install
 
-  #  if it all worked then exit
+  #  if it all worked then exit back to the original shell
   exit
 ```
 
