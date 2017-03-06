@@ -99,7 +99,7 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
 
 ```
 
-If you don't like the current window theme then you can change it using the Desktop Preferences.
+If you don't like the current window theme then there are various tools you can install to change it.
 
 
 # Running it #
