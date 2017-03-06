@@ -1,6 +1,6 @@
-These instructions apply to version 1.99 and later.
+These instructions apply to version 1.99_006 and later.
 
-Note that they have been tested on Ubuntu.  The package manager will differ for other Linux flavours, but the cpan command will be the same.
+Note that they have been tested on Ubuntu 16.  The package manager will differ for other Linux flavours, but the cpan command will be the same.
 
 These also assume you have [downloaded](https://github.com/shawnlaffan/biodiverse/wiki/Downloads) the Biodiverse source code to your home directory and renamed it from whatever it was, e.g. `biodiverse_0.19_source`, to `biodiverse`.  If you have saved it somewhere else then you will need to adjust the following so any references to `$HOME/biodiverse/lib` use the appropriate directory.
 
@@ -14,14 +14,12 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
 
   * This will require some interaction when it downloads additional packages, depending on your CPAN settings.
 
-  * It is also a very good idea to **not** use the system perl for this.  The operating system assumes specific versions of files are in the system perl.  Perlbrew is recommended, and is used for Biodiverse development.  http://perlbrew.pl/
+  * **Do not use the system perl for this**.  The operating system assumes specific versions of files are in the system perl.  Perlbrew is recommended, and is used for Biodiverse development, and is assumed below.  http://perlbrew.pl/
 
   * Once you have installed the non-system perl, you need to make sure it is the one you call in subsequent steps.  You will probably need to give the full path name to the perl binary when used below, rather than just saying `perl`.
 
 
 ```bash
-  #  if you have Ubuntu less than 14.04 -- add the GDAL repo
-  sudo add-apt-repository ppa:ubuntugis/ppa 
   sudo apt-get update
 
   # now get the apts
@@ -29,63 +27,74 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   sudo apt-get install libexpat1-dev
   #  Gtk:
   sudo apt-get install libgnome2-canvas-perl
-  sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev libglade2-dev
-  # GDAL:
+  sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
+  # GDAL: (we recommend building your own so have instructions to do so below)
   sudo apt-get install libarmadillo-dev libpoppler-dev libepsilon-dev liblzma-dev
-  sudo apt-get install libgdal-dev libkml-dev libfreexl-dev libgdal-perl libogdi3.2-dev
+  # sudo apt-get install libgdal-dev libgdal-perl
+  sudo apt-get install libkml-dev libfreexl-dev libogdi3.2-dev
 
-  #  skip this if you already have cpanm installed
-  wget -O - https://cpanmin.us | perl - App::cpanminus
+  ##  Skip this step if you already have cpanm installed
+  ##  Uncomment and use this next line if you are not using perlbrew
+  # wget -O - https://cpanmin.us | perl - App::cpanminus
+  ##  but if you are using perlbrew:
+  perlbrew install-cpanm
 
-  # Now install the rest of the dependencies
+  ## Now install (most of ) the rest of the dependencies
   cpanm Task::Biodiverse::NoGUI
   cpanm Task::Biodiverse
-  cpanm Task::Biodiverse
 
-  # The last cpanm command is listed twice to get Gtk2::GladeXML
-  # to install after its dependencies, and might be redundant 
-  # now we do not use Gtk2::GladeXML
+  ##  This is not in the Task files as of version 1.99_007
+  cpanm IO::Socket::SSL
+
+  ## some libs to make Biodiverse go faster
+  ## Panda::Lib does not install on Windows, so is not in the dep list
+  cpanm Panda::Lib
+  ##  Biodiverse::Utils is not yet on cpan
+  cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
+  
 
 ```
 
-  *  Follow this step if there is no appropriate package for GDAL and manual compilation is needed (at one point Ubuntu did not have GDAL 1.11 packaged)
+  *  Follow this step to install your own GDAL libs (differing flavours of Ubuntu have different versions of GDAL, not all of which work with the latest perl bindings)
   
     These instructions are derived from https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/
 
 ```bash
+  #  edit this next line as appropriate
   cd ~/folder/for/builds/from/source
 
-  sudo apt-get install build-essential python-all-dev
+  #  not needed on recent Ubuntu versions
+  sudo apt-get install build-essential
 
+  ## update the version as appropriate
   gdal_version=2.1.3
   wget http://download.osgeo.org/gdal/${gdal_version}/gdal-${gdal_version}.tar.gz
   tar xfz gdal-${gdal_version}.tar.gz
   cd gdal-${gdal_version}
 
-  #  This will install GDAL into your system level directories
-  #  Set the --prefix argument to use a different location,
-  #  e.g. ./configure --prefix=~HOME/gdal2.1.3
-  #  and remove the sudo if appropriate 
+  ##  This will install GDAL into your system level directories.
+  ##  It will take a while (more than 15 minutes is not unusual)
+  ##  Set the --prefix argument to use a different location,
+  ##  e.g. ./configure --prefix=${HOME}/gdal2.1.3
+  ##  and remove the sudo if appropriate.
+  ##  You will likely also need to update your system path
+  ##  if you install locally.
   ./configure 
   make -j4
   sudo make install
 ```
 
-  *  Now we install the perl bindings.
-    This command will download and extract the GDAL
-    perl bindings and open a shell in that folder.
+  *  Now we install the GDAL perl bindings.
     Make sure you are using the same version of perl as above
-    (sometimes commands can change this, or you are in a new shell and perlbrew is not loaded)
+    (sometimes commands can change this, or you are in a new shell and 
+    ```perlbrew init``` has not been called).
 
 ```bash
-  cpanm --look Geo::GDAL
+  #  adjust the gdal-config path as needed 
+  export PERL_GDAL_CONFIG=/usr/local/bin/gdal-config
+  export PERL_GDAL_NO_VERSION_CHECK=1
+  cpanm Geo::GDAL
 
-  #  adjust the config path as needed 
-  perl Makefile.PL --no-version-check --gdal-config=/usr/local/bin/gdal-config
-  make && make test && make install
-
-  #  if it all worked then exit back to the original shell
-  exit
 ```
 
 If you don't like the current window theme then you can change it using the Desktop Preferences.
