@@ -25,6 +25,8 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   # now get the apts
   # for XML::Parser
   sudo apt-get install libexpat1-dev
+  #  For online docs
+  sudo apt-get install libssl-dev
   #  Gtk:
   sudo apt-get install libgnome2-canvas-perl
   sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
