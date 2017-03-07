@@ -36,7 +36,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 ```
   :: Install the precompiled binaries needed for the GUI.
-  set BDV_PPM=https://github.com/shawnlaffan/biodiverse/raw/ppm/ppm524_x64
+  set BDV_PPM=https://github.com/shawnlaffan/biodiverse/raw/master/etc/ppm/ppm524_x64
   set SIS_PPM=http://www.sisyphusion.tk/ppm
   ppm install %SIS_PPM%/Cairo.ppd 
   ppm install %SIS_PPM%/Glib.ppd 
