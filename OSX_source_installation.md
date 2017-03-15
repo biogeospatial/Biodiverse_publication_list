@@ -1,3 +1,3 @@
 perl modules needed:
 
-Term/Spinner.pm
+Term::ProgressBar
