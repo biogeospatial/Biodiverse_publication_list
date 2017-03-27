@@ -5,7 +5,7 @@ To install the pre-build (binary) version for Biodiverse follow these instructio
 
    ![Downloads](https://github.com/shawnlaffan/biodiverse/blob/mac_build/etc/mmb/images/Downloads.jpeg)
 
-3. From the installer window, Drag and drop the Biodiverse icon onto the Application folder.
+3. From the installer window, drag and drop the Biodiverse icon onto the Application folder.
 
    ![Drag and Drop](https://github.com/shawnlaffan/biodiverse/blob/mac_build/etc/mmb/images/DragAndDrop.jpeg)
 
