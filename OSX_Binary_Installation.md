@@ -2,7 +2,7 @@ To install the pre-build (binary) version for Biodiverse follow these instructio
 
 1. Download the latest Biodiverse installer [here](http://google.com). 
 2. Double click on the downloaded .dmg file from your Downloads folder.
-3. From the installer window, Drag and drop the Biodiverse icon onto the Application folder.
+3. From the installer window, Drag and drop the Biodiverse icon onto the Application folder as shown.
 
 ![Drag and Drop](https://github.com/shawnlaffan/biodiverse/blob/mac_build/etc/mmb/images/DragAndDropBiodiverse.jpeg)
 
