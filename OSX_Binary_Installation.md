@@ -18,3 +18,5 @@ To keep Biodiverse to your Dock:
 * If you have not launched Biodiverse, drag the Biodiverse icon from the Application folder to a suitable location on the Dock.
 
 If you need to install Biodiverse for source follow these [instructions](https://github.com/shawnlaffan/biodiverse/wiki/OSX_source_installation).
+
+Once you have downloaded and installed Biodiverse remember to read the [Quick Start Guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf).
