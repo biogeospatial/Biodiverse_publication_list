@@ -1,4 +1,3 @@
-# OS X Binary Installation
 To install the pre-build (binary) version for Biodiverse follow these instructions:
 
 1. Download the latest Biodiverse installer [here](http://google.com). 
