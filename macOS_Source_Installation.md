@@ -58,7 +58,7 @@ Install the Biodiverse perl modules
    cpanm Task::Biodiverse::NoGUI
    ```
 # Building a dmg image
-To build a dmg image for easy distribution a binary version of Biodiverse follow the steps below.
+To build a dmg image for easy distribution of a binary version of Biodiverse follow the steps below.
 
 1. Clone the Biodiverse git repository at the top level of you home directory:
    ```sh
