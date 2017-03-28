@@ -65,7 +65,7 @@ To build a dmg image for easy distribution a binary version of Biodiverse follow
    cd ~
    git clone https://github.com/shawnlaffan/biodiverse.git
    ```
-2. Run the Biodiverse dmg binary script:
+2. Run the Biodiverse dmg creation script:
    ```sh
     perl ~/biodiverse/bin/mmb3.pl --verbose=1 --script ~/biodiverse/bin/BiodiverseGUI.pl -i ~/biodiverse/bin/Biodiverse_icon.ico --lib_path=/usr/local/lib
    ```
