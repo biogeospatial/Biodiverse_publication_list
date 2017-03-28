@@ -27,6 +27,8 @@ Homebrew is a package management system which simplifies the installation of sof
 6. Create some symbolic links for those packages that didn't do it:
    ```sh
    brew link --force libffi
+   brew link --force gettext
+   brew link --force liblwgeom
    ```
 Further information about Homebrew can be found [here](https://brew.sh).
 
