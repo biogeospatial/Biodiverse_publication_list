@@ -60,4 +60,14 @@ Install the Biodiverse perl modules
 # Building a dmg image
 To build a dmg image for easy distribution a binary version of Biodiverse follow the steps below.
 
+1. Clone the Biodiverse git repository at the top level of you home directory:
+   ```sh
+   cd ~
+   git clone https://github.com/shawnlaffan/biodiverse.git
+   ```
+2. Run the Biodiverse dmg binary script:
+   ```sh
+    perl ~/biodiverse/bin/mmb3.pl --verbose=1 --script ~/biodiverse/bin/BiodiverseGUI.pl -i ~/biodiverse/bin/Biodiverse_icon.ico --lib_path=/usr/local/lib
+   ```
+
 Back to [OS X binary installation.](https://github.com/shawnlaffan/biodiverse/wiki/OSX_binary_installation)
