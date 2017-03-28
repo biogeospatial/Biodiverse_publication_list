@@ -69,5 +69,6 @@ To build a dmg image for easy distribution a binary version of Biodiverse follow
    ```sh
     perl ~/biodiverse/bin/mmb3.pl --verbose=1 --script ~/biodiverse/bin/BiodiverseGUI.pl -i ~/biodiverse/bin/Biodiverse_icon.ico --lib_path=/usr/local/lib
    ```
+3. The dmg image can be found in ~/biodiverse/etc/mmb/builds.
 
 Back to [OS X binary installation.](https://github.com/shawnlaffan/biodiverse/wiki/OSX_binary_installation)
