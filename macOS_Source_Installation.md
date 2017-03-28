@@ -49,7 +49,9 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
 # Install Biodiverse
 Install the Biodiverse perl modules
    ```sh
-   Task::Biodiverse::NoGUI Task::Biodiverse
+   cpanm Task::Biodiverse::NoGUI
+   cpanm Task::Biodiverse
+   cpanm Task::Biodiverse::NoGUI
    ```
 # Building a dmg image
 To build a dmg image for easy distribution a binary version of Biodiverse follow the steps below.
