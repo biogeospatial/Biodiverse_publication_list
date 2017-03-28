@@ -24,7 +24,7 @@ Homebrew is a package management system which simplifies the installation of sof
    ```sh 
    brew link --force  gdal-20; export PERL_GDAL_CONFIG=/usr/local/bin/gdal-config
    ```
-6. Create some symbolic links for that packages that didn't do it:
+6. Create some symbolic links for those packages that didn't do it:
    ```sh
    brew link --force libffi
    ```
