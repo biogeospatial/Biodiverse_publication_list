@@ -22,13 +22,7 @@ Homebrew is a package management system which simplifies the installation of sof
    ```
 5. Tell perl where to find the gdal configuration script:
    ```sh 
-   brew link --force  gdal-20; export PERL_GDAL_CONFIG=/usr/local/bin/gdal-config
-   ```
-6. Create some symbolic links for those packages that didn't do it:
-   ```sh
-   brew link --force libffi
-   brew link --force gettext
-   brew link --force liblwgeom
+   export PERL_GDAL_CONFIG=/usr/local/Cellar/gdal-20/2.1.0/bin/gdal-config
    ```
 Further information about Homebrew can be found [here](https://brew.sh).
 
