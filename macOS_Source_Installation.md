@@ -43,7 +43,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```
 4. Install all other Biodiverse required perl modules:
    ```sh
-   cpanm Pango Gtk2 Gtk3 Gtk2::GladeXML Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection PAR::Packer
+   cpanm Pango Gtk2 Gtk3 Gtk2::GladeXML Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection PAR::Packer Scalar::Util::Numeric
    cpanm  --force Geo::GDAL
    ```
 # Install Biodiverse
