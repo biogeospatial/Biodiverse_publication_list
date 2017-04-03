@@ -59,7 +59,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     cd ~
     git clone https://github.com/shawnlaffan/biodiverse.git
     ```
-3. Run biodiverse switch to the correct version of perl and then run biodiverse:
+3. To run biodiverse switch to the correct version of perl if you haven't already and then run biodiverse:
     ```sh
     ~/perl5/perlbrew/bin/perlbrew switch perl-5.24.0
     perl ~/biodiverse/bin/BiodiverseGUI.pl
@@ -68,7 +68,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
 # Building a dmg image
 To build a dmg image for easy distribution of a binary version of Biodiverse follow the steps below.
 
-1. Clone the Biodiverse git repository at the top level of you home directory:
+1. Clone the Biodiverse git repository at the top level of you home directory if you haven't already:
    ```sh
    cd ~
    git clone https://github.com/shawnlaffan/biodiverse.git
