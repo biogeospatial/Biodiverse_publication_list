@@ -7,7 +7,7 @@ To install Xcode command line tools (and all following software) you will be usi
    ```sh
     xcode-select --install
    ```
-3. Once this is install you will need to agree the Apple's software licence:
+3. Once this is install you will need to agree the Apple's software licence.
    ```sh
    sudo xcodebuild -license
    ```
