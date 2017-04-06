@@ -1,9 +1,20 @@
-To install Biodiverse from source for macOS three broad steps are required. First, a software management system has to be installed which can be used to install software required by Biodiverse. Second, Biodiverse requires a higher version of perl than that installed by default on macOS. This and Biodiverse's perl modules dependancies will be install. Third, Biodiverse will be installed.
+To install Biodiverse from source for macOS four broad steps are required. First, if you haven't already, you will have to install Xcode command line tools. Second, a software management system has to be installed which can be used to install software required by Biodiverse. Third, Biodiverse requires a higher version of perl than that installed by default on macOS. This and Biodiverse's perl modules dependancies will be install. Fourth, Biodiverse will be installed.
 
-# Installing Homebrew and required software.
-Homebrew is a package management system which simplifies the installation of software on Apple's macOS operating system. It is used to install software required by Biodiverse. To install Homebrew (and all following software) you will be using the Terminal application. To open Terminal:
+# Install Xcode command line tools
+To install Xcode command line tools (and all following software) you will be using the Terminal application. To open Terminal:
 1. Double-click the Terminal application in the Applications:Utilities folder. Or do a Spotlight search for "Terminal" and open it.
 2. Copy and paste the below text at the terminal prompt and then hit return.
+   ```sh
+    xcode-select --install
+   ```
+3. Once this is install you will need to agree the Apple's software licence:
+   ```sh
+   sudo xcodebuild -license
+   ```
+   Enter your password when prompted.
+
+# Installing Homebrew and required software.
+Homebrew is a package management system which simplifies the installation of software on Apple's macOS operating system. It is used to install software required by Biodiverse.
    ```sh
    /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
    ```
