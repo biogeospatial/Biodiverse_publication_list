@@ -7,9 +7,6 @@ _IMPORTANT_:  You need to be sure to run step 4 from the installation every time
 _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file used to run the source code version.  (This has no effect on the executable file).
 
 
-
-
-
 # StrawberryPerl #
 
 
@@ -27,9 +24,8 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ```dos
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
-  set GTK_PATH=c:\gtk_win64
-  set GDAL_PATH=c:\gdal_win64
-  set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%GTK_PATH%\c\bin;%GDAL_PATH%\bin;%PATH%
+  :: This line is only needed if the strawberry perl bin folders are not in your path already
+  set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%PATH%
 ```
 
 *  Step 5.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  It is best to do them one block at a time as the comments list some conditional steps.  
@@ -38,21 +34,11 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: Install the precompiled binaries needed for the GUI.
   set BDV_PPM=https://github.com/shawnlaffan/biodiverse/raw/master/etc/ppm/ppm524_x64
   set SIS_PPM=http://www.sisyphusion.tk/ppm
-  ppm install %SIS_PPM%/Cairo.ppd 
-  ppm install %SIS_PPM%/Glib.ppd 
+  :: This will also get the other Gtk2 packages
   ppm install %SIS_PPM%/Gnome2-Canvas.ppd 
-  ppm install %SIS_PPM%/Pango.ppd
-  ppm install %SIS_PPM%/Gtk2.ppd
-  ppm install %SIS_PPM%/Gtk2-GladeXML.ppd
+  :: but themes are a separate install - be sure to say yes when it prompts to move files
+  ppm install %SIS_PPM%/PPM-Sisyphusion-Gtk2_theme
   ppm install %BDV_PPM%/Geo-GDAL.ppd
-
-  :: Spreadsheet::XLSX 0.15 does not install on Windows 
-  :: and has been removed from Task::Biodiverse::NoGUI 
-  :: Just in case it is needed somewhere, install version 0.13
-  cpanm Spreadsheet::XLSX@0.13
-
-  ::  Text::Levenshtein needs to be added to the Task file
-  cpanm Text::Levenshtein
 
   ::  Math::Random::MT::Auto has test errors due to 
   ::  false positive test results caused by another module.
@@ -60,13 +46,12 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: If the tests report failures due 
   :: to a missing signal then force install it.
   :: (But not for other failures).
-  cpanm --force Math::Random::MT::Auto
-
+  cpanm --notest Math::Random::MT::Auto
 
   :: Now install the rest of the dependencies
-  :: You might need to re-run these two lines a few times as 
-  :: anti-virus scanning can cause test failures due to file locks.
-  cpanm Task::Biodiverse::NoGUI
+  :: You might need to re-run this line a few times as 
+  :: anti-virus scanning can cause test failures due to 
+  :: file locks not being released.
   cpanm Task::Biodiverse
 
 ```
