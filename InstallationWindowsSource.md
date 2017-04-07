@@ -49,6 +49,9 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: (But not for other failures).
   cpanm --notest Math::Random::MT::Auto
 
+  :: Faster utils
+  cpanm List::MoreUtils::XS
+
   :: Now install the rest of the dependencies
   :: You might need to re-run this line a few times as 
   :: anti-virus scanning can cause test failures due to 
