@@ -4,8 +4,8 @@ Installation instructions.
     * Executable:  [InstallationWindowsBinary](InstallationWindowsBinary)
     * Source code:  [InstallationWindowsSource](InstallationWindowsSource)
   * Macintosh
-    * Binary:  [InstallationMacBinary](InstallationMacBinary)
-    * Source code:  [InstallationMacSource](InstallationMacSource)
+    * Binary:  [InstallationMacOSBinary](InstallationMacOSBinary)
+    * Source code:  [InstallationMacOSSource](InstallationMacOSSource)
   * Linux
     * Binary:  [InstallationLinuxBinary](InstallationLinuxBinary)
     * Source code:  [InstallationLinuxSource](InstallationLinuxSource)
