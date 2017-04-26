@@ -45,19 +45,21 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) sum
 
 ### Development Release ###
 
-_Version 1.99_005 was released on 13-Sep-2016_
+_Version 1.99_007 was released on 26-Apr-2017_
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_005) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_007) summarise the changes in this version.  See also [recent blog post](http://biodiverse-analysis-software.blogspot.com.au/).
 
-  These do not include the example data or the RunRandomisation utility.  
+  These do not include the RunRandomisation utility.
 
-* [Windows (64 bit, 7zip format, ~26MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_005_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~40MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_005_win.zip)
+* [Windows (64 bit, standard zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_win.zip)
+
+* [Mac (64 bit, standard zip format, ~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_mac.zip)
 
 * A Linux binary is yet to be released.
 
-* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r1.99_005)
+* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r1.99_007)
 
 
 
