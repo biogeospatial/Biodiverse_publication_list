@@ -39,12 +39,20 @@ For the full list of issues and changes leading to the 2.0 release, see https://
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 ## Version 1.99_007 ##
+  * Big ticket items
+    * Biodiverse now installs cleanly on Macintosh computers.  Look for the development release [download links here](https://purl.org/biodiverse/wiki/Download) and [installation instructions here](https://purl.org/biodiverse/wiki/Installation)
+    * Biodiverse now provides a remap guesser to make it easier to match labels (e.g. taxa names) between basedata, trees, matrices and property tables.  See the [blog post](http://biodiverse-analysis-software.blogspot.com/2017/04/matching-spatial-tree-matrix-and.html) for more details.
   * GUI
     * Cluster tab: User defined colouring of clusters is now supported.  [Issue 600](https://github.com/shawnlaffan/biodiverse/issues/600) [More details are given in the blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/09/new-selection-tool-in-cluster-analysis.html)
+    * Tree exports can now include the last-used branch colours.  [Issue 630](https://github.com/shawnlaffan/biodiverse/issues/630)
   * BaseData
     * Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coordinates.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
   * Analyses
     * Randomisations now provide rank relative significance scores.  [Issue 607](https://github.com/shawnlaffan/biodiverse/issues/607).  More details in the [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html)
+  * Indices
+    * The inter-event interval (IEI) indices have been removed from the main distribution.  If needed then they can be made available again.  [Issue 661](https://github.com/shawnlaffan/biodiverse/issues/661)
+  * Exports
+    * File exports now support definition queries.  This allows users to export only a subset of their data.  [Issue 599](https://github.com/shawnlaffan/biodiverse/issues/599)
 
 
 ## Version 1.99_006 ##
