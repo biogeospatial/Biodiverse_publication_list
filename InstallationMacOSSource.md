@@ -54,7 +54,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```
 4. Install all other Biodiverse required perl modules:
    ```sh
-   cpanm Pango Gtk3 Gtk2::GladeXML Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection PAR::Packer Scalar::Util::Numeric
+   cpanm Pango Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection PAR::Packer Scalar::Util::Numeric
     cpanm --force Gtk2
    PERL_GDAL_CONFIG=/usr/local/Cellar/gdal-20/2.1.0/bin/gdal-config cpanm --force Geo::GDAL
    ```
@@ -65,7 +65,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    cpanm Task::Biodiverse
    ```
 
-2. Install Biodiverse either from source or by cloning the git repository. It get Biodiverse with git and install at the top level of your home directory:
+2. Install Biodiverse either from source or by cloning the git repository. If using git then to install at the top level of your home directory:
     ```sh
     cd ~
     git clone https://github.com/shawnlaffan/biodiverse.git
@@ -90,4 +90,4 @@ To build a dmg image for easy distribution of a binary version of Biodiverse fol
    ```
 3. The dmg image can be found in ~/biodiverse/etc/mmb/builds.
 
-Back to [OS X binary installation.](https://github.com/shawnlaffan/biodiverse/wiki/OSX_binary_installation)
+Back to the [main installation page.](https://purl.org/biodiverse/wiki/Installation)
