@@ -43,7 +43,6 @@ To see the full list of open issues or to report a bug or enhancement request, s
     * Biodiverse now installs cleanly on Macintosh computers.  Look for the development release [download links here](https://purl.org/biodiverse/wiki/Download) and [installation instructions here](https://purl.org/biodiverse/wiki/Installation)
     * Biodiverse now provides a remap guesser to make it easier to match labels (e.g. taxa names) between basedata, trees, matrices and property tables.  See the [blog post](http://biodiverse-analysis-software.blogspot.com/2017/04/matching-spatial-tree-matrix-and.html) for more details.
   * GUI
-    * Cluster tab: User defined colouring of clusters is now supported.  [Issue 600](https://github.com/shawnlaffan/biodiverse/issues/600) [More details are given in the blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/09/new-selection-tool-in-cluster-analysis.html)
     * Tree exports can now include the last-used branch colours.  [Issue 630](https://github.com/shawnlaffan/biodiverse/issues/630)
   * BaseData
     * Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coordinates.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
