@@ -39,32 +39,32 @@ For the full list of issues and changes leading to the 2.0 release, see https://
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 ## Version 1.99_007 ##
-  *  GUI
+  * GUI
     * Cluster tab: User defined colouring of clusters is now supported.  [Issue 600](https://github.com/shawnlaffan/biodiverse/issues/600) [More details are given in the blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/09/new-selection-tool-in-cluster-analysis.html)
   * BaseData
-    *  Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coordinates.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
-  *  Analyses
+    * Spreadsheet and shapefile imports now properly support DMS (degrees-minutes-seconds) group coordinates.  [Issue 627](https://github.com/shawnlaffan/biodiverse/issues/627)
+  * Analyses
     * Randomisations now provide rank relative significance scores.  [Issue 607](https://github.com/shawnlaffan/biodiverse/issues/607).  More details in the [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html)
 
 
 ## Version 1.99_006 ##
-  *  GUI
+  * GUI
     * View Labels tab: Labels are sorted using a [natural sort order](https://en.wikipedia.org/wiki/Natural_sort_order).  [Issue 614](https://github.com/shawnlaffan/biodiverse/issues/614)
     * Groups with text axes also use a natural sort to determine the plotting coordinates.  [Issue 613](https://github.com/shawnlaffan/biodiverse/issues/613)
 
 ## Version 1.99_005 ##
-  *  GUI
-    *  Users can now control the colour of individual branches and their descendants in the Cluster analysis tab.  [Issue 600](shawnlaffan/biodiverse/issues/600).  [See the blog post for more details](http://biodiverse-analysis-software.blogspot.com.au/2016/09/new-selection-tool-in-cluster-analysis.html).
-  *  File formats
-    *  Some basedatas were not saving correctly when using the Sereal format.  This only affected users of the 1.99_004 release and was fixed in commit [a68eb20](https://github.com/shawnlaffan/biodiverse/commit/a68eb2021dbb14d3d550ccb0becbd6c75b725545) (which also made it consistent with the existing Storable approach). 
+  * GUI
+    * Users can now control the colour of individual branches and their descendants in the Cluster analysis tab.  [Issue 600](shawnlaffan/biodiverse/issues/600).  [See the blog post for more details](http://biodiverse-analysis-software.blogspot.com.au/2016/09/new-selection-tool-in-cluster-analysis.html).
+  * File formats
+    * Some basedatas were not saving correctly when using the Sereal format.  This only affected users of the 1.99_004 release and was fixed in commit [a68eb20](https://github.com/shawnlaffan/biodiverse/commit/a68eb2021dbb14d3d550ccb0becbd6c75b725545) (which also made it consistent with the existing Storable approach). 
 
 ## Version 1.99_004 ##
-  *  File formats
-    *  The default file format now uses Sereal instead of Storable.  [Issue 358](shawnlaffan/biodiverse/issues/358).  See this [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/new-more-efficient-file-format.html) for more details.
+  * File formats
+    * The default file format now uses Sereal instead of Storable.  [Issue 358](shawnlaffan/biodiverse/issues/358).  See this [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/new-more-efficient-file-format.html) for more details.
   * Randomisations
     * Randomisation outputs can now be renamed.  [Issue 609](https://github.com/shawnlaffan/biodiverse/issues/609)
     * Randomisation scores are now automatically converted into rank-relative positions.  These can be more easily converted to significance scores.  [Issue 607](/shawnlaffan/biodiverse/issues/607).  See [this blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/easier-to-use-randomisation-results.html) for more details.
-  *  Exports
+  * Exports
     * JSON is now supported for table exports.  [Issue 593](/shawnlaffan/biodiverse/issues/593)
 
 ## Version 1.99_003 ##
@@ -74,10 +74,10 @@ To see the full list of open issues or to report a bug or enhancement request, s
   * Randomisations
     * New spatially structured randomisations are available.  More details in a forthcoming blog post.  [Issue 76](/shawnlaffan/biodiverse/issues/76)
     * Randomisation scores are now automatically categorised into significance thresholds.  [A blog post gives further details](http://biodiverse-analysis-software.blogspot.com.au/2016/08/biodiverse-now-categorises-your.html), [Issue 607](/shawnlaffan/biodiverse/issues/607)
-  *  Indices
-    *  A "central" variant of the RPE indices is now available and can be used with the [PE Central indices](https://purl.org/biodiverse/wiki/IndicesDevVersion#phylogenetic-endemism-central).  [A description is here](https://purl.org/biodiverse/wiki/IndicesDevVersion#relative-phylogenetic-endemism-central).  The calculation is the same as the non-central version, but the set of branches used are taken from the first neighbour set.
-  *  Trees
-    *  Biodiverse was hanging when trimming some trees to match the basedata.  [Commit ce678640d725d96078b7288833b52c97b9e46c4b](https://github.com/shawnlaffan/biodiverse/commit/ce678640d725d96078b7288833b52c97b9e46c4b)
+  * Indices
+    * A "central" variant of the RPE indices is now available and can be used with the [PE Central indices](https://purl.org/biodiverse/wiki/IndicesDevVersion#phylogenetic-endemism-central).  [A description is here](https://purl.org/biodiverse/wiki/IndicesDevVersion#relative-phylogenetic-endemism-central).  The calculation is the same as the non-central version, but the set of branches used are taken from the first neighbour set.
+  * Trees
+    * Biodiverse was hanging when trimming some trees to match the basedata.  [Commit ce678640d725d96078b7288833b52c97b9e46c4b](https://github.com/shawnlaffan/biodiverse/commit/ce678640d725d96078b7288833b52c97b9e46c4b)
 
 ## Version 1.99_002 ##
 
@@ -95,19 +95,19 @@ This is a small-ish update to the 1.0 release, containing a few bug fixes and en
 The main highlights are:
 
   * GUI
-    *  Groups can be renamed in the same way that labels are.  This is most useful when you have text based group names, not coordinate based names.  [Issue 553](https://github.com/shawnlaffan/biodiverse/issues/553)
-    *  Two basedatas can be merged, providing they have the same cell sizes and origins.  [Issue 493](https://github.com/shawnlaffan/biodiverse/issues/493)
-    *  View labels tab: Selected labels can be copied to the clipboard.  [Issue 557](https://github.com/shawnlaffan/biodiverse/issues/557)  [_Read the blog post_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/copy-selected-labels-to-clipboard.html)
-    *  Trees can be ladderised so they plot child branches in order of the number of descendants. [Issue 530](https://github.com/shawnlaffan/biodiverse/issues/530)
-  *  Data import
-    *  Data can now be imported from spreadsheet formats.  [Issue 540](https://github.com/shawnlaffan/biodiverse/issues/540)  [_Read the blog post_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html)
-  *  Analyses
-    *  Randomisations [_(read the blog post)_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/better-control-of-randomisations.html)
-      *  Randomisations can now be run for subsets of your data.  Specifying a definition query determines which groups are randomised, while specifying a spatial condition constrains the randomisation to stay within subsets.  In this way one can randomise labels such that they stay within, for example, the bioregion in which they are found.  [Issue 554](https://github.com/shawnlaffan/biodiverse/issues/554) 
-      *  Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributions are not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [Issue 556](https://github.com/shawnlaffan/biodiverse/issues/556)
-    *  The spatial index is now used more effectively.  [Issue 550](https://github.com/shawnlaffan/biodiverse/issues/550), [Issue 545](https://github.com/shawnlaffan/biodiverse/issues/550), [Issue 551](https://github.com/shawnlaffan/biodiverse/issues/551)
-    *  Calculations and Indices
-      *  New calculation for phylogenetic abundance.  [Issue 559](https://github.com/shawnlaffan/biodiverse/issues/559)
+    * Groups can be renamed in the same way that labels are.  This is most useful when you have text based group names, not coordinate based names.  [Issue 553](https://github.com/shawnlaffan/biodiverse/issues/553)
+    * Two basedatas can be merged, providing they have the same cell sizes and origins.  [Issue 493](https://github.com/shawnlaffan/biodiverse/issues/493)
+    * View labels tab: Selected labels can be copied to the clipboard.  [Issue 557](https://github.com/shawnlaffan/biodiverse/issues/557)  [_Read the blog post_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/copy-selected-labels-to-clipboard.html)
+    * Trees can be ladderised so they plot child branches in order of the number of descendants. [Issue 530](https://github.com/shawnlaffan/biodiverse/issues/530)
+  * Data import
+    * Data can now be imported from spreadsheet formats.  [Issue 540](https://github.com/shawnlaffan/biodiverse/issues/540)  [_Read the blog post_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html)
+  * Analyses
+    * Randomisations [_(read the blog post)_](http://biodiverse-analysis-software.blogspot.com.au/2015/06/better-control-of-randomisations.html)
+      * Randomisations can now be run for subsets of your data.  Specifying a definition query determines which groups are randomised, while specifying a spatial condition constrains the randomisation to stay within subsets.  In this way one can randomise labels such that they stay within, for example, the bioregion in which they are found.  [Issue 554](https://github.com/shawnlaffan/biodiverse/issues/554) 
+      * Randomisations now allow users to specify a subset of labels which will be held constant, i.e. their distributions are not randomised.  This allows one to, for example, hold one clade in a tree constant, while randomising the remainder of the data.  [Issue 556](https://github.com/shawnlaffan/biodiverse/issues/556)
+    * The spatial index is now used more effectively.  [Issue 550](https://github.com/shawnlaffan/biodiverse/issues/550), [Issue 545](https://github.com/shawnlaffan/biodiverse/issues/550), [Issue 551](https://github.com/shawnlaffan/biodiverse/issues/551)
+    * Calculations and Indices
+      * New calculation for phylogenetic abundance.  [Issue 559](https://github.com/shawnlaffan/biodiverse/issues/559)
     
 
 For the full list of issues and changes leading to the 1.1 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_1.1+ and https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3A%22Metadata+system+-+use+OO+not+bare+hashes%22+
