@@ -20,7 +20,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, doi:10.1111/jbi.12875](http://dx.doi.org/10.1111/jbi.12875).
 
-  * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (in press) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology](http://dx.doi.org/10.1093/jpe/rtw031).
+  * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (2017) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology, 10, 294-300](http://dx.doi.org/10.1093/jpe/rtw031).
 
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
 
