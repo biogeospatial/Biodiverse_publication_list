@@ -14,15 +14,17 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (in press) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography](http://dx.doi.org/10.1111/ecog.02596).
 
+#### 2017 ####
+
   * Cassis, G., Laffan, S.W. and Ebach, M.C. (2017) Biodiversity and Bioregionalisation Perspectives on the Historical Biogeography of Australia.  In Ebach, M.C (ed) [Handbook of Australasian Biogeography, ch 1, pp 1-16](http://www.crcnetbase.com/doi/abs/10.1201/9781315373096-2).
+
+  * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (2017) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography, 14, 531–538](http://dx.doi.org/10.1111/ecog.02010).
+
+  * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, 44, 605-614](http://dx.doi.org/10.1111/jbi.12875).
 
   * Santos, A.P.B, Bitencourt, C. and Rapini, A. (2017) Distribution patterns of Kielmeyera (Calophyllaceae): the Rio Doce basin emerges as a confluent area between the northern and southern Atlantic Forest.  [Neotropical Biodiversity, 3, 1-9](http://dx.doi.org/10.1080/23766808.2016.1266730).
 
-  * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, doi:10.1111/jbi.12875](http://dx.doi.org/10.1111/jbi.12875).
-
   * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (2017) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology, 10, 294-300](http://dx.doi.org/10.1093/jpe/rtw031).
-
-  * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (in press) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography](http://dx.doi.org/10.1111/ecog.02010).
 
 #### 2016 ####
 
