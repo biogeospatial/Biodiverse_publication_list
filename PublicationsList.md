@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Prentice, E., Knerr, N., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Bui, E.N., Laffan, S. and Miller, J.T. (in press) Do soil and climate properties drive biogeography of the Australian proteaceae?  [Plant and Soil](http://dx.doi.org://10.1007/s11104-017-3261-6).
+
   * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (in press) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography](http://dx.doi.org/10.1111/ecog.02596).
 
   * Bui, E.N., Thornhill, A.H., Gonzalez-Orozco, C.E., Knerr, N. and Miller, J.T. (in press) Climate and geochemistry as drivers of eucalypt diversification in Australia.  [Geobiology, 15, 427-440](http://dx.doi.org/10.1111/gbi.12235).
