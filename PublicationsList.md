@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Baldwin, B.G., Thornhill, A.H., Freyman, W.A., Ackerly, D.D., Kling, M.M., Morueta-Holme, N. and Mishler, B.D. (in press) Species richness and endemism in the native flora of California.  [American Journal of Botany](https://dx.doi.org/10.3732/ajb.1600326).
+
   * Scherson, R.A., Thornhill, A.H., Urbina-Casanova, R., Freyman, W.A., Pliscoff, P.A. and Mishler, B.D. (2017) Spatial phylogenetics of the vascular flora of Chile.  [Molecular Phylogenetics and Evolution, 112, 88-95](https://doi.org/10.1016/j.ympev.2017.04.021).
 
   * Prentice, E., Knerr, N., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Bui, E.N., Laffan, S. and Miller, J.T. (in press) Do soil and climate properties drive biogeography of the Australian proteaceae?  [Plant and Soil](http://dx.doi.org://10.1007/s11104-017-3261-6).
