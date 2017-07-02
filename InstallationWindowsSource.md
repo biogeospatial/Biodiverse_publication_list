@@ -38,7 +38,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: This will also get the other Gtk2 packages
   ppm install %SIS_PPM%/Gnome2-Canvas.ppd 
   :: but themes are a separate install - be sure to say yes when it prompts to move files
-  ppm install %SIS_PPM%/PPM-Sisyphusion-Gtk2_theme
+  ppm install %SIS_PPM%/PPM-Sisyphusion-Gtk2_theme.ppd
   ppm install %BDV_PPM%/Geo-GDAL.ppd
 
   ::  Math::Random::MT::Auto has test errors due to 
