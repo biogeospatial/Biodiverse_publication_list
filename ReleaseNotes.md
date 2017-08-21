@@ -1,6 +1,6 @@
 **Table of contents:**
 * [Version 1.99](#version-199)
-  * [Version 1.99_007](#version-199_008)
+  * [Version 1.99_008](#version-199_008)
   * [Version 1.99_007](#version-199_007)
   * [Version 1.99_006](#version-199_006)
   * [Version 1.99_005](#version-199_005)
