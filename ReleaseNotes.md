@@ -1,5 +1,6 @@
 **Table of contents:**
 * [Version 1.99](#version-199)
+  * [Version 1.99_007](#version-199_008)
   * [Version 1.99_007](#version-199_007)
   * [Version 1.99_006](#version-199_006)
   * [Version 1.99_005](#version-199_005)
@@ -37,6 +38,11 @@ Collectively, these releases comprise several major changes to the underlying co
 For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
+
+## Version 1.99_008 ##
+  * GUI
+    * View Labels tab: Users can now copy the full records for selected labels.  [Issue #667](https://github.com/shawnlaffan/biodiverse/issues/667), see also the [blog post](https://biodiverse-analysis-software.blogspot.com/2017/08/copy-selected-records-to-clipboard.html)
+    * Label and group properties can be deleted [Issue 547](https://github.com/shawnlaffan/biodiverse/issues/547)
 
 ## Version 1.99_007 ##
   * Big ticket items
