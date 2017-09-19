@@ -44,7 +44,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
     * Spatial tab: Indices that match tree branches can now be displayed on the tree.  [Issue #626](https://github.com/shawnlaffan/biodiverse/issues/626)  [See the blog post for more details](http://biodiverse-analysis-software.blogspot.com.au/2017/09/visualise-spatial-analysis-results-on.html).
     * View Labels tab: Users can now copy the full records for selected labels.  [Issue #667](https://github.com/shawnlaffan/biodiverse/issues/667), see also the [blog post](https://biodiverse-analysis-software.blogspot.com/2017/08/copy-selected-records-to-clipboard.html)
     * Label and group properties can be deleted [Issue 547](https://github.com/shawnlaffan/biodiverse/issues/547)
-    *  Map colours can be log scaled in the Spatial, Cluster and View Labels tabs
+    *  Map colours can be log scaled in the Spatial, Cluster and View Labels tabs.  [Issue #301](https://github.com/shawnlaffan/biodiverse/issues/301)  [See more in the blog post](http://biodiverse-analysis-software.blogspot.com.au/2017/09/log-scale-your-map-displays.html)
   * Exports
     * Tree lists can be exported to Nexus formats. [Issue #503](https://github.com/shawnlaffan/biodiverse/issues/503) [See the blog post for more details](https://biodiverse-analysis-software.blogspot.com/2017/09/export-lists-to-newick-format.html).
 
