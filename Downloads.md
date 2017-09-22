@@ -45,21 +45,22 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) sum
 
 ### Development Release ###
 
-_Version 1.99_007 was released on 26-Apr-2017_
+_Version 1.99_008 was released on 22-Sep-2017_
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_007) summarise the changes in this version.  See also [recent blog post](http://biodiverse-analysis-software.blogspot.com.au/).
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_008) summarise the changes in this version.  See also [recent blog posts](http://biodiverse-analysis-software.blogspot.com.au/).
 
   These do not include the RunRandomisation utility.
 
-* [Windows (64 bit, 7zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Windows (64 bit, 7zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_008_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
 
-* [Windows (64 bit, standard zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_win.zip)
+* [Windows (64 bit, standard zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_008_win.zip)
 
-* [Mac (64 bit, standard zip format, ~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_mac.zip)
+* [Mac (v1.99_007, 64 bit, standard zip format, ~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_mac.zip)
+    * Note that the Mac version is still at 1.99_007.
 
 * A Linux binary is yet to be released.
 
-* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r1.99_007)
+* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r1.99_008)
 
 
 
