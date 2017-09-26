@@ -14,7 +14,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Millar, T.R., Heenan, P.B., Wilton, A.D., Smissen, R.D. and Breitwieser, I. (2017) Spatial distribution of species, genus and phylogenetic endemism in the vascular flora of New Zealand, and implications for conservation.  [Australian Systematic Botany, 30, 134-147](https://doi.org/10.1071/SB16015)
 
-  * Yu, F., Skidmore, A.K., Wang, T., Huang, J., Ma, K and Groen, T.A. (in press) Rhododendron diversity patterns and priority conservation areas in China.  [Diversity and Distributions](http://dx.doi.org/10.1111/ddi.12607).
+  * Yu, F., Skidmore, A.K., Wang, T., Huang, J., Ma, K and Groen, T.A. (2017) Rhododendron diversity patterns and priority conservation areas in China.  [Diversity and Distributions, 23, 1143–1156](http://dx.doi.org/10.1111/ddi.12607).
 
   * Baldwin, B.G., Thornhill, A.H., Freyman, W.A., Ackerly, D.D., Kling, M.M., Morueta-Holme, N. and Mishler, B.D. (2017) Species richness and endemism in the native flora of California.  [American Journal of Botany, 104, 487-501](https://dx.doi.org/10.3732/ajb.1600326).
 
