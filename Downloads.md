@@ -49,6 +49,8 @@ _Version 1.99_008 was released on 22-Sep-2017_
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_008) summarise the changes in this version.  See also [recent blog posts](http://biodiverse-analysis-software.blogspot.com.au/).
 
+*Note: that the first run will start slowly (about 45 seconds) as it unpacks the component parts to the temp directory.  Subsequent runs will be substantially faster as the component part are cached.*
+
   These do not include the RunRandomisation utility.
 
 * [Windows (64 bit, 7zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_008_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
