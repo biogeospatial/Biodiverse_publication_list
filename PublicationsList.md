@@ -14,18 +14,12 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Millar, T.R., Heenan, P.B., Wilton, A.D., Smissen, R.D. and Breitwieser, I. (2017) Spatial distribution of species, genus and phylogenetic endemism in the vascular flora of New Zealand, and implications for conservation.  [Australian Systematic Botany, 30, 134-147](https://doi.org/10.1071/SB16015)
 
-  * Yu, F., Skidmore, A.K., Wang, T., Huang, J., Ma, K and Groen, T.A. (2017) Rhododendron diversity patterns and priority conservation areas in China.  [Diversity and Distributions, 23, 1143–1156](http://dx.doi.org/10.1111/ddi.12607).
-
-  * Baldwin, B.G., Thornhill, A.H., Freyman, W.A., Ackerly, D.D., Kling, M.M., Morueta-Holme, N. and Mishler, B.D. (2017) Species richness and endemism in the native flora of California.  [American Journal of Botany, 104, 487-501](https://dx.doi.org/10.3732/ajb.1600326).
-
-  * Scherson, R.A., Thornhill, A.H., Urbina-Casanova, R., Freyman, W.A., Pliscoff, P.A. and Mishler, B.D. (2017) Spatial phylogenetics of the vascular flora of Chile.  [Molecular Phylogenetics and Evolution, 112, 88-95](https://doi.org/10.1016/j.ympev.2017.04.021).
-
-  * Prentice, E., Knerr, N., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Bui, E.N., Laffan, S. and Miller, J.T. (2017) Do soil and climate properties drive biogeography of the Australian proteaceae?  [Plant and Soil, 417, 317-329](http://dx.doi.org://10.1007/s11104-017-3261-6).
-
   * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (in press) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography](http://dx.doi.org/10.1111/ecog.02596).
 
 
 #### 2017 ####
+
+  * Baldwin, B.G., Thornhill, A.H., Freyman, W.A., Ackerly, D.D., Kling, M.M., Morueta-Holme, N. and Mishler, B.D. (2017) Species richness and endemism in the native flora of California.  [American Journal of Botany, 104, 487-501](https://dx.doi.org/10.3732/ajb.1600326).
 
   * Bui, E.N., Thornhill, A.H., Gonzalez-Orozco, C.E., Knerr, N. and Miller, J.T. (2017) Climate and geochemistry as drivers of eucalypt diversification in Australia.  [Geobiology, 15, 427-440](http://dx.doi.org/10.1111/gbi.12235).
 
@@ -35,9 +29,15 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, 44, 605-614](http://dx.doi.org/10.1111/jbi.12875).
 
+  * Prentice, E., Knerr, N., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Bui, E.N., Laffan, S. and Miller, J.T. (2017) Do soil and climate properties drive biogeography of the Australian proteaceae?  [Plant and Soil, 417, 317-329](http://dx.doi.org://10.1007/s11104-017-3261-6).
+
   * Santos, A.P.B, Bitencourt, C. and Rapini, A. (2017) Distribution patterns of Kielmeyera (Calophyllaceae): the Rio Doce basin emerges as a confluent area between the northern and southern Atlantic Forest.  [Neotropical Biodiversity, 3, 1-9](http://dx.doi.org/10.1080/23766808.2016.1266730).
 
+  * Scherson, R.A., Thornhill, A.H., Urbina-Casanova, R., Freyman, W.A., Pliscoff, P.A. and Mishler, B.D. (2017) Spatial phylogenetics of the vascular flora of Chile.  [Molecular Phylogenetics and Evolution, 112, 88-95](https://doi.org/10.1016/j.ympev.2017.04.021).
+
   * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (2017) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology, 10, 294-300](http://dx.doi.org/10.1093/jpe/rtw031).
+
+  * Yu, F., Skidmore, A.K., Wang, T., Huang, J., Ma, K and Groen, T.A. (2017) Rhododendron diversity patterns and priority conservation areas in China.  [Diversity and Distributions, 23, 1143–1156](http://dx.doi.org/10.1111/ddi.12607).
 
 #### 2016 ####
 
