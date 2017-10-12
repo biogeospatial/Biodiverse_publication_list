@@ -20,16 +20,16 @@ These instructions apply to version 0.19.
   #  For online docs
   sudo apt-get install libssl-dev
   #  Gtk:
-  sudo apt-get install libgnome2-canvas-perl
   sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
   
-  #  and now gdal
-  #  we build our own for the source code, 
-  #  but for the binary the apt-get version seems to work.
-  #  commands from http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html
+  #  GDAL:
+  #  we build our own gdal for the source code version, 
+  #  but for the binary version the apt-get version seems to work.
+  #  next two commands from http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html
   sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
-  sudo apt-get install libkml-dev libfreexl-dev libogdi3.2-dev
   sudo apt-get install gdal-bin
+  sudo apt-get install libkml-dev libfreexl-dev libogdi3.2-dev
+
 ```
 
 # Running it #
