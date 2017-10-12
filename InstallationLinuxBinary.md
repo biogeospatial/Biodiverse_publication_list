@@ -11,6 +11,27 @@ These instructions apply to version 0.19.
   * Decompress and untar the Biodiverse package file to your hard drive.  The following assumes you have unzipped it so `$HOME/biodiverse` is the top level.  If you use a different path then modify the commands as appropriate.
   * You might need to also install some of the dependencies, depending on your Linux installation.  See the [InstallationLinuxSource](InstallationLinuxSource) page for details (the lines containing apt-get).
 
+```
+  sudo apt-get update
+
+  # now get the apts
+  # for XML::Parser
+  sudo apt-get install libexpat1-dev
+  #  For online docs
+  sudo apt-get install libssl-dev
+  #  Gtk:
+  sudo apt-get install libgnome2-canvas-perl
+  sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
+  
+  #  and now gdal
+  #  we build our own for the source code, 
+  #  but for the binary the apt-get version seems to work.
+  #  commands from http://www.sarasafavi.com/installing-gdalogr-on-ubuntu.html
+  sudo add-apt-repository ppa:ubuntugis/ppa && sudo apt-get update
+  sudo apt-get install libkml-dev libfreexl-dev libogdi3.2-dev
+  sudo apt-get install gdal-bin
+```
+
 # Running it #
 
   * Biodiverse can be run by double clicking on `BiodiverseGUI_linux`.
