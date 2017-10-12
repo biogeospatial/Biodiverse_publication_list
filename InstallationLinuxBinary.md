@@ -1,4 +1,4 @@
-These instructions apply to version 0.19.
+These instructions apply to version 1.99 and later
 
 **Table of contents:**
 * [Installation](#installation)
