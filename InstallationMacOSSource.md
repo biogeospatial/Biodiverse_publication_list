@@ -21,9 +21,10 @@ Homebrew is a package management system which simplifies the installation of sof
 3. Some extra packages are required which are not part of the base Homebrew installation. Install these:
 
    ```sh
-   brew tap homebrew/boneyard osgeo/osgeo4mac
+   brew tap homebrew/boneyard 
+   brew tap osgeo/osgeo4mac
    ```
-4. Install the Geospatial Data Abstraction Library (gal)
+4. Install the Geospatial Data Abstraction Library (gdal)
    ```sh
    brew install https://raw.githubusercontent.com/OSGeo/homebrew-osgeo4mac/master/boneyard/gdal-20.rb
    ```
