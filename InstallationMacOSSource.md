@@ -34,10 +34,7 @@ Homebrew is a package management system which simplifies the installation of sof
    ```sh
    brew install gdk-pixbuf pango gtk+ gtk+3 libglade libgnomecanvas
    ```
-5. Tell perl where to find the gdal configuration script (might not need this. Better to set PERL_GDAL_CONFIG with the installation of Geo::GDAL below:
-   ```sh 
-   export PERL_GDAL_CONFIG=/usr/local/Cellar/gdal-20/2.1.0/bin/gdal-config
-   ```
+
 Further information about Homebrew can be found [here](https://brew.sh).
 
 # Installing perlbrew and required perl modules
@@ -57,12 +54,14 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```
 4. Install all other Biodiverse required perl modules:
    ```sh
-   cpanm Pango Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection PAR::Packer Scalar::Util::Numeric
-    cpanm --force Gtk2
+   cpanm --force Gtk2
+   cpanm Pango Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection Scalar::Util::Numeric
+    
+   #  this assumes your goal installed to the Cellar - update as needed
    PERL_GDAL_CONFIG=/usr/local/Cellar/gdal-20/2.1.0/bin/gdal-config cpanm --force Geo::GDAL
    ```
 # Install Biodiverse
-1. Install the Biodiverse perl modules
+1. Install the rest of the Biodiverse perl dependencies
    ```sh
    cpanm Task::Biodiverse::NoGUI
    cpanm Task::Biodiverse
