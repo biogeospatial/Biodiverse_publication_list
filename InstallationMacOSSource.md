@@ -1,5 +1,7 @@
 To install Biodiverse from source for macOS four broad steps are required. First, if you haven't already, you will have to install Xcode command line tools. Second, a software management system has to be installed which can be used to install software required by Biodiverse. Third, Biodiverse requires a higher version of perl than that installed by default on macOS. This and Biodiverse's perl modules dependancies will be install. Fourth, Biodiverse will be installed.
 
+Note that Homebrew is only supported on recent versions of OSX, so if you have an old operating system then these instructions might not work cleanly (e.g. gdal will not install cleanly under Yosemite).  
+
 # Install Xcode command line tools
 To install Xcode command line tools (and all following software) you will be using the Terminal application. To open Terminal:
 1. Double-click the Terminal application in the Applications:Utilities folder. Or do a Spotlight search for "Terminal" and open it.
