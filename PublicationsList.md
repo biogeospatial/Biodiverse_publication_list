@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Thornhill, A.H., Baldwin, B.G., Freyman, W.A., Nosratinia, S., Kling, M.M., Morueta-Holme, N., Madsen, T.P., Ackerly, D.D. and  Mishler, B.D. (2017) Spatial phylogenetics of the native California flora.  [BMC Biology 15, 96](https://doi.org/10.1186/s12915-017-0435-x).
+
   * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (in press) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems](http://dx.doi.org/10.1080/11263504.2017.1353550).
 
   * Heenan, P.B., Millar, T.R., Smissen, R.D., McGlone, M.S. and Wilton, A.D. (2017) Phylogenetic measures of neo- and palaeo-endemism in the indigenous vascular flora of the New Zealand archipelago.  [Australian Systematic Botany, 30, 124-133](https://doi.org/10.1071/SB17009)
