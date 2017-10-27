@@ -32,7 +32,17 @@ Homebrew is a package management system which simplifies the installation of sof
    ```
 5. Install other required packages:
    ```sh
-   brew install gdk-pixbuf pango gtk+ gtk+3 libglade libgnomecanvas
+   brew install gdk-pixbuf pango gtk+ gtk+3 libglade
+   ```
+
+6. libgnomecanvas needs to be patched to avoid a serious memory leak
+   ```sh
+   brew edit libgnomecanvas
+   #  insert these lines into the build, immediately after the line containing "def install":
+   #  system "\curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch"
+   #  system "patch -d libgnomecanvas < libgnomecanvas.patch"
+   #  then exit the editor
+   brew install --build-from-source libgnomecanvas
    ```
 
 Further information about Homebrew can be found [here](https://brew.sh).
