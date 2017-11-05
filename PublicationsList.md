@@ -16,10 +16,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (in press) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems](http://dx.doi.org/10.1080/11263504.2017.1353550).
 
-  * Heenan, P.B., Millar, T.R., Smissen, R.D., McGlone, M.S. and Wilton, A.D. (2017) Phylogenetic measures of neo- and palaeo-endemism in the indigenous vascular flora of the New Zealand archipelago.  [Australian Systematic Botany, 30, 124-133](https://doi.org/10.1071/SB17009)
-
-  * Millar, T.R., Heenan, P.B., Wilton, A.D., Smissen, R.D. and Breitwieser, I. (2017) Spatial distribution of species, genus and phylogenetic endemism in the vascular flora of New Zealand, and implications for conservation.  [Australian Systematic Botany, 30, 134-147](https://doi.org/10.1071/SB16015)
-
   * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (in press) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography](http://dx.doi.org/10.1111/ecog.02596).
 
 
@@ -34,6 +30,10 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (2017) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography, 14, 531–538](http://dx.doi.org/10.1111/ecog.02010).
 
   * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, 44, 605-614](http://dx.doi.org/10.1111/jbi.12875).
+
+  * Heenan, P.B., Millar, T.R., Smissen, R.D., McGlone, M.S. and Wilton, A.D. (2017) Phylogenetic measures of neo- and palaeo-endemism in the indigenous vascular flora of the New Zealand archipelago.  [Australian Systematic Botany, 30, 124-133](https://doi.org/10.1071/SB17009)
+
+  * Millar, T.R., Heenan, P.B., Wilton, A.D., Smissen, R.D. and Breitwieser, I. (2017) Spatial distribution of species, genus and phylogenetic endemism in the vascular flora of New Zealand, and implications for conservation.  [Australian Systematic Botany, 30, 134-147](https://doi.org/10.1071/SB16015)
 
   * Prentice, E., Knerr, N., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Bui, E.N., Laffan, S. and Miller, J.T. (2017) Do soil and climate properties drive biogeography of the Australian proteaceae?  [Plant and Soil, 417, 317-329](http://dx.doi.org://10.1007/s11104-017-3261-6).
 
