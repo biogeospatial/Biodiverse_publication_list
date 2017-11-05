@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Zhang, H., Bonser, S. P., Chen, S.-C., Hitchcock, T. and Moles, A. T. (2017) Is the proportion of clonal species higher at higher latitudes in Australia? [Austral Ecology](http://dx.doi.org/10.1111/aec.12536).
+
   * Thornhill, A.H., Baldwin, B.G., Freyman, W.A., Nosratinia, S., Kling, M.M., Morueta-Holme, N., Madsen, T.P., Ackerly, D.D. and  Mishler, B.D. (2017) Spatial phylogenetics of the native California flora.  [BMC Biology 15, 96](https://doi.org/10.1186/s12915-017-0435-x).
 
   * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (in press) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems](http://dx.doi.org/10.1080/11263504.2017.1353550).
