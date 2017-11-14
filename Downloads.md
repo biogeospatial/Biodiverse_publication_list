@@ -24,20 +24,18 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 1.1._
+_The current stable release is version 2.0._
 
-*NOTE:  New windows files released on 09-May-2016 to fix an issue with incomplete encoding files being packed.  This meant that some trees were not correctly imported.  Please download this if you are using an older version.  This replaces the update released in February 2016.*
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-20) summarise the changes in this version.
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-11) summarise the changes in this version.
+All versions are for 64 bit architectures.
 
+* [Windows (~38MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_win.zip)
 
-* [Windows (64 bit, 7zip format, ~40MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64uub.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
+* [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_linux.zip)
 
-* [Windows (64 bit, standard zip format, ~60MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_win_x64uub.zip)
+* [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_mac.zip)
 
-* [Linux (64 bit, ~18MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_linux64.tar.gz)
-
-* [Source code](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.1_source_code.zip)
 
 #### Known issues ####
 
