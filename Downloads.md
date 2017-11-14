@@ -24,7 +24,7 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 2.0._
+_The current stable release is version 2.0, released 14-Nov-2016._
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-20) summarise the changes in this version.
 
