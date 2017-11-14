@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 2.0](#version-20)
 * [Version 1.99](#version-199)
   * [Version 1.99_008](#version-199_008)
   * [Version 1.99_007](#version-199_007)
@@ -27,6 +28,18 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+
+# Version 2.0 #
+
+This is the 2.0 release.  It contains all of the changes in the [version 1.99 development series](#version-199).
+
+This release contains several major changes to the underlying code-base, as well as the addition of several major new features.  They are not guaranteed to be backwards compatible with previous versions (1.1 and earlier, see this [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/new-more-efficient-file-format.html) for more details).  It can still use most Biodiverse files created using earlier versions, but files created using this version are not guaranteed to work with earlier versions.
+
+For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
+
+To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
+
 
 
 # Version 1.99 #
