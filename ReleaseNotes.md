@@ -36,6 +36,8 @@ This is the 2.0 release.  It contains all of the changes in the [version 1.99 de
 
 This release contains several major changes to the underlying code-base, as well as the addition of several major new features.  They are not guaranteed to be backwards compatible with previous versions (1.1 and earlier, see this [blog post](http://biodiverse-analysis-software.blogspot.com.au/2016/08/new-more-efficient-file-format.html) for more details).  It can still use most Biodiverse files created using earlier versions, but files created using this version are not guaranteed to work with earlier versions.
 
+  * The only change of note from the 1.99 series is that a serious memory leak in the Mac implementation has been fixed.  Details are in [Issue 671](https://github.com/shawnlaffan/biodiverse/issues/671).
+
 For the full list of issues and changes leading to the 2.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.0+
 
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
