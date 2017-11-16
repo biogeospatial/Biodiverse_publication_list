@@ -1,6 +1,6 @@
 
 # Indices available in Biodiverse 
-_Generated GMT Thu Apr 23 06:15:20 2015 using build_indices_table.pl, Biodiverse version 1.0._
+_Generated GMT Thu Nov 16 04:54:17 2017 using build_indices_table.pl, Biodiverse version 2.00._
 
 
 This is a listing of the indices available in Biodiverse,
@@ -48,9 +48,6 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Endemism whole normalised](#endemism-whole-normalised)
   * [Hierarchical Labels](#hierarchical-labels)
     * [Ratios of hierarchical labels](#ratios-of-hierarchical-labels)
-  * [Inter-event Interval Statistics](#inter-event-interval-statistics)
-    * [Inter-event interval statistics data](#inter-event-interval-statistics-data)
-    * [Inter-event interval statistics](#inter-event-interval-statistics)
   * [Lists and Counts](#lists-and-counts)
     * [Label counts](#label-counts)
     * [Label counts not in sample](#label-counts-not-in-sample)
@@ -62,6 +59,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Sample count lists](#sample-count-lists)
     * [Sample count quantiles](#sample-count-quantiles)
     * [Sample count summary stats](#sample-count-summary-stats)
+    * [Non-empty element counts](#non-empty-element-counts)
     * [Redundancy](#redundancy)
     * [Richness](#richness)
   * [Matrix](#matrix)
@@ -107,6 +105,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Phylogenetic Diversity node list](#phylogenetic-diversity-node-list)
     * [Phylogenetic Diversity terminal node count](#phylogenetic-diversity-terminal-node-count)
     * [Phylogenetic Diversity terminal node list](#phylogenetic-diversity-terminal-node-list)
+    * [Phylogenetic Abundance](#phylogenetic-abundance)
     * [Evolutionary distinctiveness](#evolutionary-distinctiveness)
     * [Evolutionary distinctiveness per site](#evolutionary-distinctiveness-per-site)
     * [Evolutionary distinctiveness per terminal taxon per site](#evolutionary-distinctiveness-per-terminal-taxon-per-site)
@@ -119,9 +118,11 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Relative Phylogenetic Diversity, type 2](#relative-phylogenetic-diversity-type-2)
     * [Relative Phylogenetic Endemism, type 1](#relative-phylogenetic-endemism-type-1)
     * [Relative Phylogenetic Endemism, type 2](#relative-phylogenetic-endemism-type-2)
+    * [Relative Phylogenetic Endemism, central](#relative-phylogenetic-endemism-central)
   * [Phylogenetic Turnover](#phylogenetic-turnover)
     * [Phylogenetic ABC](#phylogenetic-abc)
     * [Phylo Jaccard](#phylo-jaccard)
+    * [Phylo Range weighted Turnover](#phylo-range-weighted-turnover)
     * [Phylo S2](#phylo-s2)
     * [Phylo Sorenson](#phylo-sorenson)
   * [Rarity](#rarity)
@@ -129,6 +130,11 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Rarity central lists](#rarity-central-lists)
     * [Rarity whole](#rarity-whole)
     * [Rarity whole lists](#rarity-whole-lists)
+  * [Richness estimators](#richness-estimators)
+    * [ACE](#ace)
+    * [Chao1](#chao1)
+    * [Chao2](#chao2)
+    * [ICE](#ice)
   * [Taxonomic Dissimilarity and Comparison](#taxonomic-dissimilarity-and-comparison)
     * [Beta diversity](#beta-diversity)
     * [Bray-Curtis non-metric](#bray-curtis-non-metric)
@@ -136,6 +142,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
     * [Jaccard](#jaccard)
     * [Kulczynski 2](#kulczynski-2)
     * [Nestedness-resultant](#nestedness-resultant)
+    * [Range weighted Sorenson](#range-weighted-sorenson)
     * [S2](#s2)
     * [Simpson and Shannon](#simpson-and-shannon)
     * [Sorenson](#sorenson)
@@ -461,10 +468,10 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 31 | ENDC_CWE | Corrected weighted endemism |   | 1 | ![= \\frac{ENDC\\_WE}{ENDC\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_WE%7D%7BENDC%5C_RICHNESS%7D)   |   |
+| 31 | ENDC_CWE | Corrected weighted endemism |   | 1 |  ![= \\frac{ENDC\\_WE}{ENDC\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_WE%7D%7BENDC%5C_RICHNESS%7D)   |   |
 | 32 | ENDC_RICHNESS | Richness used in ENDC_CWE (same as index RICHNESS_SET1) |   | 1 |   |   |
-| 33 | ENDC_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. |   | 1 | ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa) ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1, and ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog http://dx.doi.org/10.1111/j.1365-2699.2006.01647.x |
-| 34 | ENDC_WE | Weighted endemism |   | 1 | ![= \\sum_{t \\in T} \\frac {r_t} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Br_t%7D%20%7BR_t%7D)  where ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa) ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1, ![r_t](http://latex.codecogs.com/png.latex?r_t)  is the local range (the number of elements containing label ![t](http://latex.codecogs.com/png.latex?t)  within neighbour sets 1 & 2, this is also its value in list ABC2_LABELS_ALL), and ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  |   |
+| 33 | ENDC_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. |   | 1 |  ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1, and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog http://dx.doi.org/10.1111/j.1365-2699.2006.01647.x |
+| 34 | ENDC_WE | Weighted endemism |   | 1 |  ![= \\sum_{t \\in T} \\frac {r_t} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Br_t%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1,  ![r_t](http://latex.codecogs.com/png.latex?r_t)  is the local range (the number of elements containing label  ![t](http://latex.codecogs.com/png.latex?t)  within neighbour sets 1 & 2, this is also its value in list ABC2_LABELS_ALL), and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  |   |
 
 
 
@@ -525,8 +532,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 45 | ENDC_CWE_NORM | Corrected weighted endemism normalised by groups |   | 1 | ![= \\frac{ENDC\\_CWE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_CWE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
-| 46 | ENDC_WE_NORM | Weighted endemism normalised by groups |   | 1 | ![= \\frac{ENDC\\_WE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_WE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
+| 45 | ENDC_CWE_NORM | Corrected weighted endemism normalised by groups |   | 1 |  ![= \\frac{ENDC\\_CWE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_CWE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
+| 46 | ENDC_WE_NORM | Weighted endemism normalised by groups |   | 1 |  ![= \\frac{ENDC\\_WE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_WE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
 
 
 
@@ -542,10 +549,10 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 47 | ENDW_CWE | Corrected weighted endemism | region grower | 1 | ![= \\frac{ENDW\\_WE}{ENDW\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_WE%7D%7BENDW%5C_RICHNESS%7D)   |   |
+| 47 | ENDW_CWE | Corrected weighted endemism | region grower | 1 |  ![= \\frac{ENDW\\_WE}{ENDW\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_WE%7D%7BENDW%5C_RICHNESS%7D)   |   |
 | 48 | ENDW_RICHNESS | Richness used in ENDW_CWE (same as index RICHNESS_ALL) | region grower | 1 |   |   |
-| 49 | ENDW_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. | region grower | 1 | ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa) ![T](http://latex.codecogs.com/png.latex?T)  across neighbour sets 1 & 2, and ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog http://dx.doi.org/10.1111/j.1365-2699.2006.01647.x |
-| 50 | ENDW_WE | Weighted endemism | region grower | 1 | ![= \\sum_{t \\in T} \\frac {r_t} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Br_t%7D%20%7BR_t%7D)  where ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa) ![T](http://latex.codecogs.com/png.latex?T)  across both neighbour sets, ![r_t](http://latex.codecogs.com/png.latex?r_t)  is the local range (the number of elements containing label ![t](http://latex.codecogs.com/png.latex?t)  within neighbour sets 1 & 2, this is also its value in list ABC2_LABELS_ALL), and ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  |   |
+| 49 | ENDW_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. | region grower | 1 |  ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across neighbour sets 1 & 2, and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog http://dx.doi.org/10.1111/j.1365-2699.2006.01647.x |
+| 50 | ENDW_WE | Weighted endemism | region grower | 1 |  ![= \\sum_{t \\in T} \\frac {r_t} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Br_t%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across both neighbour sets,  ![r_t](http://latex.codecogs.com/png.latex?r_t)  is the local range (the number of elements containing label  ![t](http://latex.codecogs.com/png.latex?t)  within neighbour sets 1 & 2, this is also its value in list ABC2_LABELS_ALL), and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  |   |
 
 
 
@@ -606,8 +613,8 @@ hash values are the property value frequencies.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 61 | ENDW_CWE_NORM | Corrected weighted endemism normalised by groups | region grower | 1 | ![= \\frac{ENDW\\_CWE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_CWE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
-| 62 | ENDW_WE_NORM | Weighted endemism normalised by groups | region grower | 1 | ![= \\frac{ENDW\\_WE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_WE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
+| 61 | ENDW_CWE_NORM | Corrected weighted endemism normalised by groups | region grower | 1 |  ![= \\frac{ENDW\\_CWE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_CWE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
+| 62 | ENDW_WE_NORM | Weighted endemism normalised by groups | region grower | 1 |  ![= \\frac{ENDW\\_WE}{EL\\_COUNT\\_ALL}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_WE%7D%7BEL%5C_COUNT%5C_ALL%7D)   |
 
 
 ## Hierarchical Labels ##
@@ -649,49 +656,6 @@ of the hierarchy.
 | 74 | HIER_CRAT1_0 | Ratio of C scores, (HIER_C1 / HIER_C0) |   | 1 |
 
 
-## Inter-event Interval Statistics ##
- 
- 
-
- 
-### Inter-event interval statistics ###
- 
-**Description:**   Calculate summary statistics from a set of numeric labels that represent event times.
-Event intervals are calculated within groups, then aggregated across the neighbourhoods, and then summary stats are calculated.
-
-**Subroutine:**   calc_iei_stats
-
-| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
-| ---- | ---- | ---- | ---- | ---- |
-| 75 | IEI_CV | Coefficient of variation (IEI_SD / IEI_MEAN) | region grower | 1 |
-| 76 | IEI_GMEAN | Geometric mean | region grower | 1 |
-| 77 | IEI_KURT | Kurtosis | region grower | 1 |
-| 78 | IEI_MAX | Maximum value (100th percentile) | region grower | 1 |
-| 79 | IEI_MEAN | Mean | cluster metric | 1 |
-| 80 | IEI_MIN | Minimum value (zero percentile) | region grower | 1 |
-| 81 | IEI_N | Number of samples | region grower | 1 |
-| 82 | IEI_RANGE | Range (max - min) | region grower | 1 |
-| 83 | IEI_SD | Standard deviation | region grower | 1 |
-| 84 | IEI_SKEW | Skewness | region grower | 1 |
-
-
-
- 
- 
-
- 
-### Inter-event interval statistics data ###
- 
-**Description:**   The underlying data used for the IEI stats.
-
-**Subroutine:**   calc_iei_data
-
-| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
-| ---- | ---- | ---- | ---- | ---- |
-| 85 | IEI_DATA_ARRAY | Interval data in array form.  Multiple occurrences are repeated  |   | 1 |
-| 86 | IEI_DATA_HASH | Interval data in hash form where the  interval is the key and number of occurrences is the value |   | 1 |
-
-
 ## Lists and Counts ##
  
  
@@ -706,9 +670,9 @@ Event intervals are calculated within groups, then aggregated across the neighbo
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 87 | EL_COUNT_ALL | Count of elements in both neighbour sets | region grower | 2 |
-| 88 | EL_COUNT_SET1 | Count of elements in neighbour set 1 |   | 1 |
-| 89 | EL_COUNT_SET2 | Count of elements in neighbour set 2 |   | 2 |
+| 75 | EL_COUNT_ALL | Count of elements in both neighbour sets | region grower | 1 |
+| 76 | EL_COUNT_SET1 | Count of elements in neighbour set 1 |   | 1 |
+| 77 | EL_COUNT_SET2 | Count of elements in neighbour set 2 |   | 2 |
 
 
 
@@ -725,9 +689,9 @@ These form the basis for all the spatial calculations.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 90 | EL_LIST_ALL | List of elements in both neighour sets |   | 2 |
-| 91 | EL_LIST_SET1 | List of elements in neighbour set 1 |   | 1 |
-| 92 | EL_LIST_SET2 | List of elements in neighbour set 2 |   | 2 |
+| 78 | EL_LIST_ALL | List of elements in both neighour sets |   | 2 |
+| 79 | EL_LIST_SET1 | List of elements in neighbour set 1 |   | 1 |
+| 80 | EL_LIST_SET2 | List of elements in neighbour set 2 |   | 2 |
 
 
 
@@ -744,10 +708,10 @@ These form the basis for the Taxonomic Dissimilarity and Comparison indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 93 | ABC_A | Count of labels common to both neighbour sets | region grower | 1 |
-| 94 | ABC_ABC | Total label count across both neighbour sets (same as RICHNESS_ALL) | region grower | 1 |
-| 95 | ABC_B | Count of labels unique to neighbour set 1 | region grower | 1 |
-| 96 | ABC_C | Count of labels unique to neighbour set 2 | region grower | 1 |
+| 81 | ABC_A | Count of labels common to both neighbour sets | region grower | 1 |
+| 82 | ABC_ABC | Total label count across both neighbour sets (same as RICHNESS_ALL) | region grower | 1 |
+| 83 | ABC_B | Count of labels unique to neighbour set 1 | region grower | 1 |
+| 84 | ABC_C | Count of labels unique to neighbour set 2 | region grower | 1 |
 
 
 
@@ -764,7 +728,7 @@ Used in some of the dissimilarity metrics.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 97 | ABC_D | Count of labels not in either neighbour set (D score) | region grower | 1 |
+| 85 | ABC_D | Count of labels not in either neighbour set (D score) | region grower | 1 |
 
 
 
@@ -781,9 +745,9 @@ The local ranges are the number of elements in which each label is found in each
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 98 | ABC2_LABELS_ALL | List of labels in both neighbour sets |   | 2 |
-| 99 | ABC2_LABELS_SET1 | List of labels in neighbour set 1 |   | 1 |
-| 100 | ABC2_LABELS_SET2 | List of labels in neighbour set 2 |   | 2 |
+| 86 | ABC2_LABELS_ALL | List of labels in both neighbour sets |   | 2 |
+| 87 | ABC2_LABELS_SET1 | List of labels in neighbour set 1 |   | 1 |
+| 88 | ABC2_LABELS_SET2 | List of labels in neighbour set 2 |   | 2 |
 
 
 
@@ -799,12 +763,31 @@ The local ranges are the number of elements in which each label is found in each
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 101 | ABC2_MEAN_ALL | Mean label range in both element sets | region grower | 1 |
-| 102 | ABC2_MEAN_SET1 | Mean label range in neighbour set 1 |   | 1 |
-| 103 | ABC2_MEAN_SET2 | Mean label range in neighbour set 2 |   | 2 |
-| 104 | ABC2_SD_ALL | Standard deviation of label ranges in both element sets | region grower | 2 |
-| 105 | ABC2_SD_SET1 | Standard deviation of label ranges in neighbour set 1 |   | 1 |
-| 106 | ABC2_SD_SET2 | Standard deviation of label ranges in neighbour set 2 |   | 2 |
+| 89 | ABC2_MEAN_ALL | Mean label range in both element sets | region grower | 1 |
+| 90 | ABC2_MEAN_SET1 | Mean label range in neighbour set 1 |   | 1 |
+| 91 | ABC2_MEAN_SET2 | Mean label range in neighbour set 2 |   | 2 |
+| 92 | ABC2_SD_ALL | Standard deviation of label ranges in both element sets | region grower | 2 |
+| 93 | ABC2_SD_SET1 | Standard deviation of label ranges in neighbour set 1 |   | 1 |
+| 94 | ABC2_SD_SET2 | Standard deviation of label ranges in neighbour set 2 |   | 2 |
+
+
+
+ 
+ 
+
+ 
+### Non-empty element counts ###
+ 
+**Description:**   Counts of non-empty elements in neighbour sets 1 and 2.
+
+
+**Subroutine:**   calc_nonempty_elements_used
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
+| ---- | ---- | ---- | ---- | ---- |
+| 95 | EL_COUNT_NONEMPTY_ALL | Count of non-empty elements in both neighbour sets | region grower | 1 |
+| 96 | EL_COUNT_NONEMPTY_SET1 | Count of non-empty elements in neighbour set 1 |   | 1 |
+| 97 | EL_COUNT_NONEMPTY_SET2 | Count of non-empty elements in neighbour set 2 |   | 2 |
 
 
 
@@ -820,7 +803,7 @@ The local ranges are the number of elements in which each label is found in each
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 107 | LABEL_COUNT_RANK_PCT | List of percentile ranks for each label's sample count |   | 1 |
+| 98 | LABEL_COUNT_RANK_PCT | List of percentile ranks for each label's sample count |   | 1 |
 
 
 
@@ -841,13 +824,13 @@ there is no redundancy in the sampling
  
 
 **Formula:**
-   ![= 1 - \\frac{richness}{sum\\ of\\ the\\ sample\\ counts}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7Brichness%7D%7Bsum%5C%20of%5C%20the%5C%20sample%5C%20counts%7D) 
+    ![= 1 - \\frac{richness}{sum\\ of\\ the\\ sample\\ counts}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7Brichness%7D%7Bsum%5C%20of%5C%20the%5C%20sample%5C%20counts%7D) 
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 108 | REDUNDANCY_ALL | for both neighbour sets | region grower | 1 | ![= 1 - \\frac{RICHNESS\\_ALL}{ABC3\\_SUM\\_ALL}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BRICHNESS%5C_ALL%7D%7BABC3%5C_SUM%5C_ALL%7D)   |
-| 109 | REDUNDANCY_SET1 | for neighour set 1 |   | 1 | ![= 1 - \\frac{RICHNESS\\_SET1}{ABC3\\_SUM\\_SET1}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BRICHNESS%5C_SET1%7D%7BABC3%5C_SUM%5C_SET1%7D)   |
-| 110 | REDUNDANCY_SET2 | for neighour set 2 |   | 2 | ![= 1 - \\frac{RICHNESS\\_SET2}{ABC3\\_SUM\\_SET2}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BRICHNESS%5C_SET2%7D%7BABC3%5C_SUM%5C_SET2%7D)   |
+| 99 | REDUNDANCY_ALL | for both neighbour sets | region grower | 1 |  ![= 1 - \\frac{RICHNESS\\_ALL}{ABC3\\_SUM\\_ALL}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BRICHNESS%5C_ALL%7D%7BABC3%5C_SUM%5C_ALL%7D)   |
+| 100 | REDUNDANCY_SET1 | for neighour set 1 |   | 1 |  ![= 1 - \\frac{RICHNESS\\_SET1}{ABC3\\_SUM\\_SET1}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BRICHNESS%5C_SET1%7D%7BABC3%5C_SUM%5C_SET1%7D)   |
+| 101 | REDUNDANCY_SET2 | for neighour set 2 |   | 2 |  ![= 1 - \\frac{RICHNESS\\_SET2}{ABC3\\_SUM\\_SET2}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BRICHNESS%5C_SET2%7D%7BABC3%5C_SUM%5C_SET2%7D)   |
 
 
 
@@ -863,9 +846,9 @@ there is no redundancy in the sampling
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 111 | RICHNESS_ALL | for both sets of neighbours | region grower | 1 |
-| 112 | RICHNESS_SET1 | for neighbour set 1 |   | 1 |
-| 113 | RICHNESS_SET2 | for neighbour set 2 |   | 2 |
+| 102 | RICHNESS_ALL | for both sets of neighbours | region grower | 1 |
+| 103 | RICHNESS_SET1 | for neighbour set 1 |   | 1 |
+| 104 | RICHNESS_SET2 | for neighbour set 2 |   | 2 |
 
 
 
@@ -882,9 +865,9 @@ These form the basis of the sample indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 114 | ABC3_LABELS_ALL | List of labels in both neighbour sets with their sample counts as the values. |   | 2 |
-| 115 | ABC3_LABELS_SET1 | List of labels in neighbour set 1. Values are the sample counts.   |   | 1 |
-| 116 | ABC3_LABELS_SET2 | List of labels in neighbour set 2. Values are the sample counts. |   | 2 |
+| 105 | ABC3_LABELS_ALL | List of labels in both neighbour sets with their sample counts as the values. |   | 2 |
+| 106 | ABC3_LABELS_SET1 | List of labels in neighbour set 1. Values are the sample counts.   |   | 1 |
+| 107 | ABC3_LABELS_SET2 | List of labels in neighbour set 2. Values are the sample counts. |   | 2 |
 
 
 
@@ -901,9 +884,9 @@ These form the basis of the sample indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 117 | ABC3_QUANTILES_ALL | List of quantiles for both neighbour sets |   | 2 |
-| 118 | ABC3_QUANTILES_SET1 | List of quantiles for neighbour set 1 |   | 1 |
-| 119 | ABC3_QUANTILES_SET2 | List of quantiles for neighbour set 2 |   | 2 |
+| 108 | ABC3_QUANTILES_ALL | List of quantiles for both neighbour sets |   | 2 |
+| 109 | ABC3_QUANTILES_SET1 | List of quantiles for neighbour set 1 |   | 1 |
+| 110 | ABC3_QUANTILES_SET2 | List of quantiles for neighbour set 2 |   | 2 |
 
 
 
@@ -920,15 +903,15 @@ These form the basis of the sample indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 120 | ABC3_MEAN_ALL | Mean of label sample counts across both element sets. | region grower | 2 |
-| 121 | ABC3_MEAN_SET1 | Mean of label sample counts in neighbour set1. |   | 1 |
-| 122 | ABC3_MEAN_SET2 | Mean of label sample counts in neighbour set 2. |   | 2 |
-| 123 | ABC3_SD_ALL | Standard deviation of label sample counts in both element sets. | region grower | 2 |
-| 124 | ABC3_SD_SET1 | Standard deviation of sample counts in neighbour set 1. |   | 1 |
-| 125 | ABC3_SD_SET2 | Standard deviation of label sample counts in neighbour set 2. |   | 2 |
-| 126 | ABC3_SUM_ALL | Sum of the label sample counts across both neighbour sets. | region grower | 2 |
-| 127 | ABC3_SUM_SET1 | Sum of the label sample counts across both neighbour sets. |   | 1 |
-| 128 | ABC3_SUM_SET2 | Sum of the label sample counts in neighbour set2. |   | 2 |
+| 111 | ABC3_MEAN_ALL | Mean of label sample counts across both element sets. | region grower | 2 |
+| 112 | ABC3_MEAN_SET1 | Mean of label sample counts in neighbour set1. |   | 1 |
+| 113 | ABC3_MEAN_SET2 | Mean of label sample counts in neighbour set 2. |   | 2 |
+| 114 | ABC3_SD_ALL | Standard deviation of label sample counts in both element sets. | region grower | 2 |
+| 115 | ABC3_SD_SET1 | Standard deviation of sample counts in neighbour set 1. |   | 1 |
+| 116 | ABC3_SD_SET2 | Standard deviation of label sample counts in neighbour set 2. |   | 2 |
+| 117 | ABC3_SUM_ALL | Sum of the label sample counts across both neighbour sets. | region grower | 2 |
+| 118 | ABC3_SUM_SET1 | Sum of the label sample counts across both neighbour sets. |   | 1 |
+| 119 | ABC3_SUM_SET2 | Sum of the label sample counts in neighbour set2. |   | 2 |
 
 
 ## Matrix ##
@@ -944,11 +927,11 @@ These form the basis of the sample indices.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 129 | MXD_COUNT | Count of comparisons used. | region grower | 1 |
-| 130 | MXD_LIST1 | List of the labels used from neighbour set 1 (those in the matrix). The list values are the number of times each label was used in the calculations. This will always be 1 for labels in neighbour set 1. |   | 1 |
-| 131 | MXD_LIST2 | List of the labels used from neighbour set 2 (those in the matrix). The list values are the number of times each label was used in the calculations. This will equal the number of labels used from neighbour set 1. |   | 1 |
-| 132 | MXD_MEAN | Mean dissimilarity of labels in set 1 to those in set 2. | cluster metric | 1 |
-| 133 | MXD_VARIANCE | Variance of the dissimilarity values, set 1 vs set 2. | cluster metric | 1 |
+| 120 | MXD_COUNT | Count of comparisons used. | region grower | 1 |
+| 121 | MXD_LIST1 | List of the labels used from neighbour set 1 (those in the matrix). The list values are the number of times each label was used in the calculations. This will always be 1 for labels in neighbour set 1. |   | 1 |
+| 122 | MXD_LIST2 | List of the labels used from neighbour set 2 (those in the matrix). The list values are the number of times each label was used in the calculations. This will equal the number of labels used from neighbour set 1. |   | 1 |
+| 123 | MXD_MEAN | Mean dissimilarity of labels in set 1 to those in set 2. | cluster metric | 1 |
+| 124 | MXD_VARIANCE | Variance of the dissimilarity values, set 1 vs set 2. | cluster metric | 1 |
 
 
 
@@ -965,21 +948,21 @@ Labels not in the matrix are ignored.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 134 | MX_KURT | Kurtosis | region grower | 1 |
-| 135 | MX_LABELS | List of the matrix labels in the neighbour sets |   | 1 |
-| 136 | MX_MAXVALUE | Maximum value | region grower | 1 |
-| 137 | MX_MEAN | Mean | region grower | 1 |
-| 138 | MX_MEDIAN | Median | region grower | 1 |
-| 139 | MX_MINVALUE | Minimum value | region grower | 1 |
-| 140 | MX_N | Number of samples (matrix elements, not labels) | region grower | 1 |
-| 141 | MX_PCT05 | 5th percentile value | region grower | 1 |
-| 142 | MX_PCT25 | First quartile (25th percentile) | region grower | 1 |
-| 143 | MX_PCT75 | Third quartile (75th percentile) | region grower | 1 |
-| 144 | MX_PCT95 | 95th percentile value | region grower | 1 |
-| 145 | MX_RANGE | Range (max-min) | region grower | 1 |
-| 146 | MX_SD | Standard deviation | region grower | 1 |
-| 147 | MX_SKEW | Skewness | region grower | 1 |
-| 148 | MX_VALUES | List of the matrix values |   | 1 |
+| 125 | MX_KURT | Kurtosis | region grower | 1 |
+| 126 | MX_LABELS | List of the matrix labels in the neighbour sets |   | 1 |
+| 127 | MX_MAXVALUE | Maximum value | region grower | 1 |
+| 128 | MX_MEAN | Mean | region grower | 1 |
+| 129 | MX_MEDIAN | Median | region grower | 1 |
+| 130 | MX_MINVALUE | Minimum value | region grower | 1 |
+| 131 | MX_N | Number of samples (matrix elements, not labels) | region grower | 1 |
+| 132 | MX_PCT05 | 5th percentile value | region grower | 1 |
+| 133 | MX_PCT25 | First quartile (25th percentile) | region grower | 1 |
+| 134 | MX_PCT75 | Third quartile (75th percentile) | region grower | 1 |
+| 135 | MX_PCT95 | 95th percentile value | region grower | 1 |
+| 136 | MX_RANGE | Range (max-min) | region grower | 1 |
+| 137 | MX_SD | Standard deviation | region grower | 1 |
+| 138 | MX_SKEW | Skewness | region grower | 1 |
+| 139 | MX_VALUES | List of the matrix values |   | 1 |
 
 
 
@@ -995,13 +978,13 @@ BaseData labels not in the matrix are ignored
 **Subroutine:**   calc_mx_rao_qe
 
 **Formula:**
-   ![= \\sum_{i \\in L} \\sum_{j \\in L} d_{ij} p_i p_j](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bi%20%5Cin%20L%7D%20%5Csum_%7Bj%20%5Cin%20L%7D%20d_%7Bij%7D%20p_i%20p_j)  where ![p_i](http://latex.codecogs.com/png.latex?p_i)  and ![p_j](http://latex.codecogs.com/png.latex?p_j)  are the sample counts for the i'th and j'th labels, ![d_{ij}](http://latex.codecogs.com/png.latex?d_%7Bij%7D)  is the matrix value for the pair of labels ![ij](http://latex.codecogs.com/png.latex?ij)  and ![L](http://latex.codecogs.com/png.latex?L)  is the set of labels across both neighbour sets that occur in the matrix.
+    ![= \\sum_{i \\in L} \\sum_{j \\in L} d_{ij} p_i p_j](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bi%20%5Cin%20L%7D%20%5Csum_%7Bj%20%5Cin%20L%7D%20d_%7Bij%7D%20p_i%20p_j)  where  ![p_i](http://latex.codecogs.com/png.latex?p_i)  and  ![p_j](http://latex.codecogs.com/png.latex?p_j)  are the sample counts for the i'th and j'th labels,  ![d_{ij}](http://latex.codecogs.com/png.latex?d_%7Bij%7D)  is the matrix value for the pair of labels  ![ij](http://latex.codecogs.com/png.latex?ij)  and  ![L](http://latex.codecogs.com/png.latex?L)  is the set of labels across both neighbour sets that occur in the matrix.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 149 | MX_RAO_QE | Matrix weighted quadratic entropy | region grower | 1 |
-| 150 | MX_RAO_TLABELS | List of labels and values used in the MX_RAO_QE calculations |   | 1 |
-| 151 | MX_RAO_TN | Count of comparisons used to calculate MX_RAO_QE | region grower | 1 |
+| 140 | MX_RAO_QE | Matrix weighted quadratic entropy | region grower | 1 |
+| 141 | MX_RAO_TLABELS | List of labels and values used in the MX_RAO_QE calculations |   | 1 |
+| 142 | MX_RAO_TN | Count of comparisons used to calculate MX_RAO_QE | region grower | 1 |
 
 
 ## Numeric Labels ##
@@ -1018,7 +1001,7 @@ For the hash form, use the ABC3_LABELS_ALL index from the 'Sample count lists' c
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 152 | NUM_DATA_ARRAY | Numeric label data in array form.  Multiple occurrences are repeated based on their sample counts. |   | 1 |
+| 143 | NUM_DATA_ARRAY | Numeric label data in array form.  Multiple occurrences are repeated based on their sample counts. |   | 1 |
 
 
 
@@ -1034,9 +1017,9 @@ For the hash form, use the ABC3_LABELS_ALL index from the 'Sample count lists' c
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 153 | NUMD_ABSMEAN | Mean absolute dissimilarity of labels in set 1 to those in set 2. | cluster metric | 1 | ![= \\frac{\\sum_{l_{1i} \\in L_1} \\sum_{l_{2j} \\in L_2} abs (l_{1i} - l_{2j})(w_{1i} \\times w_{2j})}{n_1 \\times n_2}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum_%7Bl_%7B1i%7D%20%5Cin%20L_1%7D%20%5Csum_%7Bl_%7B2j%7D%20%5Cin%20L_2%7D%20abs%20%28l_%7B1i%7D%20-%20l_%7B2j%7D%29%28w_%7B1i%7D%20%5Ctimes%20w_%7B2j%7D%29%7D%7Bn_1%20%5Ctimes%20n_2%7D) where![L1](http://latex.codecogs.com/png.latex?L1)  and ![L2](http://latex.codecogs.com/png.latex?L2)  are the labels in neighbour sets 1 and 2 respectively, and ![n1](http://latex.codecogs.com/png.latex?n1)  and ![n2](http://latex.codecogs.com/png.latex?n2)  are the sample counts in neighbour sets 1 and 2  |
-| 154 | NUMD_COUNT | Count of comparisons used. | region grower | 1 | ![= n1 * n2](http://latex.codecogs.com/png.latex?%3Dn1%20%2A%20n2) where values are as for ![NUMD\\_ABSMEAN](http://latex.codecogs.com/png.latex?NUMD%5C_ABSMEAN)   |
-| 155 | NUMD_VARIANCE | Variance of the dissimilarity values (mean squared deviation), set 1 vs set 2. | cluster metric | 1 | ![= \\frac{\\sum_{l_{1i} \\in L_1} \\sum_{l_{2j} \\in L_2} (l_{1i} - l_{2j})^2(w_{1i} \\times w_{2j})}{n_1 \\times n_2}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum_%7Bl_%7B1i%7D%20%5Cin%20L_1%7D%20%5Csum_%7Bl_%7B2j%7D%20%5Cin%20L_2%7D%20%28l_%7B1i%7D%20-%20l_%7B2j%7D%29%5E2%28w_%7B1i%7D%20%5Ctimes%20w_%7B2j%7D%29%7D%7Bn_1%20%5Ctimes%20n_2%7D) where values are as for ![NUMD\\_ABSMEAN](http://latex.codecogs.com/png.latex?NUMD%5C_ABSMEAN)   |
+| 144 | NUMD_ABSMEAN | Mean absolute dissimilarity of labels in set 1 to those in set 2. | cluster metric | 1 |  ![= \\frac{\\sum_{l_{1i} \\in L_1} \\sum_{l_{2j} \\in L_2} abs (l_{1i} - l_{2j})(w_{1i} \\times w_{2j})}{n_1 \\times n_2}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum_%7Bl_%7B1i%7D%20%5Cin%20L_1%7D%20%5Csum_%7Bl_%7B2j%7D%20%5Cin%20L_2%7D%20abs%20%28l_%7B1i%7D%20-%20l_%7B2j%7D%29%28w_%7B1i%7D%20%5Ctimes%20w_%7B2j%7D%29%7D%7Bn_1%20%5Ctimes%20n_2%7D) where ![L1](http://latex.codecogs.com/png.latex?L1)  and  ![L2](http://latex.codecogs.com/png.latex?L2)  are the labels in neighbour sets 1 and 2 respectively, and  ![n1](http://latex.codecogs.com/png.latex?n1)  and  ![n2](http://latex.codecogs.com/png.latex?n2)  are the sample counts in neighbour sets 1 and 2  |
+| 145 | NUMD_COUNT | Count of comparisons used. | region grower | 1 |  ![= n1 * n2](http://latex.codecogs.com/png.latex?%3Dn1%20%2A%20n2) where values are as for  ![NUMD\\_ABSMEAN](http://latex.codecogs.com/png.latex?NUMD%5C_ABSMEAN)   |
+| 146 | NUMD_VARIANCE | Variance of the dissimilarity values (mean squared deviation), set 1 vs set 2. | cluster metric | 1 |  ![= \\frac{\\sum_{l_{1i} \\in L_1} \\sum_{l_{2j} \\in L_2} (l_{1i} - l_{2j})^2(w_{1i} \\times w_{2j})}{n_1 \\times n_2}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum_%7Bl_%7B1i%7D%20%5Cin%20L_1%7D%20%5Csum_%7Bl_%7B2j%7D%20%5Cin%20L_2%7D%20%28l_%7B1i%7D%20-%20l_%7B2j%7D%29%5E2%28w_%7B1i%7D%20%5Ctimes%20w_%7B2j%7D%29%7D%7Bn_1%20%5Ctimes%20n_2%7D) where values are as for  ![NUMD\\_ABSMEAN](http://latex.codecogs.com/png.latex?NUMD%5C_ABSMEAN)   |
 
 
 
@@ -1053,8 +1036,8 @@ For the hash form, use the ABC3_LABELS_ALL index from the 'Sample count lists' c
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 156 | NUM_GMEAN | Geometric mean | region grower | 1 |
-| 157 | NUM_HMEAN | Harmonic mean | region grower | 1 |
+| 147 | NUM_GMEAN | Geometric mean | region grower | 1 |
+| 148 | NUM_HMEAN | Harmonic mean | region grower | 1 |
 
 
 
@@ -1072,25 +1055,25 @@ Weights by samples so multiple occurrences are accounted for.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 158 | NUM_Q005 | 5th percentile | region grower | 1 |
-| 159 | NUM_Q010 | 10th percentile | region grower | 1 |
-| 160 | NUM_Q015 | 15th percentile | region grower | 1 |
-| 161 | NUM_Q020 | 20th percentile | region grower | 1 |
-| 162 | NUM_Q025 | 25th percentile | region grower | 1 |
-| 163 | NUM_Q030 | 30th percentile | region grower | 1 |
-| 164 | NUM_Q035 | 35th percentile | region grower | 1 |
-| 165 | NUM_Q040 | 40th percentile | region grower | 1 |
-| 166 | NUM_Q045 | 45th percentile | region grower | 1 |
-| 167 | NUM_Q050 | 50th percentile | region grower | 1 |
-| 168 | NUM_Q055 | 55th percentile | region grower | 1 |
-| 169 | NUM_Q060 | 60th percentile | region grower | 1 |
-| 170 | NUM_Q065 | 65th percentile | region grower | 1 |
-| 171 | NUM_Q070 | 70th percentile | region grower | 1 |
-| 172 | NUM_Q075 | 75th percentile | region grower | 1 |
-| 173 | NUM_Q080 | 80th percentile | region grower | 1 |
-| 174 | NUM_Q085 | 85th percentile | region grower | 1 |
-| 175 | NUM_Q090 | 90th percentile | region grower | 1 |
-| 176 | NUM_Q095 | 95th percentile | region grower | 1 |
+| 149 | NUM_Q005 | 5th percentile | region grower | 1 |
+| 150 | NUM_Q010 | 10th percentile | region grower | 1 |
+| 151 | NUM_Q015 | 15th percentile | region grower | 1 |
+| 152 | NUM_Q020 | 20th percentile | region grower | 1 |
+| 153 | NUM_Q025 | 25th percentile | region grower | 1 |
+| 154 | NUM_Q030 | 30th percentile | region grower | 1 |
+| 155 | NUM_Q035 | 35th percentile | region grower | 1 |
+| 156 | NUM_Q040 | 40th percentile | region grower | 1 |
+| 157 | NUM_Q045 | 45th percentile | region grower | 1 |
+| 158 | NUM_Q050 | 50th percentile | region grower | 1 |
+| 159 | NUM_Q055 | 55th percentile | region grower | 1 |
+| 160 | NUM_Q060 | 60th percentile | region grower | 1 |
+| 161 | NUM_Q065 | 65th percentile | region grower | 1 |
+| 162 | NUM_Q070 | 70th percentile | region grower | 1 |
+| 163 | NUM_Q075 | 75th percentile | region grower | 1 |
+| 164 | NUM_Q080 | 80th percentile | region grower | 1 |
+| 165 | NUM_Q085 | 85th percentile | region grower | 1 |
+| 166 | NUM_Q090 | 90th percentile | region grower | 1 |
+| 167 | NUM_Q095 | 95th percentile | region grower | 1 |
 
 
 
@@ -1108,15 +1091,15 @@ Weights by samples so multiple occurrences are accounted for.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 177 | NUM_CV | Coefficient of variation (NUM_SD / NUM_MEAN) | region grower | 1 |
-| 178 | NUM_KURT | Kurtosis | region grower | 1 |
-| 179 | NUM_MAX | Maximum value (100th quantile) | region grower | 1 |
-| 180 | NUM_MEAN | Mean | region grower | 1 |
-| 181 | NUM_MIN | Minimum value (zero quantile) | region grower | 1 |
-| 182 | NUM_N | Number of samples | region grower | 1 |
-| 183 | NUM_RANGE | Range (max - min) | region grower | 1 |
-| 184 | NUM_SD | Standard deviation | region grower | 1 |
-| 185 | NUM_SKEW | Skewness | region grower | 1 |
+| 168 | NUM_CV | Coefficient of variation (NUM_SD / NUM_MEAN) | region grower | 1 |
+| 169 | NUM_KURT | Kurtosis | region grower | 1 |
+| 170 | NUM_MAX | Maximum value (100th quantile) | region grower | 1 |
+| 171 | NUM_MEAN | Mean | region grower | 1 |
+| 172 | NUM_MIN | Minimum value (zero quantile) | region grower | 1 |
+| 173 | NUM_N | Number of samples | region grower | 1 |
+| 174 | NUM_RANGE | Range (max - min) | region grower | 1 |
+| 175 | NUM_SD | Standard deviation | region grower | 1 |
+| 176 | NUM_SKEW | Skewness | region grower | 1 |
 
 
 
@@ -1135,7 +1118,7 @@ Weights by samples so multiple occurrences are accounted for.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 186 | NUM_GISTAR | List of Gi* scores | region grower | 1 |
+| 177 | NUM_GISTAR | List of Gi* scores | region grower | 1 |
 
 
 ## PhyloCom Indices ##
@@ -1163,11 +1146,11 @@ completely different.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 187 | PHYLO_NRI_NTI_SAMPLE_N | Number of random resamples used | region grower | 1 |   |
-| 188 | PHYLO_NRI_SAMPLE_MEAN | Expected mean of pair-wise distances | region grower | 1 |   |
-| 189 | PHYLO_NRI_SAMPLE_SD | Expected standard deviation of pair-wise distances | region grower | 1 |   |
-| 190 | PHYLO_NTI_SAMPLE_MEAN | Expected mean of nearest taxon distances | region grower | 1 |   |
-| 191 | PHYLO_NTI_SAMPLE_SD | Expected standard deviation of nearest taxon distances | region grower | 1 |   |
+| 178 | PHYLO_NRI_NTI_SAMPLE_N | Number of random resamples used | region grower | 1 |   |
+| 179 | PHYLO_NRI_SAMPLE_MEAN | Expected mean of pair-wise distances | region grower | 1 |   |
+| 180 | PHYLO_NRI_SAMPLE_SD | Expected standard deviation of pair-wise distances | region grower | 1 |   |
+| 181 | PHYLO_NTI_SAMPLE_MEAN | Expected mean of nearest taxon distances | region grower | 1 |   |
+| 182 | PHYLO_NTI_SAMPLE_SD | Expected standard deviation of nearest taxon distances | region grower | 1 |   |
 
 
 
@@ -1187,8 +1170,8 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 192 | PHYLO_NRI3 | Net Relatedness Index, abundance weighted | region grower | 1 |   |
-| 193 | PHYLO_NTI3 | Nearest Taxon Index, abundance weighted | region grower | 1 |   |
+| 183 | PHYLO_NRI3 | Net Relatedness Index, abundance weighted | region grower | 1 |   |
+| 184 | PHYLO_NTI3 | Nearest Taxon Index, abundance weighted | region grower | 1 |   |
 
 
 
@@ -1208,8 +1191,8 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 194 | PHYLO_NRI2 | Net Relatedness Index, local range weighted | region grower | 1 |   |
-| 195 | PHYLO_NTI2 | Nearest Taxon Index, local range weighted | region grower | 1 |   |
+| 185 | PHYLO_NRI2 | Net Relatedness Index, local range weighted | region grower | 1 |   |
+| 186 | PHYLO_NTI2 | Nearest Taxon Index, local range weighted | region grower | 1 |   |
 
 
 
@@ -1229,8 +1212,8 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 196 | PHYLO_NRI1 | Net Relatedness Index, unweighted | region grower | 1 | ![NRI = \\frac{MPD_{obs} - mean(MPD_{rand})}{sd(MPD_{rand})}](http://latex.codecogs.com/png.latex?NRI%20%3D%20%5Cfrac%7BMPD_%7Bobs%7D%20-%20mean%28MPD_%7Brand%7D%29%7D%7Bsd%28MPD_%7Brand%7D%29%7D)   |
-| 197 | PHYLO_NTI1 | Nearest Taxon Index, unweighted | region grower | 1 | ![NTI = \\frac{MNTD_{obs} - mean(MNTD_{rand})}{sd(MNTD_{rand})}](http://latex.codecogs.com/png.latex?NTI%20%3D%20%5Cfrac%7BMNTD_%7Bobs%7D%20-%20mean%28MNTD_%7Brand%7D%29%7D%7Bsd%28MNTD_%7Brand%7D%29%7D)   |
+| 187 | PHYLO_NRI1 | Net Relatedness Index, unweighted | region grower | 1 |  ![NRI = \\frac{MPD_{obs} - mean(MPD_{rand})}{sd(MPD_{rand})}](http://latex.codecogs.com/png.latex?NRI%20%3D%20%5Cfrac%7BMPD_%7Bobs%7D%20-%20mean%28MPD_%7Brand%7D%29%7D%7Bsd%28MPD_%7Brand%7D%29%7D)   |
+| 188 | PHYLO_NTI1 | Nearest Taxon Index, unweighted | region grower | 1 |  ![NTI = \\frac{MNTD_{obs} - mean(MNTD_{rand})}{sd(MNTD_{rand})}](http://latex.codecogs.com/png.latex?NTI%20%3D%20%5Cfrac%7BMNTD_%7Bobs%7D%20-%20mean%28MNTD_%7Brand%7D%29%7D%7Bsd%28MNTD_%7Brand%7D%29%7D)   |
 
 
 
@@ -1249,16 +1232,16 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 198 | PMPD3_MAX | Maximum of pairwise phylogenetic distances | region grower | 1 |   |
-| 199 | PMPD3_MEAN | Mean of pairwise phylogenetic distances | region grower | 1 | ![MPD = \\frac {\\sum_{t_i = 1}^{n_t-1} \\sum_{t_j = 1}^{n_t} d_{t_i \\leftrightarrow t_j}}{(n_t-1)^2}, i \\neq j](http://latex.codecogs.com/png.latex?MPD%20%3D%20%5Cfrac%20%7B%5Csum_%7Bt_i%20%3D%201%7D%5E%7Bn_t-1%7D%20%5Csum_%7Bt_j%20%3D%201%7D%5E%7Bn_t%7D%20d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%7B%28n_t-1%29%5E2%7D%2C%20i%20%5Cneq%20j) where ![d_{t_i \\leftrightarrow t_j} = \\sum_{b \\in B_{t_i \\leftrightarrow t_j}} L_b](http://latex.codecogs.com/png.latex?d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%20%3D%20%5Csum_%7Bb%20%5Cin%20B_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%20L_b) is the sum of the branch lengths along the path connecting ![t_i](http://latex.codecogs.com/png.latex?t_i) and![t_j](http://latex.codecogs.com/png.latex?t_j) such that ![L_b](http://latex.codecogs.com/png.latex?L_b) is the length of each branch in the set of branches![B](http://latex.codecogs.com/png.latex?B)   |
-| 200 | PMPD3_MIN | Minimum of pairwise phylogenetic distances | region grower | 1 |   |
-| 201 | PMPD3_N | Count of pairwise phylogenetic distances | region grower | 1 |   |
-| 202 | PMPD3_RMSD | Root mean squared pairwise phylogenetic distances | region grower | 1 |   |
-| 203 | PNTD3_MAX | Maximum of nearest taxon distances | region grower | 1 |   |
-| 204 | PNTD3_MEAN | Mean of nearest taxon distances | region grower | 1 |   |
-| 205 | PNTD3_MIN | Minimum of nearest taxon distances | region grower | 1 |   |
-| 206 | PNTD3_N | Count of nearest taxon distances | region grower | 1 |   |
-| 207 | PNTD3_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
+| 189 | PMPD3_MAX | Maximum of pairwise phylogenetic distances | region grower | 1 |   |
+| 190 | PMPD3_MEAN | Mean of pairwise phylogenetic distances | region grower | 1 |  ![MPD = \\frac {\\sum_{t_i = 1}^{n_t-1} \\sum_{t_j = 1}^{n_t} d_{t_i \\leftrightarrow t_j}}{(n_t-1)^2}, i \\neq j](http://latex.codecogs.com/png.latex?MPD%20%3D%20%5Cfrac%20%7B%5Csum_%7Bt_i%20%3D%201%7D%5E%7Bn_t-1%7D%20%5Csum_%7Bt_j%20%3D%201%7D%5E%7Bn_t%7D%20d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%7B%28n_t-1%29%5E2%7D%2C%20i%20%5Cneq%20j) where  ![d_{t_i \\leftrightarrow t_j} = \\sum_{b \\in B_{t_i \\leftrightarrow t_j}} L_b](http://latex.codecogs.com/png.latex?d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%20%3D%20%5Csum_%7Bb%20%5Cin%20B_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%20L_b) is the sum of the branch lengths along the path connecting  ![t_i](http://latex.codecogs.com/png.latex?t_i) and ![t_j](http://latex.codecogs.com/png.latex?t_j) such that  ![L_b](http://latex.codecogs.com/png.latex?L_b) is the length of each branch in the set of branches ![B](http://latex.codecogs.com/png.latex?B)   |
+| 191 | PMPD3_MIN | Minimum of pairwise phylogenetic distances | region grower | 1 |   |
+| 192 | PMPD3_N | Count of pairwise phylogenetic distances | region grower | 1 |   |
+| 193 | PMPD3_RMSD | Root mean squared pairwise phylogenetic distances | region grower | 1 |   |
+| 194 | PNTD3_MAX | Maximum of nearest taxon distances | region grower | 1 |   |
+| 195 | PNTD3_MEAN | Mean of nearest taxon distances | region grower | 1 |   |
+| 196 | PNTD3_MIN | Minimum of nearest taxon distances | region grower | 1 |   |
+| 197 | PNTD3_N | Count of nearest taxon distances | region grower | 1 |   |
+| 198 | PNTD3_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
 
 
 
@@ -1277,16 +1260,16 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 208 | PMPD2_MAX | Maximum of pairwise phylogenetic distances | region grower | 1 |   |
-| 209 | PMPD2_MEAN | Mean of pairwise phylogenetic distances | region grower | 1 | ![MPD = \\frac {\\sum_{t_i = 1}^{n_t-1} \\sum_{t_j = 1}^{n_t} d_{t_i \\leftrightarrow t_j}}{(n_t-1)^2}, i \\neq j](http://latex.codecogs.com/png.latex?MPD%20%3D%20%5Cfrac%20%7B%5Csum_%7Bt_i%20%3D%201%7D%5E%7Bn_t-1%7D%20%5Csum_%7Bt_j%20%3D%201%7D%5E%7Bn_t%7D%20d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%7B%28n_t-1%29%5E2%7D%2C%20i%20%5Cneq%20j) where ![d_{t_i \\leftrightarrow t_j} = \\sum_{b \\in B_{t_i \\leftrightarrow t_j}} L_b](http://latex.codecogs.com/png.latex?d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%20%3D%20%5Csum_%7Bb%20%5Cin%20B_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%20L_b) is the sum of the branch lengths along the path connecting ![t_i](http://latex.codecogs.com/png.latex?t_i) and![t_j](http://latex.codecogs.com/png.latex?t_j) such that ![L_b](http://latex.codecogs.com/png.latex?L_b) is the length of each branch in the set of branches![B](http://latex.codecogs.com/png.latex?B)   |
-| 210 | PMPD2_MIN | Minimum of pairwise phylogenetic distances | region grower | 1 |   |
-| 211 | PMPD2_N | Count of pairwise phylogenetic distances | region grower | 1 |   |
-| 212 | PMPD2_RMSD | Root mean squared pairwise phylogenetic distances | region grower | 1 |   |
-| 213 | PNTD2_MAX | Maximum of nearest taxon distances | region grower | 1 |   |
-| 214 | PNTD2_MEAN | Mean of nearest taxon distances | region grower | 1 |   |
-| 215 | PNTD2_MIN | Minimum of nearest taxon distances | region grower | 1 |   |
-| 216 | PNTD2_N | Count of nearest taxon distances | region grower | 1 |   |
-| 217 | PNTD2_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
+| 199 | PMPD2_MAX | Maximum of pairwise phylogenetic distances | region grower | 1 |   |
+| 200 | PMPD2_MEAN | Mean of pairwise phylogenetic distances | region grower | 1 |  ![MPD = \\frac {\\sum_{t_i = 1}^{n_t-1} \\sum_{t_j = 1}^{n_t} d_{t_i \\leftrightarrow t_j}}{(n_t-1)^2}, i \\neq j](http://latex.codecogs.com/png.latex?MPD%20%3D%20%5Cfrac%20%7B%5Csum_%7Bt_i%20%3D%201%7D%5E%7Bn_t-1%7D%20%5Csum_%7Bt_j%20%3D%201%7D%5E%7Bn_t%7D%20d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%7B%28n_t-1%29%5E2%7D%2C%20i%20%5Cneq%20j) where  ![d_{t_i \\leftrightarrow t_j} = \\sum_{b \\in B_{t_i \\leftrightarrow t_j}} L_b](http://latex.codecogs.com/png.latex?d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%20%3D%20%5Csum_%7Bb%20%5Cin%20B_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%20L_b) is the sum of the branch lengths along the path connecting  ![t_i](http://latex.codecogs.com/png.latex?t_i) and ![t_j](http://latex.codecogs.com/png.latex?t_j) such that  ![L_b](http://latex.codecogs.com/png.latex?L_b) is the length of each branch in the set of branches ![B](http://latex.codecogs.com/png.latex?B)   |
+| 201 | PMPD2_MIN | Minimum of pairwise phylogenetic distances | region grower | 1 |   |
+| 202 | PMPD2_N | Count of pairwise phylogenetic distances | region grower | 1 |   |
+| 203 | PMPD2_RMSD | Root mean squared pairwise phylogenetic distances | region grower | 1 |   |
+| 204 | PNTD2_MAX | Maximum of nearest taxon distances | region grower | 1 |   |
+| 205 | PNTD2_MEAN | Mean of nearest taxon distances | region grower | 1 |   |
+| 206 | PNTD2_MIN | Minimum of nearest taxon distances | region grower | 1 |   |
+| 207 | PNTD2_N | Count of nearest taxon distances | region grower | 1 |   |
+| 208 | PNTD2_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
 
 
 
@@ -1305,16 +1288,16 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 218 | PMPD1_MAX | Maximum of pairwise phylogenetic distances | region grower | 1 |   |
-| 219 | PMPD1_MEAN | Mean of pairwise phylogenetic distances | region grower | 1 | ![MPD = \\frac {\\sum_{t_i = 1}^{n_t-1} \\sum_{t_j = 1}^{n_t} d_{t_i \\leftrightarrow t_j}}{(n_t-1)^2}, i \\neq j](http://latex.codecogs.com/png.latex?MPD%20%3D%20%5Cfrac%20%7B%5Csum_%7Bt_i%20%3D%201%7D%5E%7Bn_t-1%7D%20%5Csum_%7Bt_j%20%3D%201%7D%5E%7Bn_t%7D%20d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%7B%28n_t-1%29%5E2%7D%2C%20i%20%5Cneq%20j) where ![d_{t_i \\leftrightarrow t_j} = \\sum_{b \\in B_{t_i \\leftrightarrow t_j}} L_b](http://latex.codecogs.com/png.latex?d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%20%3D%20%5Csum_%7Bb%20%5Cin%20B_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%20L_b) is the sum of the branch lengths along the path connecting ![t_i](http://latex.codecogs.com/png.latex?t_i) and![t_j](http://latex.codecogs.com/png.latex?t_j) such that ![L_b](http://latex.codecogs.com/png.latex?L_b) is the length of each branch in the set of branches![B](http://latex.codecogs.com/png.latex?B)   |
-| 220 | PMPD1_MIN | Minimum of pairwise phylogenetic distances | region grower | 1 |   |
-| 221 | PMPD1_N | Count of pairwise phylogenetic distances | region grower | 1 |   |
-| 222 | PMPD1_RMSD | Root mean squared pairwise phylogenetic distances | region grower | 1 |   |
-| 223 | PNTD1_MAX | Maximum of nearest taxon distances | region grower | 1 |   |
-| 224 | PNTD1_MEAN | Mean of nearest taxon distances | region grower | 1 |   |
-| 225 | PNTD1_MIN | Minimum of nearest taxon distances | region grower | 1 |   |
-| 226 | PNTD1_N | Count of nearest taxon distances | region grower | 1 |   |
-| 227 | PNTD1_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
+| 209 | PMPD1_MAX | Maximum of pairwise phylogenetic distances | region grower | 1 |   |
+| 210 | PMPD1_MEAN | Mean of pairwise phylogenetic distances | region grower | 1 |  ![MPD = \\frac {\\sum_{t_i = 1}^{n_t-1} \\sum_{t_j = 1}^{n_t} d_{t_i \\leftrightarrow t_j}}{(n_t-1)^2}, i \\neq j](http://latex.codecogs.com/png.latex?MPD%20%3D%20%5Cfrac%20%7B%5Csum_%7Bt_i%20%3D%201%7D%5E%7Bn_t-1%7D%20%5Csum_%7Bt_j%20%3D%201%7D%5E%7Bn_t%7D%20d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%7B%28n_t-1%29%5E2%7D%2C%20i%20%5Cneq%20j) where  ![d_{t_i \\leftrightarrow t_j} = \\sum_{b \\in B_{t_i \\leftrightarrow t_j}} L_b](http://latex.codecogs.com/png.latex?d_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%20%3D%20%5Csum_%7Bb%20%5Cin%20B_%7Bt_i%20%5Cleftrightarrow%20t_j%7D%7D%20L_b) is the sum of the branch lengths along the path connecting  ![t_i](http://latex.codecogs.com/png.latex?t_i) and ![t_j](http://latex.codecogs.com/png.latex?t_j) such that  ![L_b](http://latex.codecogs.com/png.latex?L_b) is the length of each branch in the set of branches ![B](http://latex.codecogs.com/png.latex?B)   |
+| 211 | PMPD1_MIN | Minimum of pairwise phylogenetic distances | region grower | 1 |   |
+| 212 | PMPD1_N | Count of pairwise phylogenetic distances | region grower | 1 |   |
+| 213 | PMPD1_RMSD | Root mean squared pairwise phylogenetic distances | region grower | 1 |   |
+| 214 | PNTD1_MAX | Maximum of nearest taxon distances | region grower | 1 |   |
+| 215 | PNTD1_MEAN | Mean of nearest taxon distances | region grower | 1 |   |
+| 216 | PNTD1_MIN | Minimum of nearest taxon distances | region grower | 1 |   |
+| 217 | PNTD1_N | Count of nearest taxon distances | region grower | 1 |   |
+| 218 | PNTD1_RMSD | Root mean squared nearest taxon distances | region grower | 1 |   |
 
 
 ## Phylogenetic Endemism Indices ##
@@ -1330,7 +1313,7 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 228 | PE_CWE | Corrected weighted endemism.  This is the phylogenetic analogue of corrected weighted endemism. | region grower | 1 | ![PE_WE / PD](http://latex.codecogs.com/png.latex?PE_WE%20%2F%20PD)   |   |
+| 219 | PE_CWE | Corrected weighted endemism.  This is the phylogenetic analogue of corrected weighted endemism. | region grower | 1 |  ![PE\\_WE / PD](http://latex.codecogs.com/png.latex?PE%5C_WE%20%2F%20PD)   |   |
 
 
 
@@ -1346,8 +1329,8 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 229 | PEC_CWE | Corrected weighted phylogenetic endemism, central variant | region grower | 1 |
-| 230 | PEC_CWE_PD | PD used in the PEC_CWE index. | region grower | 1 |
+| 220 | PEC_CWE | Corrected weighted phylogenetic endemism, central variant | region grower | 1 |
+| 221 | PEC_CWE_PD | PD used in the PEC_CWE index. | region grower | 1 |
 
 
 
@@ -1363,7 +1346,7 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 231 | PHYLO_RARITY_CWR | Corrected weighted phylogenetic rarity.  This is the phylogenetic rarity analogue of corrected weighted endemism. | region grower | 1 | ![AED_T / PD](http://latex.codecogs.com/png.latex?AED_T%20%2F%20PD)   |   |
+| 222 | PHYLO_RARITY_CWR | Corrected weighted phylogenetic rarity.  This is the phylogenetic rarity analogue of corrected weighted endemism. | region grower | 1 |  ![AED_T / PD](http://latex.codecogs.com/png.latex?AED_T%20%2F%20PD)   |   |
 
 
 
@@ -1382,9 +1365,9 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 232 | PD_ENDEMISM | Phylogenetic Diversity Endemism | region grower | 1 |
-| 233 | PD_ENDEMISM_P | Phylogenetic Diversity Endemism, as a proportion of the whole tree | region grower | 1 |
-| 234 | PD_ENDEMISM_WTS | Phylogenetic Diversity Endemism weights per node found only in the neighbour set |   | 1 |
+| 223 | PD_ENDEMISM | Phylogenetic Diversity Endemism | region grower | 1 |
+| 224 | PD_ENDEMISM_P | Phylogenetic Diversity Endemism, as a proportion of the whole tree | region grower | 1 |
+| 225 | PD_ENDEMISM_WTS | Phylogenetic Diversity Endemism weights per node found only in the neighbour set |   | 1 |
 
 
 
@@ -1400,9 +1383,9 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 235 | PE_CLADE_CONTR | List of node (clade) contributions to the PE calculation |   | 1 |
-| 236 | PE_CLADE_CONTR_P | List of node (clade) contributions to the PE calculation, proportional to the entire tree |   | 1 |
-| 237 | PE_CLADE_SCORE | List of PE scores for each node (clade), being the sum of all descendent PE weights |   | 1 |
+| 226 | PE_CLADE_CONTR | List of node (clade) contributions to the PE calculation |   | 1 |
+| 227 | PE_CLADE_CONTR_P | List of node (clade) contributions to the PE calculation, proportional to the entire tree |   | 1 |
+| 228 | PE_CLADE_SCORE | List of PE scores for each node (clade), being the sum of all descendent PE weights |   | 1 |
 
 
 
@@ -1418,9 +1401,9 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 238 | PE_CLADE_LOSS_CONTR | List of the proportion of the PE score which would be lost if each clade were removed. |   | 1 |
-| 239 | PE_CLADE_LOSS_CONTR_P | As per PE_CLADE_LOSS but proportional to the entire tree |   | 1 |
-| 240 | PE_CLADE_LOSS_SCORE | List of how much PE would be lost if each clade were removed. |   | 1 |
+| 229 | PE_CLADE_LOSS_CONTR | List of the proportion of the PE score which would be lost if each clade were removed. |   | 1 |
+| 230 | PE_CLADE_LOSS_CONTR_P | As per PE_CLADE_LOSS but proportional to the entire tree |   | 1 |
+| 231 | PE_CLADE_LOSS_SCORE | List of how much PE would be lost if each clade were removed. |   | 1 |
 
 
 
@@ -1436,8 +1419,8 @@ so values >0 have longer branches than expected.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 241 | PE_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PE is lost. |   | 1 |
-| 242 | PE_CLADE_LOSS_ANC_P | List of the proportion of the clade's PE loss that is due to the ancestral branches. |   | 1 |
+| 232 | PE_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PE is lost. |   | 1 |
+| 233 | PE_CLADE_LOSS_ANC_P | List of the proportion of the clade's PE loss that is due to the ancestral branches. |   | 1 |
 
 
 
@@ -1447,17 +1430,20 @@ so values >0 have longer branches than expected.
  
 ### Phylogenetic Endemism ###
  
-**Description:**   Phylogenetic endemism (PE).Uses labels in both neighbourhoods and trims the tree to exclude labels not in the BaseData object.
+**Description:**   Phylogenetic endemism (PE). Uses labels across both neighbourhoods and trims the tree to exclude labels not in the BaseData object.
 
 **Subroutine:**   calc_pe
 
-**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x
+**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x; Laity et al. (2015) http://dx.doi.org/10.1016/j.scitotenv.2015.04.113; Laffan et al. (2016) http://dx.doi.org/10.1111/2041-210X.12513
  
 
-| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
-| ---- | ---- | ---- | ---- | ---- |
-| 243 | PE_WE | Phylogenetic endemism | region grower | 1 |
-| 244 | PE_WE_P | Phylogenetic weighted endemism as a proportion of the total tree length | region grower | 1 |
+**Formula:**
+    ![PE = \\sum_{\\lambda \\in \\Lambda } L_{\\lambda}\\frac{r_\\lambda}{R_\\lambda}](http://latex.codecogs.com/png.latex?PE%20%3D%20%5Csum_%7B%5Clambda%20%5Cin%20%5CLambda%20%7D%20L_%7B%5Clambda%7D%5Cfrac%7Br_%5Clambda%7D%7BR_%5Clambda%7D)  where  ![\\Lambda](http://latex.codecogs.com/png.latex?%5CLambda)  is the set of branches found across neighbour sets 1 and 2,  ![L_\\lambda](http://latex.codecogs.com/png.latex?L_%5Clambda)  is the length of branch  ![\\lambda](http://latex.codecogs.com/png.latex?%5Clambda)  ,  ![r_\\lambda](http://latex.codecogs.com/png.latex?r_%5Clambda)  is the local range of branch  ![\\lambda](http://latex.codecogs.com/png.latex?%5Clambda)  (the number of groups in neighbour sets 1 and 2 containing it), and  ![R_\\lambda](http://latex.codecogs.com/png.latex?R_%5Clambda)  is the global range of branch  ![\\lambda](http://latex.codecogs.com/png.latex?%5Clambda)  (the number of groups across the entire data set containing it).
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 234 | PE_WE | Phylogenetic endemism | region grower | 1 |   |
+| 235 | PE_WE_P | Phylogenetic weighted endemism as a proportion of the total tree length | region grower | 1 |  ![PE\\_WE / L](http://latex.codecogs.com/png.latex?PE%5C_WE%20%2F%20L)  where L is the sum of all branch lengths in the trimmed tree  |
 
 
 
@@ -1467,10 +1453,10 @@ so values >0 have longer branches than expected.
  
 ### Phylogenetic Endemism central ###
  
-**Description:**   Phylogenetic endemism (PE).
-Uses labels from neighbour set one but local ranges from across
-both neighbour sets.
-Trims the tree to exclude labels not in the BaseData object.
+**Description:**   A variant of Phylogenetic endemism (PE) that uses labels
+from neighbour set 1 but local ranges from across
+both neighbour sets 1 and 2.  Identical to PE if only
+one neighbour set is specified.
 
 
 **Subroutine:**   calc_pe_central
@@ -1478,10 +1464,13 @@ Trims the tree to exclude labels not in the BaseData object.
 **Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x
  
 
+**Formula:**
+    ![PEC = \\sum_{\\lambda \\in \\Lambda } L_{\\lambda}\\frac{r_\\lambda}{R_\\lambda}](http://latex.codecogs.com/png.latex?PEC%20%3D%20%5Csum_%7B%5Clambda%20%5Cin%20%5CLambda%20%7D%20L_%7B%5Clambda%7D%5Cfrac%7Br_%5Clambda%7D%7BR_%5Clambda%7D)  where  ![\\Lambda](http://latex.codecogs.com/png.latex?%5CLambda)  is the set of branches found across neighbour set 1 only,  ![L_\\lambda](http://latex.codecogs.com/png.latex?L_%5Clambda)  is the length of branch  ![\\lambda](http://latex.codecogs.com/png.latex?%5Clambda)  ,  ![r_\\lambda](http://latex.codecogs.com/png.latex?r_%5Clambda)  is the local range of branch  ![\\lambda](http://latex.codecogs.com/png.latex?%5Clambda)  (the number of groups in neighbour sets 1 and 2 containing it), and  ![R_\\lambda](http://latex.codecogs.com/png.latex?R_%5Clambda)  is the global range of branch  ![\\lambda](http://latex.codecogs.com/png.latex?%5Clambda)  (the number of groups across the entire data set containing it).
+
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 245 | PEC_WE | Phylogenetic endemism, central variant | region grower | 1 |
-| 246 | PEC_WE_P | Phylogenetic weighted endemism as a proportion of the total tree length, central variant | region grower | 1 |
+| 236 | PEC_WE | Phylogenetic endemism, central variant | region grower | 1 |
+| 237 | PEC_WE_P | Phylogenetic weighted endemism as a proportion of the total tree length, central variant | region grower | 1 |
 
 
 
@@ -1503,9 +1492,9 @@ both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 247 | PEC_LOCAL_RANGELIST | Phylogenetic endemism local range lists, central variant |   | 1 |
-| 248 | PEC_RANGELIST | Phylogenetic endemism global range lists, central variant |   | 1 |
-| 249 | PEC_WTLIST | Phylogenetic endemism weights, central variant |   | 1 |
+| 238 | PEC_LOCAL_RANGELIST | Phylogenetic endemism local range lists, central variant |   | 1 |
+| 239 | PEC_RANGELIST | Phylogenetic endemism global range lists, central variant |   | 1 |
+| 240 | PEC_WTLIST | Phylogenetic endemism weights, central variant |   | 1 |
 
 
 
@@ -1524,9 +1513,9 @@ both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 250 | PE_LOCAL_RANGELIST | Local node ranges used in PE calculations (number of groups in which a node is found) |   | 1 |
-| 251 | PE_RANGELIST | Node ranges used in PE calculations |   | 1 |
-| 252 | PE_WTLIST | Node weights used in PE calculations |   | 1 |
+| 241 | PE_LOCAL_RANGELIST | Local node ranges used in PE calculations (number of groups in which a node is found) |   | 1 |
+| 242 | PE_RANGELIST | Node ranges used in PE calculations |   | 1 |
+| 243 | PE_WTLIST | Node weights used in PE calculations |   | 1 |
 
 
 
@@ -1537,6 +1526,11 @@ both neighbour sets.
 ### Phylogenetic Endemism single ###
  
 **Description:**   PE scores, but not weighted by local ranges.
+This is the strict interpretation of the formula given in
+Rosauer et al. (2009), although the approach has always been
+implemented as the fraction of each branch's geographic range
+that is found in the sample window (see formula for PE_WE).
+
 
 **Subroutine:**   calc_pe_single
 
@@ -1545,8 +1539,8 @@ both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 253 | PE_WE_SINGLE | Phylogenetic endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in. Useful if your data have sampling biases. Better with small sample windows. | region grower | 1 |
-| 254 | PE_WE_SINGLE_P | Phylogenetic endemism unweighted by the number of neighbours as a proportion of the total tree length. Counts each label only once, regardless of how many groups in the neighbourhood it is found. Useful if your data have sampling biases. | region grower | 1 |
+| 244 | PE_WE_SINGLE | Phylogenetic endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in. Useful if your data have sampling biases. Better with small sample windows. | region grower | 1 |
+| 245 | PE_WE_SINGLE_P | Phylogenetic endemism unweighted by the number of neighbours as a proportion of the total tree length. Counts each label only once, regardless of how many groups in the neighbourhood it is found. Useful if your data have sampling biases. | region grower | 1 |
 
 
 ## Phylogenetic Indices ##
@@ -1562,7 +1556,7 @@ both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 255 | PHYLO_LABELS_ON_TREE_COUNT | The number of labels that are found on the tree, across both neighbour sets | region grower | 1 |
+| 246 | PHYLO_LABELS_ON_TREE_COUNT | The number of labels that are found on the tree, across both neighbour sets | region grower | 1 |
 
 
 
@@ -1582,9 +1576,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 256 | PHYLO_AED_LIST | Abundance weighted ED per terminal label |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
-| 257 | PHYLO_ED_LIST | "Fair proportion" partitioning of PD per terminal label |   | 1 | Isaac et al. (2007) http://dx.doi.org/10.1371/journal.pone.0000296 |
-| 258 | PHYLO_ES_LIST | Equal splits partitioning of PD per terminal label |   | 1 | Redding & Mooers (2006) http://dx.doi.org/10.1111%2Fj.1523-1739.2006.00555.x |
+| 247 | PHYLO_AED_LIST | Abundance weighted ED per terminal label |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 248 | PHYLO_ED_LIST | "Fair proportion" partitioning of PD per terminal label |   | 1 | Isaac et al. (2007) http://dx.doi.org/10.1371/journal.pone.0000296 |
+| 249 | PHYLO_ES_LIST | Equal splits partitioning of PD per terminal label |   | 1 | Redding & Mooers (2006) http://dx.doi.org/10.1111%2Fj.1523-1739.2006.00555.x |
 
 
 
@@ -1603,7 +1597,7 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 259 | PHYLO_AED_T | Abundance weighted ED_t (sum of values in PHYLO_AED_LIST times their abundances). This is equivalent to a phylogenetic rarity score (see phylogenetic endemism) | region grower | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 250 | PHYLO_AED_T | Abundance weighted ED_t (sum of values in PHYLO_AED_LIST times their abundances). This is equivalent to a phylogenetic rarity score (see phylogenetic endemism) | region grower | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
 
 
 
@@ -1622,8 +1616,8 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 260 | PHYLO_AED_T_WTLIST | Abundance weighted ED per terminal taxon (the AED score of each taxon multiplied by its abundance in the sample) |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
-| 261 | PHYLO_AED_T_WTLIST_P | Proportional contribution of each terminal taxon to the AED_T score |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 251 | PHYLO_AED_T_WTLIST | Abundance weighted ED per terminal taxon (the AED score of each taxon multiplied by its abundance in the sample) |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 252 | PHYLO_AED_T_WTLIST_P | Proportional contribution of each terminal taxon to the AED_T score |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
 
 
 
@@ -1639,9 +1633,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 262 | PHYLO_LABELS_NOT_ON_TREE | A hash of labels that are not found on the tree, across both neighbour sets |   | 1 |
-| 263 | PHYLO_LABELS_NOT_ON_TREE_N | Number of labels not on the tree | region grower | 1 |
-| 264 | PHYLO_LABELS_NOT_ON_TREE_P | Proportion of labels not on the tree | region grower | 1 |
+| 253 | PHYLO_LABELS_NOT_ON_TREE | A hash of labels that are not found on the tree, across both neighbour sets |   | 1 |
+| 254 | PHYLO_LABELS_NOT_ON_TREE_N | Number of labels not on the tree | region grower | 1 |
+| 255 | PHYLO_LABELS_NOT_ON_TREE_P | Proportion of labels not on the tree | region grower | 1 |
 
 
 
@@ -1657,7 +1651,7 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 265 | PHYLO_LABELS_ON_TREE | A hash of labels that are found on the tree, across both neighbour sets |   | 1 |
+| 256 | PHYLO_LABELS_ON_TREE | A hash of labels that are found on the tree, across both neighbour sets |   | 1 |
 
 
 
@@ -1673,9 +1667,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 266 | PD_CLADE_CONTR | List of node (clade) contributions to the PD calculation |   | 1 |
-| 267 | PD_CLADE_CONTR_P | List of node (clade) contributions to the PD calculation, proportional to the entire tree |   | 1 |
-| 268 | PD_CLADE_SCORE | List of PD scores for each node (clade), being the sum of all descendent branch lengths |   | 1 |
+| 257 | PD_CLADE_CONTR | List of node (clade) contributions to the PD calculation |   | 1 |
+| 258 | PD_CLADE_CONTR_P | List of node (clade) contributions to the PD calculation, proportional to the entire tree |   | 1 |
+| 259 | PD_CLADE_SCORE | List of PD scores for each node (clade), being the sum of all descendent branch lengths |   | 1 |
 
 
 
@@ -1691,9 +1685,9 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 269 | PD_CLADE_LOSS_CONTR | List of the proportion of the PD score which would be lost if each clade were removed. |   | 1 |
-| 270 | PD_CLADE_LOSS_CONTR_P | As per PD_CLADE_LOSS but proportional to the entire tree |   | 1 |
-| 271 | PD_CLADE_LOSS_SCORE | List of how much PD would be lost if each clade were removed. |   | 1 |
+| 260 | PD_CLADE_LOSS_CONTR | List of the proportion of the PD score which would be lost if each clade were removed. |   | 1 |
+| 261 | PD_CLADE_LOSS_CONTR_P | As per PD_CLADE_LOSS but proportional to the entire tree |   | 1 |
+| 262 | PD_CLADE_LOSS_SCORE | List of how much PD would be lost if each clade were removed. |   | 1 |
 
 
 
@@ -1709,8 +1703,26 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 272 | PD_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PD is lost. |   | 1 |
-| 273 | PD_CLADE_LOSS_ANC_P | List of the proportion of the clade's PD loss that is due to the ancestral branches. |   | 1 |
+| 263 | PD_CLADE_LOSS_ANC | List of how much ancestral PE would be lost if each clade were removed.  The value is 0 when no ancestral PD is lost. |   | 1 |
+| 264 | PD_CLADE_LOSS_ANC_P | List of the proportion of the clade's PD loss that is due to the ancestral branches. |   | 1 |
+
+
+
+ 
+ 
+
+ 
+### Phylogenetic Abundance ###
+ 
+**Description:**   Phylogenetic abundance based on branch lengths back to the root of the tree.
+Uses labels in both neighbourhoods.
+
+**Subroutine:**   calc_phylo_abundance
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 265 | PHYLO_ABUNDANCE | Phylogenetic abundance | region grower | 1 |  ![= \\sum_{c \\in C} A \\times L_c](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bc%20%5Cin%20C%7D%20A%20%5Ctimes%20L_c)  where  ![C](http://latex.codecogs.com/png.latex?C) is the set of branches in the minimum spanning path joining the labels in both neighbour sets to the root of the tree, ![c](http://latex.codecogs.com/png.latex?c)  is a branch (a single segment between two nodes) in the spanning path  ![C](http://latex.codecogs.com/png.latex?C) , and  ![L_c](http://latex.codecogs.com/png.latex?L_c)  is the length of branch  ![c](http://latex.codecogs.com/png.latex?c) , and  ![A](http://latex.codecogs.com/png.latex?A)  is the abundance of that branch (the sum of its descendant label abundances).  |   |
+| 266 | PHYLO_ABUNDANCE_BRANCH_HASH | Phylogenetic abundance per branch |   | 1 |   |   |
 
 
 
@@ -1727,10 +1739,10 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 274 | PD | Phylogenetic diversity | region grower | 1 | ![= \\sum_{c \\in C} L_c](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bc%20%5Cin%20C%7D%20L_c)  where ![C](http://latex.codecogs.com/png.latex?C) is the set of branches in the minimum spanning path joining the labels in both neighbour sets to the root of the tree,![c](http://latex.codecogs.com/png.latex?c)  is a branch (a single segment between two nodes) in the spanning path ![C](http://latex.codecogs.com/png.latex?C) , and ![L_c](http://latex.codecogs.com/png.latex?L_c)  is the length of branch ![c](http://latex.codecogs.com/png.latex?c) .  | Faith (1992) Biol. Cons. http://dx.doi.org/10.1016/0006-3207(92)91201-3 |
-| 275 | PD_P | Phylogenetic diversity as a proportion of total tree length | region grower | 1 | ![= \\frac { PD }{ \\sum_{c \\in C} L_c }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%20%7D%7B%20%5Csum_%7Bc%20%5Cin%20C%7D%20L_c%20%7D)  where terms are the same as for PD, but ![c](http://latex.codecogs.com/png.latex?c) , ![C](http://latex.codecogs.com/png.latex?C)  and ![L_c](http://latex.codecogs.com/png.latex?L_c)  are calculated for all nodes in the tree.  |   |
-| 276 | PD_P_per_taxon | Phylogenetic diversity per taxon as a proportion of total tree length | region grower | 1 | ![= \\frac { PD\\_P }{ RICHNESS\\_ALL }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%5C_P%20%7D%7B%20RICHNESS%5C_ALL%20%7D)   |   |
-| 277 | PD_per_taxon | Phylogenetic diversity per taxon | region grower | 1 | ![= \\frac { PD }{ RICHNESS\\_ALL }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%20%7D%7B%20RICHNESS%5C_ALL%20%7D)   |   |
+| 267 | PD | Phylogenetic diversity | region grower | 1 |  ![= \\sum_{c \\in C} L_c](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bc%20%5Cin%20C%7D%20L_c)  where  ![C](http://latex.codecogs.com/png.latex?C) is the set of branches in the minimum spanning path joining the labels in both neighbour sets to the root of the tree, ![c](http://latex.codecogs.com/png.latex?c)  is a branch (a single segment between two nodes) in the spanning path  ![C](http://latex.codecogs.com/png.latex?C) , and  ![L_c](http://latex.codecogs.com/png.latex?L_c)  is the length of branch  ![c](http://latex.codecogs.com/png.latex?c) .  | Faith (1992) Biol. Cons. http://dx.doi.org/10.1016/0006-3207(92)91201-3 |
+| 268 | PD_P | Phylogenetic diversity as a proportion of total tree length | region grower | 1 |  ![= \\frac { PD }{ \\sum_{c \\in C} L_c }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%20%7D%7B%20%5Csum_%7Bc%20%5Cin%20C%7D%20L_c%20%7D)  where terms are the same as for PD, but  ![c](http://latex.codecogs.com/png.latex?c) ,  ![C](http://latex.codecogs.com/png.latex?C)  and  ![L_c](http://latex.codecogs.com/png.latex?L_c)  are calculated for all nodes in the tree.  |   |
+| 269 | PD_P_per_taxon | Phylogenetic diversity per taxon as a proportion of total tree length | region grower | 1 |  ![= \\frac { PD\\_P }{ RICHNESS\\_ALL }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%5C_P%20%7D%7B%20RICHNESS%5C_ALL%20%7D)   |   |
+| 270 | PD_per_taxon | Phylogenetic diversity per taxon | region grower | 1 |  ![= \\frac { PD }{ RICHNESS\\_ALL }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%20%7D%7B%20RICHNESS%5C_ALL%20%7D)   |   |
 
 
 
@@ -1746,7 +1758,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 278 | PD_INCLUDED_NODE_LIST | List of tree nodes included in the PD calculations |   | 1 |
+| 271 | PD_INCLUDED_NODE_LIST | List of tree nodes included in the PD calculations |   | 1 |
 
 
 
@@ -1762,7 +1774,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 279 | PD_INCLUDED_TERMINAL_NODE_COUNT | Count of tree terminal nodes included in the PD calculations | region grower | 1 |
+| 272 | PD_INCLUDED_TERMINAL_NODE_COUNT | Count of tree terminal nodes included in the PD calculations | region grower | 1 |
 
 
 
@@ -1778,7 +1790,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 280 | PD_INCLUDED_TERMINAL_NODE_LIST | List of tree terminal nodes included in the PD calculations |   | 1 |
+| 273 | PD_INCLUDED_TERMINAL_NODE_LIST | List of tree terminal nodes included in the PD calculations |   | 1 |
 
 
 
@@ -1797,10 +1809,10 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 281 | TD_DENOMINATOR | Denominator from TD_DISTINCTNESS calcs | region grower | 1 |
-| 282 | TD_DISTINCTNESS | Taxonomic distinctness | region grower | 1 |
-| 283 | TD_NUMERATOR | Numerator from TD_DISTINCTNESS calcs | region grower | 1 |
-| 284 | TD_VARIATION | Variation of the taxonomic distinctness | region grower | 1 |
+| 274 | TD_DENOMINATOR | Denominator from TD_DISTINCTNESS calcs | region grower | 1 |
+| 275 | TD_DISTINCTNESS | Taxonomic distinctness | region grower | 1 |
+| 276 | TD_NUMERATOR | Numerator from TD_DISTINCTNESS calcs | region grower | 1 |
+| 277 | TD_VARIATION | Variation of the taxonomic distinctness | region grower | 1 |
 
 
 
@@ -1819,10 +1831,10 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 285 | TDB_DENOMINATOR | Denominator from TDB_DISTINCTNESS | region grower | 1 |   |
-| 286 | TDB_DISTINCTNESS | Taxonomic distinctness, binary weighted | region grower | 1 | ![= \\frac{\\sum \\sum_{i \\neq j} \\omega_{ij}}{s(s-1)}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum%20%5Csum_%7Bi%20%5Cneq%20j%7D%20%5Comega_%7Bij%7D%7D%7Bs%28s-1%29%7D) where ![\\omega_{ij}](http://latex.codecogs.com/png.latex?%5Comega_%7Bij%7D) is the path length from label ![i](http://latex.codecogs.com/png.latex?i) to the ancestor node shared with ![j](http://latex.codecogs.com/png.latex?j)   |
-| 287 | TDB_NUMERATOR | Numerator from TDB_DISTINCTNESS | region grower | 1 |   |
-| 288 | TDB_VARIATION | Variation of the binary taxonomic distinctness | region grower | 1 | ![= \\frac{\\sum \\sum_{i \\neq j} \\omega_{ij}^2}{s(s-1)} - \\bar{\\omega}^2](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum%20%5Csum_%7Bi%20%5Cneq%20j%7D%20%5Comega_%7Bij%7D%5E2%7D%7Bs%28s-1%29%7D%20-%20%5Cbar%7B%5Comega%7D%5E2) where ![\\bar{\\omega} = \\frac{\\sum \\sum_{i \\neq j} \\omega_{ij}}{s(s-1)} \\equiv TDB\\_DISTINCTNESS](http://latex.codecogs.com/png.latex?%5Cbar%7B%5Comega%7D%20%3D%20%5Cfrac%7B%5Csum%20%5Csum_%7Bi%20%5Cneq%20j%7D%20%5Comega_%7Bij%7D%7D%7Bs%28s-1%29%7D%20%5Cequiv%20TDB%5C_DISTINCTNESS)   |
+| 278 | TDB_DENOMINATOR | Denominator from TDB_DISTINCTNESS | region grower | 1 |   |
+| 279 | TDB_DISTINCTNESS | Taxonomic distinctness, binary weighted | region grower | 1 |  ![= \\frac{\\sum \\sum_{i \\neq j} \\omega_{ij}}{s(s-1)}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum%20%5Csum_%7Bi%20%5Cneq%20j%7D%20%5Comega_%7Bij%7D%7D%7Bs%28s-1%29%7D) where  ![\\omega_{ij}](http://latex.codecogs.com/png.latex?%5Comega_%7Bij%7D) is the path length from label  ![i](http://latex.codecogs.com/png.latex?i) to the ancestor node shared with  ![j](http://latex.codecogs.com/png.latex?j)   |
+| 280 | TDB_NUMERATOR | Numerator from TDB_DISTINCTNESS | region grower | 1 |   |
+| 281 | TDB_VARIATION | Variation of the binary taxonomic distinctness | region grower | 1 |  ![= \\frac{\\sum \\sum_{i \\neq j} \\omega_{ij}^2}{s(s-1)} - \\bar{\\omega}^2](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%5Csum%20%5Csum_%7Bi%20%5Cneq%20j%7D%20%5Comega_%7Bij%7D%5E2%7D%7Bs%28s-1%29%7D%20-%20%5Cbar%7B%5Comega%7D%5E2) where  ![\\bar{\\omega} = \\frac{\\sum \\sum_{i \\neq j} \\omega_{ij}}{s(s-1)} \\equiv TDB\\_DISTINCTNESS](http://latex.codecogs.com/png.latex?%5Cbar%7B%5Comega%7D%20%3D%20%5Cfrac%7B%5Csum%20%5Csum_%7Bi%20%5Cneq%20j%7D%20%5Comega_%7Bij%7D%7D%7Bs%28s-1%29%7D%20%5Cequiv%20TDB%5C_DISTINCTNESS)   |
 
 
 ## Phylogenetic Indices (relative) ##
@@ -1838,9 +1850,9 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 289 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE | A hash of labels that are not found on the tree after it has been trimmed to the basedata, across both neighbour sets |   | 1 |
-| 290 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE_N | Number of labels not on the trimmed tree | region grower | 1 |
-| 291 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE_P | Proportion of labels not on the trimmed tree | region grower | 1 |
+| 282 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE | A hash of labels that are not found on the tree after it has been trimmed to the basedata, across both neighbour sets |   | 1 |
+| 283 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE_N | Number of labels not on the trimmed tree | region grower | 1 |
+| 284 | PHYLO_LABELS_NOT_ON_TRIMMED_TREE_P | Proportion of labels not on the trimmed tree | region grower | 1 |
 
 
 
@@ -1856,7 +1868,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 292 | PHYLO_LABELS_ON_TRIMMED_TREE | A hash of labels that are found on the tree after it has been trimmed to match the basedata, across both neighbour sets |   | 1 |
+| 285 | PHYLO_LABELS_ON_TRIMMED_TREE | A hash of labels that are found on the tree after it has been trimmed to match the basedata, across both neighbour sets |   | 1 |
 
 
 
@@ -1875,9 +1887,9 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 293 | PHYLO_RPD1 | RPD1 | region grower | 1 |   |
-| 294 | PHYLO_RPD_DIFF1 | How much more or less PD is there than expected, in original tree units. | region grower | 1 | ![= tree\\_length \\times (PD\\_P - PHYLO\\_RPD\\_NULL1)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PD%5C_P%20-%20PHYLO%5C_RPD%5C_NULL1%29)   |
-| 295 | PHYLO_RPD_NULL1 | Null model score used as the denominator in the RPD1 calculations | region grower | 1 |   |
+| 286 | PHYLO_RPD1 | RPD1 | region grower | 1 |   |
+| 287 | PHYLO_RPD_DIFF1 | How much more or less PD is there than expected, in original tree units. | region grower | 1 |  ![= tree\\_length \\times (PD\\_P - PHYLO\\_RPD\\_NULL1)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PD%5C_P%20-%20PHYLO%5C_RPD%5C_NULL1%29)   |
+| 288 | PHYLO_RPD_NULL1 | Null model score used as the denominator in the RPD1 calculations | region grower | 1 |   |
 
 
 
@@ -1896,9 +1908,30 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 296 | PHYLO_RPD2 | RPD2 | region grower | 1 |   |
-| 297 | PHYLO_RPD_DIFF2 | How much more or less PD is there than expected, in original tree units. | region grower | 1 | ![= tree\\_length \\times (PD\\_P - PHYLO\\_RPD\\_NULL2)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PD%5C_P%20-%20PHYLO%5C_RPD%5C_NULL2%29)   |
-| 298 | PHYLO_RPD_NULL2 | Null model score used as the denominator in the RPD2 calculations | region grower | 1 |   |
+| 289 | PHYLO_RPD2 | RPD2 | region grower | 1 |   |
+| 290 | PHYLO_RPD_DIFF2 | How much more or less PD is there than expected, in original tree units. | region grower | 1 |  ![= tree\\_length \\times (PD\\_P - PHYLO\\_RPD\\_NULL2)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PD%5C_P%20-%20PHYLO%5C_RPD%5C_NULL2%29)   |
+| 291 | PHYLO_RPD_NULL2 | Null model score used as the denominator in the RPD2 calculations | region grower | 1 |   |
+
+
+
+ 
+ 
+
+ 
+### Relative Phylogenetic Endemism, central ###
+ 
+**Description:**   Relative Phylogenetic Endemism (RPE).  The ratio of the tree's PE to a null model where PE is calculated using a tree where all branches are of equal length.  Same as RPE2 except it only uses the branches in the first neighbour set when more than one is set.
+
+**Subroutine:**   calc_phylo_rpe_central
+
+**Reference:**   Mishler et al. (2014) http://dx.doi.org/10.1038/ncomms5473
+ 
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
+| ---- | ---- | ---- | ---- | ---- | ---- |
+| 292 | PHYLO_RPEC | Relative Phylogenetic Endemism score, central | region grower | 1 |   |
+| 293 | PHYLO_RPE_DIFFC | How much more or less PE is there than expected, in original tree units. | region grower | 1 |  ![= tree\\_length \\times (PE\\_WEC\\_P - PHYLO\\_RPE\\_NULLC)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PE%5C_WEC%5C_P%20-%20PHYLO%5C_RPE%5C_NULLC%29)   |
+| 294 | PHYLO_RPE_NULLC | Null score used as the denominator in the PHYLO_RPEC calculations | region grower | 1 |   |
 
 
 
@@ -1917,9 +1950,9 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 299 | PHYLO_RPE1 | Relative Phylogenetic Endemism score | region grower | 1 |   |
-| 300 | PHYLO_RPE_DIFF1 | How much more or less PE is there than expected, in original tree units. | region grower | 1 | ![= tree\\_length \\times (PE\\_WE\\_P - PHYLO\\_RPE\\_NULL1)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PE%5C_WE%5C_P%20-%20PHYLO%5C_RPE%5C_NULL1%29)   |
-| 301 | PHYLO_RPE_NULL1 | Null score used as the denominator in the RPE calculations | region grower | 1 |   |
+| 295 | PHYLO_RPE1 | Relative Phylogenetic Endemism score | region grower | 1 |   |
+| 296 | PHYLO_RPE_DIFF1 | How much more or less PE is there than expected, in original tree units. | region grower | 1 |  ![= tree\\_length \\times (PE\\_WE\\_P - PHYLO\\_RPE\\_NULL1)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PE%5C_WE%5C_P%20-%20PHYLO%5C_RPE%5C_NULL1%29)   |
+| 297 | PHYLO_RPE_NULL1 | Null score used as the denominator in the RPE calculations | region grower | 1 |   |
 
 
 
@@ -1938,9 +1971,9 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 302 | PHYLO_RPE2 | Relative Phylogenetic Endemism score, type 2 | region grower | 1 |   |
-| 303 | PHYLO_RPE_DIFF2 | How much more or less PE is there than expected, in original tree units. | region grower | 1 | ![= tree\\_length \\times (PE\\_WE\\_P - PHYLO\\_RPE\\_NULL1)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PE%5C_WE%5C_P%20-%20PHYLO%5C_RPE%5C_NULL1%29)   |
-| 304 | PHYLO_RPE_NULL2 | Null score used as the denominator in the RPE2 calculations | region grower | 1 |   |
+| 298 | PHYLO_RPE2 | Relative Phylogenetic Endemism score, type 2 | region grower | 1 |   |
+| 299 | PHYLO_RPE_DIFF2 | How much more or less PE is there than expected, in original tree units. | region grower | 1 |  ![= tree\\_length \\times (PE\\_WE\\_P - PHYLO\\_RPE\\_NULL2)](http://latex.codecogs.com/png.latex?%3Dtree%5C_length%20%5Ctimes%20%28PE%5C_WE%5C_P%20-%20PHYLO%5C_RPE%5C_NULL2%29)   |
+| 300 | PHYLO_RPE_NULL2 | Null score used as the denominator in the RPE2 calculations | region grower | 1 |   |
 
 
 ## Phylogenetic Turnover ##
@@ -1955,9 +1988,34 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_jaccard
 
+**Reference:**   Lozupone and Knight (2005) http://dx.doi.org/10.1128/AEM.71.12.8228-8235.2005
+ 
+
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 305 | PHYLO_JACCARD | Phylo Jaccard score | cluster metric | 1 | ![= 1 - (A / (A + B + C))](http://latex.codecogs.com/png.latex?%3D1%20-%20%28A%20%2F%20%28A%20%2B%20B%20%2B%20C%29%29)  where A is the length of shared branches, and B and C are the length of branches found only in neighbour sets 1 and 2  |
+| 301 | PHYLO_JACCARD | Phylo Jaccard score | cluster metric | 1 |  ![= 1 - (A / (A + B + C))](http://latex.codecogs.com/png.latex?%3D1%20-%20%28A%20%2F%20%28A%20%2B%20B%20%2B%20C%29%29)  where A is the length of shared branches, and B and C are the length of branches found only in neighbour sets 1 and 2  |
+
+
+
+ 
+ 
+
+ 
+### Phylo Range weighted Turnover ###
+ 
+**Description:**   Phylo Range weighted Turnover
+
+**Subroutine:**   calc_phylo_rw_turnover
+
+**Reference:**   TBA
+ 
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
+| ---- | ---- | ---- | ---- | ---- |
+| 302 | PHYLO_RW_TURNOVER | Range weighted turnover | cluster metric | 1 |
+| 303 | PHYLO_RW_TURNOVER_A | Range weighted turnover, shared component | region grower | 1 |
+| 304 | PHYLO_RW_TURNOVER_B | Range weighted turnover, component found only in nbr set 1 | region grower | 1 |
+| 305 | PHYLO_RW_TURNOVER_C | Range weighted turnover, component found only in nbr set 2 | region grower | 1 |
 
 
 
@@ -1974,7 +2032,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 306 | PHYLO_S2 | Phylo S2 score | cluster metric | 1 | ![= 1 - (A / (A + min (B, C)))](http://latex.codecogs.com/png.latex?%3D1%20-%20%28A%20%2F%20%28A%20%2B%20min%20%28B%2C%20C%29%29%29)  where A is the length of shared branches, and B and C are the length of branches found only in neighbour sets 1 and 2  |
+| 306 | PHYLO_S2 | Phylo S2 score | cluster metric | 1 |  ![= 1 - (A / (A + min (B, C)))](http://latex.codecogs.com/png.latex?%3D1%20-%20%28A%20%2F%20%28A%20%2B%20min%20%28B%2C%20C%29%29%29)  where A is the length of shared branches, and B and C are the length of branches found only in neighbour sets 1 and 2  |
 
 
 
@@ -1989,9 +2047,12 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_sorenson
 
+**Reference:**   Bryant et al. (2008) http://dx.doi.org/10.1073/pnas.0801920105
+ 
+
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 307 | PHYLO_SORENSON | Phylo Sorenson score | cluster metric | 1 | ![1 - (2A / (2A + B + C))](http://latex.codecogs.com/png.latex?1%20-%20%282A%20%2F%20%282A%20%2B%20B%20%2B%20C%29%29)  where A is the length of shared branches, and B and C are the length of branches found only in neighbour sets 1 and 2  |
+| 307 | PHYLO_SORENSON | Phylo Sorenson score | cluster metric | 1 |  ![1 - (2A / (2A + B + C))](http://latex.codecogs.com/png.latex?1%20-%20%282A%20%2F%20%282A%20%2B%20B%20%2B%20C%29%29)  where A is the length of shared branches, and B and C are the length of branches found only in neighbour sets 1 and 2  |
 
 
 
@@ -2027,9 +2088,9 @@ Uses the same algorithm as the endemism indices but weights by sample counts ins
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 312 | RAREC_CWE | Corrected weighted rarity |   | 1 | ![= \\frac{RAREC\\_WE}{RAREC\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BRAREC%5C_WE%7D%7BRAREC%5C_RICHNESS%7D)   |
+| 312 | RAREC_CWE | Corrected weighted rarity |   | 1 |  ![= \\frac{RAREC\\_WE}{RAREC\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BRAREC%5C_WE%7D%7BRAREC%5C_RICHNESS%7D)   |
 | 313 | RAREC_RICHNESS | Richness used in RAREC_CWE (same as index RICHNESS_SET1). |   | 1 |   |
-| 314 | RAREC_WE | Weighted rarity |   | 1 | ![= \\sum_{t \\in T} \\frac {s_t} {S_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Bs_t%7D%20%7BS_t%7D)  where ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa) ![T](http://latex.codecogs.com/png.latex?T)  across neighbour set 1, ![s_t](http://latex.codecogs.com/png.latex?s_t)  is sum of the sample counts for ![t](http://latex.codecogs.com/png.latex?t)  across the elements in neighbour sets 1 & 2 (its value in list ABC3_LABELS_ALL), and ![S_t](http://latex.codecogs.com/png.latex?S_t)  is the total number of samples across the data set for label ![t](http://latex.codecogs.com/png.latex?t)  (unless the total sample count is specified at import).  |
+| 314 | RAREC_WE | Weighted rarity |   | 1 |  ![= \\sum_{t \\in T} \\frac {s_t} {S_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Bs_t%7D%20%7BS_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across neighbour set 1,  ![s_t](http://latex.codecogs.com/png.latex?s_t)  is sum of the sample counts for  ![t](http://latex.codecogs.com/png.latex?t)  across the elements in neighbour sets 1 & 2 (its value in list ABC3_LABELS_ALL), and  ![S_t](http://latex.codecogs.com/png.latex?S_t)  is the total number of samples across the data set for label  ![t](http://latex.codecogs.com/png.latex?t)  (unless the total sample count is specified at import).  |
 
 
 
@@ -2065,9 +2126,9 @@ by sample counts instead of by groups occupied.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 317 | RAREW_CWE | Corrected weighted rarity | region grower | 1 | ![= \\frac{RAREW\\_WE}{RAREW\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BRAREW%5C_WE%7D%7BRAREW%5C_RICHNESS%7D)   |
+| 317 | RAREW_CWE | Corrected weighted rarity | region grower | 1 |  ![= \\frac{RAREW\\_WE}{RAREW\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BRAREW%5C_WE%7D%7BRAREW%5C_RICHNESS%7D)   |
 | 318 | RAREW_RICHNESS | Richness used in RAREW_CWE (same as index RICHNESS_ALL). | region grower | 1 |   |
-| 319 | RAREW_WE | Weighted rarity | region grower | 1 | ![= \\sum_{t \\in T} \\frac {s_t} {S_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Bs_t%7D%20%7BS_t%7D)  where ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa) ![T](http://latex.codecogs.com/png.latex?T)  across both neighbour sets, ![s_t](http://latex.codecogs.com/png.latex?s_t)  is sum of the sample counts for ![t](http://latex.codecogs.com/png.latex?t)  across the elements in neighbour sets 1 & 2 (its value in list ABC3_LABELS_ALL), and ![S_t](http://latex.codecogs.com/png.latex?S_t)  is the total number of samples across the data set for label ![t](http://latex.codecogs.com/png.latex?t)  (unless the total sample count is specified at import).  |
+| 319 | RAREW_WE | Weighted rarity | region grower | 1 |  ![= \\sum_{t \\in T} \\frac {s_t} {S_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Bs_t%7D%20%7BS_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across both neighbour sets,  ![s_t](http://latex.codecogs.com/png.latex?s_t)  is sum of the sample counts for  ![t](http://latex.codecogs.com/png.latex?t)  across the elements in neighbour sets 1 & 2 (its value in list ABC3_LABELS_ALL), and  ![S_t](http://latex.codecogs.com/png.latex?S_t)  is the total number of samples across the data set for label  ![t](http://latex.codecogs.com/png.latex?t)  (unless the total sample count is specified at import).  |
 
 
 
@@ -2087,6 +2148,103 @@ by sample counts instead of by groups occupied.
 | 321 | RAREW_WTLIST | List of weights for each label used in therarity whole calculations |   | 1 |
 
 
+## Richness estimators ##
+ 
+ 
+
+ 
+### ACE ###
+ 
+**Description:**   Abundance Coverage-based Estimator os species richness
+
+**Subroutine:**   calc_ace
+
+**Reference:**   needed
+ 
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
+| ---- | ---- | ---- | ---- | ---- |
+| 322 | ACE_CI_LOWER | ACE lower confidence interval estimate | region grower | 1 |
+| 323 | ACE_CI_UPPER | ACE upper confidence interval estimate | region grower | 1 |
+| 324 | ACE_ESTIMATE | ACE score | region grower | 1 |
+| 325 | ACE_ESTIMATE_USED_CHAO | Set to 1 when ACE cannot be calculated and so Chao1 estimate is used | region grower | 1 |
+| 326 | ACE_INFREQUENT_COUNT | Count of infrequent species | region grower | 1 |
+| 327 | ACE_SE | ACE standard error | region grower | 1 |
+| 328 | ACE_UNDETECTED | Estimated number of undetected species | region grower | 1 |
+| 329 | ACE_VARIANCE | ACE variance | region grower | 1 |
+
+
+
+ 
+ 
+
+ 
+### Chao1 ###
+ 
+**Description:**   Chao1 species richness estimator (abundance based)
+
+**Subroutine:**   calc_chao1
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 330 | CHAO1_CI_LOWER | Lower confidence interval for the Chao1 estimate | region grower | 1 |   |   |
+| 331 | CHAO1_CI_UPPER | Upper confidence interval for the Chao1 estimate | region grower | 1 |   |   |
+| 332 | CHAO1_ESTIMATE | Chao1 index | region grower | 1 |   | NEEDED |
+| 333 | CHAO1_F1_COUNT | Number of singletons in the sample | region grower | 1 |   |   |
+| 334 | CHAO1_F2_COUNT | Number of doubletons in the sample | region grower | 1 |   |   |
+| 335 | CHAO1_META | Metadata indicating which formulae were used in the calculations. Numbers refer to EstimateS equations at http://viceroy.eeb.uconn.edu/EstimateS/EstimateSPages/EstSUsersGuide/EstimateSUsersGuide.htm |   | 1 |   |   |
+| 336 | CHAO1_SE | Standard error of the Chao1 estimator [= sqrt(variance)] | region grower | 1 |   |   |
+| 337 | CHAO1_UNDETECTED | Estimated number of undetected species | region grower | 1 |   |   |
+| 338 | CHAO1_VARIANCE | Variance of the Chao1 estimator | region grower | 1 |   |   |
+
+
+
+ 
+ 
+
+ 
+### Chao2 ###
+ 
+**Description:**   Chao2 species richness estimator (incidence based)
+
+**Subroutine:**   calc_chao2
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
+| ---- | ---- | ---- | ---- | ---- | ---- | ---- |
+| 339 | CHAO2_CI_LOWER | Lower confidence interval for the Chao2 estimate | region grower | 1 |   |   |
+| 340 | CHAO2_CI_UPPER | Upper confidence interval for the Chao2 estimate | region grower | 1 |   |   |
+| 341 | CHAO2_ESTIMATE | Chao2 index | region grower | 1 |   | NEEDED |
+| 342 | CHAO2_META | Metadata indicating which formulae were used in the calculations. Numbers refer to EstimateS equations at http://viceroy.eeb.uconn.edu/EstimateS/EstimateSPages/EstSUsersGuide/EstimateSUsersGuide.htm |   | 1 |   |   |
+| 343 | CHAO2_Q1_COUNT | Number of uniques in the sample | region grower | 1 |   |   |
+| 344 | CHAO2_Q2_COUNT | Number of duplicates in the sample | region grower | 1 |   |   |
+| 345 | CHAO2_SE | Standard error of the Chao2 estimator [= sqrt (variance)] | region grower | 1 |   |   |
+| 346 | CHAO2_UNDETECTED | Estimated number of undetected species | region grower | 1 |   |   |
+| 347 | CHAO2_VARIANCE | Variance of the Chao2 estimator | region grower | 1 |   |   |
+
+
+
+ 
+ 
+
+ 
+### ICE ###
+ 
+**Description:**   Incidence Coverage-based Estimator of species richness
+
+**Subroutine:**   calc_ice
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
+| ---- | ---- | ---- | ---- | ---- |
+| 348 | ICE_CI_LOWER | ICE lower confidence interval estimate | region grower | 1 |
+| 349 | ICE_CI_UPPER | ICE upper confidence interval estimate | region grower | 1 |
+| 350 | ICE_ESTIMATE | ICE score | region grower | 1 |
+| 351 | ICE_ESTIMATE_USED_CHAO | Set to 1 when ICE cannot be calculated and so Chao2 estimate is used | region grower | 1 |
+| 352 | ICE_INFREQUENT_COUNT | Count of infrequent species | region grower | 1 |
+| 353 | ICE_SE | ICE standard error | region grower | 1 |
+| 354 | ICE_UNDETECTED | Estimated number of undetected species | region grower | 1 |
+| 355 | ICE_VARIANCE | ICE variance | region grower | 1 |
+
+
 ## Taxonomic Dissimilarity and Comparison ##
  
  
@@ -2101,7 +2259,7 @@ by sample counts instead of by groups occupied.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 322 | BETA_2 | The other beta | cluster metric | 1 | ![= \\frac{A + B + C}{max((A+B), (A+C))} - 1](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BA%20%2B%20B%20%2B%20C%7D%7Bmax%28%28A%2BB%29%2C%20%28A%2BC%29%29%7D%20-%201)  where ![A](http://latex.codecogs.com/png.latex?A) is the count of labels found in both neighbour sets, ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.  |
+| 356 | BETA_2 | The other beta | cluster metric | 1 |  ![= \\frac{A + B + C}{max((A+B), (A+C))} - 1](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BA%20%2B%20B%20%2B%20C%7D%7Bmax%28%28A%2BB%29%2C%20%28A%2BC%29%29%7D%20-%201)  where  ![A](http://latex.codecogs.com/png.latex?A) is the count of labels found in both neighbour sets,  ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and  ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.  |
 
 
 
@@ -2117,14 +2275,14 @@ Reduces to the Sorenson metric for binary data (where sample counts are 1 or 0).
 **Subroutine:**   calc_bray_curtis
 
 **Formula:**
-   ![= 1 - \\frac{2W}{A + B}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7B2W%7D%7BA%20%2B%20B%7D)  where ![A](http://latex.codecogs.com/png.latex?A)  is the sum of the sample counts in neighbour set 1, ![B](http://latex.codecogs.com/png.latex?B)  is the sum of sample counts in neighbour set 2, and ![W=\\sum^n_{i=1} min(sample\\_count\\_label_{i_{set1}},sample\\_count\\_label_{i_{set2}})](http://latex.codecogs.com/png.latex?W%3D%5Csum%5En_%7Bi%3D1%7D%20min%28sample%5C_count%5C_label_%7Bi_%7Bset1%7D%7D%2Csample%5C_count%5C_label_%7Bi_%7Bset2%7D%7D%29)  (meaning it sums the minimum of the sample counts for each of the ![n](http://latex.codecogs.com/png.latex?n)  labels across the two neighbour sets), 
+    ![= 1 - \\frac{2W}{A + B}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7B2W%7D%7BA%20%2B%20B%7D)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the sum of the sample counts in neighbour set 1,  ![B](http://latex.codecogs.com/png.latex?B)  is the sum of sample counts in neighbour set 2, and  ![W=\\sum^n_{i=1} min(sample\\_count\\_label_{i_{set1}},sample\\_count\\_label_{i_{set2}})](http://latex.codecogs.com/png.latex?W%3D%5Csum%5En_%7Bi%3D1%7D%20min%28sample%5C_count%5C_label_%7Bi_%7Bset1%7D%7D%2Csample%5C_count%5C_label_%7Bi_%7Bset2%7D%7D%29)  (meaning it sums the minimum of the sample counts for each of the  ![n](http://latex.codecogs.com/png.latex?n)  labels across the two neighbour sets), 
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 323 | BC_A | The A factor used in calculations (see formula) |   | 1 |
-| 324 | BC_B | The B factor used in calculations (see formula) |   | 1 |
-| 325 | BC_W | The W factor used in calculations (see formula) | region grower | 1 |
-| 326 | BRAY_CURTIS | Bray Curtis dissimilarity | cluster metric | 1 |
+| 357 | BC_A | The A factor used in calculations (see formula) |   | 1 |
+| 358 | BC_B | The B factor used in calculations (see formula) |   | 1 |
+| 359 | BC_W | The W factor used in calculations (see formula) | region grower | 1 |
+| 360 | BRAY_CURTIS | Bray Curtis dissimilarity | cluster metric | 1 |
 
 
 
@@ -2143,14 +2301,14 @@ for unbalanced sizes.
 **Subroutine:**   calc_bray_curtis_norm_by_gp_counts
 
 **Formula:**
-   ![= 1 - \\frac{2W}{A + B}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7B2W%7D%7BA%20%2B%20B%7D)  where ![A](http://latex.codecogs.com/png.latex?A)  is the sum of the sample counts in neighbour set 1 normalised (divided) by the number of groups, ![B](http://latex.codecogs.com/png.latex?B)  is the sum of the sample counts in neighbour set 2 normalised by the number of groups, and ![W = \\sum^n_{i=1} min(sample\\_count\\_label_{i_{set1}},sample\\_count\\_label_{i_{set2}})](http://latex.codecogs.com/png.latex?W%20%3D%20%5Csum%5En_%7Bi%3D1%7D%20min%28sample%5C_count%5C_label_%7Bi_%7Bset1%7D%7D%2Csample%5C_count%5C_label_%7Bi_%7Bset2%7D%7D%29)  (meaning it sums the minimum of the normalised sample counts for each of the ![n](http://latex.codecogs.com/png.latex?n)  labels across the two neighbour sets), 
+    ![= 1 - \\frac{2W}{A + B}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7B2W%7D%7BA%20%2B%20B%7D)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the sum of the sample counts in neighbour set 1 normalised (divided) by the number of groups,  ![B](http://latex.codecogs.com/png.latex?B)  is the sum of the sample counts in neighbour set 2 normalised by the number of groups, and  ![W = \\sum^n_{i=1} min(sample\\_count\\_label_{i_{set1}},sample\\_count\\_label_{i_{set2}})](http://latex.codecogs.com/png.latex?W%20%3D%20%5Csum%5En_%7Bi%3D1%7D%20min%28sample%5C_count%5C_label_%7Bi_%7Bset1%7D%7D%2Csample%5C_count%5C_label_%7Bi_%7Bset2%7D%7D%29)  (meaning it sums the minimum of the normalised sample counts for each of the  ![n](http://latex.codecogs.com/png.latex?n)  labels across the two neighbour sets), 
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 327 | BCN_A | The A factor used in calculations (see formula) |   | 1 |
-| 328 | BCN_B | The B factor used in calculations (see formula) |   | 1 |
-| 329 | BCN_W | The W factor used in calculations (see formula) | region grower | 1 |
-| 330 | BRAY_CURTIS_NORM | Bray Curtis dissimilarity normalised by groups | cluster metric | 1 |
+| 361 | BCN_A | The A factor used in calculations (see formula) |   | 1 |
+| 362 | BCN_B | The B factor used in calculations (see formula) |   | 1 |
+| 363 | BCN_W | The W factor used in calculations (see formula) | region grower | 1 |
+| 364 | BRAY_CURTIS_NORM | Bray Curtis dissimilarity normalised by groups | cluster metric | 1 |
 
 
 
@@ -2165,11 +2323,11 @@ for unbalanced sizes.
 **Subroutine:**   calc_jaccard
 
 **Formula:**
-   ![= 1 - \\frac{A}{A + B + C}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BA%7D%7BA%20%2B%20B%20%2B%20C%7D)  where ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets, ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
+    ![= 1 - \\frac{A}{A + B + C}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BA%7D%7BA%20%2B%20B%20%2B%20C%7D)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets,  ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and  ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 331 | JACCARD | Jaccard value, 0 is identical, 1 is completely dissimilar | cluster metric | 1 |
+| 365 | JACCARD | Jaccard value, 0 is identical, 1 is completely dissimilar | cluster metric | 1 |
 
 
 
@@ -2185,11 +2343,11 @@ for unbalanced sizes.
 **Subroutine:**   calc_kulczynski2
 
 **Formula:**
-   ![= 1 - 0.5 * (\\frac{A}{A + B} + \\frac{A}{A + C})](http://latex.codecogs.com/png.latex?%3D1%20-%200.5%20%2A%20%28%5Cfrac%7BA%7D%7BA%20%2B%20B%7D%20%2B%20%5Cfrac%7BA%7D%7BA%20%2B%20C%7D%29)  where ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets, ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
+    ![= 1 - 0.5 * (\\frac{A}{A + B} + \\frac{A}{A + C})](http://latex.codecogs.com/png.latex?%3D1%20-%200.5%20%2A%20%28%5Cfrac%7BA%7D%7BA%20%2B%20B%7D%20%2B%20%5Cfrac%7BA%7D%7BA%20%2B%20C%7D%29)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets,  ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and  ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 332 | KULCZYNSKI2 | Kulczynski 2 index | cluster metric | 1 |
+| 366 | KULCZYNSKI2 | Kulczynski 2 index | cluster metric | 1 |
 
 
 
@@ -2207,11 +2365,33 @@ for unbalanced sizes.
  
 
 **Formula:**
-   ![=\\frac{ \\left | B - C \\right | }{ 2A + B + C } \\times \\frac { A }{ A + min (B, C) }= SORENSON - S2](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%20%5Cleft%20%7C%20B%20-%20C%20%5Cright%20%7C%20%7D%7B%202A%20%2B%20B%20%2B%20C%20%7D%20%5Ctimes%20%5Cfrac%20%7B%20A%20%7D%7B%20A%20%2B%20min%20%28B%2C%20C%29%20%7D%3D%20SORENSON%20-%20S2)  where ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets, ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
+    ![=\\frac{ \\left | B - C \\right | }{ 2A + B + C } \\times \\frac { A }{ A + min (B, C) }= SORENSON - S2](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7B%20%5Cleft%20%7C%20B%20-%20C%20%5Cright%20%7C%20%7D%7B%202A%20%2B%20B%20%2B%20C%20%7D%20%5Ctimes%20%5Cfrac%20%7B%20A%20%7D%7B%20A%20%2B%20min%20%28B%2C%20C%29%20%7D%3D%20SORENSON%20-%20S2)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets,  ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and  ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 333 | NEST_RESULTANT | Nestedness-resultant index | cluster metric | 1 |
+| 367 | NEST_RESULTANT | Nestedness-resultant index | cluster metric | 1 |
+
+
+
+ 
+ 
+
+ 
+### Range weighted Sorenson ###
+ 
+**Description:**   Range weighted Sorenson
+
+**Subroutine:**   calc_rw_turnover
+
+**Reference:**   TBA
+ 
+
+| *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
+| ---- | ---- | ---- | ---- | ---- |
+| 368 | RW_TURNOVER | Range weighted turnover | cluster metric | 1 |
+| 369 | RW_TURNOVER_A | Range weighted turnover, shared component | region grower | 1 |
+| 370 | RW_TURNOVER_B | Range weighted turnover, component found only in nbr set 1 | region grower | 1 |
+| 371 | RW_TURNOVER_C | Range weighted turnover, component found only in nbr set 2 | region grower | 1 |
 
 
 
@@ -2227,13 +2407,13 @@ Should collapse to be the Simpson index for presence/absence data.
 **Subroutine:**   calc_tx_rao_qe
 
 **Formula:**
-   ![= \\sum_{i \\in L} \\sum_{j \\in L} d_{ij} p_i p_j](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bi%20%5Cin%20L%7D%20%5Csum_%7Bj%20%5Cin%20L%7D%20d_%7Bij%7D%20p_i%20p_j)  where ![p_i](http://latex.codecogs.com/png.latex?p_i)  and ![p_j](http://latex.codecogs.com/png.latex?p_j)  are the sample counts for the i'th and j'th labels, ![d_{ij}](http://latex.codecogs.com/png.latex?d_%7Bij%7D)  is a value of zero if ![i = j](http://latex.codecogs.com/png.latex?i%20%3D%20j)  , and a value of 1 otherwise. ![L](http://latex.codecogs.com/png.latex?L)  is the set of labels across both neighbour sets.
+    ![= \\sum_{i \\in L} \\sum_{j \\in L} d_{ij} p_i p_j](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bi%20%5Cin%20L%7D%20%5Csum_%7Bj%20%5Cin%20L%7D%20d_%7Bij%7D%20p_i%20p_j)  where  ![p_i](http://latex.codecogs.com/png.latex?p_i)  and  ![p_j](http://latex.codecogs.com/png.latex?p_j)  are the sample counts for the i'th and j'th labels,  ![d_{ij}](http://latex.codecogs.com/png.latex?d_%7Bij%7D)  is a value of zero if  ![i = j](http://latex.codecogs.com/png.latex?i%20%3D%20j)  , and a value of 1 otherwise.  ![L](http://latex.codecogs.com/png.latex?L)  is the set of labels across both neighbour sets.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 334 | TX_RAO_QE | Taxonomically weighted quadratic entropy | region grower | 1 |
-| 335 | TX_RAO_TLABELS | List of labels and values used in the TX_RAO_QE calculations |   | 1 |
-| 336 | TX_RAO_TN | Count of comparisons used to calculate TX_RAO_QE | region grower | 1 |
+| 372 | TX_RAO_QE | Taxonomically weighted quadratic entropy | region grower | 1 |
+| 373 | TX_RAO_TLABELS | List of labels and values used in the TX_RAO_QE calculations |   | 1 |
+| 374 | TX_RAO_TN | Count of comparisons used to calculate TX_RAO_QE | region grower | 1 |
 
 
 
@@ -2252,11 +2432,11 @@ Should collapse to be the Simpson index for presence/absence data.
  
 
 **Formula:**
-   ![= 1 - \\frac{A}{A + min(B, C)}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BA%7D%7BA%20%2B%20min%28B%2C%20C%29%7D)  where ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets, ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
+    ![= 1 - \\frac{A}{A + min(B, C)}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7BA%7D%7BA%20%2B%20min%28B%2C%20C%29%7D)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets,  ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and  ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 337 | S2 | S2 dissimilarity index | cluster metric | 1 |
+| 375 | S2 | S2 dissimilarity index | cluster metric | 1 |
 
 
 
@@ -2272,14 +2452,14 @@ Should collapse to be the Simpson index for presence/absence data.
 **Subroutine:**   calc_simpson_shannon
 
 **Formula:**
-    For each index formula, ![p_i](http://latex.codecogs.com/png.latex?p_i)  is the number of samples of the i'th label as a proportion of the total number of samples ![n](http://latex.codecogs.com/png.latex?n)  in the neighbourhoods.
+    For each index formula,  ![p_i](http://latex.codecogs.com/png.latex?p_i)  is the number of samples of the i'th label as a proportion of the total number of samples  ![n](http://latex.codecogs.com/png.latex?n)  in the neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 338 | SHANNON_E | Shannon's evenness (H / HMAX) | region grower | 1 | ![Evenness = \\frac{H}{HMAX}](http://latex.codecogs.com/png.latex?Evenness%20%3D%20%5Cfrac%7BH%7D%7BHMAX%7D)   |
-| 339 | SHANNON_H | Shannon's H | region grower | 1 | ![H = - \\sum^n_{i=1} (p_i \\cdot ln (p_i))](http://latex.codecogs.com/png.latex?H%20%3D%20-%20%5Csum%5En_%7Bi%3D1%7D%20%28p_i%20%5Ccdot%20ln%20%28p_i%29%29)   |
-| 340 | SHANNON_HMAX | maximum possible value of Shannon's H | region grower | 1 | ![HMAX = ln(richness)](http://latex.codecogs.com/png.latex?HMAX%20%3D%20ln%28richness%29)   |
-| 341 | SIMPSON_D | Simpson's D. A score of zero is more similar. | region grower | 1 | ![D = 1 - \\sum^n_{i=1} p_i^2](http://latex.codecogs.com/png.latex?D%20%3D%201%20-%20%5Csum%5En_%7Bi%3D1%7D%20p_i%5E2)   |
+| 376 | SHANNON_E | Shannon's evenness (H / HMAX) | region grower | 1 |  ![Evenness = \\frac{H}{HMAX}](http://latex.codecogs.com/png.latex?Evenness%20%3D%20%5Cfrac%7BH%7D%7BHMAX%7D)   |
+| 377 | SHANNON_H | Shannon's H | region grower | 1 |  ![H = - \\sum^n_{i=1} (p_i \\cdot ln (p_i))](http://latex.codecogs.com/png.latex?H%20%3D%20-%20%5Csum%5En_%7Bi%3D1%7D%20%28p_i%20%5Ccdot%20ln%20%28p_i%29%29)   |
+| 378 | SHANNON_HMAX | maximum possible value of Shannon's H | region grower | 1 |  ![HMAX = ln(richness)](http://latex.codecogs.com/png.latex?HMAX%20%3D%20ln%28richness%29)   |
+| 379 | SIMPSON_D | Simpson's D. A score of zero is more similar. | region grower | 1 |  ![D = 1 - \\sum^n_{i=1} p_i^2](http://latex.codecogs.com/png.latex?D%20%3D%201%20-%20%5Csum%5En_%7Bi%3D1%7D%20p_i%5E2)   |
 
 
 
@@ -2295,11 +2475,11 @@ It is the complement of the (unimplemented) Czechanowski index, and numerically 
 **Subroutine:**   calc_sorenson
 
 **Formula:**
-   ![= 1 - \\frac{2A}{2A + B + C}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7B2A%7D%7B2A%20%2B%20B%20%2B%20C%7D)  where ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets, ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
+    ![= 1 - \\frac{2A}{2A + B + C}](http://latex.codecogs.com/png.latex?%3D1%20-%20%5Cfrac%7B2A%7D%7B2A%20%2B%20B%20%2B%20C%7D)  where  ![A](http://latex.codecogs.com/png.latex?A)  is the count of labels found in both neighbour sets,  ![B](http://latex.codecogs.com/png.latex?B)  is the count unique to neighbour set 1, and  ![C](http://latex.codecogs.com/png.latex?C)  is the count unique to neighbour set 2. Use the [Label counts](#label-counts) calculation to derive these directly.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
 | ---- | ---- | ---- | ---- | ---- |
-| 342 | SORENSON | Sorenson index | cluster metric | 1 |
+| 380 | SORENSON | Sorenson index | cluster metric | 1 |
 
 
 <img src="http://www.codecogs.com/images/poweredbycc.gif" width="102" height="34" vspace="5" border="0" alt="Powered by CodeCogs"/>
