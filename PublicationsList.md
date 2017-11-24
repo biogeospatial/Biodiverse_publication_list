@@ -31,7 +31,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (2017) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography, 14, 531–538](http://dx.doi.org/10.1111/ecog.02010).
 
-  * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (in press) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, 44, 605-614](http://dx.doi.org/10.1111/jbi.12875).
+  * Di Virgilio, G., Laffan, S.W., Nielsen, S.V. and Chapple, D.G. (2017) Does range-restricted evolutionary history predict extinction risk? A case study in lizards.  [Journal of Biogeography, 44, 605-614](http://dx.doi.org/10.1111/jbi.12875).
 
   * Heenan, P.B., Millar, T.R., Smissen, R.D., McGlone, M.S. and Wilton, A.D. (2017) Phylogenetic measures of neo- and palaeo-endemism in the indigenous vascular flora of the New Zealand archipelago.  [Australian Systematic Botany, 30, 124-133](https://doi.org/10.1071/SB17009)
 
