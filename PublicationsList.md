@@ -10,7 +10,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
-  * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (in press) Patterns, biases, and prospects in the distribution and diversity of snakes through big data for Neotropical region. [Global Ecology and Biogeography](http://dx.doi.org/10.1111/geb.12679).
+  * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (in press) Patterns, biases and prospects in the distribution and diversity of Neotropical snakes. [Global Ecology and Biogeography](http://dx.doi.org/10.1111/geb.12679).
 
   * Zhang, H., Bonser, S. P., Chen, S.-C., Hitchcock, T. and Moles, A. T. (2017) Is the proportion of clonal species higher at higher latitudes in Australia? [Austral Ecology](http://dx.doi.org/10.1111/aec.12536).
 
