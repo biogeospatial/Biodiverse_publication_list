@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Zhang H. and Zhang M. (2017) Spatial patterns of species diversity and phylogenetic structure of plant communities in the Tianshan Mountains, Arid Central Asia.  [Frontiers in Plant Science, 8, 2134](https://doi.org/10.3389/fpls.2017.02134).
+
   * Dalrymple, R.L., Kemp, D.J., Laffan, S.W., White, T.E., Flores-Moreno, H., Hemmings, F.A., Hitchcock, T.D., & Moles, A.T. (in press) Abiotic and biotic predictors of macroecological patterns in bird and butterfly coloration. [Ecological Monographs](http://dx.doi.org/10.1002/ecm.1287).
 
   * Zhang, H., Bonser, S. P., Chen, S.-C., Hitchcock, T. and Moles, A. T. (2017) Is the proportion of clonal species higher at higher latitudes in Australia? [Austral Ecology](http://dx.doi.org/10.1111/aec.12536).
