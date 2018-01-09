@@ -23,8 +23,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (2018) Patterns, biases and prospects in the distribution and diversity of Neotropical snakes. [Global Ecology and Biogeography, 27, 14-21](http://dx.doi.org/10.1111/geb.12679).
 
-  * Thornhill, A.H., Baldwin, B.G., Freyman, W.A., Nosratinia, S., Kling, M.M., Morueta-Holme, N., Madsen, T.P., Ackerly, D.D. and  Mishler, B.D. (2017) Spatial phylogenetics of the native California flora.  [BMC Biology 15, 96](https://doi.org/10.1186/s12915-017-0435-x).
-
 #### 2017 ####
 
   * Baldwin, B.G., Thornhill, A.H., Freyman, W.A., Ackerly, D.D., Kling, M.M., Morueta-Holme, N. and Mishler, B.D. (2017) Species richness and endemism in the native flora of California.  [American Journal of Botany, 104, 487-501](https://dx.doi.org/10.3732/ajb.1600326).
@@ -46,6 +44,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Santos, A.P.B, Bitencourt, C. and Rapini, A. (2017) Distribution patterns of Kielmeyera (Calophyllaceae): the Rio Doce basin emerges as a confluent area between the northern and southern Atlantic Forest.  [Neotropical Biodiversity, 3, 1-9](http://dx.doi.org/10.1080/23766808.2016.1266730).
 
   * Scherson, R.A., Thornhill, A.H., Urbina-Casanova, R., Freyman, W.A., Pliscoff, P.A. and Mishler, B.D. (2017) Spatial phylogenetics of the vascular flora of Chile.  [Molecular Phylogenetics and Evolution, 112, 88-95](https://doi.org/10.1016/j.ympev.2017.04.021).
+
+  * Thornhill, A.H., Baldwin, B.G., Freyman, W.A., Nosratinia, S., Kling, M.M., Morueta-Holme, N., Madsen, T.P., Ackerly, D.D. and  Mishler, B.D. (2017) Spatial phylogenetics of the native California flora.  [BMC Biology 15, 96](https://doi.org/10.1186/s12915-017-0435-x).
 
   * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (2017) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology, 10, 294-300](http://dx.doi.org/10.1093/jpe/rtw031).
 
