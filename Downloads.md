@@ -39,6 +39,8 @@ All versions are for 64 bit architectures.
 
 #### Known issues ####
 
+  * There are issues in the Mac version with importing from text files: [Issue 683](https://github.com/shawnlaffan/biodiverse/issues/683).  If you have CSV files then you can convert them to spreadsheet formats.  See the [blog post for details](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html).
+
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
