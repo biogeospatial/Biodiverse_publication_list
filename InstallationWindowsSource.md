@@ -85,7 +85,6 @@ The above installation process **should** install all the relevant files, so we 
 
 # Trouble shooting #
 
-  * If you get errors about not finding gnome-canvas, glib and friends then check that the `%GTK_PATH%\c\bin` directory exists and is correctly named.
   * If Perl complains that it cannot locate a file when running Biodiverse then this library will need to be installed interactively using cpan. The complaint will contain text like `Can't locate Fred/Fred.pm in @INC (@INC contains:...)`  In this case, install module Fred::Fred (substitute a double colon "::" for each forward slash "/", and remove the trailing ".pm" from the module it cannot locate). E.g.: `cpanm Fred::Fred` . This can happen if one or more of the modules listed in the Task distributions failed to install.
 
   * Please report any other issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)
