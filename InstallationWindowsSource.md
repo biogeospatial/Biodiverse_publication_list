@@ -24,8 +24,9 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ```dos
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
-  :: This line is only needed if the strawberry perl bin folders 
-  :: are not in your path already
+  :: This next command should only be needed if the strawberry perl bin folders 
+  :: are not in your path already, or if Rtools (or some other c-compiler toolset) 
+  :: comes before the strawberry perl bin folders in the path.
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%PATH%
 ```
 
