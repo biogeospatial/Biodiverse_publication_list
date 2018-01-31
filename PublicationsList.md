@@ -12,8 +12,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Yap, J-YS., Rossetto, M., Costion, C., et al. (in press) Filters of floristic exchange: How traits and climate shape the rain forest invasion of Sahul from Sunda. [Journal of Biogeography](https://doi.org/10.1111/jbi.13143).
 
-  * Zhang, H. and Zhang, M. (2017) Spatial patterns of species diversity and phylogenetic structure of plant communities in the Tianshan Mountains, Arid Central Asia.  [Frontiers in Plant Science, 8, 2134](https://doi.org/10.3389/fpls.2017.02134).
-
   * Dalrymple, R.L., Kemp, D.J., Laffan, S.W., White, T.E., Flores-Moreno, H., Hemmings, F.A., Hitchcock, T.D., & Moles, A.T. (in press) Abiotic and biotic predictors of macroecological patterns in bird and butterfly coloration. [Ecological Monographs](http://dx.doi.org/10.1002/ecm.1287).
 
   * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (in press) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems](http://dx.doi.org/10.1080/11263504.2017.1353550).
@@ -54,6 +52,9 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Tindall, M.L., Thomson, F.J., Laffan, S.W., and Moles, A.T. (2017) Is there a latitudinal gradient in the proportion of species with spinescence?  [Journal of Plant Ecology, 10, 294-300](http://dx.doi.org/10.1093/jpe/rtw031).
 
   * Yu, F., Skidmore, A.K., Wang, T., Huang, J., Ma, K and Groen, T.A. (2017) Rhododendron diversity patterns and priority conservation areas in China.  [Diversity and Distributions, 23, 1143–1156](http://dx.doi.org/10.1111/ddi.12607).
+
+  * Zhang, H. and Zhang, M. (2017) Spatial patterns of species diversity and phylogenetic structure of plant communities in the Tianshan Mountains, Arid Central Asia.  [Frontiers in Plant Science, 8, 2134](https://doi.org/10.3389/fpls.2017.02134).
+
 
 #### 2016 ####
 
