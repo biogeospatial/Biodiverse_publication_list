@@ -39,7 +39,7 @@ All versions are for 64 bit architectures.
 
 #### Known issues ####
 
-  * Prior to 19-Feb-2018, there were issues in the Mac version with importing from text files: [Issue 683](https://github.com/shawnlaffan/biodiverse/issues/683).  If you downloaded Biodiverse for the Mac prior to this then please re-download it using the link above.
+  * Prior to 19-Feb-2018, there were issues in the Mac version with importing from text files (details are in [Issue 683](https://github.com/shawnlaffan/biodiverse/issues/683)).  If you downloaded Biodiverse for the Mac prior to this then please download the fixed version using the updated link above.
 
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
@@ -49,7 +49,7 @@ _Version 1.99_008 was released on 22-Sep-2017_
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_008) summarise the changes in this version.  See also [recent blog posts](http://biodiverse-analysis-software.blogspot.com.au/).
 
-*Note: that the first run will start slowly (about 45 seconds) as it unpacks the component parts to the temp directory.  Subsequent runs will be substantially faster as the component part are cached.*
+*Note: that the first run will start slowly (about 45 seconds) as it unpacks the component parts to the temp directory.  Subsequent runs will be substantially faster as the component parts are cached and reused.*
 
   These do not include the RunRandomisation utility.
 
