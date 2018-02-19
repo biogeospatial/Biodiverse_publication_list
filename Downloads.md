@@ -34,12 +34,12 @@ All versions are for 64 bit architectures.
 
 * [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_linux.zip)
 
-* [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_mac.zip)
+* [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_mac_mk2.zip)
 
 
 #### Known issues ####
 
-  * There are issues in the Mac version with importing from text files: [Issue 683](https://github.com/shawnlaffan/biodiverse/issues/683).  If you have CSV files then you can convert them to spreadsheet formats.  See the [blog post for details](http://biodiverse-analysis-software.blogspot.com.au/2015/06/import-your-species-data-from.html).
+  * Prior to 19-Feb-2018, there were issues in the Mac version with importing from text files: [Issue 683](https://github.com/shawnlaffan/biodiverse/issues/683).  If you downloaded Biodiverse for the Mac prior to this then please re-download it using the link above.
 
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
