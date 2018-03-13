@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (in press) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography](http://dx.doi.org/10.1111/ecog.03260).
+
   * Yap, J-YS., Rossetto, M., Costion, C., et al. (in press) Filters of floristic exchange: How traits and climate shape the rain forest invasion of Sahul from Sunda. [Journal of Biogeography](https://doi.org/10.1111/jbi.13143).
 
   * Dalrymple, R.L., Kemp, D.J., Laffan, S.W., White, T.E., Flores-Moreno, H., Hemmings, F.A., Hitchcock, T.D., & Moles, A.T. (in press) Abiotic and biotic predictors of macroecological patterns in bird and butterfly coloration. [Ecological Monographs](http://dx.doi.org/10.1002/ecm.1287).
