@@ -78,7 +78,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Laffan, S.W., Rosauer, D.F., Di Virgilio, G., Miller, J.T., Gonzales-Orozco, C., Knerr, N., Thornhill, A. & Mishler, B.D. (2016) Range-weighted metrics of species and phylogenetic turnover can better resolve biogeographic breaks and boundaries. [Methods in Ecology and Evolution, 7, 580-588](http://dx.doi.org/10.1111/2041-210X.12513).
 
-  * Thornhill, A.H., Mishler, B.D., Knerr, N., González-Orozco, C.E., Costion, C., Crayn, D., Laffan, S.W. & Miller, J.T. (2016) Continental scale phylogenetic diversity and endemism in Australian angiosperms. [Journal of Biogeography, 43, 2085–2098](http://dx.doi.org/10.1111/jbi.12797).
+  * Thornhill, A.H., Mishler, B.D., Knerr, N., González-Orozco, C.E., Costion, C., Crayn, D., Laffan, S.W. & Miller, J.T. (2016) Continental‐scale spatial phylogenetics of Australian angiosperms provides insights into ecology, evolution and conservation. [Journal of Biogeography, 43, 2085–2098](http://dx.doi.org/10.1111/jbi.12797).
 
   * Tolley, K.A., Alexander, G.J., Branch, W.R., Bowles, P. and Maritz, B. (2016) Conservation Status and Threats for African Reptiles.  [Biological Conservation, 204, 63–71](http://dx.doi.org/10.1016/j.biocon.2016.04.006).
 
