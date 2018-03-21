@@ -70,7 +70,7 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * González-Ávila, P.A., Luna-Vega, I., García-Sandoval, R. and Contreras-Medina, R. (2016) Distributional patterns of the Order Gomphales (Fungi: Basidiomycota) in Mexico.  [Tropical Conservation Science, 9, 1940082916667140](http://dx.doi.org/10.1177/1940082916667140).
 
-  * González-Orozco, C.E., Pollock, L.J., Knerr, N., Mishler, B.D., Miller, J.T., Laffan, S.W., Thornhill, A.H., Rosauer, D.F., Faith, D., Nipperess, D., Kujala, H., Linke, S. and Gruber, B. (2016) Phylogenetic approaches uncover biodiversity threats under climate change. [Nature Climate Change, 6, 1110-1114](http://dx.doi.org/10.1038/nclimate3126).
+  * González-Orozco, C.E., Pollock, L.J., Knerr, N., Mishler, B.D., Miller, J.T., Laffan, S.W., Thornhill, A.H., Rosauer, D.F., Faith, D., Nipperess, D., Kujala, H., Linke, S. and Gruber, B. (2016) Phylogenetic approaches reveal biodiversity threats under climate change. [Nature Climate Change, 6, 1110-1114](http://dx.doi.org/10.1038/nclimate3126).
 
   * Hallgren, W., Beaumont, L., Bowness, A., Chambers, L., Graham, E., Holewa, H., Laffan, S., Mackey, B., Nix, H., Vanderwal, J., Warren, R. & Weis, G. (2016) The Biodiversity and Climate Change Virtual Laboratory: Where Ecology meets Big Data. [Environmental Modelling and Software, 76, 182-186](http://dx.doi.org/10.1016/j.envsoft.2015.10.025).
 
