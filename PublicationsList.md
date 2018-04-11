@@ -12,8 +12,6 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (in press) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography](http://dx.doi.org/10.1111/ecog.03260).
 
-  * Yap, J-YS., Rossetto, M., Costion, C., et al. (in press) Filters of floristic exchange: How traits and climate shape the rain forest invasion of Sahul from Sunda. [Journal of Biogeography](https://doi.org/10.1111/jbi.13143).
-
   * Dalrymple, R.L., Kemp, D.J., Laffan, S.W., White, T.E., Flores-Moreno, H., Hemmings, F.A., Hitchcock, T.D., & Moles, A.T. (in press) Abiotic and biotic predictors of macroecological patterns in bird and butterfly coloration. [Ecological Monographs](http://dx.doi.org/10.1002/ecm.1287).
 
   * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (in press) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems](http://dx.doi.org/10.1080/11263504.2017.1353550).
@@ -24,6 +22,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
   * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (2018) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography, 41, 1-10](http://dx.doi.org/10.1111/ecog.02596).
 
   * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (2018) Patterns, biases and prospects in the distribution and diversity of Neotropical snakes. [Global Ecology and Biogeography, 27, 14-21](http://dx.doi.org/10.1111/geb.12679).
+
+  * Yap, J-YS., Rossetto, M., Costion, C., et al. (2018) Filters of floristic exchange: How traits and climate shape the rain forest invasion of Sahul from Sunda. [Journal of Biogeography, 25, 838-847](https://doi.org/10.1111/jbi.13143).
 
   * Zhang, H., Bonser, S. P., Chen, S.-C., Hitchcock, T. and Moles, A. T. (2018) Is the proportion of clonal species higher at higher latitudes in Australia? [Austral Ecology, 43, 69-75](http://dx.doi.org/10.1111/aec.12536).
 
