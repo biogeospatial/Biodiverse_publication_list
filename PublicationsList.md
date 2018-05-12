@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (in press) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12416).
+
   * Di Virgilio, G., Wardell-Johnson, G.W., Robinson, T.P., Temple-Smith, D., Hesforde, J. (in press) Characterising fine-scale variation in plant species richness and endemism across topographically complex, semi-arid landscapes.  [Journal of Arid Environments](https://doi.org/10.1016/j.jaridenv.2018.04.005).
 
   * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (in press) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography](http://dx.doi.org/10.1111/ecog.03260).
