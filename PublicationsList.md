@@ -18,12 +18,12 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
   * Dalrymple, R.L., Kemp, D.J., Laffan, S.W., White, T.E., Flores-Moreno, H., Hemmings, F.A., Hitchcock, T.D., & Moles, A.T. (in press) Abiotic and biotic predictors of macroecological patterns in bird and butterfly coloration. [Ecological Monographs, 88, 204-224](http://dx.doi.org/10.1002/ecm.1287).
 
-  * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (in press) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems](http://dx.doi.org/10.1080/11263504.2017.1353550).
-
 
 #### 2018 ####
 
   * Bloomfield, N.J., Knerr, N. and Encinas-Viso, F. (2018) A comparison of network and clustering methods to detect biogeographical regions.  [Ecography, 41, 1-10](http://dx.doi.org/10.1111/ecog.02596).
+
+  * Carta, A., Pierini, B., Roma-Marzio, F., Bedini, G. and Peruzzi, L. (2018) Phylogenetic measures of biodiversity uncover pteridophyte centres of diversity and hotspots in Tuscany.  [Plant Biosystems, 152, 831-839](http://dx.doi.org/10.1080/11263504.2017.1353550).
 
   * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (2018) Patterns, biases and prospects in the distribution and diversity of Neotropical snakes. [Global Ecology and Biogeography, 27, 14-21](http://dx.doi.org/10.1111/geb.12679).
 
