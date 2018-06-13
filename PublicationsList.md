@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Spalink, D., Pender, J., Escudero, M., Hipp, A.L., Roalson, E.H., Starr, J.R., Waterway, M.J., Bohs, L. and Sytsma, K.J. (in press) The spatial structure of phylogenetic and functional diversity in the United States and Canada: An example using the sedge family (Cyperaceae). [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12423).
+
   * Orsenigo, S. et al. (2018) Red Listing plants under full national responsibility: Extinction risk and threats in the vascular flora endemic to Italy.  [Biological Conservation, 224, 213-222](https://doi.org/10.1016/j.biocon.2018.05.030).
 
   * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (in press) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12416).
