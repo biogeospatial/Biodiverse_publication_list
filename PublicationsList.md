@@ -1,6 +1,6 @@
 ## Primary citation ##
 To cite Biodiverse or acknowledge its use, cite this publication as follows, substituting the version of the application that you used for "Version 1.0".
-  * Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity.  [Ecography. Vol 33, 643-647 (version 1.0)](http://dx.doi.org/10.1111/j.1600-0587.2010.06237.x).   
+  * Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity.  [Ecography, 33, 643-647 (version 2.0)](http://dx.doi.org/10.1111/j.1600-0587.2010.06237.x).   
 
 > Article access is free from the publisher, but an alternate link is http://handle.unsw.edu.au/1959.4/45539 .
 
@@ -9,6 +9,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 > Publications are listed in reverse chronological order by year, then by author within years.
 
 #### in press/recent ####
+
+  * Orsenigo, S. et al. (2018) Red Listing plants under full national responsibility: Extinction risk and threats in the vascular flora endemic to Italy.  [Biological Conservation, 224, 213-222](https://doi.org/10.1016/j.biocon.2018.05.030).
 
   * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (in press) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12416).
 
