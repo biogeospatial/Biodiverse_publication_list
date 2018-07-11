@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Link-Pérez, M.A. and Laffan, S.W. (in press) Fern and lycophyte diversity in the Pacific Northwest: Patterns and predictors.  [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12430).
+
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
 
   * Spalink, D., Pender, J., Escudero, M., Hipp, A.L., Roalson, E.H., Starr, J.R., Waterway, M.J., Bohs, L. and Sytsma, K.J. (in press) The spatial structure of phylogenetic and functional diversity in the United States and Canada: An example using the sedge family (Cyperaceae). [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12423).
