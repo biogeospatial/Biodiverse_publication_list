@@ -10,6 +10,8 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 #### in press/recent ####
 
+  * Elliott, M.J., Knerr, N.J. and Schmidt-Lebuhn, A.N. (in press) Choice between phylogram and chronogram can have a dramatic impact on the location of phylogenetic diversity hotspots.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13399).
+
   * Link-Pérez, M.A. and Laffan, S.W. (in press) Fern and lycophyte diversity in the Pacific Northwest: Patterns and predictors.  [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12430).
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
