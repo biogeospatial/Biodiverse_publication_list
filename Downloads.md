@@ -24,7 +24,7 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 2.0, released 14-Nov-2016._
+_The current stable release is version 2.0, released 14-Nov-2017._
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-20) summarise the changes in this version.
 
@@ -44,6 +44,8 @@ All versions are for 64 bit architectures.
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
+
+*There is no current development release.*
 
 _Version 1.99_008 was released on 22-Sep-2017_
 
