@@ -36,7 +36,7 @@ This version is pending release.  It provides a small number of updates and impr
 
 Highlights are:
   * GUI
-    * The label list ion the viww labels tab is now correctly updated when multiple labels are deleted.  [Issue #700](https://github.com/shawnlaffan/biodiverse/issues/700) 
+    * The label list in the view labels tab is now correctly updated when multiple labels are deleted.  [Issue #700](https://github.com/shawnlaffan/biodiverse/issues/700) 
     *  The user defined colours in the cluster tab uses a 13 colour palette by default (it was 9).  [Issue #688](https://github.com/shawnlaffan/biodiverse/issues/688) 
   * Exports
     * Cluster and RegionGrower exports now support the export of a GeoTIFF of the map display with colours that match the tree branches.  [Issue #684](https://github.com/shawnlaffan/biodiverse/issues/684)  
