@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 2.1](#version-21)
 * [Version 2.0](#version-20)
 * [Version 1.99](#version-199)
   * [Version 1.99_008](#version-199_008)
@@ -29,6 +30,26 @@
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
 
+# Version 2.1 #
+
+This version is pending release.  It provides a small number of updates and improvements over the version 2.0 release.  
+
+Highlights are:
+  * GUI
+    * The label list ion the viww labels tab is now correctly updated when multiple labels are deleted.  [Issue #700](https://github.com/shawnlaffan/biodiverse/issues/700) 
+    *  The user defined colours in the cluster tab uses a 13 colour palette by default (it was 9).  [Issue #688](https://github.com/shawnlaffan/biodiverse/issues/688) 
+  * Exports
+    * Cluster and RegionGrower exports now support the export of a GeoTIFF of the map display with colours that match the tree branches.  [Issue #684](https://github.com/shawnlaffan/biodiverse/issues/684)  
+    * Various minor cluster analysis export issues have been resolved. 
+  * Randomisations
+    * The structured randomisations are faster for larger data sets.  [Issue #685](https://github.com/shawnlaffan/biodiverse/issues/685)
+  * Tree trimming 
+    *  Tree trimming has been sped up for large trees.  [Issue #679](https://github.com/shawnlaffan/biodiverse/issues/679)
+    * The trim trees tool has the option to trim to the last common ancestor, thereby removing a dangling root node.  [Issue #670](https://github.com/shawnlaffan/biodiverse/issues/670)
+
+For the full list of issues and changes in the 2.1 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_2.1+
+
+To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 # Version 2.0 #
 
