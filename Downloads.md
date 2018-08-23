@@ -24,22 +24,20 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 2.0, released 14-Nov-2017._
+_The current stable release is version 2.1, released 23-Aug-2018._
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-20) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-21) summarise the changes in this version.
 
 All versions are for 64 bit architectures.
 
-* [Windows (~38MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_win.zip)
+* [Windows (~38MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_win.zip)
 
-* [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_linux.zip)
+* [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_linux.zip)
 
-* [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.0_mac_mk2.zip)
+* [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_mac.zip)
 
 
 #### Known issues ####
-
-  * Prior to 19-Feb-2018, there were issues in the Mac version with importing from text files (details are in [Issue 683](https://github.com/shawnlaffan/biodiverse/issues/683)).  If you downloaded Biodiverse for the Mac prior to this then please download the fixed version using the updated link above.
 
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
@@ -47,24 +45,8 @@ All versions are for 64 bit architectures.
 
 *There is no current development release.*
 
-_Version 1.99_008 was released on 22-Sep-2017_
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-199_008) summarise the changes in this version.  See also [recent blog posts](http://biodiverse-analysis-software.blogspot.com.au/).
-
-*Note: that the first run will start slowly (about 45 seconds) as it unpacks the component parts to the temp directory.  Subsequent runs will be substantially faster as the component parts are cached and reused.*
-
-  These do not include the RunRandomisation utility.
-
-* [Windows (64 bit, 7zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_008_win.7z)  (The 7zip utility can be downloaded from http://www.7-zip.org).
-
-* [Windows (64 bit, standard zip format, ~30MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_008_win.zip)
-
-* [Mac (v1.99_007, 64 bit, standard zip format, ~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_1.99_007_mac.zip)
-    * Note that the Mac version is still at 1.99_007.
-
-* A Linux binary is yet to be released.
-
-* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r1.99_008)
+* [Source code](https://github.com/shawnlaffan/biodiverse/tree/master)
 
 
 
