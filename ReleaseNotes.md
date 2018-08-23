@@ -32,7 +32,7 @@
 
 # Version 2.1 #
 
-This version is pending release.  It provides a small number of updates and improvements over the version 2.0 release.  
+This version provides a small number of updates and improvements over the version 2.0 release.  
 
 Highlights are:
   * GUI
