@@ -39,7 +39,7 @@ Highlights are:
     * The label list in the view labels tab is now correctly updated when multiple labels are deleted.  [Issue #700](https://github.com/shawnlaffan/biodiverse/issues/700) 
     *  The user defined colours in the cluster tab uses a 13 colour palette by default (it was 9).  [Issue #688](https://github.com/shawnlaffan/biodiverse/issues/688) 
   * Exports
-    * Cluster and RegionGrower exports now support the export of a GeoTIFF of the map display with colours that match the tree branches.  [Issue #684](https://github.com/shawnlaffan/biodiverse/issues/684)  
+    * Cluster and RegionGrower exports now support the export of a GeoTIFF of the map display with colours that match the tree branches.  [Issue #684](https://github.com/shawnlaffan/biodiverse/issues/684)  [There is also a blog post showing this in action](https://biodiverse-analysis-software.blogspot.com/2018/08/analysing-trait-data.html).
     * Various minor export issues have been resolved. 
   * Randomisations
     * The structured randomisations are faster for larger data sets.  [Issue #685](https://github.com/shawnlaffan/biodiverse/issues/685)
