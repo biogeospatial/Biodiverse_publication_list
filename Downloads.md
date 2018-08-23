@@ -28,6 +28,8 @@ _The current stable release is version 2.1, released 23-Aug-2018._
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-21) summarise the changes in this version.
 
+[Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
+
 All versions are for 64 bit architectures.
 
 * [Windows (~38MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_win.zip)
