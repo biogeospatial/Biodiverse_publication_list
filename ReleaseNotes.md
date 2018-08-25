@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 2.99_001](#version-299_001)
 * [Version 2.1](#version-21)
 * [Version 2.0](#version-20)
 * [Version 1.99](#version-199)
@@ -29,6 +30,16 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+# Version 2.99 #
+
+This is a development release series, leading towards version 3.0.
+
+  *  General
+    *  The minimum perl version is now 5.22, to take advantage of some of the optimisation and general improvements in the language.  This only affects users of the source code version. Issues #680, #705, #659
+  * Randomisations
+    * These are now faster for large basedata sets.  A consequence is that the randomisations will differ from version 2.1 and earlier, so if replication is an issue then re-run the randomisations if you need to use this version.  Issue #703
+
 
 # Version 2.1 #
 
