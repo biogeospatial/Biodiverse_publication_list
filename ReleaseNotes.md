@@ -35,7 +35,7 @@
 
 This is a development release series, leading towards version 3.0.
 
-  *  General
+  * General
     *  The minimum perl version is now 5.22, to take advantage of some of the optimisation and general improvements in the language.  This only affects users of the source code version. Issues #680, #705, #659
   * Randomisations
     * These are now faster for large basedata sets.  A consequence is that the randomisations will differ from version 2.1 and earlier, so if replication is an issue then re-run the randomisations if you need to use this version.  Issue #703
