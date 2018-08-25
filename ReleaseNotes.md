@@ -1,5 +1,5 @@
 **Table of contents:**
-* [Version 2.99_001](#version-299_001)
+* [Version 2.99](#version-299)
 * [Version 2.1](#version-21)
 * [Version 2.0](#version-20)
 * [Version 1.99](#version-199)
