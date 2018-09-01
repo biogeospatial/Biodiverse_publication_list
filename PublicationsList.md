@@ -4,6 +4,9 @@ To cite Biodiverse or acknowledge its use, cite this publication as follows, sub
 
 > Article access is free from the publisher, but an alternate link is http://handle.unsw.edu.au/1959.4/45539 .
 
+## Publications citing Biodiverse ##
+
+A list of articles citing the paper describing Biodiverse [can be found here](https://scholar.google.com.au/scholar?hl=en&as_sdt=2005&cites=5746804612318210706&scipsc=&q=&scisbd=1).  It is perhaps more interesting, though, to see what applications it has been used for.  The list below is a curated list of such publications. 
 
 ## Publications using Biodiverse (or its ancestors) ##
 > Publications are listed in reverse chronological order by year, then by author within years.
