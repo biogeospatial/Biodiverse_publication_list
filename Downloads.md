@@ -19,7 +19,7 @@ There is also a series of blog posts at http://biodiverse-analysis-software.blog
 
 ### Quick Start Guide ###
 
-A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf) is available.  This is written for version 0.19, but still applies to the current version.
+A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_2018-09-05.pdf) is available.
 
 
 ### Stable Release ###
