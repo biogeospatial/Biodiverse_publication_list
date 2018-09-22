@@ -15,15 +15,15 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (in press) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography](https://doi.org/10.1111/ecog.03783).
 
-  * Elliott, M.J., Knerr, N.J. and Schmidt-Lebuhn, A.N. (in press) Choice between phylogram and chronogram can have a dramatic impact on the location of phylogenetic diversity hotspots.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13399).
+  * Elliott, M.J., Knerr, N.J. and Schmidt-Lebuhn, A.N. (2018) Choice between phylogram and chronogram can have a dramatic impact on the location of phylogenetic diversity hotspots.  [Journal of Biogeography, 45, 2190-2201](https://doi.org/10.1111/jbi.13399).
 
   * Link-Pérez, M.A. and Laffan, S.W. (2018) Fern and lycophyte diversity in the Pacific Northwest: Patterns and predictors.  [Journal of Systematics and Evolution, 56, 498-522](https://doi.org/10.1111/jse.12430).
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
 
-  * Spalink, D., Pender, J., Escudero, M., Hipp, A.L., Roalson, E.H., Starr, J.R., Waterway, M.J., Bohs, L. and Sytsma, K.J. (in press) The spatial structure of phylogenetic and functional diversity in the United States and Canada: An example using the sedge family (Cyperaceae). [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12423).
+  * Spalink, D., Pender, J., Escudero, M., Hipp, A.L., Roalson, E.H., Starr, J.R., Waterway, M.J., Bohs, L. and Sytsma, K.J. (2018) The spatial structure of phylogenetic and functional diversity in the United States and Canada: An example using the sedge family (Cyperaceae). [Journal of Systematics and Evolution, 56, 449-465](https://doi.org/10.1111/jse.12423).
 
-  * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (in press) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12416).
+  * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (2018) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution, 56, 523-536](https://doi.org/10.1111/jse.12416).
 
   * Di Virgilio, G., Wardell-Johnson, G.W., Robinson, T.P., Temple-Smith, D., Hesforde, J. (2018) Characterising fine-scale variation in plant species richness and endemism across topographically complex, semi-arid landscapes.  [Journal of Arid Environments, 156, 59-68](https://doi.org/10.1016/j.jaridenv.2018.04.005).
 
