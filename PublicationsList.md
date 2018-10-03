@@ -15,17 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (in press) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography](https://doi.org/10.1111/ecog.03783).
 
-  * Elliott, M.J., Knerr, N.J. and Schmidt-Lebuhn, A.N. (2018) Choice between phylogram and chronogram can have a dramatic impact on the location of phylogenetic diversity hotspots.  [Journal of Biogeography, 45, 2190-2201](https://doi.org/10.1111/jbi.13399).
-
-  * Link-Pérez, M.A. and Laffan, S.W. (2018) Fern and lycophyte diversity in the Pacific Northwest: Patterns and predictors.  [Journal of Systematics and Evolution, 56, 498-522](https://doi.org/10.1111/jse.12430).
-
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
-
-  * Spalink, D., Pender, J., Escudero, M., Hipp, A.L., Roalson, E.H., Starr, J.R., Waterway, M.J., Bohs, L. and Sytsma, K.J. (2018) The spatial structure of phylogenetic and functional diversity in the United States and Canada: An example using the sedge family (Cyperaceae). [Journal of Systematics and Evolution, 56, 449-465](https://doi.org/10.1111/jse.12423).
-
-  * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (2018) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution, 56, 523-536](https://doi.org/10.1111/jse.12416).
-
-  * Di Virgilio, G., Wardell-Johnson, G.W., Robinson, T.P., Temple-Smith, D., Hesforde, J. (2018) Characterising fine-scale variation in plant species richness and endemism across topographically complex, semi-arid landscapes.  [Journal of Arid Environments, 156, 59-68](https://doi.org/10.1016/j.jaridenv.2018.04.005).
 
   * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (in press) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography](http://dx.doi.org/10.1111/ecog.03260).
 
@@ -39,9 +29,19 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Dalrymple, R.L., Kemp, D.J., Laffan, S.W., White, T.E., Flores-Moreno, H., Hemmings, F.A., Hitchcock, T.D., & Moles, A.T. (2018) Abiotic and biotic predictors of macroecological patterns in bird and butterfly coloration. [Ecological Monographs, 88, 204-224](http://dx.doi.org/10.1002/ecm.1287).
 
+  * Di Virgilio, G., Wardell-Johnson, G.W., Robinson, T.P., Temple-Smith, D., Hesforde, J. (2018) Characterising fine-scale variation in plant species richness and endemism across topographically complex, semi-arid landscapes.  [Journal of Arid Environments, 156, 59-68](https://doi.org/10.1016/j.jaridenv.2018.04.005).
+
+  * Elliott, M.J., Knerr, N.J. and Schmidt-Lebuhn, A.N. (2018) Choice between phylogram and chronogram can have a dramatic impact on the location of phylogenetic diversity hotspots.  [Journal of Biogeography, 45, 2190-2201](https://doi.org/10.1111/jbi.13399).
+
   * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (2018) Patterns, biases and prospects in the distribution and diversity of Neotropical snakes. [Global Ecology and Biogeography, 27, 14-21](http://dx.doi.org/10.1111/geb.12679).
 
+  * Link-Pérez, M.A. and Laffan, S.W. (2018) Fern and lycophyte diversity in the Pacific Northwest: Patterns and predictors.  [Journal of Systematics and Evolution, 56, 498-522](https://doi.org/10.1111/jse.12430).
+
   * Orsenigo, S. et al. (2018) Red Listing plants under full national responsibility: Extinction risk and threats in the vascular flora endemic to Italy.  [Biological Conservation, 224, 213-222](https://doi.org/10.1016/j.biocon.2018.05.030).
+
+  * Sosa, V., De-Nova, J.A. and Vásquez-Cruz, M. (2018) Evolutionary history of the flora of Mexico: Dry forests cradles and museums of endemism.  [Journal of Systematics and Evolution, 56, 523-536](https://doi.org/10.1111/jse.12416).
+
+  * Spalink, D., Pender, J., Escudero, M., Hipp, A.L., Roalson, E.H., Starr, J.R., Waterway, M.J., Bohs, L. and Sytsma, K.J. (2018) The spatial structure of phylogenetic and functional diversity in the United States and Canada: An example using the sedge family (Cyperaceae). [Journal of Systematics and Evolution, 56, 449-465](https://doi.org/10.1111/jse.12423).
 
   * Yap, J-YS., Rossetto, M., Costion, C., et al. (2018) Filters of floristic exchange: How traits and climate shape the rain forest invasion of Sahul from Sunda. [Journal of Biogeography, 25, 838-847](https://doi.org/10.1111/jbi.13143).
 
