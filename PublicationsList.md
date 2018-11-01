@@ -15,7 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Laffan, S.W. (2018). Phylogeny-based measurements at global and regional scales. In R. Scherson & D. Faith (Eds.), [Phylogenetic Diversity: Applications and Challenges in Biodiversity Science (pp. 111-129): Springer](https://doi.org/10.1007/978-3-319-93145-6_6).
 
-  * Miu, I.V., Chisamera, G.B., Popescu, V.D., Iosif R., Nita, A., Manolache, S., Gavril, V.D., Cobzaru, I. and Rozylowicz, L. (2018) Conservation priorities for terrestrial mammals in Dobrogea Region, Romania. [ZooKeys, 792, 133-158](10.3897/zookeys.792.25314).
+  * Miu, I.V., Chisamera, G.B., Popescu, V.D., Iosif R., Nita, A., Manolache, S., Gavril, V.D., Cobzaru, I. and Rozylowicz, L. (2018) Conservation priorities for terrestrial mammals in Dobrogea Region, Romania. [ZooKeys, 792, 133-158](https://doi.org/10.3897/zookeys.792.25314).
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (in press) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography](https://doi.org/10.1111/ecog.03783).
 
