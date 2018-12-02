@@ -25,7 +25,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
 
-  * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (in press) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography](http://dx.doi.org/10.1111/ecog.03260).
+  * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (2018) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography, 41, 1955-1966](http://dx.doi.org/10.1111/ecog.03260).
 
 
 
