@@ -32,9 +32,11 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-21) sum
 
 All versions are for 64 bit architectures.
 
+*NOTE:  These were updated 07-Dec-2018 to fix issue #711.  This was an issue exporting to shapefiles, but which otherwise has no effect.*
+
 * [Windows (~38MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_win.zip)
 
-* [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_linux.zip)
+* [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_linux.tar.gz)
 
 * [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_mac.zip)
 
