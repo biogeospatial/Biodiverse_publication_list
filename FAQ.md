@@ -92,7 +92,7 @@ Yes (before version 1.99).  Use an Element Property table for this purpose, spec
 
 ## Where is the menu option to load an element properties table? ##
 
-There isn't one at the moment.  Properties tables are loaded as part of the [BaseData import process](https://github.com/shawnlaffan/biodiverse/wiki/SampleSession#basedata).  If you are [importing multiple files into the same BaseData object](https://github.com/shawnlaffan/biodiverse/wiki/SampleSession#adding-to-an-existing-data-set) then unfortunately you will need to import the properties table each time.
+Look under the Basedata menu.  
 
 ## Can I import more than one file at a time? ##
 
