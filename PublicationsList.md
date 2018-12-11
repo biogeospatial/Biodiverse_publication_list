@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K., Majure, L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten, W.M., Abbott, J.R., Soltis, D.E., Guralnick, R. and Soltis, P.S. (in press) Spatial phylogenetics of Florida vascular plants: The effects of calibration and uncertainty on diversity estimates.  [iScience](https://doi.org/10.1016/j.isci.2018.12.002).
+
   * Montaño-Arias, G., Luna-Vega, I., Morrone, J.J., Espinosa, D. (2018) Biogeographical identity of the Mesoamerican dominion with emphasis on seasonally dry tropical forests.  [Phytotaxa, 376, 277-290](http://dx.doi.org/10.11646/phytotaxa.376.6.3).
 
   * Spalink, D. et al. (in press) Spatial phylogenetics reveals evolutionary constraints on the assembly of a large regional flora. [American Journal of Botany](https://doi.org/10.1002/ajb2.1191).
