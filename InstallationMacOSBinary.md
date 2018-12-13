@@ -11,7 +11,7 @@ To install the pre-build (binary) version for Biodiverse follow these instructio
    ![Drag and Drop](https://github.com/shawnlaffan/biodiverse/blob/mac_build/etc/mmb/images/DragAndDrop.jpeg)
 
 4. Eject the Biodiverse .dmg file.
-5. To open Biodiverse, double-click Biodiverse in your Application folder. 
+5. To open Biodiverse, double-click Biodiverse in your Application folder. (You might also need to go into the security settings to enable it to run as an unsigned app).
 
 To keep Biodiverse attached to your Dock:
 
