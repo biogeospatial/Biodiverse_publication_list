@@ -21,6 +21,6 @@ To keep Biodiverse attached to your Dock:
 
 * If you have not launched Biodiverse, drag the Biodiverse icon from the Application folder to a suitable location on the Dock.
 
-Once you have downloaded and installed Biodiverse remember to read the [Quick Start Guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_0.19.pdf).
+Once you have downloaded and installed Biodiverse remember to read the [Quick Start Guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_Start_Guide_2018-09-05.pdf).
 
 If you need to install Biodiverse for source follow the relevant [instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
