@@ -47,12 +47,13 @@ All versions are for 64 bit architectures.
 
 ### Development Release ###
 
-*There is no current development release.*
+* [Windows (~87MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_001_win.zip)
 
+* [MacOS (~45MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_001_mac.zip)
 
 * [Source code](https://github.com/shawnlaffan/biodiverse/tree/master)
 
-
+There is no Linux dev release, but one can be provided if there is a need.  
 
 ## Site Pair Sampler ##
 
