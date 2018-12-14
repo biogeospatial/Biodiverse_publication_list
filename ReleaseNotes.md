@@ -42,7 +42,7 @@ This is a development release series, leading towards version 3.0.
   * Randomisations
     * These are now faster for large basedata sets.  A consequence is that the randomisations for a given PRNG seed value will differ from version 2.1 and earlier, so if exact replication is needed then ensure you use the same version as the analyses you are replicating.  [Issue #703](https://github.com/shawnlaffan/biodiverse/issues/703) 
   * GUI
-    * The index lists in open analysis tabs are now updated when a randomisation completes.  Previously the tab had to be closed and re-opened.  [Issue #714](https://github.com/shawnlaffan/biodiverse/issues/714) 
+    * The index lists in open analysis tabs are now updated when a randomisation completes.  Previously the tab had to be closed and re-opened.  [Issue #693](https://github.com/shawnlaffan/biodiverse/issues/693) 
     * Display statistics are updated when an analysis is re-run.  Previously the tab had to be closed and re-opened to ensure the correct ranges of values were used.  [Issue #714](https://github.com/shawnlaffan/biodiverse/issues/714) 
 
 
