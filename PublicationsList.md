@@ -13,17 +13,16 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K., Majure, L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten, W.M., Abbott, J.R., Soltis, D.E., Guralnick, R. and Soltis, P.S. (2019) Spatial phylogenetics of Florida vascular plants: The effects of calibration and uncertainty on diversity estimates.  [iScience, 11, 57-70](https://doi.org/10.1016/j.isci.2018.12.002).
-
-  * Lam-Gordillo, O. and Ardisson, P-L. (2019) The global distribution and richness of frog crabs (Raninoidea). [Crustaceana, 92, 1-31](https://doi.org/10.1163/15685403-00003832).
-
-  * Montaño-Arias, G., Luna-Vega, I., Morrone, J.J., Espinosa, D. (2018) Biogeographical identity of the Mesoamerican dominion with emphasis on seasonally dry tropical forests.  [Phytotaxa, 376, 277-290](https://doi.org/10.11646/phytotaxa.376.6.3).
-
-  * Laffan, S.W. (2018). Phylogeny-based measurements at global and regional scales. In R. Scherson & D. Faith (Eds.), [Phylogenetic Diversity: Applications and Challenges in Biodiversity Science (pp. 111-129): Springer](https://doi.org/10.1007/978-3-319-93145-6_6).
-
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (in press) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography](https://doi.org/10.1111/ecog.03783).
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
+
+
+#### 2019 ####
+
+  * Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K., Majure, L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten, W.M., Abbott, J.R., Soltis, D.E., Guralnick, R. and Soltis, P.S. (2019) Spatial phylogenetics of Florida vascular plants: The effects of calibration and uncertainty on diversity estimates.  [iScience, 11, 57-70](https://doi.org/10.1016/j.isci.2018.12.002).
+
+  * Lam-Gordillo, O. and Ardisson, P-L. (2019) The global distribution and richness of frog crabs (Raninoidea). [Crustaceana, 92, 1-31](https://doi.org/10.1163/15685403-00003832).
 
 
 #### 2018 ####
@@ -40,11 +39,15 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Guedes, T.B., Sawaya, R.J., Zizka, A., Laffan, S.W., Faurby, S., Pyron, A., Bérnils, R.S., Jansen, M., Passos, P., Prudente, A.L.C., Cisneros-Heredia, D.F., Braz, H.B., Nogueira, C.d.C., & Antonelli, A. (2018) Patterns, biases and prospects in the distribution and diversity of Neotropical snakes. [Global Ecology and Biogeography, 27, 14-21](https://doi.org/10.1111/geb.12679).
 
+  * Laffan, S.W. (2018). Phylogeny-based measurements at global and regional scales. In R. Scherson & D. Faith (Eds.), [Phylogenetic Diversity: Applications and Challenges in Biodiversity Science (pp. 111-129): Springer](https://doi.org/10.1007/978-3-319-93145-6_6).
+
   * Link-Pérez, M.A. and Laffan, S.W. (2018) Fern and lycophyte diversity in the Pacific Northwest: Patterns and predictors.  [Journal of Systematics and Evolution, 56, 498-522](https://doi.org/10.1111/jse.12430).
 
   * López-Aguirre, C., Archer, M., Hand, S.J. and Laffan, S.W. (2018) Phylogenetic diversity, types of endemism and the evolutionary history of New World bats. [Ecography, 41, 1955-1966](https://doi.org/10.1111/ecog.03260).
 
   * Miu, I.V., Chisamera, G.B., Popescu, V.D., Iosif R., Nita, A., Manolache, S., Gavril, V.D., Cobzaru, I. and Rozylowicz, L. (2018) Conservation priorities for terrestrial mammals in Dobrogea Region, Romania. [ZooKeys, 792, 133-158](https://doi.org/10.3897/zookeys.792.25314).
+
+  * Montaño-Arias, G., Luna-Vega, I., Morrone, J.J., Espinosa, D. (2018) Biogeographical identity of the Mesoamerican dominion with emphasis on seasonally dry tropical forests.  [Phytotaxa, 376, 277-290](https://doi.org/10.11646/phytotaxa.376.6.3).
 
   * Orsenigo, S. et al. (2018) Red Listing plants under full national responsibility: Extinction risk and threats in the vascular flora endemic to Italy.  [Biological Conservation, 224, 213-222](https://doi.org/10.1016/j.biocon.2018.05.030).
 
