@@ -17,12 +17,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (in press) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography](https://doi.org/10.1111/ecog.03783).
 
-  * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (in press) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography](https://doi.org/10.1111/ecog.03927).
-
-
 #### 2019 ####
 
   * Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K., Majure, L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten, W.M., Abbott, J.R., Soltis, D.E., Guralnick, R. and Soltis, P.S. (2019) Spatial phylogenetics of Florida vascular plants: The effects of calibration and uncertainty on diversity estimates.  [iScience, 11, 57-70](https://doi.org/10.1016/j.isci.2018.12.002).
+
+  * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (2019) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography, 42, 390-399](https://doi.org/10.1111/ecog.03927).
 
   * Lam-Gordillo, O. and Ardisson, P-L. (2019) The global distribution and richness of frog crabs (Raninoidea). [Crustaceana, 92, 1-31](https://doi.org/10.1163/15685403-00003832).
 
