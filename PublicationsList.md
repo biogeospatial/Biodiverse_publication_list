@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * McDonald-Spicer, C., Knerr, N.J., Encinas-Viso, F. and Schmidt-Lebuhn, A.N. (in press) Big data for a large clade: Bioregionalization and ancestral range estimation in the daisy family (Asteraceae).  [Journal of Biogeography](https://doi.org/10.1111/jbi.13496).
+  * McDonald-Spicer, C., Knerr, N.J., Encinas-Viso, F. and Schmidt-Lebuhn, A.N. (2019) Big data for a large clade: Bioregionalization and ancestral range estimation in the daisy family (Asteraceae).  [Journal of Biogeography,  46, 255-267](https://doi.org/10.1111/jbi.13496).
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (in press) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography](https://doi.org/10.1111/ecog.03783).
 
