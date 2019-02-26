@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Gallien, L., Thornhill, A.H., Zurell, D., Miller, J.T., and Richardson, D.M. (2019) Global predictors of alien plant establishment success: combining niche and trait proxies. [Proceedings of the Royal Society B, 286, 20182477](https://doi.org/10.1098/rspb.2018.2477).
+
   * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (in press) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography](https://doi.org/10.1111/geb.12888).
 
   * McDonald-Spicer, C., Knerr, N.J., Encinas-Viso, F. and Schmidt-Lebuhn, A.N. (2019) Big data for a large clade: Bioregionalization and ancestral range estimation in the daisy family (Asteraceae).  [Journal of Biogeography,  46, 255-267](https://doi.org/10.1111/jbi.13496).
