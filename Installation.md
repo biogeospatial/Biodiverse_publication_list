@@ -9,5 +9,6 @@ Installation instructions.
   * Linux
     * Binary:  [InstallationLinuxBinary](InstallationLinuxBinary)
     * Source code:  [InstallationLinuxSource](InstallationLinuxSource)
+    * Source code on HPC systems:  [InstallationLinuxSource](InstallationLinuxSourceHPC)
   * [Back to main table of contents](Home)
   
