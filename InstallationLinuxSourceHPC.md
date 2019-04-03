@@ -1,6 +1,8 @@
 These instructions apply to version 2.99_001 and later.
 
-They have been tested on Centos 6.3, assume you are using a standard user account, and are accessing Biodiverse through the git repository.
+They are based on development on Centos 6.3, but have not been tested line by line when written.  Please report any errors or suggestions.  
+
+They also assume you are using a standard user account, and are accessing Biodiverse through the git repository.
 
 
 **Table of contents:**
