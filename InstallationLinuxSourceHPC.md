@@ -1,5 +1,7 @@
 These instructions apply to version 2.99_001 and later.
 
+These instructions assume you are not installing the GUI components.  It is possible to run the GUI on HPC, and details can be added if needed.
+
 They are based on development on Centos 6.3, but have not been tested line by line when written.  Please report any errors or suggestions.  
 
 They also assume you are using a standard user account, and are accessing Biodiverse through the git repository.
@@ -13,14 +15,15 @@ They also assume you are using a standard user account, and are accessing Biodiv
 
 # Installation #
 
+## Part 1.  Install a non-system perl ##
+
   * Install PerlBrew, including its optional cpanm client.  Instructions are at http://perlbrew.pl/
     * There are other other systems like plenv, but I have not tested them.  Regardless, **you should not use the system perl**.  The operating system assumes specific versions of files are in the system perl.  Perlbrew is recommended, and is used for Biodiverse development, and is assumed below.  
 
-  * Make sure you are using the non-system perl for all subsequent steps.  This could involve adding a line to your .bashrc (or equivalent) file to ensure it is loaded each time you login.  Perlbrew provides instructions on how to do this.  
+    * Make sure you are using the non-system perl for all subsequent steps.  This could involve adding a line to your .bashrc (or equivalent) file to ensure it is loaded each time you login.  Perlbrew provides instructions on how to do this.  
   
-  *  These instructions assume you are not installing the GUI components.  It is possible to run the GUI on HPC, and details can be added if needed.
 
-
+## Part 2.  Install the perl dependencies ##
 ```bash
 
   ##  if you are using perlbrew and forgot to install the cpanm client:
