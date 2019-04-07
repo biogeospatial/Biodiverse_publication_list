@@ -47,9 +47,9 @@ All versions are for 64 bit architectures.
 
 ### Development Release ###
 
-* [Windows (~87MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_001_win.zip)
+* [2.99_003: Windows (~87MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_003_win.zip)
 
-* [MacOS (~45MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_001_mac.zip)
+* [2.99_001: MacOS (~45MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_001_mac.zip)
 
 * [Source code](https://github.com/shawnlaffan/biodiverse/tree/master)
 
