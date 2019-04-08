@@ -41,7 +41,7 @@ They also assume you are using a standard user account, and are accessing Biodiv
   ##  Biodiverse::Utils is not yet on cpan
   cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
   
-  #  Alien::gdal is a big dependency.
+  ## Alien::gdal is a big dependency.
   #  Note that, if you have GDAL version 2.1 or higher already 
   #  installed on your system then this will use that version 
   #  instead of building its own.
@@ -52,7 +52,8 @@ They also assume you are using a standard user account, and are accessing Biodiv
   cpanm Alien::proj
   cpanm Alien::gdal
   
-  ##  Geo::GDAL::FFI also depends on PDL, for which installation will take a little while
+  ##  Geo::GDAL::FFI also depends on PDL, for 
+  #   which installation will take a little while
   cpanm Geo::GDAL::FFI
 
 
