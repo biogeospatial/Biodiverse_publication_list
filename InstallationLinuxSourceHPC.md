@@ -9,6 +9,7 @@ They also assume you are using a standard user account, and are accessing Biodiv
 
 **Table of contents:**
 * [Installation](#installation)
+* [Testing it](#testing-it)
 * [Running it](#running-it)
 * [Troubleshooting](#troubleshooting)
 
@@ -55,6 +56,17 @@ They also assume you are using a standard user account, and are accessing Biodiv
 
 ```
 
+# Testing it #
+
+Follow these steps to check that everything is installed and Biodiverse will run.  
+
+```bash
+  #  Make sure you are in the top level of the biodiverse distribution
+  #  You should see directories bin, etc, lib, t, xt and so forth when you run ls.  
+  export BD_NO_TEST_GUI=1  #  no need to test the GUI libs load
+  prove -l
+
+```
 
 
 # Running it #
