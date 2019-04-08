@@ -43,9 +43,11 @@ They also assume you are using a standard user account, and are accessing Biodiv
   
   #  Alien::gdal is a big dependency.
   #  Note that, if you have GDAL version 2.1 or higher already 
-  #  installed on your system then this will use that version instead of building its own.
-  #  If you have loaded a system GDAL using ```module load``` or similar then you need to ensure
-  #  it is loaded each time you run Biodiverse or it will fail to run.  
+  #  installed on your system then this will use that version 
+  #  instead of building its own.
+  #  If you have loaded a system GDAL using ```module load``` 
+  #  or similar then you need to ensure it is loaded each time 
+  #  you run Biodiverse or it will fail to start.
   cpanm Alien::sqlite
   cpanm Alien::proj
   cpanm Alien::gdal
