@@ -57,6 +57,11 @@ They also assume you are using a standard user account, and are accessing Biodiv
   #   which installation will take a little while
   cpanm Geo::GDAL::FFI
 
+  ##  if the above command fails with an error 
+  #   regarding curl and libffi then use your
+  #   system package manager to install libffi
+  #   and then re-run the above command
+
 
 ```
 
