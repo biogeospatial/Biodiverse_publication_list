@@ -33,12 +33,13 @@
 
 # Version 2.99 #
 
-This is a development release series, leading towards version 3.0.
+This is a development release series, leading towards version 3.0.  
 
   * General
     * The minimum perl version is now 5.22, to take advantage of some of the optimisation and general improvements in the language.  This only affects users of the source code version. Issues [#680](https://github.com/shawnlaffan/biodiverse/issues/680), [#705](https://github.com/shawnlaffan/biodiverse/issues/705), [#659](https://github.com/shawnlaffan/biodiverse/issues/659)
   * BaseData 
     * Import of polygon and polyline shapefile data is now supported.  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2018/12/import-polygon-and-polyline-data.html). [Issue #697](https://github.com/shawnlaffan/biodiverse/issues/697).
+    * The spatial resolution of BaseData objects can now be decreased.  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/04/reduce-spatial-resolution-of-your-data.html). [Issue #723](https://github.com/shawnlaffan/biodiverse/issues/723).
   * Randomisations
     * These are now faster for large basedata sets.  A consequence is that the randomisations for a given PRNG seed value will differ from version 2.1 and earlier, so if exact replication is needed then ensure you use the same version as the analyses you are replicating.  [Issue #703](https://github.com/shawnlaffan/biodiverse/issues/703) 
   * GUI
