@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (in press) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution](https://doi.org/10.1002/ece3.5059).
+  * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (in press) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
 
   * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (in press) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography](https://doi.org/10.1111/ecog.04194).
 
