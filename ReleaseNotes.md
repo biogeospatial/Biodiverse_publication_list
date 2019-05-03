@@ -40,6 +40,7 @@ This is a development release series, leading towards version 3.0.
   * BaseData 
     * Import of polygon and polyline shapefile data is now supported.  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2018/12/import-polygon-and-polyline-data.html). [Issue #697](https://github.com/shawnlaffan/biodiverse/issues/697).
     * The spatial resolution of BaseData objects can now be decreased.  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/04/reduce-spatial-resolution-of-your-data.html). [Issue #723](https://github.com/shawnlaffan/biodiverse/issues/723).
+    * Axes can be dropped from label and group names, e.g. family:genus:species:population can be simplified to genus:species.  More details in the blog post (link will be here when published).  [Issue #722](https://github.com/shawnlaffan/biodiverse/issues/722).
   * Randomisations
     * These are now faster for large basedata sets.  A consequence is that the randomisations for a given PRNG seed value will differ from version 2.1 and earlier, so if exact replication is needed then ensure you use the same version as the analyses you are replicating.  [Issue #703](https://github.com/shawnlaffan/biodiverse/issues/703) 
   * GUI
