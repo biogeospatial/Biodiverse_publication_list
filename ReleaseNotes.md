@@ -43,6 +43,8 @@ This is a development release series, leading towards version 3.0.
     * Axes can be dropped from label and group names, e.g. family:genus:species:population can be simplified to genus:species.  More details in the blog post (link will be here when published).  [Issue #722](https://github.com/shawnlaffan/biodiverse/issues/722).
   * Randomisations
     * These are now faster for large basedata sets.  A consequence is that the randomisations for a given PRNG seed value will differ from version 2.1 and earlier, so if exact replication is needed then ensure you use the same version as the analyses you are replicating.  [Issue #703](https://github.com/shawnlaffan/biodiverse/issues/703) 
+  * Trees
+    * Tree exports to shapefile format are no longer supported.  The original purpose is better served exporting to newick with tree branch colours.  [Issue #735](https://github.com/shawnlaffan/biodiverse/issues/735)
   * GUI
     * The index lists in open analysis tabs are now updated when a randomisation completes.  Previously the tab had to be closed and re-opened.  [Issue #693](https://github.com/shawnlaffan/biodiverse/issues/693) 
     * Display statistics are updated when an analysis is re-run.  Previously the tab had to be closed and re-opened to ensure the correct ranges of values were used.  [Issue #714](https://github.com/shawnlaffan/biodiverse/issues/714) 
