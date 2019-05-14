@@ -17,7 +17,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (in press) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography](https://doi.org/10.1111/ecog.04194).
 
-  * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (in press) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography](https://doi.org/10.1111/geb.12888).
+  * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (in press) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography, 28, 757-766](https://doi.org/10.1111/geb.12888).
 
 
 #### 2019 ####
