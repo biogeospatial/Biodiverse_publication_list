@@ -50,6 +50,7 @@ This is a development release series, leading towards version 3.0.
   * GUI
     * The index lists in open analysis tabs are now updated when a randomisation completes.  Previously the tab had to be closed and re-opened.  [Issue #693](https://github.com/shawnlaffan/biodiverse/issues/693) 
     * Display statistics are updated when an analysis is re-run.  Previously the tab had to be closed and re-opened to ensure the correct ranges of values were used.  [Issue #714](https://github.com/shawnlaffan/biodiverse/issues/714) 
+    * Spatial analyses can be exported to RGB GeoTIFF files.  This allows users to reconstruct in a GIS package the colour scheme used in Biodiverse.  More details in the blog post (link will be here when published). [Issue #375](https://github.com/shawnlaffan/biodiverse/issues/375).  
 
 
 
