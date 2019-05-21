@@ -36,7 +36,7 @@
 This is a development release series, leading towards version 3.0.  
 
   * General
-    * Unicode file names are now supported.  This was implemented across [several issues](https://github.com/shawnlaffan/biodiverse/projects/3).
+    * Unicode file names are now supported.  This was implemented across [several issues](https://github.com/shawnlaffan/biodiverse/projects/3).  [(A few) more details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/05/unicode-file-names-on-windows.html)
     * The minimum perl version is now 5.22, to take advantage of some of the optimisation and general improvements in the language.  This is invisible to users of the exe versions, but users of the source code version need to ensure they use a perl version of 5.22 or later. Issues [#680](https://github.com/shawnlaffan/biodiverse/issues/680), [#705](https://github.com/shawnlaffan/biodiverse/issues/705), [#659](https://github.com/shawnlaffan/biodiverse/issues/659)
     * Exports to XML are no longer supported.  YAML and JSON do all that is needed here.  [Issue #736](https://github.com/shawnlaffan/biodiverse/issues/736)
   * BaseData 
