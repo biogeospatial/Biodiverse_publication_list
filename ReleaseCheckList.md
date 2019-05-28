@@ -8,3 +8,6 @@ Copy and paste the markdown into an issue or project per release
 - [ ] Update news on github.io site
 - [ ] Post exe versions to downloads site
 - [ ] Update link in Downloads wiki page
+- [ ] Update SpatialConditions wiki
+- [ ] Update Indices wiki
+- [ ] Update ReleaseNotes wiki
