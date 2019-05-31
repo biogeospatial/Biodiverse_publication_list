@@ -15,7 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (in press) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
 
-  * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (in press) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography](https://doi.org/10.1111/ecog.04194).
+  * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (2019) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography, 42, 1188-1199](https://doi.org/10.1111/ecog.04194).
 
   * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (2019) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography, 28, 757-766](https://doi.org/10.1111/geb.12888).
 
