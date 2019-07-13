@@ -13,7 +13,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (in press) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
+  * Greenlon, A., Chang, P.L., Damtew, Z.M., et al. (2019) Global-level population genomics reveals differential effects of geography and phylogeny on horizontal gene transfer in soil bacteria.  [Proceedings of the National Academy of Sciences, 201900056](https://doi.org/10.1073/pnas.1900056116).
+
+  * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (2019) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
 
   * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (2019) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography, 42, 1188-1199](https://doi.org/10.1111/ecog.04194).
 
