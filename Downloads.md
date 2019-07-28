@@ -47,6 +47,8 @@ All versions are for 64 bit architectures.
 
 ### Development Release ###
 
+The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-299) summarise the changes in this version.
+
 * [2.99_004: Windows (~80MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_004_win.zip)
 
 * [2.99_004: MacOS (~50MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_004_mac.zip)
