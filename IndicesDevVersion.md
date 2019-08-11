@@ -1,6 +1,6 @@
 
 # Indices available in Biodiverse 
-_Generated GMT Thu Sep 14 02:58:58 2017 using build_indices_table.pl, Biodiverse version 1.99_008._
+_Generated GMT Sun Aug 11 23:57:57 2019 using build_indices_table.pl, Biodiverse version 2.99_005._
 
 
 This is a listing of the indices available in Biodiverse,
@@ -159,7 +159,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 **Subroutine:**   calc_gpprop_gistar
 
-**Reference:**   Getis and Ord (1992) Geographical Analysis. http://dx.doi.org/10.1111/j.1538-4632.1992.tb00261.x
+**Reference:**   Getis and Ord (1992) Geographical Analysis. https://doi.org/10.1111/j.1538-4632.1992.tb00261.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -244,7 +244,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 **Subroutine:**   calc_lbprop_gistar
 
-**Reference:**   Getis and Ord (1992) Geographical Analysis. http://dx.doi.org/10.1111/j.1538-4632.1992.tb00261.x
+**Reference:**   Getis and Ord (1992) Geographical Analysis. https://doi.org/10.1111/j.1538-4632.1992.tb00261.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -263,7 +263,7 @@ This currently applies to the hierarchically partitioned endemism calculations (
 
 **Subroutine:**   calc_lbprop_gistar_abc2
 
-**Reference:**   Getis and Ord (1992) Geographical Analysis. http://dx.doi.org/10.1111/j.1538-4632.1992.tb00261.x
+**Reference:**   Getis and Ord (1992) Geographical Analysis. https://doi.org/10.1111/j.1538-4632.1992.tb00261.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -463,14 +463,14 @@ hash values are the property value frequencies.
 
 **Subroutine:**   calc_endemism_central
 
-**Reference:**   Crisp et al. (2001) J Biogeog. http://dx.doi.org/10.1046/j.1365-2699.2001.00524.x ; Laffan and Crisp (2003) J Biogeog. http://www3.interscience.wiley.com/journal/118882020/abstract
+**Reference:**   Crisp et al. (2001) J Biogeog. https://doi.org/10.1046/j.1365-2699.2001.00524.x ; Laffan and Crisp (2003) J Biogeog. http://www3.interscience.wiley.com/journal/118882020/abstract
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 31 | ENDC_CWE | Corrected weighted endemism |   | 1 |  ![= \\frac{ENDC\\_WE}{ENDC\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDC%5C_WE%7D%7BENDC%5C_RICHNESS%7D)   |   |
 | 32 | ENDC_RICHNESS | Richness used in ENDC_CWE (same as index RICHNESS_SET1) |   | 1 |   |   |
-| 33 | ENDC_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. |   | 1 |  ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1, and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog http://dx.doi.org/10.1111/j.1365-2699.2006.01647.x |
+| 33 | ENDC_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. |   | 1 |  ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1, and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog https://doi.org/10.1111/j.1365-2699.2006.01647.x |
 | 34 | ENDC_WE | Weighted endemism |   | 1 |  ![= \\sum_{t \\in T} \\frac {r_t} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Br_t%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  in neighbour set 1,  ![r_t](http://latex.codecogs.com/png.latex?r_t)  is the local range (the number of elements containing label  ![t](http://latex.codecogs.com/png.latex?t)  within neighbour sets 1 & 2, this is also its value in list ABC2_LABELS_ALL), and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  |   |
 
 
@@ -485,7 +485,7 @@ hash values are the property value frequencies.
 
 **Subroutine:**   calc_endemism_central_hier_part
 
-**Reference:**   Laffan et al. (2013) J Biogeog. http://dx.doi.org/10.1111/jbi.12001
+**Reference:**   Laffan et al. (2013) J Biogeog. https://doi.org/10.1111/jbi.12001
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -551,7 +551,7 @@ hash values are the property value frequencies.
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
 | 47 | ENDW_CWE | Corrected weighted endemism | region grower | 1 |  ![= \\frac{ENDW\\_WE}{ENDW\\_RICHNESS}](http://latex.codecogs.com/png.latex?%3D%5Cfrac%7BENDW%5C_WE%7D%7BENDW%5C_RICHNESS%7D)   |   |
 | 48 | ENDW_RICHNESS | Richness used in ENDW_CWE (same as index RICHNESS_ALL) | region grower | 1 |   |   |
-| 49 | ENDW_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. | region grower | 1 |  ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across neighbour sets 1 & 2, and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog http://dx.doi.org/10.1111/j.1365-2699.2006.01647.x |
+| 49 | ENDW_SINGLE | Endemism unweighted by the number of neighbours. Counts each label only once, regardless of how many groups in the neighbourhood it is found in.   Useful if your data have sampling biases and best applied with a small window. | region grower | 1 |  ![= \\sum_{t \\in T} \\frac {1} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7B1%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across neighbour sets 1 & 2, and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  | Slatyer et al. (2007) J. Biogeog https://doi.org/10.1111/j.1365-2699.2006.01647.x |
 | 50 | ENDW_WE | Weighted endemism | region grower | 1 |  ![= \\sum_{t \\in T} \\frac {r_t} {R_t}](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bt%20%5Cin%20T%7D%20%5Cfrac%20%7Br_t%7D%20%7BR_t%7D)  where  ![t](http://latex.codecogs.com/png.latex?t)  is a label (taxon) in the set of labels (taxa)  ![T](http://latex.codecogs.com/png.latex?T)  across both neighbour sets,  ![r_t](http://latex.codecogs.com/png.latex?r_t)  is the local range (the number of elements containing label  ![t](http://latex.codecogs.com/png.latex?t)  within neighbour sets 1 & 2, this is also its value in list ABC2_LABELS_ALL), and  ![R_t](http://latex.codecogs.com/png.latex?R_t)  is the global range of label  ![t](http://latex.codecogs.com/png.latex?t)  across the data set (the number of groups it is found in, unless the range is specified at import).  |   |
 
 
@@ -566,7 +566,7 @@ hash values are the property value frequencies.
 
 **Subroutine:**   calc_endemism_whole_hier_part
 
-**Reference:**   Laffan et al. (2013) J Biogeog. http://dx.doi.org/10.1111/jbi.12001
+**Reference:**   Laffan et al. (2013) J Biogeog. https://doi.org/10.1111/jbi.12001
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -637,7 +637,7 @@ of the hierarchy.
 
 **Subroutine:**   calc_hierarchical_label_ratios
 
-**Reference:**   Jones and Laffan (2008) Trans Philol Soc http://dx.doi.org/10.1111/j.1467-968X.2008.00209.x
+**Reference:**   Jones and Laffan (2008) Trans Philol Soc https://doi.org/10.1111/j.1467-968X.2008.00209.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -820,7 +820,7 @@ there is no redundancy in the sampling
 
 **Subroutine:**   calc_redundancy
 
-**Reference:**   Garcillan et al. (2003) J Veget. Sci. http://dx.doi.org/10.1111/j.1654-1103.2003.tb02174.x
+**Reference:**   Garcillan et al. (2003) J Veget. Sci. https://doi.org/10.1111/j.1654-1103.2003.tb02174.x
  
 
 **Formula:**
@@ -1113,7 +1113,7 @@ Weights by samples so multiple occurrences are accounted for.
 
 **Subroutine:**   calc_num_labels_gistar
 
-**Reference:**   Getis and Ord (1992) Geographical Analysis. http://dx.doi.org/10.1111/j.1538-4632.1992.tb00261.x
+**Reference:**   Getis and Ord (1992) Geographical Analysis. https://doi.org/10.1111/j.1538-4632.1992.tb00261.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -1141,7 +1141,7 @@ completely different.
 
 **Subroutine:**   calc_nri_nti_expected_values
 
-**Reference:**   Webb et al. (2008) http://dx.doi.org/10.1093/bioinformatics/btn358
+**Reference:**   Webb et al. (2008) https://doi.org/10.1093/bioinformatics/btn358
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1227,7 +1227,7 @@ so values >0 have longer branches than expected.
 
 **Subroutine:**   calc_phylo_mpd_mntd3
 
-**Reference:**   Webb et al. (2008) http://dx.doi.org/10.1093/bioinformatics/btn358
+**Reference:**   Webb et al. (2008) https://doi.org/10.1093/bioinformatics/btn358
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1255,7 +1255,7 @@ so values >0 have longer branches than expected.
 
 **Subroutine:**   calc_phylo_mpd_mntd2
 
-**Reference:**   Webb et al. (2008) http://dx.doi.org/10.1093/bioinformatics/btn358
+**Reference:**   Webb et al. (2008) https://doi.org/10.1093/bioinformatics/btn358
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1283,7 +1283,7 @@ so values >0 have longer branches than expected.
 
 **Subroutine:**   calc_phylo_mpd_mntd1
 
-**Reference:**   Webb et al. (2008) http://dx.doi.org/10.1093/bioinformatics/btn358
+**Reference:**   Webb et al. (2008) https://doi.org/10.1093/bioinformatics/btn358
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1360,7 +1360,7 @@ so values >0 have longer branches than expected.
 
 **Subroutine:**   calc_pd_endemism
 
-**Reference:**   See Faith (2004) Cons Biol.  http://dx.doi.org/10.1111/j.1523-1739.2004.00330.x
+**Reference:**   See Faith (2004) Cons Biol.  https://doi.org/10.1111/j.1523-1739.2004.00330.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -1434,7 +1434,7 @@ so values >0 have longer branches than expected.
 
 **Subroutine:**   calc_pe
 
-**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x; Laity et al. (2015) http://dx.doi.org/10.1016/j.scitotenv.2015.04.113; Laffan et al. (2016) http://dx.doi.org/10.1111/2041-210X.12513
+**Reference:**   Rosauer et al (2009) Mol. Ecol. https://doi.org/10.1111/j.1365-294X.2009.04311.x; Laity et al. (2015) https://doi.org/10.1016/j.scitotenv.2015.04.113; Laffan et al. (2016) https://doi.org/10.1111/2041-210X.12513
  
 
 **Formula:**
@@ -1461,7 +1461,7 @@ one neighbour set is specified.
 
 **Subroutine:**   calc_pe_central
 
-**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x
+**Reference:**   Rosauer et al (2009) Mol. Ecol. https://doi.org/10.1111/j.1365-294X.2009.04311.x
  
 
 **Formula:**
@@ -1487,7 +1487,7 @@ both neighbour sets.
 
 **Subroutine:**   calc_pe_central_lists
 
-**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x
+**Reference:**   Rosauer et al (2009) Mol. Ecol. https://doi.org/10.1111/j.1365-294X.2009.04311.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -1508,7 +1508,7 @@ both neighbour sets.
 
 **Subroutine:**   calc_pe_lists
 
-**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x
+**Reference:**   Rosauer et al (2009) Mol. Ecol. https://doi.org/10.1111/j.1365-294X.2009.04311.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -1534,7 +1534,7 @@ that is found in the sample window (see formula for PE_WE).
 
 **Subroutine:**   calc_pe_single
 
-**Reference:**   Rosauer et al (2009) Mol. Ecol. http://dx.doi.org/10.1111/j.1365-294X.2009.04311.x
+**Reference:**   Rosauer et al (2009) Mol. Ecol. https://doi.org/10.1111/j.1365-294X.2009.04311.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -1571,14 +1571,14 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 **Subroutine:**   calc_phylo_aed
 
-**Reference:**   Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x
+**Reference:**   Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 247 | PHYLO_AED_LIST | Abundance weighted ED per terminal label |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
-| 248 | PHYLO_ED_LIST | "Fair proportion" partitioning of PD per terminal label |   | 1 | Isaac et al. (2007) http://dx.doi.org/10.1371/journal.pone.0000296 |
-| 249 | PHYLO_ES_LIST | Equal splits partitioning of PD per terminal label |   | 1 | Redding & Mooers (2006) http://dx.doi.org/10.1111%2Fj.1523-1739.2006.00555.x |
+| 247 | PHYLO_AED_LIST | Abundance weighted ED per terminal label |   | 1 | Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 248 | PHYLO_ED_LIST | "Fair proportion" partitioning of PD per terminal label |   | 1 | Isaac et al. (2007) https://doi.org/10.1371/journal.pone.0000296 |
+| 249 | PHYLO_ES_LIST | Equal splits partitioning of PD per terminal label |   | 1 | Redding & Mooers (2006) https://doi.org/10.1111%2Fj.1523-1739.2006.00555.x |
 
 
 
@@ -1592,12 +1592,12 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 **Subroutine:**   calc_phylo_aed_t
 
-**Reference:**   Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x
+**Reference:**   Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 250 | PHYLO_AED_T | Abundance weighted ED_t (sum of values in PHYLO_AED_LIST times their abundances). This is equivalent to a phylogenetic rarity score (see phylogenetic endemism) | region grower | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 250 | PHYLO_AED_T | Abundance weighted ED_t (sum of values in PHYLO_AED_LIST times their abundances). This is equivalent to a phylogenetic rarity score (see phylogenetic endemism) | region grower | 1 | Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x |
 
 
 
@@ -1611,13 +1611,13 @@ Label values are constant for all neighbourhoods in which each label is found.
 
 **Subroutine:**   calc_phylo_aed_t_wtlists
 
-**Reference:**   Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x
+**Reference:**   Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
-| 251 | PHYLO_AED_T_WTLIST | Abundance weighted ED per terminal taxon (the AED score of each taxon multiplied by its abundance in the sample) |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
-| 252 | PHYLO_AED_T_WTLIST_P | Proportional contribution of each terminal taxon to the AED_T score |   | 1 | Cadotte & Davies (2010) http://dx.doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 251 | PHYLO_AED_T_WTLIST | Abundance weighted ED per terminal taxon (the AED score of each taxon multiplied by its abundance in the sample) |   | 1 | Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x |
+| 252 | PHYLO_AED_T_WTLIST_P | Proportional contribution of each terminal taxon to the AED_T score |   | 1 | Cadotte & Davies (2010) https://doi.org/10.1111/j.1472-4642.2010.00650.x |
 
 
 
@@ -1739,7 +1739,7 @@ Uses labels in both neighbourhoods.
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* | *Reference* |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- |
-| 267 | PD | Phylogenetic diversity | region grower | 1 |  ![= \\sum_{c \\in C} L_c](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bc%20%5Cin%20C%7D%20L_c)  where  ![C](http://latex.codecogs.com/png.latex?C) is the set of branches in the minimum spanning path joining the labels in both neighbour sets to the root of the tree, ![c](http://latex.codecogs.com/png.latex?c)  is a branch (a single segment between two nodes) in the spanning path  ![C](http://latex.codecogs.com/png.latex?C) , and  ![L_c](http://latex.codecogs.com/png.latex?L_c)  is the length of branch  ![c](http://latex.codecogs.com/png.latex?c) .  | Faith (1992) Biol. Cons. http://dx.doi.org/10.1016/0006-3207(92)91201-3 |
+| 267 | PD | Phylogenetic diversity | region grower | 1 |  ![= \\sum_{c \\in C} L_c](http://latex.codecogs.com/png.latex?%3D%5Csum_%7Bc%20%5Cin%20C%7D%20L_c)  where  ![C](http://latex.codecogs.com/png.latex?C) is the set of branches in the minimum spanning path joining the labels in both neighbour sets to the root of the tree, ![c](http://latex.codecogs.com/png.latex?c)  is a branch (a single segment between two nodes) in the spanning path  ![C](http://latex.codecogs.com/png.latex?C) , and  ![L_c](http://latex.codecogs.com/png.latex?L_c)  is the length of branch  ![c](http://latex.codecogs.com/png.latex?c) .  | Faith (1992) Biol. Cons. https://doi.org/10.1016/0006-3207(92)91201-3 |
 | 268 | PD_P | Phylogenetic diversity as a proportion of total tree length | region grower | 1 |  ![= \\frac { PD }{ \\sum_{c \\in C} L_c }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%20%7D%7B%20%5Csum_%7Bc%20%5Cin%20C%7D%20L_c%20%7D)  where terms are the same as for PD, but  ![c](http://latex.codecogs.com/png.latex?c) ,  ![C](http://latex.codecogs.com/png.latex?C)  and  ![L_c](http://latex.codecogs.com/png.latex?L_c)  are calculated for all nodes in the tree.  |   |
 | 269 | PD_P_per_taxon | Phylogenetic diversity per taxon as a proportion of total tree length | region grower | 1 |  ![= \\frac { PD\\_P }{ RICHNESS\\_ALL }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%5C_P%20%7D%7B%20RICHNESS%5C_ALL%20%7D)   |   |
 | 270 | PD_per_taxon | Phylogenetic diversity per taxon | region grower | 1 |  ![= \\frac { PD }{ RICHNESS\\_ALL }](http://latex.codecogs.com/png.latex?%3D%5Cfrac%20%7B%20PD%20%7D%7B%20RICHNESS%5C_ALL%20%7D)   |   |
@@ -1804,7 +1804,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_taxonomic_distinctness
 
-**Reference:**   Warwick & Clarke (1995) Mar Ecol Progr Ser. http://dx.doi.org/10.3354/meps129301 ; Clarke & Warwick (2001) Mar Ecol Progr Ser. http://dx.doi.org/10.3354/meps216265
+**Reference:**   Warwick & Clarke (1995) Mar Ecol Progr Ser. https://doi.org/10.3354/meps129301 ; Clarke & Warwick (2001) Mar Ecol Progr Ser. https://doi.org/10.3354/meps216265
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -1826,7 +1826,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_taxonomic_distinctness_binary
 
-**Reference:**   Warwick & Clarke (1995) Mar Ecol Progr Ser. http://dx.doi.org/10.3354/meps129301 ; Clarke & Warwick (2001) Mar Ecol Progr Ser. http://dx.doi.org/10.3354/meps216265
+**Reference:**   Warwick & Clarke (1995) Mar Ecol Progr Ser. https://doi.org/10.3354/meps129301 ; Clarke & Warwick (2001) Mar Ecol Progr Ser. https://doi.org/10.3354/meps216265
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1882,7 +1882,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rpd1
 
-**Reference:**   Mishler et al. (2014) http://dx.doi.org/10.1038/ncomms5473
+**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1903,7 +1903,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rpd2
 
-**Reference:**   Mishler et al. (2014) http://dx.doi.org/10.1038/ncomms5473
+**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1924,7 +1924,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rpe_central
 
-**Reference:**   Mishler et al. (2014) http://dx.doi.org/10.1038/ncomms5473
+**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1945,7 +1945,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rpe1
 
-**Reference:**   Mishler et al. (2014) http://dx.doi.org/10.1038/ncomms5473
+**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1966,7 +1966,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rpe2
 
-**Reference:**   Mishler et al. (2014) http://dx.doi.org/10.1038/ncomms5473
+**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -1988,7 +1988,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_jaccard
 
-**Reference:**   Lozupone and Knight (2005) http://dx.doi.org/10.1128/AEM.71.12.8228-8235.2005
+**Reference:**   Lozupone and Knight (2005) https://doi.org/10.1128/AEM.71.12.8228-8235.2005
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -2047,7 +2047,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_sorenson
 
-**Reference:**   Bryant et al. (2008) http://dx.doi.org/10.1073/pnas.0801920105
+**Reference:**   Bryant et al. (2008) https://doi.org/10.1073/pnas.0801920105
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
@@ -2361,7 +2361,7 @@ for unbalanced sizes.
 
 **Subroutine:**   calc_nestedness_resultant
 
-**Reference:**   Baselga (2010) Glob Ecol Biogeog.  http://dx.doi.org/10.1111/j.1466-8238.2009.00490.x
+**Reference:**   Baselga (2010) Glob Ecol Biogeog.  https://doi.org/10.1111/j.1466-8238.2009.00490.x
  
 
 **Formula:**
@@ -2428,7 +2428,7 @@ Should collapse to be the Simpson index for presence/absence data.
 
 **Subroutine:**   calc_s2
 
-**Reference:**   Lennon et al. (2001) J Animal Ecol.  http://dx.doi.org/10.1046/j.0021-8790.2001.00563.x
+**Reference:**   Lennon et al. (2001) J Animal Ecol.  https://doi.org/10.1046/j.0021-8790.2001.00563.x
  
 
 **Formula:**
