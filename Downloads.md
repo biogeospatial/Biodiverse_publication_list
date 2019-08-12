@@ -49,11 +49,11 @@ All versions are for 64 bit architectures.
 
 The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-299) summarise the changes in this version.
 
-* [2.99_004: Windows (~80MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_004_win.zip)
+* [2.99_005: Windows (~66MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_005_win.zip)
 
-* [2.99_004: MacOS (~50MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_004_mac.zip)
+* [2.99_005: MacOS (~50MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_005_mac.zip)
 
-* [Source code](https://github.com/shawnlaffan/biodiverse/tree/master)
+* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r2.99_005)
 
 There is no Linux dev release, but one can be provided if there is a need.  
 
