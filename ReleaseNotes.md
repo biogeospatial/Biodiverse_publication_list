@@ -33,7 +33,9 @@
 
 # Version 2.99 #
 
-This is a development release series, leading towards version 3.0.  
+This is a development release series, leading towards version 3.0.
+
+For the full list of issues and changes leading to the 3.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_3
 
   * General
     * Unicode file names are now supported.  This was implemented across [several issues](https://github.com/shawnlaffan/biodiverse/projects/3).  [(A few) more details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/05/unicode-file-names-on-windows.html)
