@@ -1,40 +1,4 @@
 **Table of contents:**
-* [Introduction](#introduction)
-* [Uses for spatial conditions](#uses-for-spatial-conditions)
-  * [Neighbourhoods](#neighbourhoods)
-  * [Definition Queries](#definition-queries)
-* [Some details](#some-details)
-  * [Locale issues](#locale-issues)
-* [Evaluation](#evaluation)
-* [Functions](#functions)
-  * [Available functions](#available-functions)
-    * [sp_annulus](#sp_annulus)
-    * [sp_block](#sp_block)
-    * [sp_circle](#sp_circle)
-    * [sp_circle_cell](#sp_circle_cell)
-    * [sp_ellipse](#sp_ellipse)
-    * [sp_get_spatial_output_list_value](#sp_get_spatial_output_list_value)
-    * [sp_group_not_empty](#sp_group_not_empty)
-    * [sp_in_label_range](#sp_in_label_range)
-    * [sp_in_line_with](#sp_in_line_with)
-    * [sp_is_left_of](#sp_is_left_of)
-    * [sp_is_right_of](#sp_is_right_of)
-    * [sp_match_regex](#sp_match_regex)
-    * [sp_match_text](#sp_match_text)
-    * [sp_point_in_poly](#sp_point_in_poly)
-    * [sp_point_in_poly_shape](#sp_point_in_poly_shape)
-    * [sp_points_in_same_poly_shape](#sp_points_in_same_poly_shape)
-    * [sp_rectangle](#sp_rectangle)
-    * [sp_select_all](#sp_select_all)
-    * [sp_select_block](#sp_select_block)
-    * [sp_select_element](#sp_select_element)
-    * [sp_select_sequence](#sp_select_sequence)
-    * [sp_self_only](#sp_self_only)
-    * [sp_square](#sp_square)
-    * [sp_square_cell](#sp_square_cell)
-* [Variables](#variables)
-  * [Examples using variables](#examples-using-variables)
-* [Declaring variables and using more complex functions](#declaring-variables-and-using-more-complex-functions)
 
 
 # Introduction #
@@ -65,17 +29,13 @@ As with any system, there must be compromises between ease of use and system fle
 
 The neighbourhood and definition query interfaces have a syntax verification button to check that the syntax is valid. This does not, however, guarantee your parameters will work, only that it is valid Perl code. (The reality here is that we will just evaluate the parameter statement with some default values and warn you if the system raises some sort of error or exception).
 
-## Locale issues ##
-
-If you are using a locale where the radix character (the decimal place marker) is a comma then you need to remember to use a dot instead.  For example, this code `sp_circle (radius => 5,3)` should be `sp_circle (radius => 5.3)` or you will receive warnings about uneven arguments used to define a hash.
-
 # Evaluation #
 
 This is a brief description of the evaluation process used to determine the set of neighbours for a group.
 
 Currently the system operates on boolean membership of the set of neighbours, so a group either is or is not a neighbour of the processing group.  If no spatial index is used then every group's membership of the processing cell's neighbour set is considered in turn.  If a spatial index is used then only a subset of neighbours is considered (those within the relevant spatial index blocks).  This is why processing times are usually shorter when using an index (see [KeyConcepts#Using_the_spatial_index](KeyConcepts#using-the-spatial-index)).
 
-Spatial conditions need not return symmetric sets.  In this way group _i_ can be in group _j_'s neighbour set, but _j_ need not be in _i_'s neighbour set.  This is not an issue for moving window analyses, but can cause asymmetric dissimilarity matrices if used to run a spatially constrained cluster analysis.  This is why it is generally a good idea in these cases to set the second neighbourhood to be `sp_always_true()` or `1` (which is the same thing).
+Spatial conditions need not return symmetric sets.  In this way group _i_ can be in group _j_'s neighbour set, but _j_ need not be in _i_'s neighbour set.  This is not an issue for moving window analyses, but can cause asymmetric dissimilarity matrices if used to run a spatially constrained cluster analysis.  This is why it is generally a good idea in these cases to set the second neighbourhood to be `sp_select_all()` or `1` (which is the same thing).
 
 In the calculations, groups in neighbour set 1 are excluded from neighbour set 2 so there are no overlaps that would violate the comparison calculations.
 
@@ -88,8 +48,8 @@ Functions are the easiest way to specify conditions as one does not need to wres
 
 ## Available functions ##
 
-The available functions in version 1.0_001 are:
-  [*sp_annulus*](#sp_annulus),   [*sp_block*](#sp_block),   [*sp_circle*](#sp_circle),   [*sp_circle_cell*](#sp_circle_cell),   [*sp_ellipse*](#sp_ellipse),   [*sp_get_spatial_output_list_value*](#sp_get_spatial_output_list_value),   [*sp_group_not_empty*](#sp_group_not_empty),   [*sp_in_label_range*](#sp_in_label_range),   [*sp_in_line_with*](#sp_in_line_with),   [*sp_is_left_of*](#sp_is_left_of),   [*sp_is_right_of*](#sp_is_right_of),   [*sp_match_regex*](#sp_match_regex),   [*sp_match_text*](#sp_match_text),   [*sp_point_in_poly*](#sp_point_in_poly),   [*sp_point_in_poly_shape*](#sp_point_in_poly_shape),   [*sp_points_in_same_poly_shape*](#sp_points_in_same_poly_shape),   [*sp_rectangle*](#sp_rectangle),   [*sp_select_all*](#sp_select_all),   [*sp_select_block*](#sp_select_block),   [*sp_select_element*](#sp_select_element),   [*sp_select_sequence*](#sp_select_sequence),   [*sp_self_only*](#sp_self_only),   [*sp_square*](#sp_square),   [*sp_square_cell*](#sp_square_cell), 
+The available functions in version 2.99_005 are:
+  [*sp_annulus*](#sp_annulus),   [*sp_block*](#sp_block),   [*sp_circle*](#sp_circle),   [*sp_circle_cell*](#sp_circle_cell),   [*sp_ellipse*](#sp_ellipse),   [*sp_get_spatial_output_list_value*](#sp_get_spatial_output_list_value),   [*sp_group_not_empty*](#sp_group_not_empty),   [*sp_in_label_range*](#sp_in_label_range),   [*sp_in_line_with*](#sp_in_line_with),   [*sp_is_left_of*](#sp_is_left_of),   [*sp_is_right_of*](#sp_is_right_of),   [*sp_match_regex*](#sp_match_regex),   [*sp_match_text*](#sp_match_text),   [*sp_point_in_poly*](#sp_point_in_poly),   [*sp_point_in_poly_shape*](#sp_point_in_poly_shape),   [*sp_points_in_same_poly_shape*](#sp_points_in_same_poly_shape),   [*sp_rectangle*](#sp_rectangle),   [*sp_select_all*](#sp_select_all),   [*sp_select_block*](#sp_select_block),   [*sp_select_element*](#sp_select_element),   [*sp_select_sequence*](#sp_select_sequence),   [*sp_self_only*](#sp_self_only),   [*sp_spatial_output_passed_defq*](#sp_spatial_output_passed_defq),   [*sp_square*](#sp_square),   [*sp_square_cell*](#sp_square_cell), 
 
 ### sp_annulus ###
 
@@ -165,7 +125,7 @@ sp_circle_cell (radius => 3, axes => [0, 3])
 
 ### sp_ellipse ###
 
-A two dimensional ellipse.  Use the 'axes' argument to control which are used (default is [0,1]).  The default rotate_angle is pi/2.
+A two dimensional ellipse.  Use the 'axes' argument to control which are used (default is [0,1]).  The default rotate_angle is 0, such that the major axis is east-west.
 
 **Required args:**  major_radius, minor_radius
 
@@ -173,7 +133,7 @@ A two dimensional ellipse.  Use the 'axes' argument to control which are used (d
 
 **Example:**
 ```perl
-# East west aligned ellipse
+# North-south aligned ellipse
 sp_ellipse (
     major_radius => 300000,
     minor_radius => 100000,
@@ -189,15 +149,16 @@ Obtain a value from a list in a previously calculated spatial output.
 
 **Required args:**  index, output
 
-**Optional args:**  element, list
+**Optional args:**  element, list, no_error_if_no_index
 
 **Example:**
 ```perl
 #  get the spatial results value for the current neighbour group
 # (or processing group if used as a def query)
 sp_get_spatial_output_list_value (
-    output  => 'sp1',
-    list    => 'SPATIAL_RESULTS',
+    output  => 'sp1',              #  using spatial output called sp1
+    list    => 'SPATIAL_RESULTS',  #  from the SPATIAL_RESULTS list
+    index   => 'PE_WE_P',          #  get index value for PE_WE_P
 )
 
 #  get the spatial results value for group 128:254
@@ -205,13 +166,14 @@ sp_get_spatial_output_list_value (
     output  => 'sp1',
     element => '128:254',
     list    => 'SPATIAL_RESULTS',
+    index   => 'PE_WE_P',
 )
 
 ```
 
 ### sp_group_not_empty ###
 
-Is an element non-empty?
+Is a basedata group non-empty? (i.e. contains one or more labels)
 
 **Required args:**  *none*
 
@@ -233,7 +195,7 @@ sp_group_not_empty (element => '5467:9876')
 
 ### sp_in_label_range ###
 
-Is a label within a group's range?
+Is a group within a label's range?
 
 **Required args:**  label
 
@@ -243,6 +205,9 @@ Is a label within a group's range?
 ```perl
 # Are we in the range of label called Genus:Sp1?
 sp_in_label_range(label => 'Genus:Sp1')
+# The type argument determines if the 
+processing or neighbour group is assessed
+
 ```
 
 ### sp_in_line_with ###
@@ -372,20 +337,20 @@ Select groups that occur within a polygon or polygons extracted from a shapefile
 sp_point_in_poly_shape (
     file  => 'c:\biodiverse\data\coastline_lamberts',
     point => \@nbrcoord,
-)
+);
 # Is the neighbour coord in a shapefile's second polygon (counting from 1)?
 sp_point_in_poly_shape (
     file      => 'c:\biodiverse\data\coastline_lamberts',
     field_val => 2,
     point     => \@nbrcoord,
-)
+);
 # Is the neighbour coord in a polygon with value 2 in the OBJECT_ID field?
 sp_point_in_poly_shape (
-    file      => 'c:\biodiverse\data\coastline_lamberts',
-    field     => 'OBJECT_ID',
-    field_val => 2,
-    point     => \@nbrcoord,
-)
+    file       => 'c:\biodiverse\data\coastline_lamberts',
+    field_name => 'OBJECT_ID',
+    field_val  => 2,
+    point      => \@nbrcoord,
+);
 
 ```
 
@@ -521,6 +486,35 @@ Select only the processing group
 **Example:**
 ```perl
 sp_self_only() #  only use the proceessing cell
+```
+
+### sp_spatial_output_passed_defq ###
+
+Returns 1 if an element passed the definition query for a previously calculated spatial output
+
+**Required args:**  *none*
+
+**Optional args:**  element, output
+
+**Example:**
+```perl
+#  Used for spatial or cluster type analyses:
+#  The simplest case is where the current
+#  analysis includes a def query and you
+#  want to use it in a spatial condition. 
+sp_spatial_output_passed_defq();
+
+#  Using another output in this basedata
+#  In this case the output is called 'analysis1'
+sp_spatial_output_passed_defq(
+    output => 'analysis1',
+);
+
+#  Return true if a specific element passed the def query
+sp_spatial_output_passed_defq(
+    element => '153.5:-32.5',
+);
+
 ```
 
 ### sp_square ###
