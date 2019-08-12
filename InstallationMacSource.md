@@ -19,6 +19,8 @@ Note that this can take quite some time.  If you have not previously installed X
 You might want to consider using the Windows or Linux executable versions under a virtual machine environment such as [Virtualbox](http://www.virtualbox.org/).
 
 **Table of contents:**
+  * [UPDATE (2016-09-15) - this does not work on recent versions of MacPorts](#update-2016-09-15-this-does-not-work-on-recent-versions-of-macports)
+  * [old instructions follow](#old-instructions-follow)
 * [Installation](#installation)
 * [Running it](#running-it)
 * [Trouble shooting](#trouble-shooting)

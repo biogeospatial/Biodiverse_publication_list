@@ -9,9 +9,8 @@ They also assume you are using a standard user account, and are accessing Biodiv
 
 **Table of contents:**
 * [Installation](#installation)
-* [Testing it](#testing-it)
-* [Running it](#running-it)
-* [Troubleshooting](#troubleshooting)
+  * [Part 1.  Install a non-system perl](#part-1-install-a-non-system-perl)
+  * [Part 2.  Install the perl dependencies](#part-2-install-the-perl-dependencies)
 
 
 # Installation #
