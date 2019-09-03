@@ -1,9 +1,9 @@
 **Table of contents:**
 * [Version 3.00](#version-300)
-* [Version 2.99 dev series](#version-299)
+* [Version 2.99 dev series](#version-299-dev-series)
 * [Version 2.1](#version-21)
 * [Version 2.0](#version-20)
-* [Version 1.99 dev series](#version-199)
+* [Version 1.99 dev series](#version-199-dev-series)
   * [Version 1.99_008](#version-199_008)
   * [Version 1.99_007](#version-199_007)
   * [Version 1.99_006](#version-199_006)
@@ -13,7 +13,7 @@
   * [Version 1.99_002](#version-199_002)
 * [Version 1.1](#version-11)
 * [Version 1](#version-1)
-* [Version 0.99 dev series](#version-099)
+* [Version 0.99 dev series](#version-099-dev-series)
   * [Version 0.99_007](#version-099_007)
   * [Version 0.99_006](#version-099_006)
   * [Version 0.99_005](#version-099_005)
@@ -57,7 +57,7 @@ For the full list of issues and changes leading to the 3.0 release, see https://
     * Spatial analyses can be exported to RGB GeoTIFF files.  This allows users to reconstruct in a GIS package the colour scheme used in Biodiverse.  [More details in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/05/reproduce-spatial-plots-with-same.html). [Issue #375](https://github.com/shawnlaffan/biodiverse/issues/375).  
 
 
-# Version 2.99 #
+# Version 2.99 dev series #
 
 This was a development release series, leading towards version 3.0.  The summary of changes is under the [Version 3.00 entry](#version-300)
 
@@ -100,7 +100,7 @@ To see the full list of open issues or to report a bug or enhancement request, s
 
 
 
-# Version 1.99 #
+# Version 1.99 dev series #
 
 This is a development release series, leading towards version 2.0.
 
@@ -214,7 +214,7 @@ For the full list of issues and changes leading to the 1.0 release, see https://
 To see the full list of open issues or to report a bug or enhancement request, see https://github.com/shawnlaffan/biodiverse/issues
 
 
-# Version 0.99 #
+# Version 0.99 dev series #
 
 This is a development release series, leading towards version 1.0.
 

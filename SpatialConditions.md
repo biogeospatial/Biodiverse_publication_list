@@ -4,6 +4,7 @@
   * [Neighbourhoods](#neighbourhoods)
   * [Definition Queries](#definition-queries)
 * [Some details](#some-details)
+  * [Locale issues](#locale-issues)
 * [Evaluation](#evaluation)
 * [Functions](#functions)
   * [Available functions](#available-functions)
@@ -65,6 +66,10 @@ As with any system, there must be compromises between ease of use and system fle
 
 The neighbourhood and definition query interfaces have a syntax verification button to check that the syntax is valid. This does not, however, guarantee your parameters will work, only that it is valid Perl code. (The reality here is that we will just evaluate the parameter statement with some default values and warn you if the system raises some sort of error or exception).
 
+## Locale issues ##
+
+If you are using a locale where the radix character (the decimal place marker) is a comma then you need to remember to use a dot instead.  For example, this code `sp_circle (radius => 5,3)` should be `sp_circle (radius => 5.3)` or you will receive warnings about uneven arguments used to define a hash.
+
 # Evaluation #
 
 This is a brief description of the evaluation process used to determine the set of neighbours for a group.
@@ -84,7 +89,7 @@ Functions are the easiest way to specify conditions as one does not need to wres
 
 ## Available functions ##
 
-The available functions in version 2.99_005 are:
+The available functions in version 3.00 are:
   [*sp_annulus*](#sp_annulus),   [*sp_block*](#sp_block),   [*sp_circle*](#sp_circle),   [*sp_circle_cell*](#sp_circle_cell),   [*sp_ellipse*](#sp_ellipse),   [*sp_get_spatial_output_list_value*](#sp_get_spatial_output_list_value),   [*sp_group_not_empty*](#sp_group_not_empty),   [*sp_in_label_range*](#sp_in_label_range),   [*sp_in_line_with*](#sp_in_line_with),   [*sp_is_left_of*](#sp_is_left_of),   [*sp_is_right_of*](#sp_is_right_of),   [*sp_match_regex*](#sp_match_regex),   [*sp_match_text*](#sp_match_text),   [*sp_point_in_poly*](#sp_point_in_poly),   [*sp_point_in_poly_shape*](#sp_point_in_poly_shape),   [*sp_points_in_same_poly_shape*](#sp_points_in_same_poly_shape),   [*sp_rectangle*](#sp_rectangle),   [*sp_select_all*](#sp_select_all),   [*sp_select_block*](#sp_select_block),   [*sp_select_element*](#sp_select_element),   [*sp_select_sequence*](#sp_select_sequence),   [*sp_self_only*](#sp_self_only),   [*sp_spatial_output_passed_defq*](#sp_spatial_output_passed_defq),   [*sp_square*](#sp_square),   [*sp_square_cell*](#sp_square_cell), 
 
 ### sp_annulus ###
