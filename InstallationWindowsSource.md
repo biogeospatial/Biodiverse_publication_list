@@ -13,7 +13,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ## Installation ##
 
 
-*  Step 1.  Install Strawberry Perl 5.24.1, 64 bit.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/  _IMPORTANT:  MAKE SURE YOU USE 5.24.1 and NOT 5.20, 5.18 or 5.16.1 etc.  We currently have working gdal ppms for Strawberry Perl 5.16.3 and 5.24.1 (needed for step 5)_
+*  Step 1.  Install Strawberry Perl 64bit, 5.24 or later, and preferably one of the variants that come with PDL installed.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/
 
 *  Step 2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a GIT client to get the latest Biodiverse code, see https://github.com/shawnlaffan/biodiverse and the clone URL there.
 
@@ -34,15 +34,14 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 ```
   :: Install the precompiled binaries needed for the GUI.
-  set BDV_PPM=https://github.com/shawnlaffan/biodiverse/raw/master/etc/ppm/ppm524_x64
   set SIS_PPM=http://www.sisyphusion.tk/ppm
   :: This will also get the other Gtk2 packages
   ppm install %SIS_PPM%/Gnome2-Canvas.ppd 
   :: but themes are a separate install - be sure to say yes when it prompts to move files
   ppm install %SIS_PPM%/PPM-Sisyphusion-Gtk2_theme.ppd
-  ppm install %BDV_PPM%/Geo-GDAL.ppd
 
-  ::  Math::Random::MT::Auto has test errors due to 
+  ::  This might no longer be necessary, but does not hurt.  
+  ::  Math::Random::MT::Auto had test errors due to 
   ::  false positive test results caused by another module.
   cpanm Math::Random::MT::Auto
   :: If the tests report failures due 
@@ -52,11 +51,13 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
   :: Faster utils
   cpanm List::MoreUtils::XS
+  cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
 
   :: Now install the rest of the dependencies
   :: You might need to re-run this line a few times as 
   :: anti-virus scanning can cause test failures due to 
   :: file locks not being released.
+  :: Note also that the GDAL installation will take a _loooong_ time (~40 minutes)
   cpanm Task::Biodiverse
 
 ```

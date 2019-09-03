@@ -48,54 +48,13 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   ##  This is not in the Task files as of version 1.99_007
   cpanm IO::Socket::SSL
 
-  ## some libs to make Biodiverse go faster
+  ## some libs to make Biodiverse go faster if present
+  ## but don't worry if they do not install cleanly.
   ## Panda::Lib does not install on Windows, so is not in the dep list
   cpanm Panda::Lib
   ##  Biodiverse::Utils is not yet on cpan
   cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
   
-
-```
-
-  *  Follow this step to install your own GDAL libs (differing flavours of Ubuntu have different versions of GDAL, not all of which work with the latest perl bindings)
-  
-    These instructions are derived from https://milkator.wordpress.com/2014/05/06/set-up-gdal-on-ubuntu-14-04/
-
-```bash
-  #  edit this next line as appropriate
-  cd ~/folder/for/builds/from/source
-
-  #  not needed on recent Ubuntu versions
-  sudo apt-get install build-essential
-
-  ## update the version as appropriate
-  gdal_version=2.1.3
-  wget http://download.osgeo.org/gdal/${gdal_version}/gdal-${gdal_version}.tar.gz
-  tar xfz gdal-${gdal_version}.tar.gz
-  cd gdal-${gdal_version}
-
-  ##  This will install GDAL into your system level directories.
-  ##  It will take a while (more than 15 minutes is not unusual)
-  ##  Set the --prefix argument to use a different location,
-  ##  e.g. ./configure --prefix=${HOME}/gdal2.1.3
-  ##  and remove the sudo if appropriate.
-  ##  You will likely also need to update your system path
-  ##  if you install locally.
-  ./configure 
-  make -j4
-  sudo make install
-```
-
-  *  Now we install the GDAL perl bindings.
-    Make sure you are using the same version of perl as above
-    (sometimes commands can change this, or you are in a new shell and 
-    ```perlbrew init``` has not been called).
-
-```bash
-  #  adjust the gdal-config path as needed 
-  export PERL_GDAL_CONFIG=/usr/local/bin/gdal-config
-  export PERL_GDAL_NO_VERSION_CHECK=1
-  cpanm Geo::GDAL
 
 ```
 
