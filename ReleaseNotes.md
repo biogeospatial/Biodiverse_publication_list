@@ -1,8 +1,9 @@
 **Table of contents:**
-* [Version 2.99](#version-299)
+* [Version 3.00](#version-300)
+* [Version 2.99 dev series](#version-299)
 * [Version 2.1](#version-21)
 * [Version 2.0](#version-20)
-* [Version 1.99](#version-199)
+* [Version 1.99 dev series](#version-199)
   * [Version 1.99_008](#version-199_008)
   * [Version 1.99_007](#version-199_007)
   * [Version 1.99_006](#version-199_006)
@@ -12,7 +13,7 @@
   * [Version 1.99_002](#version-199_002)
 * [Version 1.1](#version-11)
 * [Version 1](#version-1)
-* [Version 0.99](#version-099)
+* [Version 0.99 dev series](#version-099)
   * [Version 0.99_007](#version-099_007)
   * [Version 0.99_006](#version-099_006)
   * [Version 0.99_005](#version-099_005)
@@ -31,9 +32,7 @@
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
 
-# Version 2.99 #
-
-This is a development release series, leading towards version 3.0.
+# Version 3.00 #
 
 For the full list of issues and changes leading to the 3.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_3
 
@@ -48,12 +47,21 @@ For the full list of issues and changes leading to the 3.0 release, see https://
     * Axes can be dropped from label and group names, e.g. family:genus:species:population can be simplified to genus:species.  [More details in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/05/drop-label-and-group-axes.html).  [Issue #722](https://github.com/shawnlaffan/biodiverse/issues/722).
   * Randomisations
     * These are now faster for large basedata sets.  A consequence is that the randomisations for a given PRNG seed value will differ from version 2.1 and earlier, so if exact replication is needed then ensure you use the same version as the analyses you are replicating.  [Issue #703](https://github.com/shawnlaffan/biodiverse/issues/703) 
+  * Cluster and RegionGrower analyses
+    * The internal index used for matrices now uses the C locale for numeric values.  Incorrect values could otherwise be returned in some locales where the comma is used as the radix character.  Biodiverse now throws an exception when it encounters indexes with commas in the values, recommending that the matrix be rebuilt.  [Issue #742](https://github.com/shawnlaffan/biodiverse/issues/742)
   * Trees
     * Tree exports to shapefile format are no longer supported.  The original purpose is better served exporting to newick with tree branch colours.  [Issue #735](https://github.com/shawnlaffan/biodiverse/issues/735)
   * GUI
     * The index lists in open analysis tabs are now updated when a randomisation completes.  Previously the tab had to be closed and re-opened.  [Issue #693](https://github.com/shawnlaffan/biodiverse/issues/693) 
     * Display statistics are updated when an analysis is re-run.  Previously the tab had to be closed and re-opened to ensure the correct ranges of values were used.  [Issue #714](https://github.com/shawnlaffan/biodiverse/issues/714) 
     * Spatial analyses can be exported to RGB GeoTIFF files.  This allows users to reconstruct in a GIS package the colour scheme used in Biodiverse.  [More details in the blog post](https://biodiverse-analysis-software.blogspot.com/2019/05/reproduce-spatial-plots-with-same.html). [Issue #375](https://github.com/shawnlaffan/biodiverse/issues/375).  
+
+
+# Version 2.99 #
+
+This was a development release series, leading towards version 3.0.  The summary of changes is under the [Version 3.00 entry](#version-300)
+
+For the full list of issues and changes leading to the 3.0 release, see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=milestone%3ARelease_3
 
 
 
