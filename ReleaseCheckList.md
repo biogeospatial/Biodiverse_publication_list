@@ -11,3 +11,5 @@ Copy and paste the markdown into an issue or project per release
 - [ ] Update SpatialConditions wiki
 - [ ] Update Indices wiki
 - [ ] Update ReleaseNotes wiki
+- [ ] Update Task:: files on CPAN
+- [ ] Tag release
