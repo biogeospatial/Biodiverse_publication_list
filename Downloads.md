@@ -24,21 +24,21 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 2.1, released 23-Aug-2018._
+_The current stable release is version 3.00, released 03-Sep-2019._
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-21) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-300) summarise the changes in this version.
 
 [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
 
 All versions are for 64 bit architectures.
 
-*NOTE:  These were updated 07-Dec-2018 to fix issue #711.  This was an issue exporting to shapefiles, but which otherwise has no effect.*
+* [Windows (~55MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_win.zip)
 
-* [Windows (~38MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_win.zip)
+* [Linux (~70MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_linux.tar.gz)
 
-* [Linux (~12MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_linux.tar.gz)
+* [MacOS (~69MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_mac.zip)
 
-* [MacOS (~28MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.1_mac.zip)
+* [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.00)
 
 
 #### Known issues ####
