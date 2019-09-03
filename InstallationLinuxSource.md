@@ -1,4 +1,4 @@
-These instructions apply to version 1.99_006 and later.
+These instructions apply to version 2.99_001 and later.
 
 Note that they have been tested on Ubuntu 16.  The package manager will differ for other Linux flavours, but the cpan command will be the same.
 

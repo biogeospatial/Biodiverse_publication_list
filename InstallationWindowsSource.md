@@ -1,4 +1,4 @@
-These instructions apply to version 1 and later.
+These instructions apply to version 2.99_001 and later.
 
 These assume you have saved the Biodiverse source code to C:\biodiverse.  If you have not then change the `C:\biodiverse\lib` path in the following to the appropriate path.
 
