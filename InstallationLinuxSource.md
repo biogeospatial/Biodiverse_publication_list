@@ -30,9 +30,8 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   #  Gtk:
   sudo apt-get install libgnome2-canvas-perl
   sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
-  # GDAL: (we recommend building your own so have instructions to do so below)
+  # GDAL deps:
   sudo apt-get install libarmadillo-dev libpoppler-dev libepsilon-dev liblzma-dev
-  # sudo apt-get install libgdal-dev libgdal-perl
   sudo apt-get install libkml-dev libfreexl-dev libogdi3.2-dev
 
   ##  Skip this step if you already have cpanm installed
