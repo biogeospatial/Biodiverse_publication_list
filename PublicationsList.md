@@ -15,7 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Fuentes-Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, P., Corcoran, D., Román, M.J. and Pliscoff, P. (in press) Modelling the current and future biodiversity distribution in the Chilean Mediterranean hotspot. The role of protected areas network in a warmer future.  [Diversity and Distributions](https://doi.org/10.1111/ddi.12988).
 
-  * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. 2019. South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
+  * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
 
   * Greenlon, A., Chang, P.L., Damtew, Z.M., et al. (2019) Global-level population genomics reveals differential effects of geography and phylogeny on horizontal gene transfer in soil bacteria.  [Proceedings of the National Academy of Sciences, 201900056](https://doi.org/10.1073/pnas.1900056116).
 
