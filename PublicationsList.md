@@ -19,11 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Greenlon, A., Chang, P.L., Damtew, Z.M., et al. (2019) Global-level population genomics reveals differential effects of geography and phylogeny on horizontal gene transfer in soil bacteria.  [Proceedings of the National Academy of Sciences, 201900056](https://doi.org/10.1073/pnas.1900056116).
 
-  * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (2019) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
-
-  * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (2019) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography, 42, 1188-1199](https://doi.org/10.1111/ecog.04194).
-
-  * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (2019) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography, 28, 757-766](https://doi.org/10.1111/geb.12888).
 
 
 #### 2019 ####
@@ -32,13 +27,19 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (2019) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography, 42, 390-399](https://doi.org/10.1111/ecog.03927).
 
+  * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (2019) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography, 28, 757-766](https://doi.org/10.1111/geb.12888).
+
   * Gallien, L., Thornhill, A.H., Zurell, D., Miller, J.T., and Richardson, D.M. (2019) Global predictors of alien plant establishment success: combining niche and trait proxies. [Proceedings of the Royal Society B, 286, 20182477](https://doi.org/10.1098/rspb.2018.2477).
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (2019) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography, 42, 500-510](https://doi.org/10.1111/ecog.03783).
 
   * Lam-Gordillo, O. and Ardisson, P-L. (2019) The global distribution and richness of frog crabs (Raninoidea). [Crustaceana, 92, 1-31](https://doi.org/10.1163/15685403-00003832).
 
+  * López-Aguirre, C., Hand, S.J., Laffan, S.W., & Archer, M. (2019) Zoogeographical regions and geospatial patterns of phylogenetic diversity and endemism of New World bats. [Ecography, 42, 1188-1199](https://doi.org/10.1111/ecog.04194).
+
   * McDonald-Spicer, C., Knerr, N.J., Encinas-Viso, F. and Schmidt-Lebuhn, A.N. (2019) Big data for a large clade: Bioregionalization and ancestral range estimation in the daisy family (Asteraceae).  [Journal of Biogeography,  46, 255-267](https://doi.org/10.1111/jbi.13496).
+
+  * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (2019) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
 
 
 #### 2018 ####
