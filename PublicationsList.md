@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Mekala, S., Donoghue, M.J., Farjon, A., Filer, D., Mathews, S., Jetz, W. and Leslie, A.B. (2019) Accumulation over evolutionary time as a major cause of biodiversity hotspots in conifers. [Proceedings of the Royal Society B, 286, 20191887](https://doi.org/10.1098/rspb.2019.1887).
+
   * Fuentes-Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, P., Corcoran, D., Román, M.J. and Pliscoff, P. (in press) Modelling the current and future biodiversity distribution in the Chilean Mediterranean hotspot. The role of protected areas network in a warmer future.  [Diversity and Distributions](https://doi.org/10.1111/ddi.12988).
 
   * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
