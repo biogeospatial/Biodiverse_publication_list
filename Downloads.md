@@ -34,7 +34,7 @@ All versions are for 64 bit architectures.
 
 * [Windows (~55MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_win.zip)
 
-* [Linux (~70MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_linux.tar.gz)
+* [Linux (~70MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_linux.zip)
 
 * [MacOS (~69MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_mac.zip)
 
