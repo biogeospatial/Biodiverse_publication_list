@@ -17,11 +17,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2019) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist](https://doi.org/10.1111/nph.16293).
 
-  * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2019) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae) [Botanical Journal of the Linnean Society, boz062](https://doi.org/10.1093/botlinnean/boz062).
+  * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2019) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, boz062](https://doi.org/10.1093/botlinnean/boz062).
 
   * Mekala, S., Donoghue, M.J., Farjon, A., Filer, D., Mathews, S., Jetz, W. and Leslie, A.B. (2019) Accumulation over evolutionary time as a major cause of biodiversity hotspots in conifers. [Proceedings of the Royal Society B, 286, 20191887](https://doi.org/10.1098/rspb.2019.1887).
 
-  * Fuentes-Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, P., Corcoran, D., Román, M.J. and Pliscoff, P. (in press) Modelling the current and future biodiversity distribution in the Chilean Mediterranean hotspot. The role of protected areas network in a warmer future.  [Diversity and Distributions](https://doi.org/10.1111/ddi.12988).
+  * Fuentes-Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, P., Corcoran, D., Román, M.J. and Pliscoff, P. (in press) Modelling the current and future biodiversity distribution in the Chilean Mediterranean hotspot. The role of protected areas network in a warmer future.  [Diversity and Distributions, 25, 1897-1909](https://doi.org/10.1111/ddi.12988).
 
   * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
 
