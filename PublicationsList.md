@@ -15,18 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (in press) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography](https://doi.org/10.1111/ecog.04815).
 
-  * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2019) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist](https://doi.org/10.1111/nph.16293).
-
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2019) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, boz062](https://doi.org/10.1093/botlinnean/boz062).
-
-  * Mekala, S., Donoghue, M.J., Farjon, A., Filer, D., Mathews, S., Jetz, W. and Leslie, A.B. (2019) Accumulation over evolutionary time as a major cause of biodiversity hotspots in conifers. [Proceedings of the Royal Society B, 286, 20191887](https://doi.org/10.1098/rspb.2019.1887).
-
-  * Fuentes-Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, P., Corcoran, D., Román, M.J. and Pliscoff, P. (2019) Modelling the current and future biodiversity distribution in the Chilean Mediterranean hotspot. The role of protected areas network in a warmer future.  [Diversity and Distributions, 25, 1897-1909](https://doi.org/10.1111/ddi.12988).
-
-  * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
-
-  * Greenlon, A., Chang, P.L., Damtew, Z.M., et al. (2019) Global-level population genomics reveals differential effects of geography and phylogeny on horizontal gene transfer in soil bacteria.  [Proceedings of the National Academy of Sciences, 201900056](https://doi.org/10.1073/pnas.1900056116).
-
 
 
 #### 2019 ####
@@ -35,11 +24,17 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (2019) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography, 42, 390-399](https://doi.org/10.1111/ecog.03927).
 
+  * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2019) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist](https://doi.org/10.1111/nph.16293).
+
   * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (2019) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography, 28, 757-766](https://doi.org/10.1111/geb.12888).
+
+  * Fuentes-Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, P., Corcoran, D., Román, M.J. and Pliscoff, P. (2019) Modelling the current and future biodiversity distribution in the Chilean Mediterranean hotspot. The role of protected areas network in a warmer future.  [Diversity and Distributions, 25, 1897-1909](https://doi.org/10.1111/ddi.12988).
 
   * Gallien, L., Thornhill, A.H., Zurell, D., Miller, J.T., and Richardson, D.M. (2019) Global predictors of alien plant establishment success: combining niche and trait proxies. [Proceedings of the Royal Society B, 286, 20182477](https://doi.org/10.1098/rspb.2018.2477).
 
   * Garcia–R, J.C., Gonzalez-Orozco, C.E. and Trewick, S.A. (2019) Contrasting patterns of diversification in a bird family (Aves: Gruiformes: Rallidae) are revealed by analysis of geospatial distribution of species and phylogenetic diversity.  [Ecography, 42, 500-510](https://doi.org/10.1111/ecog.03783).
+
+  * Greenlon, A., Chang, P.L., Damtew, Z.M., et al. (2019) Global-level population genomics reveals differential effects of geography and phylogeny on horizontal gene transfer in soil bacteria.  [Proceedings of the National Academy of Sciences, 201900056](https://doi.org/10.1073/pnas.1900056116).
 
   * Lam-Gordillo, O. and Ardisson, P-L. (2019) The global distribution and richness of frog crabs (Raninoidea). [Crustaceana, 92, 1-31](https://doi.org/10.1163/15685403-00003832).
 
@@ -47,7 +42,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * McDonald-Spicer, C., Knerr, N.J., Encinas-Viso, F. and Schmidt-Lebuhn, A.N. (2019) Big data for a large clade: Bioregionalization and ancestral range estimation in the daisy family (Asteraceae).  [Journal of Biogeography,  46, 255-267](https://doi.org/10.1111/jbi.13496).
 
+  * Mekala, S., Donoghue, M.J., Farjon, A., Filer, D., Mathews, S., Jetz, W. and Leslie, A.B. (2019) Accumulation over evolutionary time as a major cause of biodiversity hotspots in conifers. [Proceedings of the Royal Society B, 286, 20191887](https://doi.org/10.1098/rspb.2019.1887).
+
   * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (2019) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
+
+  * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
 
 
 #### 2018 ####
