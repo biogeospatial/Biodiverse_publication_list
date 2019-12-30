@@ -17,7 +17,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (in press) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography](https://doi.org/10.1111/ecog.04815).
 
-  * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2019) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, boz062](https://doi.org/10.1093/botlinnean/boz062).
+  * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2019) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
 
 #### 2019 ####
