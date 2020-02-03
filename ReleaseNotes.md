@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 3.1](#version-31)
 * [Version 3.00](#version-300)
 * [Version 2.99 dev series](#version-299-dev-series)
 * [Version 2.1](#version-21)
@@ -31,6 +32,17 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+# Version 3.1 #
+
+This is in progress.  
+
+For the full list of issues and changes leading to the 3.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/16
+
+  * Indices
+    * General speedups have been implemented for many of the calculations in the Phylogenetic Indices set.
+  * GUI
+    * Bugs in the list sorting in the View Labels tab have been fixed.  
 
 # Version 3.00 #
 
