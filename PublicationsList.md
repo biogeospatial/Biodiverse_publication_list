@@ -17,7 +17,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press), Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
-  * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (in press) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography](https://doi.org/10.1111/ecog.04815).
+  * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (2020) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography, 43, 328-339](https://doi.org/10.1111/ecog.04815).
 
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2020) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
