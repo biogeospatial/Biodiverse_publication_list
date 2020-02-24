@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  *  Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (in press) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography](https://doi-org/10.1111/jbi.13789).
+  *  Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (in press) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography](https://doi.org/10.1111/jbi.13789).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press), Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
