@@ -53,36 +53,32 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```sh
    \curl -L https://install.perlbrew.pl | bash
    ```
-2. Install the version of perl that Biodiverse requires and then use it:
+2. Install the version of perl that Biodiverse requires and then use it (must be higher than 5.22):
    ```sh
-   ~/perl5/perlbrew/bin/perlbrew install perl-5.26.1
-   ~/perl5/perlbrew/bin/perlbrew switch perl-5.26.1
+   ~/perl5/perlbrew/bin/perlbrew install --noman perl-5.30.1
+   #  if there are "no symbol" test failures in libperl.t then skip the tests
+   #~/perl5/perlbrew/bin/perlbrew install --noman --notest perl-5.30.1
+   ~/perl5/perlbrew/bin/perlbrew switch perl-5.30.1
    ```
 3. Install cpanminus for installing other perl modules:
    ```sh
    perlbrew install-cpanm
    ```
-4. Install all other Biodiverse required perl modules:
+4. Install Biodiverse module dependencies.  Gtk2 has known test failures, but works, so we don't test it.
    ```sh
-   cpanm --force Gtk2
-   cpanm Pango Gnome2::Canvas IO::Socket::SSL.pm Glib::Object::Introspection Scalar::Util::Numeric
-    
-   #  this assumes your goal installed to the Cellar - update as needed
-   PERL_GDAL_CONFIG=/usr/local/Cellar/gdal-20/2.1.0/bin/gdal-config cpanm --force Geo::GDAL
-   ```
-# Install Biodiverse
-1. Install the rest of the Biodiverse perl dependencies
-   ```sh
+   cpanm --notest Gtk2
+   cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric
    cpanm Task::Biodiverse::NoGUI
    cpanm Task::Biodiverse
    ```
+# Install Biodiverse
 
-2. Install Biodiverse either from source or by cloning the git repository. If using git then to install at the top level of your home directory:
+1. Install Biodiverse either from source or by cloning the git repository. If using git then to install at the top level of your home directory:
     ```sh
     cd ~
     git clone https://github.com/shawnlaffan/biodiverse.git
     ```
-3. To run biodiverse switch to the correct version of perl if you haven't already and then run biodiverse:
+2. To run biodiverse switch to the correct version of perl if you haven't already and then run biodiverse:
     ```sh
     ~/perl5/perlbrew/bin/perlbrew switch perl-5.24.0
     perl ~/biodiverse/bin/BiodiverseGUI.pl
