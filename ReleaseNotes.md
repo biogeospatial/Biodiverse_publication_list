@@ -35,14 +35,13 @@
 
 # Version 3.1 #
 
-This is in progress.  
-
 For the full list of issues and changes leading to the 3.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/16
 
   * Indices
     * General speedups have been implemented for many of the calculations in the Phylogenetic Indices set.
   * GUI
     * Bugs in the list sorting in the View Labels tab have been fixed.  [Issue 747](https://github.com/shawnlaffan/biodiverse/issues/747)
+    * Binary version for Macs: the select and pan buttons should now display properly (and seem not to have displayed properly since v2.00).  Please report if this is not the case.
   * Trees
     * Exports are now faster for very large trees
     * Plotting trees in the GUI is now faster (although work is still needed - see [Issue 754](https://github.com/shawnlaffan/biodiverse/issues/754)).  See [Issue 753](https://github.com/shawnlaffan/biodiverse/issues/753) as one example.
