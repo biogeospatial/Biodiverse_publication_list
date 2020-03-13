@@ -24,21 +24,21 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 3.00, released 03-Sep-2019._
+_The current stable release is version 3.1, released 13-Mar-2020._
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-300) summarise the changes in this version.
+The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-31) summarise the changes in this version.
 
 [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
 
 All versions are for 64 bit architectures.
 
-* [Windows (~55MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_win.zip)
+* [Windows (~68MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_win.zip)
 
-* [Linux (~70MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_linux.zip)
+* [Linux (~14MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_linux.zip)
 
-* [MacOS (~69MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.00_mac.zip)
+* [MacOS (~68MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_mac.zip)
 
-* [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.00)
+* [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.1)
 
 
 #### Known issues ####
@@ -46,6 +46,8 @@ All versions are for 64 bit architectures.
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
+
+Development on the 3.99 series, leading to version 4, will commence soon.
 
 The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-299) summarise the changes in this version.
 
