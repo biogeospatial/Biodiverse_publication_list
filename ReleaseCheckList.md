@@ -13,3 +13,5 @@ Copy and paste the markdown into an issue or project per release
 - [ ] Update ReleaseNotes wiki
 - [ ] Update Task:: files on CPAN
 - [ ] Tag release
+- [ ] Flag tag as release: https://github.com/shawnlaffan/biodiverse/releases
+- [ ] Announce to various lists
