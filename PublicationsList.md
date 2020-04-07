@@ -15,13 +15,18 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  Sosa, V., Vásquez-Cruz, M. and Villarreal-Quintanilla, J.A. (2020) Influence of climate stability on endemism of the vascular plants of the Chihuahuan Desert.  [Journal of Arid Environments, 177, 104139](https://doi.org/10.1016/j.jaridenv.2020.104139).
 
-  *  Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
-
   *  Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (in press) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography](https://doi.org/10.1111/jbi.13789).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press), Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
+
+#### 2020 ####
+
   * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (2020) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography, 43, 328-339](https://doi.org/10.1111/ecog.04815).
+
+  * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2020) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist, 225, 2196-2213](https://doi.org/10.1111/nph.16293).
+
+  *  Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
 
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2020) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
@@ -31,8 +36,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K., Majure, L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten, W.M., Abbott, J.R., Soltis, D.E., Guralnick, R. and Soltis, P.S. (2019) Spatial phylogenetics of Florida vascular plants: The effects of calibration and uncertainty on diversity estimates.  [iScience, 11, 57-70](https://doi.org/10.1016/j.isci.2018.12.002).
 
   * Crouch, N.M.A., Capurucho, J.M.G., Hackett, S.J. and Bates, J.M. (2019) Evaluating the contribution of dispersal to community structure in Neotropical passerine birds.  [Ecography, 42, 390-399](https://doi.org/10.1111/ecog.03927).
-
-  * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2019) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist](https://doi.org/10.1111/nph.16293).
 
   * Daru, B.H., le Roux, P.C., Gopalraj, J., Park, D.S., Holt, B.G. and Greve, M. (2019) Spatial overlaps between the global protected areas network and terrestrial hotspots of evolutionary diversity.  [Global Ecology and Biogeography, 28, 757-766](https://doi.org/10.1111/geb.12888).
 
