@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  *  Toro-Núñez, O. and Lira-Noriega, Andrés (in press) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13846).
+
   *  Sosa, V., Vásquez-Cruz, M. and Villarreal-Quintanilla, J.A. (2020) Influence of climate stability on endemism of the vascular plants of the Chihuahuan Desert.  [Journal of Arid Environments, 177, 104139](https://doi.org/10.1016/j.jaridenv.2020.104139).
 
   *  Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (in press) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography](https://doi.org/10.1111/jbi.13789).
