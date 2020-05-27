@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (in press) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography](https://doi.org/10.1111/jbi.13870).
+
   * Mishler, B.D., Guralnick, R., Soltis, P.S., Smith, S.A., Soltis, D.E., Barve, N., Allen, J.M. and Laffan, S.W. (in press) Spatial Phylogenetics of the North American Flora. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.12590).
 
   *  Toro-Núñez, O. and Lira-Noriega, Andrés (in press) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13846).
