@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 3.99 dev series](#version-399-dev-series)
 * [Version 3.1](#version-31)
 * [Version 3.00](#version-300)
 * [Version 2.99 dev series](#version-299-dev-series)
@@ -32,6 +33,15 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+# Version 3.99 dev series #
+
+This is a development release series, leading towards version 4.0.  Currently no releases have been done, so this list marks forthcoming changes.  
+
+For the full list of issues and changes leading to the 4.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/17
+
+  * Analyses
+    * Cluster analyses will now lump all zero distance pairs in an initial pass where possible.  This avoids needless tie-breaker calculations when data sets have large sets of groups with the same label assemblages.  [Issue 760](https://github.com/shawnlaffan/biodiverse/issues/760)
 
 # Version 3.1 #
 
