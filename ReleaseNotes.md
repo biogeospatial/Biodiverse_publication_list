@@ -42,6 +42,10 @@ For the full list of issues and changes leading to the 4.0 release, see https://
 
   * Analyses
     * Cluster analyses will now lump all zero distance pairs in an initial pass where possible.  This avoids needless tie-breaker calculations when data sets have large sets of groups with the same label assemblages.  [Issue 760](https://github.com/shawnlaffan/biodiverse/issues/760)
+  * Calculations
+    * A local PD calculation, called "Phylogenetic Diversity (local)" now allows the calculation of PD and PD_P to the last common ancestor, as opposed to the root node.  [Issue 762](https://github.com/shawnlaffan/biodiverse/issues/762)
+    * A new calculation, "Last shared ancestor properties", provides details aout the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
+
 
 # Version 3.1 #
 
