@@ -46,6 +46,7 @@ For the full list of issues and changes leading to the 4.0 release, see https://
   * Calculations
     * A local PD calculation, "Phylogenetic Diversity (local)", now allows the calculation of PD and PD_P to the last common ancestor, as opposed to the root node.  [Issue 762](https://github.com/shawnlaffan/biodiverse/issues/762)
     * A new calculation, "Last shared ancestor properties", provides details aout the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
+    * The taxonomic distinctness calculations have been moved to the BiodiverseX namespace, so are not available in the GUI by default. [Issue 751](https://github.com/shawnlaffan/biodiverse/issues/751).
 
 
 # Version 3.1 #
