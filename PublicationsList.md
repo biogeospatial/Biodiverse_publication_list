@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
+
   * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution](https://doi.org/10.1007/s10722-020-00960-1).
 
   * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (in press) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography](https://doi.org/10.1111/jbi.13870).
