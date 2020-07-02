@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (in press) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist](https://doi.org/10.1111/nph.16737).
+
   * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
 
   * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution](https://doi.org/10.1007/s10722-020-00960-1).
