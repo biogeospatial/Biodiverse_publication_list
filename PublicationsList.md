@@ -29,8 +29,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (in press) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography](https://doi.org/10.1111/jbi.13870).
 
-  * Mishler, B.D., Guralnick, R., Soltis, P.S., Smith, S.A., Soltis, D.E., Barve, N., Allen, J.M. and Laffan, S.W. (2020) Spatial Phylogenetics of the North American Flora. [Journal of Systematics and Evolution, 58, 393-405](https://doi.org/10.1111/jse.12590).
-
   * Toro-Núñez, O. and Lira-Noriega, Andrés (in press) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13846).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
@@ -45,6 +43,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   *  Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
 
   *  Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (2020) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography, 47, 915-926](https://doi.org/10.1111/jbi.13789).
+
+  * Mishler, B.D., Guralnick, R., Soltis, P.S., Smith, S.A., Soltis, D.E., Barve, N., Allen, J.M. and Laffan, S.W. (2020) Spatial Phylogenetics of the North American Flora. [Journal of Systematics and Evolution, 58, 393-405](https://doi.org/10.1111/jse.12590).
 
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2020) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
