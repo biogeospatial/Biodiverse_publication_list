@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Trigas, P., Strid, A. and Dimopoulos, P. (2020) Spatial Phylogenetics, Biogeographical Patterns and Conservation Implications of the Endemic Flora of Crete (Aegean, Greece) under Climate Change Scenarios.  [Biology, 9, 199](https://doi.org/10.3390/biology9080199).
+
   * Barrera-Robles, P.H., Burgos-Hernández, M., Ruíz-Acevedo, A.D. and Castillo-Campos, G. (in press)  The Linaceae family in Mexico: current status and perspectives.  [Botanical Sciences](https://doi.org/10.17129/botsci.2550).
 
   * Paz, A., Reginato, M., Michelangeli, F.A., Goldenberg, R., Caddah, M.K., Aguirre-Santoro, J., Kaehler, M., Lohmann, L.G. & Carnaval, A. (2020) Predicting Patterns of Plant Diversity and Endemism in the Tropics Using Remote Sensing Data: A Study Case from the Brazilian Atlantic Forest. [Remote Sensing of Plant Biodiversity (eds J. Cavender-Bares, J.A. Gamon & P.A. Townsend), pp. 255-266. Springer, Cham](https://doi.org/10.1007/978-3-030-33157-3_11).
