@@ -31,9 +31,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Mishler, B.D., Guralnick, R., Soltis, P.S., Smith, S.A., Soltis, D.E., Barve, N., Allen, J.M. and Laffan, S.W. (2020) Spatial Phylogenetics of the North American Flora. [Journal of Systematics and Evolution, 58, 393-405](https://doi.org/10.1111/jse.12590).
 
-  *  Toro-Núñez, O. and Lira-Noriega, Andrés (in press) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13846).
+  * Toro-Núñez, O. and Lira-Noriega, Andrés (in press) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13846).
 
-  * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press), Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
+  * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
 
 #### 2020 ####
