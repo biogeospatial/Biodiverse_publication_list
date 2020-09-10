@@ -15,8 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Trigas, P., Strid, A. and Dimopoulos, P. (2020) Spatial Phylogenetics, Biogeographical Patterns and Conservation Implications of the Endemic Flora of Crete (Aegean, Greece) under Climate Change Scenarios.  [Biology, 9, 199](https://doi.org/10.3390/biology9080199).
 
-  * Barrera-Robles, P.H., Burgos-Hernández, M., Ruíz-Acevedo, A.D. and Castillo-Campos, G. (in press)  The Linaceae family in Mexico: current status and perspectives.  [Botanical Sciences](https://doi.org/10.17129/botsci.2550).
-
   * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (in press) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist](https://doi.org/10.1111/nph.16737).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
@@ -25,6 +23,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 #### 2020 ####
 
   * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (2020) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography, 43, 328-339](https://doi.org/10.1111/ecog.04815).
+
+  * Barrera-Robles, P.H., Burgos-Hernández, M., Ruíz-Acevedo, A.D. and Castillo-Campos, G. (2020)  The Linaceae family in Mexico: current status and perspectives.  [Botanical Sciences, 98, 560-572](https://doi.org/10.17129/botsci.2550).
 
   * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
 
