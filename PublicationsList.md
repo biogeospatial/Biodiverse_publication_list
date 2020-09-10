@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (in press) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist](https://doi.org/10.1111/nph.16737).
 
-  * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
-
   * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution](https://doi.org/10.1007/s10722-020-00960-1).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
@@ -30,7 +28,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (2020) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography, 43, 328-339](https://doi.org/10.1111/ecog.04815).
 
-  *  Brown, JL, Paz, A, Reginato, M, et al. (2020) Seeing the forest through many trees: Multi‐taxon patterns of phylogenetic diversity in the Atlantic Forest hotspot. [Diversity and Distributions, 26, 1160-1176](https://doi.org/10.1111/ddi.13116).
+  * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
+
+  * Brown, JL, Paz, A, Reginato, M, et al. (2020) Seeing the forest through many trees: Multi‐taxon patterns of phylogenetic diversity in the Atlantic Forest hotspot. [Diversity and Distributions, 26, 1160-1176](https://doi.org/10.1111/ddi.13116).
 
   * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2020) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist, 225, 2196-2213](https://doi.org/10.1111/nph.16293).
 
