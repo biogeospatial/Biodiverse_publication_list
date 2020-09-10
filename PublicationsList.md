@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Paz, A., Reginato, M., Michelangeli, F.A., Goldenberg, R., Caddah, M.K., Aguirre-Santoro, J., Kaehler, M., Lohmann, L.G. & Carnaval, A. (2020) Predicting Patterns of Plant Diversity and Endemism in the Tropics Using Remote Sensing Data: A Study Case from the Brazilian Atlantic Forest. [Remote Sensing of Plant Biodiversity (eds J. Cavender-Bares, J.A. Gamon & P.A. Townsend), pp. 255-266. Springer, Cham](https://doi.org/10.1007/978-3-030-33157-3_11).
 
-  *  Brown, JL, Paz, A, Reginato, M, et al. (in press) Seeing the forest through many trees: Multi‐taxon patterns of phylogenetic diversity in the Atlantic Forest hotspot. [Diversity and Distributions](https://doi.org/10.1111/ddi.13116).
-
   * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (in press) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist](https://doi.org/10.1111/nph.16737).
 
   * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
@@ -33,6 +31,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 #### 2020 ####
 
   * Azevedo, J.A.R., Guedes, T.B., Nogueira, C.d.C., Passos, P., Sawaya, R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L., Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H., Tonini, J.F.R., Faurby, S. & Antonelli, A. (2020) Museums and cradles of diversity are geographically coincident for narrowly distributed Neotropical snakes. [Ecography, 43, 328-339](https://doi.org/10.1111/ecog.04815).
+
+  *  Brown, JL, Paz, A, Reginato, M, et al. (2020) Seeing the forest through many trees: Multi‐taxon patterns of phylogenetic diversity in the Atlantic Forest hotspot. [Diversity and Distributions, 26, 1160-1176](https://doi.org/10.1111/ddi.13116).
 
   * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2020) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist, 225, 2196-2213](https://doi.org/10.1111/nph.16293).
 
