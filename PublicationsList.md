@@ -27,8 +27,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution](https://doi.org/10.1007/s10722-020-00960-1).
 
-  * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (2020) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography, 47, 1934-1944](https://doi.org/10.1111/jbi.13870).
-
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
 
@@ -38,11 +36,13 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2020) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist, 225, 2196-2213](https://doi.org/10.1111/nph.16293).
 
-  *  Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
+  * Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
 
-  *  Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (2020) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography, 47, 915-926](https://doi.org/10.1111/jbi.13789).
+  * Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler, B.D., Martin, M.D. (2020) Differential patterns of floristic phylogenetic diversity across a post‐glacial landscape. [Journal of Biogeography, 47, 915-926](https://doi.org/10.1111/jbi.13789).
 
   * Mishler, B.D., Guralnick, R., Soltis, P.S., Smith, S.A., Soltis, D.E., Barve, N., Allen, J.M. and Laffan, S.W. (2020) Spatial Phylogenetics of the North American Flora. [Journal of Systematics and Evolution, 58, 393-405](https://doi.org/10.1111/jse.12590).
+
+  * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (2020) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography, 47, 1934-1944](https://doi.org/10.1111/jbi.13870).
 
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2020) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
