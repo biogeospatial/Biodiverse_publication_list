@@ -29,8 +29,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (2020) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography, 47, 1934-1944](https://doi.org/10.1111/jbi.13870).
 
-  * Toro-Núñez, O. and Lira-Noriega, Andrés (in press) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography](https://doi.org/10.1111/jbi.13846).
-
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
 
@@ -49,6 +47,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2020) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
   *  Sosa, V., Vásquez-Cruz, M. and Villarreal-Quintanilla, J.A. (2020) Influence of climate stability on endemism of the vascular plants of the Chihuahuan Desert.  [Journal of Arid Environments, 177, 104139](https://doi.org/10.1016/j.jaridenv.2020.104139).
+
+  * Toro-Núñez, O. and Lira-Noriega, Andrés (2020) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography, 47, 1792-1804](https://doi.org/10.1111/jbi.13846).
 
 
 #### 2019 ####
