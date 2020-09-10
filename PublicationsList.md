@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Barrera-Robles, P.H., Burgos-Hernández, M., Ruíz-Acevedo, A.D. and Castillo-Campos, G. (in press)  The Linaceae family in Mexico: current status and perspectives.  [Botanical Sciences](https://doi.org/10.17129/botsci.2550).
 
-  * Paz, A., Reginato, M., Michelangeli, F.A., Goldenberg, R., Caddah, M.K., Aguirre-Santoro, J., Kaehler, M., Lohmann, L.G. & Carnaval, A. (2020) Predicting Patterns of Plant Diversity and Endemism in the Tropics Using Remote Sensing Data: A Study Case from the Brazilian Atlantic Forest. [Remote Sensing of Plant Biodiversity (eds J. Cavender-Bares, J.A. Gamon & P.A. Townsend), pp. 255-266. Springer, Cham](https://doi.org/10.1007/978-3-030-33157-3_11).
-
   * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (in press) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist](https://doi.org/10.1111/nph.16737).
 
   * Bein, B., Ebach, M.C., Laffan, S.W., Murphy, D.J. and Cassis, G. (2020) Quantifying vertebrate zoogeographical regions of Australia using geospatial turnover in the species composition of mammals, birds, reptiles and terrestrial amphibians. [Zootaxa, 4802, 61-81](https://doi.org/10.11646/zootaxa.4802.1.4).
@@ -44,9 +42,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (2020) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography, 47, 1934-1944](https://doi.org/10.1111/jbi.13870).
 
+  * Paz, A., Reginato, M., Michelangeli, F.A., Goldenberg, R., Caddah, M.K., Aguirre-Santoro, J., Kaehler, M., Lohmann, L.G. & Carnaval, A. (2020) Predicting Patterns of Plant Diversity and Endemism in the Tropics Using Remote Sensing Data: A Study Case from the Brazilian Atlantic Forest. [Remote Sensing of Plant Biodiversity (eds J. Cavender-Bares, J.A. Gamon & P.A. Townsend), pp. 255-266. Springer, Cham](https://doi.org/10.1007/978-3-030-33157-3_11).
+
   * Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G., Rodríguez, A. (2020) Diversity, endemism and conservation status of native Mexican woody bamboos (Poaceae: Bambusoideae: Bambuseae). [Botanical Journal of the Linnean Society, 192, 281–295](https://doi.org/10.1093/botlinnean/boz062).
 
-  *  Sosa, V., Vásquez-Cruz, M. and Villarreal-Quintanilla, J.A. (2020) Influence of climate stability on endemism of the vascular plants of the Chihuahuan Desert.  [Journal of Arid Environments, 177, 104139](https://doi.org/10.1016/j.jaridenv.2020.104139).
+  * Sosa, V., Vásquez-Cruz, M. and Villarreal-Quintanilla, J.A. (2020) Influence of climate stability on endemism of the vascular plants of the Chihuahuan Desert.  [Journal of Arid Environments, 177, 104139](https://doi.org/10.1016/j.jaridenv.2020.104139).
 
   * Toro-Núñez, O. and Lira-Noriega, Andrés (2020) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography, 47, 1792-1804](https://doi.org/10.1111/jbi.13846).
 
