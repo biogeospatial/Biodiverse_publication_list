@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Journal of Systematics and Evolution](https://doi.org/10.1016/j.pld.2020.09.001).
+  * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Trigas, P., Strid, A. and Dimopoulos, P. (2020) Spatial Phylogenetics, Biogeographical Patterns and Conservation Implications of the Endemic Flora of Crete (Aegean, Greece) under Climate Change Scenarios.  [Biology, 9, 199](https://doi.org/10.3390/biology9080199).
 
