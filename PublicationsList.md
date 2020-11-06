@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Moraes, A.M., Milward-de-Azevedo, M.A., Menini Neto, L. et al. (in press) Distribution patterns of Passiflora L. (Passifloraceae s.s.) in the Serra da Mantiqueira, Southeast Brazil. [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-020-00665-w).
+  * Moraes, A.M., Milward-de-Azevedo, M.A., Menini Neto, L. et al. (2020) Distribution patterns of Passiflora L. (Passifloraceae s.s.) in the Serra da Mantiqueira, Southeast Brazil. [Brazilian Journal of Botany, 43, 999–1012](https://doi.org/10.1007/s40415-020-00665-w).
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
