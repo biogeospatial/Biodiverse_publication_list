@@ -1882,8 +1882,6 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rpd1
 
-**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
- 
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
 | ---- | ---- | ---- | ---- | ---- | ---- |
@@ -1944,8 +1942,6 @@ Uses labels in both neighbourhoods.
 **Description:**   Relative Phylogenetic Endemism (RPE).  The ratio of the tree's PE to a null model of PD evenly distributed across terminals, but with the same range per terminal and where ancestral nodes are of zero length (as per RPD1).
 
 **Subroutine:**   calc_phylo_rpe1
-
-**Reference:**   Mishler et al. (2014) https://doi.org/10.1038/ncomms5473
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* | *Formula* |
