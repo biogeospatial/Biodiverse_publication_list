@@ -2003,7 +2003,7 @@ Uses labels in both neighbourhoods.
 
 **Subroutine:**   calc_phylo_rw_turnover
 
-**Reference:**   TBA
+**Reference:**   Laffan et al. (2016) https://doi.org/10.1111/2041-210X.12513
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
@@ -2379,7 +2379,7 @@ for unbalanced sizes.
 
 **Subroutine:**   calc_rw_turnover
 
-**Reference:**   TBA
+**Reference:**   Laffan et al. (2016) https://doi.org/10.1111/2041-210X.12513
  
 
 | *Index #* | *Index* | *Index description* | *Grouping metric?* | *Minimum number of neighbour sets* |
