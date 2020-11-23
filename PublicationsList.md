@@ -21,7 +21,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
 
-  * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (in press) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist](https://doi.org/10.1111/nph.16737).
+  * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (2020) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist, 228, 1972-1985](https://doi.org/10.1111/nph.16737).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
