@@ -87,6 +87,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
 
+  * Dong, X., Zhang, H. & Zhang, M. (2019) Explaining  the  diversity  and  endemic  patterns  based  on  phylogenetic  approach for woody plants of the Loess Plateau. [Biodiversity Science, 27, 1269-1278](https://doi.org/10.17520/biods.2019224).
+
 
 #### 2018 ####
 
