@@ -15,15 +15,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
-  * Pereira, L.C., Chautems, A. and Menini Neto, L. (2020) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1007/s40415-020-00671-y).
-
-  * Moraes, A.M., Milward-de-Azevedo, M.A., Menini Neto, L. et al. (2020) Distribution patterns of Passiflora L. (Passifloraceae s.s.) in the Serra da Mantiqueira, Southeast Brazil. [Brazilian Journal of Botany, 43, 999–1012](https://doi.org/10.1007/s40415-020-00665-w).
+  * Pereira, L.C., Chautems, A. and Menini Neto, L. (2020) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-020-00671-y).
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
-
-  * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (2020) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist, 228, 1972-1985](https://doi.org/10.1111/nph.16737).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
@@ -40,6 +36,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Dagallier, L.-P.M.J., Janssens, S.B., Dauby, G., Blach-Overgaard, A., Mackinder, B.A., Droissart, V., Svenning, J.-C., Sosef, M.S.M., Stévart, T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. and Couvreur, T.L.P. (2020) Cradles and museums of generic plant diversity across tropical Africa. [New Phytologist, 225, 2196-2213](https://doi.org/10.1111/nph.16293).
 
+  * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (2020) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist, 228, 1972-1985](https://doi.org/10.1111/nph.16737).
+
   * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution](https://doi.org/10.1007/s10722-020-00960-1).
 
   * Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
@@ -51,6 +49,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Mishler, B.D., Guralnick, R., Soltis, P.S., Smith, S.A., Soltis, D.E., Barve, N., Allen, J.M. and Laffan, S.W. (2020) Spatial Phylogenetics of the North American Flora. [Journal of Systematics and Evolution, 58, 393-405](https://doi.org/10.1111/jse.12590).
 
   * Moles, A.T., Laffan, S.W., Keighery, M., Tindall, M.L. and Chen, S. (2020) A hairy situation: Plant species in warm, sunny places are more likely to have pubescent leaves. [Journal of Biogeography, 47, 1934-1944](https://doi.org/10.1111/jbi.13870).
+
+  * Moraes, A.M., Milward-de-Azevedo, M.A., Menini Neto, L. et al. (2020) Distribution patterns of Passiflora L. (Passifloraceae s.s.) in the Serra da Mantiqueira, Southeast Brazil. [Brazilian Journal of Botany, 43, 999–1012](https://doi.org/10.1007/s40415-020-00665-w).
 
   * Paz, A., Reginato, M., Michelangeli, F.A., Goldenberg, R., Caddah, M.K., Aguirre-Santoro, J., Kaehler, M., Lohmann, L.G. & Carnaval, A. (2020) Predicting Patterns of Plant Diversity and Endemism in the Tropics Using Remote Sensing Data: A Study Case from the Brazilian Atlantic Forest. [Remote Sensing of Plant Biodiversity (eds J. Cavender-Bares, J.A. Gamon & P.A. Townsend), pp. 255-266. Springer, Cham](https://doi.org/10.1007/978-3-030-33157-3_11).
 
