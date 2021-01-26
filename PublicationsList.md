@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
+
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2020) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany](https://doi-org.wwwproxy1.library.unsw.edu.au/10.1007/s40415-020-00671-y).
 
   * Moraes, A.M., Milward-de-Azevedo, M.A., Menini Neto, L. et al. (2020) Distribution patterns of Passiflora L. (Passifloraceae s.s.) in the Serra da Mantiqueira, Southeast Brazil. [Brazilian Journal of Botany, 43, 999–1012](https://doi.org/10.1007/s40415-020-00665-w).
