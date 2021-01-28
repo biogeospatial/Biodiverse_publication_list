@@ -43,6 +43,7 @@ All versions are for 64 bit architectures.
 
 #### Known issues ####
 
+  * On MacOS Catalina there are issues accessing the Desktop, Documents and similar directories.  The workaround is to either use a separate Biodiverse directory or to run the GUI from the command line.  [More details are in issue 778](https://github.com/shawnlaffan/biodiverse/issues/778#issuecomment-759140901), which is being used to track this.
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
