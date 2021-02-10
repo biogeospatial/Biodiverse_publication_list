@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Zhu, Z-X, harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (in press) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution](https://doi.org/10.1002/ece3.7180).
+
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2020) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-020-00671-y).
