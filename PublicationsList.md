@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  *  Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (in press) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions](https://doi.org/10.1111/ddi.13241).
+
   * Zhu, Z-X, harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (in press) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution](https://doi.org/10.1002/ece3.7180).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
