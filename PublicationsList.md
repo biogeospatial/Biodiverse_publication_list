@@ -21,7 +21,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2020) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-020-00671-y).
 
-  * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (2020) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
+  * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
 
