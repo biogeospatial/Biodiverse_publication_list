@@ -41,16 +41,19 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   perlbrew install-cpanm
 
   ## Now install (most of ) the rest of the dependencies
+  ##  ssuming you have unpacked or git cloned the files to ~/biodiverse
+  cd ~/biodiverse
+  cpanm --installdeps .
+
+  ## If you are using Biodiverse 3.1 or earlier
   cpanm Task::Biodiverse::NoGUI
   cpanm Task::Biodiverse
-
-  ##  This is not in the Task files as of version 1.99_007
-  cpanm IO::Socket::SSL
 
   ## some libs to make Biodiverse go faster if present
   ## but don't worry if they do not install cleanly.
   ## Panda::Lib does not install on Windows, so is not in the dep list
-  cpanm Panda::Lib
+  ## cpanm Panda::Lib
+  cpanm Data::Recursive
   ##  Biodiverse::Utils is not yet on cpan
   cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
   
