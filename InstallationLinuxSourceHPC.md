@@ -23,38 +23,52 @@ They also assume you are using a standard user account, and are accessing Biodiv
     * Perlbrew is recommended, and is used for Biodiverse development, and is assumed below.  There are other other systems like plenv which will likely also work, but I have not tested them.
     * Make sure you are using the non-system perl for all subsequent steps.  This could involve adding a line to your .bashrc (or equivalent) file to ensure it is loaded each time you login.  Perlbrew provides instructions on how to do this.  
   
+## Part 2.  Clone the Biodiverse repo
+```bash
+  #  update this if you wish to install to a different location or checkout a release tag
+  git clone https://github.com/shawnlaffan/biodiverse.git
 
-## Part 2.  Install the perl dependencies ##
+  #  the next section assumes you are in the biodiverse git directory
+  cd biodiverse 
+```
+
+
+## Part 3.  Install the perl dependencies ##
 ```bash
 
   ##  if you are using perlbrew and forgot to install the cpanm client:
   perlbrew install-cpanm
 
-  ## Now install the rest of the dependencies
-  ## Note that new deps might be added as 
-  ## part of the development process
-  cpanm Task::Biodiverse::NoGUI
-
-  ## some libs to make Biodiverse go faster
-  ## Panda::Lib does not install on Windows, so is not in the generic dep list
-  cpanm Panda::Lib
-  ##  Biodiverse::Utils is not yet on cpan
-  cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
-  
-  ## Alien::gdal is a big dependency.
-  #  Note that, if you have GDAL version 2.1 or higher already 
+  ## Alien::gdal is a big dependency.  It is listed in the cpanfile, 
+  #  but it can be useful to install it first.
+  #  Note that, if you have GDAL version 3.0 or higher already 
   #  installed on your system then this will use that version 
   #  instead of building its own.
-  #  If you have loaded a system GDAL using ```module load``` 
+  #  Note also that if you have loaded a system GDAL using ```module load``` 
   #  or similar then you need to ensure it is loaded each time 
   #  you run Biodiverse or it will fail to start.
   cpanm Alien::sqlite
   cpanm Alien::proj
+  cpanm Alien::geos::af
   cpanm Alien::gdal
+
+  #  Geo::GDAL::FFI does not yet declare this dependency
+  cpanm FFI::Platypus::Declare
   
-  ##  Geo::GDAL::FFI also depends on PDL, for 
-  #   which installation will take a little while
-  cpanm Geo::GDAL::FFI
+  ## Now install the rest of the dependencies
+  ## Note that new deps might be added as 
+  ## part of the development process
+  cpanm --installdeps . 
+
+  #  only if you are installing version 3.1 or earlier
+  cpanm Task::Biodiverse::NoGUI
+
+  ## some libs to make Biodiverse go faster
+  ## Panda::Lib does not install on Windows, so is not in the generic dep list
+  ## cpanm Panda::Lib
+  cpanm Data::Recursive
+  ##  Biodiverse::Utils is not yet on cpan
+  cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
 
   ##  if the above command fails with an error 
   #   regarding curl and libffi then use your
