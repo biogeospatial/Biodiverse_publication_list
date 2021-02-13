@@ -53,11 +53,16 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   cpanm List::MoreUtils::XS
   cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
 
-  :: Now install the rest of the dependencies
-  :: You might need to re-run this line a few times as 
+  :: Now install the rest of the dependencies.  
+  :: Ensure you are within the main Biodiverse directory 
+  :: when running it, as it needs to find the file called `cpanfile`
+  :: Note that the GDAL installation can take a _loooong_ time (>40 minutes)
+  cpanm --installdeps .
+
+  :: The next line is only needed for v3.1 and earlier.
+  :: You might need to re-run it a few times as 
   :: anti-virus scanning can cause test failures due to 
   :: file locks not being released.
-  :: Note also that the GDAL installation will take a _loooong_ time (~40 minutes)
   cpanm Task::Biodiverse
 
 ```
