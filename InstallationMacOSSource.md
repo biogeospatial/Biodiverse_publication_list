@@ -83,9 +83,9 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     cpanm Task::Biodiverse
     ```
 
-2. To run biodiverse switch to the correct version of perl if you haven't already and then run biodiverse:
+2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.30.1), and then run biodiverse:
     ```sh
-    ~/perl5/perlbrew/bin/perlbrew switch perl-5.24.0
+    ~/perl5/perlbrew/bin/perlbrew switch perl-5.30.1
     perl ~/biodiverse/bin/BiodiverseGUI.pl
     ```
 
