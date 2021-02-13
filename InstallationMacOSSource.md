@@ -64,20 +64,25 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```sh
    perlbrew install-cpanm
    ```
-4. Install Biodiverse module dependencies.  Gtk2 has known test failures, but works, so we don't test it.
+4. Install Biodiverse GUI  module dependencies.  Gtk2 has known test failures, but works, so we don't test it.
    ```sh
    cpanm --notest Gtk2
    cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric
-   cpanm Task::Biodiverse::NoGUI
-   cpanm Task::Biodiverse
    ```
+
 # Install Biodiverse
 
 1. Install Biodiverse either from source or by cloning the git repository. If using git then to install at the top level of your home directory:
     ```sh
     cd ~
     git clone https://github.com/shawnlaffan/biodiverse.git
+    cd biodiverse
+    cpanm --installdeps .
+    #  only need to run these two lines for v3.1 or earlier
+    cpanm Task::Biodiverse::NoGUI
+    cpanm Task::Biodiverse
     ```
+
 2. To run biodiverse switch to the correct version of perl if you haven't already and then run biodiverse:
     ```sh
     ~/perl5/perlbrew/bin/perlbrew switch perl-5.24.0
