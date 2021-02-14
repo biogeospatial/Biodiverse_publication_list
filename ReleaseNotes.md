@@ -46,8 +46,11 @@ For the full list of issues and changes leading to the 4.0 release, see https://
     * Cluster and region grower analyses now warn and provide a informative error message when there is only a single group in the basedata.  [Issue 782](https://github.com/shawnlaffan/biodiverse/issues/782)
   * Calculations
     * A local PD calculation, "Phylogenetic Diversity (local)", now allows the calculation of PD and PD_P to the last common ancestor, as opposed to the root node.  [Issue 762](https://github.com/shawnlaffan/biodiverse/issues/762)
-    * A new calculation, "Last shared ancestor properties", provides details aout the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
+    * A new calculation, "Last shared ancestor properties", provides details about the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
     * The taxonomic distinctness calculations have been moved to the BiodiverseX namespace, so are not available in the GUI by default. [Issue 751](https://github.com/shawnlaffan/biodiverse/issues/751).
+  * Spatial Conditions
+    * New condition sp_richness_greater_than() allows the neighbour set to be defined as the set of groups with a richness exceeding a threshold.  [Issue 783](https://github.com/shawnlaffan/biodiverse/issues/783).
+    * New condition sp_redundancy_greater_than() allows the neighbour set to be defined as the set of groups with a sample redundancy exceeding a threshold.  [Issue 785](https://github.com/shawnlaffan/biodiverse/issues/785).
 
 
 # Version 3.1 #
