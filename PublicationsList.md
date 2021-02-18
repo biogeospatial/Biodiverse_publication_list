@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
+
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (in press), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography](https://doi.org/10.1111/jbi.14076).
 
   *  Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (in press) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions](https://doi.org/10.1111/ddi.13241).
