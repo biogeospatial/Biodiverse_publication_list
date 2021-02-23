@@ -21,15 +21,18 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Zhu, Z-X, harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (in press) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution](https://doi.org/10.1002/ece3.7180).
 
-  * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
-
-  * Pereira, L.C., Chautems, A. and Menini Neto, L. (in press) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-020-00671-y).
-
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
+
+#### 2021 ####
+
+  * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
+
+  * Pereira, L.C., Chautems, A. and Menini Neto, L. (2021) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany, 44, 239–248](https://doi.org/10.1007/s40415-020-00671-y).
+
 
 
 #### 2020 ####
