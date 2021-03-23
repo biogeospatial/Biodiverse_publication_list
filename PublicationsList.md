@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Furtado, S.G. and Menini Neto, L. (in press) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation](https://doi.org/10.1007/s10531-021-02150-6).
+
   * Pinedo-Escatel, J.A., Aragón-Parada, J., Dietrich, C.H., Moya-Raygoza, G., Zahniser, J.N. and Portillo, L. (in press) Biogeographical evaluation and conservation assessment of arboreal leafhoppers in the Mexican Transition Zone biodiversity hotspot. [Diversity and Distributions](https://doi.org/10.1111/ddi.13254).
 
   * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
