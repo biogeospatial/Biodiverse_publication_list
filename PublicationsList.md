@@ -31,7 +31,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
 
-  * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (in press) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution](http://doi.org/10.1111/jse.12558).
 
 #### 2021 ####
 
@@ -39,6 +38,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2021) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany, 44, 239–248](https://doi.org/10.1007/s40415-020-00671-y).
 
+  * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
 
 
 #### 2020 ####
