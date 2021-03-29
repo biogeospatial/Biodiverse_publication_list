@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Paz, A., Brown, J.L., Cordeiro, C.L.O., Aguirre‐Santoro, J., Assis, C., Amaro, R.C., Raposo do Amaral, F., Bochorny, T., Bacci, L.F., Caddah, M.K., d’Horta, F., Kaehler, M., Lyra, M., Grohmann, C.H., Reginato, M., Silva‐Brandão, K.L., Freitas, A.V.L., Goldenberg, R., Lohmann, L.G., Michelangeli, F.A., Miyaki, C., Rodrigues, M.T., Silva, T.S. and Carnaval, A.C. (2021) Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest. [Journal of Biogeography](https://doi.org/10.1111/jbi.14083).
+
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
 
   * Furtado, S.G. and Menini Neto, L. (in press) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation](https://doi.org/10.1007/s10531-021-02150-6).
