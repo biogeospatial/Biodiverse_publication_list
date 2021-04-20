@@ -23,8 +23,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (in press), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography](https://doi.org/10.1111/jbi.14076).
 
-  * Zhu, Z-X, Harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (2021) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution, 11, 2100-2109](https://doi.org/10.1002/ece3.7180).
-
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
@@ -43,6 +41,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2021) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany, 44, 239–248](https://doi.org/10.1007/s40415-020-00671-y).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
+
+  * Zhu, Z-X, Harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (2021) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution, 11, 2100-2109](https://doi.org/10.1002/ece3.7180).
 
 
 #### 2020 ####
