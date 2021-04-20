@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Pinedo-Escatel, J.A., Aragón-Parada, J., Dietrich, C.H., Moya-Raygoza, G., Zahniser, J.N. and Portillo, L. (in press) Biogeographical evaluation and conservation assessment of arboreal leafhoppers in the Mexican Transition Zone biodiversity hotspot. [Diversity and Distributions](https://doi.org/10.1111/ddi.13254).
 
-  * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
-
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (in press), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography](https://doi.org/10.1111/jbi.14076).
 
   * Zhu, Z-X, Harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (2021) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution, 11, 2100-2109](https://doi.org/10.1002/ece3.7180).
@@ -37,6 +35,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions, 27, 913– 928](https://doi.org/10.1111/ddi.13241).
 
   * Furtado, S.G. and Menini Neto, L. (2021) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation, 30, 1415–1431](https://doi.org/10.1007/s10531-021-02150-6).
+
+  * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
