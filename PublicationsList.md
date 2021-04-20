@@ -27,8 +27,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (in press), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography](https://doi.org/10.1111/jbi.14076).
 
-  *  Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (in press) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions](https://doi.org/10.1111/ddi.13241).
-
   * Zhu, Z-X, Harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (2021) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution, 11, 2100-2109](https://doi.org/10.1002/ece3.7180).
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
@@ -37,6 +35,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 
 #### 2021 ####
+
+  * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions](https://doi.org/10.1111/ddi.13241).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
