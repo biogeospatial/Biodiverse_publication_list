@@ -59,7 +59,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Dalrymple, R.L., Kemp, D.J., Flores-Moreno, H., Laffan, S.W., White, T.E., Hemmings, F.A. & Moles, A.T. (2020) Macroecological patterns in flower colour are shaped by both biotic and abiotic factors. [New Phytologist, 228, 1972-1985](https://doi.org/10.1111/nph.16737).
 
-  * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution](https://doi.org/10.1007/s10722-020-00960-1).
+  * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution, 67, 2071–2085](https://doi.org/10.1007/s10722-020-00960-1).
 
   * Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
 
