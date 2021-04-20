@@ -36,7 +36,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### 2021 ####
 
-  * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions](https://doi.org/10.1111/ddi.13241).
+  * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions, 27, 913– 928](https://doi.org/10.1111/ddi.13241).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
