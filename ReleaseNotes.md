@@ -47,6 +47,7 @@ For the full list of issues and changes leading to the 4.0 release, see https://
   * Calculations
     * A local PD calculation, "Phylogenetic Diversity (local)", now allows the calculation of PD and PD_P to the last common ancestor, as opposed to the root node.  [Issue 762](https://github.com/shawnlaffan/biodiverse/issues/762)
     * A new calculation, "Last shared ancestor properties", provides details about the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
+    *  The MPD, MNTD, NRI and NTI calculations are now substantially faster.  There is also no longer a performance penalty under the randomisations for outputs containing NRI and NTI indices when richness scores are held constant (which is the default).  [Issue 786](https://github.com/shawnlaffan/biodiverse/issues/786)
     * The taxonomic distinctness calculations have been moved to the BiodiverseX namespace, so are not available in the GUI by default. [Issue 751](https://github.com/shawnlaffan/biodiverse/issues/751).
   * Spatial Conditions
     * New condition sp_richness_greater_than() allows the neighbour set to be defined as the set of groups with a richness exceeding a threshold.  [Issue 783](https://github.com/shawnlaffan/biodiverse/issues/783).
