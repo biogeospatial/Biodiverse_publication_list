@@ -43,7 +43,7 @@ For the full list of issues and changes leading to the 4.0 release, see https://
   * Analyses
     * Cluster analyses will now lump all zero distance matrix pairs in an initial pass where possible.  This avoids needless tie-breaker calculations when data sets have large sets of groups with the same label assemblages.  [Issue 760](https://github.com/shawnlaffan/biodiverse/issues/760)
     * Cluster and Region Grower analyses are no longer rebuilt by default under the randomisations, speeding up any randomisations that include them.  Comparison of per-node calculations is still done, though, as this does not use the rebuilt tree.  There is a user visible option in the GUI to enable the previous behaviour if it is needed.  [Issue 765](https://github.com/shawnlaffan/biodiverse/issues/765)
-    * Cluster and region grower analyses now warn and provide a informative error message when there is only a single group in the basedata.  [Issue 782](https://github.com/shawnlaffan/biodiverse/issues/782)
+    * Cluster and region grower analyses now warn and provide an informative error message when there is only a single group in the basedata.  [Issue 782](https://github.com/shawnlaffan/biodiverse/issues/782)
   * Calculations
     * A local PD calculation, "Phylogenetic Diversity (local)", now allows the calculation of PD and PD_P to the last common ancestor, as opposed to the root node.  [Issue 762](https://github.com/shawnlaffan/biodiverse/issues/762)
     * A new calculation, "Last shared ancestor properties", provides details about the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
