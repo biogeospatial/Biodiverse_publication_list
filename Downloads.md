@@ -44,6 +44,7 @@ All versions are for 64 bit architectures.
 #### Known issues ####
 
   * On MacOS Catalina there are issues accessing the Desktop, Documents and similar directories.  The workaround is to either use a separate Biodiverse directory or to run the GUI from the command line.  [More details are in issue 778](https://github.com/shawnlaffan/biodiverse/issues/778#issuecomment-759140901), which is being used to track this.
+  * On Windows, an existing installation of the GDAL stack can interfere with those packaged with Biodiverse.  This in being tracked in (Issue 795, which also provides an interim workaround)[https://github.com/shawnlaffan/biodiverse/issues/795]. 
   * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
