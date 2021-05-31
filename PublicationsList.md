@@ -15,8 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Camacho, G.P., Loss, A.C., Fisher, B.L., Blaimer, B.B. (in press)  Spatial phylogenomics of acrobat ants in Madagascar—Mountains function as cradles for recent diversity and endemism.  [Journal of Biogeography](https://doi.org/10.1111/jbi.14107).
 
-  * Zhang, Y., Chen, J. and Sun, H. (2021)  Alpine speciation and morphological innovations: revelations from a species-rich genus in the Northern Hemisphere. [AoB PLANTS, 13, 3, plab018](https://doi.org/10.1093/aobpla/plab018).
-
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
@@ -43,6 +41,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (2021), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography, 48, 1296-1308](https://doi.org/10.1111/jbi.14076).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
+
+  * Zhang, Y., Chen, J. and Sun, H. (2021)  Alpine speciation and morphological innovations: revelations from a species-rich genus in the Northern Hemisphere. [AoB PLANTS, 13, 3, plab018](https://doi.org/10.1093/aobpla/plab018).
 
   * Zhu, Z-X, Harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (2021) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution, 11, 2100-2109](https://doi.org/10.1002/ece3.7180).
 
