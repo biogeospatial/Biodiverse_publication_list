@@ -23,8 +23,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Pinedo-Escatel, J.A., Aragón-Parada, J., Dietrich, C.H., Moya-Raygoza, G., Zahniser, J.N. and Portillo, L. (in press) Biogeographical evaluation and conservation assessment of arboreal leafhoppers in the Mexican Transition Zone biodiversity hotspot. [Diversity and Distributions](https://doi.org/10.1111/ddi.13254).
 
-  * Suissa, J.S., Sundue, M.A. and Testo, W.L. (in press), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography](https://doi.org/10.1111/jbi.14076).
-
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
@@ -41,6 +39,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2021) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany, 44, 239–248](https://doi.org/10.1007/s40415-020-00671-y).
+
+  * Suissa, J.S., Sundue, M.A. and Testo, W.L. (2021), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography, 48, 1296-1308](https://doi.org/10.1111/jbi.14076).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
 
