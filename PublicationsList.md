@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
 
-  * Pinedo-Escatel, J.A., Aragón-Parada, J., Dietrich, C.H., Moya-Raygoza, G., Zahniser, J.N. and Portillo, L. (in press) Biogeographical evaluation and conservation assessment of arboreal leafhoppers in the Mexican Transition Zone biodiversity hotspot. [Diversity and Distributions](https://doi.org/10.1111/ddi.13254).
-
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
@@ -39,6 +37,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Paz, A., Brown, J.L., Cordeiro, C.L.O., Aguirre‐Santoro, J., Assis, C., Amaro, R.C., Raposo do Amaral, F., Bochorny, T., Bacci, L.F., Caddah, M.K., d’Horta, F., Kaehler, M., Lyra, M., Grohmann, C.H., Reginato, M., Silva‐Brandão, K.L., Freitas, A.V.L., Goldenberg, R., Lohmann, L.G., Michelangeli, F.A., Miyaki, C., Rodrigues, M.T., Silva, T.S. and Carnaval, A.C. (2021) Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest. [Journal of Biogeography, 48, 1377-1391](https://doi.org/10.1111/jbi.14083).
 
   * Pereira, L.C., Chautems, A. and Menini Neto, L. (2021) Biogeography and Conservation of Gesneriaceae in the Serra da Mantiqueira, Southeastern Region of Brazil. [Brazilian Journal of Botany, 44, 239–248](https://doi.org/10.1007/s40415-020-00671-y).
+
+  * Pinedo-Escatel, J.A., Aragón-Parada, J., Dietrich, C.H., Moya-Raygoza, G., Zahniser, J.N. and Portillo, L. (2021) Biogeographical evaluation and conservation assessment of arboreal leafhoppers in the Mexican Transition Zone biodiversity hotspot. [Diversity and Distributions, 27, 1051-1065](https://doi.org/10.1111/ddi.13254).
 
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (2021), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography, 48, 1296-1308](https://doi.org/10.1111/jbi.14076).
 
