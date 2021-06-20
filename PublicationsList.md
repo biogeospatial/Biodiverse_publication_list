@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Flores-Tolentino M., Beltrán-Rodríguez L., Morales-Linares J., et al. (2021) Biogeographic regionalization by spatial and environmental components: Numerical proposal. [PLoS ONE 16, e0253152](https://doi.org/10.1371/journal.pone.0253152).
+
   * Camacho, G.P., Loss, A.C., Fisher, B.L., Blaimer, B.B. (in press)  Spatial phylogenomics of acrobat ants in Madagascar—Mountains function as cradles for recent diversity and endemism.  [Journal of Biogeography](https://doi.org/10.1111/jbi.14107).
 
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
