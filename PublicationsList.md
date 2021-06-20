@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
 
-  * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (in press) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, blaa141](https://doi.org/10.1093/biolinnean/blaa141).
-
   * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
 
 
@@ -31,6 +29,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Furtado, S.G. and Menini Neto, L. (2021) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation, 30, 1415–1431](https://doi.org/10.1007/s10531-021-02150-6).
 
   * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
+
+  * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (2021) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, 43, 181-191](https://doi.org/10.1093/biolinnean/blaa141).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
