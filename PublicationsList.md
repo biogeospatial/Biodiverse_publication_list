@@ -19,9 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
 
-  * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (in press) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity](https://doi.org/10.1016/j.pld.2020.09.001).
-
-
 #### 2021 ####
 
   * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions, 27, 913– 928](https://doi.org/10.1111/ddi.13241).
@@ -45,6 +42,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
 
   * Zhang, Y., Chen, J. and Sun, H. (2021)  Alpine speciation and morphological innovations: revelations from a species-rich genus in the Northern Hemisphere. [AoB PLANTS, 13, 3, plab018](https://doi.org/10.1093/aobpla/plab018).
+
+  * Zhang, Y., Qian, L., Spalink, D., Sun, L., Chen, J. and Sun, H. (2021) Spatial phylogenetics of two topographic extremes of the Hengduan Mountains in southwestern China and its implications for biodiversity conservation.  [Plant Diversity, 43, 181-191](https://doi.org/10.1016/j.pld.2020.09.001).
 
   * Zhu, Z-X, Harris, A.J., Nizamani, M.M., Thornhill, A.H., Scherson, R.A. and Wang, H-F. (2021) Spatial phylogenetics of the native woody plant species in Hainan, China.  [Ecology and Evolution, 11, 2100-2109](https://doi.org/10.1002/ece3.7180).
 
