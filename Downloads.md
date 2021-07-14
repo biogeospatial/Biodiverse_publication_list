@@ -28,8 +28,6 @@ _The current stable release is version 3.1, released 13-Mar-2020._
 
 The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-31) summarise the changes in this version.
 
-[Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
-
 All versions are for 64 bit architectures.
 
 **NOTE:** There appear to be issues downloading the files on Chrome browsers.  One workaround is to copy the link address (right click on the link) and paste that into a new browser tab.  If that does not work then browsers such as Firefox or Edge work.  Safari might also work, but it has not been tested.
@@ -41,6 +39,8 @@ All versions are for 64 bit architectures.
 * [MacOS (~68MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_mac.zip)
 
 * [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.1)
+
+* [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
 
 
 #### Known issues ####
