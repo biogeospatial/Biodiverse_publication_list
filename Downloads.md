@@ -40,7 +40,7 @@ All versions are for 64 bit architectures.
 
 * [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.1)
 
-* [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation).
+* [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation)
 
 
 #### Known issues ####
