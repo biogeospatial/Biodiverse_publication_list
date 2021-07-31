@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Yang, X., Liu, B., Bussman, R.W., Guan, X., et al. (2021) Integrated plant diversity hotspots and long-term stable conservation strategies in the unique karst area of southern China under global climate change. [Forest Ecology and Management, 498, 119540](https://doi.org/10.1016/j.foreco.2021.119540).
+
   * Flores-Tolentino M., Beltrán-Rodríguez L., Morales-Linares J., et al. (2021) Biogeographic regionalization by spatial and environmental components: Numerical proposal. [PLoS ONE 16, e0253152](https://doi.org/10.1371/journal.pone.0253152).
 
   * Camacho, G.P., Loss, A.C., Fisher, B.L., Blaimer, B.B. (2021)  Spatial phylogenomics of acrobat ants in Madagascar—Mountains function as cradles for recent diversity and endemism.  [Journal of Biogeography, 48, 1706-1719](https://doi.org/10.1111/jbi.14107).
