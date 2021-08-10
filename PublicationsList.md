@@ -13,6 +13,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Hao, T., Elith, J., Guillera-Arroita, G., Lahoz-Monfort, J. J., & May, T. W. (2021). Enhancing repository fungal data for biogeographic analyses. [Fungal Ecology, 53, 101097](https://doi.org/10.1016/j.funeco.2021.101097).
+
+
   * Yang, X., Liu, B., Bussman, R.W., Guan, X., et al. (2021) Integrated plant diversity hotspots and long-term stable conservation strategies in the unique karst area of southern China under global climate change. [Forest Ecology and Management, 498, 119540](https://doi.org/10.1016/j.foreco.2021.119540).
 
   * Flores-Tolentino M., Beltrán-Rodríguez L., Morales-Linares J., et al. (2021) Biogeographic regionalization by spatial and environmental components: Numerical proposal. [PLoS ONE 16, e0253152](https://doi.org/10.1371/journal.pone.0253152).
