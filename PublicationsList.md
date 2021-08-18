@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Anguiano-Constante, M.A., Dean, E., Starbuck, T., Rodríguez, A. And Munguía-Lino, G. (2021) Diversity, species richness distribution and centers of endemism of Lycianthes (Capsiceae, Solanaceae) in Mexico. [Phytotaxa, 514, 39-60](https://doi.org/10.11646/phytotaxa.514.1.3).
+
   * Hao, T., Elith, J., Guillera-Arroita, G., Lahoz-Monfort, J. J., & May, T. W. (2021). Enhancing repository fungal data for biogeographic analyses. [Fungal Ecology, 53, 101097](https://doi.org/10.1016/j.funeco.2021.101097).
 
 
