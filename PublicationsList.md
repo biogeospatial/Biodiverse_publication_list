@@ -18,17 +18,15 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Hao, T., Elith, J., Guillera-Arroita, G., Lahoz-Monfort, J. J., & May, T. W. (2021). Enhancing repository fungal data for biogeographic analyses. [Fungal Ecology, 53, 101097](https://doi.org/10.1016/j.funeco.2021.101097).
 
 
-  * Yang, X., Liu, B., Bussman, R.W., Guan, X., et al. (2021) Integrated plant diversity hotspots and long-term stable conservation strategies in the unique karst area of southern China under global climate change. [Forest Ecology and Management, 498, 119540](https://doi.org/10.1016/j.foreco.2021.119540).
-
-  * Flores-Tolentino M., Beltrán-Rodríguez L., Morales-Linares J., et al. (2021) Biogeographic regionalization by spatial and environmental components: Numerical proposal. [PLoS ONE 16, e0253152](https://doi.org/10.1371/journal.pone.0253152).
+#### 2021 ####
 
   * Camacho, G.P., Loss, A.C., Fisher, B.L., Blaimer, B.B. (2021)  Spatial phylogenomics of acrobat ants in Madagascar—Mountains function as cradles for recent diversity and endemism.  [Journal of Biogeography, 48, 1706-1719](https://doi.org/10.1111/jbi.14107).
 
+  * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions, 27, 913– 928](https://doi.org/10.1111/ddi.13241).
+
   * Earl, C., Belitz, M.W., Laffan, S.W., Barve, V., Barve, N., Soltis, D.E., Allen, J.M., Soltis, P.S., Mishler, B.D., Kawahara, A.Y., & Guralnick, R. (2021) Spatial phylogenetics of butterflies in relation to environmental drivers and angiosperm diversity across North America. [iScience, 102239](https://doi.org/10.1016/j.isci.2021.102239).
 
-#### 2021 ####
-
-  * Cheikh Albassatneh, M., Escudero, M., Monnet, A‐C., et al. (2021) Spatial patterns of genus‐level phylogenetic endemism in the tree flora of Mediterranean Europe. [Diversity and Distributions, 27, 913– 928](https://doi.org/10.1111/ddi.13241).
+  * Flores-Tolentino M., Beltrán-Rodríguez L., Morales-Linares J., et al. (2021) Biogeographic regionalization by spatial and environmental components: Numerical proposal. [PLoS ONE 16, e0253152](https://doi.org/10.1371/journal.pone.0253152).
 
   * Furtado, S.G. and Menini Neto, L. (2021) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation, 30, 1415–1431](https://doi.org/10.1007/s10531-021-02150-6).
 
@@ -45,6 +43,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Pinedo-Escatel, J.A., Aragón-Parada, J., Dietrich, C.H., Moya-Raygoza, G., Zahniser, J.N. and Portillo, L. (2021) Biogeographical evaluation and conservation assessment of arboreal leafhoppers in the Mexican Transition Zone biodiversity hotspot. [Diversity and Distributions, 27, 1051-1065](https://doi.org/10.1111/ddi.13254).
 
   * Suissa, J.S., Sundue, M.A. and Testo, W.L. (2021), Mountains, climate and niche heterogeneity explain global patterns of fern diversity. [Journal of Biogeography, 48, 1296-1308](https://doi.org/10.1111/jbi.14076).
+
+  * Yang, X., Liu, B., Bussman, R.W., Guan, X., et al. (2021) Integrated plant diversity hotspots and long-term stable conservation strategies in the unique karst area of southern China under global climate change. [Forest Ecology and Management, 498, 119540](https://doi.org/10.1016/j.foreco.2021.119540).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
 
