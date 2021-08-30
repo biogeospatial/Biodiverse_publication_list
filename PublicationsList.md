@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * González-Orozco, C. E., Sosa, C. C., Thornhill, A. H., and Laffan, S. W. (in press). Phylogenetic diversity and conservation of crop wild relatives in Colombia. [Evolutionary Applications](https://doi.org/10.1111/eva.13295). 
+
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
 
   * Anguiano-Constante, M.A., Dean, E., Starbuck, T., Rodríguez, A. And Munguía-Lino, G. (2021) Diversity, species richness distribution and centers of endemism of Lycianthes (Capsiceae, Solanaceae) in Mexico. [Phytotaxa, 514, 39-60](https://doi.org/10.11646/phytotaxa.514.1.3).
