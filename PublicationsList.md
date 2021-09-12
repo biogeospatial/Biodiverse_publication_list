@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
+
   * González-Orozco, C. E., Sosa, C. C., Thornhill, A. H., and Laffan, S. W. (in press). Phylogenetic diversity and conservation of crop wild relatives in Colombia. [Evolutionary Applications](https://doi.org/10.1111/eva.13295). 
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
