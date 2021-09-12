@@ -19,12 +19,10 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
 
-  * Anguiano-Constante, M.A., Dean, E., Starbuck, T., Rodríguez, A. And Munguía-Lino, G. (2021) Diversity, species richness distribution and centers of endemism of Lycianthes (Capsiceae, Solanaceae) in Mexico. [Phytotaxa, 514, 39-60](https://doi.org/10.11646/phytotaxa.514.1.3).
-
-  * Hao, T., Elith, J., Guillera-Arroita, G., Lahoz-Monfort, J. J., & May, T. W. (2021). Enhancing repository fungal data for biogeographic analyses. [Fungal Ecology, 53, 101097](https://doi.org/10.1016/j.funeco.2021.101097).
-
 
 #### 2021 ####
+
+  * Anguiano-Constante, M.A., Dean, E., Starbuck, T., Rodríguez, A. And Munguía-Lino, G. (2021) Diversity, species richness distribution and centers of endemism of Lycianthes (Capsiceae, Solanaceae) in Mexico. [Phytotaxa, 514, 39-60](https://doi.org/10.11646/phytotaxa.514.1.3).
 
   * Camacho, G.P., Loss, A.C., Fisher, B.L., Blaimer, B.B. (2021)  Spatial phylogenomics of acrobat ants in Madagascar—Mountains function as cradles for recent diversity and endemism.  [Journal of Biogeography, 48, 1706-1719](https://doi.org/10.1111/jbi.14107).
 
@@ -39,6 +37,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (2021) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, 133, 394–410](https://doi.org/10.1093/biolinnean/blaa141).
+
+  * Hao, T., Elith, J., Guillera-Arroita, G., Lahoz-Monfort, J. J., & May, T. W. (2021). Enhancing repository fungal data for biogeographic analyses. [Fungal Ecology, 53, 101097](https://doi.org/10.1016/j.funeco.2021.101097).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
 
