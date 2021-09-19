@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Hammer, T.A., Renton, M., Mucina, L. and Thiele, K. (2021) Arid Australia as a source of plant diversity: the origin and climatic evolution of Ptilotus (Amaranthaceae). [Australian Systematic Botany, 34, 570-586](https://doi.org/10.1071/SB21012).
+
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
   * González-Orozco, C. E., Sosa, C. C., Thornhill, A. H., and Laffan, S. W. (in press). Phylogenetic diversity and conservation of crop wild relatives in Colombia. [Evolutionary Applications](https://doi.org/10.1111/eva.13295). 
