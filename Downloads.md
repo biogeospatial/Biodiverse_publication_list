@@ -51,17 +51,13 @@ All versions are for 64 bit architectures.
 
 ### Development Release ###
 
-Development on the 3.99 series, leading to version 4, will commence soon.
+Development releases are in the 3.99 series, leading to version 4.
 
-The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-299) summarise the changes in this version.
+The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-399-dev-series) summarise the changes in this version.
 
-* [2.99_005: Windows (~66MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_005_win.zip)
+* Windows executable and source code releases [are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_001)
 
-* [2.99_005: MacOS (~50MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_2.99_005_mac.zip)
-
-* [Source code](https://github.com/shawnlaffan/biodiverse/tree/r2.99_005)
-
-There is no Linux dev release, but one can be provided if there is a need.  
+There are no Linux or Mac dev releases at this stage but they can be provided if there is a need.
 
 ## Site Pair Sampler ##
 
