@@ -36,7 +36,7 @@
 
 # Version 3.99 dev series #
 
-This is a development release series, leading towards version 4.0.  Currently no releases have been done, so this list marks forthcoming changes.  
+This is a development release series, leading towards version 4.0.  Current dev release is [3.99_001](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_001).
 
 For the full list of issues and changes leading to the 4.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/17
 
