@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Xue, T., Gadagkar, S.H., Albright, T.P., Yang, X., Li, J., Xia, C., Wu, J., and Yu, S. (2021) Prioritizing conservation of biodiversity in an alpine region: Distribution pattern and conservation status of seed plants in the Qinghai-Tibetan Plateau. [Global Ecology and Conservation, e01885](https://doi.org/10.1016/j.gecco.2021.e01885).
+
   * Hammer, T.A., Renton, M., Mucina, L. and Thiele, K. (2021) Arid Australia as a source of plant diversity: the origin and climatic evolution of Ptilotus (Amaranthaceae). [Australian Systematic Botany, 34, 570-586](https://doi.org/10.1071/SB21012).
 
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
