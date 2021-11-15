@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
-  * González-Orozco, C. E., Sosa, C. C., Thornhill, A. H., and Laffan, S. W. (in press). Phylogenetic diversity and conservation of crop wild relatives in Colombia. [Evolutionary Applications](https://doi.org/10.1111/eva.13295). 
-
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
 
 
@@ -41,6 +39,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Furtado, S.G. and Menini Neto, L. (2021) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation, 30, 1415–1431](https://doi.org/10.1007/s10531-021-02150-6).
 
   * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
+
+  * González-Orozco, C. E., Sosa, C. C., Thornhill, A. H., and Laffan, S. W. (2021). Phylogenetic diversity and conservation of crop wild relatives in Colombia. [Evolutionary Applications, 14, 2603-2617](https://doi.org/10.1111/eva.13295). 
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (2021) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, 133, 394–410](https://doi.org/10.1093/biolinnean/blaa141).
 
