@@ -36,7 +36,7 @@
 
 # Version 3.99 dev series #
 
-This is a development release series, leading towards version 4.0.  Current dev release is [3.99_001](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_001).
+This is a development release series, leading towards version 4.0.  Current dev release is [3.99_002](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_002).
 
 For the full list of issues and changes leading to the 4.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/17
 
@@ -57,9 +57,11 @@ A series of blog posts goes into more detail about several of the changes: http:
     * The taxonomic distinctness calculations have been moved to the BiodiverseX namespace, so are not available in the GUI by default. [Issue 751](https://github.com/shawnlaffan/biodiverse/issues/751).
     * The calculation of median and percentile values for the element properties have changed.  [Issue #798](https://github.com/shawnlaffan/biodiverse/issues/798).  [More details in the blog post](http://biodiverse-analysis-software.blogspot.com/2021/09/label-and-group-property-median-and.html).
   * Spatial Conditions
-    * New condition sp_richness_greater_than() allows the neighbour set to be defined as the set of groups with a richness exceeding a threshold.  [Issue 783](https://github.com/shawnlaffan/biodiverse/issues/783).
-    * New condition sp_redundancy_greater_than() allows the neighbour set to be defined as the set of groups with a sample redundancy exceeding a threshold.  [Issue 785](https://github.com/shawnlaffan/biodiverse/issues/785).
-
+    * New condition ```sp_richness_greater_than()``` allows the neighbour set to be defined as the set of groups with a richness exceeding a threshold.  [Issue 783](https://github.com/shawnlaffan/biodiverse/issues/783).
+    * New condition ```sp_redundancy_greater_than()``` allows the neighbour set to be defined as the set of groups with a sample redundancy exceeding a threshold.  
+    * New conditions ```sp_points_in_cluster()``` and ```sp_points_in_same_cluster()``` that can be used to model polygons from clusters in a Cluster or RegionGrower analysis without first needing to export them to a shapefile and any subsequent processing to extract the relevant parts.  [Issue 803](https://github.com/shawnlaffan/biodiverse/issues/803).
+  * Exports
+    * Cluster and RegionGrower analyses can be exported to shapefile format in a grouped form.  This models the cluster display where multiple sub-clusters are coloured.  The output file is somewhat awkward and needs further processing, which is why the ```sp_points_in_same_cluster()``` spatial condition was developed (see above).  [Issue 757](https://github.com/shawnlaffan/biodiverse/issues/757).
 
 # Version 3.1 #
 
