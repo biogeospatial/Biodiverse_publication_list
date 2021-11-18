@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (in press) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology](https://doi.org/10.1111/jipb.13189).
+
   * Murali, G., Gumbs, R., Meiri, S. and Rull, U. (2021) Global determinants and conservation of evolutionary and geographic rarity in land vertebrates. [Science Advances, 7, eabe5582](https://doi.org/10.1126/sciadv.abe5582).
 
   * Ortiz-Brunel, J.P., Munguía-Lino, G., Castro-Castro, A. and Rodríguez, A. (2021) Biogeographic analysis of the American genus _Echeandia_ (Agavoideae: Asparagaceae). [Revista Mexicana de Biodiversidad 92, e923739]( https://doi.org/10.22201/ib.20078706e.2021.92.373).
