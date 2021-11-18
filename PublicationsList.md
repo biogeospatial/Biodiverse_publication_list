@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Bharti, D.K., Edgecombe, G.D., Karanth, K.P. and Joshi, J. (in press) Spatial patterns of phylogenetic diversity and endemism in the Western Ghats, India: A case study using ancient predatory arthropods.  [Ecology and Evolution](https://doi.org/10.1002/ece3.8119).
+
   * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (in press) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology](https://doi.org/10.1111/jipb.13189).
 
   * Murali, G., Gumbs, R., Meiri, S. and Rull, U. (2021) Global determinants and conservation of evolutionary and geographic rarity in land vertebrates. [Science Advances, 7, eabe5582](https://doi.org/10.1126/sciadv.abe5582).
