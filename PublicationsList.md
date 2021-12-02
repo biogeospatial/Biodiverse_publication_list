@@ -17,12 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (in press) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology](https://doi.org/10.1111/jipb.13189).
 
-  * Murali, G., Gumbs, R., Meiri, S. and Rull, U. (2021) Global determinants and conservation of evolutionary and geographic rarity in land vertebrates. [Science Advances, 7, eabe5582](https://doi.org/10.1126/sciadv.abe5582).
-
-  * Ortiz-Brunel, J.P., Munguía-Lino, G., Castro-Castro, A. and Rodríguez, A. (2021) Biogeographic analysis of the American genus _Echeandia_ (Agavoideae: Asparagaceae). [Revista Mexicana de Biodiversidad 92, e923739]( https://doi.org/10.22201/ib.20078706e.2021.92.373).
-
-  * Hammer, T.A., Renton, M., Mucina, L. and Thiele, K. (2021) Arid Australia as a source of plant diversity: the origin and climatic evolution of Ptilotus (Amaranthaceae). [Australian Systematic Botany, 34, 570-586](https://doi.org/10.1071/SB21012).
-
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
@@ -48,9 +42,15 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Gosper, C.R., Coates, D.J., Hopper, S.D., Byrne, M., Yates, C.J. (2021) The role of landscape history in the distribution and conservation of threatened flora in the Southwest Australian Floristic Region. [Biological Journal of the Linnean Society, 133, 394–410](https://doi.org/10.1093/biolinnean/blaa141).
 
+  * Hammer, T.A., Renton, M., Mucina, L. and Thiele, K. (2021) Arid Australia as a source of plant diversity: the origin and climatic evolution of Ptilotus (Amaranthaceae). [Australian Systematic Botany, 34, 570-586](https://doi.org/10.1071/SB21012).
+
   * Hao, T., Elith, J., Guillera-Arroita, G., Lahoz-Monfort, J. J., & May, T. W. (2021). Enhancing repository fungal data for biogeographic analyses. [Fungal Ecology, 53, 101097](https://doi.org/10.1016/j.funeco.2021.101097).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Kallimanis, A., Strid, A., and Dimopoulos, P. (2021) Plant Endemism Centres and Biodiversity Hotspots in Greece. [Biology, 10, 72](https://doi.org/10.3390/biology10020072).
+
+  * Murali, G., Gumbs, R., Meiri, S. and Rull, U. (2021) Global determinants and conservation of evolutionary and geographic rarity in land vertebrates. [Science Advances, 7, eabe5582](https://doi.org/10.1126/sciadv.abe5582).
+
+  * Ortiz-Brunel, J.P., Munguía-Lino, G., Castro-Castro, A. and Rodríguez, A. (2021) Biogeographic analysis of the American genus _Echeandia_ (Agavoideae: Asparagaceae). [Revista Mexicana de Biodiversidad 92, e923739]( https://doi.org/10.22201/ib.20078706e.2021.92.373).
 
   * Paz, A., Brown, J.L., Cordeiro, C.L.O., Aguirre‐Santoro, J., Assis, C., Amaro, R.C., Raposo do Amaral, F., Bochorny, T., Bacci, L.F., Caddah, M.K., d’Horta, F., Kaehler, M., Lyra, M., Grohmann, C.H., Reginato, M., Silva‐Brandão, K.L., Freitas, A.V.L., Goldenberg, R., Lohmann, L.G., Michelangeli, F.A., Miyaki, C., Rodrigues, M.T., Silva, T.S. and Carnaval, A.C. (2021) Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest. [Journal of Biogeography, 48, 1377-1391](https://doi.org/10.1111/jbi.14083).
 
