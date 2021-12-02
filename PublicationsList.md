@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Ortiz-Brunel, J.P., Munguía-Lino, G., Castro-Castro, A. and Rodríguez, A. (2021) Biogeographic analysis of the American genus _Echeandia_ (Agavoideae: Asparagaceae). [Revista Mexicana de Biodiversidad 92, e923739]( https://doi.org/10.22201/ib.20078706e.2021.92.373).
 
-  * Xue, T., Gadagkar, S.H., Albright, T.P., Yang, X., Li, J., Xia, C., Wu, J., and Yu, S. (in press) Prioritizing conservation of biodiversity in an alpine region: Distribution pattern and conservation status of seed plants in the Qinghai-Tibetan Plateau. [Global Ecology and Conservation, e01885](https://doi.org/10.1016/j.gecco.2021.e01885).
-
   * Hammer, T.A., Renton, M., Mucina, L. and Thiele, K. (2021) Arid Australia as a source of plant diversity: the origin and climatic evolution of Ptilotus (Amaranthaceae). [Australian Systematic Botany, 34, 570-586](https://doi.org/10.1071/SB21012).
 
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
@@ -65,6 +63,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Yang, X., Liu, B., Bussman, R.W., Guan, X., et al. (2021) Integrated plant diversity hotspots and long-term stable conservation strategies in the unique karst area of southern China under global climate change. [Forest Ecology and Management, 498, 119540](https://doi.org/10.1016/j.foreco.2021.119540).
 
   * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
+
+  * Xue, T., Gadagkar, S.H., Albright, T.P., Yang, X., Li, J., Xia, C., Wu, J., and Yu, S. (2021) Prioritizing conservation of biodiversity in an alpine region: Distribution pattern and conservation status of seed plants in the Qinghai-Tibetan Plateau. [Global Ecology and Conservation, 32, e01885](https://doi.org/10.1016/j.gecco.2021.e01885).
 
   * Zhang, Y., Chen, J. and Sun, H. (2021)  Alpine speciation and morphological innovations: revelations from a species-rich genus in the Northern Hemisphere. [AoB PLANTS, 13, 3, plab018](https://doi.org/10.1093/aobpla/plab018).
 
