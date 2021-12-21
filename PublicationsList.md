@@ -107,6 +107,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Sosa, V., Vásquez-Cruz, M. and Villarreal-Quintanilla, J.A. (2020) Influence of climate stability on endemism of the vascular plants of the Chihuahuan Desert.  [Journal of Arid Environments, 177, 104139](https://doi.org/10.1016/j.jaridenv.2020.104139).
 
+  * Suissa, J.S. and Sundue, M.A. (2020) Diversity Patterns of Neotropical Ferns: Revisiting Tryon’s Centers of Richness and Endemism. [American Fern Journal 110, 211–232](https://doi.org/10.1640/0002-8444-110.4.211).
+
   * Toro-Núñez, O. and Lira-Noriega, Andrés (2020) Discordant phylogenetic endemism patterns in a recently diversified Brassicaceae lineage from the Atacama Desert: When choices in phylogenetics and species distribution information matter.  [Journal of Biogeography, 47, 1792-1804](https://doi.org/10.1111/jbi.13846).
 
 
