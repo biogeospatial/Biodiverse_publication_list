@@ -13,6 +13,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Garcia-Rodriguez, A., Luna-Vega, I., Yáñez-Ordóñez, O., Ramírez-Martínez, J.C., Espinosa, D., & Contreras-Medina, R. (2021). Patrones de Distribución de las Abejas<sup></sup> del Bosque Mesófilo de Montaña de la Sierra Madre Oriental, México. [Southwestern Entomologist, 46, 1021-1036](https://doi.org/10.3958/059.046.0425).
+
+
   * Bharti, D.K., Edgecombe, G.D., Karanth, K.P. and Joshi, J. (in press) Spatial patterns of phylogenetic diversity and endemism in the Western Ghats, India: A case study using ancient predatory arthropods.  [Ecology and Evolution](https://doi.org/10.1002/ece3.8119).
 
   * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (in press) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology](https://doi.org/10.1111/jipb.13189).
