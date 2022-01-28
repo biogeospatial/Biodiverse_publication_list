@@ -102,6 +102,7 @@ perl ~/biodiverse/bin/run_randomisation.pl
 
 # Troubleshooting #
   * If you are keeping up with the git development then you will occassionally need to install extra dependencies.  
-    If perl complains that you are missing a module called Blort::Bork then you can run ```cpanm Blort::Bork``` 
+    If perl complains that you are missing a module then it can be installed using cpanm.  For example if the missing 
+    module is called Blort::Bork, then you can run ```cpanm Blort::Bork``` 
     at the command line to install it and its dependencies.  
   * Please report any issues using the [project issue tracker](https://github.com/shawnlaffan/biodiverse/issues/)
