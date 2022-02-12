@@ -13,9 +13,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
+
   * González-Orozco, C.E. (2021) Regiones biogeográficas del género _Cinchona_ L. (Rubiaceae- _Cinchoneae_).  [Revista Novedades Colombian, 16, 135-156](https://doi.org/10.47374/novcol.2021.v16.1987).
 
-  * Garcia-Rodriguez, A., Luna-Vega, I., Yáñez-Ordóñez, O., Ramírez-Martínez, J.C., Espinosa, D., & Contreras-Medina, R. (2021). Patrones de Distribución de las Abejas<sup></sup> del Bosque Mesófilo de Montaña de la Sierra Madre Oriental, México. [Southwestern Entomologist, 46, 1021-1036](https://doi.org/10.3958/059.046.0425).
+  * Garcia-Rodriguez, A., Luna-Vega, I., Yáñez-Ordóñez, O., Ramírez-Martínez, J.C., Espinosa, D., and Contreras-Medina, R. (2021). Patrones de Distribución de las Abejas<sup></sup> del Bosque Mesófilo de Montaña de la Sierra Madre Oriental, México. [Southwestern Entomologist, 46, 1021-1036](https://doi.org/10.3958/059.046.0425).
 
   * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (in press) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology](https://doi.org/10.1111/jipb.13189).
 
