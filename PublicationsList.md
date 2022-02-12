@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * González-Orozco, C.E. (2021) Regiones biogeográficas del género _Cinchona_ L. (Rubiaceae- _Cinchoneae_).  [Revista Novedades Colombian, 16, 135-156](https://doi.org/10.47374/novcol.2021.v16.1987).
 
-  * Garcia-Rodriguez, A., Luna-Vega, I., Yáñez-Ordóñez, O., Ramírez-Martínez, J.C., Espinosa, D., and Contreras-Medina, R. (2021). Patrones de Distribución de las Abejas<sup></sup> del Bosque Mesófilo de Montaña de la Sierra Madre Oriental, México. [Southwestern Entomologist, 46, 1021-1036](https://doi.org/10.3958/059.046.0425).
-
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
@@ -26,7 +24,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 #### 2022 ####
 
   * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (2022) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology, 64, 105-117](https://doi.org/10.1111/jipb.13189).
-
 
 
 #### 2021 ####
@@ -44,6 +41,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Flores-Tolentino M., Beltrán-Rodríguez L., Morales-Linares J., et al. (2021) Biogeographic regionalization by spatial and environmental components: Numerical proposal. [PLoS ONE 16, e0253152](https://doi.org/10.1371/journal.pone.0253152).
 
   * Furtado, S.G. and Menini Neto, L. (2021) What is the role of topographic heterogeneity and climate on the distribution and conservation of vascular epiphytes in the Brazilian Atlantic Forest? [Biodiversity and Conservation, 30, 1415–1431](https://doi.org/10.1007/s10531-021-02150-6).
+
+  * Garcia-Rodriguez, A., Luna-Vega, I., Yáñez-Ordóñez, O., Ramírez-Martínez, J.C., Espinosa, D., and Contreras-Medina, R. (2021). Patrones de Distribución de las Abejas<sup></sup> del Bosque Mesófilo de Montaña de la Sierra Madre Oriental, México. [Southwestern Entomologist, 46, 1021-1036](https://doi.org/10.3958/059.046.0425).
 
   * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
 
