@@ -15,7 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
 
-  * González-Orozco, C.E. (2021) Regiones biogeográficas del género _Cinchona_ L. (Rubiaceae- _Cinchoneae_).  [Revista Novedades Colombian, 16, 135-156](https://doi.org/10.47374/novcol.2021.v16.1987).
+  * González-Orozco, C.E. (2021) Regiones biogeográficas del género _Cinchona_ L. (Rubiaceae- _Cinchoneae_).  [Revista Novedades Colombianas, 16, 135-156](https://doi.org/10.47374/novcol.2021.v16.1987).
 
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
