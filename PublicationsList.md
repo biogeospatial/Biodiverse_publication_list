@@ -15,15 +15,13 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Zhang, W., Bussmann, R.W., Li, J., Liu, B., Xue, T., Yang, X., Qin, F., Liu, H. and Yu, S. (in press) Biodiversity hotspots and conservation efficiency of a large drainage basin: Distribution patterns of species richness and conservation gaps analysis in the Yangtze River Basin, China.  [Conservation Science and Practice, e12653](https://doi.org/10.1111/csp2.12653).
 
-  * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
-
-  * González-Orozco, C.E. (2021) Regiones biogeográficas del género _Cinchona_ L. (Rubiaceae- _Cinchoneae_).  [Revista Novedades Colombianas, 16, 135-156](https://doi.org/10.47374/novcol.2021.v16.1987).
-
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
 
 #### 2022 ####
+
+  * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
 
   * X.-X. Zhang, J.-F. Ye, S. W. Laffan, B. D. Mishler, A. H. Thornhill, L.-M. Lu, et al. (2022) Spatial phylogenetics of the Chinese angiosperm flora provides insights into endemism and conservation.  [Journal of Integrative Plant Biology, 64, 105-117](https://doi.org/10.1111/jipb.13189).
 
@@ -47,6 +45,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Garcia-Rodriguez, A., Luna-Vega, I., Yáñez-Ordóñez, O., Ramírez-Martínez, J.C., Espinosa, D., and Contreras-Medina, R. (2021). Patrones de Distribución de las Abejas<sup></sup> del Bosque Mesófilo de Montaña de la Sierra Madre Oriental, México. [Southwestern Entomologist, 46, 1021-1036](https://doi.org/10.3958/059.046.0425).
 
   * González-Orozco, C.E. (2021) Biogeographical regionalisation of Colombia: a revised area taxonomy. [Phytotaxa, 484, 3](https://doi.org/10.11646/phytotaxa.484.3.1).
+
+  * González-Orozco, C.E. (2021) Regiones biogeográficas del género _Cinchona_ L. (Rubiaceae- _Cinchoneae_).  [Revista Novedades Colombianas, 16, 135-156](https://doi.org/10.47374/novcol.2021.v16.1987).
 
   * González-Orozco, C. E., Sosa, C. C., Thornhill, A. H., and Laffan, S. W. (2021). Phylogenetic diversity and conservation of crop wild relatives in Colombia. [Evolutionary Applications, 14, 2603-2617](https://doi.org/10.1111/eva.13295). 
 
