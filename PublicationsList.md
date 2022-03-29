@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
+
   * Zhao, R., Xu, S., Song, P., Zhou, X, Zhang, Y. and Yuan, Y. (2022) Distribution patterns of medicinal plant diversity and their conservation in the Qinghai-Tibet Plateau. [Biodiversity Science, 30, 21385](https://doi.org/10.17520/biods.2021385).
 
   * Zhang, W., Bussmann, R.W., Li, J., Liu, B., Xue, T., Yang, X., Qin, F., Liu, H. and Yu, S. (in press) Biodiversity hotspots and conservation efficiency of a large drainage basin: Distribution patterns of species richness and conservation gaps analysis in the Yangtze River Basin, China.  [Conservation Science and Practice, e12653](https://doi.org/10.1111/csp2.12653).
