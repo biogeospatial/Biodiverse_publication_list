@@ -41,7 +41,7 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   perlbrew install-cpanm
 
   ## Now install (most of ) the rest of the dependencies
-  ##  ssuming you have unpacked or git cloned the files to ~/biodiverse
+  ##  Assuming you have unpacked or git cloned the files to ~/biodiverse
   cd ~/biodiverse
   cpanm --installdeps .
 
