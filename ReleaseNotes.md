@@ -59,7 +59,7 @@ A series of blog posts goes into more detail about several of the changes: http:
   * Spatial Conditions
     * New condition ```sp_richness_greater_than()``` allows the neighbour set to be defined as the set of groups with a richness exceeding a threshold.  [Issue 783](https://github.com/shawnlaffan/biodiverse/issues/783).
     * New condition ```sp_redundancy_greater_than()``` allows the neighbour set to be defined as the set of groups with a sample redundancy exceeding a threshold.  
-    * New conditions ```sp_point_in_cluster()``` and ```sp_points_in_same_cluster()``` that can be used to model polygons from clusters in a Cluster or RegionGrower analysis without first needing to export them to a shapefile and any subsequent processing to extract the relevant parts.  [Issue 803](https://github.com/shawnlaffan/biodiverse/issues/803).
+    * New conditions ```sp_point_in_cluster()``` and ```sp_points_in_same_cluster()``` that can be used to model polygons from clusters in a Cluster or RegionGrower analysis without first needing to export them to a shapefile and any subsequent processing to extract the relevant parts.  [Issue 803](https://github.com/shawnlaffan/biodiverse/issues/803).  [More details in the blog post](https://biodiverse-analysis-software.blogspot.com/2022/05/use-clusters-in-spatial-conditions.html).
   * Imports
     * Group properties can now be directly imported from rasters.  This makes it much easier to analyse environmental patterns in relation to taxonomic and/or phylogenetic ones.  [Issue 761](https://github.com/shawnlaffan/biodiverse/issues/761).  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2022/05/importing-group-properties-directly.html)
   * Exports
