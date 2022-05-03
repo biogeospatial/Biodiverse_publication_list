@@ -30,13 +30,12 @@ The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-31) sum
 
 All versions are for 64 bit architectures.
 
-**NOTE:** There appear to be issues downloading the files on Chrome browsers.  One workaround is to copy the link address (right click on the link) and paste that into a new browser tab.  If that does not work then browsers such as Firefox or Edge work.  Safari might also work, but it has not been tested.
 
-* [Windows (~68MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_win.zip)
+* [Windows (~68MB)](https://github.com/shawnlaffan/biodiverse/releases/download/r3.1_mac_updates/biodiverse_3.1_win.zip)
 
-* [Linux (~14MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_linux.zip)
+* [Linux (~14MB)](https://github.com/shawnlaffan/biodiverse/releases/download/r3.1_mac_updates/biodiverse_3.1_linux.zip)
 
-* [MacOS (~68MB)](http://biodiverse.unsw.edu.au/downloads/biodiverse_3.1_mac.zip)
+* [MacOS (~68MB)](https://github.com/shawnlaffan/biodiverse/releases/download/r3.1_mac_updates/biodiverse_3.1_mac.zip)
 
 * [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.1)
 
