@@ -13,8 +13,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Kong, H, Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (2022) Phylogenomic and Macroevolutionary Evidence for an Explosive Radiation of a Plant Genus in the Miocene.  [Systematic Biology, 71, 589–609](https://doi.org/10.1093/sysbio/syab068).
-
   *  Griffiths, D. (in press). Do the drivers and levels of isolation in fish faunas differ across Atlantic and Pacific drainages in the Americas? [Journal of Biogeography](https://doi.org/10.1111/jbi.14358).
 
   * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
@@ -23,11 +21,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Zhang, Y., Qian, L., Chen, X., Sun, L., Sun, H. and Chen, J. (in press) Diversity patterns of cushion plants on the Qinghai-Tibet Plateau: a basic study for future conservation efforts on alpine ecosystems.  [Plant Diversity](https://doi.org/10.1016/j.pld.2021.09.001).
 
-  * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, syab068](https://doi.org/10.1093/sysbio/syab068).
-
 #### 2022 ####
 
   * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
+
+  * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, 71, 589–609](https://doi.org/10.1093/sysbio/syab068).
 
   * Zhang, W., Bussmann, R.W., Li, J., Liu, B., Xue, T., Yang, X., Qin, F., Liu, H. and Yu, S. (2022) Biodiversity hotspots and conservation efficiency of a large drainage basin: Distribution patterns of species richness and conservation gaps analysis in the Yangtze River Basin, China.  [Conservation Science and Practice, 4, e12653](https://doi.org/10.1111/csp2.12653).
 
