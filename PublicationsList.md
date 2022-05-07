@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Kong, H, Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (2022) Phylogenomic and Macroevolutionary Evidence for an Explosive Radiation of a Plant Genus in the Miocene.  [Systematic Biology, 71, 589–609](https://doi.org/10.1093/sysbio/syab068).
+
   *  Griffiths, D. (in press). Do the drivers and levels of isolation in fish faunas differ across Atlantic and Pacific drainages in the Americas? [Journal of Biogeography](https://doi.org/10.1111/jbi.14358).
 
   * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
