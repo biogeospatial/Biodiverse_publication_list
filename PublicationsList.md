@@ -13,7 +13,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Moreira-Muñoz, A, Palchetti, V.A., Morales-Fierro, V., Duval, V.S., Allesch-Villalobos, R., González-Orozco, C.E. (2022) Diversity and Conservation Gap Analysis of the Solanaceae of Southern South America.  [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.854372).
+  * Yang, X., Qin, F., Xue, T., Xia, C., Gadagkar, S. R., & Yu, S. (2022). Insights into plant biodiversity conservation in large river valleys in China: A spatial analysis of species and phylogenetic diversity. [Ecology and Evolution, 12, e8940](https://doi.org/10.1002/ece3.8940).
+
+  * Moreira-Muñoz, A, Palchetti, V.A., Morales-Fierro, V., Duval, V.S., Allesch-Villalobos, R., & González-Orozco, C.E. (2022) Diversity and Conservation Gap Analysis of the Solanaceae of Southern South America.  [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.854372).
 
   * Carter, B. E., Misiewicz, T. M. & Mishler, B. D. (in press). Spatial phylogenetic patterns in the North American moss flora are shaped by history and climate. [Journal of Biogeography](https://doi.org/10.1111/jbi.14385).
 
