@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Rivera-Martínez, R., Ramírez-Morillo, I.M., De-Nova, José A., Carnevali, G., Pinzón, J.P., Romero-Soler, K.J. & Raigoza, N. (2022). Spatial phylogenetics in Hechtioideae (Bromeliaceae) reveals recent diversification and dispersal. [Botanical Sciences, 100, 692-709](https://doi.org/10.17129/botsci.2975).
+  * Rivera-Martínez, R., Ramírez-Morillo, I.M., De-Nova, José A., Carnevali, G., Pinzón, J.P., Romero-Soler, K.J. & Raigoza, N. (2022) Spatial phylogenetics in Hechtioideae (Bromeliaceae) reveals recent diversification and dispersal. [Botanical Sciences, 100, 692-709](https://doi.org/10.17129/botsci.2975).
 
   * Fernandes, N.B.G., de Menezes Yazbeck, G. & Milward-de-Azevedo, M.A. (2022) Taxonomic diversity of Passifloraceae sensu stricto along altitudinal gradient and on Serra dos Órgãos mountain slopes in southeastern Brazil. [Rodriguésia, 73, e00702021](https://doi.org/10.1590/2175-7860202273057).
 
