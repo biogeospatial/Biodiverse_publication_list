@@ -15,12 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Gosper C.R., Percy-Bower J.M., Byrne M., Llorens T.M. & Yates C.J. (2022) Distribution, Biogeography and Characteristics of the Threatened and Data-Deficient Flora in the Southwest Australian Floristic Region. [Diversity, 14, 493](https://doi.org/10.3390/d14060493).
 
-  * Rivera-Martínez, R., Ramírez-Morillo, I.M., De-Nova, José A., Carnevali, G., Pinzón, J.P., Romero-Soler, K.J. & Raigoza, N. (2022) Spatial phylogenetics in Hechtioideae (Bromeliaceae) reveals recent diversification and dispersal. [Botanical Sciences, 100, 692-709](https://doi.org/10.17129/botsci.2975).
-
-  * Fernandes, N.B.G., de Menezes Yazbeck, G. & Milward-de-Azevedo, M.A. (2022) Taxonomic diversity of Passifloraceae sensu stricto along altitudinal gradient and on Serra dos Órgãos mountain slopes in southeastern Brazil. [Rodriguésia, 73, e00702021](https://doi.org/10.1590/2175-7860202273057).
-
-  * Yang, X., Qin, F., Xue, T., Xia, C., Gadagkar, S. R., & Yu, S. (2022). Insights into plant biodiversity conservation in large river valleys in China: A spatial analysis of species and phylogenetic diversity. [Ecology and Evolution, 12, e8940](https://doi.org/10.1002/ece3.8940).
-
   * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
 
 #### 2022 ####
@@ -31,11 +25,17 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
 
-  *  Griffiths, D. (2022). Do the drivers and levels of isolation in fish faunas differ across Atlantic and Pacific drainages in the Americas? [Journal of Biogeography, 49, 930-941](https://doi.org/10.1111/jbi.14358).
+  * Fernandes, N.B.G., de Menezes Yazbeck, G. & Milward-de-Azevedo, M.A. (2022) Taxonomic diversity of Passifloraceae sensu stricto along altitudinal gradient and on Serra dos Órgãos mountain slopes in southeastern Brazil. [Rodriguésia, 73, e00702021](https://doi.org/10.1590/2175-7860202273057).
+
+  * Griffiths, D. (2022). Do the drivers and levels of isolation in fish faunas differ across Atlantic and Pacific drainages in the Americas? [Journal of Biogeography, 49, 930-941](https://doi.org/10.1111/jbi.14358).
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, 71, 589–609](https://doi.org/10.1093/sysbio/syab068).
 
   * Moreira-Muñoz, A, Palchetti, V.A., Morales-Fierro, V., Duval, V.S., Allesch-Villalobos, R., & González-Orozco, C.E. (2022) Diversity and Conservation Gap Analysis of the Solanaceae of Southern South America.  [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.854372).
+
+  * Rivera-Martínez, R., Ramírez-Morillo, I.M., De-Nova, José A., Carnevali, G., Pinzón, J.P., Romero-Soler, K.J. & Raigoza, N. (2022) Spatial phylogenetics in Hechtioideae (Bromeliaceae) reveals recent diversification and dispersal. [Botanical Sciences, 100, 692-709](https://doi.org/10.17129/botsci.2975).
+
+  * Yang, X., Qin, F., Xue, T., Xia, C., Gadagkar, S. R., & Yu, S. (2022). Insights into plant biodiversity conservation in large river valleys in China: A spatial analysis of species and phylogenetic diversity. [Ecology and Evolution, 12, e8940](https://doi.org/10.1002/ece3.8940).
 
   * Zhang, W., Bussmann, R.W., Li, J., Liu, B., Xue, T., Yang, X., Qin, F., Liu, H. and Yu, S. (2022) Biodiversity hotspots and conservation efficiency of a large drainage basin: Distribution patterns of species richness and conservation gaps analysis in the Yangtze River Basin, China.  [Conservation Science and Practice, 4, e12653](https://doi.org/10.1111/csp2.12653).
 
