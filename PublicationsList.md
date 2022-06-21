@@ -25,11 +25,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Carter, B. E., Misiewicz, T. M. & Mishler, B. D. (in press). Spatial phylogenetic patterns in the North American moss flora are shaped by history and climate. [Journal of Biogeography](https://doi.org/10.1111/jbi.14385).
 
-  * Chen, K., Khine, P.K., Yang, Z. and Schneider, H. (2022) Historical plant records enlighten the conservation efforts of ferns and Lycophytes’ diversity in tropical China, [Journal for Nature Conservation, 68, 126197](https://doi.org/10.1016/j.jnc.2022.126197).
-
   * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
 
 #### 2022 ####
+
+  * Chen, K., Khine, P.K., Yang, Z. and Schneider, H. (2022) Historical plant records enlighten the conservation efforts of ferns and Lycophytes’ diversity in tropical China, [Journal for Nature Conservation, 68, 126197](https://doi.org/10.1016/j.jnc.2022.126197).
 
   * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
 
