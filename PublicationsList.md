@@ -23,11 +23,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Moreira-Muñoz, A, Palchetti, V.A., Morales-Fierro, V., Duval, V.S., Allesch-Villalobos, R., & González-Orozco, C.E. (2022) Diversity and Conservation Gap Analysis of the Solanaceae of Southern South America.  [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.854372).
 
-  * Carter, B. E., Misiewicz, T. M. & Mishler, B. D. (in press). Spatial phylogenetic patterns in the North American moss flora are shaped by history and climate. [Journal of Biogeography](https://doi.org/10.1111/jbi.14385).
-
   * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
 
 #### 2022 ####
+
+  * Carter, B. E., Misiewicz, T. M. & Mishler, B. D. (2022). Spatial phylogenetic patterns in the North American moss flora are shaped by history and climate. [Journal of Biogeography, 49, 1327-1338](https://doi.org/10.1111/jbi.14385).
 
   * Chen, K., Khine, P.K., Yang, Z. and Schneider, H. (2022) Historical plant records enlighten the conservation efforts of ferns and Lycophytes’ diversity in tropical China, [Journal for Nature Conservation, 68, 126197](https://doi.org/10.1016/j.jnc.2022.126197).
 
