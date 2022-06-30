@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Ávila-González, H., González-Gallegos, J.G., Munguía-Lino, G. & Castro-Castro, A. (2022) The Genus Sisyrinchium (Iridaceae) in Sierra Madre Occidental, Mexico: A New Species, Richness and Distribution. [Systematic Botany, 47, 319-334](https://doi.org/10.1600/036364422X16512564801641).
+
   * Gosper C.R., Percy-Bower J.M., Byrne M., Llorens T.M. & Yates C.J. (2022) Distribution, Biogeography and Characteristics of the Threatened and Data-Deficient Flora in the Southwest Australian Floristic Region. [Diversity, 14, 493](https://doi.org/10.3390/d14060493).
 
   * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
