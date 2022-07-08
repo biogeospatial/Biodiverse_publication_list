@@ -1,6 +1,6 @@
 To install Biodiverse from source for macOS four broad steps are required. First, if you haven't already, you will have to install Xcode command line tools. Second, a software management system has to be installed which can be used to install software required by Biodiverse. Third, Biodiverse requires a higher version of perl than that installed by default on macOS. This and Biodiverse's perl modules dependancies will be install. Fourth, Biodiverse will be installed.
 
-Note that Homebrew is only supported on recent versions of OSX, so if you have an old operating system then these instructions might not work cleanly (e.g. gdal will not install cleanly under Yosemite).  
+If you find issues with these instructions then please raise an [issue](https://github.com/shawnlaffan/biodiverse/issues/) or start a [discussion thread](https://github.com/shawnlaffan/biodiverse/discussions).
 
 # Install Xcode command line tools
 To install Xcode command line tools (and all following software) you will be using the Terminal application. To open Terminal:
@@ -18,24 +18,19 @@ To install Xcode command line tools (and all following software) you will be usi
 # Installing Homebrew and required software.
 Homebrew is a package management system which simplifies the installation of software on Apple's macOS operating system. It is used to install software required by Biodiverse.
    ```sh
-   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 3. Some extra packages are required which are not part of the base Homebrew installation. Install these:
 
    ```sh
    brew tap homebrew/boneyard 
-   brew tap osgeo/osgeo4mac
    ```
-4. Install the Geospatial Data Abstraction Library (gdal)
-   ```sh
-   brew install https://raw.githubusercontent.com/OSGeo/homebrew-osgeo4mac/master/boneyard/gdal-20.rb
-   ```
-5. Install other required packages:
+4. Install other required packages:
    ```sh
    brew install gdk-pixbuf pango gtk+ gtk+3 libglade
    ```
 
-6. libgnomecanvas needs to be patched to avoid a serious memory leak
+5. libgnomecanvas needs to be patched to avoid a serious memory leak
    ```sh
    brew edit libgnomecanvas
    #  insert these lines into the build, immediately after the line containing "def install":
@@ -55,10 +50,10 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```
 2. Install the version of perl that Biodiverse requires and then use it (must be higher than 5.22):
    ```sh
-   ~/perl5/perlbrew/bin/perlbrew install --noman perl-5.30.1
+   ~/perl5/perlbrew/bin/perlbrew install --noman perl-5.36.0
    #  if there are "no symbol" test failures in libperl.t then skip the tests
-   #~/perl5/perlbrew/bin/perlbrew install --noman --notest perl-5.30.1
-   ~/perl5/perlbrew/bin/perlbrew switch perl-5.30.1
+   #~/perl5/perlbrew/bin/perlbrew install --noman --notest perl-5.36.0
+   ~/perl5/perlbrew/bin/perlbrew switch perl-5.36.0
    ```
 3. Install cpanminus for installing other perl modules:
    ```sh
@@ -75,7 +70,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
 1. Install Biodiverse either from source or by cloning the git repository. If using git then to install at the top level of your home directory:
     ```sh
     cd ~
-    git clone https://github.com/shawnlaffan/biodiverse.git
+    git clone --depth 1 https://github.com/shawnlaffan/biodiverse.git
     cd biodiverse
     cpanm --installdeps .
     #  only need to run these two lines for v3.1 or earlier
@@ -83,9 +78,9 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     cpanm Task::Biodiverse
     ```
 
-2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.30.1), and then run biodiverse:
+2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.36.0), and then run biodiverse:
     ```sh
-    ~/perl5/perlbrew/bin/perlbrew switch perl-5.30.1
+    ~/perl5/perlbrew/bin/perlbrew switch perl-5.36.0
     perl ~/biodiverse/bin/BiodiverseGUI.pl
     ```
 
