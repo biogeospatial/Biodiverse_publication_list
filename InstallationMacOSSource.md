@@ -4,11 +4,14 @@ If you find issues with these instructions then please raise an [issue](https://
 
 # Install Xcode command line tools
 To install Xcode command line tools (and all following software) you will be using the Terminal application. To open Terminal:
+
 1. Double-click the Terminal application in the Applications:Utilities folder. Or do a Spotlight search for "Terminal" and open it.
+
 2. Copy and paste the below text at the terminal prompt and then hit return.
    ```sh
     xcode-select --install
    ```
+
 3. Once this is install you will need to agree the Apple's software licence.
    ```sh
    sudo xcodebuild -license
@@ -16,21 +19,22 @@ To install Xcode command line tools (and all following software) you will be usi
    Enter your password when prompted.
 
 # Installing Homebrew and required software.
-Homebrew is a package management system which simplifies the installation of software on Apple's macOS operating system. It is used to install software required by Biodiverse.
+
+1. Homebrew is a package management system which simplifies the installation of software on Apple's macOS operating system. It is used to install software required by Biodiverse.
    ```sh
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
-3. Some extra packages are required which are not part of the base Homebrew installation. Install these:
+2. Some extra packages are required which are not part of the base Homebrew installation. Install these:
 
    ```sh
    brew tap homebrew/boneyard 
    ```
-4. Install other required packages:
+3. Install other required packages:
    ```sh
    brew install gdk-pixbuf pango gtk+ gtk+3 libglade
    ```
 
-5. libgnomecanvas needs to be patched to avoid a serious memory leak
+4. libgnomecanvas needs to be patched to avoid a serious memory leak
    ```sh
    brew edit libgnomecanvas
    #  insert these lines into the build, immediately after the line containing "def install":
