@@ -84,4 +84,4 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     perl ~/biodiverse/bin/BiodiverseGUI.pl
     ```
 
-Back to the [main installation page.](https://purl.org/biodiverse/wiki/Installation)
+Back to the [main installation page.](https://github.com/shawnlaffan/biodiverse/wiki/Installation)
