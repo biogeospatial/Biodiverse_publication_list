@@ -84,7 +84,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Murali, G., Gumbs, R., Meiri, S. and Rull, U. (2021) Global determinants and conservation of evolutionary and geographic rarity in land vertebrates. [Science Advances, 7, eabe5582](https://doi.org/10.1126/sciadv.abe5582).
 
-  * Ortiz-Brunel, J.P., Munguía-Lino, G., Castro-Castro, A. and Rodríguez, A. (2021) Biogeographic analysis of the American genus _Echeandia_ (Agavoideae: Asparagaceae). [Revista Mexicana de Biodiversidad 92, e923739]( https://doi.org/10.22201/ib.20078706e.2021.92.373).
+  * Ortiz-Brunel, J.P., Munguía-Lino, G., Castro-Castro, A. and Rodríguez, A. (2021) Biogeographic analysis of the American genus _Echeandia_ (Agavoideae: Asparagaceae). [Revista Mexicana de Biodiversidad 92, e923739](https://doi.org/10.22201/ib.20078706e.2021.92.3739).
 
   * Paz, A., Brown, J.L., Cordeiro, C.L.O., Aguirre‐Santoro, J., Assis, C., Amaro, R.C., Raposo do Amaral, F., Bochorny, T., Bacci, L.F., Caddah, M.K., d’Horta, F., Kaehler, M., Lyra, M., Grohmann, C.H., Reginato, M., Silva‐Brandão, K.L., Freitas, A.V.L., Goldenberg, R., Lohmann, L.G., Michelangeli, F.A., Miyaki, C., Rodrigues, M.T., Silva, T.S. and Carnaval, A.C. (2021) Environmental correlates of taxonomic and phylogenetic diversity in the Atlantic Forest. [Journal of Biogeography, 48, 1377-1391](https://doi.org/10.1111/jbi.14083).
 
