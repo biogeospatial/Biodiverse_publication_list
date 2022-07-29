@@ -19,7 +19,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### 2022 ####
 
-  * Ávila-González, H., González-Gallegos, J.G., Munguía-Lino, G. & Castro-Castro, A. (2022) The Genus Sisyrinchium (Iridaceae) in Sierra Madre Occidental, Mexico: A New Species, Richness and Distribution. [Systematic Botany, 47, 319-334](https://doi.org/10.1600/036364422X16512564801641).
+  * Ávila-González, H., González-Gallegos, J.G., Munguía-Lino, G. & Castro-Castro, A. (2022) The genus Sisyrinchium (Iridaceae) in Sierra Madre Occidental, Mexico: A new species, richness and distribution. [Systematic Botany, 47, 319-334](https://doi.org/10.1600/036364422X16512564801641).
 
   * Carter, B. E., Misiewicz, T. M. & Mishler, B. D. (2022). Spatial phylogenetic patterns in the North American moss flora are shaped by history and climate. [Journal of Biogeography, 49, 1327-1338](https://doi.org/10.1111/jbi.14385).
 
