@@ -31,7 +31,7 @@ To install Xcode command line tools (and all following software) you will be usi
    ```
 3. Install other required packages:
    ```sh
-   brew install gdk-pixbuf pango gtk+ gtk+3 libglade
+   brew install gdk-pixbuf pango gtk+ gtk+3 libglade libffi
    ```
 
 4. libgnomecanvas needs to be patched to avoid a serious memory leak
