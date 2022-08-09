@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Gutiérrez-Rodríguez, B.E., Guevara, R., Angulo, D.F. et al. (2022) Ecological niches, endemism and conservation of the species in _Selenicereus_ (Hylocereeae, Cactaceae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-022-00818-z).
 
-  * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (in press) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity](https://doi.org/10.1016/j.pld.2022.03.004).
-
 #### 2022 ####
 
   * Ávila-González, H., González-Gallegos, J.G., Munguía-Lino, G. & Castro-Castro, A. (2022) The genus Sisyrinchium (Iridaceae) in Sierra Madre Occidental, Mexico: A new species, richness and distribution. [Systematic Botany, 47, 319-334](https://doi.org/10.1600/036364422X16512564801641).
@@ -34,6 +32,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Gosper C.R., Percy-Bower J.M., Byrne M., Llorens T.M. & Yates C.J. (2022) Distribution, Biogeography and Characteristics of the Threatened and Data-Deficient Flora in the Southwest Australian Floristic Region. [Diversity, 14, 493](https://doi.org/10.3390/d14060493).
 
   * Griffiths, D. (2022). Do the drivers and levels of isolation in fish faunas differ across Atlantic and Pacific drainages in the Americas? [Journal of Biogeography, 49, 930-941](https://doi.org/10.1111/jbi.14358).
+
+  * Gutiérrez–Rodríguez, B.E., Vásquez–Cruz, M. and Sosa, V. (2022) Phylogenetic endemism of the orchids of Megamexico reveals complementary areas for conservation. [Plant Diversity, 44, 351-359](https://doi.org/10.1016/j.pld.2022.03.004).
 
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, 71, 589–609](https://doi.org/10.1093/sysbio/syab068).
 
