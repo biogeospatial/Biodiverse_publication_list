@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. and Franco, F.F. (2022) Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas.  [Biological Conservation, 273, 109677](https://doi.org/10.1016/j.biocon.2022.109677).
+
   * Bartoli, F., Iocchi, M. and Lucchese, F. (2021) Spatial phylogenetic diversity of pteridophytes in Latium (Central Italy): a tool for conservation planning at regional scale.  [Flora Mediterranea, 31 Special Issue, 297-315](https://doi.org/10.7320/FlMedit31SI.297).
 
   * Gutiérrez-Rodríguez, B.E., Guevara, R., Angulo, D.F. et al. (2022) Ecological niches, endemism and conservation of the species in _Selenicereus_ (Hylocereeae, Cactaceae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-022-00818-z).
