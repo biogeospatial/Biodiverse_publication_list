@@ -28,11 +28,11 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   #  For online docs
   sudo apt-get install libssl-dev
   #  Gtk:
-  sudo apt-get install libgnome2-canvas-perl
-  sudo apt-get install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
+  sudo apt install libgnome2-canvas-perl
+  sudo apt install libcairo2-dev libpango1.0-dev libgtk2.0-dev libgnomecanvas2-dev
+  sudo apt install libcanberra-gtk-module
   # GDAL deps:
-  sudo apt-get install libarmadillo-dev libpoppler-dev libepsilon-dev liblzma-dev
-  sudo apt-get install libkml-dev libfreexl-dev libogdi3.2-dev
+  sudo apt install sqlite3 libgdal-dev
 
   ##  Skip this step if you already have cpanm installed
   ##  Uncomment and use this next line if you are not using perlbrew
@@ -40,18 +40,27 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   ##  but if you are using perlbrew:
   perlbrew install-cpanm
 
-  ## Now install (most of ) the rest of the dependencies
+  ## Now install (most of) the rest of the dependencies
   ##  Assuming you have unpacked or git cloned the files to ~/biodiverse
   cd ~/biodiverse
   cpanm --installdeps .
+
+  #  These are needed for the GUI
+  #  Gtk2 has test failures that do not affect Biodiverse
+  #  so we skip its tests.
+  cpanm --notest Gtk2
+  cpanm Gnome2::Canvas
+  cpanm HTTP::Tiny
+  cpanm Browser::Start
+  cpanm IO::Socket::SSL
 
   ## If you are using Biodiverse 3.1 or earlier
   cpanm Task::Biodiverse::NoGUI
   cpanm Task::Biodiverse
 
   ## some libs to make Biodiverse go faster if present
-  ## but don't worry if they do not install cleanly.
-  ## Panda::Lib does not install on Windows, so is not in the dep list
+  ## but don't worry if they do not install cleanly, the system will work without them.
+  ## Panda::Lib does not install on Windows so is not in the dep list
   ## cpanm Panda::Lib
   cpanm Data::Recursive
   ##  Biodiverse::Utils is not yet on cpan
