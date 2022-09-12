@@ -44,7 +44,7 @@ A series of blog posts goes into more detail about several of the changes: http:
 
   * Analyses
     * CANAPE
-      *  Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the phylogenetic endemism and relative phylogenetic endemism indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).
+      *  Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the [phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#phylogenetic-endemism) and [relative phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#relative-phylogenetic-endemism-type-2) indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).
     * Cluster analyses
       * Cluster analyses will now lump all zero distance matrix pairs in an initial pass where possible.  This avoids needless tie-breaker calculations when data sets have large sets of groups with the same label assemblages.  [Issue 760](https://github.com/shawnlaffan/biodiverse/issues/760)
       * Cluster and Region Grower analyses are no longer rebuilt by default under the randomisations, speeding up any randomisations that include them.  Comparison of per-node calculations is still done, though, as this does not use the rebuilt tree.  There is a user visible option in the GUI to enable the previous behaviour if it is needed.  [Issue 765](https://github.com/shawnlaffan/biodiverse/issues/765)
