@@ -67,6 +67,8 @@ A series of blog posts goes into more detail about several of the changes: http:
     * Group properties can now be directly imported from rasters.  This makes it much easier to analyse environmental patterns in relation to taxonomic and/or phylogenetic ones.  [Issue 761](https://github.com/shawnlaffan/biodiverse/issues/761).  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2022/05/importing-group-properties-directly.html)
   * Exports
     * Cluster and RegionGrower analyses can be exported to shapefile format in a grouped form.  This models the cluster display where multiple sub-clusters are coloured.  The output file is somewhat awkward and needs further processing, which is why the ```sp_points_in_same_cluster()``` spatial condition was developed (see above).  [Issue 757](https://github.com/shawnlaffan/biodiverse/issues/757).
+  * Trees
+    * A new option has been added to merge only-child ("knuckle") nodes with their parents.  This i sprobably most useful after trimming a tree but can be applied to any tree.  [Issue 814](https://github.com/shawnlaffan/biodiverse/issues/814).
 
 # Version 3.1 #
 
