@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. and Franco, F.F. (2022) Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas.  [Biological Conservation, 273, 109677](https://doi.org/10.1016/j.biocon.2022.109677).
 
-  * Bartoli, F., Iocchi, M. and Lucchese, F. (2021) Spatial phylogenetic diversity of pteridophytes in Latium (Central Italy): a tool for conservation planning at regional scale.  [Flora Mediterranea, 31 Special Issue, 297-315](https://doi.org/10.7320/FlMedit31SI.297).
-
   * Gutiérrez-Rodríguez, B.E., Guevara, R., Angulo, D.F. et al. (2022) Ecological niches, endemism and conservation of the species in _Selenicereus_ (Hylocereeae, Cactaceae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-022-00818-z).
 
 #### 2022 ####
@@ -65,6 +63,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 #### 2021 ####
 
   * Anguiano-Constante, M.A., Dean, E., Starbuck, T., Rodríguez, A. And Munguía-Lino, G. (2021) Diversity, species richness distribution and centers of endemism of Lycianthes (Capsiceae, Solanaceae) in Mexico. [Phytotaxa, 514, 39-60](https://doi.org/10.11646/phytotaxa.514.1.3).
+
+  * Bartoli, F., Iocchi, M. and Lucchese, F. (2021) Spatial phylogenetic diversity of pteridophytes in Latium (Central Italy): a tool for conservation planning at regional scale.  [Flora Mediterranea, 31 Special Issue, 297-315](https://doi.org/10.7320/FlMedit31SI.297).
 
   * Bharti, D.K., Edgecombe, G.D., Karanth, K.P. and Joshi, J. (2021) Spatial patterns of phylogenetic diversity and endemism in the Western Ghats, India: A case study using ancient predatory arthropods.  [Ecology and Evolution, 11, 16499-16513](https://doi.org/10.1002/ece3.8119).
 
