@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://10.1007/s10530-022-02908-1).
+
   * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13](https://10.3389/fpls.2022.962609).
 
   * Murillo-Pérez, G., Rodríguez, A., Sánchez-Carbajal, D., Ruiz-Sanchez, E., Carrillo-Reyes, P., Munguía-Lino, G. (2022) Spatial distribution of species richness and endemism of Solanum (Solanaceae) in Mexico.  [Phytotaxa 558, 147–177](https://doi.org/10.11646/phytotaxa.558.2.1)
