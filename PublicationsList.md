@@ -17,13 +17,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13](https://10.3389/fpls.2022.962609).
 
-  * Murillo-Pérez, G., Rodríguez, A., Sánchez-Carbajal, D., Ruiz-Sanchez, E., Carrillo-Reyes, P., Munguía-Lino, G. (2022) Spatial distribution of species richness and endemism of Solanum (Solanaceae) in Mexico.  [Phytotaxa 558, 147–177](https://doi.org/10.11646/phytotaxa.558.2.1)
-
-  * Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. and Franco, F.F. (2022) Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas.  [Biological Conservation, 273, 109677](https://doi.org/10.1016/j.biocon.2022.109677).
-
   * Gutiérrez-Rodríguez, B.E., Guevara, R., Angulo, D.F. et al. (2022) Ecological niches, endemism and conservation of the species in _Selenicereus_ (Hylocereeae, Cactaceae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-022-00818-z).
 
 #### 2022 ####
+
+  * Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. and Franco, F.F. (2022) Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas.  [Biological Conservation, 273, 109677](https://doi.org/10.1016/j.biocon.2022.109677).
 
   * Ávila-González, H., González-Gallegos, J.G., Munguía-Lino, G. & Castro-Castro, A. (2022) The genus Sisyrinchium (Iridaceae) in Sierra Madre Occidental, Mexico: A new species, richness and distribution. [Systematic Botany, 47, 319-334](https://doi.org/10.1600/036364422X16512564801641).
 
@@ -44,6 +42,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Kong, H., Condamine, F.L., Yang, L., Harris, A.J., Feng, C., Wen, F. and Kang, M. (in press) Phylogenomic and macroevolutionary evidence for an explosive radiation of a plant genus in the Miocene.  [Systematic Biology, 71, 589–609](https://doi.org/10.1093/sysbio/syab068).
 
   * Moreira-Muñoz, A, Palchetti, V.A., Morales-Fierro, V., Duval, V.S., Allesch-Villalobos, R., & González-Orozco, C.E. (2022) Diversity and Conservation Gap Analysis of the Solanaceae of Southern South America.  [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.854372).
+
+  * Murillo-Pérez, G., Rodríguez, A., Sánchez-Carbajal, D., Ruiz-Sanchez, E., Carrillo-Reyes, P., Munguía-Lino, G. (2022) Spatial distribution of species richness and endemism of Solanum (Solanaceae) in Mexico.  [Phytotaxa 558, 147–177](https://doi.org/10.11646/phytotaxa.558.2.1)
 
   * Paz, A., Silva, A.S. & Carnaval, A. (2022) A framework for near-real time monitoring of diversity patterns based on indirect remote sensing, with an application in the Brazilian Atlantic rainforest.  [PeerJ, 10:e13534](https://doi.org/10.7717/peerj.13534).
 
