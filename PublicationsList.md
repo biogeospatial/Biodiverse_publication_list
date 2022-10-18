@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Silva, D.C., Oliveira, H.F.M., Zangrandi, P.L. and Domingos, F.M.C.B. (2022) Flying Over Amazonian Waters: The Role of Rivers on the Distribution and Endemism Patterns of Neotropical Bats. [Frontiers in Ecology and Evolution, 10:774083](https://doi.org/10.3389/fevo.2022.774083).
+
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
 
   * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.962609).
