@@ -50,7 +50,7 @@ All versions are for 64 bit architectures.
 
 ### Development Release ###
 
-Development releases are in the 3.99 series, leading to version 4.
+Development releases are in the 3.99 series, leading to version 4.  The current dev release is 3.99_005.  
 
 The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-399-dev-series) summarise the changes in this version.
 
