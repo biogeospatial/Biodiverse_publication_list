@@ -42,9 +42,12 @@ For the full list of issues and changes leading to the 4.0 release, see https://
 
 A series of blog posts goes into more detail about several of the changes: http://biodiverse-analysis-software.blogspot.com/search/label/Version4   
 
+  * General
+    * As of 3.99_005 the executable files are digitally signed.  This will avoid OS warnings when files are downloaded.  
   * Analyses
     * CANAPE
-      *  Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the [phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#phylogenetic-endemism) and [relative phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#relative-phylogenetic-endemism-type-2) indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).
+      * Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the [phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#phylogenetic-endemism) and [relative phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#relative-phylogenetic-endemism-type-2) indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).
+      * The PE and RPE calculations have been sped up.  [PR 831](https://github.com/shawnlaffan/biodiverse/pull/831).
     * Cluster analyses
       * Cluster analyses will now lump all zero distance matrix pairs in an initial pass where possible.  This avoids needless tie-breaker calculations when data sets have large sets of groups with the same label assemblages.  [Issue 760](https://github.com/shawnlaffan/biodiverse/issues/760)
       * Cluster and Region Grower analyses are no longer rebuilt by default under the randomisations, speeding up any randomisations that include them.  Comparison of per-node calculations is still done, though, as this does not use the rebuilt tree.  There is a user visible option in the GUI to enable the previous behaviour if it is needed.  [Issue 765](https://github.com/shawnlaffan/biodiverse/issues/765)
@@ -68,7 +71,7 @@ A series of blog posts goes into more detail about several of the changes: http:
   * Exports
     * Cluster and RegionGrower analyses can be exported to shapefile format in a grouped form.  This models the cluster display where multiple sub-clusters are coloured.  The output file is somewhat awkward and needs further processing, which is why the ```sp_points_in_same_cluster()``` spatial condition was developed (see above).  [Issue 757](https://github.com/shawnlaffan/biodiverse/issues/757).
   * Trees
-    * A new option has been added to merge only-child ("knuckle") nodes with their parents.  This i sprobably most useful after trimming a tree but can be applied to any tree.  [Issue 814](https://github.com/shawnlaffan/biodiverse/issues/814).
+    * A new option has been added to merge only-child ("knuckle") nodes with their parents.  This is probably most useful after trimming a tree but can be applied to any tree.  [Issue 814](https://github.com/shawnlaffan/biodiverse/issues/814).
 
 # Version 3.1 #
 
