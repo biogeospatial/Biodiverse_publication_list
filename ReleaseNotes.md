@@ -46,7 +46,7 @@ A series of blog posts goes into more detail about several of the changes: http:
     * As of 3.99_005 the executable files are digitally signed.  This will avoid OS warnings when files are downloaded.  
   * Analyses
     * CANAPE
-      * Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the [phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#phylogenetic-endemism) and [relative phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#relative-phylogenetic-endemism-type-2) indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2022/10/biodiverse-now-calculates-canape-for-you.html).
+      * Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the [phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#phylogenetic-endemism) and [relative phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#relative-phylogenetic-endemism-type-2) indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).  [More details are in this blog post](https://biodiverse-analysis-software.blogspot.com/2022/10/biodiverse-now-calculates-canape-for-you.html).
       * The PE and RPE calculations have been sped up.  [PR 831](https://github.com/shawnlaffan/biodiverse/pull/831).
     * Cluster analyses
       * Cluster analyses will now lump all zero distance matrix pairs in an initial pass where possible.  This avoids needless tie-breaker calculations when data sets have large sets of groups with the same label assemblages.  [Issue 760](https://github.com/shawnlaffan/biodiverse/issues/760)
