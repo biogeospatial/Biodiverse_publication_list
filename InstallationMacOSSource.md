@@ -75,6 +75,10 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     #  only need to run these two lines for v3.1 or earlier
     cpanm Task::Biodiverse::NoGUI
     cpanm Task::Biodiverse
+
+    #  make sure the file history can be saved
+    mkdir -p ${HOME}/.local/share/
+    touch $HOME/recently-used.xbel  
     ```
 
 2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.36.0), and then run biodiverse:
