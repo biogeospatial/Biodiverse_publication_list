@@ -61,7 +61,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
 4. Install Biodiverse GUI  module dependencies.  Gtk2 has known test failures, but works, so we don't test it.
    ```sh
    cpanm --notest Gtk2
-   cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric
+   cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric Browser::Start
    ```
 
 # Install Biodiverse
