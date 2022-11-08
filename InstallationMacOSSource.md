@@ -38,7 +38,7 @@ To install Xcode command line tools (and all following software) you will be usi
    ```sh
    brew edit libgnomecanvas
    #  insert these lines into the build, immediately after the line containing "def install":
-   #  system "\curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch"
+   #  system "\\curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch"
    #  system "patch -d libgnomecanvas < libgnomecanvas.patch"
    #  then exit the editor
    brew install --build-from-source libgnomecanvas
