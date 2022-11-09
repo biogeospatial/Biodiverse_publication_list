@@ -28,6 +28,7 @@ To install Xcode command line tools (and all following software) you will be usi
    ```sh
    brew install gdk-pixbuf pango gtk+ gtk+3 libglade libffi gdal openssl
    brew install hicolor-icon-theme
+   brew install adwaita-icon-theme
    ```
 
 3. libgnomecanvas needs to be patched to avoid a serious memory leak
