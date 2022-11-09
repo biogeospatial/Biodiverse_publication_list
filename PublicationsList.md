@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Olivares-Juárez, M.I., Burgos-Hernández, M. and Santiago-Alvarádo, M. (2022) Patterns of Species Richness and Distribution of the Genus _Laelia_ s.l. vs. _Laelia_ s.s. (Laeliinae: Epidendroideae: Orchidaceae) in Mexico: Taxonomic Contribution and Conservation Implications. [Plants, 11:2742](https://doi.org/10.3390/plants11202742).
+
   * Silva, D.C., Oliveira, H.F.M., Zangrandi, P.L. and Domingos, F.M.C.B. (2022) Flying Over Amazonian Waters: The Role of Rivers on the Distribution and Endemism Patterns of Neotropical Bats. [Frontiers in Ecology and Evolution, 10:774083](https://doi.org/10.3389/fevo.2022.774083).
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
