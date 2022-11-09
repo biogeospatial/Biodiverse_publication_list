@@ -76,6 +76,13 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     cpanm Task::Biodiverse::NoGUI
     cpanm Task::Biodiverse
 
+    # Some utility functions that make processing faster. These are not critical so ignore them if there are installation errors.  
+    # The first one might need an update to cpanm for it to access the file.
+    cpanm LWP::Protocol::https
+    cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.08/Biodiverse-Utils-1.08.tar.gz
+    cpanm Data::Recursive
+
+
     #  make sure the file history can be saved
     mkdir -p ${HOME}/.local/share/
     touch $HOME/recently-used.xbel  
