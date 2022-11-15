@@ -54,9 +54,9 @@ Development releases are in the 3.99 series, leading to version 4.  The current 
 
 The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-399-dev-series) summarise the changes in this version.
 
-* Windows executable and source code releases [are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_005)
+* Windows and Mac binaries as well as source code [are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_005)
 
-There are no Linux or Mac dev releases at this stage.  Linux can be provided if there is a need.  Mac development is awaiting hardware.
+There are no Linux releases at this stage.  They can be provided if there is a need.  
 
 ## Site Pair Sampler ##
 
