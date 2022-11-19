@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Wang, Q., Huang, J., Zang, R., Li, Z. and El-Kassaby, Y. A. (2022). Centres of neo- and paleo-endemism for Chinese woody flora and their environmental features. [Biological Conservation, 276, 109817](https://doi.org/10.1016/j.biocon.2022.109817).
+
   * Olivares-Juárez, M.I., Burgos-Hernández, M. and Santiago-Alvarádo, M. (2022) Patterns of Species Richness and Distribution of the Genus _Laelia_ s.l. vs. _Laelia_ s.s. (Laeliinae: Epidendroideae: Orchidaceae) in Mexico: Taxonomic Contribution and Conservation Implications. [Plants, 11:2742](https://doi.org/10.3390/plants11202742).
 
   * Silva, D.C., Oliveira, H.F.M., Zangrandi, P.L. and Domingos, F.M.C.B. (2022) Flying Over Amazonian Waters: The Role of Rivers on the Distribution and Endemism Patterns of Neotropical Bats. [Frontiers in Ecology and Evolution, 10:774083](https://doi.org/10.3389/fevo.2022.774083).
