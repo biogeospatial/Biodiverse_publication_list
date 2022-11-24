@@ -51,7 +51,8 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
   :: Faster utils
   cpanm List::MoreUtils::XS
-  cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
+  cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.08/Biodiverse-Utils-1.08.tar.gz
+  cpanm Data::Recursive
 
   :: Now install the rest of the dependencies.  
   :: Ensure you are within the main Biodiverse directory 
