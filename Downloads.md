@@ -24,20 +24,13 @@ A [quick start guide](http://biodiverse.unsw.edu.au/downloads/Biodiverse_Quick_S
 
 ### Stable Release ###
 
-_The current stable release is version 3.1, released 13-Mar-2020._
+_The current stable release is version 4.0, released 25-Nov-2022._
 
-The [release notes](http://purl.org/biodiverse/wiki/ReleaseNotes#version-31) summarise the changes in this version.
+The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-40) summarise the changes in this version.
 
 All versions are for 64 bit architectures.
 
-
-* [Windows (~68MB)](https://github.com/shawnlaffan/biodiverse/releases/download/r3.1_mac_updates/biodiverse_3.1_win.zip)
-
-* [Linux (~14MB)](https://github.com/shawnlaffan/biodiverse/releases/download/r3.1_mac_updates/biodiverse_3.1_linux.zip)
-
-* [MacOS (~68MB)](https://github.com/shawnlaffan/biodiverse/releases/download/r3.1_mac_updates/biodiverse_3.1_mac.zip)
-
-* [Source code](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.1)
+* Windows, Mac and Ubuntu binaries as well as source code [are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.0)
 
 * [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation)
 
@@ -45,8 +38,7 @@ All versions are for 64 bit architectures.
 #### Known issues ####
 
   * On MacOS Catalina there are issues accessing the Desktop, Documents and similar directories.  The workaround is to either use a separate Biodiverse directory or to run the GUI from the command line.  [More details are in issue 778](https://github.com/shawnlaffan/biodiverse/issues/778#issuecomment-759140901), which is being used to track this.
-  * On Windows, an existing installation of the GDAL stack can interfere with those packaged with Biodiverse.  This in being tracked in [Issue 795, which also provides an interim workaround](https://github.com/shawnlaffan/biodiverse/issues/795). 
-  * There appear to be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
+  * There may be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
 
