@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 4.0](#version-40)
 * [Version 3.99 dev series](#version-399-dev-series)
 * [Version 3.1](#version-31)
 * [Version 3.00](#version-300)
@@ -34,16 +35,14 @@
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
 
-# Version 3.99 dev series #
-
-This is a development release series, leading towards version 4.0.  Current dev release is [3.99_004](https://github.com/shawnlaffan/biodiverse/releases/tag/r3.99_004).
+# Version 4.0 #
 
 For the full list of issues and changes leading to the 4.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/17
 
 A series of blog posts goes into more detail about several of the changes: http://biodiverse-analysis-software.blogspot.com/search/label/Version4   
 
   * General
-    * As of 3.99_005 the executable files are digitally signed.  This will avoid OS warnings when files are downloaded.  
+    * As of 3.99_005 the Windows executable files are digitally signed.  This will avoid OS warnings when files are downloaded.  
   * Analyses
     * CANAPE
       * Biodiverse now automatically generates and plots CANAPE results for any analysis that contains the [phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#phylogenetic-endemism) and [relative phylogenetic endemism](https://github.com/shawnlaffan/biodiverse/wiki/Indices#relative-phylogenetic-endemism-type-2) indices.  [Issue 819](https://github.com/shawnlaffan/biodiverse/issues/819).  [More details are in this blog post](https://biodiverse-analysis-software.blogspot.com/2022/10/biodiverse-now-calculates-canape-for-you.html).
@@ -59,7 +58,7 @@ A series of blog posts goes into more detail about several of the changes: http:
     * A local PD calculation, "Phylogenetic Diversity (local)", now allows the calculation of PD and PD_P to the last common ancestor, as opposed to the root node.  [Issue 762](https://github.com/shawnlaffan/biodiverse/issues/762)
     * A new calculation, "Last shared ancestor properties", provides details about the last shared ancestor for a set of labels, for example the length from its tipwards end to the root node.  [Issue 763](https://github.com/shawnlaffan/biodiverse/issues/763)
     *  MPD, MNTD, NRI & NTI: The MPD and MNTD calculations are now substantially faster.  The NRI and, for ultrametric trees, NTI calculations are orders of magnitude faster as they use expected values calculated using the exact methods described in [Tsirogiannis et al. (2012)](https://doi.org/10.1007/978-3-642-33122-0_3) and [Tsiriogiannis et al. (2014)](https://doi.org/10.1007/978-3-662-44753-6_15).  There is also no longer a performance penalty under the randomisations for outputs containing NRI and NTI indices when richness scores are held constant (which is the default).  This is because the expected values for a given tree are re-used across analyses.  [Issue 786](https://github.com/shawnlaffan/biodiverse/issues/786), [Issue 789](https://github.com/shawnlaffan/biodiverse/issues/789), [Issue 790](https://github.com/shawnlaffan/biodiverse/issues/790).  [More details are in the blog post](http://biodiverse-analysis-software.blogspot.com/2021/09/faster-calculation-of-phylocom-indices.html).
-    * The taxonomic distinctness calculations have been moved to the BiodiverseX namespace, so are not available in the GUI by default. [Issue 751](https://github.com/shawnlaffan/biodiverse/issues/751).
+    * The taxonomic distinctness calculations have been moved to the BiodiverseX namespace and so are not available in the GUI by default. [Issue 751](https://github.com/shawnlaffan/biodiverse/issues/751).
     * The calculation of median and percentile values for the element properties have changed.  [Issue #798](https://github.com/shawnlaffan/biodiverse/issues/798).  [More details in the blog post](http://biodiverse-analysis-software.blogspot.com/2021/09/label-and-group-property-median-and.html).
     * The phylogenetic distincness variance (VPD) is now calculated with the mean and other related statistics.  The net VPD and its component indoces can also be calculated to assess significance of the net VPD against random resampling.  [Issue #811](https://github.com/shawnlaffan/biodiverse/issues/811)  [See blog post](https://biodiverse-analysis-software.blogspot.com/2022/07/biodiverse-now-calculates-indices-for.html)
   * Spatial Conditions
@@ -72,6 +71,13 @@ A series of blog posts goes into more detail about several of the changes: http:
     * Cluster and RegionGrower analyses can be exported to shapefile format in a grouped form.  This models the cluster display where multiple sub-clusters are coloured.  The output file is somewhat awkward and needs further processing, which is why the ```sp_points_in_same_cluster()``` spatial condition was developed (see above).  [Issue 757](https://github.com/shawnlaffan/biodiverse/issues/757).  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2022/11/export-cluster-groups-to-shapefile.html)
   * Trees
     * A new option has been added to merge only-child ("knuckle") nodes with their parents.  This is probably most useful after trimming a tree but can be applied to any tree.  [Issue 814](https://github.com/shawnlaffan/biodiverse/issues/814).  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2022/11/trees-merge-single-child-branches-with.html)
+
+# Version 3.99 dev series #
+
+This was a development release series, leading towards version 4.0.  Changes are summarised under that release.  
+
+For the full list of issues and changes leading to the 4.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/17
+
 
 # Version 3.1 #
 
