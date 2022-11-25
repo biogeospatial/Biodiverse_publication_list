@@ -71,7 +71,7 @@ A series of blog posts goes into more detail about several of the changes: http:
   * Exports
     * Cluster and RegionGrower analyses can be exported to shapefile format in a grouped form.  This models the cluster display where multiple sub-clusters are coloured.  The output file is somewhat awkward and needs further processing, which is why the ```sp_points_in_same_cluster()``` spatial condition was developed (see above).  [Issue 757](https://github.com/shawnlaffan/biodiverse/issues/757).
   * Trees
-    * A new option has been added to merge only-child ("knuckle") nodes with their parents.  This is probably most useful after trimming a tree but can be applied to any tree.  [Issue 814](https://github.com/shawnlaffan/biodiverse/issues/814).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2022/11/trees-merge-single-child-branches-with.html)
+    * A new option has been added to merge only-child ("knuckle") nodes with their parents.  This is probably most useful after trimming a tree but can be applied to any tree.  [Issue 814](https://github.com/shawnlaffan/biodiverse/issues/814).  [More details are in the blog post](https://biodiverse-analysis-software.blogspot.com/2022/11/trees-merge-single-child-branches-with.html)
 
 # Version 3.1 #
 
