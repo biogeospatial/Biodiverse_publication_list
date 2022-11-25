@@ -24,21 +24,18 @@ To install Xcode command line tools (and all following software) you will be usi
    ```sh
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
-2. Some extra packages are required which are not part of the base Homebrew installation. Install these:
-
+2. Install other required packages:
    ```sh
-   brew tap homebrew/boneyard 
-   ```
-3. Install other required packages:
-   ```sh
-   brew install gdk-pixbuf pango gtk+ gtk+3 libglade libffi gdal
+   brew install gdk-pixbuf pango gtk+ gtk+3 libglade libffi gdal openssl
+   brew install hicolor-icon-theme
+   brew install adwaita-icon-theme
    ```
 
-4. libgnomecanvas needs to be patched to avoid a serious memory leak
+3. libgnomecanvas needs to be patched to avoid a serious memory leak
    ```sh
    brew edit libgnomecanvas
    #  insert these lines into the build, immediately after the line containing "def install":
-   #  system "\curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch"
+   #  system "\\curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch"
    #  system "patch -d libgnomecanvas < libgnomecanvas.patch"
    #  then exit the editor
    brew install --build-from-source libgnomecanvas
@@ -66,7 +63,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
 4. Install Biodiverse GUI  module dependencies.  Gtk2 has known test failures, but works, so we don't test it.
    ```sh
    cpanm --notest Gtk2
-   cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric
+   cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric Browser::Start
    ```
 
 # Install Biodiverse
@@ -80,6 +77,17 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     #  only need to run these two lines for v3.1 or earlier
     cpanm Task::Biodiverse::NoGUI
     cpanm Task::Biodiverse
+
+    # Some utility functions that make processing faster. These are not critical so ignore them if there are installation errors.  
+    # The first one might need an update to cpanm for it to access the file.
+    cpanm LWP::Protocol::https
+    cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.08/Biodiverse-Utils-1.08.tar.gz
+    cpanm Data::Recursive
+
+
+    #  make sure the file history can be saved
+    mkdir -p ${HOME}/.local/share/
+    touch $HOME/recently-used.xbel  
     ```
 
 2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.36.0), and then run biodiverse:
