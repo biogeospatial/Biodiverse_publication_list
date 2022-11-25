@@ -1,41 +1,4 @@
 **Table of contents:**
-* [Introduction](#introduction)
-* [Uses for spatial conditions](#uses-for-spatial-conditions)
-  * [Neighbourhoods](#neighbourhoods)
-  * [Definition Queries](#definition-queries)
-* [Some details](#some-details)
-  * [Locale issues](#locale-issues)
-* [Evaluation](#evaluation)
-* [Functions](#functions)
-  * [Available functions](#available-functions)
-    * [sp_annulus](#sp_annulus)
-    * [sp_block](#sp_block)
-    * [sp_circle](#sp_circle)
-    * [sp_circle_cell](#sp_circle_cell)
-    * [sp_ellipse](#sp_ellipse)
-    * [sp_get_spatial_output_list_value](#sp_get_spatial_output_list_value)
-    * [sp_group_not_empty](#sp_group_not_empty)
-    * [sp_in_label_range](#sp_in_label_range)
-    * [sp_in_line_with](#sp_in_line_with)
-    * [sp_is_left_of](#sp_is_left_of)
-    * [sp_is_right_of](#sp_is_right_of)
-    * [sp_match_regex](#sp_match_regex)
-    * [sp_match_text](#sp_match_text)
-    * [sp_point_in_poly](#sp_point_in_poly)
-    * [sp_point_in_poly_shape](#sp_point_in_poly_shape)
-    * [sp_points_in_same_poly_shape](#sp_points_in_same_poly_shape)
-    * [sp_rectangle](#sp_rectangle)
-    * [sp_select_all](#sp_select_all)
-    * [sp_select_block](#sp_select_block)
-    * [sp_select_element](#sp_select_element)
-    * [sp_select_sequence](#sp_select_sequence)
-    * [sp_self_only](#sp_self_only)
-    * [sp_spatial_output_passed_defq](#sp_spatial_output_passed_defq)
-    * [sp_square](#sp_square)
-    * [sp_square_cell](#sp_square_cell)
-* [Variables](#variables)
-  * [Examples using variables](#examples-using-variables)
-* [Declaring variables and using more complex functions](#declaring-variables-and-using-more-complex-functions)
 
 
 # Introduction #
@@ -89,8 +52,8 @@ Functions are the easiest way to specify conditions as one does not need to wres
 
 ## Available functions ##
 
-The available functions in version 3.00 are:
-  [*sp_annulus*](#sp_annulus),   [*sp_block*](#sp_block),   [*sp_circle*](#sp_circle),   [*sp_circle_cell*](#sp_circle_cell),   [*sp_ellipse*](#sp_ellipse),   [*sp_get_spatial_output_list_value*](#sp_get_spatial_output_list_value),   [*sp_group_not_empty*](#sp_group_not_empty),   [*sp_in_label_range*](#sp_in_label_range),   [*sp_in_line_with*](#sp_in_line_with),   [*sp_is_left_of*](#sp_is_left_of),   [*sp_is_right_of*](#sp_is_right_of),   [*sp_match_regex*](#sp_match_regex),   [*sp_match_text*](#sp_match_text),   [*sp_point_in_poly*](#sp_point_in_poly),   [*sp_point_in_poly_shape*](#sp_point_in_poly_shape),   [*sp_points_in_same_poly_shape*](#sp_points_in_same_poly_shape),   [*sp_rectangle*](#sp_rectangle),   [*sp_select_all*](#sp_select_all),   [*sp_select_block*](#sp_select_block),   [*sp_select_element*](#sp_select_element),   [*sp_select_sequence*](#sp_select_sequence),   [*sp_self_only*](#sp_self_only),   [*sp_spatial_output_passed_defq*](#sp_spatial_output_passed_defq),   [*sp_square*](#sp_square),   [*sp_square_cell*](#sp_square_cell), 
+The available functions in version 4.0 are:
+  [*sp_annulus*](#sp_annulus),   [*sp_block*](#sp_block),   [*sp_circle*](#sp_circle),   [*sp_circle_cell*](#sp_circle_cell),   [*sp_ellipse*](#sp_ellipse),   [*sp_get_spatial_output_list_value*](#sp_get_spatial_output_list_value),   [*sp_group_not_empty*](#sp_group_not_empty),   [*sp_in_label_range*](#sp_in_label_range),   [*sp_in_line_with*](#sp_in_line_with),   [*sp_is_left_of*](#sp_is_left_of),   [*sp_is_right_of*](#sp_is_right_of),   [*sp_match_regex*](#sp_match_regex),   [*sp_match_text*](#sp_match_text),   [*sp_point_in_cluster*](#sp_point_in_cluster),   [*sp_point_in_poly*](#sp_point_in_poly),   [*sp_point_in_poly_shape*](#sp_point_in_poly_shape),   [*sp_points_in_same_cluster*](#sp_points_in_same_cluster),   [*sp_points_in_same_poly_shape*](#sp_points_in_same_poly_shape),   [*sp_rectangle*](#sp_rectangle),   [*sp_redundancy_greater_than*](#sp_redundancy_greater_than),   [*sp_richness_greater_than*](#sp_richness_greater_than),   [*sp_select_all*](#sp_select_all),   [*sp_select_block*](#sp_select_block),   [*sp_select_element*](#sp_select_element),   [*sp_select_sequence*](#sp_select_sequence),   [*sp_self_only*](#sp_self_only),   [*sp_spatial_output_passed_defq*](#sp_spatial_output_passed_defq),   [*sp_square*](#sp_square),   [*sp_square_cell*](#sp_square_cell), 
 
 ### sp_annulus ###
 
@@ -194,7 +157,7 @@ Obtain a value from a list in a previously calculated spatial output.
 
 **Example:**
 ```perl
-#  get the spatial results value for the current neighbour group
+#  Get the spatial results value for the current neighbour group
 # (or processing group if used as a def query)
 sp_get_spatial_output_list_value (
     output  => 'sp1',              #  using spatial output called sp1
@@ -202,11 +165,12 @@ sp_get_spatial_output_list_value (
     index   => 'PE_WE_P',          #  get index value for PE_WE_P
 )
 
-#  get the spatial results value for group 128:254
+#  Get the spatial results value for group 128:254
+#  Note that the SPATIAL_OUTPUTS list is assumed if
+#  no 'list' arg is passed. 
 sp_get_spatial_output_list_value (
     output  => 'sp1',
     element => '128:254',
-    list    => 'SPATIAL_RESULTS',
     index   => 'PE_WE_P',
 )
 
@@ -344,10 +308,45 @@ sp_match_text (text => 'NK', axis => 2, type => 'proc')
 
 ```
 
+### sp_point_in_cluster ###
+
+Returns true when the group is in a  cluster or region grower output cluster.
+
+**Required args:**  output
+
+**Optional args:**  element, from_node
+
+**Example:**
+```perl
+
+#  Use any element that is a terminal in the cluster output.
+#  This is useful if the cluster analysis was run under
+#  a definition query and you want the same set of groups.
+sp_point_in_cluster (
+  output       => "some_cluster_output",
+)
+
+#  Now specify a cluster within the output
+sp_point_in_cluster (
+  output       => "some_cluster_output",
+  from_node    => '118___',  #  use the node's name
+)
+
+#  Specify an element to check instead of the current
+#  processing element.
+sp_point_in_cluster (
+  output       => "some_cluster_output",
+  from_node    => '118___',  #  use the node's name
+  element      => '123:456', #  specify an element to check
+)
+
+
+```
+
 ### sp_point_in_poly ###
 
 Select groups that occur within a user-defined polygon 
-(see sp_point_in_poly_shape for an altrnative)
+(see sp_point_in_poly_shape for an alternative)
 
 **Required args:**  polygon
 
@@ -395,6 +394,57 @@ sp_point_in_poly_shape (
 
 ```
 
+### sp_points_in_same_cluster ###
+
+Returns true when two points are within the same  cluster or region grower group, or if  neither point is in the selected clusters/groups.
+
+**Required args:**  output
+
+**Optional args:**  from_node, group_by_depth, num_clusters, target_distance
+
+**Example:**
+```perl
+#  Try to use the highest four clusters from the root.
+#  Note that the next highest number will be used
+#  if four is not possible, e.g. there are five
+#  siblings below the root.  Fewer will be returned
+#  if the tree has insufficient tips.
+sp_points_in_same_cluster (
+  output       => "some_cluster_output",
+  num_clusters => 4,
+)
+
+#  Cut the tree at a distance of 0.25 from the tips
+sp_points_in_same_cluster (
+  output          => "some_cluster_output",
+  target_distance => 0.25,
+)
+
+#  Cut the tree at a depth of 3.
+#  The root is depth 1.
+sp_points_in_same_cluster (
+  output          => "some_cluster_output",
+  target_distance => 3,
+  group_by_depth  => 1,
+)
+
+#  work from an arbitrary node 
+sp_points_in_same_cluster (
+  output       => "some_cluster_output",
+  num_clusters => 4,
+  from_node    => '118___',  #  use the node's name
+)
+
+#  target_distance is ignored if num_clusters is set 
+sp_points_in_same_cluster (
+  output          => "some_cluster_output",
+  num_clusters    => 4,
+  target_distance => 0.25,
+)
+
+
+```
+
 ### sp_points_in_same_poly_shape ###
 
 Returns true when two points are within the same shapefile polygon
@@ -405,7 +455,31 @@ Returns true when two points are within the same shapefile polygon
 
 **Example:**
 ```perl
-NEED SOME EXAMPLES
+
+#  define neighbour sets using a shapefile
+sp_points_in_same_poly_shape (file => 'path/to/a/shapefile')
+
+#  return true when the neighbour coord is in the same
+#  polygon as an arbitrary point
+sp_points_in_same_poly_shape (
+    file   => 'path/to/a/shapefile',
+    point1 => [10,20],  
+)
+
+#  reverse the axes
+sp_points_in_same_poly_shape (
+    file => 'path/to/a/shapefile',
+    axes => [1,0], 
+)
+
+#  compare against the second and third axes of your data
+#  e.g. maybe you have time as the first basedata axis
+sp_points_in_same_poly_shape (
+    file => 'path/to/a/shapefile',
+    axes => [1,2], 
+)
+    
+
 ```
 
 ### sp_rectangle ###
@@ -433,6 +507,54 @@ sp_rectangle (
 
 #  Use only the first an third axes
 sp_rectangle (sizes => [100000, 100000], axes => [0,2])
+
+```
+
+### sp_redundancy_greater_than ###
+
+Return true if the sample redundancy for an element is greater than the threshold.
+
+**Required args:**  threshold
+
+**Optional args:**  element
+
+**Example:**
+```perl
+#  Uses the processing group for definition queries,
+#  and the neighbour group for spatial conditions.
+#  In this example, # any group with a redundncy
+#  score of 0.5 or fewerless will return false
+sp_redundancy_greater_than (
+    threshold => 0.5, 
+)
+
+sp_redundancy_greater_than (
+    element   => '128:254',  #  an arbitrary element
+    threshold => 0.2,          #  with a threshold of 0.2
+)
+
+```
+
+### sp_richness_greater_than ###
+
+Return true if the richness for an element is greater than the threshold.
+
+**Required args:**  threshold
+
+**Optional args:**  element
+
+**Example:**
+```perl
+#  Uses the processing group for definition queries,
+#  and the neigbour group for spatial conditions. 
+sp_richness_greater_than (
+    threshold => 3, # any group with 3 or fewer labels will return false
+)
+
+sp_richness_greater_than (
+    element   => '128:254',  #  an arbitrary element
+    threshold => 4,          #  with a threshold of 4
+)
 
 ```
 
