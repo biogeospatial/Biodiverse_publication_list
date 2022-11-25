@@ -10,7 +10,8 @@ They also assume you are using a standard user account, and are accessing Biodiv
 **Table of contents:**
 * [Installation](#installation)
   * [Part 1.  Install a non-system perl](#part-1-install-a-non-system-perl)
-  * [Part 2.  Install the perl dependencies](#part-2-install-the-perl-dependencies)
+  * [Part 2.  Clone the Biodiverse repo](#part-2-clone-the-biodiverse-repo)
+  * [Part 3.  Install the perl dependencies](#part-3-install-the-perl-dependencies)
 
 
 # Installation #
