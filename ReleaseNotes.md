@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 4.1](#version-41)
 * [Version 4.0](#version-40)
 * [Version 3.99 dev series](#version-399-dev-series)
 * [Version 3.1](#version-31)
@@ -34,6 +35,19 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+# Version 4.1 #
+
+This is a minor release of some new functions and one bug fix.
+
+For the full list of issues and changes leading to the 4.1 release, see https://github.com/shawnlaffan/biodiverse/milestone/19
+
+Main changes:
+  * GUI
+    * Z-score indices are now plotted using a five class divergent colour scheme to more clearly indicate which locations are in the outer 10%, 5% and 1% of the expected distribution.  [Issue 841](https://github.com/shawnlaffan/biodiverse/issues/841).  (Blog post needed)
+  * Indices
+    * A bug in the NRI, NTI and Net VPD indices meant null results were obtained the second time a tree was used, and when only one of NRI/NTI or VPD were calculated the first time.  [Issue 842](https://github.com/shawnlaffan/biodiverse/issues/842).
+
 
 # Version 4.0 #
 
