@@ -38,7 +38,7 @@
 
 # Version 4.1 #
 
-This is a minor release of some new functions and one bug fix.
+This is an in-development minor release of some new functions and one bug fix.
 
 For the full list of issues and changes leading to the 4.1 release, see https://github.com/shawnlaffan/biodiverse/milestone/19
 
