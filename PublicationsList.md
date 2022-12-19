@@ -15,16 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  González-Orozco, C.E. & Parra-Quijano, M. (in press) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions](https://doi.org/10.1111/ddi.13660).
 
-  * Wang, Q., Huang, J., Zang, R., Li, Z. and El-Kassaby, Y. A. (2022). Centres of neo- and paleo-endemism for Chinese woody flora and their environmental features. [Biological Conservation, 276, 109817](https://doi.org/10.1016/j.biocon.2022.109817).
-
-  * Olivares-Juárez, M.I., Burgos-Hernández, M. and Santiago-Alvarádo, M. (2022) Patterns of Species Richness and Distribution of the Genus _Laelia_ s.l. vs. _Laelia_ s.s. (Laeliinae: Epidendroideae: Orchidaceae) in Mexico: Taxonomic Contribution and Conservation Implications. [Plants, 11:2742](https://doi.org/10.3390/plants11202742).
-
-  * Silva, D.C., Oliveira, H.F.M., Zangrandi, P.L. and Domingos, F.M.C.B. (2022) Flying Over Amazonian Waters: The Role of Rivers on the Distribution and Endemism Patterns of Neotropical Bats. [Frontiers in Ecology and Evolution, 10:774083](https://doi.org/10.3389/fevo.2022.774083).
-
-  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
-
-  * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13, 962609](https://doi.org/10.3389/fpls.2022.962609).
-
 #### 2022 ####
 
   * Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. and Franco, F.F. (2022) Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas.  [Biological Conservation, 273, 109677](https://doi.org/10.1016/j.biocon.2022.109677).
@@ -36,6 +26,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Chen, K., Khine, P.K., Yang, Z. and Schneider, H. (2022) Historical plant records enlighten the conservation efforts of ferns and Lycophytes’ diversity in tropical China, [Journal for Nature Conservation, 68, 126197](https://doi.org/10.1016/j.jnc.2022.126197).
 
   * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
+
+  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
 
   * Fernandes, N.B.G., de Menezes Yazbeck, G. & Milward-de-Azevedo, M.A. (2022) Taxonomic diversity of Passifloraceae sensu stricto along altitudinal gradient and on Serra dos Órgãos mountain slopes in southeastern Brazil. [Rodriguésia, 73, e00702021](https://doi.org/10.1590/2175-7860202273057).
 
@@ -53,11 +45,19 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Murillo-Pérez, G., Rodríguez, A., Sánchez-Carbajal, D., Ruiz-Sanchez, E., Carrillo-Reyes, P., Munguía-Lino, G. (2022) Spatial distribution of species richness and endemism of Solanum (Solanaceae) in Mexico.  [Phytotaxa 558, 147–177](https://doi.org/10.11646/phytotaxa.558.2.1)
 
+  * Olivares-Juárez, M.I., Burgos-Hernández, M. and Santiago-Alvarádo, M. (2022) Patterns of Species Richness and Distribution of the Genus _Laelia_ s.l. vs. _Laelia_ s.s. (Laeliinae: Epidendroideae: Orchidaceae) in Mexico: Taxonomic Contribution and Conservation Implications. [Plants, 11:2742](https://doi.org/10.3390/plants11202742).
+
   * Paz, A., Silva, A.S. & Carnaval, A. (2022) A framework for near-real time monitoring of diversity patterns based on indirect remote sensing, with an application in the Brazilian Atlantic rainforest.  [PeerJ, 10:e13534](https://doi.org/10.7717/peerj.13534).
 
   * Rivera-Martínez, R., Ramírez-Morillo, I.M., De-Nova, José A., Carnevali, G., Pinzón, J.P., Romero-Soler, K.J. & Raigoza, N. (2022) Spatial phylogenetics in Hechtioideae (Bromeliaceae) reveals recent diversification and dispersal. [Botanical Sciences, 100, 692-709](https://doi.org/10.17129/botsci.2975).
 
+  * Silva, D.C., Oliveira, H.F.M., Zangrandi, P.L. and Domingos, F.M.C.B. (2022) Flying Over Amazonian Waters: The Role of Rivers on the Distribution and Endemism Patterns of Neotropical Bats. [Frontiers in Ecology and Evolution, 10:774083](https://doi.org/10.3389/fevo.2022.774083).
+
+  * Wang, Q., Huang, J., Zang, R., Li, Z. and El-Kassaby, Y. A. (2022). Centres of neo- and paleo-endemism for Chinese woody flora and their environmental features. [Biological Conservation, 276, 109817](https://doi.org/10.1016/j.biocon.2022.109817).
+
   * Yang, X., Qin, F., Xue, T., Xia, C., Gadagkar, S. R., & Yu, S. (2022). Insights into plant biodiversity conservation in large river valleys in China: A spatial analysis of species and phylogenetic diversity. [Ecology and Evolution, 12, e8940](https://doi.org/10.1002/ece3.8940).
+
+  * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13, 962609](https://doi.org/10.3389/fpls.2022.962609).
 
   * Zhang, W., Bussmann, R.W., Li, J., Liu, B., Xue, T., Yang, X., Qin, F., Liu, H. and Yu, S. (2022) Biodiversity hotspots and conservation efficiency of a large drainage basin: Distribution patterns of species richness and conservation gaps analysis in the Yangtze River Basin, China.  [Conservation Science and Practice, 4, e12653](https://doi.org/10.1111/csp2.12653).
 
