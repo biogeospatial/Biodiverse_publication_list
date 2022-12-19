@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  *  González-Orozco, C.E. & Parra-Quijano, M. (in press) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions](https://doi.org/10.1111/ddi.13660).
+
   * Wang, Q., Huang, J., Zang, R., Li, Z. and El-Kassaby, Y. A. (2022). Centres of neo- and paleo-endemism for Chinese woody flora and their environmental features. [Biological Conservation, 276, 109817](https://doi.org/10.1016/j.biocon.2022.109817).
 
   * Olivares-Juárez, M.I., Burgos-Hernández, M. and Santiago-Alvarádo, M. (2022) Patterns of Species Richness and Distribution of the Genus _Laelia_ s.l. vs. _Laelia_ s.s. (Laeliinae: Epidendroideae: Orchidaceae) in Mexico: Taxonomic Contribution and Conservation Implications. [Plants, 11:2742](https://doi.org/10.3390/plants11202742).
