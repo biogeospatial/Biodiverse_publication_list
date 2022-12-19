@@ -23,7 +23,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
 
-  * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13](https://doi.org/10.3389/fpls.2022.962609).
+  * Yang, X., Zhang, W., Qin, F., et al. (2022). Biodiversity priority areas and conservation strategies for seed plants in China. [Frontiers in Plant Science, 13, 962609](https://doi.org/10.3389/fpls.2022.962609).
 
 #### 2022 ####
 
