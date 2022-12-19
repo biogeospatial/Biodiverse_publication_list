@@ -15,6 +15,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  González-Orozco, C.E. & Parra-Quijano, M. (in press) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions](https://doi.org/10.1111/ddi.13660).
 
+  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
+
+
 #### 2022 ####
 
   * Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. and Franco, F.F. (2022) Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas.  [Biological Conservation, 273, 109677](https://doi.org/10.1016/j.biocon.2022.109677).
@@ -26,8 +29,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Chen, K., Khine, P.K., Yang, Z. and Schneider, H. (2022) Historical plant records enlighten the conservation efforts of ferns and Lycophytes’ diversity in tropical China, [Journal for Nature Conservation, 68, 126197](https://doi.org/10.1016/j.jnc.2022.126197).
 
   * Contreras-Medina, R., García-Martínez, A. I., Ramírez-Martínez, J. C., Espinosa, D., Balam-Narváez, R., and Luna-Vega, I. (2021). Biogeographic analysis of ferns and lycophytes in Oaxaca: A Mexican beta-diverse area. [Botanical Sciences, 100, 204-222](https://doi.org/10.17129/botsci.2844).
-
-  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2022). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions](https://doi.org/10.1007/s10530-022-02908-1).
 
   * Fernandes, N.B.G., de Menezes Yazbeck, G. & Milward-de-Azevedo, M.A. (2022) Taxonomic diversity of Passifloraceae sensu stricto along altitudinal gradient and on Serra dos Órgãos mountain slopes in southeastern Brazil. [Rodriguésia, 73, e00702021](https://doi.org/10.1590/2175-7860202273057).
 
