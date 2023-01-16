@@ -15,8 +15,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  González-Orozco, C.E. & Parra-Quijano, M. (in press) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions](https://doi.org/10.1111/ddi.13660).
 
-  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
+#### 2023 ####
 
+  * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
 
 #### 2022 ####
 
