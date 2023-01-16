@@ -241,7 +241,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Bui, E.N., Thornhill, A.H., Gonzalez-Orozco, C.E., Knerr, N. and Miller, J.T. (2017) Climate and geochemistry as drivers of eucalypt diversification in Australia.  [Geobiology, 15, 427-440](https://doi.org/10.1111/gbi.12235).
 
-  * Cassis, G., Laffan, S.W. and Ebach, M.C. (2017) Biodiversity and bioregionalisation perspectives on the historical biogeography of Australia.  In Ebach, M.C (ed) [Handbook of Australasian Biogeography, ch 1, pp 1-16](http://www.crcnetbase.com/doi/abs/10.1201/9781315373096-2).
+  * Cassis, G., Laffan, S.W. and Ebach, M.C. (2017) Biodiversity and bioregionalisation perspectives on the historical biogeography of Australia.  In Ebach, M.C (ed) [Handbook of Australasian Biogeography, ch 1, pp 1-16](https://doi.org/10.1201/9781315373096).
 
   * Chen, S-C, Cornwell, W.K., Zhang, H-X and Moles, A.T. (2017) Plants show more flesh in the tropics: variation in fruit type along latitudinal and climatic gradients.  [Ecography, 14, 531–538](https://doi.org/10.1111/ecog.02010).
 
