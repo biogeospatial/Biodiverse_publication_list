@@ -1,6 +1,6 @@
 ## Primary citation ##
-To cite Biodiverse or acknowledge its use, cite this publication as follows, substituting the version of the application that you used for "Version 2.0".
-  * Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity.  [Ecography, 33, 643-647 (version 2.0)](https://doi.org/10.1111/j.1600-0587.2010.06237.x).   
+To cite Biodiverse or acknowledge its use, cite this publication:
+  * Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity.  [Ecography, 33, 643-647](https://doi.org/10.1111/j.1600-0587.2010.06237.x).   
 
 > Article access is free from the publisher, but an alternate link is http://handle.unsw.edu.au/1959.4/45539 .
 
