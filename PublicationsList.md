@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  *  González-Orozco, C.E. & Parra-Quijano, M. (in press) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions](https://doi.org/10.1111/ddi.13660).
+  *  González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
 
 #### 2023 ####
 
