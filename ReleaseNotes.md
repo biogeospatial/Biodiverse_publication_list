@@ -38,7 +38,7 @@
 
 # Version 4.1 #
 
-This is an in-development minor release of some new functions and one bug fix.
+This is an in-development minor release of new functionality and bug fixes.
 
 For the full list of issues and changes leading to the 4.1 release, see https://github.com/shawnlaffan/biodiverse/milestone/19
 
@@ -46,7 +46,8 @@ Main changes:
   * GUI
     * Z-score indices are now plotted using a five class divergent colour scheme to more clearly indicate which locations are in the outer 10%, 5% and 1% of the expected distribution.  [Issue 841](https://github.com/shawnlaffan/biodiverse/issues/841).  (Blog post needed)
   * Indices
-    * A bug in the NRI, NTI and Net VPD indices meant null results were obtained the second time a tree was used, and when only one of NRI/NTI or VPD were calculated the first time.  [Issue 842](https://github.com/shawnlaffan/biodiverse/issues/842).
+    * A bug in the NRI, NTI and Net VPD indices meant undefined results were obtained the second time a tree was used, and when only one of NRI/NTI or VPD were calculated the first time.  [Issue 842](https://github.com/shawnlaffan/biodiverse/issues/842).
+    * The phylogenetic endemism indices have been further optimised. (There is no assocuated issue).
   * Imports
     * An issue with raster imports being offset has been fixed.  [Issue 845](https://github.com/shawnlaffan/biodiverse/issues/845)
 
