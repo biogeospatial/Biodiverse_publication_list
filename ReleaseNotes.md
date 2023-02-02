@@ -47,6 +47,8 @@ Main changes:
     * Z-score indices are now plotted using a five class divergent colour scheme to more clearly indicate which locations are in the outer 10%, 5% and 1% of the expected distribution.  [Issue 841](https://github.com/shawnlaffan/biodiverse/issues/841).  (Blog post needed)
   * Indices
     * A bug in the NRI, NTI and Net VPD indices meant null results were obtained the second time a tree was used, and when only one of NRI/NTI or VPD were calculated the first time.  [Issue 842](https://github.com/shawnlaffan/biodiverse/issues/842).
+  * Imports
+    * An issue with raster imports being offset has been fixed.  [Issue 845](https://github.com/shawnlaffan/biodiverse/issues/845)
 
 
 # Version 4.0 #
