@@ -37,7 +37,7 @@ All versions are for 64 bit architectures.
 
 #### Known issues ####
 
-  * If you have issues accessing files in your Documents folder then you will need to give access to the app.  See https://support.apple.com/en-au/guide/mac-help/mchld5a35146/mac 
+  * Macs: If you have issues accessing files in your Documents folder then you will need to give access to the app.  See https://support.apple.com/en-au/guide/mac-help/mchld5a35146/mac 
   * There may be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
