@@ -45,7 +45,7 @@ For the full list of issues and changes leading to the 4.1 release, see https://
 
 Main changes:
   * GUI
-    * Z-score indices are now plotted using a five class divergent colour scheme to more clearly indicate which locations are in the outer 10%, 5% and 1% of the expected distribution.  [Issue 841](https://github.com/shawnlaffan/biodiverse/issues/841).  (See also this blog post)[https://biodiverse-analysis-software.blogspot.com/2023/02/plotting-z-score-indices-and.html]
+    * Z-score indices are now plotted using a five class divergent colour scheme to more clearly indicate which locations are in the outer 10%, 5% and 1% of the expected distribution.  [Issue 841](https://github.com/shawnlaffan/biodiverse/issues/841).  [See also this blog post](https://biodiverse-analysis-software.blogspot.com/2023/02/plotting-z-score-indices-and.html)
   * Indices
     * A bug in the NRI, NTI and Net VPD indices meant undefined results were obtained the second time a tree was used, and when only one of NRI/NTI or VPD were calculated the first time.  [Issue 842](https://github.com/shawnlaffan/biodiverse/issues/842).
     * The phylogenetic endemism indices have been further optimised. (There is no associated issue).
