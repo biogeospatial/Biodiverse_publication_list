@@ -13,7 +13,9 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3169).
+  *  Zhou, R., Ci, X., Hu, J., Zhang, X., Cao, G., Xiao, J., Liu, Z., Li, L., Thornhill, A.H., Conran, J.G. and Li, J. (2023) Transitional areas of vegetation as biodiversity hotspots evidenced by multifaceted biodiversity analysis of a dominant group in Chinese evergreen broad-leaved forests. [Ecological Indicators, 147, 110001](https://doi.org/10.1016/j.ecolind.2023.110001)
+
+  *  Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3169).
 
   *  González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
 
