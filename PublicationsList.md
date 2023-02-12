@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3169).
+
   *  González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
 
 #### 2023 ####
