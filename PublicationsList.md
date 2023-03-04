@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (in press). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources](https://doi.org/10.1017/S1479262123000047).
+
   *  Zhang, H., Chen, S.-C., Bonser, S.P., Hitchcock, T., & Moles, A.T. (in press). Factors that shape large-scale gradients in clonality. [Journal of Biogeography](https://doi.org/10.1111/jbi.14577)
 
   * Zhou, R., Ci, X., Hu, J., Zhang, X., Cao, G., Xiao, J., Liu, Z., Li, L., Thornhill, A.H., Conran, J.G. and Li, J. (2023) Transitional areas of vegetation as biodiversity hotspots evidenced by multifaceted biodiversity analysis of a dominant group in Chinese evergreen broad-leaved forests. [Ecological Indicators, 147, 110001](https://doi.org/10.1016/j.ecolind.2023.110001)
