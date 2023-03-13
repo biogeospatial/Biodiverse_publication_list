@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
+
   * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (in press) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, blac128](https://doi.org/10.1093/biolinnean/blac128).
 
   * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (in press). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources](https://doi.org/10.1017/S1479262123000047).
