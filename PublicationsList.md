@@ -21,11 +21,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  Zhang, H., Chen, S.-C., Bonser, S.P., Hitchcock, T., & Moles, A.T. (in press). Factors that shape large-scale gradients in clonality. [Journal of Biogeography](https://doi.org/10.1111/jbi.14577)
 
-  * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3169).
-
 #### 2023 ####
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
+
+  * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
 
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
 
