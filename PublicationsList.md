@@ -2,7 +2,7 @@
 To cite Biodiverse or acknowledge its use, cite this publication:
   * Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity.  [Ecography, 33, 643-647](https://doi.org/10.1111/j.1600-0587.2010.06237.x).   
 
-> Article access is free from the publisher, but an alternate link is http://handle.unsw.edu.au/1959.4/45539 .
+> Article access is free from the publisher, but an alternate link is https://handle.unsw.edu.au/1959.4/45539 .
 
 ## Publications citing Biodiverse ##
 
@@ -130,7 +130,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Yang, X., Liu, B., Bussman, R.W., Guan, X., et al. (2021) Integrated plant diversity hotspots and long-term stable conservation strategies in the unique karst area of southern China under global climate change. [Forest Ecology and Management, 498, 119540](https://doi.org/10.1016/j.foreco.2021.119540).
 
-  * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](http://doi.org/10.1111/jse.12558).
+  * Xu, M.‐Z., Yang, L.‐H., Kong, H.‐H., Wen, F. and Kang, M. (2021) Congruent spatial patterns of species richness and phylogenetic diversity in karst flora: the case study of _Primulina_ (Gesnariaceae). [Journal of Systematics and Evolution, 59, 251-261](https://doi.org/10.1111/jse.12558).
 
   * Xue, T., Gadagkar, S.H., Albright, T.P., Yang, X., Li, J., Xia, C., Wu, J., and Yu, S. (2021) Prioritizing conservation of biodiversity in an alpine region: Distribution pattern and conservation status of seed plants in the Qinghai-Tibetan Plateau. [Global Ecology and Conservation, 32, e01885](https://doi.org/10.1016/j.gecco.2021.e01885).
 
@@ -157,7 +157,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * González-Orozco, C.E., Sánchez Galán, A.A., Ramos P.E. and Yockteng, R (2020) Exploring the diversity and distribution of crop wild relatives of cacao (_Theobroma cacao_ L.) in Colombia.  [Genetic Resources and Crop Evolution, 67, 2071–2085](https://doi.org/10.1007/s10722-020-00960-1).
 
-  * Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](http://dx.doi.org/10.11646/zootaxa.4742.2.3).
+  * Huang, C., Ebach, M.C. and Ahyong, S. (2020)  Bioregionalisation of the freshwater zoogeographical areas of mainland China.  [Zootaxa, 4742, 2](https://dx.doi.org/10.11646/zootaxa.4742.2.3).
 
   * Kougioumoutzis, K., Kokkoris, I.P., Panitsa, M., Trigas, P., Strid, A. and Dimopoulos, P. (2020) Spatial Phylogenetics, Biogeographical Patterns and Conservation Implications of the Endemic Flora of Crete (Aegean, Greece) under Climate Change Scenarios.  [Biology, 9, 199](https://doi.org/10.3390/biology9080199).
 
@@ -206,7 +206,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W. & Swearer, S.E. (2019) A revision of the bioregionalisation of freshwater fish communities in the Australian Monsoonal Tropics. [Ecology and Evolution, 9, 4568-4588](https://doi.org/10.1002/ece3.5059).
 
-  * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. http://hdl.handle.net/20.500.12143/6376
+  * Tolley, K.A., da Silva, J.M. & Jansen van Vuuren, B. (2019) South African National Biodiversity Assessment 2018 Technical  Report  Volume  7:  Genetic  Diversity.  South  African  National  Biodiversity  Institute,  Pretoria. https://hdl.handle.net/20.500.12143/6376
 
   * Dong, X., Zhang, H. & Zhang, M. (2019) Explaining  the  diversity  and  endemic  patterns  based  on  phylogenetic  approach for woody plants of the Loess Plateau. [Biodiversity Science, 27, 1269-1278](https://doi.org/10.17520/biods.2019224).
 
@@ -318,7 +318,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Laity, T., Laffan, S.W., González-Orozco, C.E., Faith, D.P., Rosauer, D.F., Byrne, M., Miller, J.T., Crayn, D., Costion, C., Moritz, C.C. and Newport, K. (2015) Phylodiversity to inform conservation policy: An Australian example.  [Science of the Total Environment, 534, 131-143](https://doi.org/10.1016/j.scitotenv.2015.04.113).
 
-  * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](http://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
+  * Nagalingum, N.S., Knerr, N., Laffan, S., Gonzalez-Orozco, C., Thornhill, A., Miller, J.T. and Mishler, B.D. (2015) Continental scale patterns and predictors of fern richness and phylogenetic diversity. [Frontiers in Genetics, 6, article 132](https://journal.frontiersin.org/article/10.3389/fgene.2015.00132/).
 
   * Rosauer, D.F., Catullo, R.A., VanDerWal, J., Moussalli, A. and Moritz, C. (2015) Lineage range estimation method reveals fine-scale endemism linked to Pleistocene stability in Australian rainforest herpetofauna.  [PLoS One, 10, e0126274](https://doi.org/10.1371/journal.pone.0126274).
 
@@ -390,7 +390,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 #### 2011 and earlier ####
   * Gonzalez-Orozco, C.E., Laffan, S.W., Miller, J. (2011) Spatial distribution of species richness and endemism of the genus Acacia in Australia. [Australian Journal of Botany, 59, 600-608](https://doi.org/10.1071/BT11112)
 
-  * Laffan, S.W. (2011) Spatial non-stationarity, anisotropy and scale: The interactive visualisation of spatial turnover. pp. 1652-1658 in Chan, F., Marinova, D. and Anderssen, R.S. (eds) [MODSIM2011, 19th International Congress on Modelling and Simulation](http://www.mssanz.org.au/modsim2011/E3/laffan.pdf). Modelling and Simulation Society of Australia and New Zealand, December 2011.
+  * Laffan, S.W. (2011) Spatial non-stationarity, anisotropy and scale: The interactive visualisation of spatial turnover. pp. 1652-1658 in Chan, F., Marinova, D. and Anderssen, R.S. (eds) [MODSIM2011, 19th International Congress on Modelling and Simulation](https://www.mssanz.org.au/modsim2011/E3/laffan.pdf). Modelling and Simulation Society of Australia and New Zealand, December 2011.
 
   * Rosauer, D.F., Laffan, S.W., Crisp, M.D., Donnellan, S.C. & Cook, L.G. (2009). Phylogenetic endemism: a new approach to identifying geographical concentrations of evolutionary history. [Molecular Ecology, 18, 4061-4072](https://doi.org/10.1111/j.1365-294X.2009.04311.x).
 
@@ -398,7 +398,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Bickford, S.A. & Laffan, S.W. (2006) Multi-extent analysis of the relationship between pteridophyte species richness and climate.   [Global Ecology and Biogeography, 15, 588-601](https://doi.org/10.1111/j.1466-8238.2006.00250.x).
 
-  * Laffan, S.W. & Bickford, S.A. (2005) Using spatial randomisations to improve the utility of Geographically Weighted Regression model results. In [MODSIM 2005 International Congress on Modelling and Simulation](http://www.mssanz.org.au/modsim05/papers/laffan.pdf) (eds R. Argent & A. Zerger), pp. 1396-1401. Modelling and Simulation Society of Australia and New Zealand, Melbourne, Australia.
+  * Laffan, S.W. & Bickford, S.A. (2005) Using spatial randomisations to improve the utility of Geographically Weighted Regression model results. In [MODSIM 2005 International Congress on Modelling and Simulation](https://www.mssanz.org.au/modsim05/papers/laffan.pdf) (eds R. Argent & A. Zerger), pp. 1396-1401. Modelling and Simulation Society of Australia and New Zealand, Melbourne, Australia.
 
   * Bickford, S.A., Laffan, S.W., de Kok, R. & Orthia, L. (2004) Spatial analysis of taxonomic and genetic patterns and their potential for understanding evolutionary histories.   [Journal of Biogeography, 31, 1715-1733](https://doi.org/10.1111/j.1365-2699.2004.01127.x).
 
