@@ -7,7 +7,7 @@ This Page follows on from the Import data Page **(Check Name)**
 
 **Step 3**  If you specified that your data **were not** in matrix format in step 2, the following Choose columns dialogue box will appear.
 
-![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png)
+![https://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png](https://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png)
 
 At least one Group and one Label column must be set from the "Type" drop-down menu, but more than one of each may be chosen where appropriate.  For example:
 

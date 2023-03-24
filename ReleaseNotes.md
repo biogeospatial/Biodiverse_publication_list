@@ -618,7 +618,7 @@ Main changes since the previous version (0.13) are:
     * Labels in a basedata object can be deleted using the nodes/elements in the selected tree or matrix.  The converse can also be done, where those BaseData labels not in the matrix or tree are deleted.  ([issue #74](/shawnlaffan/biodiverse/issues/74)).
   * Calculations and indices:
     * The count calculations have each been seperated into one calculation for the lists and one for the summary stats.  This applies to the local ranges, local sample counts and element lists.
-    * Metadata for the indices now includes formulae.  These are displayed in the online help, but are not displayed in the GUI.  http://purl.org/biodiverse/wiki/Indices
+    * Metadata for the indices now includes formulae.  These are displayed in the online help, but are not displayed in the GUI.  https://purl.org/biodiverse/wiki/Indices
     * Added new index, NEST_RESULTANT (nestedness-resultant, [Indices#Nestedness-resultant](Indices#nestedness-resultant)) from Baselga (2010) Glob Ecol Biogeog.  http://dx.doi.org/10.1111/j.1466-8238.2009.00490.x ([issue #92](/shawnlaffan/biodiverse/issues/92))
     * Added binary and sample weighted taxonomic distinctness and variation from Clarke & Warwick (2001) Mar Ecol Progr Ser. http://dx.doi.org/10.3354/meps216265 (note that these are beta level implemenations and need user testing) ([issue #102](/shawnlaffan/biodiverse/issues/102))
     * The Endemism and Rarity calculations are now listed under their own headings.
@@ -706,13 +706,13 @@ Main changes since previous version (0.9.1185)
   * Basedata objects now import from matrix format files, eg site by species matrices.  These are a common data format for specimen data.
   * Documentation is moving to the Google Code wiki site.  http://code.google.com/p/biodiverse/w/list
   * Renaming of basedata and outputs is now possible in the GUI
-  * Users can now specify a definition query to control the groups used in an analysis.  This uses the same syntax as the spatial neighbourhoods.  See http://purl.org/biodiverse/wiki/KeyConcepts#definition-queries
+  * Users can now specify a definition query to control the groups used in an analysis.  This uses the same syntax as the spatial neighbourhoods.  See https://purl.org/biodiverse/wiki/KeyConcepts#definition-queries
   * Option to show/hide the spatial neighbour and definition query edit boxes in the spatial and cluster tabs.  This frees up screen real estate but does not disable them.
   * Spatial parameters:
     * sp_circle now has an axes argument to control the axes used (default is still to use all axes)
     * New subroutine `sp_match_text (text => 'blah', axis => 0, type => 'proc')`
     * New subroutine `sp_annulus (inner_radius => 100000, outer_radius => 300000)`
-    * See http://purl.org/biodiverse/wiki/SpatialConditions for examples.
+    * See https://purl.org/biodiverse/wiki/SpatialConditions for examples.
   * The Biodiverse icon is now used in all versions (previously was only the exe version)
   * The version numbering system now excludes the SVN revision number.
   * Numerous bug fixes - see https://github.com/shawnlaffan/biodiverse/issues?utf8=%E2%9C%93&q=label%3AMilestone-Release0.10+

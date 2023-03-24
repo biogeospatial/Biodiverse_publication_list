@@ -19,7 +19,7 @@ They also assume you are using a standard user account, and are accessing Biodiv
 ## Part 1.  Install a non-system perl ##
 
   * Install PerlBrew, including its optional cpanm client.  
-    * Instructions are at http://perlbrew.pl/
+    * Instructions are at https://perlbrew.pl/
     * **You should not use the system perl**.  The operating system assumes specific versions of files are in the system perl.  
     * Perlbrew is recommended, and is used for Biodiverse development, and is assumed below.  There are other other systems like plenv which will likely also work, but I have not tested them.
     * Make sure you are using the non-system perl for all subsequent steps.  This could involve adding a line to your .bashrc (or equivalent) file to ensure it is loaded each time you login.  Perlbrew provides instructions on how to do this.  
