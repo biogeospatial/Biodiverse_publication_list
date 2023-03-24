@@ -70,7 +70,7 @@ Data can be loaded into a project if they have previously been saved as separate
 
 Change the name in the textbox at the top if you want to list them by a different name.
 
-![http://purl.org/biodiverse/wiki/screenshots/open_existing_object.png](http://purl.org/biodiverse/wiki/screenshots/open_existing_object.png)
+![https://purl.org/biodiverse/wiki/screenshots/open_existing_object.png](https://purl.org/biodiverse/wiki/screenshots/open_existing_object.png)
 
 Note the common “Places” in the left panel of the window. This is the bookmark system used by Gtk (the window system we use), and is persistent across sessions.  You can also select a folder in the right panel and click the _Add_ button to permanently add this folder to the Places panel for convenient access in the future. Likewise, you can remove added (but not default) directories with the _Remove_ button.  You should also be able to drag and drop folders onto the place section.
 
