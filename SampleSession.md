@@ -103,7 +103,7 @@ From the BaseData import dialogue window you can select your data file or files.
 
 You will then see a window with various options you can set for the import, such as whether remapping tables are to be used.  If you specify that remapping will be used, you will be able to select your remapping file(s) after you set the parameters for the main BaseData import.
 
-![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png)
+![https://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png](https://purl.org/biodiverse/wiki/screenshots/import_basedata_step2.png)
 
 The set label/group properties and remap check boxes allow you to specify properties for the labels and groups.  See [DataStructures#element-property-tables](DataStructures#element-property-tables).
 
@@ -123,7 +123,7 @@ The next window allows you to specify how the columns in your file will be treat
 
 If you specify that your data **are not** in matrix form then the next window will look like this (explanation below).
 
-![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png)
+![https://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png](https://purl.org/biodiverse/wiki/screenshots/import_basedata_step3.png)
 
 You must set at least one Group and one Label column, but more than one of each may be chosen. For example, you may typically wish to use both a "species" column and a "genus" column (if separated in your file) as one combined label for your data points, or to specify both the x-coordinate and y-coordinate columns in a file as "Group", to specify a Cartesian grid (specifying only an "x" column or "y" column as the Group would result in a one-dimensional analysis of the data across that group's domain).  When a Group column has been set you will be given the option to select its cell size (in the same units as the group data is stored) and origin.  These default to 100,000.00 and 0.00, respectively so make sure they are appropriate to your data.  The origin allows you to align your imported data with a non-zero origin, e.g. you are using some coarse resolution climate data in a related analysis and you wish to ensure the resulting cell boundaries align exactly between data sets.
 
@@ -146,7 +146,7 @@ S23°32'09.567", E149°23'18.009"
 
 If you specify that your data **are** in matrix form then the next window will look like this (explanation below).
 
-![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png)
+![https://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png](https://purl.org/biodiverse/wiki/screenshots/import_basedata_step3_matrix_format.png)
 
 The group options for the matrix imports are the same as for the non-matrix imports.
 
@@ -160,7 +160,7 @@ Click OK.
 
 The next window allows you to order your labels and groups for the desired view. In the example data set, placing “genus” above “species” produces labels named with the species name concatenated after the genus name, and placing “y” above “x” makes the y column data the first dimension of a group's coordinates and x the second (this is useful if you have a file where latitude precedes longitude in the file's column order).
 
-![http://purl.org/biodiverse/wiki/screenshots/import_basedata_step4.png](http://purl.org/biodiverse/wiki/screenshots/import_basedata_step4.png)
+![https://purl.org/biodiverse/wiki/screenshots/import_basedata_step4.png](https://purl.org/biodiverse/wiki/screenshots/import_basedata_step4.png)
 
 Note: once the data are imported and opened, the first group axis will be displayed along a horizontal axis and the second (if one exists) on a vertical axis. Biodiverse does not currently support a graphical view for more than two group axes, although they can still be imported and analysed.  Any data set containing more than two axes will be displayed using the first two axes.
 
