@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 4.2](#version-42)
 * [Version 4.1](#version-41)
 * [Version 4.0](#version-40)
 * [Version 3.99 dev series](#version-399-dev-series)
@@ -36,9 +37,19 @@
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
 
-# Version 4.1 #
+# Version 4.2 #
 
-This is an in-development minor release of new functionality and bug fixes.
+This release contains a small number of bug fixes and improved functionality.  For the full list of issues and changes leading to the 4.2 release, see https://github.com/shawnlaffan/biodiverse/milestone/20
+
+Main changes:
+  * GUI
+    * Branch highlighting in the View Labels tab works again.  This was broken in version 4.1.  [Issue #850](https://github.com/shawnlaffan/biodiverse/issues/850).
+  * Data imports
+    * Raster imports now include the band labels if defined in multiband files. [Issue #852](https://github.com/shawnlaffan/biodiverse/issues/852). 
+    * Importing a raster now works when the nodata value is NaN.  [Issue #851](https://github.com/shawnlaffan/biodiverse/issues/851).
+
+
+# Version 4.1 #
 
 For the full list of issues and changes leading to the 4.1 release, see https://github.com/shawnlaffan/biodiverse/milestone/19
 
