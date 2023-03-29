@@ -1,5 +1,4 @@
-**These instructions apply to version 0.17 and later.**
-**Note that this executable will not work on Windows 2000 and earlier.**
+**These instructions apply to version 2.0 and later.**
 
 # Installation #
 
