@@ -30,7 +30,7 @@ The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#
 
 All versions are for 64 bit architectures.
 
-* Windows, Mac and Ubuntu binaries as well as source code [are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.2)
+* DOWNLOAD LINK: [Windows, Mac and Ubuntu binaries as well as source code are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.2)
 
 * [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation)
 
