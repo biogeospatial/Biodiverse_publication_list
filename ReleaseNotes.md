@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 4.3](#version-43)
 * [Version 4.2](#version-42)
 * [Version 4.1](#version-41)
 * [Version 4.0](#version-40)
