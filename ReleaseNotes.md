@@ -37,6 +37,21 @@
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
 
+
+# Version 4.3 #
+
+_In development_
+
+This release contains a small number of bug fixes and improved functionality.  For the full list of issues and changes leading to the 4.3 release, see https://github.com/shawnlaffan/biodiverse/milestone/21
+
+Main changes:
+  * GUI:
+    * z-score plotting has been fixed (colours were reversed).  [Issue 857](https://github.com/shawnlaffan/biodiverse/issues/857).
+  * Randomisations
+    * The p-rank calculations now generate ranks for all defined values.  The GUI also now colours the values, similar to the z-scores.  [Issue 856](https://github.com/shawnlaffan/biodiverse/issues/856).  More details in the blog post.
+  * Spatial conditions
+    * The sp_points_in_same_poly_shape condition is now faster when any points do not intersect any polygons.  See commit [3ca2703](https://github.com/shawnlaffan/biodiverse/commit/3ca2703a9943bcc2ed5ff331cca6b1f6ea447fbe).
+
 # Version 4.2 #
 
 This release contains a small number of bug fixes and improved functionality.  For the full list of issues and changes leading to the 4.2 release, see https://github.com/shawnlaffan/biodiverse/milestone/20
