@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Ortiz-Brunel J.P., Ochoterena H., Moore M.J., Aragón-Parada J., Flores J., Munguía-Lino G., Rodríguez A., Salinas-Rodríguez M.M. and Flores-Olvera H. (2023) Patterns of Richness and Endemism in the Gypsicolous Flora of Mexico. [Diversity, 15:522](https://doi.org/10.3390/d15040522). 
+  * Ortiz-Brunel J.P., Ochoterena H., Moore M.J., Aragón-Parada J., Flores J., Munguía-Lino G., Rodríguez A., Salinas-Rodríguez M.M. and Flores-Olvera H. (2023) Patterns of Richness and Endemism in the Gypsicolous Flora of Mexico. [Diversity, 15, 522](https://doi.org/10.3390/d15040522). 
 
   * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
 
