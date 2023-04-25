@@ -25,6 +25,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  Zhang, H., Chen, S.-C., Bonser, S.P., Hitchcock, T., & Moles, A.T. (in press). Factors that shape large-scale gradients in clonality. [Journal of Biogeography](https://doi.org/10.1111/jbi.14577)
 
+#### preprints ####
+
+  * Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R., Soltis, P.S., Soltis, D.E., Guralnick, R.P. and Belitz, M. (preprint) Spatial phylogenetics of Fagales: Investigating the history of temperate forests. [bioRxiv](https://doi.org/10.1101/2023.04.17.537249). 
+
+
 #### 2023 ####
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
