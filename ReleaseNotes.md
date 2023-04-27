@@ -41,8 +41,6 @@
 
 # Version 4.3 #
 
-_In development_
-
 This release contains a small number of bug fixes and improved functionality.  For the full list of issues and changes leading to the 4.3 release, see https://github.com/shawnlaffan/biodiverse/milestone/21
 
 Main changes:
