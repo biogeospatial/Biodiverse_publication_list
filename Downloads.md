@@ -24,13 +24,13 @@ A [quick start guide](https://github.com/shawnlaffan/biodiverse/releases/downloa
 
 ### Stable Release ###
 
-_The current stable release is version 4.2, released 29-Mar-2023._
+_The current stable release is version 4.3, released 27-Apr-2023._
 
-The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-42) summarise the changes in this version.
+The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-43) summarise the changes in this version.
 
-All versions are for 64 bit architectures.
+All versions are for 64 bit architectures.  There is currently no update for Macs using Intel chips.  If you are using such a machine then [4.0 will can be used](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.0).  
 
-* DOWNLOAD LINK: [Windows, Mac and Ubuntu binaries as well as source code are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.2)
+* DOWNLOAD LINK: [Windows, Mac and Ubuntu binaries as well as source code are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.3)
 
 * [Installation instructions](https://github.com/shawnlaffan/biodiverse/wiki/Installation)
 
