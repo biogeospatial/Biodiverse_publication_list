@@ -47,7 +47,7 @@ Main changes:
   * GUI:
     * z-score plotting has been fixed (colours were reversed).  [Issue 857](https://github.com/shawnlaffan/biodiverse/issues/857).
   * Randomisations
-    * The p-rank calculations now generate ranks for all defined values.  The GUI also now colours the values, similar to the z-scores.  [Issue 856](https://github.com/shawnlaffan/biodiverse/issues/856).  More details in the blog post.
+    * The p-rank calculations now generate ranks for all defined values.  The GUI also now colours the values, similar to the z-scores.  [Issue 856](https://github.com/shawnlaffan/biodiverse/issues/856).  [More details in the blog post](https://biodiverse-analysis-software.blogspot.com/2023/04/changes-to-randomisation-results-p-rank.html).
   * Spatial conditions
     * The sp_points_in_same_poly_shape condition is now faster when any points do not intersect any polygons.  See commit [3ca2703](https://github.com/shawnlaffan/biodiverse/commit/3ca2703a9943bcc2ed5ff331cca6b1f6ea447fbe).
 
