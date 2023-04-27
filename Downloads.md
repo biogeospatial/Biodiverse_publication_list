@@ -28,7 +28,7 @@ _The current stable release is version 4.3, released 27-Apr-2023._
 
 The [release notes](https://github.com/shawnlaffan/biodiverse/wiki/ReleaseNotes#version-43) summarise the changes in this version.
 
-All versions are for 64 bit architectures.  There is currently no update for Macs using Intel chips.  If you are using such a machine then [4.0 will can be used](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.0).  
+All versions are for 64 bit architectures.  
 
 * DOWNLOAD LINK: [Windows, Mac and Ubuntu binaries as well as source code are available through GitHub](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.3)
 
@@ -38,6 +38,7 @@ All versions are for 64 bit architectures.  There is currently no update for Mac
 #### Known issues ####
 
   * Macs: If you have issues accessing files in your Documents folder then you will need to give access to the app.  See https://support.apple.com/en-au/guide/mac-help/mchld5a35146/mac 
+  * Macs: There is currently no update for Macs using Intel chips.  If you are using such a machine then [4.0 can be used](https://github.com/shawnlaffan/biodiverse/releases/tag/r4.0).  
   * There may be problems with the cp936 locale, and probably other CJK character set locales.  The workaround for now is to set your locale and region to US (see details in [Issue 506](/shawnlaffan/biodiverse/issues/506)).
 
 ### Development Release ###
