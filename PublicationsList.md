@@ -15,10 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Mardones, D. and Scherson, R.A. (in press) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, boad002](https://doi.org/10.1093/botlinnean/boad002). 
 
-  * Ortiz-Brunel J.P., Ochoterena H., Moore M.J., Aragón-Parada J., Flores J., Munguía-Lino G., Rodríguez A., Salinas-Rodríguez M.M. and Flores-Olvera H. (2023) Patterns of Richness and Endemism in the Gypsicolous Flora of Mexico. [Diversity, 15, 522](https://doi.org/10.3390/d15040522). 
-
-  * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
-
 #### preprints ####
 
   * Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R., Soltis, P.S., Soltis, D.E., Guralnick, R.P. and Belitz, M. (preprint) Spatial phylogenetics of Fagales: Investigating the history of temperate forests. [bioRxiv](https://doi.org/10.1101/2023.04.17.537249). 
@@ -35,6 +31,10 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
 
   * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2003) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
+
+  * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
+
+  * Ortiz-Brunel J.P., Ochoterena H., Moore M.J., Aragón-Parada J., Flores J., Munguía-Lino G., Rodríguez A., Salinas-Rodríguez M.M. and Flores-Olvera H. (2023) Patterns of Richness and Endemism in the Gypsicolous Flora of Mexico. [Diversity, 15, 522](https://doi.org/10.3390/d15040522). 
 
   * Zhang, H., Chen, S.-C., Bonser, S.P., Hitchcock, T., & Moles, A.T. (2023). Factors that shape large-scale gradients in clonality. [Journal of Biogeography, 50, 827-837](https://doi.org/10.1111/jbi.14577)
 
