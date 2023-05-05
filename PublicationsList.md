@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
 
-  * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (in press) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, blac128](https://doi.org/10.1093/biolinnean/blac128).
-
   * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (in press). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources](https://doi.org/10.1017/S1479262123000047).
 
   *  Zhang, H., Chen, S.-C., Bonser, S.P., Hitchcock, T., & Moles, A.T. (in press). Factors that shape large-scale gradients in clonality. [Journal of Biogeography](https://doi.org/10.1111/jbi.14577)
@@ -37,6 +35,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
 
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
+
+  * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2003) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
 
   * Zhou, R., Ci, X., Hu, J., Zhang, X., Cao, G., Xiao, J., Liu, Z., Li, L., Thornhill, A.H., Conran, J.G. and Li, J. (2023) Transitional areas of vegetation as biodiversity hotspots evidenced by multifaceted biodiversity analysis of a dominant group in Chinese evergreen broad-leaved forests. [Ecological Indicators, 147, 110001](https://doi.org/10.1016/j.ecolind.2023.110001)
 
