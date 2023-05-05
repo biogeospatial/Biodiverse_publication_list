@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
 
-  * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (in press). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources](https://doi.org/10.1017/S1479262123000047).
-
 #### preprints ####
 
   * Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R., Soltis, P.S., Soltis, D.E., Guralnick, R.P. and Belitz, M. (preprint) Spatial phylogenetics of Fagales: Investigating the history of temperate forests. [bioRxiv](https://doi.org/10.1101/2023.04.17.537249). 
@@ -31,6 +29,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
 
   * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
+
+  * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (2023). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources, 20, 203-214](https://doi.org/10.1017/S1479262123000047).
 
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
 
