@@ -1,4 +1,5 @@
 **Table of contents:**
+* [Version 4.99 dev series](#version-499-dev-series)
 * [Version 4.3](#version-43)
 * [Version 4.2](#version-42)
 * [Version 4.1](#version-41)
@@ -37,6 +38,17 @@
 * [Version 0.11](#version-011)
 * [Version 0.10](#version-010)
 * [Version 0.9.1185](#version-091185)
+
+
+# Version 4.99 dev series #
+
+This is a development release series, leading towards version 5.0.  
+
+For the full list of issues and changes leading to the 5.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/18
+
+Main changes:
+  * Indices:
+    * The phylogenetic and range weighted turnover indices are now faster, particularly when used in pairwise mode such as when building a cluster matrix.  
 
 
 # Version 4.3 #
