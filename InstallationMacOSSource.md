@@ -51,9 +51,9 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```
 2. Install the version of perl that Biodiverse requires and then use it (must be higher than 5.22):
    ```sh
-   ~/perl5/perlbrew/bin/perlbrew install --noman perl-5.36.0
+   ~/perl5/perlbrew/bin/perlbrew install --noman perl-5.36.1
    #  if there are "no symbol" test failures in libperl.t then skip the tests
-   #~/perl5/perlbrew/bin/perlbrew install --noman --notest perl-5.36.0
+   #~/perl5/perlbrew/bin/perlbrew install --noman --notest perl-5.36.1
    ~/perl5/perlbrew/bin/perlbrew switch perl-5.36.0
    ```
 3. Install cpanminus for installing other perl modules:
