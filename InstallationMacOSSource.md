@@ -31,15 +31,6 @@ To install Xcode command line tools (and all following software) you will be usi
    brew install adwaita-icon-theme
    ```
 
-3. libgnomecanvas needs to be patched to avoid a serious memory leak
-   ```sh
-   brew edit libgnomecanvas
-   #  insert these lines into the build, immediately after the line containing "def install":
-   #  system "\\curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch"
-   #  system "patch -d libgnomecanvas < libgnomecanvas.patch"
-   #  then exit the editor
-   brew install --build-from-source libgnomecanvas
-   ```
 
 Further information about Homebrew can be found [here](https://brew.sh).
 
@@ -63,8 +54,25 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
 4. Install Biodiverse GUI  module dependencies.  Gtk2 has known test failures, but works, so we don't test it.
    ```sh
    cpanm --notest Gtk2
-   cpanm Pango Gnome2::Canvas IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric Browser::Start
+   cpanm Pango IO::Socket::SSL Glib::Object::Introspection Scalar::Util::Numeric Browser::Start
    ```
+5. Install libgnomecanvas dynamic lib and perl module, including a patch to avoid a serious memory leak.  These have not been widely tested so please report issues. 
+   ```sh
+    cpanm XML::Parser 
+    brew install libart intltool gettext
+    \curl -L https://download.gnome.org/sources/libgnomecanvas/2.30/libgnomecanvas-2.30.3.tar.bz2 > libgnomecanvas-2.30.3.tar.bz
+    tar xf libgnomecanvas-2.30.3.tar.bz
+    cd libgnomecanvas-2.30.3
+    \curl -L https://raw.githubusercontent.com/shawnlaffan/biodiverse/master/etc/libgnomecanvas.patch > libgnomecanvas.patch
+    patch -d libgnomecanvas < libgnomecanvas.patch
+    #  if you are willing to take the risk then you can install into --prefix=$HOMEBREW_PATH
+    ./configure --disable-dependency-tracking --disable-static --prefix=$HOME/usr --disable-glade
+    make
+    make install
+    export DYLD_LIBRARY_PATH=${HOME}/usr:${DYLD_LIBRARY_PATH}
+    export CPATH=${HOME}/usr:${CPATH}
+    cpanm --notest Gnome2::Canvas
+    ```
 
 # Install Biodiverse
 
@@ -90,9 +98,10 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     touch $HOME/recently-used.xbel  
     ```
 
-2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.36.0), and then run biodiverse:
+2. To run biodiverse switch to the correct version of perl if you haven't already (this assumes perl-5.36.1), and then run biodiverse.  The DYLD_LIBRARY_PATH is something you an add to your .zshrc or .bashrc file to avoid retyping it.
     ```sh
-    ~/perl5/perlbrew/bin/perlbrew switch perl-5.36.0
+    export DYLD_LIBRARY_PATH=${HOME}/usr:${DYLD_LIBRARY_PATH}
+    ~/perl5/perlbrew/bin/perlbrew switch perl-5.36.1
     perl ~/biodiverse/bin/BiodiverseGUI.pl
     ```
 
