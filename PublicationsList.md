@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (in press) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography](https://doi.org/10.1111/jbi.14679).
+
   * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
 
   * Mardones, D. and Scherson, R.A. (in press) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, boad002](https://doi.org/10.1093/botlinnean/boad002). 
