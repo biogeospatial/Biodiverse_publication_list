@@ -48,7 +48,8 @@ For the full list of issues and changes leading to the 5.0 release, see https://
 
 Main changes:
   * Indices:
-    * The phylogenetic and range weighted turnover indices are now faster, particularly when used in pairwise mode such as when building a cluster matrix.  
+    * Indices for the Hurlbert species richness estimator are now available.  The set of sample numbers may be changed or made more flexible in the future.  [Implementation is under issue 871](https://github.com/shawnlaffan/biodiverse/issues/871).
+    * The phylogenetic and range weighted turnover indices are now faster, particularly when used in pairwise mode such as when building a cluster matrix.
 
 
 # Version 4.3 #
