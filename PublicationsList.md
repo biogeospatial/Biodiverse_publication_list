@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Ramírez-Verdugo, P., Tapia, A., Forest, F. and Scherson, R.A. (2023) Evolutionary diversity of the endemic genera of the vascular flora of Chile and its implications for conservation. PLoS ONE 18(7): e0287957. https://doi.org/10.1371/journal.pone.0287957
+
   *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (in press) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography](https://doi.org/10.1111/jbi.14679).
 
   * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
