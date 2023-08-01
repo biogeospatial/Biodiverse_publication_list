@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
+
   * Ramírez-Verdugo, P., Tapia, A., Forest, F. and Scherson, R.A. (2023) Evolutionary diversity of the endemic genera of the vascular flora of Chile and its implications for conservation. PLoS ONE 18(7): e0287957. https://doi.org/10.1371/journal.pone.0287957
 
   *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (in press) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography](https://doi.org/10.1111/jbi.14679).
