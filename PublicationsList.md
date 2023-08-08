@@ -13,7 +13,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Ye, C. (2023) Geographical distribution and conservation strategy of national key protected wild plants of China.  [iScience, 26, 107364](https://doi.org/10.1016/j.isci.2023.107364).
+  * Ye, C. et al. (2023) Geographical distribution and conservation strategy of national key protected wild plants of China.  [iScience, 26, 107364](https://doi.org/10.1016/j.isci.2023.107364).
 
   * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
 
