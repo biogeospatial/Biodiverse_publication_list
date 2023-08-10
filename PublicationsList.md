@@ -15,17 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Fernandes, N.B.G., Moraes, A.M. and Milward-de-Azevedo, M.A. (2023) Diversity of the Passiflora L. in the Serra do Mar ecoregion and the relationships with environmental gradients, South and Southeast, Brazil. [Acta Botanica Brasilia, 37](https://doi.org/10.1590/1677-941X-ABB-2022-0314).
 
-  * Ye, C. et al. (2023) Geographical distribution and conservation strategy of national key protected wild plants of China.  [iScience, 26, 107364](https://doi.org/10.1016/j.isci.2023.107364).
-
-  * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
-
-  * Ramírez-Verdugo, P., Tapia, A., Forest, F. and Scherson, R.A. (2023) Evolutionary diversity of the endemic genera of the vascular flora of Chile and its implications for conservation. PLoS ONE 18(7): e0287957. https://doi.org/10.1371/journal.pone.0287957
-
   *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (in press) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography](https://doi.org/10.1111/jbi.14679).
-
-  * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
-
-  * Mardones, D. and Scherson, R.A. (in press) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, boad002](https://doi.org/10.1093/botlinnean/boad002). 
 
 #### preprints ####
 
@@ -36,17 +26,27 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
 
+  * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
+
   * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
+
+  * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
 
   * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (2023). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources, 20, 203-214](https://doi.org/10.1017/S1479262123000047).
 
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
+
+  * Mardones, D. and Scherson, R.A. (in press) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, 202, 433–448](https://doi.org/10.1093/botlinnean/boad002). 
 
   * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2003) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
 
   * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
 
   * Ortiz-Brunel J.P., Ochoterena H., Moore M.J., Aragón-Parada J., Flores J., Munguía-Lino G., Rodríguez A., Salinas-Rodríguez M.M. and Flores-Olvera H. (2023) Patterns of Richness and Endemism in the Gypsicolous Flora of Mexico. [Diversity, 15, 522](https://doi.org/10.3390/d15040522). 
+
+  * Ramírez-Verdugo, P., Tapia, A., Forest, F. and Scherson, R.A. (2023) Evolutionary diversity of the endemic genera of the vascular flora of Chile and its implications for conservation. PLoS ONE 18(7): e0287957. https://doi.org/10.1371/journal.pone.0287957
+
+  * Ye, C. et al. (2023) Geographical distribution and conservation strategy of national key protected wild plants of China.  [iScience, 26, 107364](https://doi.org/10.1016/j.isci.2023.107364).
 
   * Zhang, H., Chen, S.-C., Bonser, S.P., Hitchcock, T., & Moles, A.T. (2023). Factors that shape large-scale gradients in clonality. [Journal of Biogeography, 50, 827-837](https://doi.org/10.1111/jbi.14577)
 
