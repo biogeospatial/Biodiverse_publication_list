@@ -23,6 +23,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### preprints ####
 
+  * Folk, R.A., Belitz, M.W., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Guralnick, R.P., Borges, L.M. (preprint) Phylogenetic diversity and regionalization of root nodule symbiosis. [bioRxiv 2023.09.08.556918](https://doi.org/10.1101/2023.09.08.556918).
+
   * Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R., Soltis, P.S., Soltis, D.E., Guralnick, R.P. and Belitz, M. (preprint) Spatial phylogenetics of Fagales: Investigating the history of temperate forests. [bioRxiv](https://doi.org/10.1101/2023.04.17.537249). 
 
 
