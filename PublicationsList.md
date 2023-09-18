@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * de Pedro, D., Ceccarelli, F.S., Vandame, R. et al. (in press) Congruence between species richness and phylogenetic diversity in North America for the bee genus Diadasia (Hymenoptera: Apidae). [Biodiversity and Conservation](https://doi.org/10.1007/s10531-023-02706-8).
+
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
 
   * Fernandes, N.B.G., Moraes, A.M. and Milward-de-Azevedo, M.A. (2023) Diversity of the Passiflora L. in the Serra do Mar ecoregion and the relationships with environmental gradients, South and Southeast, Brazil. [Acta Botanica Brasilia, 37](https://doi.org/10.1590/1677-941X-ABB-2022-0314).
