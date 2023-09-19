@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Fernandes, N.B.G., Moraes, A.M. and Milward-de-Azevedo, M.A. (2023) Diversity of the Passiflora L. in the Serra do Mar ecoregion and the relationships with environmental gradients, South and Southeast, Brazil. [Acta Botanica Brasilia, 37](https://doi.org/10.1590/1677-941X-ABB-2022-0314).
 
-  *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (in press) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography](https://doi.org/10.1111/jbi.14679).
-
 #### preprints ####
 
   * Folk, R.A., Belitz, M.W., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Guralnick, R.P., Borges, L.M. (preprint) Phylogenetic diversity and regionalization of root nodule symbiosis. [bioRxiv 2023.09.08.556918](https://doi.org/10.1101/2023.09.08.556918).
@@ -29,6 +27,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 
 #### 2023 ####
+
+  *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (2023) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography, 50, 1679-1691](https://doi.org/10.1111/jbi.14679).
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
 
