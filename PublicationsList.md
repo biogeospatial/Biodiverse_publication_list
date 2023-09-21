@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Erst, A.S., Baasanmunkh, S., Tsegmed, Z. et al. (2023) Hotspot and conservation gap analysis of endemic vascular plants in the Altai Mountain Country based on a new global conservation assessment. [Global Ecology and Conservation, 47, e02647](https://doi.org/10.1016/j.gecco.2023.e02647)
+
   * de Pedro, D., Ceccarelli, F.S., Vandame, R. et al. (in press) Congruence between species richness and phylogenetic diversity in North America for the bee genus Diadasia (Hymenoptera: Apidae). [Biodiversity and Conservation](https://doi.org/10.1007/s10531-023-02706-8).
 
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
