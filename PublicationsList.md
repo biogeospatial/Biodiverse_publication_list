@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
 
-  * Fernandes, N.B.G., Moraes, A.M. and Milward-de-Azevedo, M.A. (2023) Diversity of the Passiflora L. in the Serra do Mar ecoregion and the relationships with environmental gradients, South and Southeast, Brazil. [Acta Botanica Brasilia, 37](https://doi.org/10.1590/1677-941X-ABB-2022-0314).
-
 #### preprints ####
 
   * Folk, R.A., Belitz, M.W., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Guralnick, R.P., Borges, L.M. (preprint) Phylogenetic diversity and regionalization of root nodule symbiosis. [bioRxiv 2023.09.08.556918](https://doi.org/10.1101/2023.09.08.556918).
@@ -35,6 +33,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
 
   * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
+
+  * Fernandes, N.B.G., Moraes, A.M. and Milward-de-Azevedo, M.A. (2023) Diversity of the Passiflora L. in the Serra do Mar ecoregion and the relationships with environmental gradients, South and Southeast, Brazil. [Acta Botanica Brasilia, 37, e20220314](https://doi.org/10.1590/1677-941X-ABB-2022-0314).
 
   * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
 
