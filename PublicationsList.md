@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
+
   * Ruiz-Sanchez, E., Munguía-Lino, G., Pianissola, E.M., Ely, F. and Clark, L.G. (2023)  Richness and endemism in Chusquea subg. Swallenochloa (Poaceae), a Neotropical subgenus adapted to temperate conditions. [Phytotaxa, 609, 180-194](https://doi.org/10.11646/phytotaxa.609.3.2).
 
   * Erst, A.S., Baasanmunkh, S., Tsegmed, Z. et al. (2023) Hotspot and conservation gap analysis of endemic vascular plants in the Altai Mountain Country based on a new global conservation assessment. [Global Ecology and Conservation, 47, e02647](https://doi.org/10.1016/j.gecco.2023.e02647)
