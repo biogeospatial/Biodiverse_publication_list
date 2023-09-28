@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * González-Orozco, C.E., Diaz-Giraldo, R.A. and Rodriguez-Castañeda, C. (2023) An early warning for better planning of agricultural expansion and biodiversity conservation in the Orinoco high plains of Colombia.  [Frontiers in Sustainable Food Systems, 7](https://doi.org/10.3389/fsufs.2023.1192054).
+
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
 
   * Ruiz-Sanchez, E., Munguía-Lino, G., Pianissola, E.M., Ely, F. and Clark, L.G. (2023)  Richness and endemism in Chusquea subg. Swallenochloa (Poaceae), a Neotropical subgenus adapted to temperate conditions. [Phytotaxa, 609, 180-194](https://doi.org/10.11646/phytotaxa.609.3.2).
