@@ -13,15 +13,15 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 ## Installation ##
 
 
-*  Step 1.  Install Strawberry Perl 64bit, 5.24 or later, and preferably one of the variants that come with PDL installed.  The rest of these instructions assume you have used C:\strawberry as the install folder.  If you have not then edit the paths below to match what you have used.  http://strawberryperl.com/
+*  Step 1.  Install [Strawberry Perl 5.38 PDL edition](https://github.com/StrawberryPerl/Perl-Dist-Strawberry/releases/download/SP_5380_5361/strawberry-perl-5.38.0.1-64bit-PDL.zip).  The rest of these instructions assume you have extracted it to C:\strawberry.  If you have not then edit the paths below to match what you have used.  
 
-*  Step 2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a GIT client to get the latest Biodiverse code, see https://github.com/shawnlaffan/biodiverse and the clone URL there.
+*  Step 2.  [Download](Downloads) the source code version to obtain a stable release.  Alternately you can use a git client to get the latest Biodiverse code, see https://github.com/shawnlaffan/biodiverse and the clone URL there.
 
 *  Step 3.  Open a command prompt.  The rest of these instructions assume you are at the prompt.
 
 *  Step 4.  Run these commands, editing the folder paths as needed to match your system.
 
-```dos
+```cmd
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
   :: This next command should only be needed if the strawberry perl bin folders 
@@ -32,14 +32,17 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
 *  Step 5.  Now we need to install some files using the ppm and cpanm utilities.  In the same command prompt that you ran the commands from step 1, run the ppm install command for all ppd files.  You can copy and paste these into the command prompt.  It is best to do them one block at a time as the comments list some conditional steps.  
 
-```
+```cmd
   :: Install the precompiled binaries needed for the GUI.
-  set SIS_PPM=http://www.sisyphusion.tk/ppm
-  :: This will also get the other Gtk2 packages
-  ppm install %SIS_PPM%/Gnome2-Canvas.ppd 
-  :: but themes are a separate install - be sure to say yes when it prompts to move files
-  ppm install %SIS_PPM%/PPM-Sisyphusion-Gtk2_theme.ppd
-
+  cpanm https://github.com/shawnlaffan/perl-alien-gtkstack-windows.git
+  ppm set repository biodiverse https://github.com/shawnlaffan/perl-alien-gtkstack-windows/releases/download/first_upload/
+  ppm install Cairo
+  ppm install Cairo-GObject
+  ppm install Glib
+  ppm install Gnome2-Canvas
+  ppm install Gtk2
+  ppm install Pango
+  
   ::  This might no longer be necessary, but does not hurt.  
   ::  Math::Random::MT::Auto had test errors due to 
   ::  false positive test results caused by another module.
@@ -49,7 +52,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
   :: (But not for other failures).
   cpanm --notest Math::Random::MT::Auto
 
-  :: Faster utils
+  :: Faster utils, don't worry if the installs fail (possible for Data::Recursive)
   cpanm List::MoreUtils::XS
   cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.08/Biodiverse-Utils-1.08.tar.gz
   cpanm Data::Recursive
@@ -75,15 +78,17 @@ The above installation process **should** install all the relevant files, so we 
 
 *  This is the same as step 1 in the installation instructions, but needs to be run every time you open a new command prompt (unless you add the paths to your PATH variable at the windows level).  Remember to edit the folder paths if you installed Biodiverse and/or Strawberry Perl to different folders.
 
-```dos
+```cmd
   set BDV_PATH=c:\biodiverse
   set STRAWPATH=c:\strawberry
   set PATH=%STRAWPATH%\bin;%STRAWPATH%\perl\site\bin;%STRAWPATH%\perl\vendor\bin;%STRAWPATH%\perl\bin;%BDV_PATH%\bin;%PATH%
+  ::  If you are using Biodiverse 4.99_001 or earlier then you need to add one module to the default set, otherwise this can be skipped.
+  set PERL5OPT=-MAlien::GtkStack::Windows 
 ```
 
 *  Now you can run it.
 
-```dos
+```cmd
   perl %BDV_PATH%\bin\BiodiverseGUI.pl
 ```
 
