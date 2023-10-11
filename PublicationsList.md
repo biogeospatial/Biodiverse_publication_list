@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
+
   * González-Orozco, C.E., Diaz-Giraldo, R.A. and Rodriguez-Castañeda, C. (2023) An early warning for better planning of agricultural expansion and biodiversity conservation in the Orinoco high plains of Colombia.  [Frontiers in Sustainable Food Systems, 7](https://doi.org/10.3389/fsufs.2023.1192054).
 
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
