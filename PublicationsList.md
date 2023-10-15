@@ -23,8 +23,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Erst, A.S., Baasanmunkh, S., Tsegmed, Z. et al. (2023) Hotspot and conservation gap analysis of endemic vascular plants in the Altai Mountain Country based on a new global conservation assessment. [Global Ecology and Conservation, 47, e02647](https://doi.org/10.1016/j.gecco.2023.e02647)
 
-  * de Pedro, D., Ceccarelli, F.S., Vandame, R. et al. (in press) Congruence between species richness and phylogenetic diversity in North America for the bee genus Diadasia (Hymenoptera: Apidae). [Biodiversity and Conservation](https://doi.org/10.1007/s10531-023-02706-8).
-
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
 
 #### preprints ####
@@ -39,6 +37,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   *  Aragón-Parada, J., Carrillo-Reyes, P., Rodríguez, A., Munguía-Lino, G., Salinas-Rodríguez, M. M. and De-Nova, J. A. (2023) Spatial phylogenetics of the flora in the Sierra Madre del Sur, Mexico: Evolutionary puzzles in tropical mountains. [Journal of Biogeography, 50, 1679-1691](https://doi.org/10.1111/jbi.14679).
 
   * Copilaș-Ciocianu, D., Sidorov, D., & Šidagytė-Copilas, E. (2023). Global distribution and diversity of alien Ponto-Caspian amphipods. [Biological Invasions, 25, 179-195](https://doi.org/10.1007/s10530-022-02908-1).
+
+  * de Pedro, D., Ceccarelli, F.S., Vandame, R. et al. (2023) Congruence between species richness and phylogenetic diversity in North America for the bee genus Diadasia (Hymenoptera: Apidae). [Biodiversity and Conservation, 32, 4445–4459](https://doi.org/10.1007/s10531-023-02706-8).
 
   * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
 
