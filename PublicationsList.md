@@ -19,10 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
 
-  * Ruiz-Sanchez, E., Munguía-Lino, G., Pianissola, E.M., Ely, F. and Clark, L.G. (2023)  Richness and endemism in Chusquea subg. Swallenochloa (Poaceae), a Neotropical subgenus adapted to temperate conditions. [Phytotaxa, 609, 180-194](https://doi.org/10.11646/phytotaxa.609.3.2).
-
-  * Erst, A.S., Baasanmunkh, S., Tsegmed, Z. et al. (2023) Hotspot and conservation gap analysis of endemic vascular plants in the Altai Mountain Country based on a new global conservation assessment. [Global Ecology and Conservation, 47, e02647](https://doi.org/10.1016/j.gecco.2023.e02647)
-
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
 
 #### preprints ####
@@ -41,6 +37,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * de Pedro, D., Ceccarelli, F.S., Vandame, R. et al. (2023) Congruence between species richness and phylogenetic diversity in North America for the bee genus Diadasia (Hymenoptera: Apidae). [Biodiversity and Conservation, 32, 4445–4459](https://doi.org/10.1007/s10531-023-02706-8).
 
   * Dlamini, W.M.D. and Loffler, L. (2023). Tree Species Diversity and Richness Patterns Reveal High Priority Areas for Conservation in Eswatini. In: Dhyani, S., Adhikari, D., Dasgupta, R., Kadaverugu, R. (eds) [Ecosystem and Species Habitat Modeling for Conservation and Restoration](https://doi.org/10.1007/978-981-99-0131-9_8). Springer, Singapore. 
+
+  * Erst, A.S., Baasanmunkh, S., Tsegmed, Z. et al. (2023) Hotspot and conservation gap analysis of endemic vascular plants in the Altai Mountain Country based on a new global conservation assessment. [Global Ecology and Conservation, 47, e02647](https://doi.org/10.1016/j.gecco.2023.e02647)
 
   * Fernandes, N.B.G., Moraes, A.M. and Milward-de-Azevedo, M.A. (2023) Diversity of the Passiflora L. in the Serra do Mar ecoregion and the relationships with environmental gradients, South and Southeast, Brazil. [Acta Botanica Brasilia, 37, e20220314](https://doi.org/10.1590/1677-941X-ABB-2022-0314).
 
@@ -61,6 +59,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Ortiz-Brunel J.P., Ochoterena H., Moore M.J., Aragón-Parada J., Flores J., Munguía-Lino G., Rodríguez A., Salinas-Rodríguez M.M. and Flores-Olvera H. (2023) Patterns of Richness and Endemism in the Gypsicolous Flora of Mexico. [Diversity, 15, 522](https://doi.org/10.3390/d15040522). 
 
   * Ramírez-Verdugo, P., Tapia, A., Forest, F. and Scherson, R.A. (2023) Evolutionary diversity of the endemic genera of the vascular flora of Chile and its implications for conservation. PLoS ONE 18(7): e0287957. https://doi.org/10.1371/journal.pone.0287957
+
+  * Ruiz-Sanchez, E., Munguía-Lino, G., Pianissola, E.M., Ely, F. and Clark, L.G. (2023)  Richness and endemism in _Chusquea_ subg. _Swallenochloa_ (Poaceae), a Neotropical subgenus adapted to temperate conditions. [Phytotaxa, 609, 180-194](https://doi.org/10.11646/phytotaxa.609.3.2).
 
   * Ye, C. et al. (2023) Geographical distribution and conservation strategy of national key protected wild plants of China.  [iScience, 26, 107364](https://doi.org/10.1016/j.isci.2023.107364).
 
