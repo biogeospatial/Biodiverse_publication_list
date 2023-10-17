@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Molina-Paniagua, M.E., Alves de Melo, P.H., Ramírez-Barahona, S., Monro, A.K., Burelo-Ramos, C.M., Gómez-Domínguez, H., et al. (2023) How diverse are the mountain karst forests of Mexico? [PLoS ONE 18, e0292352](https://doi.org/10.1371/journal.pone.0292352). 
+
   * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
 
   * González-Orozco, C.E., Diaz-Giraldo, R.A. and Rodriguez-Castañeda, C. (2023) An early warning for better planning of agricultural expansion and biodiversity conservation in the Orinoco high plains of Colombia.  [Frontiers in Sustainable Food Systems, 7](https://doi.org/10.3389/fsufs.2023.1192054).
