@@ -47,9 +47,14 @@ This is a development release series, leading towards version 5.0.
 For the full list of issues and changes leading to the 5.0 release, see https://github.com/shawnlaffan/biodiverse/milestone/18
 
 Main changes:
+  * Data import
+    * Spreadsheet imports from XLSX files are now substantially faster.  Details are in [Issue 882](https://github.com/shawnlaffan/biodiverse/issues/882).
+    * Shapefile imports are now slightly faster.  Details are in [Issue 885](https://github.com/shawnlaffan/biodiverse/issues/885).
   * Indices:
     * Indices for the Hurlbert species richness estimator are now available.  The set of sample numbers may be changed or made more flexible in the future.  [Implementation is under issue 871](https://github.com/shawnlaffan/biodiverse/issues/871).
     * The phylogenetic and range weighted turnover indices are now faster, particularly when used in pairwise mode such as when building a cluster matrix.
+  * GUI
+    * A basedata can be trimmed using another basedata (previously only matrices and trees could be used).  The basedata trimming interface has been streamlined as part of this process.  [Issue 880](https://github.com/shawnlaffan/biodiverse/issues/880).
 
 
 # Version 4.3 #
