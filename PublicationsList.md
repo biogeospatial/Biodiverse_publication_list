@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
 
-  * González-Orozco, C.E., Diaz-Giraldo, R.A. and Rodriguez-Castañeda, C. (2023) An early warning for better planning of agricultural expansion and biodiversity conservation in the Orinoco high plains of Colombia.  [Frontiers in Sustainable Food Systems, 7](https://doi.org/10.3389/fsufs.2023.1192054).
-
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
 
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
@@ -49,6 +47,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
 
   * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
+
+  * González-Orozco, C.E., Diaz-Giraldo, R.A. and Rodriguez-Castañeda, C. (2023) An early warning for better planning of agricultural expansion and biodiversity conservation in the Orinoco high plains of Colombia.  [Frontiers in Sustainable Food Systems, 7](https://doi.org/10.3389/fsufs.2023.1192054).
 
   * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (2023). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources, 20, 203-214](https://doi.org/10.1017/S1479262123000047).
 
