@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Villaseñor, J. L., Ortiz, E., & Hernández-Flores, M. M. (2023). The vascular plant species endemic or nearly endemic to Puebla, Mexico. [Botanical Sciences, 101, 1207-1221](https://doi.org/10.17129/botsci.3299). 
 
-  * Molina-Paniagua, M.E., Alves de Melo, P.H., Ramírez-Barahona, S., Monro, A.K., Burelo-Ramos, C.M., Gómez-Domínguez, H., et al. (2023) How diverse are the mountain karst forests of Mexico? [PLoS ONE 18, e0292352](https://doi.org/10.1371/journal.pone.0292352). 
-
   * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
 
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
@@ -59,6 +57,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Mardones, D. and Scherson, R.A. (in press) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, 202, 433–448](https://doi.org/10.1093/botlinnean/boad002). 
 
   * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2003) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
+
+  * Molina-Paniagua, M.E., Alves de Melo, P.H., Ramírez-Barahona, S., Monro, A.K., Burelo-Ramos, C.M., Gómez-Domínguez, H., et al. (2023) How diverse are the mountain karst forests of Mexico? [PLoS ONE 18, e0292352](https://doi.org/10.1371/journal.pone.0292352). 
 
   * Nicolau, G.K. and Edwards, S. (2023) Diversity and endemism of Southern African Gekkonids linked with the escarpment has implications for conservation priorities. [Diversity, 15, 306](https://doi.org/10.3390/d15020306).
 
