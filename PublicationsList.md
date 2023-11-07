@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Guo, WY., Serra-Diaz, J.M., Eiserhardt, W.L. et al. (2023) Climate change and land use threaten global hotspots of phylogenetic endemism for trees. [Nature Communications, 14, 6950](https://doi.org/10.1038/s41467-023-42671-y).
+
   * Villaseñor, J. L., Ortiz, E., & Hernández-Flores, M. M. (2023). The vascular plant species endemic or nearly endemic to Puebla, Mexico. [Botanical Sciences, 101, 1207-1221](https://doi.org/10.17129/botsci.3299). 
 
   * Molina-Paniagua, M.E., Alves de Melo, P.H., Ramírez-Barahona, S., Monro, A.K., Burelo-Ramos, C.M., Gómez-Domínguez, H., et al. (2023) How diverse are the mountain karst forests of Mexico? [PLoS ONE 18, e0292352](https://doi.org/10.1371/journal.pone.0292352). 
