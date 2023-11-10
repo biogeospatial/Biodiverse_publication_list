@@ -29,6 +29,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R., Soltis, P.S., Soltis, D.E., Guralnick, R.P. and Belitz, M. (preprint) Spatial phylogenetics of Fagales: Investigating the history of temperate forests. [bioRxiv](https://doi.org/10.1101/2023.04.17.537249). 
 
+  * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M. et al. (preprint) Phylogenetic diversity and regionalization in the temperate arid zone. [bioRxiv 2023.11.01.565216](https://doi.org/10.1101/2023.11.01.565216). 
 
 #### 2023 ####
 
