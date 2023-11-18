@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
 
-  * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (in press). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13019). 
-
 #### preprints ####
 
   * Folk, R.A., Belitz, M.W., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Guralnick, R.P., Borges, L.M. (preprint) Phylogenetic diversity and regionalization of root nodule symbiosis. [bioRxiv 2023.09.08.556918](https://doi.org/10.1101/2023.09.08.556918).
@@ -58,6 +56,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Mardones, D. and Scherson, R.A. (in press) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, 202, 433–448](https://doi.org/10.1093/botlinnean/boad002). 
 
   * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2003) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
+
+  * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (2023). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution, 61, 957-966](https://doi.org/10.1111/jse.13019). 
 
   * Molina-Paniagua, M.E., Alves de Melo, P.H., Ramírez-Barahona, S., Monro, A.K., Burelo-Ramos, C.M., Gómez-Domínguez, H., et al. (2023) How diverse are the mountain karst forests of Mexico? [PLoS ONE 18, e0292352](https://doi.org/10.1371/journal.pone.0292352). 
 
