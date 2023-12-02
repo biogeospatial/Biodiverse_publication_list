@@ -57,7 +57,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Mardones, D. and Scherson, R.A. (2023) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, 202, 433–448](https://doi.org/10.1093/botlinnean/boad002). 
 
-  * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2003) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
+  * McCurry, M.R., Park, T., Coombs, E.J. Hart, L.J., Laffan, S. (2023) Latitudinal gradients in the skull shape and assemblage structure of delphinoid cetaceans.  [Biological Journal of the Linnean Society, 138, 470-480](https://doi.org/10.1093/biolinnean/blac128).
 
   * Miller, J.T., Prentice, E., Bui, E.N., Knerr, N., Mishler, B.D., Schmidt-Lebuhn, A.N., González-Orozco, C.E., Laffan, S. W. (2023). _Banksia_ (Proteaceae) contains less phylogenetic diversity than expected in Southwestern Australia. [Journal of Systematics and Evolution, 61, 957-966](https://doi.org/10.1111/jse.13019). 
 
