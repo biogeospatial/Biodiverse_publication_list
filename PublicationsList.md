@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://brill.com/view/journals/ijee/aop/article-10.1163-22244662-bja10072/article-10.1163-22244662-bja10072.xml).
+
   * Wang, C., Zhu, S., Jiang, X., Chen, S., Xiao, Y., Zhao, Y., Yan, Y. and Wen, Y. (2023) Spatio-temporal variation of species richness and phylogenetic diversity patterns for spring ephemeral plants in northern China.  [Global Ecology and Conservation, 48, e02752](https://doi.org/10.1016/j.gecco.2023.e02752).
 
   *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (in press). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science](https://doi.org/10.1002/csc2.21143).
