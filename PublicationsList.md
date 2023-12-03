@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Wang, C., Zhu, S., Jiang, X., Chen, S., Xiao, Y., Zhao, Y., Yan, Y. and Wen, Y. (2023) Spatio-temporal variation of species richness and phylogenetic diversity patterns for spring ephemeral plants in northern China.  [Global Ecology and Conservation, 48, e02752](https://doi.org/10.1016/j.gecco.2023.e02752).
+
   *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (in press). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science](https://doi.org/10.1002/csc2.21143).
 
   * Guo, WY., Serra-Diaz, J.M., Eiserhardt, W.L. et al. (2023) Climate change and land use threaten global hotspots of phylogenetic endemism for trees. [Nature Communications, 14, 6950](https://doi.org/10.1038/s41467-023-42671-y).
