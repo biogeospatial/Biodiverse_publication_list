@@ -19,16 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://doi.org/10.1163/22244662-bja10072).
 
-  * Wang, C., Zhu, S., Jiang, X., Chen, S., Xiao, Y., Zhao, Y., Yan, Y. and Wen, Y. (2023) Spatio-temporal variation of species richness and phylogenetic diversity patterns for spring ephemeral plants in northern China.  [Global Ecology and Conservation, 48, e02752](https://doi.org/10.1016/j.gecco.2023.e02752).
-
-  *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (in press). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science](https://doi.org/10.1002/csc2.21143).
-
-  * Guo, WY., Serra-Diaz, J.M., Eiserhardt, W.L. et al. (2023) Climate change and land use threaten global hotspots of phylogenetic endemism for trees. [Nature Communications, 14, 6950](https://doi.org/10.1038/s41467-023-42671-y).
-
-  * Villaseñor, J. L., Ortiz, E., & Hernández-Flores, M. M. (2023). The vascular plant species endemic or nearly endemic to Puebla, Mexico. [Botanical Sciences, 101, 1207-1221](https://doi.org/10.17129/botsci.3299). 
-
-  * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
-
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
 
 #### preprints ####
@@ -57,11 +47,17 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
 
+  * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
+
   * González-Orozco, C.E., Diaz-Giraldo, R.A. and Rodriguez-Castañeda, C. (2023) An early warning for better planning of agricultural expansion and biodiversity conservation in the Orinoco high plains of Colombia.  [Frontiers in Sustainable Food Systems, 7](https://doi.org/10.3389/fsufs.2023.1192054).
 
   * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (2023). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources, 20, 203-214](https://doi.org/10.1017/S1479262123000047).
 
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
+
+  *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (in press). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science](https://doi.org/10.1002/csc2.21143).
+
+  * Guo, WY., Serra-Diaz, J.M., Eiserhardt, W.L. et al. (2023) Climate change and land use threaten global hotspots of phylogenetic endemism for trees. [Nature Communications, 14, 6950](https://doi.org/10.1038/s41467-023-42671-y).
 
   * Mardones, D. and Scherson, R.A. (2023) Hotspots within a hotspot: evolutionary measures unveil interesting biogeographic patterns in threatened coastal forests in Chile. [Botanical Journal of the Linnean Society, 202, 433–448](https://doi.org/10.1093/botlinnean/boad002). 
 
@@ -78,6 +74,10 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Ramírez-Verdugo, P., Tapia, A., Forest, F. and Scherson, R.A. (2023) Evolutionary diversity of the endemic genera of the vascular flora of Chile and its implications for conservation. PLoS ONE 18(7): e0287957. https://doi.org/10.1371/journal.pone.0287957
 
   * Ruiz-Sanchez, E., Munguía-Lino, G., Pianissola, E.M., Ely, F. and Clark, L.G. (2023)  Richness and endemism in _Chusquea_ subg. _Swallenochloa_ (Poaceae), a Neotropical subgenus adapted to temperate conditions. [Phytotaxa, 609, 180-194](https://doi.org/10.11646/phytotaxa.609.3.2).
+
+  * Villaseñor, J. L., Ortiz, E., & Hernández-Flores, M. M. (2023). The vascular plant species endemic or nearly endemic to Puebla, Mexico. [Botanical Sciences, 101, 1207-1221](https://doi.org/10.17129/botsci.3299). 
+
+  * Wang, C., Zhu, S., Jiang, X., Chen, S., Xiao, Y., Zhao, Y., Yan, Y. and Wen, Y. (2023) Spatio-temporal variation of species richness and phylogenetic diversity patterns for spring ephemeral plants in northern China.  [Global Ecology and Conservation, 48, e02752](https://doi.org/10.1016/j.gecco.2023.e02752).
 
   * Ye, C. et al. (2023) Geographical distribution and conservation strategy of national key protected wild plants of China.  [iScience, 26, 107364](https://doi.org/10.1016/j.isci.2023.107364).
 
