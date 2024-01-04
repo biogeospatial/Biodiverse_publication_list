@@ -15,7 +15,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Francisco-Gutiérrez, A., Eduardo Ruiz-Sanchez, E. and Lira-Noriega, A. (2023) Biogeography and conservation assessments of the species of _Lamourouxia_ (Orobanchaceae). [Acta Botanica Mexicana 130: e2213](https://doi.org/10.21829/abm130.2023.2213).
 
-  * Qian, H., Mishler, B.D>, Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
+  * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
 
   * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://doi.org/10.1163/22244662-bja10072).
 
