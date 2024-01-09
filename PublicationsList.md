@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
+
   * Francisco-Gutiérrez, A., Eduardo Ruiz-Sanchez, E. and Lira-Noriega, A. (2023) Biogeography and conservation assessments of the species of _Lamourouxia_ (Orobanchaceae). [Acta Botanica Mexicana 130: e2213](https://doi.org/10.21829/abm130.2023.2213).
 
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
