@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, doi:10.1080/12298093.2023.2297485](10.1080/12298093.2023.2297485).
+
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
   * Francisco-Gutiérrez, A., Eduardo Ruiz-Sanchez, E. and Lira-Noriega, A. (2023) Biogeography and conservation assessments of the species of _Lamourouxia_ (Orobanchaceae). [Acta Botanica Mexicana 130: e2213](https://doi.org/10.21829/abm130.2023.2213).
