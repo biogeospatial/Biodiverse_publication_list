@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
-  * Francisco-Gutiérrez, A., Eduardo Ruiz-Sanchez, E. and Lira-Noriega, A. (2023) Biogeography and conservation assessments of the species of _Lamourouxia_ (Orobanchaceae). [Acta Botanica Mexicana 130: e2213](https://doi.org/10.21829/abm130.2023.2213).
-
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
 
   * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://doi.org/10.1163/22244662-bja10072).
@@ -50,6 +48,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Flores-Argüelles, A., López-Ferrari, A.R., & Espejo-Serna, A. (2023). Geographic distribution and endemism of Bromeliaceae from the Western Sierra-Coast region of Jalisco, Mexico. [Botanical Sciences, 101, 527-543](https://doi.org/10.17129/botsci.3169).
 
   * Flores-Tolentino, M. et al. (2023). Delimitación geográfica y florística de la provincia fisiográfica de la Depresión del Balsas, México, con énfasis en el bosque tropical estacionalmente seco. [Revista mexicana de biodiversidad, 94, e944985](https://doi.org/10.22201/ib.20078706e.2023.94.4985). 
+
+  * Francisco-Gutiérrez, A., Eduardo Ruiz-Sanchez, E. and Lira-Noriega, A. (2023) Biogeography and conservation assessments of the species of _Lamourouxia_ (Orobanchaceae). [Acta Botanica Mexicana 130: e2213](https://doi.org/10.21829/abm130.2023.2213).
 
   * González-Orozco, C.E. (2023) Unveiling evolutionary cradles and museums of flowering plants in a neotropical biodiversity hotspot.  [Royal Society Open Science, 10230917230917](http://doi.org/10.1098/rsos.230917).
 
