@@ -51,7 +51,7 @@ Main changes:
     * Spreadsheet imports from XLSX files are now substantially faster.  Details are in [Issue 882](https://github.com/shawnlaffan/biodiverse/issues/882).
     * Shapefile imports are now slightly faster.  Details are in [Issue 885](https://github.com/shawnlaffan/biodiverse/issues/885).
   * Indices:
-    * The CANAOPE super class is now calculated and plotted.  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/biodiverse-now-calculates-canape-super.html)
+    * The CANAPE super class is now calculated and plotted.  [Issue 890](https://github.com/shawnlaffan/biodiverse/issues/890) [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/biodiverse-now-calculates-canape-super.html)
     * Indices for the Hurlbert species richness estimator are now available.  The set of sample numbers may be changed or made more flexible in the future.  [Implementation is under issue 871](https://github.com/shawnlaffan/biodiverse/issues/871).
     * The phylogenetic and range weighted turnover indices are now faster, particularly when used in pairwise mode such as when building a cluster matrix.
   * GUI
