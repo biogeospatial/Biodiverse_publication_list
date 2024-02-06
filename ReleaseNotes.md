@@ -58,7 +58,8 @@ Main changes:
     * A basedata can be trimmed using another basedata (previously only matrices and trees could be used).  The basedata trimming interface has been streamlined as part of this process.  [Issue 880](https://github.com/shawnlaffan/biodiverse/issues/880).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/trimming-basedatas-has-been-generalised.html)
     * The tree being displayed in any of the visualisation tabs can now be exported.  [Issue 902](https://github.com/shawnlaffan/biodiverse/issues/902).
     * Trees can be plotted by depth across all visualisation tabs.  [Issue 906](https://github.com/shawnlaffan/biodiverse/issues/906).  
-    * The tree plot control menu options are now a separate submenu.  [Issue 905](https://github.com/shawnlaffan/biodiverse/issues/905).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/map-side-menu-tree-plot-controls-are.html)  
+    * The tree plot control menu options are now a separate submenu.  [Issue 905](https://github.com/shawnlaffan/biodiverse/issues/905).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/map-side-menu-tree-plot-controls-are.html)
+    * Better colour schemes are now used by default when plotting indices that are zero-centred divergent and ratio based.  [Issue 820](https://github.com/shawnlaffan/biodiverse/issues/820) _Blog post pending_.
     * Spatial tab
       * Tree branches can be coloured using list indices from any spatial output in the project.  [Issue 833](https://github.com/shawnlaffan/biodiverse/issues/833).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/tree-panels-colour-tree-using-any-list.html)  
 
