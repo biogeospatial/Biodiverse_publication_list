@@ -69,7 +69,7 @@ They also assume you are using a standard user account, and are accessing Biodiv
   ## cpanm Panda::Lib
   cpanm Data::Recursive
   ##  Biodiverse::Utils is not yet on cpan
-  cpanm http://www.biodiverse.unsw.edu.au/downloads/Biodiverse-Utils-1.06.tar.gz
+  cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.09/Biodiverse-Utils-1.09.tar.gz
 
   ##  if the above command fails with an error 
   #   regarding curl and libffi then use your
