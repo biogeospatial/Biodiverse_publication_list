@@ -54,7 +54,7 @@ _DO NOT USE A PATH WITH SPACES IN IT_.  This causes problems with the batch file
 
   :: Faster utils, don't worry if the installs fail (possible for Data::Recursive)
   cpanm List::MoreUtils::XS
-  cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.08/Biodiverse-Utils-1.08.tar.gz
+  cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.09/Biodiverse-Utils-1.09.tar.gz
   cpanm Data::Recursive
 
   :: Now install the rest of the dependencies.  
