@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M., Barrett, R.L., et al. (in press) Spatial heterogeneity of neo- and paleo-endemism for plants in Madagascar.  [Current Biology](https://doi.org/10.1016/j.cub.2024.02.023).
+
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
 
   * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://doi.org/10.1163/22244662-bja10072).
