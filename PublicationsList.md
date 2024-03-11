@@ -13,10 +13,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, doi:10.1080/12298093.2023.2297485](10.1080/12298093.2023.2297485).
-
-  * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
-
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
 
   * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://doi.org/10.1163/22244662-bja10072).
@@ -30,6 +26,12 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R., Soltis, P.S., Soltis, D.E., Guralnick, R.P. and Belitz, M. (preprint) Spatial phylogenetics of Fagales: Investigating the history of temperate forests. [bioRxiv](https://doi.org/10.1101/2023.04.17.537249). 
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M. et al. (preprint) Phylogenetic diversity and regionalization in the temperate arid zone. [bioRxiv 2023.11.01.565216](https://doi.org/10.1101/2023.11.01.565216). 
+
+#### 2024 ####
+
+  * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, 52, 13-29](https://doi.org/10.1080/12298093.2023.2297485).
+
+  * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
 #### 2023 ####
 
