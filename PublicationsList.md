@@ -35,6 +35,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### 2024 ####
 
+  *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (2024). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science, 64, 225-243](https://doi.org/10.1002/csc2.21143).
+
   * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, 52, 13-29](https://doi.org/10.1080/12298093.2023.2297485).
 
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
@@ -66,8 +68,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * González-Orozco, C., Osorio-Guarín, J., & Yockteng, R. (2023). Phylogenetic diversity of cacao (Theobroma cacao L.) genotypes in Colombia. [Plant Genetic Resources, 20, 203-214](https://doi.org/10.1017/S1479262123000047).
 
   * González-Orozco, C.E. & Parra-Quijano, M. (2023) Comparing species and evolutionary diversity metrics to inform conservation. [Diversity and Distributions, 29, 224-231](https://doi.org/10.1111/ddi.13660).
-
-  *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (2024). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science, 64, 225-243](https://doi.org/10.1002/csc2.21143).
 
   * Guo, WY., Serra-Diaz, J.M., Eiserhardt, W.L. et al. (2023) Climate change and land use threaten global hotspots of phylogenetic endemism for trees. [Nature Communications, 14, 6950](https://doi.org/10.1038/s41467-023-42671-y).
 
