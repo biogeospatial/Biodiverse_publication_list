@@ -17,14 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
 
-  * López-Pérez, J.D., Zamudio, S., Munguía-Lino, G. & Rodríguez, A. (2024) Species richness, geographic distribution and endemism of Pinguicula (Lentibulariaceae) in the Mexican Transition Zone. [Phytotaxa, 641, 31-46](https://doi.org/10.11646/phytotaxa.641.1.3).
-
-  * Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M., Barrett, R.L., et al. (in press) Spatial heterogeneity of neo- and paleo-endemism for plants in Madagascar.  [Current Biology](https://doi.org/10.1016/j.cub.2024.02.023).
-
-  * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (in press) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity](https://doi.org/10.1016/j.pld.2023.11.004).
-
-  * Volis, S. and Tojibaev, K. (in press) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution](https://doi.org/10.1163/22244662-bja10072).
-
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
 
 #### preprints ####
@@ -41,7 +33,16 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, 52, 13-29](https://doi.org/10.1080/12298093.2023.2297485).
 
+  * López-Pérez, J.D., Zamudio, S., Munguía-Lino, G. & Rodríguez, A. (2024) Species richness, geographic distribution and endemism of Pinguicula (Lentibulariaceae) in the Mexican Transition Zone. [Phytotaxa, 641, 31-46](https://doi.org/10.11646/phytotaxa.641.1.3).
+
+  * Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M., Barrett, R.L., et al. (2024) Spatial heterogeneity of neo- and paleo-endemism for plants in Madagascar.  [Current Biology, 34, 1271-1283.e4](https://doi.org/10.1016/j.cub.2024.02.023).
+
+  * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
+
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
+
+  * Volis, S. and Tojibaev, K. (2024) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution, 70, 84–93](https://doi.org/10.1163/22244662-bja10072).
+
 
 #### 2023 ####
 
