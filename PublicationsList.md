@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  *  Folk, R. A., Siniscalchi, C. M., Doby, J., Kates, H. R., Manchester, S. R., Soltis, P. S., Soltis, D. E., Guralnick, R. P., & Belitz, M. (in press). Spatial phylogenetics of Fagales: Investigating drivers of temperate forest distributions. [Journal of Biogeography](https://doi.org/10.1111/jbi.14840).
+
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
 
   * López-Pérez, J.D., Zamudio, S., Munguía-Lino, G. & Rodríguez, A. (2024) Species richness, geographic distribution and endemism of Pinguicula (Lentibulariaceae) in the Mexican Transition Zone. [Phytotaxa, 641, 31-46](https://doi.org/10.11646/phytotaxa.641.1.3).
