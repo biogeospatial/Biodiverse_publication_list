@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Pinedo-Escatel, J.A., Dietrich, C.H., Aragon-Parada, J. (2024). Natural History Collections as Resources for Assessing Biodiversity Hotspots and Insect Declines: Case Studies, Opportunities, and Challenges. In: León-Cortés, J.L., Córdoba-Aguilar, A. (eds) [Insect Decline and Conservation in the Neotropics. Springer, Cham](https://doi.org/10.1007/978-3-031-49255-6_14). 
+
   * Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. et al. (2024) Richness, distribution, and endemism of neotropical subtribe Ponerinae (Orchidaceae, Epidendreae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-024-01005-y).
 
   *  Folk, R. A., Siniscalchi, C. M., Doby, J., Kates, H. R., Manchester, S. R., Soltis, P. S., Soltis, D. E., Guralnick, R. P., & Belitz, M. (in press). Spatial phylogenetics of Fagales: Investigating drivers of temperate forest distributions. [Journal of Biogeography](https://doi.org/10.1111/jbi.14840).
