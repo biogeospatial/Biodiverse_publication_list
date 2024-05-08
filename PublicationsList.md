@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (in press), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology](https://doi.org/10.1111/jzo.13173).
 
-  * Pinedo-Escatel, J.A., Dietrich, C.H., Aragon-Parada, J. (2024). Natural History Collections as Resources for Assessing Biodiversity Hotspots and Insect Declines: Case Studies, Opportunities, and Challenges. In: León-Cortés, J.L., Córdoba-Aguilar, A. (eds) [Insect Decline and Conservation in the Neotropics. Springer, Cham](https://doi.org/10.1007/978-3-031-49255-6_14). 
-
   * Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. et al. (2024) Richness, distribution, and endemism of neotropical subtribe Ponerinae (Orchidaceae, Epidendreae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-024-01005-y).
 
   *  Folk, R. A., Siniscalchi, C. M., Doby, J., Kates, H. R., Manchester, S. R., Soltis, P. S., Soltis, D. E., Guralnick, R. P., & Belitz, M. (in press). Spatial phylogenetics of Fagales: Investigating drivers of temperate forest distributions. [Journal of Biogeography](https://doi.org/10.1111/jbi.14840).
@@ -46,6 +44,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * López-Pérez, J.D., Zamudio, S., Munguía-Lino, G. & Rodríguez, A. (2024) Species richness, geographic distribution and endemism of Pinguicula (Lentibulariaceae) in the Mexican Transition Zone. [Phytotaxa, 641, 31-46](https://doi.org/10.11646/phytotaxa.641.1.3).
 
   * Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M., Barrett, R.L., et al. (2024) Spatial heterogeneity of neo- and paleo-endemism for plants in Madagascar.  [Current Biology, 34, 1271-1283.e4](https://doi.org/10.1016/j.cub.2024.02.023).
+
+  * Pinedo-Escatel, J.A., Dietrich, C.H., Aragon-Parada, J. (2024). Natural History Collections as Resources for Assessing Biodiversity Hotspots and Insect Declines: Case Studies, Opportunities, and Challenges. pp275–299 in León-Cortés, J.L., Córdoba-Aguilar, A. (eds) [Insect Decline and Conservation in the Neotropics. Springer, Cham](https://doi.org/10.1007/978-3-031-49255-6_14). 
 
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
 
