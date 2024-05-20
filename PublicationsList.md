@@ -15,8 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
-  *  Flores-Tolentino, M., Villaseñor, J.L., Ibarra-Manríquez, G., Rodríguez, R.R., Morales-Linares, J. & Dorado, Ó. (2024) The use of ecological niche models improves biogeographic regionalization of the Balsas Depression, Mexico. [Journal of Vegetation Science, 35, e13261](https://doi.org/10.1111/jvs.13261). 
-
   * Sánchez-Romero, A., & Aragón-Parada, J. (in press). Species richness, endemism and extinction risk evaluation of genus Bursera (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3467). 
 
   * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (in press), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology](https://doi.org/10.1111/jzo.13173).
@@ -40,6 +38,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M. et al. (preprint) Phylogenetic diversity and regionalization in the temperate arid zone. [bioRxiv 2023.11.01.565216](https://doi.org/10.1101/2023.11.01.565216). 
 
 #### 2024 ####
+
+  *  Flores-Tolentino, M., Villaseñor, J.L., Ibarra-Manríquez, G., Rodríguez, R.R., Morales-Linares, J. & Dorado, Ó. (2024) The use of ecological niche models improves biogeographic regionalization of the Balsas Depression, Mexico. [Journal of Vegetation Science, 35, e13261](https://doi.org/10.1111/jvs.13261). 
 
   *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (2024). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science, 64, 225-243](https://doi.org/10.1002/csc2.21143).
 
