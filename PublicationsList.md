@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Hazzi, N. and Hormiga, G. 2024. Systematics, distribution patterns and historical biogeography of the Central America wandering spider genus Kiekie Polotow & Brescovit, 2018 (Araneae: Ctenidae). [PeerJ, 12:e17242](https://doi.org/10.7717/peerj.17242).
+
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
   * Sánchez-Romero, A., & Aragón-Parada, J. (in press). Species richness, endemism and extinction risk evaluation of genus Bursera (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3467). 
