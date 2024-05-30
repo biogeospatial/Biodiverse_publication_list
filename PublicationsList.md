@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (in press), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology](https://doi.org/10.1111/jzo.13173).
 
-  * Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. et al. (2024) Richness, distribution, and endemism of neotropical subtribe Ponerinae (Orchidaceae, Epidendreae). [Brazilian Journal of Botany](https://doi.org/10.1007/s40415-024-01005-y).
-
   *  Folk, R. A., Siniscalchi, C. M., Doby, J., Kates, H. R., Manchester, S. R., Soltis, P. S., Soltis, D. E., Guralnick, R. P., & Belitz, M. (in press). Spatial phylogenetics of Fagales: Investigating drivers of temperate forest distributions. [Journal of Biogeography](https://doi.org/10.1111/jbi.14840).
 
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
@@ -39,9 +37,11 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### 2024 ####
 
-  *  Flores-Tolentino, M., Villaseñor, J.L., Ibarra-Manríquez, G., Rodríguez, R.R., Morales-Linares, J. & Dorado, Ó. (2024) The use of ecological niche models improves biogeographic regionalization of the Balsas Depression, Mexico. [Journal of Vegetation Science, 35, e13261](https://doi.org/10.1111/jvs.13261). 
+  * Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. et al. (2024) Richness, distribution, and endemism of neotropical subtribe Ponerinae (Orchidaceae, Epidendreae). [Brazilian Journal of Botany, 47, 501–517](https://doi.org/10.1007/s40415-024-01005-y).
 
-  *  González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (2024). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science, 64, 225-243](https://doi.org/10.1002/csc2.21143).
+  * Flores-Tolentino, M., Villaseñor, J.L., Ibarra-Manríquez, G., Rodríguez, R.R., Morales-Linares, J. & Dorado, Ó. (2024) The use of ecological niche models improves biogeographic regionalization of the Balsas Depression, Mexico. [Journal of Vegetation Science, 35, e13261](https://doi.org/10.1111/jvs.13261). 
+
+  * González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (2024). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science, 64, 225-243](https://doi.org/10.1002/csc2.21143).
 
   * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, 52, 13-29](https://doi.org/10.1080/12298093.2023.2297485).
 
