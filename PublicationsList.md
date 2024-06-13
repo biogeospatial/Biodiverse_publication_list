@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Li, Y., Liu, F., Zhou, Y. et al. Large-scale geographic patterns and environmental and anthropogenic drivers of wetland plant diversity in the Qinghai-Tibet Plateau (2024). [BMC Ecology and Evolution, 24, 74](https://doi.org/10.1186/s12862-024-02263-w). 
+
   * Mikryukov, V., Abarenkov, K., Laffan, S. et al. (2024) PhyloNext: a pipeline for phylogenetic diversity analysis of GBIF-mediated data. [BMC Ecology and Evolution, 24, 76](https://doi.org/10.1186/s12862-024-02256-9). 
 
   * Machado, V. R., Pereira, M. J. R., Tirelli, F. P., Bennet, D., & Ferrari, A. (2024). Endemism and regionalization of Neotropical mammals: a multi-taxon analysis. [Journal of Mammalogy, gyae055](https://doi.org/10.1093/jmammal/gyae055). 
