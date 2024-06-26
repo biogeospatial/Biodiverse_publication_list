@@ -19,8 +19,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Machado, V. R., Pereira, M. J. R., Tirelli, F. P., Bennet, D., & Ferrari, A. (2024). Endemism and regionalization of Neotropical mammals: a multi-taxon analysis. [Journal of Mammalogy, gyae055](https://doi.org/10.1093/jmammal/gyae055). 
 
-  * Hazzi, N. and Hormiga, G. 2024. Systematics, distribution patterns and historical biogeography of the Central America wandering spider genus Kiekie Polotow & Brescovit, 2018 (Araneae: Ctenidae). [PeerJ, 12:e17242](https://doi.org/10.7717/peerj.17242).
-
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
   * Sánchez-Romero, A., & Aragón-Parada, J. (in press). Species richness, endemism and extinction risk evaluation of genus Bursera (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3467). 
@@ -48,6 +46,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Flores-Tolentino, M., Villaseñor, J.L., Ibarra-Manríquez, G., Rodríguez, R.R., Morales-Linares, J. & Dorado, Ó. (2024) The use of ecological niche models improves biogeographic regionalization of the Balsas Depression, Mexico. [Journal of Vegetation Science, 35, e13261](https://doi.org/10.1111/jvs.13261). 
 
   * González-Orozco, C. E., Reyes-Herrera, P. H., Sosa, C. C., Torres, R. T., Manrique-Carpintero, N. C., Lasso-Paredes, Z., Cerón-Souza, I. and Yockteng, R. (2024). Wild relatives of potato (_Solanum_ L. sec. _Petota_) poorly sampled and unprotected in Colombia. [Crop Science, 64, 225-243](https://doi.org/10.1002/csc2.21143).
+
+  * Hazzi, N. and Hormiga, G. 2024. Systematics, distribution patterns and historical biogeography of the Central America wandering spider genus _Kiekie_ Polotow & Brescovit, 2018 (Araneae: Ctenidae). [PeerJ, 12:e17242](https://doi.org/10.7717/peerj.17242).
 
   * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, 52, 13-29](https://doi.org/10.1080/12298093.2023.2297485).
 
