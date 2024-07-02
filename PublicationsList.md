@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of Dalea species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
+
   * Li, Y., Liu, F., Zhou, Y. et al. (2024) Large-scale geographic patterns and environmental and anthropogenic drivers of wetland plant diversity in the Qinghai-Tibet Plateau. [BMC Ecology and Evolution, 24, 74](https://doi.org/10.1186/s12862-024-02263-w). 
 
   * Mikryukov, V., Abarenkov, K., Laffan, S. et al. (2024) PhyloNext: a pipeline for phylogenetic diversity analysis of GBIF-mediated data. [BMC Ecology and Evolution, 24, 76](https://doi.org/10.1186/s12862-024-02256-9). 
