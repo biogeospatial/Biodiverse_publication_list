@@ -16,7 +16,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
 
   * Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. and Deng, T. (2024) _Oncocyclus_ irises: phylogeny, evolutionary history and revised taxonomy based on complete chloroplast genome sequences
-[Plant Diversity of Central Asia, 3, 1-66](https://www.researchgate.net/profile/Sergei-Volis/publication/381924668_Oncocyclus_irises_phylogeny_evolutionary_history_and_revised_taxonomy_based_on_complete_chloroplast_genome_sequences/links/6684f6842aa57f3b8268e719/Oncocyclus-irises-phylogeny-evolutionary-history-and-revised-taxonomy-based-on-complete-chloroplast-genome-sequences.pdf).
+[Plant Diversity of Central Asia, 3, 1-66](https://pdca.uz//archives/article/home.php?publicationid=36).
 
   * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of Dalea species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
 
