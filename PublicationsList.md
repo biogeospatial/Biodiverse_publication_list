@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Yao, R., Gao, J., Heinrich, M., Yu, S., Xue, T., et al. (2024) Medicinal plants used by minority ethnic groups in China: Taxonomic diversity and conservation needs. [Journal of Ethnopharmacology, 334, 118573](https://doi.org/10.1016/j.jep.2024.118573).
+
   * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
 
   * Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. and Deng, T. (2024) _Oncocyclus_ irises: phylogeny, evolutionary history and revised taxonomy based on complete chloroplast genome sequences
