@@ -17,16 +17,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
 
-  * Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. and Deng, T. (2024) _Oncocyclus_ irises: phylogeny, evolutionary history and revised taxonomy based on complete chloroplast genome sequences
-[Plant Diversity of Central Asia, 3, 1-66](https://pdca.uz//archives/article/home.php?publicationid=36).
-
-  * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of Dalea species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
-
-  * Li, Y., Liu, F., Zhou, Y. et al. (2024) Large-scale geographic patterns and environmental and anthropogenic drivers of wetland plant diversity in the Qinghai-Tibet Plateau. [BMC Ecology and Evolution, 24, 74](https://doi.org/10.1186/s12862-024-02263-w). 
-
-  * Mikryukov, V., Abarenkov, K., Laffan, S. et al. (2024) PhyloNext: a pipeline for phylogenetic diversity analysis of GBIF-mediated data. [BMC Ecology and Evolution, 24, 76](https://doi.org/10.1186/s12862-024-02256-9). 
-
-  * Machado, V. R., Pereira, M. J. R., Tirelli, F. P., Bennet, D., & Ferrari, A. (2024). Endemism and regionalization of Neotropical mammals: a multi-taxon analysis. [Journal of Mammalogy, gyae055](https://doi.org/10.1093/jmammal/gyae055). 
+  * Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. and Deng, T. (2024) _Oncocyclus_ irises: phylogeny, evolutionary history and revised taxonomy based on complete chloroplast genome sequences [Plant Diversity of Central Asia, 3, 1-66](https://pdca.uz//archives/article/home.php?publicationid=36).
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
@@ -58,7 +49,13 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S. et al. (2024) Improved Understanding of the Macrofungal Diversity of Mongolia: Species Richness, Conservation Status, and An Annotated Checklist. [Mycobiology, 52, 13-29](https://doi.org/10.1080/12298093.2023.2297485).
 
+  * Li, Y., Liu, F., Zhou, Y. et al. (2024) Large-scale geographic patterns and environmental and anthropogenic drivers of wetland plant diversity in the Qinghai-Tibet Plateau. [BMC Ecology and Evolution, 24, 74](https://doi.org/10.1186/s12862-024-02263-w). 
+
   * López-Pérez, J.D., Zamudio, S., Munguía-Lino, G. & Rodríguez, A. (2024) Species richness, geographic distribution and endemism of Pinguicula (Lentibulariaceae) in the Mexican Transition Zone. [Phytotaxa, 641, 31-46](https://doi.org/10.11646/phytotaxa.641.1.3).
+
+  * Machado, V. R., Pereira, M. J. R., Tirelli, F. P., Bennet, D., & Ferrari, A. (2024). Endemism and regionalization of Neotropical mammals: a multi-taxon analysis. [Journal of Mammalogy, gyae055](https://doi.org/10.1093/jmammal/gyae055). 
+
+  * Mikryukov, V., Abarenkov, K., Laffan, S. et al. (2024) PhyloNext: a pipeline for phylogenetic diversity analysis of GBIF-mediated data. [BMC Ecology and Evolution, 24, 76](https://doi.org/10.1186/s12862-024-02256-9). 
 
   * Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M., Barrett, R.L., et al. (2024) Spatial heterogeneity of neo- and paleo-endemism for plants in Madagascar.  [Current Biology, 34, 1271-1283.e4](https://doi.org/10.1016/j.cub.2024.02.023).
 
@@ -67,6 +64,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
 
   * Sánchez-Romero, A., & Aragón-Parada, J. (2024). Species richness, endemism and extinction risk evaluation of genus Bursera (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 102, 796-811](https://doi.org/10.17129/botsci.3467). 
+
+  * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of Dalea species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
 
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
