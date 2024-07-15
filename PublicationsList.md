@@ -30,8 +30,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
-  * Sánchez-Romero, A., & Aragón-Parada, J. (in press). Species richness, endemism and extinction risk evaluation of genus Bursera (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 100](https://doi.org/10.17129/botsci.3467). 
-
   * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (in press), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology](https://doi.org/10.1111/jzo.13173).
 
   *  Folk, R. A., Siniscalchi, C. M., Doby, J., Kates, H. R., Manchester, S. R., Soltis, P. S., Soltis, D. E., Guralnick, R. P., & Belitz, M. (in press). Spatial phylogenetics of Fagales: Investigating drivers of temperate forest distributions. [Journal of Biogeography](https://doi.org/10.1111/jbi.14840).
@@ -67,6 +65,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Pinedo-Escatel, J.A., Dietrich, C.H., Aragon-Parada, J. (2024). Natural History Collections as Resources for Assessing Biodiversity Hotspots and Insect Declines: Case Studies, Opportunities, and Challenges. pp275–299 in León-Cortés, J.L., Córdoba-Aguilar, A. (eds) [Insect Decline and Conservation in the Neotropics. Springer, Cham](https://doi.org/10.1007/978-3-031-49255-6_14). 
 
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
+
+  * Sánchez-Romero, A., & Aragón-Parada, J. (2024). Species richness, endemism and extinction risk evaluation of genus Bursera (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 102, 796-811](https://doi.org/10.17129/botsci.3467). 
 
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
