@@ -29,8 +29,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
 
-  * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2023), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13017). 
-
 #### preprints ####
 
   * Torkkola, J., Hines, H., Chauvenet, A. and Oliver, P. (preprint) Are species richness and endemism hotspots correlated within a biome? A test case in the fire-impacted subtropical rainforests of Australia.  [Research Square](https://doi.org/10.21203/rs.3.rs-4249551/v1).
@@ -72,6 +70,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
   * Volis, S. and Tojibaev, K. (2024) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution, 70, 84–93](https://doi.org/10.1163/22244662-bja10072).
+
+  * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2024), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution, 62, 603-620](https://doi.org/10.1111/jse.13017). 
 
 
 #### 2023 ####
