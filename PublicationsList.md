@@ -64,7 +64,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Sánchez-Romero, A., & Aragón-Parada, J. (2024). Species richness, endemism and extinction risk evaluation of genus _Bursera_ (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 102, 796-811](https://doi.org/10.17129/botsci.3467). 
 
-  * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of Dalea species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
+  * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of _Dalea_ species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
 
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
 
