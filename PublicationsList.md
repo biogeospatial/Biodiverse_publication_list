@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Revollo-Cadima, S.G. and Salazar-Bravo, J. (2024) Identifying areas of conservation importance based on spatial patterns of evolutionary diversity for non-volant small mammals in the Andean Puna.  [Journal of Arid Environments, 224, 105230](https://doi.org/10.1016/j.jaridenv.2024.105230).
+
   * Pérez-Aragón M, Escribano R, Rivera R, Hidalgo P (2024) Biodiversity patterns of epipelagic copepods in the South Pacific Ocean: Strengths and limitations of current data bases. [PLOS ONE 19, e0306440](https://doi.org/10.1371/journal.pone.0306440).
 
   * Yao, R., Gao, J., Heinrich, M., Yu, S., Xue, T., et al. (2024) Medicinal plants used by minority ethnic groups in China: Taxonomic diversity and conservation needs. [Journal of Ethnopharmacology, 334, 118573](https://doi.org/10.1016/j.jep.2024.118573).
