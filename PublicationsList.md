@@ -21,8 +21,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
 
-  * Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. and Deng, T. (2024) _Oncocyclus_ irises: phylogeny, evolutionary history and revised taxonomy based on complete chloroplast genome sequences [Plant Diversity of Central Asia, 3, 1-66](https://pdca.uz//archives/article/home.php?publicationid=36).
-
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
   * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (in press), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology](https://doi.org/10.1111/jzo.13173).
@@ -69,6 +67,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Sandoval-Mata, T. N., Hernández-Sandoval, L., Munguía-Lino, G., Steinmann, V. W., & Delgado-Salinas, A. (2024). Regionalization of the Chihuahuan Desert province based on the distribution of _Dalea_ species (Fabaceae). [Botanical Sciences, 102, 975-994](https://doi.org/10.17129/botsci.3462).
 
   * Saqibi, S., Liu, Y., Ye, J., Omollo, W.O. et al. (2024) Identifying conservation priority areas using spatial phylogenetic approaches in West Himalaya. [Pakistan Journal of Botany, 56](http://pakbs.org/pjbot/papers/1704364741.pdf).
+
+  * Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. and Deng, T. (2024) _Oncocyclus_ irises: phylogeny, evolutionary history and revised taxonomy based on complete chloroplast genome sequences [Plant Diversity of Central Asia, 3, 1-66](https://pdca.uz//archives/article/home.php?publicationid=36).
 
   * Volis, S. and Tojibaev, K. (2024) Comparison of maps of species richness and endemism produced directly from species occurrences with those produced by stacked species distribution modelling.  [Israel Journal of Ecology and Evolution, 70, 84–93](https://doi.org/10.1163/22244662-bja10072).
 
