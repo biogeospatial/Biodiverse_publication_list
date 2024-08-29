@@ -13,12 +13,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
-  * Revollo-Cadima, S.G. and Salazar-Bravo, J. (2024) Identifying areas of conservation importance based on spatial patterns of evolutionary diversity for non-volant small mammals in the Andean Puna.  [Journal of Arid Environments, 224, 105230](https://doi.org/10.1016/j.jaridenv.2024.105230).
-
-  * Pérez-Aragón M, Escribano R, Rivera R, Hidalgo P (2024) Biodiversity patterns of epipelagic copepods in the South Pacific Ocean: Strengths and limitations of current data bases. [PLOS ONE 19, e0306440](https://doi.org/10.1371/journal.pone.0306440).
-
-  * Yao, R., Gao, J., Heinrich, M., Yu, S., Xue, T., et al. (2024) Medicinal plants used by minority ethnic groups in China: Taxonomic diversity and conservation needs. [Journal of Ethnopharmacology, 334, 118573](https://doi.org/10.1016/j.jep.2024.118573).
-
   * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
@@ -58,9 +52,13 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M., Barrett, R.L., et al. (2024) Spatial heterogeneity of neo- and paleo-endemism for plants in Madagascar.  [Current Biology, 34, 1271-1283.e4](https://doi.org/10.1016/j.cub.2024.02.023).
 
+  * Pérez-Aragón M, Escribano R, Rivera R, Hidalgo P (2024) Biodiversity patterns of epipelagic copepods in the South Pacific Ocean: Strengths and limitations of current data bases. [PLOS ONE 19, e0306440](https://doi.org/10.1371/journal.pone.0306440).
+
   * Pinedo-Escatel, J.A., Dietrich, C.H., Aragon-Parada, J. (2024). Natural History Collections as Resources for Assessing Biodiversity Hotspots and Insect Declines: Case Studies, Opportunities, and Challenges. pp275–299 in León-Cortés, J.L., Córdoba-Aguilar, A. (eds) [Insect Decline and Conservation in the Neotropics. Springer, Cham](https://doi.org/10.1007/978-3-031-49255-6_14). 
 
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
+
+  * Revollo-Cadima, S.G. and Salazar-Bravo, J. (2024) Identifying areas of conservation importance based on spatial patterns of evolutionary diversity for non-volant small mammals in the Andean Puna.  [Journal of Arid Environments, 224, 105230](https://doi.org/10.1016/j.jaridenv.2024.105230).
 
   * Sánchez-Romero, A., & Aragón-Parada, J. (2024). Species richness, endemism and extinction risk evaluation of genus _Bursera_ (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 102, 796-811](https://doi.org/10.17129/botsci.3467). 
 
@@ -74,6 +72,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Wang, G.-Q., Scherson, R.A., Vera, D., Bai, Y.-H., Wen, J., Guo, L.-Y., Hughes, A.C. and Wang, H.-F. (2024), Spatial patterns and drivers of native plant diversity in Hainan, China. [Journal of Systematics and Evolution, 62, 603-620](https://doi.org/10.1111/jse.13017). 
 
+  * Yao, R., Gao, J., Heinrich, M., Yu, S., Xue, T., et al. (2024) Medicinal plants used by minority ethnic groups in China: Taxonomic diversity and conservation needs. [Journal of Ethnopharmacology, 334, 118573](https://doi.org/10.1016/j.jep.2024.118573).
 
 #### 2023 ####
 
