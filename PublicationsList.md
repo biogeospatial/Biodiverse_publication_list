@@ -23,8 +23,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
-  * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (in press), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology](https://doi.org/10.1111/jzo.13173).
-
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
 
 #### preprints ####
@@ -37,6 +35,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 #### 2024 ####
 
   * Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. et al. (2024) Richness, distribution, and endemism of neotropical subtribe Ponerinae (Orchidaceae, Epidendreae). [Brazilian Journal of Botany, 47, 501–517](https://doi.org/10.1007/s40415-024-01005-y).
+
+  * Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. and Chapple, D.G. (2024), New data and taxonomic changes influence our understanding of biogeographic patterns: A case study in Australian skinks. [Journal of Zoology, 323, 317-330](https://doi.org/10.1111/jzo.13173).
 
   * Flores-Tolentino, M., Villaseñor, J.L., Ibarra-Manríquez, G., Rodríguez, R.R., Morales-Linares, J. & Dorado, Ó. (2024) The use of ecological niche models improves biogeographic regionalization of the Balsas Depression, Mexico. [Journal of Vegetation Science, 35, e13261](https://doi.org/10.1111/jvs.13261). 
 
