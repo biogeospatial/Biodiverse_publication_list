@@ -15,8 +15,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Aragón-Parada, J., Munguía-Lino, G., De-Nova, J.A., Carrillo-Reyes, P., Rodríguez, A. and Salinas-Rodríguez, M.M. (2024) Priority areas for conservation of the vascular flora in the Sierra Madre del Sur, Mexico.  [Biota Neotropica, 24, e20241648](https://doi.org/10.1590/1676-0611-BN-2024-1648).
 
-  * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
-
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
@@ -61,6 +59,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
 
   * Revollo-Cadima, S.G. and Salazar-Bravo, J. (2024) Identifying areas of conservation importance based on spatial patterns of evolutionary diversity for non-volant small mammals in the Andean Puna.  [Journal of Arid Environments, 224, 105230](https://doi.org/10.1016/j.jaridenv.2024.105230).
+
+  * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (2024) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany, 49, 295-317](https://doi.org/10.1600/036364424X17151801116394).
 
   * Sánchez-Romero, A., & Aragón-Parada, J. (2024). Species richness, endemism and extinction risk evaluation of genus _Bursera_ (Burseraceae) in the Baja California Peninsula. [Botanical Sciences, 102, 796-811](https://doi.org/10.17129/botsci.3467). 
 
