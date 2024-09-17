@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Aragón-Parada, J., Munguía-Lino, G., De-Nova, J.A., Carrillo-Reyes, P., Rodríguez, A. and Salinas-Rodríguez, M.M. (2024) Priority areas for conservation of the vascular flora in the Sierra Madre del Sur, Mexico.  [Biota Neotropica, e20241648](https://doi.org/10.1590/1676-0611-BN-2024-1648).
+
   * Rodríguez, A., López-Pérez, H.D. and Munguía-Lino, G. (in press) A New Species of _Tigridia_ and Species Richness and Endemism Distribution of the Tribe Tigridieae (Iridaceae) in the Sierra Madre Del Sur, Mexico. [Systematic Botany](https://www.ingentaconnect.com/content/aspt/sb/pre-prints/content-2300025).
 
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
