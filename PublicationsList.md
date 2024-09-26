@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Urgamal, M., et al. (2024) Species distribution diversity and conservation assessment of Apiaceae in Mongolia. [Plants, 13, 2635](https://doi.org/10.3390/plants13182635).
+
   *  Radbouchoom, S., delos Angeles, M. D., Phutthai, T. & Schneider, H. (in press) Towards zero extinction—a case study focusing on the plant genus _Begonia_ in Thailand. [Integrative Conservation](https://doi.org/10.1002/inc3.67).
 
   * Aragón-Parada, J., Munguía-Lino, G., De-Nova, J.A., Carrillo-Reyes, P., Rodríguez, A. and Salinas-Rodríguez, M.M. (2024) Priority areas for conservation of the vascular flora in the Sierra Madre del Sur, Mexico.  [Biota Neotropica, 24, e20241648](https://doi.org/10.1590/1676-0611-BN-2024-1648).
