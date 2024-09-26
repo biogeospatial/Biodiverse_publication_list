@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   *  Radbouchoom, S., delos Angeles, M. D., Phutthai, T. & Schneider, H. (in press) Towards zero extinction—a case study focusing on the plant genus _Begonia_ in Thailand. [Integrative Conservation](https://doi.org/10.1002/inc3.67).
 
-  * Aragón-Parada, J., Munguía-Lino, G., De-Nova, J.A., Carrillo-Reyes, P., Rodríguez, A. and Salinas-Rodríguez, M.M. (2024) Priority areas for conservation of the vascular flora in the Sierra Madre del Sur, Mexico.  [Biota Neotropica, 24, e20241648](https://doi.org/10.1590/1676-0611-BN-2024-1648).
-
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
@@ -31,6 +29,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 
 #### 2024 ####
+
+  * Aragón-Parada, J., Munguía-Lino, G., De-Nova, J.A., Carrillo-Reyes, P., Rodríguez, A. and Salinas-Rodríguez, M.M. (2024) Priority areas for conservation of the vascular flora in the Sierra Madre del Sur, Mexico.  [Biota Neotropica, 24, e20241648](https://doi.org/10.1590/1676-0611-BN-2024-1648).
 
   * Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. et al. (2024) Richness, distribution, and endemism of neotropical subtribe Ponerinae (Orchidaceae, Epidendreae). [Brazilian Journal of Botany, 47, 501–517](https://doi.org/10.1007/s40415-024-01005-y).
 
