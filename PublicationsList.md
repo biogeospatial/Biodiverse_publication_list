@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Ali, M., et al. (2024) A multifaceted approach to expanding conservation efforts in the Pan-Himalayan landscape.  [Journal of Cleaner Production, 476, 143783](https://doi.org/10.1016/j.jclepro.2024.143783).
+
   * Urgamal, M., et al. (2024) Species distribution diversity and conservation assessment of Apiaceae in Mongolia. [Plants, 13, 2635](https://doi.org/10.3390/plants13182635).
 
   *  Radbouchoom, S., delos Angeles, M. D., Phutthai, T. & Schneider, H. (in press) Towards zero extinction—a case study focusing on the plant genus _Begonia_ in Thailand. [Integrative Conservation](https://doi.org/10.1002/inc3.67).
