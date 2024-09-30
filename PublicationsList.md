@@ -17,8 +17,6 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
   * Urgamal, M., et al. (2024) Species distribution diversity and conservation assessment of Apiaceae in Mongolia. [Plants, 13, 2635](https://doi.org/10.3390/plants13182635).
 
-  *  Radbouchoom, S., delos Angeles, M. D., Phutthai, T. & Schneider, H. (in press) Towards zero extinction—a case study focusing on the plant genus _Begonia_ in Thailand. [Integrative Conservation](https://doi.org/10.1002/inc3.67).
-
   * Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis, D.E., Soltis, P.S., Belitz, M.B. and Guralnick, R.P. (in press), Phylogenetic diversity and regionalization in the temperate arid zone. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13077).
 
   * Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham, S.S. and Delfini, C. (2024), Spatial phylogenetics of grasses in the Southern Cone provides insights into ecology and evolution of the family in South America. [Journal of Systematics and Evolution](https://doi.org/10.1111/jse.13067).
@@ -61,6 +59,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
   * Pérez-Aragón M, Escribano R, Rivera R, Hidalgo P (2024) Biodiversity patterns of epipelagic copepods in the South Pacific Ocean: Strengths and limitations of current data bases. [PLOS ONE 19, e0306440](https://doi.org/10.1371/journal.pone.0306440).
 
   * Pinedo-Escatel, J.A., Dietrich, C.H., Aragon-Parada, J. (2024). Natural History Collections as Resources for Assessing Biodiversity Hotspots and Insect Declines: Case Studies, Opportunities, and Challenges. pp275–299 in León-Cortés, J.L., Córdoba-Aguilar, A. (eds) [Insect Decline and Conservation in the Neotropics. Springer, Cham](https://doi.org/10.1007/978-3-031-49255-6_14). 
+
+  *  Radbouchoom, S., delos Angeles, M. D., Phutthai, T. & Schneider, H. (2024) Towards zero extinction—a case study focusing on the plant genus _Begonia_ in Thailand. [Integrative Conservation, 3, 244-256](https://doi.org/10.1002/inc3.67).
 
   * Qian, H., Mishler, B.D., Zhang, J. and Qian, S. (2024) Global patterns and ecological drivers of taxonomic and phylogenetic endemism in angiosperm genera.  [Plant Diversity, 46, 149-157](https://doi.org/10.1016/j.pld.2023.11.004).
 
