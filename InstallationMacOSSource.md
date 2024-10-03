@@ -40,7 +40,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
    ```sh
    \curl -L https://install.perlbrew.pl | bash
    ```
-2. Install the version of perl that Biodiverse requires and then use it (must be higher than 5.22):
+2. Install the version of perl that Biodiverse requires and then use it (must be at least 5.36):
    ```sh
    ~/perl5/perlbrew/bin/perlbrew install --noman perl-5.36.1
    #  if there are "no symbol" test failures in libperl.t then skip the tests
@@ -89,7 +89,7 @@ perlbrew is an admin-free perl installation management tool. It can be used to i
     # Some utility functions that make processing faster. These are not critical so ignore them if there are installation errors.  
     # The first one might need an update to cpanm for it to access the file.
     cpanm LWP::Protocol::https
-    cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.09/Biodiverse-Utils-1.09.tar.gz
+    cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.11/Biodiverse-Utils-1.11.tar.gz
     cpanm Data::Recursive
 
 
