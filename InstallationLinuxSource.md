@@ -2,7 +2,7 @@ These instructions apply to version 2.99_001 and later.
 
 Note that they have been tested on Ubuntu 16.  The package manager will differ for other Linux flavours, but the cpan command will be the same.
 
-These also assume you have [downloaded](https://github.com/shawnlaffan/biodiverse/wiki/Downloads) the Biodiverse source code to your home directory and renamed it from whatever it was, e.g. `biodiverse_0.19_source`, to `biodiverse`.  If you have saved it somewhere else then you will need to adjust the following so any references to `$HOME/biodiverse/lib` use the appropriate directory.
+These also assume you have [downloaded](https://github.com/shawnlaffan/biodiverse/wiki/Downloads) the Biodiverse source code to your home directory and renamed it from whatever it was, e.g. `biodiverse_4.99_source`, to `biodiverse`.  If you have saved it somewhere else then you will need to adjust the following so any references to `$HOME/biodiverse/lib` use the appropriate directory.
 
 **Table of contents:**
 * [Installation](#installation)
@@ -64,7 +64,7 @@ These also assume you have [downloaded](https://github.com/shawnlaffan/biodivers
   ## cpanm Panda::Lib
   cpanm Data::Recursive
   ##  Biodiverse::Utils is not yet on cpan
-  cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.09/Biodiverse-Utils-1.09.tar.gz
+  cpanm https://github.com/shawnlaffan/biodiverse-utils/releases/download/v1.11/Biodiverse-Utils-1.11.tar.gz
   
 
 ```
