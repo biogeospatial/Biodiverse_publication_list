@@ -13,6 +13,8 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 
 #### in press/recent ####
 
+  * Ruiz-Flores, S. I. y A. Castro-Castro. 2024. Distribución, riqueza, endemismo y conservación del género _Dasylirion_ (Asparagaceae, Convallarioideae). [Acta Botanica Mexicana, 131, e2367](https://doi.org/10.21829/abm131.2024.2367).
+
   * Ali, M., et al. (2024) A multifaceted approach to expanding conservation efforts in the Pan-Himalayan landscape.  [Journal of Cleaner Production, 476, 143783](https://doi.org/10.1016/j.jclepro.2024.143783).
 
   * Urgamal, M., et al. (2024) Species distribution diversity and conservation assessment of Apiaceae in Mongolia. [Plants, 13, 2635](https://doi.org/10.3390/plants13182635).
