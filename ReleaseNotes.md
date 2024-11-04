@@ -60,6 +60,7 @@ Main changes:
     * Trees can be plotted by depth across all visualisation tabs.  [Issue 906](https://github.com/shawnlaffan/biodiverse/issues/906).  
     * The tree plot control menu options are now a separate submenu.  [Issue 905](https://github.com/shawnlaffan/biodiverse/issues/905).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/map-side-menu-tree-plot-controls-are.html)
     * Better colour schemes are now used by default when plotting indices that are zero-centred divergent and ratio based.  [Issue 820](https://github.com/shawnlaffan/biodiverse/issues/820) _Blog post pending_.
+    * Polygon overlays can now be plotted as colid fills, and overlays can be plotted under the cells.  [Issue 891](https://biodiverse-analysis-software.blogspot.com/2024/11/gui-polygon-overlays-and-underlays.html).
     * Spatial tab
       * Tree branches can be coloured using list indices from any spatial output in the project.  [Issue 833](https://github.com/shawnlaffan/biodiverse/issues/833).  [Blog post](https://biodiverse-analysis-software.blogspot.com/2024/02/tree-panels-colour-tree-using-any-list.html)  
 
