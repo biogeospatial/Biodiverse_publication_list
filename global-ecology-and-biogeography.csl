@@ -94,7 +94,11 @@
   </citation>
   <bibliography hanging-indent="true" entry-spacing="0">
     <sort>
-      <key variable="issued" sort="descending"/>
+    <!-- Group "in press" entries first -->
+    <key variable="status" match="in-press" sort="ascending"/>
+    <!-- Group "preprints" entries next -->
+    <key variable="note" match="preprint" sort="ascending"/>
+    <!-- Sort the rest by year (newest to oldest) -->
       <key macro="author"/>
       <key variable="title"/>
     </sort>
