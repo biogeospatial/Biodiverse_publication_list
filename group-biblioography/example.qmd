@@ -1,0 +1,11 @@
+---
+title: "Group-biblio Example"
+filters:
+  - group-biblio
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+
