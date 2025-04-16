@@ -1,0 +1,10 @@
+---
+title: Publication List
+bibliography: publication-list-biodiverse.bib
+csl: global-ecology-and-biogeography.csl
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::
