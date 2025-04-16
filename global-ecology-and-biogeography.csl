@@ -94,12 +94,15 @@
   </citation>
   <bibliography hanging-indent="true" entry-spacing="0">
     <sort>
-    <!-- Group "in press" entries first -->
-    <key variable="status" match="in-press" sort="ascending"/>
-    <!-- Group "preprints" entries next -->
-    <key variable="note" match="preprint" sort="ascending"/>
-    <!-- Sort the rest by year (newest to oldest) -->
+      <!-- Sort by 'status' field, prioritizing "in-press" -->
+      <key variable="status" sort="ascending"/>
+      <!-- Sort by 'note' field, prioritizing "preprint" -->
+      <key variable="note" sort="ascending"/>
+      <!-- Sort the rest by year (newest to oldest) -->
+      <key macro="year-date" sort="descending"/>
+      <!-- Sort alphabetically by author -->
       <key macro="author"/>
+      <!-- Sort alphabetically by title -->
       <key variable="title"/>
     </sort>
     <layout suffix=".">
@@ -107,6 +110,12 @@
       <date variable="issued" prefix=" (" suffix=")">
         <date-part name="year"/>
       </date>
+       <!-- Add note after the year -->
+       <choose>
+        <if variable="note">
+          <text variable="note" prefix=" (" suffix=")"/>
+        </if>
+      </choose>
       <choose>
         <if type="bill book graphic legal_case legislation motion_picture report song" match="any">
           <group delimiter=" " prefix=" ">

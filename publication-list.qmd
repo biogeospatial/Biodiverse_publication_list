@@ -2,8 +2,6 @@
 title: Publication List
 bibliography: publication-list-biodiverse.bib
 csl: global-ecology-and-biogeography.csl
-filters:
-  - filters/group-bibliography.lua
 nocite: |
   @*
 ---
