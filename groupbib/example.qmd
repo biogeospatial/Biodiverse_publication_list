@@ -1,0 +1,15 @@
+---
+title: "Groupbib Example"
+filters:
+  - groupbib
+csl: _extensions/global-ecology-and-biogeography.csl
+bibliography: _extensions/example.bib
+nocite: |
+  @*
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+
