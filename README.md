@@ -11,7 +11,7 @@ This `publication-list-biodiverse.bib` file was generated from using the `publis
 
 The workflow for future publications repository is as follows:
 
-1. Manually update the publication-list-biodiverse.bib, this does not need to be in any specific order. This step can also be automated in the future.
+1. Manually update the publication-list-biodiverse.bib, this does not need to be in any specific order. This step can also be automated in the future.  Issue #2
 
 2. Using the `publication-list.qmd`, we can generate a .html of publication list.  Behind the scenes, Quarto uses pandoc to convert the .qmd file to .html. 
 
