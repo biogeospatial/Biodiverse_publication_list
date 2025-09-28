@@ -70,10 +70,24 @@ doi_url_base = "https://doi.org/"
 
 # Collect all BibTeX entries into one file
 
+
+# track_file = os.path.join(output_dir, "tracking_all_entries.txt")
+
+# # Read already tracked DOIs (if file exists)
+# if os.path.exists(track_file):
+#     with open(track_file, "r", encoding="utf-8") as f:
+#         tracked_dois = set(line.strip() for line in f)
+# else:
+#     tracked_dois = set()
+
 bibtex_entries = []
 curr_progress_count = 0
 
 for doi in dois:
+    # if doi in tracked_dois:
+    #     print(f"Skipping already tracked DOI {doi}")
+    #     continue  # skip this DOI
+
     try:
         response = requests.get(
             doi_url_base + doi, headers={"Accept": "application/x-bibtex"}
