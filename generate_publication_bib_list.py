@@ -12,7 +12,7 @@ print("Current Working Directory:", current_directory)
 file_path = "PublicationsList.md"
 
 # Define output directory for BibTeX files
-output_dir = os.path.join(current_directory, "generated_bib_lists")
+output_dir = os.path.join(current_directory)
 os.makedirs(output_dir, exist_ok=True)
 
 # Read the markdown file
@@ -69,19 +69,55 @@ doi_url_base = "https://doi.org/"
 #         print(f"Failed to parse BibTeX for {doi}: {e}")
 
 # Collect all BibTeX entries into one file
+
 bibtex_entries = []
+curr_progress_count = 0
+
 for doi in dois:
     try:
         response = requests.get(
             doi_url_base + doi, headers={"Accept": "application/x-bibtex"}
         )
         response.raise_for_status()
-        bibtex_entries.append(response.text)
+        raw_entry = response.text.strip()
+
+        # Extract the entry type and ID
+        m = re.match(r"@(\w+)\s*{\s*([^,]+),", raw_entry)
+        if m:
+            entry_type = m.group(1)
+            entry_id = m.group(2)
+        else:
+            entry_type = "article"
+            entry_id = doi.replace("/", "_")
+
+        # Extract fields
+        fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"]', raw_entry)
+
+        # Lowercase keys and format nicely
+        field_lines = []
+        for key, value in fields:
+            key = key.lower()
+            field_lines.append(f"  {key:<10}= {{{value}}},")
+
+        # Remove trailing comma from last field
+        if field_lines:
+            field_lines[-1] = field_lines[-1].rstrip(",")
+
+        # Combine into formatted entry
+        formatted_entry = (
+            f"@{entry_type}{{{entry_id},\n" + "\n".join(field_lines) + "\n}"
+        )
+        bibtex_entries.append(formatted_entry)
+
+        curr_progress_count += 1
+        print(f"Processed DOI {doi} [{curr_progress_count}/{len(dois)}]")
+
     except requests.exceptions.RequestException as e:
         print(f"Failed to retrieve BibTeX for {doi}: {e}")
 
+# Write to file
 all_entries_file = os.path.join(output_dir, "all_entries.bib")
-with open(all_entries_file, "w") as bibfile:
+with open(all_entries_file, "w", encoding="utf-8") as bibfile:
     for entry in bibtex_entries:
         bibfile.write(entry + "\n\n")
 
