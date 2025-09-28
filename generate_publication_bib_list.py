@@ -115,6 +115,12 @@ for doi in dois:
     except requests.exceptions.RequestException as e:
         print(f"Failed to retrieve BibTeX for {doi}: {e}")
 
+# Write to a tracking file
+tracking_all_entries_file = os.path.join(output_dir, "tracking_all_entries.txt")
+with open(tracking_all_entries_file, "w", encoding="utf-8") as trackfile:
+    for doi in dois:
+        trackfile.write(doi + "\n")
+
 # Write to file
 all_entries_file = os.path.join(output_dir, "all_entries.bib")
 with open(all_entries_file, "w", encoding="utf-8") as bibfile:
