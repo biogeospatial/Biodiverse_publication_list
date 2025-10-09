@@ -42,6 +42,10 @@ If a value itself contains a comma, enclose it in double quotation marks. For ex
 
 `10.1234/abc,"Smith, John",,123456789,,Journal Name,,1,10-20,Publisher,Title,http://example.com,5,2025`
 
+#### Signifying a DOI as either a "in press" or "preprint" option
+
+The csv file has a column named note. Add either option to this column.
+
 ### What happens if CICD Automation fails
 
 There is two options to this:
