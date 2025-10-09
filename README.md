@@ -50,11 +50,11 @@ The csv file has a column named note. Add either option to this column.
 
 There is two options to this:
 
-#### 1.
+#### 1. Manually triggering CICD
 
 The `render-publications.yml` workflow has included: `workflow_dispatch: {}`. This allows you to manually trigger the workflow button in the Actions tab anytime you want without commiting anything.
 
-#### 2.
+#### 2. Running Locally
 
 Running it locally should always work. Make sure you have the following prerequisites files:
 
