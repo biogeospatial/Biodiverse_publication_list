@@ -73,7 +73,7 @@ Then run:
 python3 generate_publication_bib_list.py
 ```
 
-to generate the bib file.
+to generate the `publication-list-biodiverse.bib` bib file.
 
 Then:
 
@@ -81,7 +81,7 @@ Then:
 quarto render publication-list.qmd --to html
 ```
 
-to create the html file. You should then be able to view this file as intended.
+to create the `publication-list.html` html file. You should then be able to view this file as intended.
 
 ## Dependencies
 
