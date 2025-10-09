@@ -6,6 +6,8 @@ https://biogeospatial.github.io/Biodiverse_publication_list/
 
 This repository contains various scripts to produce a publication list from a csv file.
 
+Biodiverse publication Workflow (Visualisation of CICD, also can be replicated locally if required. Instructions down further below):
+
 ![Biodiverse publication workflow](process-flowchart.png)
 
 The csv file `publication-list.csv` is the source of where the DOIs come from. If this is changed, a script `generate_publication_bib_list.py` is automatically run to produce a `publication-list-biodiverse.bib` file. This script is derived from the `publist-wrangle.ipynb` notebook file. The notebook uses the `bibtexparser` library to parse the `publication-list.csv` to create the .bib file.
