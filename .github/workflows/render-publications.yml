@@ -1,0 +1,49 @@
+name: Generate & Render Publication List
+
+on:
+  push:
+    paths:
+      - "publication-list.csv"
+      - "generate_publication_bib_list.py"
+      - "publication-list.qmd"
+      - "global-ecology-and-biogeography.csl"
+  workflow_dispatch: {}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install mistune pandas bibtexparser requests
+
+      - name: Generate .bib file
+        run: |
+          python generate_publication_bib_list.py
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Render publication list
+        run: |
+          quarto render publication-list.qmd --to html
+          mkdir -p site
+          mv publication-list.html site/ || true
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: gh-pages
+          publish_dir: site
+          commit_message: "publish: updated publication list"
