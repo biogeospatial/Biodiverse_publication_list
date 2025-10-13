@@ -38,7 +38,7 @@ jobs:
         run: |
           quarto render publication-list.qmd --to html
           mkdir -p site
-          mv publication-list.html site/ || true
+          mv publication-list.html site/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
