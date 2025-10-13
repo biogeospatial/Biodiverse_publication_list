@@ -2,6 +2,8 @@ name: Generate & Render Publication List
 
 on:
   push:
+    branches:
+      - main
     paths:
       - "publication-list.csv"
       - "generate_publication_bib_list.py"
@@ -36,9 +38,8 @@ jobs:
 
       - name: Render publication list
         run: |
-          quarto render publication-list.qmd --to html
-          mkdir -p site
-          mv publication-list.html site/ || true
+          quarto render publication-list.qmd --to html --output-dir site
+          mv site/publication-list.html site/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
