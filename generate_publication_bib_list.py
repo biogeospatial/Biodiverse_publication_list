@@ -66,6 +66,10 @@ for index, row in df.iterrows():
             key = key.lower().strip()
             value = value.strip().replace("\n", " ")
             existing_keys.add(key)
+
+            if key == "title":
+                value = "{" + value + "}"
+
             field_lines.append(f"  {key:<10}= {{{value}}},")
 
         if note_value and "note" not in existing_keys:

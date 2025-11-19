@@ -20,27 +20,27 @@ Note: May need to rewrite the steps in the **dependencies** section this as it m
 
 ### Updating the csv file `publication-list.csv`:
 
-To add new DOIs, just add it as a new line entry into the `publication-list.csv` file. It does not matter what order you add the entry to in the file (Quarto uses Pandoc under the hood to handle citations and bibliography), as long as each DOI entry is on its own line.
+To add new DOIs, just add the doi as a new line entry into the `publication-list.csv` file. It does not matter what order you add the entry to in the file (Quarto uses Pandoc under the hood to handle citations and bibliography ordering), as long as each DOI entry is on its own line.
 
 #### Column Order:
 
 The CSV file must follow this exact column order:
-`doi,author,editor,isbn,issn,journal,note,number,pages,publisher,title,url,volume,year`
-It is important you follow this order, where each value is separated by a comma (,).
+`doi,note`
+It is important you follow this order, where each value is separated by a comma (,). The doi field is required, the note field is optional. If there is no note, just end the line with a comma. An api is called that fetches all the information related to the doi. Hence, there is no manual work required to add all the other information in the csv file. Just the doi is necessary.
 
 #### Missing Values:
 
 If a DOI (or any entry) does not have a value for a particular column, leave that column empty. For example:
 
-`10.1234/abc,,,"",,Journal Name,,1,10-20,Publisher,Title,http://example.com,5,2025`
+`10.1234/abc,`
 
-The empty columns are represented by consecutive commas.
+Here, there is no note field for this entry.
 
 #### Handling Commas in Entries:
 
 If a value itself contains a comma, enclose it in double quotation marks. For example:
 
-`10.1234/abc,"Smith, John",,123456789,,Journal Name,,1,10-20,Publisher,Title,http://example.com,5,2025`
+`10.1234/abc,"Comma, inbetween"`
 
 #### Signifying a DOI as either a "in press" or "preprint" option
 
