@@ -1,3 +1,7 @@
 /bibtex
 
 /.luarc.json
+
+/.quarto/
+**/*.quarto_ipynb
+
