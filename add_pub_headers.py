@@ -1,4 +1,6 @@
-file_path = "publication-list.html"
+import sys
+
+file_path = sys.argv[1]
 
 script_to_append = """
 <script id="pub-headers-after-body" type="application/javascript">

@@ -298,9 +298,6 @@ Zhang, H., Chen, S., Bonser, S.P., Hitchcock, T. &amp; Moles, A.T. (2023) <a hre
 <div id="ref-Zhou_2023" class="csl-entry" role="listitem">
 Zhou, R., Ci, X., Hu, J., Zhang, X., Cao, G., Xiao, J., Liu, Z., Li, L., Thornhill, A.H., Conran, J.G. &amp; Li, J. (2023) <a href="https://doi.org/10.1016/j.ecolind.2023.110001"><span class="nocase">Transitional areas of vegetation as biodiversity hotspots evidenced by multifaceted biodiversity analysis of a dominant group in Chinese evergreen broad-leaved forests</span></a>. <em>Ecological Indicators</em>, <strong>147</strong>, 110001.
 </div>
-<div id="ref-year2022" class="csl-entry" role="listitem">
-(2022).
-</div>
 <div id="ref-Amaral_2022" class="csl-entry" role="listitem">
 Amaral, D.T., Bonatelli, I.A.S., Romeiro-Brito, M., Moraes, E.M. &amp; Franco, F.F. (2022) <a href="https://doi.org/10.1016/j.biocon.2022.109677"><span class="nocase">Spatial patterns of evolutionary diversity in Cactaceae show low ecological representation within protected areas</span></a>. <em>Biological Conservation</em>, <strong>273</strong>, 109677.
 </div>
@@ -1225,5 +1222,41 @@ Crisp, M.D., Laffan, S., Linder, H.P. &amp; Monro, A. (2001) <a href="https://do
 
 
 
+
+
+<script id="pub-headers-after-body" type="application/javascript">
+document.addEventListener("DOMContentLoaded", () => {
+  const refs =
+    document.querySelector("#refs .csl-bib-body") ||
+    document.getElementById("refs");
+
+  if (!refs) return;
+
+  const entries = Array.from(refs.querySelectorAll(".csl-entry"));
+  let lastSection = null;
+
+  entries.forEach((entry) => {
+    const text = entry.textContent;
+    let section;
+
+    if (/\(in press\)/i.test(text)) {
+      section = "In press / recent";
+    } else if (/\(preprint\)/i.test(text)) {
+      section = "Preprint";
+    } else {
+      const match = text.match(/\((\d{4})\)/);
+      section = match ? match[1] : "Other";
+    }
+
+    if (section !== lastSection) {
+      const header = document.createElement("div");
+      header.className = "pub-section";
+      header.innerHTML = `<b>${section}</b>`;
+      refs.insertBefore(header, entry);
+      lastSection = section;
+    }
+  });
+});
+</script>
 
 </body></html>
