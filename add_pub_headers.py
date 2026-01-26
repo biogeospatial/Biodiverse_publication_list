@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (/\\(in press\\)/i.test(text)) {
       section = "In press / recent";
     } else if (/\\(preprint\\)/i.test(text)) {
-      section = "preprint";
+      section = "Preprint";
     } else {
       const match = text.match(/\\((\\d{4})\\)/);
       section = match ? match[1] : "Other";
