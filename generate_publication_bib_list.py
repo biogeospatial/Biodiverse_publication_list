@@ -30,6 +30,7 @@ os.makedirs(output_dir, exist_ok=True)
 
 doi_url_base = "https://doi.org/"
 bibtex_entries = []
+entry_ids = []
 curr_progress_count = 0
 
 # === Step 3: Process each DOI ===
@@ -57,6 +58,9 @@ for index, row in df.iterrows():
             entry_type = "article"
             entry_id = doi.replace("/", "_")
 
+        if entry_id in entry_ids:
+            entry_id = entry_id + "_" + str(entry_ids.count(entry_id))
+
         fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"],?', raw_entry)
 
         # Normalize formatting
@@ -81,6 +85,8 @@ for index, row in df.iterrows():
         formatted_entry = (
             f"@{entry_type}{{{entry_id},\n" + "\n".join(field_lines) + "\n}"
         )
+        entry_ids.append(entry_id)
+
         bibtex_entries.append(formatted_entry)
 
         curr_progress_count += 1
