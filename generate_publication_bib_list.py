@@ -143,7 +143,7 @@ nocite: |
 :::
 """
 
-#  work in a new dir so the config file has no effect
+#  work in a new dir so the config file has less impact
 wd = "bib_by_year"
 if not Path(wd).exists():
     Path.mkdir(wd)
@@ -152,8 +152,18 @@ csl_fname = "global-ecology-and-biogeography.csl"
 if not Path(csl_fname).exists():
     copyfile (Path("..", csl_fname), csl_fname)
 
+for year in bib_by_year:
+    #  we copy this file below but it needs to exist for the first render step
+    Path("..", year + ".qmd").touch()
+
 #  now dump to one file per year (or note)
 for year, data in bib_by_year.items():
+    qmd_fname = year + ".qmd"
+    qmd_fname_updir = Path("..", qmd_fname)
+    #  we copy this file below but it needs to exist for the first render step
+    qmd_fname_updir.touch()
+    if not qmd_fname_updir.exists():
+        print (f"{qmd_fname_updir} does not exist")
 
     bib_name = year + ".bib"
     with open(bib_name, "w", encoding="utf-8") as bibfile:
@@ -175,7 +185,6 @@ for year, data in bib_by_year.items():
         print (result.stderr)
     
     #  now back to qmd
-    qmd_fname = year + ".qmd"
     htm_fname = "_" + year + ".html"
     cmd = ["pandoc", "-f", "html", "-t", "markdown", "-o", qmd_fname, htm_fname]
     print (cmd)
@@ -188,6 +197,7 @@ for year, data in bib_by_year.items():
     lines = []
     with open (qmd_fname, "r", encoding="utf-8") as f:
         for line in f:
+            line.replace(r" {#section .title}", "")
             if not line.startswith(":::"):
                 lines.append(line)
 
@@ -195,5 +205,5 @@ for year, data in bib_by_year.items():
         for line in lines:
             f.write(f"{line}")
 
-    copyfile (qmd_fname, Path("..", qmd_fname))
+    copyfile (qmd_fname, qmd_fname_updir)
     
