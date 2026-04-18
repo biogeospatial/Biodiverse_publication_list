@@ -1,0 +1,19 @@
+#  Overview
+
+## Primary citation
+
+To cite Biodiverse or acknowledge its use, cite this publication:
+
+Laffan, S.W., Lubarsky, E. & Rosauer, D.F. (2010) Biodiverse, a tool for the spatial analysis of biological and related diversity. [Ecography, 33, 643-647](https://doi.org/10.1111/j.1600-0587.2010.06237.x).
+
+Article access is free from the publisher but an alternate link is [https://handle.unsw.edu.au/1959.4/45539](https://handle.unsw.edu.au/1959.4/45539).
+
+## Publications citing Biodiverse
+
+A list of articles citing the paper describing Biodiverse [can be found here](https://scholar.google.com.au/scholar?hl=en&as_sdt=2005&cites=5746804612318210706&scipsc=&q=&scisbd=1). It is perhaps more interesting, though, to see what applications it has been used for. Below is a curated list of such publications.
+
+## Publications using Biodiverse (or its ancestors)
+
+The following pages contain lists of publications that used Biodiverse in the analyses.
+
+Publications are listed in reverse chronological order by year, then by author within years.
