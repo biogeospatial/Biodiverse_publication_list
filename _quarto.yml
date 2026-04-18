@@ -10,6 +10,8 @@ book:
   date: "2026-04-17"
   chapters:
     - index.qmd
+    - in_press.qmd
+    - preprint.qmd
     - 2025.qmd
     - 2024.qmd
     - 2023.qmd
@@ -24,17 +26,16 @@ book:
     - 2014.qmd
     - 2013.qmd
     - 2012.qmd
-    - 2011.qmd
-    - 2010.qmd
+    - 2011_and_earlier.qmd
   output-file: "Biodiverse-publications"
   downloads: [pdf]
 
 format:
   html:
     theme: zephyr
-    toc: true
-    toc-depth: 3
-    toc-expand: true
+    #toc: true
+    #toc-depth: 3
+    #toc-expand: true
     #toc-location: left
     number-sections: false
     #number-depth: 2
