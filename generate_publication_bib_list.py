@@ -47,6 +47,10 @@ for index, row in df.iterrows():
 
     if not doi:
         continue
+        
+    #  some refs do not have DOIs - for now we skip them
+    if doi.startswith("#"):
+        continue
 
     try:
         response = requests.get(
@@ -132,7 +136,7 @@ print(f"The number of DOIs processed: {len(dois)}")
 
 qmd_template = """
 ---
-title: "YEAR_GOES_HERE"
+title: "YEAR GOES HERE"
 bibliography: YEAR_GOES_HERE.bib
 csl: global-ecology-and-biogeography.csl
 nocite: |
@@ -173,8 +177,9 @@ for year, data in bib_by_year.items():
     _fname = "_" + year + ".qmd"
     with open (_fname, "w", encoding="utf-8") as qmdfile:
         text = qmd_template.replace("YEAR_GOES_HERE", year)
+        text = text.replace("YEAR GOES HERE", year.replace("_", " "))
         qmdfile.write(text)
-        
+
     #  convert to html
     cmd = ["quarto", "render", _fname, "--to", "html"]
     print (cmd)
