@@ -1,8 +1,11 @@
 import re
 import os
+from pathlib import Path
+from shutil import copyfile
 import pandas as pd
 import bibtexparser
 import requests
+import subprocess
 
 INPUT_CSV = "publication-list.csv"
 OUTPUT_BIB = "publication-list-biodiverse.bib"
@@ -33,6 +36,8 @@ bibtex_entries = []
 entry_ids = []
 curr_progress_count = 0
 
+bib_by_year = {}
+
 # === Step 3: Process each DOI ===
 for index, row in df.iterrows():
     doi = str(row["doi"]).strip()
@@ -62,6 +67,9 @@ for index, row in df.iterrows():
             entry_id = entry_id + "_" + str(entry_ids.count(entry_id))
 
         fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"],?', raw_entry)
+        
+        #print (raw_entry)
+        year = ""
 
         # Normalize formatting
         field_lines = []
@@ -73,6 +81,8 @@ for index, row in df.iterrows():
 
             if key == "title":
                 value = "{" + value + "}"
+            if key == "year":
+                year = value
 
             field_lines.append(f"  {key:<10}= {{{value}}},")
 
@@ -88,6 +98,9 @@ for index, row in df.iterrows():
         entry_ids.append(entry_id)
 
         bibtex_entries.append(formatted_entry)
+        if not year in bib_by_year:
+            bib_by_year[year] = []
+        bib_by_year[year].append (formatted_entry)
 
         curr_progress_count += 1
         print(f"✅ Processed DOI {doi} [{curr_progress_count}/{len(dois)}]")
@@ -109,3 +122,67 @@ with open(OUTPUT_BIB, "r", encoding="utf-8") as bibfile:
 num_entries = len(bib_database.entries)
 print(f"The number of entries in {OUTPUT_BIB}: {num_entries}")
 print(f"The number of DOIs processed: {len(dois)}")
+
+
+qmd_template = """
+---
+title: "YEAR_GOES_HERE"
+bibliography: YEAR_GOES_HERE.bib
+csl: global-ecology-and-biogeography.csl
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::
+"""
+
+#  work in a new dir so the config file has no effect
+wd = "bib_by_year"
+if not Path(wd).exists():
+    Path.mkdir(wd)
+os.chdir(wd) 
+csl_fname = "global-ecology-and-biogeography.csl"
+if not Path(csl_fname).exists():
+    copyfile (Path("..", csl_fname), csl_fname)
+
+#  now dump to one file per year (or note)
+for year, data in bib_by_year.items():
+
+    bib_name = year + ".bib"
+    with open(bib_name, "w", encoding="utf-8") as bibfile:
+        for entry in data:
+            bibfile.write(entry + "\n\n")
+    
+    _fname = "_" + year + ".qmd"
+    with open (_fname, "w", encoding="utf-8") as qmdfile:
+        text = qmd_template.replace("YEAR_GOES_HERE", year)
+        qmdfile.write(text)
+        
+    #  convert to html
+    cmd = ["quarto", "render", _fname, "--to", "html"]
+    print (cmd)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    #print (result.stdout)
+    #print (result.stderr)
+    
+    #  now back to qmd
+    qmd_fname = year + ".qmd"
+    htm_fname = "_" + year + ".html"
+    cmd = ["pandoc", "-f", "html", "-t", "markdown", "-o", qmd_fname, htm_fname]
+    print (cmd)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    print (result.stdout)
+    print (result.stderr)
+    
+    lines = []
+    with open (qmd_fname, "r", encoding="utf-8") as f:
+        for line in f:
+            if not line.startswith(":::"):
+                lines.append(line)
+
+    with open (qmd_fname, "w", encoding="utf-8") as f:
+        for line in lines:
+            f.write(f"{line}")
+
+    copyfile (qmd_fname, Path("..", qmd_fname))
