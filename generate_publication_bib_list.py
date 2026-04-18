@@ -69,7 +69,7 @@ for index, row in df.iterrows():
         fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"],?', raw_entry)
         
         #print (raw_entry)
-        year = ""
+        year_tag = ""
 
         # Normalize formatting
         field_lines = []
@@ -82,7 +82,13 @@ for index, row in df.iterrows():
             if key == "title":
                 value = "{" + value + "}"
             if key == "year":
-                year = value
+                if note_value == "":
+                    if value <= "2011":
+                        year_tag = "2011_and_earlier"
+                    else:
+                        year_tag = value
+                else:
+                    year_tag = note_value.replace(" ", "_")
 
             field_lines.append(f"  {key:<10}= {{{value}}},")
 
@@ -98,9 +104,9 @@ for index, row in df.iterrows():
         entry_ids.append(entry_id)
 
         bibtex_entries.append(formatted_entry)
-        if not year in bib_by_year:
-            bib_by_year[year] = []
-        bib_by_year[year].append (formatted_entry)
+        if not year_tag in bib_by_year:
+            bib_by_year[year_tag] = []
+        bib_by_year[year_tag].append (formatted_entry)
 
         curr_progress_count += 1
         print(f"✅ Processed DOI {doi} [{curr_progress_count}/{len(dois)}]")
@@ -163,8 +169,10 @@ for year, data in bib_by_year.items():
     cmd = ["quarto", "render", _fname, "--to", "html"]
     print (cmd)
     result = subprocess.run(cmd, capture_output=True, text=True)
-    #print (result.stdout)
-    #print (result.stderr)
+    if result.returncode != 0:
+        print ("system call failed: " + str(result.returncode))
+        print (result.stdout)
+        print (result.stderr)
     
     #  now back to qmd
     qmd_fname = year + ".qmd"
@@ -172,8 +180,10 @@ for year, data in bib_by_year.items():
     cmd = ["pandoc", "-f", "html", "-t", "markdown", "-o", qmd_fname, htm_fname]
     print (cmd)
     result = subprocess.run(cmd, capture_output=True, text=True)
-    print (result.stdout)
-    print (result.stderr)
+    if result.returncode != 0:
+        print ("system call failed: " + str(result.returncode))
+        print (result.stdout)
+        print (result.stderr)
     
     lines = []
     with open (qmd_fname, "r", encoding="utf-8") as f:
@@ -186,3 +196,4 @@ for year, data in bib_by_year.items():
             f.write(f"{line}")
 
     copyfile (qmd_fname, Path("..", qmd_fname))
+    
