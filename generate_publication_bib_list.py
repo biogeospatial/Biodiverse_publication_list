@@ -25,6 +25,12 @@ if "doi" not in df.columns:
     print("The CSV file must have a 'doi' column.")
     exit(1)
 
+with open('bib_no_doi.bib') as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+
+bib_dict = bib_database.entries_dict
+
+
 has_notes = "note" in df.columns
 dois = df["doi"].dropna().astype(str).tolist()
 print(f"----- Found {len(dois)} DOIs in {INPUT_CSV} -----")
@@ -70,8 +76,12 @@ for index, row in df.iterrows():
             #print (raw_entry)
         else:
             bib_no_doi = Path("bib_no_doi", doi + ".bib")
-            with open(bib_no_doi, "r", encoding="utf-8") as bib:
-                raw_entry = bib.read().strip()
+            #with open(bib_no_doi, "r", encoding="utf-8") as bib:
+            #    raw_entry = bib.read().strip()
+            #  KLUDGE!
+            new_db = bibtexparser.bibdatabase
+            new_db.entries = [bib_dict[doi]]
+            raw_entry = bibtexparser.dumps(new_db).strip().replace("\n","")
 
         m = re.match(r"@(\w+)\s*{\s*([^,]+),", raw_entry)
         if m:
