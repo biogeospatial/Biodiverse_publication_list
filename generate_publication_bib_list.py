@@ -7,6 +7,7 @@ import bibtexparser
 import requests
 import subprocess
 import yaml
+from datetime import date
 
 INPUT_CSV = "publication-list.csv"
 OUTPUT_BIB = "publication-list-biodiverse.bib"
@@ -253,6 +254,8 @@ decorated = [(qmd_ch_processor(i), i) for i in quarto_chapters]
 decorated.sort()
 quarto_chapters = [v for k, v in decorated]
 print (quarto_chapters)
+
+quarto_config['date'] = date.today()
 
 quarto_config['book']['chapters'] = quarto_chapters
 with open (quarto_config_f, "w", encoding="utf-8") as f:

@@ -1,54 +1,27 @@
-project:
-  type: book
-  output-dir: docs
-
-# https://quarto.org/docs/reference/projects/books.html
-
 book:
-  title: "Biodiverse publications"
-  author: "Shawn W Laffan"
-  date: "2026-04-17"
+  author: Shawn W Laffan
   chapters:
-    - index.qmd
-    - in_press.qmd
-    - preprint.qmd
-    - 2026.qmd
-    - 2025.qmd
-    - 2024.qmd
-    - 2023.qmd
-    - 2022.qmd
-    - 2021.qmd
-    - 2020.qmd
-    - 2019.qmd
-    - 2018.qmd
-    - 2017.qmd
-    - 2016.qmd
-    - 2015.qmd
-    - 2014.qmd
-    - 2013.qmd
-    - 2012.qmd
-    - 2011_and_earlier.qmd
-  output-file: "Biodiverse-publications"
-  downloads: [pdf]
-
+  - index.qmd
+  - preprint.qmd
+  - 2024.qmd
+  - 2011_and_earlier.qmd
+  date: '2026-04-17'
+  downloads:
+  - pdf
+  output-file: Biodiverse-publications
+  title: Biodiverse publications
+date: 2026-04-20
+editor: source
 format:
   html:
-    theme: zephyr
-    #toc: true
-    #toc-depth: 3
-    #toc-expand: true
-    #toc-location: left
-    number-sections: false
-    #number-depth: 2
     link-external-newwindow: true
+    number-sections: false
+    theme: zephyr
   pdf:
+    number-depth: 2
+    number-sections: true
     toc: true
     toc-depth: 3
-    number-sections: true
-    number-depth: 2
-
-# bibliography: references.bib
-editor: source
-
-#filters:
-#  - section-bibliographies
+project:
+  output-dir: docs
+  type: book
