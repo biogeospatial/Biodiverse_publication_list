@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from shutil import copyfile
 import pandas as pd
-import bibtexparser
+import bibtexparser  #  !!!! v1 API needed at the moment
 import requests
 import subprocess
 import yaml
