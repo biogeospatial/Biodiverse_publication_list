@@ -27,9 +27,19 @@ if "doi" not in df.columns:
 
 with open('bib_no_doi.bib') as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
-
 bib_dict = bib_database.entries_dict
 
+with open(OUTPUT_BIB) as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+bib_dict2 = bib_database.entries_dict
+bib_dict = bib_dict2 | bib_dict
+
+bib_dict_doi = {}
+for (k, v) in bib_dict.items():
+    if 'doi' in v:
+        bib_dict_doi[v['doi']] = v
+
+#  need to also index by DOI
 
 has_notes = "note" in df.columns
 dois = df["doi"].dropna().astype(str).tolist()
@@ -68,7 +78,10 @@ for index, row in df.iterrows():
     fields = {}
 
     try:
-        if doi.startswith("10."):
+        if doi in bib_dict_doi:
+            #print (f"found {doi}")
+            fields = bib_dict_doi[doi]
+        elif doi.startswith("10."):
             response = requests.get(
                 doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
             )
