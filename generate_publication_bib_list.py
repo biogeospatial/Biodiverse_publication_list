@@ -61,9 +61,13 @@ for index, row in df.iterrows():
         if doi.startswith("10."):
             response = requests.get(
                 doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
+                #doi_url_base + doi, headers={"Accept": "text/x-bibtex; locale=en-US"}, timeout=15
             )
             response.raise_for_status()
             raw_entry = response.text.strip()
+            #  getting mojibake due to utf-8, not sure why 
+            #  we are kludging the pages below but that does not fix author names
+            #print (raw_entry)
         else:
             bib_no_doi = Path("bib_no_doi", doi + ".bib")
             with open(bib_no_doi, "r", encoding="utf-8") as bib:
@@ -95,7 +99,11 @@ for index, row in df.iterrows():
 
             if key == "title":
                 value = "{" + value + "}"
-            if key == "year":
+            elif key == "pages":  #  kludge for mojibake
+                pages = re.findall(r'(\d+)', value)
+                pages = "--".join(pages)
+                value = "pages={" + pages + "}"
+            elif key == "year":
                 if note_value == "":
                     if value <= "2011":
                         year_tag = "2011_and_earlier"
