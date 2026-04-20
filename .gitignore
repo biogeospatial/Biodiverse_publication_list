@@ -1,3 +1,9 @@
 /bibtex
 
 /.luarc.json
+
+/.quarto/
+**/*.quarto_ipynb
+/bib_by_year
+/_site
+/docs

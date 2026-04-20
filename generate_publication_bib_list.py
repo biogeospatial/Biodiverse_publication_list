@@ -1,8 +1,13 @@
 import re
 import os
+from pathlib import Path
+from shutil import copyfile
 import pandas as pd
 import bibtexparser
 import requests
+import subprocess
+import yaml
+from datetime import date
 
 INPUT_CSV = "publication-list.csv"
 OUTPUT_BIB = "publication-list-biodiverse.bib"
@@ -33,6 +38,8 @@ bibtex_entries = []
 entry_ids = []
 curr_progress_count = 0
 
+bib_by_year = {}
+
 # === Step 3: Process each DOI ===
 for index, row in df.iterrows():
     doi = str(row["doi"]).strip()
@@ -42,13 +49,29 @@ for index, row in df.iterrows():
 
     if not doi:
         continue
+        
+    #  skip commented lines
+    if doi.startswith("#"):
+        curr_progress_count += 1
+        continue
+
+    #  strip commented notes
+    if note_value.startswith('#'):
+        note_value = ""
 
     try:
-        response = requests.get(
-            doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
-        )
-        response.raise_for_status()
-        raw_entry = response.text.strip()
+        if doi.startswith("10."):
+            response = requests.get(
+                doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
+            )
+            response.raise_for_status()
+            #  use utf-8 or we get mojibake
+            raw_entry = response.content.decode('utf-8').strip()
+            #print (raw_entry)
+        else:
+            bib_no_doi = Path("bib_no_doi", doi + ".bib")
+            with open(bib_no_doi, "r", encoding="utf-8") as bib:
+                raw_entry = bib.read().strip()
 
         m = re.match(r"@(\w+)\s*{\s*([^,]+),", raw_entry)
         if m:
@@ -62,6 +85,9 @@ for index, row in df.iterrows():
             entry_id = entry_id + "_" + str(entry_ids.count(entry_id))
 
         fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"],?', raw_entry)
+        
+        #print (raw_entry)
+        year_tag = ""
 
         # Normalize formatting
         field_lines = []
@@ -73,6 +99,18 @@ for index, row in df.iterrows():
 
             if key == "title":
                 value = "{" + value + "}"
+            elif key == "pages":
+                #  kludge for mojibake, should not be needed now but does not hurt 
+                pages = re.findall(r'(\d+)', value)
+                value = "--".join(pages)
+            elif key == "year":
+                if note_value == "":
+                    if value <= "2011":
+                        year_tag = "2011_and_earlier"
+                    else:
+                        year_tag = value
+                else:
+                    year_tag = note_value.replace(" ", "_")
 
             field_lines.append(f"  {key:<10}= {{{value}}},")
 
@@ -88,6 +126,9 @@ for index, row in df.iterrows():
         entry_ids.append(entry_id)
 
         bibtex_entries.append(formatted_entry)
+        if not year_tag in bib_by_year:
+            bib_by_year[year_tag] = []
+        bib_by_year[year_tag].append (formatted_entry)
 
         curr_progress_count += 1
         print(f"✅ Processed DOI {doi} [{curr_progress_count}/{len(dois)}]")
@@ -109,3 +150,113 @@ with open(OUTPUT_BIB, "r", encoding="utf-8") as bibfile:
 num_entries = len(bib_database.entries)
 print(f"The number of entries in {OUTPUT_BIB}: {num_entries}")
 print(f"The number of DOIs processed: {len(dois)}")
+
+
+qmd_template = """
+---
+title: "YEAR GOES HERE"
+bibliography: YEAR_GOES_HERE.bib
+csl: global-ecology-and-biogeography.csl
+nocite: |
+  @*
+---
+
+::: {#refs}
+:::
+"""
+
+quarto_chapters = ['index.qmd']
+
+#  work in a new dir so the config file has less impact
+wd = "bib_by_year"
+if not Path(wd).exists():
+    Path.mkdir(wd)
+os.chdir(wd) 
+csl_fname = "global-ecology-and-biogeography.csl"
+if not Path(csl_fname).exists():
+    copyfile (Path("..", csl_fname), csl_fname)
+
+for year in bib_by_year:
+    #  we copy this file below but it needs to exist for the first render step
+    Path("..", year + ".qmd").touch()
+
+#  now dump to one file per year (or note)
+for year, data in bib_by_year.items():
+    if len(data) == 0:
+        continue
+    
+    qmd_fname = year + ".qmd"
+    qmd_fname_updir = Path("..", qmd_fname)
+    
+    quarto_chapters.append(qmd_fname)
+
+    bib_name = year + ".bib"
+    with open(bib_name, "w", encoding="utf-8") as bibfile:
+        for entry in data:
+            bibfile.write(entry + "\n\n")
+    
+    _fname = "_" + year + ".qmd"
+    with open (_fname, "w", encoding="utf-8") as qmdfile:
+        text = qmd_template.replace("YEAR_GOES_HERE", year)
+        text = text.replace("YEAR GOES HERE", year.replace("_", " "))
+        qmdfile.write(text)
+
+    #  convert to html
+    cmd = ["quarto", "render", _fname, "--to", "html"]
+    print (cmd)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print ("system call failed: " + str(result.returncode))
+        print (result.stdout)
+        print (result.stderr)
+    
+    #  now back to qmd
+    htm_fname = "_" + year + ".html"
+    cmd = ["pandoc", "-f", "html", "-t", "markdown", "-o", qmd_fname, htm_fname]
+    print (cmd)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        print ("system call failed: " + str(result.returncode))
+        print (result.stdout)
+        print (result.stderr)
+    
+    lines = []
+    with open (qmd_fname, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.replace(r" {#section .title}", "")
+            if not line.startswith(":::"):
+                lines.append(line)
+
+    with open (qmd_fname, "w", encoding="utf-8") as f:
+        for line in lines:
+            f.write(f"{line}")
+
+    copyfile (qmd_fname, qmd_fname_updir)
+
+#  a dodgy sorting approach so the chapters are in the right order
+def qmd_ch_processor (x):
+    if x.startswith("index"):
+        return '0'
+    elif x.startswith("in_press"):
+        return '1'
+    elif x.startswith("preprint"):
+        return '2'
+    elif re.match (r'\d{4}', x):
+        return str(3000 - int(x[0:4]))
+    else:
+        return x
+
+quarto_config_f = Path("..", "_quarto.yml")
+with open (quarto_config_f, "r", encoding="utf-8") as f:
+    quarto_config = yaml.safe_load(f)
+
+decorated = [(qmd_ch_processor(i), i) for i in quarto_chapters]
+decorated.sort()
+quarto_chapters = [v for k, v in decorated]
+print (quarto_chapters)
+
+quarto_config['date'] = date.today()
+
+quarto_config['book']['chapters'] = quarto_chapters
+with open (quarto_config_f, "w", encoding="utf-8") as f:
+    f.write(yaml.dump(quarto_config))
