@@ -3,14 +3,28 @@ book:
   chapters:
   - index.qmd
   - preprint.qmd
+  - 2026.qmd
+  - 2025.qmd
   - 2024.qmd
+  - 2023.qmd
+  - 2022.qmd
+  - 2021.qmd
+  - 2020.qmd
+  - 2019.qmd
+  - 2018.qmd
+  - 2017.qmd
+  - 2016.qmd
+  - 2015.qmd
+  - 2014.qmd
+  - 2013.qmd
+  - 2012.qmd
   - 2011_and_earlier.qmd
   date: '2026-04-17'
   downloads:
   - pdf
   output-file: Biodiverse-publications
   title: Biodiverse publications
-date: 2026-04-20
+date: 2026-04-21
 editor: source
 format:
   html:

@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install mistune pandas bibtexparser requests
+          pip install mistune pandas bibtexparser requests PyYAML
 
       - name: Generate .bib file
         run: |
@@ -39,8 +39,8 @@ jobs:
       - name: Render publication list and add publication headers
         run: |
           quarto render publication-list.qmd --to html --output-dir site
-          python add_pub_headers.py site/publication-list.html
-          mv site/publication-list.html site/index.html
+          #python add_pub_headers.py site/publication-list.html
+          #mv site/publication-list.html site/index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

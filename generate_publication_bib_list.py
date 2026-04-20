@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 from shutil import copyfile
 import pandas as pd
-import bibtexparser
+import bibtexparser  #  !!!! v1 API needed at the moment
 import requests
 import subprocess
 import yaml
@@ -24,6 +24,22 @@ df = pd.read_csv(INPUT_CSV)
 if "doi" not in df.columns:
     print("The CSV file must have a 'doi' column.")
     exit(1)
+
+with open('bib_no_doi.bib') as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+bib_dict = bib_database.entries_dict
+
+with open(OUTPUT_BIB) as bibtex_file:
+    bib_database = bibtexparser.load(bibtex_file)
+bib_dict2 = bib_database.entries_dict
+bib_dict = bib_dict2 | bib_dict
+
+bib_dict_doi = {}
+for (k, v) in bib_dict.items():
+    if 'doi' in v:
+        bib_dict_doi[v['doi']] = v
+
+#  need to also index by DOI
 
 has_notes = "note" in df.columns
 dois = df["doi"].dropna().astype(str).tolist()
@@ -58,41 +74,49 @@ for index, row in df.iterrows():
     #  strip commented notes
     if note_value.startswith('#'):
         note_value = ""
+        
+    fields = {}
 
     try:
-        if doi.startswith("10."):
+        if doi in bib_dict_doi:
+            #print (f"found {doi}")
+            fields = bib_dict_doi[doi]
+        elif doi.startswith("10."):
             response = requests.get(
                 doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
             )
             response.raise_for_status()
             #  use utf-8 or we get mojibake
             raw_entry = response.content.decode('utf-8').strip()
-            #print (raw_entry)
+            
+            #  bare month parsing issues
+            m = re.search(r"month=(\w+)", raw_entry)
+            if m:
+                s = m.group(1)
+                raw_entry = raw_entry.replace("month="+s, "month={"+s+"}")
+            b = bibtexparser.loads(raw_entry)
+            fields = b.entries[0]
         else:
             bib_no_doi = Path("bib_no_doi", doi + ".bib")
-            with open(bib_no_doi, "r", encoding="utf-8") as bib:
-                raw_entry = bib.read().strip()
+            fields = bib_dict[doi]
 
-        m = re.match(r"@(\w+)\s*{\s*([^,]+),", raw_entry)
-        if m:
-            entry_type = m.group(1)
-            entry_id = m.group(2)
-        else:
-            entry_type = "article"
-            entry_id = doi.replace("/", "_")
 
+        entry_type = fields['ENTRYTYPE']
+        
+        entry_id   = fields['ID']
+
+        #  ensure unique ID
         if entry_id in entry_ids:
             entry_id = entry_id + "_" + str(entry_ids.count(entry_id))
+            fields['ID'] = entry_id
 
-        fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"],?', raw_entry)
-        
         #print (raw_entry)
         year_tag = ""
 
         # Normalize formatting
         field_lines = []
         existing_keys = set()
-        for key, value in fields:
+        for key, value in fields.items():
             key = key.lower().strip()
             value = value.strip().replace("\n", " ")
             existing_keys.add(key)
