@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - gh_wf
     paths:
       - "publication-list.csv"
       - "generate_publication_bib_list.py"
@@ -29,12 +30,12 @@ jobs:
           pip install --upgrade pip
           pip install mistune pandas bibtexparser requests PyYAML
 
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
       - name: Generate .bib file
         run: |
           python generate_publication_bib_list.py
-
-      - name: Setup Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
 
       - name: Render publication list and add publication headers
         run: |
