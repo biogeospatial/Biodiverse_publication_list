@@ -64,6 +64,8 @@ for index, row in df.iterrows():
     #  strip commented notes
     if note_value.startswith('#'):
         note_value = ""
+        
+    fields = {}
 
     try:
         if doi.startswith("10."):
@@ -73,36 +75,35 @@ for index, row in df.iterrows():
             response.raise_for_status()
             #  use utf-8 or we get mojibake
             raw_entry = response.content.decode('utf-8').strip()
-            #print (raw_entry)
+            
+            #  bare month parsing issues
+            m = re.search(r"month=(\w+)", raw_entry)
+            if m:
+                s = m.group(1)
+                raw_entry = raw_entry.replace("month="+s, "month={"+s+"}")
+            b = bibtexparser.loads(raw_entry)
+            fields = b.entries[0]
         else:
             bib_no_doi = Path("bib_no_doi", doi + ".bib")
-            #with open(bib_no_doi, "r", encoding="utf-8") as bib:
-            #    raw_entry = bib.read().strip()
-            #  KLUDGE!
-            new_db = bibtexparser.bibdatabase
-            new_db.entries = [bib_dict[doi]]
-            raw_entry = bibtexparser.dumps(new_db).strip().replace("\n","")
+            fields = bib_dict[doi]
 
-        m = re.match(r"@(\w+)\s*{\s*([^,]+),", raw_entry)
-        if m:
-            entry_type = m.group(1)
-            entry_id = m.group(2)
-        else:
-            entry_type = "article"
-            entry_id = doi.replace("/", "_")
 
+        entry_type = fields['ENTRYTYPE']
+        
+        entry_id   = fields['ID']
+
+        #  ensure unique ID
         if entry_id in entry_ids:
             entry_id = entry_id + "_" + str(entry_ids.count(entry_id))
+            fields['ID'] = entry_id
 
-        fields = re.findall(r'(\w+)\s*=\s*[{"]([^}"]+)[}"],?', raw_entry)
-        
         #print (raw_entry)
         year_tag = ""
 
         # Normalize formatting
         field_lines = []
         existing_keys = set()
-        for key, value in fields:
+        for key, value in fields.items():
             key = key.lower().strip()
             value = value.strip().replace("\n", " ")
             existing_keys.add(key)
