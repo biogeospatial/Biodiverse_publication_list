@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install mistune pandas bibtexparser requests
+          pip install mistune pandas bibtexparser requests PyYAML
 
       - name: Generate .bib file
         run: |
