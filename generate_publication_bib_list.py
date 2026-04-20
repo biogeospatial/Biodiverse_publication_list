@@ -6,6 +6,7 @@ import pandas as pd
 import bibtexparser
 import requests
 import subprocess
+import yaml
 
 INPUT_CSV = "publication-list.csv"
 OUTPUT_BIB = "publication-list-biodiverse.bib"
@@ -163,6 +164,8 @@ nocite: |
 :::
 """
 
+quarto_chapters = ['index.qmd']
+
 #  work in a new dir so the config file has less impact
 wd = "bib_by_year"
 if not Path(wd).exists():
@@ -183,6 +186,8 @@ for year, data in bib_by_year.items():
     
     qmd_fname = year + ".qmd"
     qmd_fname_updir = Path("..", qmd_fname)
+    
+    quarto_chapters.append(qmd_fname)
 
     bib_name = year + ".bib"
     with open(bib_name, "w", encoding="utf-8") as bibfile:
@@ -226,4 +231,29 @@ for year, data in bib_by_year.items():
             f.write(f"{line}")
 
     copyfile (qmd_fname, qmd_fname_updir)
-    
+
+#  a dodgy sorting approach so the chapters are in the right order
+def qmd_ch_processor (x):
+    if x.startswith("index"):
+        return '0'
+    elif x.startswith("in_press"):
+        return '1'
+    elif x.startswith("preprint"):
+        return '2'
+    elif re.match (r'\d{4}', x):
+        return str(3000 - int(x[0:4]))
+    else:
+        return x
+
+quarto_config_f = Path("..", "_quarto.yml")
+with open (quarto_config_f, "r", encoding="utf-8") as f:
+    quarto_config = yaml.safe_load(f)
+
+decorated = [(qmd_ch_processor(i), i) for i in quarto_chapters]
+decorated.sort()
+quarto_chapters = [v for k, v in decorated]
+print (quarto_chapters)
+
+quarto_config['book']['chapters'] = quarto_chapters
+with open (quarto_config_f, "w", encoding="utf-8") as f:
+    f.write(yaml.dump(quarto_config))
