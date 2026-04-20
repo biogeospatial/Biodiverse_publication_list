@@ -48,16 +48,26 @@ for index, row in df.iterrows():
     if not doi:
         continue
         
-    #  some refs do not have DOIs - for now we skip them
+    #  skip commented lines
     if doi.startswith("#"):
+        curr_progress_count += 1
         continue
 
+    #  strip commented notes
+    if note_value.startswith('#'):
+        note_value = ""
+
     try:
-        response = requests.get(
-            doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
-        )
-        response.raise_for_status()
-        raw_entry = response.text.strip()
+        if doi.startswith("10."):
+            response = requests.get(
+                doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
+            )
+            response.raise_for_status()
+            raw_entry = response.text.strip()
+        else:
+            bib_no_doi = Path("bib_no_doi", doi + ".bib")
+            with open(bib_no_doi, "r", encoding="utf-8") as bib:
+                raw_entry = bib.read().strip()
 
         m = re.match(r"@(\w+)\s*{\s*([^,]+),", raw_entry)
         if m:
@@ -162,12 +172,11 @@ for year in bib_by_year:
 
 #  now dump to one file per year (or note)
 for year, data in bib_by_year.items():
+    if len(data) == 0:
+        continue
+    
     qmd_fname = year + ".qmd"
     qmd_fname_updir = Path("..", qmd_fname)
-    #  we copy this file below but it needs to exist for the first render step
-    qmd_fname_updir.touch()
-    if not qmd_fname_updir.exists():
-        print (f"{qmd_fname_updir} does not exist")
 
     bib_name = year + ".bib"
     with open(bib_name, "w", encoding="utf-8") as bibfile:
@@ -202,7 +211,7 @@ for year, data in bib_by_year.items():
     lines = []
     with open (qmd_fname, "r", encoding="utf-8") as f:
         for line in f:
-            line.replace(r" {#section .title}", "")
+            line = line.replace(r" {#section .title}", "")
             if not line.startswith(":::"):
                 lines.append(line)
 
