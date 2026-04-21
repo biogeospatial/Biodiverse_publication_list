@@ -17,3 +17,7 @@ A list of articles citing the paper describing Biodiverse [can be found here](ht
 The following pages contain lists of publications that used Biodiverse in the analyses.
 
 Publications are listed in reverse chronological order by year, then by author within years.
+
+## Acknowledgements
+
+This site is constructed automatically.  Code contributions have been made by Fonti Kar and Ryan Gian.
