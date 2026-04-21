@@ -113,7 +113,7 @@ for index, row in df.iterrows():
         #print (raw_entry)
         year_tag = ""
 
-        # Normalize formatting
+        # Normalize formatting - should use bibtexparser.dumps to stringify
         field_lines = []
         existing_keys = set()
         for key, value in fields.items():
