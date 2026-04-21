@@ -33,7 +33,7 @@ format:
     theme: zephyr
   pdf:
     number-depth: 2
-    number-sections: true
+    number-sections: false
     toc: true
     toc-depth: 3
 project:

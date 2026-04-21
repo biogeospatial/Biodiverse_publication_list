@@ -284,7 +284,7 @@ decorated.sort()
 quarto_chapters = [v for k, v in decorated]
 print (quarto_chapters)
 
-quarto_config['date'] = date.today()
+quarto_config['book']['date'] = str(date.today())
 
 quarto_config['book']['chapters'] = quarto_chapters
 with open (quarto_config_f, "w", encoding="utf-8") as f:
