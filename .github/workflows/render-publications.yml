@@ -9,6 +9,7 @@ on:
       - "generate_publication_bib_list.py"
       - "publication-list.qmd"
       - "global-ecology-and-biogeography.csl"
+      - ".github/workflows/render-publications.yml"
   workflow_dispatch: {}
 
 jobs:
