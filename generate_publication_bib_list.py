@@ -118,12 +118,17 @@ for index, row in df.iterrows():
         existing_keys = set()
         for key, value in fields.items():
             key = key.lower().strip()
+
+            #  avoid UC/lc dups and entrytype/id
+            if key in existing_keys:
+                continue
+            elif key == 'entrytype' or key == 'id':
+                continue
+
             value = value.strip().replace("\n", " ")
             existing_keys.add(key)
 
-            if key == "title":
-                value = "{" + value + "}"
-            elif key == "pages":
+            if key == "pages":
                 #  kludge for mojibake, should not be needed now but does not hurt 
                 pages = re.findall(r'(\d+)', value)
                 value = "--".join(pages)
