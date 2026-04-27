@@ -25,7 +25,7 @@ if "doi" not in df.columns:
     print("The CSV file must have a 'doi' column.")
     exit(1)
 
-with open('bib_no_doi.bib') as bibtex_file:
+with open("bib_no_doi.bib") as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
 bib_dict = bib_database.entries_dict
 
@@ -35,9 +35,9 @@ bib_dict2 = bib_database.entries_dict
 bib_dict = bib_dict2 | bib_dict
 
 bib_dict_doi = {}
-for (k, v) in bib_dict.items():
-    if 'doi' in v:
-        bib_dict_doi[v['doi']] = v
+for k, v in bib_dict.items():
+    if "doi" in v:
+        bib_dict_doi[v["doi"]] = v
 
 #  need to also index by DOI
 
@@ -65,99 +65,86 @@ for index, row in df.iterrows():
 
     if not doi:
         continue
-        
+
     #  skip commented lines
     if doi.startswith("#"):
         curr_progress_count += 1
         continue
 
     #  strip commented notes
-    if note_value.startswith('#'):
+    if note_value.startswith("#"):
         note_value = ""
-        
+
     fields = {}
 
     try:
         if doi in bib_dict_doi:
-            #print (f"found {doi}")
+            # print (f"found {doi}")
             fields = bib_dict_doi[doi]
         elif doi.startswith("10."):
             response = requests.get(
-                doi_url_base + doi, headers={"Accept": "application/x-bibtex"}, timeout=15
+                doi_url_base + doi,
+                headers={"Accept": "application/x-bibtex"},
+                timeout=15,
             )
             response.raise_for_status()
             #  use utf-8 or we get mojibake
-            raw_entry = response.content.decode('utf-8').strip()
-            
+            raw_entry = response.content.decode("utf-8").strip()
+
             #  bare month parsing issues
             m = re.search(r"month=(\w+)", raw_entry)
             if m:
                 s = m.group(1)
-                raw_entry = raw_entry.replace("month="+s, "month={"+s+"}")
+                raw_entry = raw_entry.replace("month=" + s, "month={" + s + "}")
             b = bibtexparser.loads(raw_entry)
             fields = b.entries[0]
         else:
             bib_no_doi = Path("bib_no_doi", doi + ".bib")
             fields = bib_dict[doi]
 
+        entry_type = fields["ENTRYTYPE"]
 
-        entry_type = fields['ENTRYTYPE']
-        
-        entry_id   = fields['ID']
+        entry_id = fields["ID"]
 
         #  ensure unique ID
         if entry_id in entry_ids:
             entry_id = entry_id + "_" + str(entry_ids.count(entry_id))
-            fields['ID'] = entry_id
+            fields["ID"] = entry_id
 
-        #print (raw_entry)
+        # print (raw_entry)
         year_tag = ""
 
-        # Normalize formatting - should use bibtexparser.dumps to stringify
-        field_lines = []
+        year_val = fields.get("year", "").strip()
+        if note_value == "":
+            year_tag = "2011_and_earlier" if year_val <= "2011" else year_val
+        else:
+            year_tag = note_value.replace(" ", "_")
+
+        clean_fields = {"ENTRYTYPE": entry_type, "ID": entry_id}
         existing_keys = set()
         for key, value in fields.items():
             key = key.lower().strip()
-
-            #  avoid UC/lc dups and entrytype/id
-            if key in existing_keys:
+            if key in existing_keys or key in ("entrytype", "id"):
                 continue
-            elif key == 'entrytype' or key == 'id':
-                continue
-
             value = value.strip().replace("\n", " ")
             existing_keys.add(key)
-
             if key == "pages":
-                #  kludge for mojibake, should not be needed now but does not hurt 
-                pages = re.findall(r'(\d+)', value)
+                pages = re.findall(r"(\d+)", value)
                 value = "--".join(pages)
-            elif key == "year":
-                if note_value == "":
-                    if value <= "2011":
-                        year_tag = "2011_and_earlier"
-                    else:
-                        year_tag = value
-                else:
-                    year_tag = note_value.replace(" ", "_")
-
-            field_lines.append(f"  {key:<10}= {{{value}}},")
+            clean_fields[key] = value
 
         if note_value and "note" not in existing_keys:
-            field_lines.append(f"  note       = {{{note_value}}},")
+            clean_fields["note"] = note_value
 
-        if field_lines:
-            field_lines[-1] = field_lines[-1].rstrip(",")
-
-        formatted_entry = (
-            f"@{entry_type}{{{entry_id},\n" + "\n".join(field_lines) + "\n}"
-        )
+        db = bibtexparser.bibdatabase.BibDatabase()
+        db.entries = [clean_fields]
+        formatted_entry = bibtexparser.dumps(db).strip()
         entry_ids.append(entry_id)
 
         bibtex_entries.append(formatted_entry)
         if not year_tag in bib_by_year:
             bib_by_year[year_tag] = []
-        bib_by_year[year_tag].append (formatted_entry)
+        bib_by_year[year_tag].append(formatted_entry)
 
         curr_progress_count += 1
         print(f"✅ Processed DOI {doi} [{curr_progress_count}/{len(dois)}]")
@@ -194,16 +181,16 @@ nocite: |
 :::
 """
 
-quarto_chapters = ['index.qmd']
+quarto_chapters = ["index.qmd"]
 
 #  work in a new dir so the config file has less impact
 wd = "bib_by_year"
 if not Path(wd).exists():
     Path(wd).mkdir()
-os.chdir(wd) 
+os.chdir(wd)
 csl_fname = "global-ecology-and-biogeography.csl"
 if not Path(csl_fname).exists():
-    copyfile (Path("..", csl_fname), csl_fname)
+    copyfile(Path("..", csl_fname), csl_fname)
 
 for year in bib_by_year:
     #  we copy this file below but it needs to exist for the first render step
@@ -213,79 +200,81 @@ for year in bib_by_year:
 for year, data in bib_by_year.items():
     if len(data) == 0:
         continue
-    
+
     qmd_fname = year + ".qmd"
     qmd_fname_updir = Path("..", qmd_fname)
-    
+
     quarto_chapters.append(qmd_fname)
 
     bib_name = year + ".bib"
     with open(bib_name, "w", encoding="utf-8") as bibfile:
         for entry in data:
             bibfile.write(entry + "\n\n")
-    
+
     _fname = "_" + year + ".qmd"
-    with open (_fname, "w", encoding="utf-8") as qmdfile:
+    with open(_fname, "w", encoding="utf-8") as qmdfile:
         text = qmd_template.replace("YEAR_GOES_HERE", year)
         text = text.replace("YEAR GOES HERE", year.replace("_", " "))
         qmdfile.write(text)
 
     #  convert to html
     cmd = ["quarto", "render", _fname, "--to", "html"]
-    print (cmd)
+    print(cmd)
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
-        print ("system call failed: " + str(result.returncode))
-        print (result.stdout)
-        print (result.stderr)
-    
+        print("system call failed: " + str(result.returncode))
+        print(result.stdout)
+        print(result.stderr)
+
     #  now back to qmd
     htm_fname = "_" + year + ".html"
     cmd = ["pandoc", "-f", "html", "-t", "markdown", "-o", qmd_fname, htm_fname]
-    print (cmd)
+    print(cmd)
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
-        print ("system call failed: " + str(result.returncode))
-        print (result.stdout)
-        print (result.stderr)
-    
+        print("system call failed: " + str(result.returncode))
+        print(result.stdout)
+        print(result.stderr)
+
     lines = []
-    with open (qmd_fname, "r", encoding="utf-8") as f:
+    with open(qmd_fname, "r", encoding="utf-8") as f:
         for line in f:
             line = line.replace(r" {#section .title}", "")
             if not line.startswith(":::"):
                 lines.append(line)
 
-    with open (qmd_fname, "w", encoding="utf-8") as f:
+    with open(qmd_fname, "w", encoding="utf-8") as f:
         for line in lines:
             f.write(f"{line}")
 
-    copyfile (qmd_fname, qmd_fname_updir)
+    copyfile(qmd_fname, qmd_fname_updir)
+
 
 #  a dodgy sorting approach so the chapters are in the right order
-def qmd_ch_processor (x):
+def qmd_ch_processor(x):
     if x.startswith("index"):
-        return '0'
+        return "0"
     elif x.startswith("in_press"):
-        return '1'
+        return "1"
     elif x.startswith("preprint"):
-        return '2'
-    elif re.match (r'\d{4}', x):
+        return "2"
+    elif re.match(r"\d{4}", x):
         return str(3000 - int(x[0:4]))
     else:
         return x
 
+
 quarto_config_f = Path("..", "_quarto.yml")
-with open (quarto_config_f, "r", encoding="utf-8") as f:
+with open(quarto_config_f, "r", encoding="utf-8") as f:
     quarto_config = yaml.safe_load(f)
 
 decorated = [(qmd_ch_processor(i), i) for i in quarto_chapters]
 decorated.sort()
 quarto_chapters = [v for k, v in decorated]
-print (quarto_chapters)
+print(quarto_chapters)
 
-quarto_config['book']['date'] = str(date.today())
+quarto_config["book"]["date"] = str(date.today())
 
-quarto_config['book']['chapters'] = quarto_chapters
-with open (quarto_config_f, "w", encoding="utf-8") as f:
+quarto_config["book"]["chapters"] = quarto_chapters
+with open(quarto_config_f, "w", encoding="utf-8") as f:
     f.write(yaml.dump(quarto_config))
