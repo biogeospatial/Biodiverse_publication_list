@@ -199,7 +199,7 @@ quarto_chapters = ['index.qmd']
 #  work in a new dir so the config file has less impact
 wd = "bib_by_year"
 if not Path(wd).exists():
-    Path.mkdir(wd)
+    Path(wd).mkdir()
 os.chdir(wd) 
 csl_fname = "global-ecology-and-biogeography.csl"
 if not Path(csl_fname).exists():
