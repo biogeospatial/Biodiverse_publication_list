@@ -2,7 +2,7 @@ book:
   author: Shawn W Laffan
   chapters:
   - index.qmd
-  - preprint.qmd
+  - all_publications.qmd
   - 2026.qmd
   - 2025.qmd
   - 2024.qmd
@@ -19,7 +19,8 @@ book:
   - 2013.qmd
   - 2012.qmd
   - 2011_and_earlier.qmd
-  date: '2026-04-17'
+  - preprint.qmd
+  date: '2026-05-04'
   downloads:
   - pdf
   output-file: Biodiverse-publications

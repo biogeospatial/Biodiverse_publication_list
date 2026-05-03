@@ -63,7 +63,7 @@ nocite: |
 :::
 """
 
-quarto_chapters = ["index.qmd"]
+quarto_chapters = ["index.qmd", "all_publications.qmd"]
 
 wd = "bib_by_year"
 if not Path(wd).exists():
@@ -72,6 +72,52 @@ os.chdir(wd)
 csl_fname = "global-ecology-and-biogeography.csl"
 if not Path(csl_fname).exists():
     copyfile(Path("..", csl_fname), csl_fname)
+
+# Render all publications as a baked chapter using the same approach as year chapters.
+# Copy the main bib here so the standalone qmd can reference it without a book context.
+copyfile(Path("..", OUTPUT_BIB), OUTPUT_BIB)
+all_pubs_template = f"""---
+title: "All Publications"
+bibliography: {OUTPUT_BIB}
+csl: {csl_fname}
+nocite: |
+  @*
+---
+
+::: {{#refs}}
+:::
+"""
+with open("_all_publications.qmd", "w", encoding="utf-8") as f:
+    f.write(all_pubs_template)
+
+Path("..", "all_publications.qmd").touch()
+
+cmd = ["quarto", "render", "_all_publications.qmd", "--to", "html"]
+result = subprocess.run(cmd, capture_output=True, text=True)
+if result.returncode != 0:
+    print("system call failed: " + str(result.returncode))
+    print(result.stdout)
+    print(result.stderr)
+
+cmd = ["pandoc", "-f", "html", "-t", "markdown", "-o", "all_publications.qmd", "_all_publications.html"]
+result = subprocess.run(cmd, capture_output=True, text=True)
+if result.returncode != 0:
+    print("system call failed: " + str(result.returncode))
+    print(result.stdout)
+    print(result.stderr)
+
+lines = []
+with open("all_publications.qmd", "r", encoding="utf-8") as f:
+    for line in f:
+        line = line.replace(r" {#section .title}", "")
+        if not line.startswith(":::"):
+            lines.append(line)
+
+with open("all_publications.qmd", "w", encoding="utf-8") as f:
+    for line in lines:
+        f.write(line)
+
+copyfile("all_publications.qmd", Path("..", "all_publications.qmd"))
 
 for year in bib_by_year:
     Path("..", year + ".qmd").touch()
@@ -130,12 +176,14 @@ for year, data in bib_by_year.items():
 def qmd_ch_processor(x):
     if x.startswith("index"):
         return "0"
-    elif x.startswith("in_press"):
+    elif x.startswith("all_publications"):
         return "1"
-    elif x.startswith("preprint"):
+    elif x.startswith("in_press"):
         return "2"
+    elif x.startswith("preprint"):
+        return "3"
     elif re.match(r"\d{4}", x):
-        return str(3000 - int(x[0:4]))
+        return str(4000 - int(x[0:4]))
     else:
         return x
 
@@ -146,7 +194,7 @@ with open(quarto_config_f, "r", encoding="utf-8") as f:
 
 decorated = [(qmd_ch_processor(i), i) for i in quarto_chapters]
 decorated.sort()
-quarto_chapters = [v for k, v in decorated]
+quarto_chapters = [v for _, v in decorated]
 print(quarto_chapters)
 
 quarto_config["book"]["date"] = str(date.today())
