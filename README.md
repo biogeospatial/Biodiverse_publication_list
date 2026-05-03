@@ -10,11 +10,11 @@ Biodiverse publication Workflow (Visualisation of CICD, also can be replicated l
 
 ![Biodiverse publication workflow](process-flowchart.png)
 
-The csv file `publication-list.csv` is the source of where the DOIs come from. If this is changed, a script `generate_publication_bib_list.py` is automatically run to produce a `publication-list-biodiverse.bib` file. This script is derived from the `publist-wrangle.ipynb` notebook file. The notebook uses the `bibtexparser` library to parse the `publication-list.csv` to create the .bib file.
+The pipeline runs three steps:
 
-After this, quarto is run to produce a html file. Github expects a folder to publish from (`site/` in this case). This is why in the yml file, it creates a `site/` folder and moves the html to that folder.
-
-The last script run is a additional file "add_pub_headers.py" which creates the headers that appear in the final HTML output file.
+1. `fetch_bib.py` reads `publication-list.csv`, fetches BibTeX data for each DOI from CrossRef, and writes `publication-list-biodiverse.bib`.
+2. `build_qmd.py` splits the bib into per-year chapters, renders them, and updates `_quarto.yml`.
+3. Quarto renders the full book to `docs/`, after which `add_pub_headers.py` injects year-group headers into the HTML.
 
 # Important information
 
@@ -56,47 +56,23 @@ The `render-publications.yml` workflow has included: `workflow_dispatch: {}`. Th
 
 #### 2. Running Locally
 
-Running it locally should always work. Make sure you have the following prerequisites files:
+Running it locally should always work. Install dependencies:
 
 ```
-- "publication-list.csv"
-- "generate_publication_bib_list.py"
-- "publication-list.qmd"
-- "global-ecology-and-biogeography.csl"
-- "add_pub_headers.py"
+sudo apt install python3-pip pandoc
+pip install mistune pandas bibtexparser requests PyYAML
 ```
 
-Make sure correct dependencies are installed:
+Then run the three steps in order:
 
 ```
-Sudo apt install python3-pip
-
-pip install mistune pandas bibtexparser requests
+python3 fetch_bib.py
+python3 build_qmd.py
+quarto render
+python3 add_pub_headers.py docs/all_publications.html
 ```
 
-Then run:
-
-```
-python3 generate_publication_bib_list.py
-```
-
-to generate the `publication-list-biodiverse.bib` bib file.
-
-Then:
-
-```
-quarto render publication-list.qmd --to html
-```
-
-to create the `publication-list.html` html file. You should then be able to view this file as intended.
-
-Finally run:
-
-```
-python add_pub_headers.py site/publication-list.html
-```
-
-This adds headers to the final HTML file.
+The rendered book will be in `docs/`.
 
 ## Dependencies
 
