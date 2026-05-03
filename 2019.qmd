@@ -1,0 +1,100 @@
+
+
+Allen, J.M., Germain-Aubrey, C.C., Barve, N., Neubig, K.M., Majure,
+L.C., Laffan, S.W., Mishler, B.D., Owens, H.L., Smith, S.A., Whitten,
+W.M., Abbott, J.R., Soltis, D.E., Guralnick, R. & Soltis, P.S. (2019)
+[Spatial phylogenetics of florida vascular plants: The effects of
+calibration and uncertainty on diversity
+estimates](https://doi.org/10.1016/j.isci.2018.12.002). *iScience*,
+**11**, 57--70.
+
+Azevedo, J.A.R., Guedes, T.B., Nogueira, C. de C., Passos, P., Sawaya,
+R.J., Prudente, A.L.C., Barbo, F.E., Strüssmann, C., Franco, F.L.,
+Arzamendia, V., Giraudo, A.R., Argôlo, A.J.S., Jansen, M., Zaher, H.,
+Tonini, J.F.R., Faurby, S. & Antonelli, A. (2019) [Museums and cradles
+of diversity are geographically coincident for narrowly distributed
+neotropical snakes](https://doi.org/10.1111/ecog.04815). *Ecography*,
+**43**, 328--339.
+
+Dagallier, L.M.J., Janssens, S.B., Dauby, G., Blach‐Overgaard, A.,
+Mackinder, B.A., Droissart, V., Svenning, J., Sosef, M.S.M., Stévart,
+T., Harris, D.J., Sonké, B., Wieringa, J.J., Hardy, O.J. & Couvreur,
+T.L.P. (2019) [Cradles and museums of generic plant diversity across
+tropical africa](https://doi.org/10.1111/nph.16293). *New Phytologist*,
+**225**, 2196--2213.
+
+Daru, B.H., Roux, P.C. le, Gopalraj, J., Park, D.S., Holt, B.G. & Greve,
+M. (2019) [Spatial overlaps between the global protected areas network
+and terrestrial hotspots of evolutionary
+diversity](https://doi.org/10.1111/geb.12888). *Global Ecology and
+Biogeography*, **28**, 757--766.
+
+Fuentes‐Castillo, T., Scherson, R.A., Marquet, P.A., Fajardo, J.,
+Corcoran, D., Román, M.J. & Pliscoff, P. (2019) [Modelling the current
+and future biodiversity distribution in the chilean mediterranean
+hotspot. The role of protected areas network in a warmer
+future](https://doi.org/10.1111/ddi.12988). *Diversity and
+Distributions*, **25**, 1897--1909.
+
+Gallien, L., Thornhill, A.H., Zurell, D., Miller, J.T. & Richardson,
+D.M. (2019) [Global predictors of alien plant establishment success:
+Combining niche and trait
+proxies](https://doi.org/10.1098/rspb.2018.2477). *Proceedings of the
+Royal Society B: Biological Sciences*, **286**, 20182477.
+
+Greenlon, A., Chang, P.L., Damtew, Z.M., Muleta, A.,
+Carrasquilla-Garcia, N., Kim, D., Nguyen, H.P., Suryawanshi, V., Krieg,
+C.P., Yadav, S.K., Patel, J.S., Mukherjee, A., Udupa, S., Benjelloun,
+I., Thami-Alami, I., Yasin, M., Patil, B., Singh, S., Sarma, B.K.,
+Wettberg, E.J.B. von, Kahraman, A., Bukun, B., Assefa, F., Tesfaye, K.,
+Fikre, A. & Cook, D.R. (2019) [Global-level population genomics reveals
+differential effects of geography and phylogeny on horizontal gene
+transfer in soil bacteria](https://doi.org/10.1073/pnas.1900056116).
+*Proceedings of the National Academy of Sciences*, **116**,
+15200--15209.
+
+Lam-Gordillo, O. & Ardisson, P.-L. (2019) [The global distribution and
+richness of frog crabs
+(raninoidea)](https://doi.org/10.1163/15685403-00003832). *Crustaceana*,
+**92**, 1--31.
+
+López‐Aguirre, C., Hand, S.J., Laffan, S.W. & Archer, M. (2019)
+[Zoogeographical regions and geospatial patterns of phylogenetic
+diversity and endemism of new world
+bats](https://doi.org/10.1111/ecog.04194). *Ecography*, **42**,
+1188--1199.
+
+McDonald‐Spicer, C., Knerr, N.J., Encinas‐Viso, F. & Schmidt‐Lebuhn,
+A.N. (2019) [Big data for a large clade: Bioregionalization and
+ancestral range estimation in the daisy family
+(asteraceae)](https://doi.org/10.1111/jbi.13496). *Journal of
+Biogeography*, **46**, 255--267.
+
+Mienna, I.M., Speed, J.D.M., Bendiksby, M., Thornhill, A.H., Mishler,
+B.D. & Martin, M.D. (2019) [Differential patterns of floristic
+phylogenetic diversity across a post‐glacial
+landscape](https://doi.org/10.1111/jbi.13789). *Journal of
+Biogeography*, **47**, 915--926.
+
+Ruiz-Sanchez, E., Munguía-Lino, G., Vargas-Amado, G. & Rodríguez, A.
+(2019) [Diversity, endemism and conservation status of native mexican
+woody bamboos (poaceae: Bambusoideae:
+bambuseae)](https://doi.org/10.1093/botlinnean/boz062). *Botanical
+Journal of the Linnean Society*.
+
+Shelley, J.J., Dempster, T., Le Feuvre, M.C., Unmack, P.J., Laffan, S.W.
+& Swearer, S.E. (2019) [A revision of the bioregionalisation of
+freshwater fish communities in the australian monsoonal
+tropics](https://doi.org/10.1002/ece3.5059). *Ecology and Evolution*,
+**9**, 4568--4588.
+
+Sundaram, M., Donoghue, M.J., Farjon, A., Filer, D., Mathews, S., Jetz,
+W. & Leslie, A.B. (2019) [Accumulation over evolutionary time as a major
+cause of biodiversity hotspots in
+conifers](https://doi.org/10.1098/rspb.2019.1887). *Proceedings of the
+Royal Society B: Biological Sciences*, **286**, 20191887.
+
+Xuerui, D., Hong, Z. & Minggang, Z. (2019) [Explaining the diversity and
+endemic patterns based on phylogenetic approach for woody plants of the
+loess plateau](https://doi.org/10.17520/biods.2019224). *Biodiversity
+Science*, **27**, 1269--1278.

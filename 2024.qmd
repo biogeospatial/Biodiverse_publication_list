@@ -1,0 +1,183 @@
+
+
+Aagesen, L., Salariato, D.L., Scataglini, M.A., Acosta, J.M., Denham,
+S.S. & Delfini, C. (2024) [Spatial phylogenetics of grasses in the
+southern cone provides insights into ecology and evolution of the family
+in south america](https://doi.org/10.1111/jse.13067). *Journal of
+Systematics and Evolution*, **62**, 1177--1192.
+
+Ali, M., Huang, Z., Bai, Y., Tng, D.Y.P., Qin, F. & Fang, Z. (2024) [A
+multifaceted approach to expanding conservation efforts in the
+pan-himalayan landscape](https://doi.org/10.1016/j.jclepro.2024.143783).
+*Journal of Cleaner Production*, **476**, 143783.
+
+Aragón-Parada, J., Munguía-Lino, G., De-Nova, J.A., Carrillo-Reyes, P.,
+Rodríguez, A. & Salinas-Rodríguez, M.M. (2024) [Priority areas for
+conservation of the vascular flora in the sierra madre del sur,
+mexico](https://doi.org/10.1590/1676-0611-bn-2024-1648). *Biota
+Neotropica*, **24**.
+
+Estrada-Sánchez, I., Espejo-Serna, A., García-Cruz, J. & López-Ferrari,
+A.R. (2024) [Richness, distribution, and endemism of neotropical
+subtribe ponerinae (orchidaceae,
+epidendreae)](https://doi.org/10.1007/s40415-024-01005-y). *Brazilian
+Journal of Botany*, **47**, 501--517.
+
+Flanagan, T., Shea, G.M., Roll, U., Tingley, R., Meiri, S. & Chapple,
+D.G. (2024) [New data and taxonomic changes influence our understanding
+of biogeographic patterns: A case study in australian
+skinks](https://doi.org/10.1111/jzo.13173). *Journal of Zoology*,
+**323**, 317--330.
+
+Flores‐Tolentino, M., Villaseñor, J.L., Ibarra‐Manríquez, G., Rodríguez,
+R.R., Morales‐Linares, J. & Dorado, Ó. (2024) [The use of ecological
+niche models improves biogeographic regionalization of the balsas
+depression, mexico](https://doi.org/10.1111/jvs.13261). *Journal of
+Vegetation Science*, **35**.
+
+Folk, R.A., Maassoumi, A.A., Siniscalchi, C.M., Kates, H.R., Soltis,
+D.E., Soltis, P.S., Belitz, M.B. & Guralnick, R.P. (2024) [Phylogenetic
+diversity and regionalization in the temperate arid
+zone](https://doi.org/10.1111/jse.13077). *Journal of Systematics and
+Evolution*, **62**, 1201--1217.
+
+Folk, R.A., Siniscalchi, C.M., Doby, J., Kates, H.R., Manchester, S.R.,
+Soltis, P.S., Soltis, D.E., Guralnick, R.P. & Belitz, M. (2024) [Spatial
+phylogenetics of fagales: Investigating drivers of temperate forest
+distributions](https://doi.org/10.1111/jbi.14840). *Journal of
+Biogeography*, **51**, 1518--1532.
+
+Gómez‐Martínez, R.F., Matamoros, W.A., Hoagstrom, C.W., López‐Vila, J.M.
+& Bonilla, E.P.D. de (2024) [Phylogenetic diversity of live‐bearing
+fishes (poeciliidae) peaks on peninsulas, isthmuses, and in
+deserts](https://doi.org/10.1111/jbi.15066). *Journal of Biogeography*,
+**52**, 641--656.
+
+Gómez‐Martínez, R.F., Matamoros, W.A., Hoagstrom, C.W., López‐Vila, J.M.
+& Bonilla, E.P.D. de (2024) [Phylogenetic diversity of live‐bearing
+fishes (poeciliidae) peaks on peninsulas, isthmuses, and in
+deserts](https://doi.org/10.1111/jbi.15066). *Journal of Biogeography*,
+**52**, 641--656.
+
+Hazzi, N. & Hormiga, G. (2024) [Systematics, distribution patterns and
+historical biogeography of the central america wandering spider genus
+kiekie polotow &amp; brescovit, 2018 (araneae:
+ctenidae)](https://doi.org/10.7717/peerj.17242). *PeerJ*, **12**, 17242.
+
+[Insect decline and conservation in the
+neotropics](https://doi.org/10.1007/978-3-031-49255-6) (2024) Springer
+International Publishing.
+
+Kherlenchimeg, N., Burenbaatar, G., Baasanmunkh, S., Tsegmed, Z.,
+Urgamal, M., Bau, T., Han, S.-K., Oh, S.-Y. & Choi, H.J. (2024)
+[Improved understanding of the macrofungal diversity of mongolia:
+Species richness, conservation status, and an annotated
+checklist](https://doi.org/10.1080/12298093.2023.2297485).
+*Mycobiology*, **52**, 13--29.
+
+Li, Y., Liu, F., Zhou, Y., Liu, X. & Wang, Q. (2024) [Large-scale
+geographic patterns and environmental and anthropogenic drivers of
+wetland plant diversity in the qinghai-tibet
+plateau](https://doi.org/10.1186/s12862-024-02263-w). *BMC Ecology and
+Evolution*, **24**.
+
+LÓPEZ-PÉREZ, J.D., ZAMUDIO, S., MUNGUÍA-LINO, G. & RODRÍGUEZ, A. (2024)
+[Species richness, geographic distribution and endemism of pinguicula
+(lentibulariaceae) in the mexican transition
+zone](https://doi.org/10.11646/phytotaxa.641.1.3). *Phytotaxa*, **641**,
+31--46.
+
+Machado, V.R., Pereira, M.J.R., Tirelli, F.P., Bennet, D. & Ferrari, A.
+(2024) [Endemism and regionalization of neotropical mammals: A
+multi-taxon analysis](https://doi.org/10.1093/jmammal/gyae055). *Journal
+of Mammalogy*, **105**, 792--808.
+
+Mikryukov, V., Abarenkov, K., Laffan, S., Robertson, T., McTavish, E.J.,
+Jeppesen, T.S., Waller, J., Blissett, M., Kõljalg, U. & Miller, J.T.
+(2024) [PhyloNext: A pipeline for phylogenetic diversity analysis of
+GBIF-mediated data](https://doi.org/10.1186/s12862-024-02256-9). *BMC
+Ecology and Evolution*, **24**.
+
+Omollo, W.O., Rabarijaona, R.N., Ranaivoson, R.M., Rakotoarinivo, M.,
+Barrett, R.L., Zhang, Q., Lai, Y.-J., Ye, J.-F., Le, C.T., Antonelli,
+A., Chen, Z.-D., Liu, B. & Lu, L.-M. (2024) [Spatial heterogeneity of
+neo- and paleo-endemism for plants in
+madagascar](https://doi.org/10.1016/j.cub.2024.02.023). *Current
+Biology*, **34**, 1271-1283-4.
+
+Pérez-Aragón, M., Escribano, R., Rivera, R. & Hidalgo, P. (2024)
+[Biodiversity patterns of epipelagic copepods in the south pacific
+ocean: Strengths and limitations of current data
+bases](https://doi.org/10.1371/journal.pone.0306440). *PLOS ONE*,
+**19**, 0306440.
+
+Pío-León, J.F., Munguía-Lino, G., González-Gallegos, J.G. &
+González-Elizondo, M. (2024) [Priority areas for conservation based on
+endemic vascular plant species and their biocultural attributes: A case
+study in sinaloa,
+mexico](https://doi.org/10.22201/ib.20078706e.2024.95.5446). *Revista
+Mexicana de Biodiversidad*, **95**, 955446.
+
+Qian, H., Mishler, B.D., Zhang, J. & Qian, S. (2024) [Global patterns
+and ecological drivers of taxonomic and phylogenetic endemism in
+angiosperm genera](https://doi.org/10.1016/j.pld.2023.11.004). *Plant
+Diversity*, **46**, 149--157.
+
+Radbouchoom, S., Angeles, M.D. delos, Phutthai, T. & Schneider, H.
+(2024) [Towards zero extinction---a case study focusing on the plant
+genus begonia in thailand](https://doi.org/10.1002/inc3.67).
+*Integrative Conservation*.
+
+Revollo-Cadima, S.G. & Salazar-Bravo, J. (2024) [Identifying areas of
+conservation importance based on spatial patterns of evolutionary
+diversity for non-volant small mammals in the andean
+puna](https://doi.org/10.1016/j.jaridenv.2024.105230). *Journal of Arid
+Environments*, **224**, 105230.
+
+Rodríguez, A., López-Pérez, J.D. & Munguía-Lino, G. (2024) [A new
+species of tigridia and species richness and endemism distribution of
+the tribe tigridieae (iridaceae) in the sierra madre del sur,
+mexico](https://doi.org/10.1600/036364424x17151801116394). *Systematic
+Botany*, **49**, 295--317.
+
+Ruiz-Flores, S.I. & Castro-Castro, A. (2024) [Distribución, riqueza,
+endemismo y conservación del género dasylirion (asparagaceae,
+convallarioideae)](https://doi.org/10.21829/abm131.2024.2367). *Acta
+Botanica Mexicana*.
+
+Sánchez-Romero, A. & Aragón-Parada, J. (2024) [Riqueza de especies,
+endemismo y evaluación del riesgo de extinción del género
+&lt;em&gt;bursera&lt;/em&gt; (burseraceae) en la península de baja
+california](https://doi.org/10.17129/botsci.3467). *Botanical Sciences*,
+**102**, 796--811.
+
+Sandoval-Mata, T.N., Hernández-Sandoval, L., Munguía-Lino, G.,
+Steinmann, V.W. & Delgado-Salinas, A. (2024) [Regionalización de la
+provincia del desierto chihuahuense con base en la distribución de
+especies de &lt;em&gt;dalea&lt;/em&gt;
+(fabaceae)](https://doi.org/10.17129/botsci.3462). *Botanical Sciences*,
+**102**, 975--994.
+
+Saqib, S., Liu, Y., Ye, J., Omollo, W.O., Lu, L., Hu, H., Zhang, Q.,
+Liu, B., Ahmad, M., Shinwari, Z.K. & Chen, Z. (2024) [Identifying
+conservation priority areas using spatial phylogenetic approaches in
+west himalaya](https://doi.org/10.30848/pjb2024-3(42)). *Pakistan
+Journal of Botany*, **56**.
+
+Urgamal, M., Baasanmunkh, S., Tsegmed, Z., Oyuntsetseg, B.,
+Javzandolgor, C., Yu, S.-X., Yoon, J.-W., Cygan, M.G.W. & Choi, H.J.
+(2024) [Spatial pattern analysis and conservation assessment of apiaceae
+in mongolia](https://doi.org/10.3390/plants13182635). *Plants*, **13**,
+2635.
+
+Volis, S., Depalle, F., Khassanov, F., Yusupov, Z. & Deng, T. (2024)
+[\_Oncocyclus\_ irises: Phylogeny, evolutionary history and revised
+taxonomy based on complete chloroplast genome
+sequences](https://botany.uz/uz/2024/11/20/oncocyclus-irises-phylogeny-evolutionary-history-and-revised-taxonomy-based-on-complete-chloroplast-genome-sequences/).
+*Plant Diversity of Central Asia*, **3**, 1--66.
+
+Yao, R., Gao, J., Heinrich, M., Yu, S., Xue, T., Zhang, B., Wei, X., Qi,
+Y. & Gao, W. (2024) [Medicinal plants used by minority ethnic groups in
+china: Taxonomic diversity and conservation
+needs](https://doi.org/10.1016/j.jep.2024.118573). *Journal of
+Ethnopharmacology*, **334**, 118573.

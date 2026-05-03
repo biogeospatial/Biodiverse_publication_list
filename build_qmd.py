@@ -90,7 +90,10 @@ nocite: |
 with open("_all_publications.qmd", "w", encoding="utf-8") as f:
     f.write(all_pubs_template)
 
+# Touch all chapter placeholders before any quarto render so _quarto.yml validation passes
 Path("..", "all_publications.qmd").touch()
+for year in bib_by_year:
+    Path("..", year + ".qmd").touch()
 
 cmd = ["quarto", "render", "_all_publications.qmd", "--to", "html"]
 result = subprocess.run(cmd, capture_output=True, text=True)
@@ -118,9 +121,6 @@ with open("all_publications.qmd", "w", encoding="utf-8") as f:
         f.write(line)
 
 copyfile("all_publications.qmd", Path("..", "all_publications.qmd"))
-
-for year in bib_by_year:
-    Path("..", year + ".qmd").touch()
 
 for year, data in bib_by_year.items():
     if len(data) == 0:
