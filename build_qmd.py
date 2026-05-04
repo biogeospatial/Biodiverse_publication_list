@@ -188,7 +188,7 @@ def qmd_ch_processor(x):
         return x
 
 
-quarto_config_f = Path("..", "_quarto.yml")
+quarto_config_f = Path("..", "_quarto_yml.txt")
 with open(quarto_config_f, "r", encoding="utf-8") as f:
     quarto_config = yaml.safe_load(f)
 
@@ -199,5 +199,6 @@ print(quarto_chapters)
 
 quarto_config["book"]["date"] = str(date.today())
 quarto_config["book"]["chapters"] = quarto_chapters
+quarto_config_f = Path("..", "_quarto.yml")
 with open(quarto_config_f, "w", encoding="utf-8") as f:
     f.write(yaml.dump(quarto_config))
