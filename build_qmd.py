@@ -35,6 +35,11 @@ bib_by_year = {}
 for entry in bib_database.entries:
     entry_doi = entry.get("doi", "")
     note_value = csv_key_to_note.get(entry_doi) or csv_key_to_note.get(entry["ID"], "")
+    
+    #  maintain case
+    title = entry.get("title").strip()
+    if title[0] != "{" and title[-1] != "}":
+        entry["title"] = "{" + title + "}"
 
     year_val = entry.get("year", "").strip()
     if note_value == "":

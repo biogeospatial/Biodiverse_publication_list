@@ -20,6 +20,8 @@ if "doi" not in df.columns:
     print("The CSV file must have a 'doi' column.")
     exit(1)
 
+df = df[~df['doi'].str.startswith('#')]
+
 with open("bib_no_doi.bib") as bibtex_file:
     bib_database = bibtexparser.load(bibtex_file)
 bib_dict = bib_database.entries_dict
