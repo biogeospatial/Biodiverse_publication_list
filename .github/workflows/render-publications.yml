@@ -6,11 +6,15 @@ on:
       - main
     paths:
       - "publication-list.csv"
-      - "generate_publication_bib_list.py"
+      - "fetch_bib.py"
+      - "build_qmd.py"
       - "publication-list.qmd"
       - "global-ecology-and-biogeography.csl"
       - ".github/workflows/render-publications.yml"
   workflow_dispatch: {}
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
@@ -45,28 +49,26 @@ jobs:
         run: |
           sudo apt install pandoc
 
-      - name: Generate .bib file
+      - name: Fetch and generate .bib file
         run: |
-          python generate_publication_bib_list.py
+          python fetch_bib.py
 
-      - name: Render publication list and add publication headers
+      - name: Build per-year qmd chapters and update _quarto.yml
         run: |
-          echo "step skipped for now"
-          #quarto render publication-list.qmd --to html --output-dir site
-          #python add_pub_headers.py site/publication-list.html
-          #mv site/publication-list.html site/index.html
+          python build_qmd.py
 
-      # - name: Deploy to GitHub Pages
-        # uses: peaceiris/actions-gh-pages@v3
-        # with:
-          # github_token: ${{ secrets.GITHUB_TOKEN }}
-          # publish_branch: gh-pages
-          # publish_dir: site
-          # commit_message: "publish: updated publication list"
+      - name: Render book
+        run: |
+          quarto render
 
-      - name: Publish to GitHub Pages (and render)
+      - name: Add publication headers
+        run: |
+          python3 add_pub_headers.py docs/all_publications.html
+
+      - name: Publish to GitHub Pages
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          render: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # this secret is always available for github actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

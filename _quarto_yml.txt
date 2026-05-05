@@ -1,8 +1,12 @@
+#  This is the base file from which the actual _quarto.yml is generated.
+
+#  The build process populates the chapters based on the references encountered.
+#  It also sets the date.
+
 book:
   author: Shawn W Laffan
   chapters:
   - index.qmd
-  date: '2026-05-05'
   downloads:
   - pdf
   output-file: Biodiverse-publications
